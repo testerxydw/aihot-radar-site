@@ -16,11 +16,11 @@
   "windowDays": 1,
   "winStart": "2026-09-15",
   "winEnd": "2026-09-16",
-  "generated": "2026-09-16 11:28",
-  "rawHits": 38,
+  "generated": "2026-09-16 11:31",
+  "rawHits": 37,
   "selectedHits": 0,
-  "shown": 21,
-  "dedupedFrom": 25,
+  "shown": 20,
+  "dedupedFrom": 24,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -75,7 +75,7 @@
     "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
-    "count": 14,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    }
@@ -321,7 +321,7 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 8,
+   "count": 7,
    "items": [
     {
      "n": 14,
@@ -427,20 +427,6 @@
      "aihot": "https://aihot.news/items/cmu2yhud203qdroc1jromodqs",
      "selected": false,
      "score": 52,
-     "category": "tip"
-    },
-    {
-     "n": 21,
-     "title": "特朗普峰会现场致电黄仁勋，称 AI 危险论是骗局",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-15T11:24:07.244000+08:00",
-     "publishedAt": "2026-09-15T02:36:47.000Z",
-     "discoveredAt": "2026-09-15T03:24:07.244Z",
-     "summary": "美国总统特朗普当地时间周一行行业峰会上免提致电英伟达 CEO 黄仁勋，称对 AI 安全的担忧是\"骗局\"，机器人不会接管世界，并称赞数据中心是未来 20、25 年的石油。另据彭博社报道，白宫科技顾问委员会联合主席萨克斯同日表示，Anthropic 和 OpenAI 应制造安全产品并按自己进度推进，无需政府干预，但警告若…",
-     "url": "https://www.ithome.com/1/002/454.htm",
-     "aihot": "https://aihot.news/items/cmu23y8xy08g5row2i185q69b",
-     "selected": false,
-     "score": 63,
      "category": "tip"
     }
    ],

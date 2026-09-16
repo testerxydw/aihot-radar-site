@@ -1,29 +1,29 @@
 {
- "generatedAt": "2026-09-16T11:29:05.550889+08:00",
+ "generatedAt": "2026-09-16T11:32:17.457614+08:00",
  "reports": [
   {
    "slug": "nvidia",
    "company": "英伟达 NVIDIA",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 38,
+   "rawHits": 37,
    "tiers": {
-    "T1": 25,
+    "T1": 24,
     "T2": 5,
     "T3": 8
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 21,
+   "shown": 20,
    "selectedHits": 0,
-   "dedupedFrom": 25,
+   "dedupedFrom": 24,
    "categoryDist": {
     "模型发布 / 更新": 3,
     "产品发布 / 更新": 8,
     "行业动态": 2,
     "论文研究": 0,
-    "技巧与观点": 8
+    "技巧与观点": 7
    },
    "requests": {
     "requests": 6,
@@ -31,8 +31,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20260916-1128.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20260916-1128.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20260916-1131.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20260916-1131.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-latest.html"
    },
    "page": {
@@ -44,10 +44,10 @@
      "英伟达",
      "黄仁勋"
     ],
-    "shown": 21,
-    "raw": 38,
+    "shown": 20,
+    "raw": 37,
     "selected": 0,
-    "generated": "2026-09-16 11:28",
+    "generated": "2026-09-16 11:31",
     "window": "最近 1 天"
    }
   },
@@ -56,22 +56,22 @@
    "company": "OpenAI",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 47,
+   "rawHits": 48,
    "tiers": {
-    "T1": 20,
+    "T1": 21,
     "T2": 17,
     "T3": 9
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 19,
+   "shown": 20,
    "selectedHits": 4,
-   "dedupedFrom": 20,
+   "dedupedFrom": 21,
    "categoryDist": {
     "模型发布 / 更新": 7,
     "产品发布 / 更新": 4,
-    "行业动态": 6,
+    "行业动态": 7,
     "论文研究": 0,
     "技巧与观点": 2
    },
@@ -81,8 +81,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20260916-1128.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20260916-1128.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20260916-1131.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20260916-1131.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/openai-latest.html"
    },
    "page": {
@@ -94,10 +94,10 @@
      "ChatGPT",
      "奥特曼"
     ],
-    "shown": 19,
-    "raw": 46,
+    "shown": 20,
+    "raw": 47,
     "selected": 4,
-    "generated": "2026-09-16 11:28",
+    "generated": "2026-09-16 11:31",
     "window": "最近 1 天"
    }
   },
@@ -131,8 +131,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20260916-1128.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20260916-1128.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20260916-1131.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20260916-1131.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-latest.html"
    },
    "page": {
@@ -147,7 +147,7 @@
     "shown": 25,
     "raw": 59,
     "selected": 4,
-    "generated": "2026-09-16 11:28",
+    "generated": "2026-09-16 11:31",
     "window": "最近 1 天"
    }
   },
@@ -181,8 +181,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20260916-1128.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20260916-1128.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20260916-1132.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20260916-1132.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-latest.html"
    },
    "page": {
@@ -197,7 +197,7 @@
     "shown": 8,
     "raw": 38,
     "selected": 3,
-    "generated": "2026-09-16 11:28",
+    "generated": "2026-09-16 11:32",
     "window": "最近 1 天"
    }
   },
@@ -231,8 +231,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20260916-1128.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20260916-1128.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20260916-1132.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20260916-1132.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-latest.html"
    },
    "page": {
@@ -247,7 +247,7 @@
     "shown": 9,
     "raw": 16,
     "selected": 0,
-    "generated": "2026-09-16 11:28",
+    "generated": "2026-09-16 11:32",
     "window": "最近 1 天"
    }
   },
@@ -281,8 +281,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20260916-1129.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20260916-1129.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20260916-1132.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20260916-1132.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-latest.html"
    },
    "page": {
@@ -296,7 +296,7 @@
     "shown": 5,
     "raw": 17,
     "selected": 1,
-    "generated": "2026-09-16 11:29",
+    "generated": "2026-09-16 11:32",
     "window": "最近 1 天"
    }
   }
