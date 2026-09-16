@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-09-16T10:27:29.398472+08:00",
+ "generatedAt": "2026-09-16T11:29:05.550889+08:00",
  "reports": [
   {
    "slug": "nvidia",
    "company": "英伟达 NVIDIA",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 40,
+   "rawHits": 38,
    "tiers": {
     "T1": 25,
-    "T2": 7,
+    "T2": 5,
     "T3": 8
    },
    "tierFilter": [
@@ -31,9 +31,9 @@
     "errors": 0
    },
    "outputs": {
-    "html": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\nvidia-20260916-1026.html",
-    "json": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\nvidia-20260916-1026.json",
-    "latest": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\nvidia-latest.html"
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20260916-1128.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20260916-1128.json",
+    "latest": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-latest.html"
    },
    "page": {
     "slug": "nvidia",
@@ -45,9 +45,9 @@
      "黄仁勋"
     ],
     "shown": 21,
-    "raw": 40,
+    "raw": 38,
     "selected": 0,
-    "generated": "2026-09-16 10:26",
+    "generated": "2026-09-16 11:28",
     "window": "最近 1 天"
    }
   },
@@ -56,22 +56,22 @@
    "company": "OpenAI",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 49,
+   "rawHits": 47,
    "tiers": {
-    "T1": 22,
-    "T2": 16,
-    "T3": 10
+    "T1": 20,
+    "T2": 17,
+    "T3": 9
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 21,
-   "selectedHits": 5,
-   "dedupedFrom": 22,
+   "shown": 19,
+   "selectedHits": 4,
+   "dedupedFrom": 20,
    "categoryDist": {
-    "模型发布 / 更新": 8,
+    "模型发布 / 更新": 7,
     "产品发布 / 更新": 4,
-    "行业动态": 7,
+    "行业动态": 6,
     "论文研究": 0,
     "技巧与观点": 2
    },
@@ -81,9 +81,9 @@
     "errors": 0
    },
    "outputs": {
-    "html": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\openai-20260916-1027.html",
-    "json": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\openai-20260916-1027.json",
-    "latest": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\openai-latest.html"
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20260916-1128.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20260916-1128.json",
+    "latest": "/home/runner/work/aihot-radar/aihot-radar/out/openai-latest.html"
    },
    "page": {
     "slug": "openai",
@@ -94,10 +94,10 @@
      "ChatGPT",
      "奥特曼"
     ],
-    "shown": 21,
-    "raw": 48,
-    "selected": 5,
-    "generated": "2026-09-16 10:27",
+    "shown": 19,
+    "raw": 46,
+    "selected": 4,
+    "generated": "2026-09-16 11:28",
     "window": "最近 1 天"
    }
   },
@@ -106,9 +106,9 @@
    "company": "Anthropic",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 60,
+   "rawHits": 59,
    "tiers": {
-    "T1": 32,
+    "T1": 31,
     "T2": 17,
     "T3": 11
    },
@@ -117,7 +117,7 @@
    ],
    "shown": 25,
    "selectedHits": 4,
-   "dedupedFrom": 32,
+   "dedupedFrom": 31,
    "categoryDist": {
     "模型发布 / 更新": 4,
     "产品发布 / 更新": 7,
@@ -131,9 +131,9 @@
     "errors": 0
    },
    "outputs": {
-    "html": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\anthropic-20260916-1027.html",
-    "json": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\anthropic-20260916-1027.json",
-    "latest": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\anthropic-latest.html"
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20260916-1128.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20260916-1128.json",
+    "latest": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-latest.html"
    },
    "page": {
     "slug": "anthropic",
@@ -145,9 +145,9 @@
      "Dario Amodei"
     ],
     "shown": 25,
-    "raw": 60,
+    "raw": 59,
     "selected": 4,
-    "generated": "2026-09-16 10:27",
+    "generated": "2026-09-16 11:28",
     "window": "最近 1 天"
    }
   },
@@ -156,22 +156,22 @@
    "company": "Google DeepMind",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 39,
+   "rawHits": 38,
    "tiers": {
-    "T1": 25,
+    "T1": 24,
     "T2": 4,
     "T3": 10
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 9,
+   "shown": 8,
    "selectedHits": 3,
-   "dedupedFrom": 25,
+   "dedupedFrom": 24,
    "categoryDist": {
     "模型发布 / 更新": 2,
     "产品发布 / 更新": 4,
-    "行业动态": 1,
+    "行业动态": 0,
     "论文研究": 0,
     "技巧与观点": 2
    },
@@ -181,9 +181,9 @@
     "errors": 0
    },
    "outputs": {
-    "html": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\deepmind-20260916-1027.html",
-    "json": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\deepmind-20260916-1027.json",
-    "latest": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\deepmind-latest.html"
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20260916-1128.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20260916-1128.json",
+    "latest": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-latest.html"
    },
    "page": {
     "slug": "deepmind",
@@ -194,10 +194,10 @@
      "Gemini",
      "Demis Hassabis"
     ],
-    "shown": 9,
-    "raw": 39,
+    "shown": 8,
+    "raw": 38,
     "selected": 3,
-    "generated": "2026-09-16 10:27",
+    "generated": "2026-09-16 11:28",
     "window": "最近 1 天"
    }
   },
@@ -206,21 +206,21 @@
    "company": "阿里云通义",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 15,
+   "rawHits": 16,
    "tiers": {
-    "T1": 9,
+    "T1": 10,
     "T2": 1,
     "T3": 5
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 8,
+   "shown": 9,
    "selectedHits": 0,
-   "dedupedFrom": 9,
+   "dedupedFrom": 10,
    "categoryDist": {
     "模型发布 / 更新": 1,
-    "产品发布 / 更新": 3,
+    "产品发布 / 更新": 4,
     "行业动态": 1,
     "论文研究": 0,
     "技巧与观点": 3
@@ -231,9 +231,9 @@
     "errors": 0
    },
    "outputs": {
-    "html": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\alibaba-20260916-1027.html",
-    "json": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\alibaba-20260916-1027.json",
-    "latest": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\alibaba-latest.html"
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20260916-1128.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20260916-1128.json",
+    "latest": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-latest.html"
    },
    "page": {
     "slug": "alibaba",
@@ -244,10 +244,10 @@
      "Qwen",
      "阿里云"
     ],
-    "shown": 8,
-    "raw": 15,
+    "shown": 9,
+    "raw": 16,
     "selected": 0,
-    "generated": "2026-09-16 10:27",
+    "generated": "2026-09-16 11:28",
     "window": "最近 1 天"
    }
   },
@@ -258,16 +258,16 @@
    "windowDays": 1,
    "rawHits": 17,
    "tiers": {
-    "T1": 8,
+    "T1": 7,
     "T2": 3,
-    "T3": 6
+    "T3": 7
    },
    "tierFilter": [
     "T1"
    ],
    "shown": 5,
    "selectedHits": 1,
-   "dedupedFrom": 8,
+   "dedupedFrom": 7,
    "categoryDist": {
     "模型发布 / 更新": 1,
     "产品发布 / 更新": 0,
@@ -281,9 +281,9 @@
     "errors": 0
    },
    "outputs": {
-    "html": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\deepseek-20260916-1027.html",
-    "json": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\deepseek-20260916-1027.json",
-    "latest": "C:\\Users\\hexiande\\WorkBuddy\\2026-09-16-09-25-32\\aihot-radar\\out\\deepseek-latest.html"
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20260916-1129.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20260916-1129.json",
+    "latest": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-latest.html"
    },
    "page": {
     "slug": "deepseek",
@@ -296,7 +296,7 @@
     "shown": 5,
     "raw": 17,
     "selected": 1,
-    "generated": "2026-09-16 10:27",
+    "generated": "2026-09-16 11:29",
     "window": "最近 1 天"
    }
   }

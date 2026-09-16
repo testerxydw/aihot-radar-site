@@ -16,11 +16,11 @@
   "windowDays": 1,
   "winStart": "2026-09-15",
   "winEnd": "2026-09-16",
-  "generated": "2026-09-16 10:27",
-  "rawHits": 39,
+  "generated": "2026-09-16 11:28",
+  "rawHits": 38,
   "selectedHits": 3,
-  "shown": 9,
-  "dedupedFrom": 25,
+  "shown": 8,
+  "dedupedFrom": 24,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 14,
     "hasMore": false,
     "from_cache": false
    },
@@ -60,7 +60,7 @@
     "mode": "all",
     "window": "24h",
     "count": 30,
-    "hasMore": true,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -278,24 +278,9 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 7,
-     "title": "前 Google DeepMind 对齐研究员 Bilal 发文离职并警告 AI 可能危及人类",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-09-15T11:12:23.073000+08:00",
-     "publishedAt": "2026-09-15T03:06:42.000Z",
-     "discoveredAt": "2026-09-15T03:12:23.073Z",
-     "summary": "曾在 Google DeepMind 从事 AGI 安全与对齐研究的 Bilal 发文宣布离职，称 AI 有可能杀死人类，且避免这一结果的时间可能所剩不多。",
-     "url": "https://x.com/rohanpaul_ai/status/2099696381304926432",
-     "aihot": "https://aihot.news/items/cmu23j7tu07q1row2l9b4xqxe",
-     "selected": false,
-     "score": 54,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -310,7 +295,7 @@
    "count": 2,
    "items": [
     {
-     "n": 8,
+     "n": 7,
      "title": "OpenAI 称已与 Anthropic、Google DeepMind 就 AI 安全协调数周",
      "source": "TechCrunch：AI（RSS）",
      "ts": "2026-09-15T23:48:23.690000+08:00",
@@ -332,7 +317,7 @@
      ]
     },
     {
-     "n": 9,
+     "n": 8,
      "title": "谷歌 DeepMind 前员工 Bilal Chughtai 警告 AI 有能力灭绝人类",
      "source": "IT之家（RSS）",
      "ts": "2026-09-15T15:24:08.629000+08:00",

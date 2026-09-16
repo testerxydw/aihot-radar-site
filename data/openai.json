@@ -16,11 +16,11 @@
   "windowDays": 1,
   "winStart": "2026-09-15",
   "winEnd": "2026-09-16",
-  "generated": "2026-09-16 10:27",
-  "rawHits": 48,
-  "selectedHits": 5,
-  "shown": 21,
-  "dedupedFrom": 22,
+  "generated": "2026-09-16 11:28",
+  "rawHits": 46,
+  "selectedHits": 4,
+  "shown": 19,
+  "dedupedFrom": 20,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 5,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 25,
+    "count": 24,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,7 +86,7 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 8,
+   "count": 7,
    "items": [
     {
      "n": 1,
@@ -185,20 +185,6 @@
      "selected": false,
      "score": 19,
      "category": "ai-models"
-    },
-    {
-     "n": 8,
-     "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "ts": "2026-09-15T11:21:06.808000+08:00",
-     "publishedAt": "2026-09-15T03:14:09.000Z",
-     "discoveredAt": "2026-09-15T03:21:06.808Z",
-     "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；",
-     "url": "https://x.com/ArtificialAnlys/status/2099698254414029207",
-     "aihot": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc",
-     "selected": true,
-     "score": 66,
-     "category": "ai-models"
     }
    ],
    "note": null
@@ -209,7 +195,7 @@
    "count": 4,
    "items": [
     {
-     "n": 9,
+     "n": 8,
      "title": "ChatGPT 发布以来 AI 进展未放缓",
      "source": "X：Haider (@haider1)",
      "ts": "2026-09-16T10:01:31.880000+08:00",
@@ -223,7 +209,7 @@
      "category": "ai-products"
     },
     {
-     "n": 10,
+     "n": 9,
      "title": "ChatGPT Work 推出 Data agent，可将公司数据转为答案、仪表盘和行动",
      "source": "X：Greg Brockman (@gdb)",
      "ts": "2026-09-16T02:07:37.064000+08:00",
@@ -237,7 +223,7 @@
      "category": "ai-products"
     },
     {
-     "n": 11,
+     "n": 10,
      "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
      "source": "Pragmatic Engineer（RSS）",
      "ts": "2026-09-15T23:56:28.910000+08:00",
@@ -251,7 +237,7 @@
      "category": "ai-products"
     },
     {
-     "n": 12,
+     "n": 11,
      "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
      "source": "Trail of Bits：AI安全研究",
      "ts": "2026-09-15T19:42:07.572000+08:00",
@@ -270,10 +256,10 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 7,
+   "count": 6,
    "items": [
     {
-     "n": 13,
+     "n": 12,
      "title": "OpenAI 奥尔特曼回应监管之争：相信行业能安全开发 AI，不会伤害公众",
      "source": "IT之家（RSS）",
      "ts": "2026-09-16T07:24:15.138000+08:00",
@@ -287,7 +273,7 @@
      "category": "industry"
     },
     {
-     "n": 14,
+     "n": 13,
      "title": "OpenAI 奥尔特曼称 AI 行业自律可守住安全底线",
      "source": "IT之家（RSS）",
      "ts": "2026-09-16T07:24:15.138000+08:00",
@@ -301,7 +287,7 @@
      "category": "industry"
     },
     {
-     "n": 15,
+     "n": 14,
      "title": "GPT-5.5 将于 10 月 14 日从 ChatGPT 下线",
      "source": "X：OpenAI Developers (@OpenAIDevs)",
      "ts": "2026-09-16T04:16:00.264000+08:00",
@@ -323,7 +309,7 @@
      ]
     },
     {
-     "n": 16,
+     "n": 15,
      "title": "据报道 OpenAI 以超 3 亿美元收购智能手机摄像头制造商 Glass Imaging",
      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
      "ts": "2026-09-16T00:17:45.882000+08:00",
@@ -337,21 +323,7 @@
      "category": "industry"
     },
     {
-     "n": 17,
-     "title": "swyx 喊话 OpenAI 造手机",
-     "source": "X：swyx (@swyx)",
-     "ts": "2026-09-15T23:57:09.284000+08:00",
-     "publishedAt": "2026-09-15T15:49:09.000Z",
-     "discoveredAt": "2026-09-15T15:57:09.284Z",
-     "summary": "要来了！ swyx 喊话 OpenAI：干脆做一款新手机吧，大家都想要 openaiphone。我们阅读速度是说话和朗读的 2-4 倍。OpenAI 的 Alexa、Reachy 混合形态也行，但请只把它当作通往手机的一块垫脚石。我们想要手机。署名：所有人。",
-     "url": "https://x.com/swyx/status/2099888258591429075",
-     "aihot": "https://aihot.news/items/cmu2uunzm02u2rowkxbusox15",
-     "selected": false,
-     "score": 24,
-     "category": "industry"
-    },
-    {
-     "n": 18,
+     "n": 16,
      "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
      "source": "The Decoder：AI News（RSS）",
      "ts": "2026-09-15T17:19:47.577000+08:00",
@@ -365,7 +337,7 @@
      "category": "industry"
     },
     {
-     "n": 19,
+     "n": 17,
      "title": "Muse 初版带来第二次 ChatGPT 时刻",
      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
      "ts": "2026-09-15T12:43:13.907000+08:00",
@@ -394,7 +366,7 @@
    "count": 2,
    "items": [
     {
-     "n": 20,
+     "n": 18,
      "title": "OpenAI 据称在第二个千禧年难题上取得重大进展",
      "source": "X：AI Safety Memes (@AISafetyMemes)",
      "ts": "2026-09-16T09:27:09.744000+08:00",
@@ -408,7 +380,7 @@
      "category": "tip"
     },
     {
-     "n": 21,
+     "n": 19,
      "title": "TIME 报道 METR 调查 OpenAI 安全事件",
      "source": "X：Kim (@kimmonismus)",
      "ts": "2026-09-16T00:42:23.253000+08:00",
