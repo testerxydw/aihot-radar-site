@@ -1,0 +1,253 @@
+{
+ "meta": {
+  "company": "阿里云通义",
+  "short": "Qwen",
+  "accent": "#ff6a00",
+  "keywords": [
+   "通义千问",
+   "Qwen",
+   "阿里云"
+  ],
+  "highlight": [
+   "通义千问",
+   "Qwen",
+   "阿里云"
+  ],
+  "windowDays": 1,
+  "winStart": "2026-09-15",
+  "winEnd": "2026-09-16",
+  "generated": "2026-09-16 10:27",
+  "rawHits": 15,
+  "selectedHits": 0,
+  "shown": 8,
+  "dedupedFrom": 9,
+  "perQueryLimit": 30,
+  "modes": [
+   "selected",
+   "all"
+  ],
+  "tiers": "T1",
+  "by": "timeline",
+  "dedupe": true,
+  "api": "aihot.virxact.com /api/v1/items",
+  "trail": [
+   {
+    "q": "通义千问",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "通义千问",
+    "mode": "all",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Qwen",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Qwen",
+    "mode": "all",
+    "window": "24h",
+    "count": 13,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "阿里云",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "阿里云",
+    "mode": "all",
+    "window": "24h",
+    "count": 5,
+    "hasMore": false,
+    "from_cache": false
+   }
+  ],
+  "copyright": "内容版权归各原文作者所有 · 数据来源 AI HOT (https://aihot.virxact.com)"
+ },
+ "sections": [
+  {
+   "slug": "ai-models",
+   "label": "模型发布 / 更新",
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek-V4.1-Flash 上线阿里云",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-15T10:59:13.455000+08:00",
+     "publishedAt": "2026-09-15T02:58:20.000Z",
+     "discoveredAt": "2026-09-15T02:59:13.455Z",
+     "summary": "DeepSeek-V4.1-Flash 现已上线阿里云 Token Plan。专为智能体工作负载打造，具备 1M-token 上下文、快速推理和高吞吐量。每月 $6 起，了解如何优化 Credits 并三步快速上手。",
+     "url": "https://x.com/alibaba_cloud/status/2099694277227896836",
+     "aihot": "https://aihot.news/items/cmu2329x106x9row2cccngcem",
+     "selected": false,
+     "score": 42,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+       "title": "DeepSeek-V4.1-Flash 上线阿里云",
+       "url": "https://x.com/alibaba_cloud/status/2099723404136038750",
+       "aihot": "https://aihot.news/items/cmu27ckmi042sro7dbfjsebw0"
+      }
+     ]
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 3,
+   "items": [
+    {
+     "n": 2,
+     "title": "IFM 发布开源 7B Dense 模型 K2-Horizon-7B，AA Bench 得分接近 Qwen3.6-27B",
+     "source": "X：karminski (@karminski3)",
+     "ts": "2026-09-16T06:57:09.775000+08:00",
+     "publishedAt": "2026-09-15T22:37:55.000Z",
+     "discoveredAt": "2026-09-15T22:57:09.775Z",
+     "summary": "IFM 发布 7B Dense 小模型 K2-Horizon-7B，AA Bench 得 21 分，接近 Qwen3.6-27B 的 22 分，作者称其在 BrowseComp 测试中超过 GPT-5 与 DeepSeek-V4，SWE-bench Verified 和 Terminal Bench 分数也很亮眼。",
+     "url": "https://x.com/karminski3/status/2099991128061919596",
+     "aihot": "https://aihot.news/items/cmu39ut440gh2rosacj7aq2yw",
+     "selected": false,
+     "score": 65,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "QwenWork 将职场需求转为即用交付物",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-15T14:29:13.176000+08:00",
+     "publishedAt": "2026-09-15T06:15:05.000Z",
+     "discoveredAt": "2026-09-15T06:29:13.176Z",
+     "summary": "了解 QwenWork 如何将复杂的职场需求转化为无缝、即用的交付物，如电子表格、HTML 报告等。 观看视频，看看 QwenWork 如何将你的生产力提升到新水平。 🔗： https://click.alibabacloud.com/m/20000003003/",
+     "url": "https://x.com/alibaba_cloud/status/2099743790491750544",
+     "aihot": "https://aihot.news/items/cmu2akb1x0370ro25z1kg01k1",
+     "selected": false,
+     "score": 23,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "测试阿里 Qwen3.8-27B AI 模型极限：网友约 5 小时 RTX 3090 开发僵尸射击游戏",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-15T14:24:08.442000+08:00",
+     "publishedAt": "2026-09-15T06:14:32.000Z",
+     "discoveredAt": "2026-09-15T06:24:08.442Z",
+     "summary": "网友 u/EcstaticDentist 在单张超频 RTX 3090 上耗时约 5 小时，通过 2 套 Harness 方案调用 Q4KM 量化版 Qwen3.8-27B，做出可玩的第一人称僵尸射击游戏。",
+     "url": "https://www.ithome.com/1/002/540.htm",
+     "aihot": "https://aihot.news/items/cmu2ads5m02y3ro25l4v7ayj4",
+     "selected": false,
+     "score": 40,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 1,
+   "items": [
+    {
+     "n": 5,
+     "title": "阿里云 Qwen 畅想 2008 未来泡泡",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-15T14:59:13.257000+08:00",
+     "publishedAt": "2026-09-15T06:34:37.000Z",
+     "discoveredAt": "2026-09-15T06:59:13.257Z",
+     "summary": "生活在 2008 年向我们承诺的那个光鲜亮丽、满是泡泡的未来。🫧 更多 API 访问： • Qwen Cloud： https://click.qwencloud.com/m/20000003019/ • Model Studio： https://click.alibabacloud.com/m/200000030…",
+     "url": "https://x.com/alibaba_cloud/status/2099748707558162563",
+     "aihot": "https://aihot.news/items/cmu2bmydc046gro25djtniu9g",
+     "selected": false,
+     "score": 13,
+     "category": "industry"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 3,
+   "items": [
+    {
+     "n": 6,
+     "title": "阿里云东盟论坛探讨东南亚AI应用",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-16T09:59:13.065000+08:00",
+     "publishedAt": "2026-09-16T01:53:35.000Z",
+     "discoveredAt": "2026-09-16T01:59:13.065Z",
+     "summary": "东南亚的 AI 格局正在快速变化，为各行各业和市场带来新机遇。加入阿里云区域论坛：东盟站--\"从智能到行动：东南亚的 AI 应用故事\"，了解 AI 如何推动该地区的下一阶段增长。立即注册：https://click.alibabacloud.com/m/20000002869/",
+     "url": "https://x.com/alibaba_cloud/status/2100040369245130855",
+     "aihot": "https://aihot.news/items/cmu3gcxlz07barotbs2gcuu7y",
+     "selected": false,
+     "score": 11,
+     "category": "tip"
+    },
+    {
+     "n": 7,
+     "title": "Qwen 东南亚 AI 应用炉边谈",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-15T18:29:13.183000+08:00",
+     "publishedAt": "2026-09-15T10:00:20.000Z",
+     "discoveredAt": "2026-09-15T10:29:13.183Z",
+     "summary": "Qwen 正在为东南亚 AI 开辟新前沿。欢迎参加 #ApsaraConference2026 的\"The Qwen Family： Blooming Across Southeast Asia\"炉边谈，探讨 Qwen 如何为该地区的 AI 应用与创新创造新可能。",
+     "url": "https://x.com/alibaba_cloud/status/2099800476103442773",
+     "aihot": "https://aihot.news/items/cmu2j4xxw05v6rovq01urjirb",
+     "selected": false,
+     "score": 22,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "阿里云谈 Wan3.0：AI 视频创作是迭代流程而非完美提示词",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-15T13:59:13.752000+08:00",
+     "publishedAt": "2026-09-15T05:57:05.000Z",
+     "discoveredAt": "2026-09-15T05:59:13.752Z",
+     "summary": "阿里云 Johnny Mai 与 Venice AI 的 Jordan Urus 讨论 Wan3.0 如何进入真实创作流程，指出 AI 视频工作流更像原型迭代：360p → 480p → 720p → 1080p 逐步精修，而非依赖\"完美提示词\"。",
+     "url": "https://x.com/alibaba_cloud/status/2099739260912091418",
+     "aihot": "https://aihot.news/items/cmu29hqe303nkrooy4jppxfnu",
+     "selected": false,
+     "score": 29,
+     "category": "tip"
+    }
+   ],
+   "note": null
+  }
+ ],
+ "order": [
+  "ai-models",
+  "ai-products",
+  "industry",
+  "paper",
+  "tip"
+ ]
+}

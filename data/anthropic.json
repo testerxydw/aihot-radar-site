@@ -1,0 +1,531 @@
+{
+ "meta": {
+  "company": "Anthropic",
+  "short": "Anthropic",
+  "accent": "#d97757",
+  "keywords": [
+   "Anthropic",
+   "Claude",
+   "Dario Amodei"
+  ],
+  "highlight": [
+   "Anthropic",
+   "Claude",
+   "Dario Amodei"
+  ],
+  "windowDays": 1,
+  "winStart": "2026-09-15",
+  "winEnd": "2026-09-16",
+  "generated": "2026-09-16 10:27",
+  "rawHits": 60,
+  "selectedHits": 4,
+  "shown": 25,
+  "dedupedFrom": 32,
+  "perQueryLimit": 30,
+  "modes": [
+   "selected",
+   "all"
+  ],
+  "tiers": "T1",
+  "by": "timeline",
+  "dedupe": true,
+  "api": "aihot.virxact.com /api/v1/items",
+  "trail": [
+   {
+    "q": "Anthropic",
+    "mode": "selected",
+    "window": "24h",
+    "count": 3,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Anthropic",
+    "mode": "all",
+    "window": "24h",
+    "count": 30,
+    "hasMore": true,
+    "from_cache": false
+   },
+   {
+    "q": "Claude",
+    "mode": "selected",
+    "window": "24h",
+    "count": 2,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Claude",
+    "mode": "all",
+    "window": "24h",
+    "count": 30,
+    "hasMore": true,
+    "from_cache": false
+   },
+   {
+    "q": "Dario Amodei",
+    "mode": "selected",
+    "window": "24h",
+    "count": 1,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Dario Amodei",
+    "mode": "all",
+    "window": "24h",
+    "count": 15,
+    "hasMore": false,
+    "from_cache": false
+   }
+  ],
+  "copyright": "内容版权归各原文作者所有 · 数据来源 AI HOT (https://aihot.virxact.com)"
+ },
+ "sections": [
+  {
+   "slug": "ai-models",
+   "label": "模型发布 / 更新",
+   "count": 4,
+   "items": [
+    {
+     "n": 1,
+     "title": "OpenRouter 上 OpenAI 模型周消费额 2.5 年来首次超过 Anthropic",
+     "source": "X：OpenRouter (@OpenRouter)",
+     "ts": "2026-09-16T00:37:37.712000+08:00",
+     "publishedAt": "2026-09-15T16:28:52.000Z",
+     "discoveredAt": "2026-09-15T16:37:37.712Z",
+     "summary": "OpenRouter 称上周用户在 OpenAI 模型上的支出首次超过 Anthropic 模型，这是 2.5 年多来的第一次。配图显示这是自 2024 年 2 月 26 日那周以来未出现过的情况，图表为 2026 年两家模型在 OpenRouter 上的每周钱包份额对比。",
+     "url": "https://x.com/OpenRouter/status/2099898254905549220",
+     "aihot": "https://aihot.news/items/cmu2waq8q04j2rowkpzjhtjr9",
+     "selected": false,
+     "score": 54,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Claude Fable 5.1 用 44 分钟解开 Thomas Urquhart 370 年未破的密码",
+     "source": "X：小北 (@frxiaobei)",
+     "ts": "2026-09-15T20:59:13.244000+08:00",
+     "publishedAt": "2026-09-15T12:46:00.000Z",
+     "discoveredAt": "2026-09-15T12:59:13.244Z",
+     "summary": "Vals AI 让 Claude Fable 5.1 尝试破解苏格兰作家 Thomas Urquhart 1653 年留下的两行数字密码，全程无人提示，耗时 44 分钟、用了 17.6 万 Token 成功解开。",
+     "url": "https://x.com/frxiaobei/status/2099842167631908901",
+     "aihot": "https://aihot.news/items/cmu2ohuwq0dp9rovqc76yloxk",
+     "selected": false,
+     "score": 55,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-15T20:24:10.728000+08:00",
+     "publishedAt": "2026-09-15T11:48:13.000Z",
+     "discoveredAt": "2026-09-15T12:24:10.728Z",
+     "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+     "url": "https://www.ithome.com/1/002/750.htm",
+     "aihot": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t",
+     "selected": true,
+     "score": 76,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "OpenAI、Anthropic 和 Meta 模型入侵事件被指均与评估公司 Irregular 有关",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-15T14:47:37.135000+08:00",
+     "publishedAt": "2026-09-15T06:29:10.367Z",
+     "discoveredAt": "2026-09-15T06:47:37.135Z",
+     "summary": "文章指过去三个月内 OpenAI、Anthropic 和 Meta 的模型在评估中越权访问真实系统、发布恶意包，且事件均与一家公司 Irregular 有关。",
+     "url": "https://www.effort.news/irregular",
+     "aihot": "https://aihot.news/items/cmu2b7xzq03q4ro25knqglkmi",
+     "selected": false,
+     "score": 65,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 7,
+   "items": [
+    {
+     "n": 5,
+     "title": "Plasma__AI 推出 Radio，让 Claude、Codex、Grok 等智能体在同一房间直接对话",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-16T07:42:23.471000+08:00",
+     "publishedAt": "2026-09-15T23:26:45.000Z",
+     "discoveredAt": "2026-09-15T23:42:23.471Z",
+     "summary": "@Plasma__AI 推出 Radio，为 Claude、Codex、Grok 等不同厂商的智能体提供共享聊天房间，免去人工在工具之间复制输出。用户创建频道并分享链接，能获取 URL 的智能体即可加入，读取同一对话并回复人类和其他智能体，频道记录全程可查，且创建频道无需注册。",
+     "url": "https://x.com/rohanpaul_ai/status/2100003417926291532",
+     "aihot": "https://aihot.news/items/cmu3bgzdv0i91rosa9x692dfw",
+     "selected": false,
+     "score": 57,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "Arena 更新 Image-to-WebDev 榜单：GPT-6 Astra 以 1733 分登顶",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-09-16T05:21:06.645000+08:00",
+     "publishedAt": "2026-09-15T21:20:53.000Z",
+     "discoveredAt": "2026-09-15T21:21:06.645Z",
+     "summary": "Arena 更新 Image-to-WebDev 排行榜，纳入四个新评测模型。GPT-6 Astra （Max） 以 1733 分居第一，领先 GPT-5.6 Sol （xHigh） 129 分；",
+     "url": "https://x.com/arena/status/2099971741993050236",
+     "aihot": "https://aihot.news/items/cmu36fa060aaqrosaqk9opwh9",
+     "selected": true,
+     "score": 68,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "Claude Code v2.1.273 发布：新增网关请求头与远程会话分叉",
+     "source": "Claude Code：GitHub Releases（RSS）",
+     "ts": "2026-09-16T05:03:10.928000+08:00",
+     "publishedAt": "2026-09-15T20:23:03.000Z",
+     "discoveredAt": "2026-09-15T21:03:10.928Z",
+     "summary": "Claude Code v2.1.273 新增 x-claude-code-request-class 等 5 个 LLM 网关请求头，需用 CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 开启，并支持从 Claude app 分叉 --remote-control 会话在本地后台运行。",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+     "aihot": "https://aihot.news/items/cmu35s7my09garosan1v2sg9s",
+     "selected": false,
+     "score": 36,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "Meta 发布 WhatsApp Business Tools MCP，让 AI agent 代办商家配置",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-16T04:18:27.624000+08:00",
+     "publishedAt": "2026-09-15T20:12:53.000Z",
+     "discoveredAt": "2026-09-15T20:18:27.624Z",
+     "summary": "Meta 宣布推出 WhatsApp Business Tools MCP server，让开发者可选用 Claude、Cursor、Codex 或 ChatGPT 等 AI coding agent 来设置和管理 WhatsApp Business messaging。",
+     "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+     "aihot": "https://aihot.news/items/cmu346oic0810rosavru215uj",
+     "selected": false,
+     "score": 54,
+     "category": "ai-products"
+    },
+    {
+     "n": 9,
+     "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-09-16T01:21:21.489000+08:00",
+     "publishedAt": "2026-09-15T17:21:21.489Z",
+     "discoveredAt": "2026-09-15T17:21:21.489Z",
+     "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。",
+     "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+     "aihot": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
+     "selected": true,
+     "score": 60,
+     "category": "ai-products"
+    },
+    {
+     "n": 10,
+     "title": "Anthropic 推出 Salesforce in Claude 测试版插件",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-09-15T23:21:19.312000+08:00",
+     "publishedAt": "2026-09-15T15:21:19.312Z",
+     "discoveredAt": "2026-09-15T15:21:19.312Z",
+     "summary": "Anthropic 与 Salesforce 合作发布测试版插件 Salesforce in Claude，将卖家的客户、商机和管道数据在既有 Salesforce 权限下接入 Claude，包含 37 个面向客户经理日常工作的技能，如客户调研、电话准备、管道审查和 CRM 更新。",
+     "url": "https://claude.com/blog/salesforce-in-claude",
+     "aihot": "https://aihot.news/items/cmu2tklwf06i6ro3xqe7a5kx8",
+     "selected": false,
+     "score": 54,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Claude (@claudeai)",
+       "title": "Salesforce in Claude beta 版上线，内置 37 个销售技能",
+       "url": "https://x.com/claudeai/status/2099876514330206578",
+       "aihot": "https://aihot.news/items/cmu2tdrl1066ero3xwoxmle0j"
+      },
+      {
+       "source": "X：小北 (@frxiaobei)",
+       "title": "Salesforce in Claude 测试版上线，37 项销售技能",
+       "url": "https://x.com/frxiaobei/status/2099883397535703220",
+       "aihot": "https://aihot.news/items/cmu2uxc7p02x0rowki8rvsbgz"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Dario Amodei 亮相 Salesforce Dreamforce 2026",
+       "url": "https://x.com/rohanpaul_ai/status/2099996029169086685",
+       "aihot": "https://aihot.news/items/cmu3aee9h0h3rrosazjldftah"
+      },
+      {
+       "source": "Claude：YouTube（RSS）",
+       "title": "Salesforce in Claude",
+       "url": "https://www.youtube.com/watch?v=t6z0Ea0GwSk",
+       "aihot": "https://aihot.news/items/cmu2top1306mgro3xripfr7g4"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "Jack Dorsey 发文《open the frontier》回击 Dario Amodei 的限速主张",
+     "source": "X：阿易 AI Notes (@AYi_AInotes)",
+     "ts": "2026-09-15T21:09:39.786000+08:00",
+     "publishedAt": "2026-09-15T12:47:32.000Z",
+     "discoveredAt": "2026-09-15T13:09:39.786Z",
+     "summary": "在 Anthropic CEO Dario Amodei 发文《We Must Pace the Frontier》呼吁全行业限速后，推特创始人 Jack Dorsey 发布《open the frontier》针锋相对，主张前沿不属于任何大公司。",
+     "url": "https://x.com/AYi_AInotes/status/2099842554585841745",
+     "aihot": "https://aihot.news/items/cmu2ova680e5srovq91388c9r",
+     "selected": false,
+     "score": 61,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 9,
+   "items": [
+    {
+     "n": 12,
+     "title": "美国副总统 JD Vance 在 All-In Podcast 上批评 Anthropic 应停止造 Frankenstein 并开放防御工具",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-16T08:42:23.542000+08:00",
+     "publishedAt": "2026-09-16T00:40:27.000Z",
+     "discoveredAt": "2026-09-16T00:42:23.542Z",
+     "summary": "美国副总统 JD Vance 在 All-In Podcast 上对 Anthropic 发表罕见强硬言论。他认为开发可用于网络攻击等危害用途的 AI 技术的公司有义务帮助他人防御这些能力，而不应主要依赖政府监管；",
+     "url": "https://x.com/rohanpaul_ai/status/2100021964140335322",
+     "aihot": "https://aihot.news/items/cmu3dm57c03zkrotbesj8qs8k",
+     "selected": false,
+     "score": 63,
+     "category": "industry"
+    },
+    {
+     "n": 13,
+     "title": "Claude 创业公司如何用 Claude 构建公司",
+     "source": "X：Claude Devs (@ClaudeDevs)",
+     "ts": "2026-09-16T06:37:37.026000+08:00",
+     "publishedAt": "2026-09-15T22:37:23.000Z",
+     "discoveredAt": "2026-09-15T22:37:37.026Z",
+     "summary": "我们通过 Claude for Startups 与许多早期团队合作。在 Frontier Day 上，我们问了几位创始人，现在用 Claude 构建一家公司是什么样子：",
+     "url": "https://x.com/ClaudeDevs/status/2099990995740082287",
+     "aihot": "https://aihot.news/items/cmu395oak0ftyrosa7vg866qn",
+     "selected": false,
+     "score": 19,
+     "category": "industry"
+    },
+    {
+     "n": 14,
+     "title": "Frontier Day | Claude for startups",
+     "source": "Claude：YouTube（RSS）",
+     "ts": "2026-09-16T03:24:31.259000+08:00",
+     "publishedAt": "2026-09-15T18:16:37.000Z",
+     "discoveredAt": "2026-09-15T19:24:31.259Z",
+     "summary": "",
+     "url": "https://www.youtube.com/watch?v=LQkcGtkSLNQ",
+     "aihot": "https://aihot.news/items/cmu329ce90374roaalf12ts5s",
+     "selected": false,
+     "score": 18,
+     "category": "industry"
+    },
+    {
+     "n": 15,
+     "title": "Nvidia、Palantir 等限制使用 Anthropic Fable，AI 实验室面临数据信任问题",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-16T02:19:57.280000+08:00",
+     "publishedAt": "2026-09-15T17:52:05.000Z",
+     "discoveredAt": "2026-09-15T18:19:57.280Z",
+     "summary": "据 The Information 报道，因 Anthropic 6 月起将 Fable 使用日志保留 30 天，Nvidia 仅将其用于低敏感任务、Booz Allen Hamilton 禁止用于专有网络安全代码，Palantir 则在获得不可撤销零数据保留保证前阻止其部署。",
+     "url": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved",
+     "aihot": "https://aihot.news/items/cmu2zyawd07nuroc1tvzgbgzh",
+     "selected": false,
+     "score": 66,
+     "category": "industry"
+    },
+    {
+     "n": 16,
+     "title": "Claude Code 作者 15 天长跑提示词",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-16T01:12:23.470000+08:00",
+     "publishedAt": "2026-09-15T17:02:02.000Z",
+     "discoveredAt": "2026-09-15T17:12:23.470Z",
+     "summary": "Claude Code 创作者 Boris Cherny（@bcherny）有一个提示词连续运行了 15 天， 这个提示词正在把 Claude 基于 Electron 的桌面应用逐像素重建成原生 Swift 应用。 ---- 来自 \"Y Combinator\" YouTube 频道，（完整视频链接见评论）",
+     "url": "https://x.com/rohanpaul_ai/status/2099906602090614867",
+     "aihot": "https://aihot.news/items/cmu2xjf4h02n6roc1qdt8bznr",
+     "selected": false,
+     "score": 44,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "Claude Code 将推出会话中心",
+       "url": "https://x.com/testingcatalog/status/2099933727778279803",
+       "aihot": "https://aihot.news/items/cmu31cu1q03j1roue1ul1gdw8"
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "title": "Google 向全公司工程师开放 Anthropic Claude 用于内部编码",
+     "source": "X：小北 (@frxiaobei)",
+     "ts": "2026-09-15T22:59:13.152000+08:00",
+     "publishedAt": "2026-09-15T14:38:00.000Z",
+     "discoveredAt": "2026-09-15T14:59:13.152Z",
+     "summary": "据 Business Insider 报道，Google 现允许全公司工程师在内部开发平台 Antigravity 上使用 Anthropic 的 Opus 5 进行编码工作，配额按用户限制，旨在补充而非取代 Gemini。",
+     "url": "https://x.com/frxiaobei/status/2099870352511762865",
+     "aihot": "https://aihot.news/items/cmu2ss6pt05faro3xf1td26go",
+     "selected": false,
+     "score": 61,
+     "category": "industry"
+    },
+    {
+     "n": 18,
+     "title": "前 Anthropic 员工与 METR 前 COO 创办 AIUC，为 AI 智能体做第三方安全审计，融资 4000 万美元",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-15T21:18:19.764000+08:00",
+     "publishedAt": "2026-09-15T13:00:00.000Z",
+     "discoveredAt": "2026-09-15T13:18:19.764Z",
+     "summary": "由前 Anthropic 员工 Rune Kvist 和 METR 前 COO Rajiv Dattani 创办的 AIUC 宣布完成 4000 万美元 A 轮融资，由 Ribbit Capital 领投，总融资达 5500 万美元。",
+     "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
+     "aihot": "https://aihot.news/items/cmu2p6dp00eoxrovqu47umis0",
+     "selected": false,
+     "score": 57,
+     "category": "industry"
+    },
+    {
+     "n": 19,
+     "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-15T17:19:47.577000+08:00",
+     "publishedAt": "2026-09-15T09:04:36.000Z",
+     "discoveredAt": "2026-09-15T09:19:47.577Z",
+     "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+     "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+     "aihot": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+     "selected": true,
+     "score": 77,
+     "category": "industry"
+    },
+    {
+     "n": 20,
+     "title": "白宫科技顾问萨克斯抨击 Anthropic 和 OpenAI：应自行制造安全产品，不要依赖政府干预",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-15T10:24:06.452000+08:00",
+     "publishedAt": "2026-09-15T01:52:25.000Z",
+     "discoveredAt": "2026-09-15T02:24:06.452Z",
+     "summary": "据彭博社报道，美国总统科学与技术顾问委员会联合主席戴维·萨克斯表示，Anthropic 和 OpenAI 应当自行制造安全产品，必要时按自己的进度推进，无需政府干预。他同意 Lina Khan 的观点，认为大型 AI 公司若制造不安全技术可能面临民事甚至刑事诉讼，并抨击 Dario Amodei 呼吁放缓 AI 发展…",
+     "url": "https://www.ithome.com/1/002/409.htm",
+     "aihot": "https://aihot.news/items/cmu21t3h7054crow20358j1mb",
+     "selected": false,
+     "score": 63,
+     "category": "industry"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 5,
+   "items": [
+    {
+     "n": 21,
+     "title": "Anthropic 工程师 Kevin Bai 分享 FDE 入门课，拆解前线部署工程师模式",
+     "source": "X：马东锡 NLP (@dongxi_nlp)",
+     "ts": "2026-09-16T07:09:39.064000+08:00",
+     "publishedAt": "2026-09-15T22:43:00.000Z",
+     "discoveredAt": "2026-09-15T23:09:39.064Z",
+     "summary": "Anthropic Applied AI 团队的 Kevin Bai 做 FDE 101 分享，讲清前线部署工程师角色。他指出 Palantir 靠 FDE 模式做到上市 SaaS 公司最高平均合同金额 400 万美元；FDE 成立前提是有可复用平台，仅适用于把复杂产品卖给非技术买家的场景。",
+     "url": "https://x.com/dongxi_nlp/status/2099992406078730623",
+     "aihot": "https://aihot.news/items/cmu3aav8x0h0drosaaw93yhqe",
+     "selected": false,
+     "score": 56,
+     "category": "tip"
+    },
+    {
+     "n": 22,
+     "title": "Anthropic 年化收入从约 90 亿美元涨到逾 650 亿美元，Dario Amodei 谈增长预期",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-16T05:42:23.629000+08:00",
+     "publishedAt": "2026-09-15T21:18:55.000Z",
+     "discoveredAt": "2026-09-15T21:42:23.629Z",
+     "summary": "Rohan Paul 引用 Dario Amodei 2025 年 12 月访谈称，Anthropic 年化收入从 2025 年底的约 90 亿美元涨到 2026 年 7 月的逾 650 亿美元，增速超 7 倍。",
+     "url": "https://x.com/rohanpaul_ai/status/2099971244838056150",
+     "aihot": "https://aihot.news/items/cmu376non0ax9rosa60rfh4fz",
+     "selected": false,
+     "score": 71,
+     "category": "tip"
+    },
+    {
+     "n": 23,
+     "title": "Dario Amodei 谈 AI 减速与行业协作",
+     "source": "X：Kim (@kimmonismus)",
+     "ts": "2026-09-16T02:12:23.088000+08:00",
+     "publishedAt": "2026-09-15T17:54:05.000Z",
+     "discoveredAt": "2026-09-15T18:12:23.088Z",
+     "summary": "Dario Amodei 在 Dreamforce 与 Benioff 同台，将 AI \"减速\"比作车祸，认为竞争对手可能借此获利，因此倾向与各方协作建立共同标准以避免\"事故\"，不会放弃减速主张。他仍对模型开发速度印象深刻。",
+     "url": "https://x.com/kimmonismus/status/2099919697248412154",
+     "aihot": "https://aihot.news/items/cmu2zoloo0790roc1n3ktxnpn",
+     "selected": false,
+     "score": 38,
+     "category": "tip"
+    },
+    {
+     "n": 24,
+     "title": "OpenAI 称已与 Anthropic、Google DeepMind 就 AI 安全协调数周",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-15T23:48:23.690000+08:00",
+     "publishedAt": "2026-09-15T15:47:03.000Z",
+     "discoveredAt": "2026-09-15T15:48:23.690Z",
+     "summary": "OpenAI 全球政策负责人 Chris Lehane 周二向记者确认，公司与 Anthropic、Google DeepMind 就 AI 安全已进行了数周磋商。",
+     "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
+     "aihot": "https://aihot.news/items/cmu2ujdr602ierowkgkfb0hn7",
+     "selected": false,
+     "score": 68,
+     "category": "tip",
+     "also": [
+      {
+       "source": "IT之家（RSS）",
+       "title": "OpenAI 与 Anthropic、谷歌 DeepMind 合作研究 AI 安全措施",
+       "url": "https://www.ithome.com/1/002/792.htm",
+       "aihot": "https://aihot.news/items/cmu2toatw06krro3xd6ehlh0r"
+      },
+      {
+       "source": "X：Elon Musk (@elonmusk, xAI)",
+       "title": "马斯克：Anthropic 比 OpenAI 更重视 AI 安全",
+       "url": "https://x.com/elonmusk/status/2099737081756930206",
+       "aihot": "https://aihot.news/items/cmu2nuodz0d39rovq1h8aflmc"
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "title": "Anthropic 发布《构建 AI 原生营收组织》指南，详解 Claude 在销售团队的落地路径",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-09-15T23:21:19.312000+08:00",
+     "publishedAt": "2026-09-15T15:21:19.312Z",
+     "discoveredAt": "2026-09-15T15:21:19.312Z",
+     "summary": "Anthropic 发布《构建 AI 原生营收组织》指南，介绍如何在销售团队中推广 Claude。指南包含成熟度模型、试点前的配置决策、三阶段推广计划（搭建、试点、扩展）、按效率/扩张/新能力三组衡量的 ROI 方法，以及阻碍全组织推广的常见陷阱。",
+     "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+     "aihot": "https://aihot.news/items/cmu2tklwf06i7ro3xyrubz8ca",
+     "selected": false,
+     "score": 37,
+     "category": "tip"
+    }
+   ],
+   "note": null
+  }
+ ],
+ "order": [
+  "ai-models",
+  "ai-products",
+  "industry",
+  "paper",
+  "tip"
+ ]
+}

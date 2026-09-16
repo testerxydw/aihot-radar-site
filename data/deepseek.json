@@ -1,0 +1,204 @@
+{
+ "meta": {
+  "company": "DeepSeek 深度求索",
+  "short": "DeepSeek",
+  "accent": "#4d6bfe",
+  "keywords": [
+   "DeepSeek",
+   "深度求索"
+  ],
+  "highlight": [
+   "DeepSeek",
+   "深度求索"
+  ],
+  "windowDays": 1,
+  "winStart": "2026-09-15",
+  "winEnd": "2026-09-16",
+  "generated": "2026-09-16 10:27",
+  "rawHits": 17,
+  "selectedHits": 1,
+  "shown": 5,
+  "dedupedFrom": 8,
+  "perQueryLimit": 30,
+  "modes": [
+   "selected",
+   "all"
+  ],
+  "tiers": "T1",
+  "by": "timeline",
+  "dedupe": true,
+  "api": "aihot.virxact.com /api/v1/items",
+  "trail": [
+   {
+    "q": "DeepSeek",
+    "mode": "selected",
+    "window": "24h",
+    "count": 1,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "DeepSeek",
+    "mode": "all",
+    "window": "24h",
+    "count": 17,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "深度求索",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "深度求索",
+    "mode": "all",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   }
+  ],
+  "copyright": "内容版权归各原文作者所有 · 数据来源 AI HOT (https://aihot.virxact.com)"
+ },
+ "sections": [
+  {
+   "slug": "ai-models",
+   "label": "模型发布 / 更新",
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek-V4.1-Flash 上线阿里云",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-15T10:59:13.455000+08:00",
+     "publishedAt": "2026-09-15T02:58:20.000Z",
+     "discoveredAt": "2026-09-15T02:59:13.455Z",
+     "summary": "DeepSeek-V4.1-Flash 现已上线阿里云 Token Plan。专为智能体工作负载打造，具备 1M-token 上下文、快速推理和高吞吐量。每月 $6 起，了解如何优化 Credits 并三步快速上手。",
+     "url": "https://x.com/alibaba_cloud/status/2099694277227896836",
+     "aihot": "https://aihot.news/items/cmu2329x106x9row2cccngcem",
+     "selected": false,
+     "score": 42,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Emad Mostaque (@EMostaque)",
+       "title": "DeepSeek v4.1 Flash 训练成本仅 1000 万美元",
+       "url": "https://x.com/EMostaque/status/2099847458624823801",
+       "aihot": "https://aihot.news/items/cmu2ova6p0e5trovq4a36r8j4"
+      },
+      {
+       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+       "title": "DeepSeek-V4.1-Flash 上线阿里云",
+       "url": "https://x.com/alibaba_cloud/status/2099723404136038750",
+       "aihot": "https://aihot.news/items/cmu27ckmi042sro7dbfjsebw0"
+      },
+      {
+       "source": "X：阿易 AI Notes (@AYi_AInotes)",
+       "title": "腾讯WorkBuddy国际版限免DeepSeek-V4.1-Flash",
+       "url": "https://x.com/AYi_AInotes/status/2099769641170018758",
+       "aihot": "https://aihot.news/items/cmu2e5gzg071dro256hqrty17"
+      }
+     ]
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 2,
+   "items": [
+    {
+     "n": 2,
+     "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-15T17:19:47.577000+08:00",
+     "publishedAt": "2026-09-15T09:04:36.000Z",
+     "discoveredAt": "2026-09-15T09:19:47.577Z",
+     "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+     "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+     "aihot": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+     "selected": true,
+     "score": 77,
+     "category": "industry"
+    },
+    {
+     "n": 3,
+     "title": "高瓴创投合伙人闫文韬据报有望出任 DeepSeek CFO",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-09-15T14:57:09.090000+08:00",
+     "publishedAt": "2026-09-15T06:51:02.000Z",
+     "discoveredAt": "2026-09-15T06:57:09.090Z",
+     "summary": "Phoenix Tech 援引多方消息称，高瓴创投合伙人闫文韬有望出任 DeepSeek CFO，正准备离职，该任命尚未确认。闫文韬生于 1991 年，曾投资字节跳动、Z.ai 和 MiniMax。此举发生之际，DeepSeek 正筹备科创板上市，Reuters 报道其已聘请中信证券，争取今年启动 IPO 流程。",
+     "url": "https://x.com/thexpin/status/2099752837219823686",
+     "aihot": "https://aihot.news/items/cmu2bk87k042mro25bmnnqe89",
+     "selected": false,
+     "score": 53,
+     "category": "industry"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 2,
+   "items": [
+    {
+     "n": 4,
+     "title": "DeepSeek 刘胜与发文《我不得不把才华埋葬在昨天》引热议，回应称不代表公司立场",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-16T09:24:16.953000+08:00",
+     "publishedAt": "2026-09-16T01:03:33.000Z",
+     "discoveredAt": "2026-09-16T01:24:16.953Z",
+     "summary": "DeepSeek v4.1 主 Attention 算子负责人刘胜与 9 月 14 日发文《我不得不把才华埋葬在昨天》，文章获微信公众号 10 万+ 阅读并登上知乎热榜第一。",
+     "url": "https://www.ithome.com/1/002/864.htm",
+     "aihot": "https://aihot.news/items/cmu3f3zn5061arotbbxym8cmx",
+     "selected": false,
+     "score": 68,
+     "category": "tip"
+    },
+    {
+     "n": 5,
+     "title": "DeepSeek 内核工程师称让 Anthropic 控制 AI 如同希特勒先获原子弹",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-15T19:31:31.872000+08:00",
+     "publishedAt": "2026-09-15T11:15:35.000Z",
+     "discoveredAt": "2026-09-15T11:31:31.872Z",
+     "summary": "DeepSeek 内核工程师刘胜与（interestingLSY/intlsy）在博客中称，让 Anthropic 控制 AI 如同希特勒先于盟军获得原子弹技术。他还在博客第一部分讲述了自己所热爱的内核工作即将被自己的成果淘汰的挣扎。推文作者认同其观点，认为资源正被过快消耗，必须保持开放。",
+     "url": "https://x.com/haider1/status/2099819413856035013",
+     "aihot": "https://aihot.news/items/cmu2ld4uy088urovqutbl0z1t",
+     "selected": false,
+     "score": 43,
+     "category": "tip"
+    }
+   ],
+   "note": null
+  }
+ ],
+ "order": [
+  "ai-models",
+  "ai-products",
+  "industry",
+  "paper",
+  "tip"
+ ]
+}

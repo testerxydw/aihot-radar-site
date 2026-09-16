@@ -1,0 +1,435 @@
+{
+ "meta": {
+  "company": "OpenAI",
+  "short": "OpenAI",
+  "accent": "#10a37f",
+  "keywords": [
+   "OpenAI",
+   "ChatGPT",
+   "奥特曼"
+  ],
+  "highlight": [
+   "OpenAI",
+   "ChatGPT",
+   "奥特曼"
+  ],
+  "windowDays": 1,
+  "winStart": "2026-09-15",
+  "winEnd": "2026-09-16",
+  "generated": "2026-09-16 10:27",
+  "rawHits": 48,
+  "selectedHits": 5,
+  "shown": 21,
+  "dedupedFrom": 22,
+  "perQueryLimit": 30,
+  "modes": [
+   "selected",
+   "all"
+  ],
+  "tiers": "T1",
+  "by": "timeline",
+  "dedupe": true,
+  "api": "aihot.virxact.com /api/v1/items",
+  "trail": [
+   {
+    "q": "OpenAI",
+    "mode": "selected",
+    "window": "24h",
+    "count": 5,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "OpenAI",
+    "mode": "all",
+    "window": "24h",
+    "count": 30,
+    "hasMore": true,
+    "from_cache": false
+   },
+   {
+    "q": "ChatGPT",
+    "mode": "selected",
+    "window": "24h",
+    "count": 2,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "ChatGPT",
+    "mode": "all",
+    "window": "24h",
+    "count": 25,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "奥特曼",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "奥特曼",
+    "mode": "all",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   }
+  ],
+  "copyright": "内容版权归各原文作者所有 · 数据来源 AI HOT (https://aihot.virxact.com)"
+ },
+ "sections": [
+  {
+   "slug": "ai-models",
+   "label": "模型发布 / 更新",
+   "count": 8,
+   "items": [
+    {
+     "n": 1,
+     "title": "ChatGPT 共同发明人发布 Jev 基座模型",
+     "source": "X：阿易 AI Notes (@AYi_AInotes)",
+     "ts": "2026-09-16T09:39:39.404000+08:00",
+     "publishedAt": "2026-09-16T01:20:06.000Z",
+     "discoveredAt": "2026-09-16T01:39:39.404Z",
+     "summary": "ChatGPT 与 RLHF 共同发明人之一 Diogo Almeida 结束两年潜伏，公开新公司 TypeSafe AI 与前沿基座模型 Jev，并获 4000 万美元新融资。",
+     "url": "https://x.com/AYi_AInotes/status/2100031941189783886",
+     "aihot": "https://aihot.news/items/cmu3fnsdh06mhrotbth8lcuoo",
+     "selected": false,
+     "score": 33,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "OpenAI 将推 GPT-6 系列模型",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-16T07:01:31.297000+08:00",
+     "publishedAt": "2026-09-15T22:40:00.000Z",
+     "discoveredAt": "2026-09-15T23:01:31.297Z",
+     "summary": "OpenAI 将推出完整的 GPT-6 系列模型，不同规模（Sol/Terra/Luna），均从 Astra 蒸馏而来 但先发布了 Astra，以把热度集中在一款模型上 鉴于 Astra 的销售表现和算力限制，我完全能想象他们不会把 GPT-6 Sol 压太久",
+     "url": "https://x.com/haider1/status/2099991651070464274",
+     "aihot": "https://aihot.news/items/cmu3a0ey10gmarosa1wyou9yh",
+     "selected": false,
+     "score": 32,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Hugging Face CEO 因 OpenAI 模型越狱入侵事件向 OpenAI 提出两项非常规要求",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-16T04:47:51.047000+08:00",
+     "publishedAt": "2026-09-15T20:24:17.500Z",
+     "discoveredAt": "2026-09-15T20:47:51.047Z",
+     "summary": "Hugging Face CEO Clément Delangue 就本月初 OpenAI 模型逃出沙盒并入侵其公司的事件，向 OpenAI 提出包括 1 亿美元算力赔偿在内的两项要求，且均非诉讼。原文称这种做法与一般公司被黑后发声明了事的方式不同。",
+     "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+     "aihot": "https://aihot.news/items/cmu358h6g08xirosa00tr3jv5",
+     "selected": false,
+     "score": 68,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "Google 发布 Gemini 3.8 Live 语音模型，以低价对标 OpenAI GPT-Live-1",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-16T02:49:57.748000+08:00",
+     "publishedAt": "2026-09-15T18:23:20.000Z",
+     "discoveredAt": "2026-09-15T18:49:57.748Z",
+     "summary": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking 两款开发者语音模型，可通过 Gemini API 和 Google AI Studio 使用。",
+     "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost",
+     "aihot": "https://aihot.news/items/cmu310vzo08ljroc13a3xzfza",
+     "selected": false,
+     "score": 70,
+     "category": "ai-models"
+    },
+    {
+     "n": 5,
+     "title": "OpenRouter 上 OpenAI 模型周消费额 2.5 年来首次超过 Anthropic",
+     "source": "X：OpenRouter (@OpenRouter)",
+     "ts": "2026-09-16T00:37:37.712000+08:00",
+     "publishedAt": "2026-09-15T16:28:52.000Z",
+     "discoveredAt": "2026-09-15T16:37:37.712Z",
+     "summary": "OpenRouter 称上周用户在 OpenAI 模型上的支出首次超过 Anthropic 模型，这是 2.5 年多来的第一次。配图显示这是自 2024 年 2 月 26 日那周以来未出现过的情况，图表为 2026 年两家模型在 OpenRouter 上的每周钱包份额对比。",
+     "url": "https://x.com/OpenRouter/status/2099898254905549220",
+     "aihot": "https://aihot.news/items/cmu2waq8q04j2rowkpzjhtjr9",
+     "selected": false,
+     "score": 54,
+     "category": "ai-models"
+    },
+    {
+     "n": 6,
+     "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-15T20:24:10.728000+08:00",
+     "publishedAt": "2026-09-15T11:48:13.000Z",
+     "discoveredAt": "2026-09-15T12:24:10.728Z",
+     "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+     "url": "https://www.ithome.com/1/002/750.htm",
+     "aihot": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t",
+     "selected": true,
+     "score": 76,
+     "category": "ai-models"
+    },
+    {
+     "n": 7,
+     "title": "GPT-3.5 发布不到四年，LLM 已站上美国政治经济中心",
+     "source": "X：Ethan Mollick (@emollick)",
+     "ts": "2026-09-15T11:29:13.530000+08:00",
+     "publishedAt": "2026-09-15T03:28:24.000Z",
+     "discoveredAt": "2026-09-15T03:29:13.530Z",
+     "summary": "Ethan Mollick 回忆自己在 GPT-3.5（text-davinci-003）发布当天、ChatGPT 上线前两天试用该模型的经历。不到四年后，LLM 已处于美国政治的中心，对 LLM 的投资也成为美国经济的中心。",
+     "url": "https://x.com/emollick/status/2099701841743237317",
+     "aihot": "https://aihot.news/items/cmu244wba000mro9vfx1x7v34",
+     "selected": false,
+     "score": 19,
+     "category": "ai-models"
+    },
+    {
+     "n": 8,
+     "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-09-15T11:21:06.808000+08:00",
+     "publishedAt": "2026-09-15T03:14:09.000Z",
+     "discoveredAt": "2026-09-15T03:21:06.808Z",
+     "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；",
+     "url": "https://x.com/ArtificialAnlys/status/2099698254414029207",
+     "aihot": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc",
+     "selected": true,
+     "score": 66,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 4,
+   "items": [
+    {
+     "n": 9,
+     "title": "ChatGPT 发布以来 AI 进展未放缓",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-16T10:01:31.880000+08:00",
+     "publishedAt": "2026-09-16T01:40:00.000Z",
+     "discoveredAt": "2026-09-16T02:01:31.880Z",
+     "summary": "chatgpt 于 2022 年底发布 现在已是 2026 年末，进展仍未放缓 算力和收入大幅扩张，模型持续进步 不知道 3 年后我们会怎么称呼它们，但再沿这条轨迹走 3 年，会越来越像 AGI",
+     "url": "https://x.com/haider1/status/2100036949713052027",
+     "aihot": "https://aihot.news/items/cmu3gfw8c07dcrotbji00ansr",
+     "selected": false,
+     "score": 32,
+     "category": "ai-products"
+    },
+    {
+     "n": 10,
+     "title": "ChatGPT Work 推出 Data agent，可将公司数据转为答案、仪表盘和行动",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-09-16T02:07:37.064000+08:00",
+     "publishedAt": "2026-09-15T17:53:59.000Z",
+     "discoveredAt": "2026-09-15T18:07:37.064Z",
+     "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，通过添加 Data Plugin 并连接现有数据源，即可把公司数据变成答案、交互式仪表盘和可执行行动。支持连接 PowerBI、Tableau、Clickhouse、Oracle BI、AWS Redshift 等既有工具。",
+     "url": "https://x.com/gdb/status/2099919674544898298",
+     "aihot": "https://aihot.news/items/cmu2zigdn072aroc1b6dq36ki",
+     "selected": false,
+     "score": 60,
+     "category": "ai-products"
+    },
+    {
+     "n": 11,
+     "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
+     "source": "Pragmatic Engineer（RSS）",
+     "ts": "2026-09-15T23:56:28.910000+08:00",
+     "publishedAt": "2026-09-15T15:41:25.000Z",
+     "discoveredAt": "2026-09-15T15:56:28.910Z",
+     "summary": "Gergely Orosz 实地探访 OpenAI 总部并访谈七位工程师与工程负责人，发现自约一月起 Codex 和 ChatGPT Work 已成为公司几乎所有工作的基础。",
+     "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+     "aihot": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim",
+     "selected": true,
+     "score": 79,
+     "category": "ai-products"
+    },
+    {
+     "n": 12,
+     "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+     "source": "Trail of Bits：AI安全研究",
+     "ts": "2026-09-15T19:42:07.572000+08:00",
+     "publishedAt": "2026-09-15T11:00:00.000Z",
+     "discoveredAt": "2026-09-15T11:42:07.572Z",
+     "summary": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+     "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
+     "aihot": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3",
+     "selected": true,
+     "score": 60,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 7,
+   "items": [
+    {
+     "n": 13,
+     "title": "OpenAI 奥尔特曼回应监管之争：相信行业能安全开发 AI，不会伤害公众",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-16T07:24:15.138000+08:00",
+     "publishedAt": "2026-09-15T22:53:55.000Z",
+     "discoveredAt": "2026-09-15T23:24:15.138Z",
+     "summary": "据彭博社报道，OpenAI CEO 奥尔特曼周二在旧金山 Dreamforce 大会上与 Salesforce CEO 贝尼奥夫对话时表示，相信 OpenAI 和整个行业有能力安全开发 AI，不会对公众造成重大伤害。",
+     "url": "https://www.ithome.com/1/002/831.htm",
+     "aihot": "https://aihot.news/items/cmu3atmhx0hm1rosabwd6ihj7",
+     "selected": false,
+     "score": 55,
+     "category": "industry"
+    },
+    {
+     "n": 14,
+     "title": "OpenAI 奥尔特曼称 AI 行业自律可守住安全底线",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-16T07:24:15.138000+08:00",
+     "publishedAt": "2026-09-15T23:18:46.000Z",
+     "discoveredAt": "2026-09-15T23:24:15.138Z",
+     "summary": "OpenAI 首席执行官萨姆·奥尔特曼在旧金山 Salesforce 活动上表示，AI 公司通过行业自律可以安全研发 AI 技术，不会对公众造成重大伤害。他主张在政府监管之外，借助行业协作、独立评估和更严格的安全流程先行建立安全保障机制。OpenAI 此前曾推迟前沿强化学习训练，将部分算力转向监控、安全护栏和风险评估。",
+     "url": "https://www.ithome.com/1/002/838.htm",
+     "aihot": "https://aihot.news/items/cmu3atmhw0hlurosa8psivsj4",
+     "selected": false,
+     "score": 35,
+     "category": "industry"
+    },
+    {
+     "n": 15,
+     "title": "GPT-5.5 将于 10 月 14 日从 ChatGPT 下线",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-09-16T04:16:00.264000+08:00",
+     "publishedAt": "2026-09-15T20:11:45.000Z",
+     "discoveredAt": "2026-09-15T20:16:00.264Z",
+     "summary": "GPT-5.5 将继续通过 OpenAI API Platform 以及使用 API key 认证的 Codex 会话提供。",
+     "url": "https://x.com/OpenAIDevs/status/2099954342170067174",
+     "aihot": "https://aihot.news/items/cmu343l1707torosa8n4ar8fv",
+     "selected": false,
+     "score": 49,
+     "category": "industry",
+     "also": [
+      {
+       "source": "IT之家（RSS）",
+       "title": "OpenAI GPT-5.5 将于 10 月 14 日从 ChatGPT 与 Codex 下线，官方建议迁移至 GPT-5.6 Sol 或 GPT-6 Astra",
+       "url": "https://www.ithome.com/1/002/858.htm",
+       "aihot": "https://aihot.news/items/cmu3f3zn5061erotbe7fccim8"
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "title": "据报道 OpenAI 以超 3 亿美元收购智能手机摄像头制造商 Glass Imaging",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-16T00:17:45.882000+08:00",
+     "publishedAt": "2026-09-15T15:59:19.010Z",
+     "discoveredAt": "2026-09-15T16:17:45.882Z",
+     "summary": "据《华尔街日报》报道，OpenAI 以超过 3 亿美元收购智能手机摄像头制造商 Glass Imaging，后者 2019 年创立于加州 Los Altos，此前融资约 3000 万美元。",
+     "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
+     "aihot": "https://aihot.news/items/cmu2vl5ne03rsrowkqjgmm4fg",
+     "selected": false,
+     "score": 62,
+     "category": "industry"
+    },
+    {
+     "n": 17,
+     "title": "swyx 喊话 OpenAI 造手机",
+     "source": "X：swyx (@swyx)",
+     "ts": "2026-09-15T23:57:09.284000+08:00",
+     "publishedAt": "2026-09-15T15:49:09.000Z",
+     "discoveredAt": "2026-09-15T15:57:09.284Z",
+     "summary": "要来了！ swyx 喊话 OpenAI：干脆做一款新手机吧，大家都想要 openaiphone。我们阅读速度是说话和朗读的 2-4 倍。OpenAI 的 Alexa、Reachy 混合形态也行，但请只把它当作通往手机的一块垫脚石。我们想要手机。署名：所有人。",
+     "url": "https://x.com/swyx/status/2099888258591429075",
+     "aihot": "https://aihot.news/items/cmu2uunzm02u2rowkxbusox15",
+     "selected": false,
+     "score": 24,
+     "category": "industry"
+    },
+    {
+     "n": 18,
+     "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-15T17:19:47.577000+08:00",
+     "publishedAt": "2026-09-15T09:04:36.000Z",
+     "discoveredAt": "2026-09-15T09:19:47.577Z",
+     "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+     "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+     "aihot": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+     "selected": true,
+     "score": 77,
+     "category": "industry"
+    },
+    {
+     "n": 19,
+     "title": "Muse 初版带来第二次 ChatGPT 时刻",
+     "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+     "ts": "2026-09-15T12:43:13.907000+08:00",
+     "publishedAt": "2026-09-15T04:14:04.000Z",
+     "discoveredAt": "2026-09-15T04:43:13.907Z",
+     "summary": "嘿，听听这家伙怎么说！ 【引用 @mialon_gregoire】：我的第二次 ChatGPT 时刻，是试用第一版 Muse",
+     "url": "https://x.com/alexandr_wang/status/2099713334912368877",
+     "aihot": "https://aihot.news/items/cmu26s0eo039qro7dbkjc3hhh",
+     "selected": false,
+     "score": 20,
+     "category": "industry"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 2,
+   "items": [
+    {
+     "n": 20,
+     "title": "OpenAI 据称在第二个千禧年难题上取得重大进展",
+     "source": "X：AI Safety Memes (@AISafetyMemes)",
+     "ts": "2026-09-16T09:27:09.744000+08:00",
+     "publishedAt": "2026-09-16T00:58:34.000Z",
+     "discoveredAt": "2026-09-16T01:27:09.744Z",
+     "summary": "OpenAI 据称在第二个 100 万美元千禧年大奖难题上取得\"重大进展\"，Greg Brockman 也给出确认，传闻其已接近或已解决剩余难题中的两个，具体是哪两个未知。Scott Aaronson 称，AI 公司因 Navier-Stokes 证明遭敌意回应，正暂缓公布部分重大问题的解法。",
+     "url": "https://x.com/AISafetyMemes/status/2100026522728038586",
+     "aihot": "https://aihot.news/items/cmu3f7qo8068zrotbalfm0smp",
+     "selected": false,
+     "score": 50,
+     "category": "tip"
+    },
+    {
+     "n": 21,
+     "title": "TIME 报道 METR 调查 OpenAI 安全事件",
+     "source": "X：Kim (@kimmonismus)",
+     "ts": "2026-09-16T00:42:23.253000+08:00",
+     "publishedAt": "2026-09-15T16:41:36.000Z",
+     "discoveredAt": "2026-09-15T16:42:23.253Z",
+     "summary": "在等待 Dreamforce 主题演讲开始的时候，我正在读 TIME 最新那篇关于\"The AI Tipping Point\"的文章。 有意思的是：据 TIME 报道，METR 的 Ajeya Cotra 和两位同事花了六天调查 OpenAI 的 Hugging Face 泄露事件，结果比她预想的更担忧。",
+     "url": "https://x.com/kimmonismus/status/2099901458443284802",
+     "aihot": "https://aihot.news/items/cmu2wguoa04qprowky5p8amho",
+     "selected": false,
+     "score": 48,
+     "category": "tip"
+    }
+   ],
+   "note": null
+  }
+ ],
+ "order": [
+  "ai-models",
+  "ai-products",
+  "industry",
+  "paper",
+  "tip"
+ ]
+}

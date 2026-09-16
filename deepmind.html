@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google DeepMind · 最近 1 天动态追踪</title>
+<style>
+  :root{
+    --brand:#4285f4;
+    --brand-ink:#4f7d00;
+    --brand-soft:#f0f8e2;
+    --brand-line:#cde89b;
+    --bg:#f4f6f8; --panel:#ffffff; --panel-2:#fafbfc; --line:#e3e7ec; --line-strong:#d3d9e0;
+    --ink:#141a20; --ink-2:#4a5561; --ink-3:#7c8794;
+    --amber:#b26a00; --amber-soft:#fff5e2; --amber-line:#f0d9a8;
+    --radius:14px;
+    --shadow:0 1px 2px rgba(16,24,40,.04), 0 6px 18px -8px rgba(16,24,40,.10);
+  }
+  /* 品牌色由数据注入；color-mix 让任意强调色都能推出配套的深色与浅底 */
+  :root{
+    --brand-ink:color-mix(in srgb, var(--brand) 62%, #101418);
+    --brand-soft:color-mix(in srgb, var(--brand) 12%, #ffffff);
+    --brand-line:color-mix(in srgb, var(--brand) 34%, #ffffff);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:15px; line-height:1.62; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px; margin:0 auto; padding:28px 20px 64px}
+  a{color:inherit}
+
+  .masthead{display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:6px}
+  .dot{width:11px;height:11px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px var(--brand-soft);flex:none}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--brand-ink)}
+  .backlink{margin-left:auto;font-size:12.5px;font-weight:650;color:var(--ink-3);text-decoration:none;
+            border:1px solid var(--line);border-radius:999px;padding:3px 11px;background:var(--panel)}
+  .backlink:hover{color:var(--brand-ink);border-color:var(--brand-line);background:var(--brand-soft)}
+  h1{margin:0; font-size:clamp(22px,3.4vw,31px); line-height:1.25; letter-spacing:-.01em; font-weight:750}
+  .sub{margin:8px 0 0; color:var(--ink-2); font-size:14px; max-width:78ch}
+  .sub code{background:#eceff3;border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:12.5px}
+
+  .kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:22px 0 10px}
+  .kpi{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+       padding:14px 16px; box-shadow:var(--shadow); min-width:0}
+  .kpi .k{font-size:11.5px; font-weight:700; letter-spacing:.06em; color:var(--ink-3); text-transform:uppercase}
+  .kpi .v{margin-top:6px; font-size:23px; font-weight:750; letter-spacing:-.02em; line-height:1.15}
+  .kpi .v small{font-size:12px;font-weight:600;color:var(--ink-3);letter-spacing:0}
+  .kpi .n{margin-top:4px; font-size:12.5px; color:var(--ink-3)}
+  .kwrow{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .kw{display:inline-block;background:var(--brand-soft);border:1px solid var(--brand-line);color:var(--brand-ink);
+      border-radius:999px;padding:2px 10px;font-size:12.5px;font-weight:650}
+  .dist{margin-top:9px; display:flex; flex-direction:column; gap:7px}
+  .dist .lab{display:flex;justify-content:space-between;gap:10px;margin-bottom:3px;font-size:12.5px;color:var(--ink-2)}
+  .dist .bar{height:6px;border-radius:99px;background:#eef1f4;overflow:hidden}
+  .dist .bar i{display:block;height:100%;background:var(--brand);border-radius:99px}
+
+  .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
+           margin:20px 0 14px; padding:11px 14px; background:var(--panel); border:1px solid var(--line);
+           border-radius:var(--radius); box-shadow:var(--shadow); font-size:13px}
+  .toolbar .hint{color:var(--ink-3)}
+  .toolbar .hint b{color:var(--ink-2)}
+  .btn{border:1px solid var(--line-strong);background:#fff;color:var(--ink-2);border-radius:999px;
+       padding:5px 13px;font-size:12.5px;font-weight:650;cursor:pointer;font-family:inherit}
+  .btn:hover{border-color:var(--brand);color:var(--brand-ink);background:var(--brand-soft)}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap}
+  .tab{border:1px solid var(--line-strong);background:#fff;color:var(--ink-2);border-radius:999px;
+       padding:4px 11px;font-size:12.5px;font-weight:650;cursor:pointer;font-family:inherit}
+  .tab[aria-pressed="true"]{background:var(--brand-soft);border-color:var(--brand-line);color:var(--brand-ink)}
+
+  .sec{margin-top:30px}
+  .sec-head{display:flex;align-items:baseline;gap:11px;padding:0 2px 9px;border-bottom:2px solid var(--line-strong);flex-wrap:wrap}
+  .sec-idx{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;font-weight:700;color:#fff;
+           background:var(--ink);border-radius:6px;padding:3px 7px;flex:none}
+  .sec-head h2{margin:0;font-size:17.5px;font-weight:750;letter-spacing:-.01em}
+  .sec-head .cnt{margin-left:auto;font-size:12.5px;color:var(--ink-3);font-weight:650;
+                 background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:2px 10px}
+  .empty{margin-top:14px;padding:22px;border:1px dashed var(--line-strong);border-radius:var(--radius);
+         background:var(--panel-2);color:var(--ink-3);font-size:13.5px;text-align:center}
+  .empty .note{display:block;max-width:74ch;margin:9px auto 0;padding-top:9px;border-top:1px dashed var(--line-strong);
+               font-size:12.5px;line-height:1.7;text-align:left}
+
+  .list{list-style:none;margin:0;padding:0}
+  .item{display:grid;grid-template-columns:46px 1fr;gap:14px;padding:15px 16px;margin-top:10px;
+        background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+        transition:border-color .15s ease, transform .15s ease}
+  .item:hover{border-color:var(--brand-line);transform:translateY(-1px)}
+  .num{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;font-weight:700;color:var(--ink-3);
+       line-height:1.5;letter-spacing:.02em;padding-top:1px}
+  .item.is-sel .num{color:var(--brand-ink)}
+  .body{min-width:0}
+  .t{margin:0;font-size:16px;font-weight:700;line-height:1.42;letter-spacing:-.005em}
+  .t a{text-decoration:none}
+  .t a:hover{color:var(--brand-ink);text-decoration:underline;text-underline-offset:2px}
+  .meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:6px;font-size:12.5px;color:var(--ink-3)}
+  .src{color:var(--ink-2);font-weight:600;font-size:12.5px}
+  .sep{color:var(--line-strong)}
+  .time{font-variant-numeric:tabular-nums}
+  .badge{font-size:10.5px;font-weight:750;letter-spacing:.05em;border-radius:999px;padding:1.5px 8px;border:1px solid}
+  .badge.sel{background:var(--brand-soft);border-color:var(--brand-line);color:var(--brand-ink)}
+  .badge.all{background:var(--amber-soft);border-color:var(--amber-line);color:var(--amber)}
+  .sum{margin:8px 0 0;color:var(--ink-2);font-size:14px;line-height:1.68}
+  .also{margin:9px 0 0;padding:8px 11px;background:var(--panel-2);border:1px dashed var(--line-strong);
+        border-radius:9px;font-size:12.5px;color:var(--ink-3);line-height:1.7}
+  .also b{color:var(--ink-2);font-weight:650}
+  .also a{color:var(--ink-2);font-weight:600;text-decoration:none;border-bottom:1px dotted var(--line-strong)}
+  .also a:hover{color:var(--brand-ink);border-bottom-color:var(--brand-line)}
+  .lnk{display:inline-flex;align-items:center;gap:5px;margin-top:9px;font-size:12.5px;font-weight:650;color:var(--ink-3);text-decoration:none}
+  .lnk:hover{color:var(--brand-ink)}
+  mark{background:var(--brand-soft);color:var(--brand-ink);font-weight:700;border-radius:3px;padding:0 2px;
+       box-shadow:inset 0 -1px 0 var(--brand-line)}
+  .hidden{display:none}
+
+  footer{margin-top:42px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink-3);font-size:12.5px;line-height:1.75}
+  footer b{color:var(--ink-2)}
+  footer code{background:#eceff3;border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:12px}
+  details{margin-top:10px}
+  summary{cursor:pointer;font-weight:650;color:var(--ink-2)}
+  table.trail{border-collapse:collapse;margin-top:9px;font-size:12px;width:100%;max-width:640px}
+  table.trail th,table.trail td{border:1px solid var(--line);padding:3px 8px;text-align:left}
+  table.trail th{background:var(--panel-2);color:var(--ink-2);font-weight:650}
+
+  @media (max-width:900px){ .kpis{grid-template-columns:repeat(2,1fr)} }
+  @media (max-width:620px){
+    .wrap{padding:20px 14px 48px}
+    .kpis{grid-template-columns:1fr;gap:10px}
+    .item{grid-template-columns:38px 1fr;gap:11px;padding:13px}
+    .t{font-size:15.2px}
+    .sum{font-size:13.6px}
+    .sec-head .cnt{margin-left:0}
+  }
+  @media print{ body{background:#fff} .toolbar,.btn,.tabs{display:none} .item{break-inside:avoid;box-shadow:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <span class="dot" aria-hidden="true"></span>
+    <span class="eyebrow">Company Radar · 商业情报看板</span>
+    <a class="backlink" href="index.html">← 全部公司</a>
+  </div>
+  <h1 id="h1">—</h1>
+  <p class="sub" id="sub"></p>
+
+  <section class="kpis" id="kpis" aria-label="关键指标"></section>
+
+  <div class="toolbar">
+    <span class="hint" id="tb"></span>
+    <span class="tabs" id="tabs" role="group" aria-label="版块筛选"></span>
+    <button class="btn" id="btn-window" type="button">切换时间口径</button>
+  </div>
+
+  <main id="stream"></main>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const DATA = {
+ "meta": {
+  "company": "Google DeepMind",
+  "short": "DeepMind",
+  "accent": "#4285f4",
+  "keywords": [
+   "DeepMind",
+   "Gemini",
+   "Demis Hassabis"
+  ],
+  "highlight": [
+   "DeepMind",
+   "Gemini",
+   "Demis Hassabis"
+  ],
+  "windowDays": 1,
+  "winStart": "2026-09-15",
+  "winEnd": "2026-09-16",
+  "generated": "2026-09-16 10:27",
+  "rawHits": 39,
+  "selectedHits": 3,
+  "shown": 9,
+  "dedupedFrom": 25,
+  "perQueryLimit": 30,
+  "modes": [
+   "selected",
+   "all"
+  ],
+  "tiers": "T1",
+  "by": "timeline",
+  "dedupe": true,
+  "api": "aihot.virxact.com /api/v1/items",
+  "trail": [
+   {
+    "q": "DeepMind",
+    "mode": "selected",
+    "window": "24h",
+    "count": 1,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "DeepMind",
+    "mode": "all",
+    "window": "24h",
+    "count": 15,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "selected",
+    "window": "24h",
+    "count": 3,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "all",
+    "window": "24h",
+    "count": 30,
+    "hasMore": true,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "all",
+    "window": "24h",
+    "count": 1,
+    "hasMore": false,
+    "from_cache": false
+   }
+  ],
+  "copyright": "内容版权归各原文作者所有 · 数据来源 AI HOT (https://aihot.virxact.com)"
+ },
+ "sections": [
+  {
+   "slug": "ai-models",
+   "label": "模型发布 / 更新",
+   "count": 2,
+   "items": [
+    {
+     "n": 1,
+     "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-15T20:24:10.728000+08:00",
+     "publishedAt": "2026-09-15T11:48:13.000Z",
+     "discoveredAt": "2026-09-15T12:24:10.728Z",
+     "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+     "url": "https://www.ithome.com/1/002/750.htm",
+     "aihot": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t",
+     "selected": true,
+     "score": 76,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "每日AI简报：Gemini 3.8、Grok 4.7/4.8 传闻与AI减速之争",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-09-15T17:59:13.689000+08:00",
+     "publishedAt": "2026-09-15T09:32:44.000Z",
+     "discoveredAt": "2026-09-15T09:59:13.689Z",
+     "summary": "Testing Catalog 9月15日AI简报：Gemini 3.8 Live 与 Live Extended Thinking 的 slug 已出现在 Cloud 配额页但未公开；Grok 4.8 为 2.5T 参数模型、跑在新 C++ 栈上，本周训练收尾后进入 RL。",
+     "url": "https://x.com/testingcatalog/status/2099793530218594721",
+     "aihot": "https://aihot.news/items/cmu2i2eyz04forovqby5s90sy",
+     "selected": false,
+     "score": 40,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 4,
+   "items": [
+    {
+     "n": 3,
+     "title": "Gemini Notebook 移动端将推出语音模式和录音功能，Interactive Reports 一同推送",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-09-16T06:29:13.207000+08:00",
+     "publishedAt": "2026-09-15T22:04:04.000Z",
+     "discoveredAt": "2026-09-15T22:29:13.207Z",
+     "summary": "Google 为 NotebookLM（Gemini Notebook）推出新功能，包括实时语音对话笔记（支持近 100 种语言）、移动端录课、交互式学习指南与自定义测验、可分享的 60 秒短视频概览。语音录音功能下周起向所有用户推送，支持英语及部分其他语言。符合条件的大学生还可免费领取一年 Google AI。",
+     "url": "https://x.com/testingcatalog/status/2099982610034274611",
+     "aihot": "https://aihot.news/items/cmu38uvkj0florosaaqc3lpn8",
+     "selected": false,
+     "score": 55,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-09-16T01:17:49.795000+08:00",
+     "publishedAt": "2026-09-15T17:05:57.000Z",
+     "discoveredAt": "2026-09-15T17:17:49.795Z",
+     "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+     "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+     "aihot": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
+     "selected": true,
+     "score": 70,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "MarkTechPost（RSS）",
+       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音智能体模型",
+       "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents",
+       "aihot": "https://aihot.news/items/cmu36b7nu0a4zrosal8s6k5bk"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音对话模型",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+       "aihot": "https://aihot.news/items/cmu32xlqh03s1roaa3gx16qep"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "Google 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking 语音对话模型",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+       "aihot": "https://aihot.news/items/cmu345vo707y7rosaosfgvjxg"
+      },
+      {
+       "source": "IT之家（RSS）",
+       "title": "谷歌推出 Gemini 3.8 Live 和 3.8 Live Extended Thinking 实时对话模型，支持 97 种语言切换",
+       "url": "https://www.ithome.com/1/002/824.htm",
+       "aihot": "https://aihot.news/items/cmu3atmhx0hm5rosawhohpeiu"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking，登顶语音对语音榜",
+       "url": "https://x.com/rohanpaul_ai/status/2099942230379401250",
+       "aihot": "https://aihot.news/items/cmu32wc7903q4roaahfopuizy"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google 发布 Gemini 3.8 Live 语音模型，以低价对标 OpenAI GPT-Live-1",
+       "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost",
+       "aihot": "https://aihot.news/items/cmu310vzo08ljroc13a3xzfza"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音对话模型，Simon Willison 自制网页 UI 实测",
+       "url": "https://simonwillison.net/2026/Sep/15/gemini-live",
+       "aihot": "https://aihot.news/items/cmu3c8qcp0j1brosa5g6ipz4p"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "Google 发布 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 音频模型",
+       "url": "https://x.com/testingcatalog/status/2099909636782530705",
+       "aihot": "https://aihot.news/items/cmu2y52y303exroc1jic28f53"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Gemini 3.8 Live 语音模型评测：Extended Thinking 版登顶 Speech to Speech Index",
+       "url": "https://x.com/ArtificialAnlys/status/2099977679307243773",
+       "aihot": "https://aihot.news/items/cmu37huuc0b87rosawappag22"
+      },
+      {
+       "source": "X：Google AI (@GoogleAI)",
+       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 音频模型",
+       "url": "https://x.com/GoogleAI/status/2099908000924193124",
+       "aihot": "https://aihot.news/items/cmu2xo2ro02uaroc1ft61n8dg"
+      },
+      {
+       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 实时语音模型",
+       "url": "https://x.com/OfficialLoganK/status/2099909465705447807",
+       "aihot": "https://aihot.news/items/cmu2yc5y303juroc1xb22sggy"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
+       "url": "https://x.com/GoogleDeepMind/status/2099907440422830269",
+       "aihot": "https://aihot.news/items/cmu2y44b703dlroc1ciq1wgw4"
+      },
+      {
+       "source": "X：洪明 (@hongming731)",
+       "title": "黄仁勋谈AI安全，Gemini 3.8 Live发布实时多模态",
+       "url": "https://x.com/hongming731/status/2100013396179681576",
+       "aihot": "https://aihot.news/items/cmu3cg1mf0jcsrosam8mhp9cl"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google 发布 Gemini 3.8 Live 及扩展思考版",
+       "url": "https://x.com/rohanpaul_ai/status/2100018175580774469",
+       "aihot": "https://aihot.news/items/cmu3dm57c03zlrotb4qcoz8k3"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 模型名现身 GCP Console 配额页",
+       "url": "https://x.com/testingcatalog/status/2099779875687055790",
+       "aihot": "https://aihot.news/items/cmu2fx7bp02vzro6m4nlxkwrc"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
+     "source": "Google Blog：AI（RSS）",
+     "ts": "2026-09-16T00:17:57.554000+08:00",
+     "publishedAt": "2026-09-15T16:00:00.000Z",
+     "discoveredAt": "2026-09-15T16:17:57.554Z",
+     "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
+     "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
+     "aihot": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s",
+     "selected": true,
+     "score": 62,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "Apple 推出基于 Google Gemini 重构的 Siri AI 测试版，暂不登陆欧盟",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-15T18:49:49.658000+08:00",
+     "publishedAt": "2026-09-15T10:33:03.000Z",
+     "discoveredAt": "2026-09-15T10:49:49.658Z",
+     "summary": "Apple 在多年延迟后以 beta 形式发布基于 Google Gemini 模型重构的 Siri AI，目前仅支持英语，属于 iOS 27 等 2027 软件版本的一部分，模型部分在设备端运行、部分经 Private Cloud Compute 处理。",
+     "url": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu",
+     "aihot": "https://aihot.news/items/cmu2jvfh906ihrovqxr1rxiqf",
+     "selected": false,
+     "score": 75,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 1,
+   "items": [
+    {
+     "n": 7,
+     "title": "前 Google DeepMind 对齐研究员 Bilal 发文离职并警告 AI 可能危及人类",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-15T11:12:23.073000+08:00",
+     "publishedAt": "2026-09-15T03:06:42.000Z",
+     "discoveredAt": "2026-09-15T03:12:23.073Z",
+     "summary": "曾在 Google DeepMind 从事 AGI 安全与对齐研究的 Bilal 发文宣布离职，称 AI 有可能杀死人类，且避免这一结果的时间可能所剩不多。",
+     "url": "https://x.com/rohanpaul_ai/status/2099696381304926432",
+     "aihot": "https://aihot.news/items/cmu23j7tu07q1row2l9b4xqxe",
+     "selected": false,
+     "score": 54,
+     "category": "industry"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 2,
+   "items": [
+    {
+     "n": 8,
+     "title": "OpenAI 称已与 Anthropic、Google DeepMind 就 AI 安全协调数周",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-15T23:48:23.690000+08:00",
+     "publishedAt": "2026-09-15T15:47:03.000Z",
+     "discoveredAt": "2026-09-15T15:48:23.690Z",
+     "summary": "OpenAI 全球政策负责人 Chris Lehane 周二向记者确认，公司与 Anthropic、Google DeepMind 就 AI 安全已进行了数周磋商。",
+     "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
+     "aihot": "https://aihot.news/items/cmu2ujdr602ierowkgkfb0hn7",
+     "selected": false,
+     "score": 68,
+     "category": "tip",
+     "also": [
+      {
+       "source": "IT之家（RSS）",
+       "title": "OpenAI 与 Anthropic、谷歌 DeepMind 合作研究 AI 安全措施",
+       "url": "https://www.ithome.com/1/002/792.htm",
+       "aihot": "https://aihot.news/items/cmu2toatw06krro3xd6ehlh0r"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "title": "谷歌 DeepMind 前员工 Bilal Chughtai 警告 AI 有能力灭绝人类",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-15T15:24:08.629000+08:00",
+     "publishedAt": "2026-09-15T06:48:40.000Z",
+     "discoveredAt": "2026-09-15T07:24:08.629Z",
+     "summary": "谷歌 DeepMind 前研究工程师比拉尔 · 丘格泰（Bilal Chughtai）于周一在 X 平台发文警告，AI 有能力\"灭绝全人类\"，人类规避这一后果的时间可能正在耗尽。他于 2026 年 7 月离职，此前从事 AGI 安全与对齐研究，并称安全驾驭 AI 可行，但需避免 AI 企业间的疯狂竞赛。",
+     "url": "https://www.ithome.com/1/002/547.htm",
+     "aihot": "https://aihot.news/items/cmu2cixik05akro25swhq8ktm",
+     "selected": false,
+     "score": 48,
+     "category": "tip"
+    }
+   ],
+   "note": null
+  }
+ ],
+ "order": [
+  "ai-models",
+  "ai-products",
+  "industry",
+  "paper",
+  "tip"
+ ]
+};
+
+/* ---------- 关键词高亮 ---------- */
+const KEYWORDS = DATA.meta.highlight;
+const KW_RE = new RegExp("(" + KEYWORDS.map(k => k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|") + ")","gi");
+const esc = s => String(s == null ? "" : s)
+  .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const hl = s => esc(s).replace(KW_RE, "<mark>$1</mark>");
+
+/* ---------- 时间口径 ---------- */
+function timelineTs(it){
+  const d = Date.parse(it.discoveredAt);
+  if (!it.publishedAt) return d;
+  const p = Date.parse(it.publishedAt);
+  if (isNaN(p)) return d;
+  return (d - p > 72*3600*1000) ? p : d;
+}
+function pubTs(it){
+  const p = Date.parse(it.publishedAt);
+  return isNaN(p) ? Date.parse(it.discoveredAt) : p;
+}
+const TS_FN = { timeline: timelineTs, published: pubTs };
+
+const CST_DATE = new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"});
+const CST_HM   = new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false});
+const CST_MD   = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"numeric",day:"numeric"});
+const cstDate  = t => CST_DATE.format(new Date(t));
+const cstHM    = t => CST_HM.format(new Date(t));
+
+function relTime(t){
+  const now = Date.now(), diff = now - t;
+  if (diff < 60000) return "刚刚";
+  const min = Math.floor(diff/60000);
+  if (min < 60) return min + " 分钟前";
+  const h = Math.floor(min/60);
+  const dayDelta = Math.round((Date.parse(cstDate(now)+"T00:00:00Z") - Date.parse(cstDate(t)+"T00:00:00Z"))/86400000);
+  if (dayDelta === 0) return h + " 小时前";
+  if (dayDelta === 1) return "昨天 " + cstHM(t);
+  if (dayDelta < 7) return dayDelta + " 天前";
+  return CST_MD.format(new Date(t));
+}
+
+/* ---------- 状态 ---------- */
+const state = { mode: "timeline", only: null };
+
+/* ---------- KPI ---------- */
+function renderKpis(){
+  const m = DATA.meta;
+  const total = DATA.sections.reduce((a,s)=>a+s.items.length,0);
+  const max = Math.max(1, ...DATA.sections.map(s=>s.items.length));
+  const dist = DATA.sections.map(s => `
+    <div>
+      <div class="lab"><span>${esc(s.label)}</span><span>${s.items.length}</span></div>
+      <div class="bar"><i style="width:${(s.items.length/max*100).toFixed(1)}%"></i></div>
+    </div>`).join("");
+
+  document.getElementById("h1").textContent = m.company + " · 最近 " + m.windowDays + " 天动态追踪";
+  document.getElementById("sub").innerHTML =
+    "对 " + m.keywords.map(k=>`<code>${esc(k)}</code>`).join(" / ") + " 做全文检索，覆盖模型、产品、行业、论文与观点五类动态，"
+    + "按固定版块分组并全局连续编号。相关性分层口径：<code>" + esc(m.tiers) + "</code>"
+    + (m.dedupe ? "，已开启同题聚合。" : "，未开启同题聚合。");
+
+  document.getElementById("kpis").innerHTML = `
+    <div class="kpi">
+      <div class="k">时间窗</div>
+      <div class="v">最近 ${m.windowDays} 天</div>
+      <div class="n">${esc(m.winStart)} ~ ${esc(m.winEnd)} · 北京时间</div>
+    </div>
+    <div class="kpi">
+      <div class="k">命中总数</div>
+      <div class="v">${m.rawHits}<small> 条</small></div>
+      <div class="n">去重命中（每查询取前 ${m.perQueryLimit} 条）· 精选池 ${m.selectedHits} 条 · 入选 ${m.shown} 条</div>
+    </div>
+    <div class="kpi">
+      <div class="k">检索关键词</div>
+      <div class="v" style="font-size:16px;margin-top:7px">全文搜索 q</div>
+      <div class="kwrow">${m.keywords.map(k=>`<span class="kw">${esc(k)}</span>`).join("")}</div>
+    </div>
+    <div class="kpi">
+      <div class="k">分类分布</div>
+      <div class="dist">${dist}</div>
+    </div>`;
+
+  document.getElementById("tb").innerHTML =
+    `时间窗 <b>最近 ${m.windowDays} 天</b> · 入选 <b>${total}</b> 条` +
+    (m.dedupedFrom ? ` · 同题聚合自 <b>${m.dedupedFrom}</b> 条` : "") +
+    ` · 生成于 <b>${esc(m.generated)}</b>`;
+
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = `<button class="tab" data-cat="" aria-pressed="true">全部</button>` +
+    DATA.sections.filter(s=>s.items.length).map(s =>
+      `<button class="tab" data-cat="${esc(s.slug)}" aria-pressed="false">${esc(s.label)} ${s.items.length}</button>`).join("");
+  tabs.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
+    state.only = b.dataset.cat || null;
+    tabs.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    renderStream();
+  }));
+}
+
+/* ---------- 动态流 ---------- */
+function renderStream(){
+  const tsOf = TS_FN[state.mode];
+  const html = DATA.sections.map((s, si) => {
+    if (state.only && state.only !== s.slug) return "";
+    const idx = String(si+1).padStart(2,"0");
+    if (!s.items.length){
+      return `<section class="sec">
+        <div class="sec-head"><span class="sec-idx">${idx}</span><h2>${esc(s.label)}</h2>
+          <span class="cnt">0 条</span></div>
+        <div class="empty">本时间窗内，关键词全文检索没有命中该分类的条目。
+          ${s.note ? `<span class="note">${esc(s.note)}</span>` : ""}</div>
+      </section>`;
+    }
+    const sorted = s.items.slice().sort((a,b)=> tsOf(b) - tsOf(a));
+    const items = sorted.map(it => {
+      const t = tsOf(it);
+      const badge = it.selected
+        ? '<span class="badge sel">精选</span>'
+        : '<span class="badge all">全量池</span>';
+      const score = (it.score == null ? "" : `<span class="sep">·</span><span>评分 ${it.score}</span>`);
+      const also = (it.also && it.also.length)
+        ? `<div class="also"><b>同题其他来源（${it.also.length}）：</b>` +
+          it.also.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer" title="${esc(a.title)}">${esc(a.source)}</a>`).join(" · ") +
+          `</div>` : "";
+      return `<li class="item${it.selected ? " is-sel" : ""}">
+        <div class="num">${String(it.n).padStart(2,"0")}</div>
+        <article class="body">
+          <h3 class="t"><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${hl(it.title)}</a></h3>
+          <div class="meta">
+            ${badge}
+            <span class="src">${esc(it.source)}</span>
+            <span class="sep">·</span>
+            <span class="time" title="北京时间">${relTime(t)}</span>
+            ${score}
+          </div>
+          <p class="sum">${hl(it.summary)}</p>
+          ${also}
+          <a class="lnk" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">原文链接 ↗
+            <span style="font-weight:500;opacity:.75">（第三方原文）</span></a>
+        </article>
+      </li>`;
+    }).join("");
+    return `<section class="sec">
+      <div class="sec-head"><span class="sec-idx">${idx}</span><h2>${esc(s.label)}</h2>
+        <span class="cnt">${s.items.length} 条</span></div>
+      <ul class="list">${items}</ul>
+    </section>`;
+  }).join("");
+
+  document.getElementById("stream").innerHTML = html ||
+    `<div class="empty" style="margin-top:30px">该版块在当前筛选下没有条目。</div>`;
+}
+
+function renderFoot(){
+  const m = DATA.meta;
+  const trail = (m.trail || []).map(t =>
+    `<tr><td>${esc(t.q)}</td><td>${esc(t.mode)}</td><td>${t.count}</td><td>${t.hasMore ? "是" : "否"}</td><td>${t.from_cache ? "缓存" : "网络"}</td></tr>`).join("");
+  document.getElementById("foot").innerHTML = `
+    <p><b>数据来源</b>：AI HOT v1 只读 API（<code>${esc(m.api)}</code>）。接口原生时间窗为 <code>24h</code> / <code>7d</code>，
+    排序口径为 <code>by=${esc(m.by)}</code>；慢推信源（官方博客、公众号、HuggingFace Daily）按收录时间计入。</p>
+    <p><b>筛选口径</b>：关键词 ${esc(m.keywords.join(" / "))} × 池 ${esc(m.modes)} 共 ${(m.trail||[]).length} 次检索，去重命中 ${m.rawHits} 条，
+    取相关性分层 <span class="kw">${esc(m.tiers)}</span> 得入选 ${m.shown} 条${m.dedupedFrom ? `（同题聚合前 ${m.dedupedFrom} 条）` : ""}。
+    标记 <span class="badge sel">精选</span> 为 AI HOT 精选条目，<span class="badge all">全量池</span> 为未进入精选的公开动态。</p>
+    <p><b>免责</b>：${esc(m.copyright)}。摘要由 AI HOT 提供，引用数字与政策表述请回第三方原文核对。</p>
+    <details>
+      <summary>检索日志（${(m.trail||[]).length} 次请求）</summary>
+      <table class="trail"><thead><tr><th>关键词 q</th><th>池 mode</th><th>命中</th><th>还有更多</th><th>来源</th></tr></thead>
+      <tbody>${trail}</tbody></table>
+    </details>`;
+}
+
+document.getElementById("btn-window").addEventListener("click", () => {
+  state.mode = (state.mode === "timeline") ? "published" : "timeline";
+  document.getElementById("btn-window").textContent =
+    "口径：" + (state.mode === "timeline" ? "时间轴（AI HOT）" : "原文发布时间");
+  renderStream();
+});
+
+renderKpis();
+renderStream();
+renderFoot();
+</script>
+</body>
+</html>
