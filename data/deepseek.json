@@ -14,11 +14,11 @@
   "windowDays": 1,
   "winStart": "2026-09-16",
   "winEnd": "2026-09-17",
-  "generated": "2026-09-17 11:03",
+  "generated": "2026-09-17 13:55",
   "rawHits": 15,
   "selectedHits": 0,
-  "shown": 6,
-  "dedupedFrom": 6,
+  "shown": 5,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -111,7 +111,7 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 5,
+   "count": 4,
    "items": [
     {
      "n": 2,
@@ -167,20 +167,6 @@
      "aihot": "https://aihot.news/items/cmu3rz0fq0cyoroc1j3swvxf4",
      "selected": false,
      "score": 45,
-     "category": "tip"
-    },
-    {
-     "n": 6,
-     "title": "DeepSeek V4.1 attention kernel 负责人 Liu Shengyu 文章刷屏，将 Anthropic 掌控 AGI 比作希特勒掌握原子弹",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-09-16T12:27:09.548000+08:00",
-     "publishedAt": "2026-09-16T04:00:37.000Z",
-     "discoveredAt": "2026-09-16T04:27:09.548Z",
-     "summary": "DeepSeek V4.1 attention kernel 负责人 Liu Shengyu 的文章在微信公众号获得 10 万+ 阅读并登上知乎热榜第一。文中将 Anthropic 控制 AGI 比作希特勒获得原子弹，并设想未来要么走向\"赛博共产主义\"，要么是 Cyberpunk 2077 式的公司垄断。",
-     "url": "https://x.com/thexpin/status/2100072339866329546",
-     "aihot": "https://aihot.news/items/cmu3ln6v006d6roo4ic9ow6cu",
-     "selected": false,
-     "score": 60,
      "category": "tip"
     }
    ],

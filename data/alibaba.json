@@ -16,11 +16,11 @@
   "windowDays": 1,
   "winStart": "2026-09-16",
   "winEnd": "2026-09-17",
-  "generated": "2026-09-17 11:03",
-  "rawHits": 22,
+  "generated": "2026-09-17 13:55",
+  "rawHits": 26,
   "selectedHits": 0,
   "shown": 8,
-  "dedupedFrom": 9,
+  "dedupedFrom": 10,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 17,
+    "count": 20,
     "hasMore": false,
     "from_cache": false
    },
@@ -108,30 +108,29 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "阿里云QwenWork落地香港小学教学场景",
-     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-     "ts": "2026-09-16T13:29:13.386000+08:00",
-     "publishedAt": "2026-09-16T05:22:09.000Z",
-     "discoveredAt": "2026-09-16T05:29:13.386Z",
-     "summary": "香港Kei Tsz Primary School超半数教职工将从首日起在日常工作中使用AI。教师可用QwenWork将文本、图像、音频和视频转化为现成教学材料，加快备课并分担行政事务；学生将在IT和STEAM课上用AI与云工具创建网站、应用、游戏和数字内容。",
-     "url": "https://x.com/alibaba_cloud/status/2100092855129637309",
-     "aihot": "https://aihot.news/items/cmu3nv0v705rfroc11ibi6pyb",
-     "selected": false,
-     "score": 29,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
+   "count": 5,
    "items": [
+    {
+     "n": 2,
+     "title": "香港三所小学与QwenWork合作试点AI教学",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-17T13:29:13.416000+08:00",
+     "publishedAt": "2026-09-17T05:24:53.000Z",
+     "discoveredAt": "2026-09-17T05:29:13.416Z",
+     "summary": "香港三所小学与QwenWork签署MoU，成为该市首批将AI引入日常教学与校务的试点小学。QwenWork可帮教师将文本、图像、音频、视频转为现成教学材料，并支持行政工作；学生将在IT和STEAM课上用AI与云工具创建网站、应用和游戏。中华基督教会基慈小学超半数教职工将从第一天起在日常工作中使用AI。",
+     "url": "https://x.com/alibaba_cloud/status/2100455931507069100",
+     "aihot": "https://aihot.news/items/cmu53avwc09ltroqbmvjo3o4n",
+     "selected": false,
+     "score": 28,
+     "category": "industry"
+    },
     {
      "n": 3,
      "title": "美国政府搜索模式用蒸馏Qwen模型",
@@ -158,7 +157,15 @@
      "aihot": "https://aihot.news/items/cmu40pyfn0mynroc1ttqildfo",
      "selected": false,
      "score": 16,
-     "category": "industry"
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+       "title": "松下将在阿里云大会分享企业AI转型",
+       "url": "https://x.com/alibaba_cloud/status/2100421858436759676",
+       "aihot": "https://aihot.news/items/cmu4z0iy704rjroqb9ku100dr"
+      }
+     ]
     },
     {
      "n": 5,

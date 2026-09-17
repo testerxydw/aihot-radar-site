@@ -16,8 +16,8 @@
   "windowDays": 1,
   "winStart": "2026-09-16",
   "winEnd": "2026-09-17",
-  "generated": "2026-09-17 11:02",
-  "rawHits": 28,
+  "generated": "2026-09-17 13:54",
+  "rawHits": 32,
   "selectedHits": 1,
   "shown": 9,
   "dedupedFrom": 13,
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 12,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 16,
+    "count": 20,
     "hasMore": false,
     "from_cache": false
    },
