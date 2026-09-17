@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-15",
-  "winEnd": "2026-09-16",
-  "generated": "2026-09-16 11:32",
-  "rawHits": 38,
-  "selectedHits": 3,
-  "shown": 8,
-  "dedupedFrom": 24,
+  "winStart": "2026-09-16",
+  "winEnd": "2026-09-17",
+  "generated": "2026-09-17 11:02",
+  "rawHits": 28,
+  "selectedHits": 1,
+  "shown": 9,
+  "dedupedFrom": 13,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 14,
+    "count": 12,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 30,
+    "count": 16,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,34 +86,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-15T20:24:10.728000+08:00",
-     "publishedAt": "2026-09-15T11:48:13.000Z",
-     "discoveredAt": "2026-09-15T12:24:10.728Z",
-     "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
-     "url": "https://www.ithome.com/1/002/750.htm",
-     "aihot": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t",
-     "selected": true,
-     "score": 76,
+     "title": "Gemini Enterprise Agent Platform 上线 Agent Anomaly Detection 私密预览",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-09-17T04:05:10.176000+08:00",
+     "publishedAt": "2026-09-16T20:05:10.176Z",
+     "discoveredAt": "2026-09-16T20:05:10.176Z",
+     "summary": "Google 在 Gemini Enterprise Agent Platform 上为 Agent Anomaly Detection 开启 Private Preview，用推理层审计智能体的推理轨迹、工具调用与执行流程，异步运行不增加请求延迟。",
+     "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform",
+     "aihot": "https://aihot.news/items/cmu4j7dcr0sumro4wpu3qcgwc",
+     "selected": false,
+     "score": 48,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "每日AI简报：Gemini 3.8、Grok 4.7/4.8 传闻与AI减速之争",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-09-15T17:59:13.689000+08:00",
-     "publishedAt": "2026-09-15T09:32:44.000Z",
-     "discoveredAt": "2026-09-15T09:59:13.689Z",
-     "summary": "Testing Catalog 9月15日AI简报：Gemini 3.8 Live 与 Live Extended Thinking 的 slug 已出现在 Cloud 配额页但未公开；Grok 4.8 为 2.5T 参数模型、跑在新 C++ 栈上，本周训练收尾后进入 RL。",
-     "url": "https://x.com/testingcatalog/status/2099793530218594721",
-     "aihot": "https://aihot.news/items/cmu2i2eyz04forovqby5s90sy",
+     "title": "Gemini Canvas 助你3D打印创意",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-09-17T01:58:28.544000+08:00",
+     "publishedAt": "2026-09-16T17:30:28.000Z",
+     "discoveredAt": "2026-09-16T17:58:28.544Z",
+     "summary": "用 Gemini 把灵感变成实物。 借助 Gemini 中的 Canvas，你可以编写一个自定义应用来设计花瓶，并调整其数学参数以进行 3D 可视化。然后将其导出为 .STL 文件用于 3D 打印，看你的想法成形。",
+     "url": "https://x.com/GeminiApp/status/2100276144633434150",
+     "aihot": "https://aihot.news/items/cmu4emjvp0kl5ro4wcnbbfhlo",
      "selected": false,
-     "score": 40,
+     "score": 38,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Google 发布 Gemini 3.8 Live 与 3.5 Transcribe 实时语音模型",
+     "source": "Google AI：DEV 作者专属（RSS）",
+     "ts": "2026-09-16T23:13:22.434000+08:00",
+     "publishedAt": "2026-09-16T14:30:05.000Z",
+     "discoveredAt": "2026-09-16T15:13:22.434Z",
+     "summary": "Google 在 Gemini API 和 Google AI Studio 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音模型，支持异步函数调用、视觉上下文、97+ 语言和可配置思考，Extended Thinking 版位列 Artificial Analys…",
+     "url": "https://dev.to/googleai/build-real-time-voice-applications-with-gemini-38-live-and-35-transcribe-4nb5",
+     "aihot": "https://aihot.news/items/cmu48q7gn0dwtro4wp12lkplz",
+     "selected": false,
+     "score": 69,
      "category": "ai-models"
     }
    ],
@@ -122,154 +136,20 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 4,
+   "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "Gemini Notebook 移动端将推出语音模式和录音功能，Interactive Reports 一同推送",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-09-16T06:29:13.207000+08:00",
-     "publishedAt": "2026-09-15T22:04:04.000Z",
-     "discoveredAt": "2026-09-15T22:29:13.207Z",
-     "summary": "Google 为 NotebookLM（Gemini Notebook）推出新功能，包括实时语音对话笔记（支持近 100 种语言）、移动端录课、交互式学习指南与自定义测验、可分享的 60 秒短视频概览。语音录音功能下周起向所有用户推送，支持英语及部分其他语言。符合条件的大学生还可免费领取一年 Google AI。",
-     "url": "https://x.com/testingcatalog/status/2099982610034274611",
-     "aihot": "https://aihot.news/items/cmu38uvkj0florosaaqc3lpn8",
-     "selected": false,
-     "score": 55,
-     "category": "ai-products"
-    },
-    {
      "n": 4,
-     "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-     "source": "Google DeepMind：Blog（RSS）",
-     "ts": "2026-09-16T01:17:49.795000+08:00",
-     "publishedAt": "2026-09-15T17:05:57.000Z",
-     "discoveredAt": "2026-09-15T17:17:49.795Z",
-     "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
-     "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-     "aihot": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
-     "selected": true,
-     "score": 70,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音智能体模型",
-       "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents",
-       "aihot": "https://aihot.news/items/cmu36b7nu0a4zrosal8s6k5bk"
-      },
-      {
-       "source": "Hacker News：AI 热帖",
-       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音对话模型",
-       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
-       "aihot": "https://aihot.news/items/cmu32xlqh03s1roaa3gx16qep"
-      },
-      {
-       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-       "title": "Google 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking 语音对话模型",
-       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
-       "aihot": "https://aihot.news/items/cmu345vo707y7rosaosfgvjxg"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "谷歌推出 Gemini 3.8 Live 和 3.8 Live Extended Thinking 实时对话模型，支持 97 种语言切换",
-       "url": "https://www.ithome.com/1/002/824.htm",
-       "aihot": "https://aihot.news/items/cmu3atmhx0hm5rosawhohpeiu"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Google 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking，登顶语音对语音榜",
-       "url": "https://x.com/rohanpaul_ai/status/2099942230379401250",
-       "aihot": "https://aihot.news/items/cmu32wc7903q4roaahfopuizy"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Google 发布 Gemini 3.8 Live 语音模型，以低价对标 OpenAI GPT-Live-1",
-       "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost",
-       "aihot": "https://aihot.news/items/cmu310vzo08ljroc13a3xzfza"
-      },
-      {
-       "source": "Simon Willison 博客",
-       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音对话模型，Simon Willison 自制网页 UI 实测",
-       "url": "https://simonwillison.net/2026/Sep/15/gemini-live",
-       "aihot": "https://aihot.news/items/cmu3c8qcp0j1brosa5g6ipz4p"
-      },
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "Google 发布 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 音频模型",
-       "url": "https://x.com/testingcatalog/status/2099909636782530705",
-       "aihot": "https://aihot.news/items/cmu2y52y303exroc1jic28f53"
-      },
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Gemini 3.8 Live 语音模型评测：Extended Thinking 版登顶 Speech to Speech Index",
-       "url": "https://x.com/ArtificialAnlys/status/2099977679307243773",
-       "aihot": "https://aihot.news/items/cmu37huuc0b87rosawappag22"
-      },
-      {
-       "source": "X：Google AI (@GoogleAI)",
-       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 音频模型",
-       "url": "https://x.com/GoogleAI/status/2099908000924193124",
-       "aihot": "https://aihot.news/items/cmu2xo2ro02uaroc1ft61n8dg"
-      },
-      {
-       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
-       "title": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 实时语音模型",
-       "url": "https://x.com/OfficialLoganK/status/2099909465705447807",
-       "aihot": "https://aihot.news/items/cmu2yc5y303juroc1xb22sggy"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
-       "url": "https://x.com/GoogleDeepMind/status/2099907440422830269",
-       "aihot": "https://aihot.news/items/cmu2y44b703dlroc1ciq1wgw4"
-      },
-      {
-       "source": "X：洪明 (@hongming731)",
-       "title": "黄仁勋谈AI安全，Gemini 3.8 Live发布实时多模态",
-       "url": "https://x.com/hongming731/status/2100013396179681576",
-       "aihot": "https://aihot.news/items/cmu3cg1mf0jcsrosam8mhp9cl"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Google 发布 Gemini 3.8 Live 及扩展思考版",
-       "url": "https://x.com/rohanpaul_ai/status/2100018175580774469",
-       "aihot": "https://aihot.news/items/cmu3dm57c03zlrotb4qcoz8k3"
-      },
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 模型名现身 GCP Console 配额页",
-       "url": "https://x.com/testingcatalog/status/2099779875687055790",
-       "aihot": "https://aihot.news/items/cmu2fx7bp02vzro6m4nlxkwrc"
-      }
-     ]
-    },
-    {
-     "n": 5,
-     "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
-     "source": "Google Blog：AI（RSS）",
-     "ts": "2026-09-16T00:17:57.554000+08:00",
-     "publishedAt": "2026-09-15T16:00:00.000Z",
-     "discoveredAt": "2026-09-15T16:17:57.554Z",
-     "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
-     "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
-     "aihot": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s",
-     "selected": true,
-     "score": 62,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "Apple 推出基于 Google Gemini 重构的 Siri AI 测试版，暂不登陆欧盟",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-09-15T18:49:49.658000+08:00",
-     "publishedAt": "2026-09-15T10:33:03.000Z",
-     "discoveredAt": "2026-09-15T10:49:49.658Z",
-     "summary": "Apple 在多年延迟后以 beta 形式发布基于 Google Gemini 模型重构的 Siri AI，目前仅支持英语，属于 iOS 27 等 2027 软件版本的一部分，模型部分在设备端运行、部分经 Private Cloud Compute 处理。",
-     "url": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu",
-     "aihot": "https://aihot.news/items/cmu2jvfh906ihrovqxr1rxiqf",
+     "title": "每日AI简报：Gemini 3.8 Live发布，GPT-5.5将下线",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-09-16T16:59:13.173000+08:00",
+     "publishedAt": "2026-09-16T08:32:20.000Z",
+     "discoveredAt": "2026-09-16T08:59:13.173Z",
+     "summary": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking，支持 97 种语言自动检测、近实时视觉与后台工具调用，Live 已进入 Search Live 和 Gemini API 公开预览。",
+     "url": "https://x.com/testingcatalog/status/2100140717058195825",
+     "aihot": "https://aihot.news/items/cmu3vd3440gprroc1yqlh912i",
      "selected": false,
-     "score": 75,
+     "score": 37,
      "category": "ai-products"
     }
    ],
@@ -278,56 +158,118 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 5,
+     "title": "Google 将 Apple Messages 集成进 Gemini 桌面端",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-09-17T04:29:13.350000+08:00",
+     "publishedAt": "2026-09-16T20:21:11.000Z",
+     "discoveredAt": "2026-09-16T20:29:13.350Z",
+     "summary": "Google 正在将 Apple Messages 集成到其 Gemini 桌面应用中！ 启用后，Gemini Spark 可以原生操作本地 Messages 应用。* 尚未公开可用。 &gt； \"在 Apple Messages 中读取、搜索和发送消息\" h/t @bedros_p",
+     "url": "https://x.com/testingcatalog/status/2100319107002376552",
+     "aihot": "https://aihot.news/items/cmu4k0emx0tspro4w94xv1wu4",
+     "selected": false,
+     "score": 24,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 6,
+     "title": "Google DeepMind 成立 DeepMind Institute 研究 AGI 影响",
+     "source": "X：Kim (@kimmonismus)",
+     "ts": "2026-09-16T23:12:23.826000+08:00",
+     "publishedAt": "2026-09-16T14:55:59.000Z",
+     "discoveredAt": "2026-09-16T15:12:23.826Z",
+     "summary": "Google DeepMind 新设 DeepMind Institute，研究 AGI 对经济、科学与社会的影响。Demis Hassabis 称与 ShaneLegg 讨论 AGI 影响已 20 多年，该机构将扩展 AI 时代关键问题的跨学科研究。",
+     "url": "https://x.com/kimmonismus/status/2100237265221910770",
+     "aihot": "https://aihot.news/items/cmu48ozgw0duero4w4u8xjd04",
+     "selected": false,
+     "score": 49,
+     "category": "paper",
+     "also": [
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google DeepMind 成立 DeepMind Institute，跨学科研究 AGI 安全与治理",
+       "url": "https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi",
+       "aihot": "https://aihot.news/items/cmu4d9gsd0jb5ro4wx4tk4z27"
+      },
+      {
+       "source": "X：Demis Hassabis (@demishassabis)",
+       "title": "DeepMind 成立研究所研究 AGI 影响",
+       "url": "https://x.com/demishassabis/status/2100230524383981702",
+       "aihot": "https://aihot.news/items/cmu4872zv0d89ro4wa4bhe742"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google DeepMind 成立 DeepMind Institute 探索 AGI",
+       "url": "https://x.com/rohanpaul_ai/status/2100281753256816820",
+       "aihot": "https://aihot.news/items/cmu4f4gje0okhro4wa3dojf01"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "DeepMind 研究所上线：institute.deepmind.com",
+       "url": "https://institute.deepmind.com/",
+       "aihot": "https://aihot.news/items/cmu4mukcn03r7rodcdnxb3cqq"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
+   "count": 3,
    "items": [
     {
      "n": 7,
-     "title": "OpenAI 称已与 Anthropic、Google DeepMind 就 AI 安全协调数周",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-09-15T23:48:23.690000+08:00",
-     "publishedAt": "2026-09-15T15:47:03.000Z",
-     "discoveredAt": "2026-09-15T15:48:23.690Z",
-     "summary": "OpenAI 全球政策负责人 Chris Lehane 周二向记者确认，公司与 Anthropic、Google DeepMind 就 AI 安全已进行了数周磋商。",
-     "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
-     "aihot": "https://aihot.news/items/cmu2ujdr602ierowkgkfb0hn7",
+     "title": "解读 Google DeepMind Dream-RSI 论文：冻结权重、离线筛选探索策略，模型调用最多减少 162 倍",
+     "source": "X：阿易 AI Notes (@AYi_AInotes)",
+     "ts": "2026-09-17T10:09:39.089000+08:00",
+     "publishedAt": "2026-09-17T01:48:49.000Z",
+     "discoveredAt": "2026-09-17T02:09:39.089Z",
+     "summary": "作者解读 Google DeepMind 的 Dream-RSI 论文：冻结大模型权重不动，只自我改进指导搜索、回溯和分支选择的探索策略，并把历史轨迹存成历史树作为离线模拟器低成本试错。",
+     "url": "https://x.com/AYi_AInotes/status/2100401558009598018",
+     "aihot": "https://aihot.news/items/cmu4w67iv0ahcrokckjcprsdf",
      "selected": false,
-     "score": 68,
-     "category": "tip",
-     "also": [
-      {
-       "source": "IT之家（RSS）",
-       "title": "OpenAI 与 Anthropic、谷歌 DeepMind 合作研究 AI 安全措施",
-       "url": "https://www.ithome.com/1/002/792.htm",
-       "aihot": "https://aihot.news/items/cmu2toatw06krro3xd6ehlh0r"
-      }
-     ]
+     "score": 55,
+     "category": "tip"
     },
     {
      "n": 8,
-     "title": "谷歌 DeepMind 前员工 Bilal Chughtai 警告 AI 有能力灭绝人类",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-15T15:24:08.629000+08:00",
-     "publishedAt": "2026-09-15T06:48:40.000Z",
-     "discoveredAt": "2026-09-15T07:24:08.629Z",
-     "summary": "谷歌 DeepMind 前研究工程师比拉尔 · 丘格泰（Bilal Chughtai）于周一在 X 平台发文警告，AI 有能力\"灭绝全人类\"，人类规避这一后果的时间可能正在耗尽。他于 2026 年 7 月离职，此前从事 AGI 安全与对齐研究，并称安全驾驭 AI 可行，但需避免 AI 企业间的疯狂竞赛。",
-     "url": "https://www.ithome.com/1/002/547.htm",
-     "aihot": "https://aihot.news/items/cmu2cixik05akro25swhq8ktm",
+     "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+     "source": "GitHub Blog",
+     "ts": "2026-09-17T09:04:16.828000+08:00",
+     "publishedAt": "2026-09-17T00:26:43.000Z",
+     "discoveredAt": "2026-09-17T01:04:16.828Z",
+     "summary": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+     "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+     "aihot": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp",
+     "selected": true,
+     "score": 86,
+     "category": "tip"
+    },
+    {
+     "n": 9,
+     "title": "如何用 Gemma 4 和树莓派打造桌面陪伴机器人 DinoDesk AI",
+     "source": "Google AI：DEV 作者专属（RSS）",
+     "ts": "2026-09-16T19:13:20.558000+08:00",
+     "publishedAt": "2026-09-16T10:15:52.000Z",
+     "discoveredAt": "2026-09-16T11:13:20.558Z",
+     "summary": "Google 开发者用 Raspberry Pi 搭配本地 PC 网关上的 Gemma 4 与云端 Gemini Flash，构建了 LEGO 桌面机器人 DinoDesk AI，采用本地↔云端混合 LLM 切换架构。",
+     "url": "https://dev.to/googleai/how-we-built-a-desktop-companion-robot-with-gemma-4-and-raspberry-pi-2oke",
+     "aihot": "https://aihot.news/items/cmu405ic50m7broc1zvstclf7",
      "selected": false,
-     "score": 48,
+     "score": 38,
      "category": "tip"
     }
    ],
