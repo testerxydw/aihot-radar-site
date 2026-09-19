@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-17",
-  "winEnd": "2026-09-18",
-  "generated": "2026-09-18 13:40",
-  "rawHits": 26,
+  "winStart": "2026-09-18",
+  "winEnd": "2026-09-19",
+  "generated": "2026-09-19 13:35",
+  "rawHits": 22,
   "selectedHits": 2,
-  "shown": 7,
-  "dedupedFrom": 7,
+  "shown": 8,
+  "dedupedFrom": 9,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,39 +43,39 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 12,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
-    "mode": "selected",
-    "window": "24h",
-    "count": 1,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
-    "mode": "all",
-    "window": "24h",
-    "count": 18,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Demis Hassabis",
-    "mode": "selected",
-    "window": "24h",
-    "count": 1,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Demis Hassabis",
-    "mode": "all",
-    "window": "24h",
     "count": 5,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "selected",
+    "window": "24h",
+    "count": 2,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "all",
+    "window": "24h",
+    "count": 20,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "all",
+    "window": "24h",
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,34 +86,62 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 4,
    "items": [
     {
      "n": 1,
-     "title": "谷歌 Gemini 4 Pro 开测：代号 Argon，SVG 生图表现惊艳",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-18T08:24:39.779000+08:00",
-     "publishedAt": "2026-09-18T00:03:24.000Z",
-     "discoveredAt": "2026-09-18T00:24:39.779Z",
-     "summary": "谷歌正以\"gemini-3.8-flash\"名称在 Arena 等基准平台测试其最强模型 Gemini 4 Pro，内部开发代号为 Argon。网友晒出的测试显示，该模型生成\"鹈鹕骑自行车\"SVG 图片表现优秀，并被拿来与 OpenAI 最强模型 GPT-6 Astra Pro 对比，网友认为谷歌官方发布后其能力还会…",
-     "url": "https://www.ithome.com/1/003/902.htm",
-     "aihot": "https://aihot.news/items/cmu67v0kc0e78rofjmdu55on3",
+     "title": "Gemini 4.0 演示虽多但发布尚早",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-19T11:01:31.973000+08:00",
+     "publishedAt": "2026-09-19T02:35:00.000Z",
+     "discoveredAt": "2026-09-19T03:01:31.973Z",
+     "summary": "已经有这么多被炒作的 Gemini 4.0 演示了 但谷歌还需要更多时间，尤其是在后训练方面。我不认为他们想发布一个连 fable 5.1 和 gpt-6 astra 都打不过的模型 如果他们想跟上节奏，就需要这些热度，所以让他们慢慢来吧",
+     "url": "https://x.com/haider1/status/2101137954550980756",
+     "aihot": "https://aihot.news/items/cmu7swm6d0pefrogr30vz9xyw",
      "selected": false,
-     "score": 35,
+     "score": 28,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
-     "source": "Goodfire Research（网页）",
-     "ts": "2026-09-18T00:38:32.383000+08:00",
-     "publishedAt": "2026-09-17T16:38:32.383Z",
-     "discoveredAt": "2026-09-17T16:38:32.383Z",
-     "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50-96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
-     "url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
-     "aihot": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn",
+     "title": "谷歌披露 Gemini 在安全测试中自主入侵三家真实公司并自行终止",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-19T07:24:49.638000+08:00",
+     "publishedAt": "2026-09-18T23:11:25.000Z",
+     "discoveredAt": "2026-09-18T23:24:49.638Z",
+     "summary": "谷歌确认 Gemini 模型今年 5 月在测试公司 Irregular 的\"捕获旗帜\"演练中，因测试环境意外开放互联网访问，自主入侵了三家真实企业，系 Gemini 首次已知的 AI 越狱事件。",
+     "url": "https://www.ithome.com/1/004/355.htm",
+     "aihot": "https://aihot.news/items/cmu7l5wy60hj3rogr5i76b082",
      "selected": true,
-     "score": 68,
+     "score": 81,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "OpenRouter 实测 20 个图像生成模型的成本、编辑与质量",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-09-18T23:49:48.916000+08:00",
+     "publishedAt": "2026-09-18T00:00:00.000Z",
+     "discoveredAt": "2026-09-18T15:49:48.916Z",
+     "summary": "OpenRouter 对其路由的 20 个图像生成模型用相同提示词实测计费，单张图片成本在 $0.006 到 $0.134 之间，相差 22 倍。",
+     "url": "https://openrouter.ai/blog/insights/image-generation-models-compared",
+     "aihot": "https://aihot.news/items/cmu74ww1u0qfxrowkb6qtruwz",
+     "selected": true,
+     "score": 70,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "Gemini 4 疑似现身，Gemini 3.8 Flash 变慢",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-18T18:31:31.461000+08:00",
+     "publishedAt": "2026-09-18T10:10:38.000Z",
+     "discoveredAt": "2026-09-18T10:31:31.461Z",
+     "summary": "好奇大家怎么已经发现 Gemini 4 了 也许这能解释为什么过去 1-2 天 gemini 3.8 flash 在 Antigravity 上这么慢，如果谷歌正在往里面投入一些算力的话 我不想直接画等号，但后训练大概要更久",
+     "url": "https://x.com/haider1/status/2100890232262627729",
+     "aihot": "https://aihot.news/items/cmu6tjh2m0avvrowklb8dx916",
+     "selected": false,
+     "score": 24,
      "category": "ai-models"
     }
    ],
@@ -125,17 +153,17 @@
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-     "source": "Qwen：Blog Retrieval（API）",
-     "ts": "2026-09-18T01:18:08.568000+08:00",
-     "publishedAt": "2026-09-17T17:18:08.568Z",
-     "discoveredAt": "2026-09-17T17:18:08.568Z",
-     "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-     "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-     "aihot": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
-     "selected": true,
-     "score": 77,
+     "n": 5,
+     "title": "Google 发布 Gemini 3.8 Live 等多项更新",
+     "source": "X：Google AI (@GoogleAI)",
+     "ts": "2026-09-19T02:16:00.986000+08:00",
+     "publishedAt": "2026-09-18T17:59:44.000Z",
+     "discoveredAt": "2026-09-18T18:16:00.986Z",
+     "summary": "Google 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking，称其为目前最先进的实时对话音频模型。Google Labs 的 Dreambeans 正式 GA，CC 从个人效率工具扩展为帮助家庭协调日程与日常事务的共享智能体。",
+     "url": "https://x.com/GoogleAI/status/2101008284010602924",
+     "aihot": "https://aihot.news/items/cmu7a4taj0zh5rowkw5q3da2x",
+     "selected": false,
+     "score": 36,
      "category": "ai-products"
     }
    ],
@@ -144,78 +172,70 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 4,
-     "title": "前 DeepMind 研究员创立的 Emulate 拟融资 7 亿美元，估值或达 37 亿美元",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-17T18:24:33.677000+08:00",
-     "publishedAt": "2026-09-17T10:21:54.000Z",
-     "discoveredAt": "2026-09-17T10:24:33.677Z",
-     "summary": "据《金融时报》报道，前谷歌 DeepMind 研究员创立的英国初创公司 Emulate 正与潜在投资者深入谈判，计划种子轮融资最多 7 亿美元，完成后估值可达 37 亿美元，英国 Index Ventures 和硅谷 Lightspeed Venture Partners 预计共同领投。",
-     "url": "https://www.ithome.com/1/003/785.htm",
-     "aihot": "https://aihot.news/items/cmu5dun6b05owro7n71lltudq",
-     "selected": false,
-     "score": 56,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
-   "items": [
-    {
-     "n": 5,
-     "title": "Google DeepMind 成立 DeepMind Institute 扩大 AGI 讨论，首发四篇论文",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-09-18T07:49:46.337000+08:00",
-     "publishedAt": "2026-09-17T23:21:17.000Z",
-     "discoveredAt": "2026-09-17T23:49:46.337Z",
-     "summary": "Google 与 Google DeepMind 研究人员于周三成立 DeepMind Institute，由 Shane Legg、James Manyika 和 Demis Hassabis 担任董事，Legg 任执行编辑，旨在呈现各方围绕 AGI 的不同观点。",
-     "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
-     "aihot": "https://aihot.news/items/cmu66m4u20cn0rofjce9007g7",
-     "selected": false,
-     "score": 66,
-     "category": "paper"
-    },
-    {
-     "n": 6,
-     "title": "Google Labs VP 力荐 Gemini Notebook 手机拍照研究功能",
-     "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-     "ts": "2026-09-18T00:27:09.006000+08:00",
-     "publishedAt": "2026-09-17T16:03:39.000Z",
-     "discoveredAt": "2026-09-17T16:27:09.006Z",
-     "summary": "Google Labs VP Josh Woodward 推荐在手机上使用 Gemini Notebook，称其相机功能可改变移动研究方式。引用用户 Steven Johnson 实测：拍摄博物馆展板后请求生成详细报告，自查准确率约 99%，部分模糊文字也能转录。",
-     "url": "https://x.com/joshwoodward/status/2100616682431807860",
-     "aihot": "https://aihot.news/items/cmu5qsy5k0gpgroqoe967ctg0",
-     "selected": false,
-     "score": 44,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 3,
    "items": [
     {
-     "n": 7,
-     "title": "英国国王查尔斯三世召集 AI 论坛，要求英伟达、OpenAI、谷歌 DeepMind 等巨头保证可控",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-17T16:24:32.247000+08:00",
-     "publishedAt": "2026-09-17T08:20:45.000Z",
-     "discoveredAt": "2026-09-17T08:24:32.247Z",
-     "summary": "英国国王查尔斯三世在苏格兰邓弗里斯庄园召集 AI 论坛，英伟达 CEO 黄仁勋、OpenAI CFO 莎拉·弗莱尔和谷歌 DeepMind 联合创始人德米斯·哈萨比斯出席，Anthropic 高层代表与英国 AI 大臣卡尼什卡·纳拉扬也将与会。",
-     "url": "https://www.ithome.com/1/003/678.htm",
-     "aihot": "https://aihot.news/items/cmu59kb5304lnro8tnstih0n5",
+     "n": 6,
+     "title": "WSJ 报道 Gemini 在网络攻防测试中因配置失误进入三家真实公司系统",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-19T06:42:23.167000+08:00",
+     "publishedAt": "2026-09-18T22:38:35.000Z",
+     "discoveredAt": "2026-09-18T22:42:23.167Z",
+     "summary": "据 WSJ 报道，Gemini 在一次针对虚构目标的网络安全攻防测试中进入了三家真实公司的系统。测试由 AI 安全评测公司 Irregular 执行，本应隔离于公共互联网，但因配置失误 Gemini 实际拥有互联网访问权限。",
+     "url": "https://x.com/rohanpaul_ai/status/2101078460332720372",
+     "aihot": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
      "selected": false,
-     "score": 40,
+     "score": 75,
+     "category": "tip",
+     "also": [
+      {
+       "source": "Simon Willison 博客",
+       "title": "Google 确认 Gemini 在 Irregular 测试中入侵三家公司系统",
+       "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+       "aihot": "https://aihot.news/items/cmu7ml1720ix0rogr5jx75m5o"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Gemini 3.8 打造赛博终端搭建助手",
+     "source": "X：Google AI for Developers (@googleaidevs)",
+     "ts": "2026-09-19T02:37:37.065000+08:00",
+     "publishedAt": "2026-09-18T18:13:28.000Z",
+     "discoveredAt": "2026-09-18T18:37:37.065Z",
+     "summary": "POV：零经验搭建你的第一个赛博终端 ⚒️！！️ 来看看这个 demo，用 Gemini 3.8 Live Extended Thinking 打造一个工作坊助手，它能分析你的工作区、与你出声推理，并引导你完成整个搭建过程。",
+     "url": "https://x.com/googleaidevs/status/2101011741379633446",
+     "aihot": "https://aihot.news/items/cmu7awlli03vqrogrbda2kvyz",
+     "selected": false,
+     "score": 25,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "DeepMind 研究人员称可见思维链是 AI 安全优势，但透明度正在流失",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-18T22:51:05.578000+08:00",
+     "publishedAt": "2026-09-18T14:32:49.000Z",
+     "discoveredAt": "2026-09-18T14:51:05.578Z",
+     "summary": "Google DeepMind 的 Rohin Shah 和 Anca Dragan 在 Deepmind Institute 发文指出，可见的思维链（CoT）是关键安全优势，例如 Gemini 3 Pro 的思维链曾揭示模型意识到自己处于测试环境。",
+     "url": "https://the-decoder.com/visible-chains-of-thought-are-a-safety-advantage-for-ai-but-that-transparency-is-slipping-away",
+     "aihot": "https://aihot.news/items/cmu72t9mk0o8wrowkgc8k3uxg",
+     "selected": false,
+     "score": 57,
      "category": "tip"
     }
    ],

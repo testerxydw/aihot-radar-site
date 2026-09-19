@@ -173,13 +173,13 @@ const DATA = {
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-17",
-  "winEnd": "2026-09-18",
-  "generated": "2026-09-18 13:40",
-  "rawHits": 16,
-  "selectedHits": 2,
-  "shown": 3,
-  "dedupedFrom": 3,
+  "winStart": "2026-09-18",
+  "winEnd": "2026-09-19",
+  "generated": "2026-09-19 13:35",
+  "rawHits": 7,
+  "selectedHits": 0,
+  "shown": 2,
+  "dedupedFrom": 2,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -194,7 +194,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -202,7 +202,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 16,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -233,16 +233,16 @@ const DATA = {
    "items": [
     {
      "n": 1,
-     "title": "DeepSeek-V4.1-Flash 发布：552B MoE 多模态模型主打 KV cache 压缩",
-     "source": "HuggingFace Daily Papers（社区热门论文）",
-     "ts": "2026-09-18T11:10:21.114000+08:00",
-     "publishedAt": "2026-09-17T00:00:00.000Z",
-     "discoveredAt": "2026-09-18T03:10:21.114Z",
-     "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，一个 552B 参数的多模态 MoE 模型，支持最长 100 万 token 上下文，模型权重已在 Hugging Face 开放。",
-     "url": "https://arxiv.org/abs/2609.19969",
-     "aihot": "https://aihot.news/items/cmu6ds2t00kqarofjrwmdwjyh",
-     "selected": true,
-     "score": 85,
+     "title": "Emad Mostaque 转发用户实测：65 美元跑 60 亿 token 的 DeepSeek V4.1 Flash",
+     "source": "X：Emad Mostaque (@EMostaque)",
+     "ts": "2026-09-18T20:09:39.182000+08:00",
+     "publishedAt": "2026-09-18T11:53:07.000Z",
+     "discoveredAt": "2026-09-18T12:09:39.182Z",
+     "summary": "Emad Mostaque 转发用户 @btsouth 的实测，后者已通过 DeepSeek V4.1 Flash 处理超过 50 亿 token，月成本从 300 美元降至 40 美元。",
+     "url": "https://x.com/EMostaque/status/2100916020743434506",
+     "aihot": "https://aihot.news/items/cmu6x1o2l0i15rowkmova5nbj",
+     "selected": false,
+     "score": 50,
      "category": "ai-models"
     }
    ],
@@ -251,38 +251,23 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-     "source": "Qwen：Blog Retrieval（API）",
-     "ts": "2026-09-18T01:18:08.568000+08:00",
-     "publishedAt": "2026-09-17T17:18:08.568Z",
-     "discoveredAt": "2026-09-17T17:18:08.568Z",
-     "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-     "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-     "aihot": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
-     "selected": true,
-     "score": 77,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
@@ -290,17 +275,17 @@ const DATA = {
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "DeepSeek-V4.1-Flash 技术报告解读：CED 与 CSA2 如何将 KV 缓存压缩至每 token 890 字节",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-17T14:48:52.141000+08:00",
-     "publishedAt": "2026-09-17T06:17:40.673Z",
-     "discoveredAt": "2026-09-17T06:48:52.141Z",
-     "summary": "作者解读《DeepSeek-V4.1-Flash： Pushing the Limits of KV Cache Compression》技术报告，指出该模型虽名为 V4.1 Flash，但架构变化足以视作 V5 级迭代。",
-     "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
-     "aihot": "https://aihot.news/items/cmu5659870f0zroqb6pmt0wwh",
+     "n": 2,
+     "title": "SemiAnalysis 实测 DeepSeek-V4.1-Flash 的 Engram：架构如何围绕 HBM 约束做 DRAM/SSD 卸载",
+     "source": "SemiAnalysis 长文 RSS（RSS）",
+     "ts": "2026-09-18T22:41:15.860000+08:00",
+     "publishedAt": "2026-09-18T14:34:20.000Z",
+     "discoveredAt": "2026-09-18T14:41:15.860Z",
+     "summary": "SemiAnalysis 分析 Engram 架构（在标准 token 嵌入上扩展学习式多 token 查找）如何通过协同设计将嵌入表卸载到主存 DRAM 或 SSD，在同等质量下降低模型所需的 HBM 容量。",
+     "url": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+     "aihot": "https://aihot.news/items/cmu72gmyk0nvzrowkmjklxs0e",
      "selected": false,
-     "score": 74,
+     "score": 58,
      "category": "tip"
     }
    ],

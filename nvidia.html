@@ -175,13 +175,13 @@ const DATA = {
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-17",
-  "winEnd": "2026-09-18",
-  "generated": "2026-09-18 13:39",
-  "rawHits": 28,
-  "selectedHits": 3,
-  "shown": 13,
-  "dedupedFrom": 14,
+  "winStart": "2026-09-18",
+  "winEnd": "2026-09-19",
+  "generated": "2026-09-19 13:34",
+  "rawHits": 19,
+  "selectedHits": 0,
+  "shown": 5,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "NVIDIA",
     "mode": "selected",
     "window": "24h",
-    "count": 4,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,7 +204,7 @@ const DATA = {
     "q": "NVIDIA",
     "mode": "all",
     "window": "24h",
-    "count": 26,
+    "count": 17,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "英伟达",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,20 +247,34 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
-     "source": "X：Unsloth (@UnslothAI)",
-     "ts": "2026-09-17T23:18:18.910000+08:00",
-     "publishedAt": "2026-09-17T15:03:09.000Z",
-     "discoveredAt": "2026-09-17T15:18:18.910Z",
-     "summary": "Unsloth 宣布可使用其 Docker 镜像本地训练和运行 500+ 模型，提供新 GUI 和 notebooks 工作流，无需配置，支持 NVIDIA 和 AMD，指南见 https://unsloth.ai/docs/get-started/install/docker。",
-     "url": "https://x.com/UnslothAI/status/2100601458458804381",
-     "aihot": "https://aihot.news/items/cmu5ocffd0duoroqoykax6pm1",
-     "selected": true,
-     "score": 68,
+     "title": "NVIDIA 自进化智能体框架 SoL-Pi 省近半 token",
+     "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+     "ts": "2026-09-19T06:42:23.167000+08:00",
+     "publishedAt": "2026-09-18T22:24:02.000Z",
+     "discoveredAt": "2026-09-18T22:42:23.167Z",
+     "summary": "NVIDIA 提出自进化智能体框架 SoL-Pi，通过跨多环境自动研究循环筛选机制，将 token 流量削减近一半，在 GPT-5.6 Sol 和 Opus 5 上匹配基线框架表现。",
+     "url": "https://x.com/omarsar0/status/2101074795643494546",
+     "aihot": "https://aihot.news/items/cmu7jnczt0fxsrogryfhgxjus",
+     "selected": false,
+     "score": 48,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "NVIDIA 发布 AIPerf 并演示如何在 vLLM 上规模化做 LLM 推理基准测试",
+     "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+     "ts": "2026-09-19T03:41:47.173000+08:00",
+     "publishedAt": "2026-09-18T19:41:47.173Z",
+     "discoveredAt": "2026-09-18T19:41:47.173Z",
+     "summary": "NVIDIA 技术博客介绍 AIPerf，它是 GenAI-Perf 的完全重写继任者，采用多进程加 ZMQ 协调的架构避免客户端成为瓶颈，支持 15+ 端点类型、ShareGPT 与 Mooncake 等 trace 回放，以及 constant、Poisson、gamma 到达模式。",
+     "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+     "aihot": "https://aihot.news/items/cmu7d73k1066frogrkrn93n1e",
+     "selected": false,
+     "score": 58,
      "category": "ai-models"
     }
    ],
@@ -269,122 +283,9 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 8,
-   "items": [
-    {
-     "n": 2,
-     "title": "NVIDIA 与费城儿童医院用开源 AI 打造数字心脏辅助儿童手术",
-     "source": "X：小北 (@frxiaobei)",
-     "ts": "2026-09-18T13:29:13.619000+08:00",
-     "publishedAt": "2026-09-18T05:28:30.000Z",
-     "discoveredAt": "2026-09-18T05:29:13.619Z",
-     "summary": "作者转述 NVIDIA 与费城儿童医院的合作，用开源工具将孩子的 CT、核磁和 3D 超声生成精确的数字心脏，建模时间从 4 小时缩短到几秒钟，医生可提前试不同瓣膜和封堵器。作者认为 AI 降低成本加上医院开源，让市场太小而无人投入的先天性心脏病治疗问题得到认真对待。",
-     "url": "https://x.com/frxiaobei/status/2100819230363140396",
-     "aihot": "https://aihot.news/items/cmu6iqpto04z0ro0fzo0vuq93",
-     "selected": false,
-     "score": 60,
-     "category": "ai-products"
-    },
-    {
-     "n": 3,
-     "title": "vLLM 集成 PyNvVideoCodec 支持 NVIDIA GPU 硬件视频解码",
-     "source": "vLLM 官方博客（RSS）",
-     "ts": "2026-09-18T04:41:33.987000+08:00",
-     "publishedAt": "2026-09-17T20:41:33.987Z",
-     "discoveredAt": "2026-09-17T20:41:33.987Z",
-     "summary": "vLLM 新增对 NVIDIA GPU 硬件视频解码（NVDEC）的支持，通过集成 PyNvVideoCodec 把视频解码负载从 CPU 转移到 GPU。在 8xH100 上，GPU 解码吞吐量比 CPU 解码方案提升一倍以上。",
-     "url": "https://vllm.ai/blog/2026-09-18-pynvvideocodec",
-     "aihot": "https://aihot.news/items/cmu5zw3nk03skromk0bu2d1ou",
-     "selected": false,
-     "score": 44,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
-     "source": "Anthropic：Research（发表成果 · 网页）",
-     "ts": "2026-09-18T03:49:41.095000+08:00",
-     "publishedAt": "2026-09-17T19:49:41.095Z",
-     "discoveredAt": "2026-09-17T19:49:41.095Z",
-     "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
-     "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-     "aihot": "https://aihot.news/items/cmu5y1dkt069qroiqnnhxz778",
-     "selected": true,
-     "score": 70,
-     "category": "ai-products"
-    },
-    {
-     "n": 5,
-     "title": "Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致",
-     "source": "Epoch AI：研究、数据与评测",
-     "ts": "2026-09-18T03:38:42.507000+08:00",
-     "publishedAt": "2026-09-17T00:00:00.000Z",
-     "discoveredAt": "2026-09-17T19:38:42.507Z",
-     "summary": "Epoch AI 分析海关数据发现，2024 年 4 月至 2025 年 6 月中国记录了 37.5 亿美元、均价约 10.6 万美元/台的马来西亚原产服务器进口，价格水平更符合 AI 服务器而非普通服务器。",
-     "url": "https://epoch.ai/data-insights/malaysia-china-chip-smuggling",
-     "aihot": "https://aihot.news/items/cmu5xn9rv05yfroiqd91x2qk7",
-     "selected": true,
-     "score": 74,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "NVIDIA 发布 NeMo Data Designer 合成数据工具报告",
-     "source": "X：DAIR.AI (@dair_ai)",
-     "ts": "2026-09-18T00:59:13.819000+08:00",
-     "publishedAt": "2026-09-17T16:50:02.000Z",
-     "discoveredAt": "2026-09-17T16:59:13.819Z",
-     "summary": "NVIDIA 发布开源合成数据工具 NeMo Data Designer（NDD）技术报告，采用声明式配置定义数据集各列，支持生成文本、代码、结构化输出、图像、嵌入向量及控制多样性的统计采样器，并可通过插件扩展类型。",
-     "url": "https://x.com/dair_ai/status/2100628354043101640",
-     "aihot": "https://aihot.news/items/cmu5ryemu0hw9roqoe1ap9pd9",
-     "selected": false,
-     "score": 46,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "华为将 Ascend 960DT AI 芯片发布提前至 2027 年 Q1，对标 Nvidia",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-09-17T22:19:34.788000+08:00",
-     "publishedAt": "2026-09-17T14:06:14.000Z",
-     "discoveredAt": "2026-09-17T14:19:34.788Z",
-     "summary": "华为在 Huawei Connect 大会上宣布，将下一代 Ascend 960DT AI 芯片的发布从原计划的 2027 年 Q3 提前至 2027 年 Q1，称性能将翻倍。",
-     "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia",
-     "aihot": "https://aihot.news/items/cmu5m8v9k0bkiroqo8w4e9kkp",
-     "selected": false,
-     "score": 64,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "夏普与富士康合作推出 AI 服务器，搭载英伟达 RTX PRO 6000 Blackwell GPU",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-17T16:24:32.247000+08:00",
-     "publishedAt": "2026-09-17T07:46:21.000Z",
-     "discoveredAt": "2026-09-17T08:24:32.247Z",
-     "summary": "夏普宣布进军 AI 服务器领域，与富士康合作推出两款产品，计划 2027 年开始销售，面向企业、日本政府、研究机构和数据中心客户。",
-     "url": "https://www.ithome.com/1/003/607.htm",
-     "aihot": "https://aihot.news/items/cmu59kb5404m0ro8tk7qeznj3",
-     "selected": false,
-     "score": 35,
-     "category": "ai-products"
-    },
-    {
-     "n": 9,
-     "title": "MLPerf Inference v6.1 发布：AMD 512 个 MI355X 刷新纪录，英伟达 Vera Rubin VR200 首次现身",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-17T15:24:31.874000+08:00",
-     "publishedAt": "2026-09-17T06:31:25.000Z",
-     "discoveredAt": "2026-09-17T07:24:31.874Z",
-     "summary": "MLPerf Inference v6.1 结果公布，AMD 以 512 个 Instinct MI355X GPU 在 DeepSeek R1 测试中创下 575 万 token/秒的新纪录，离线成绩 2，901，950 tokens/s、服务器成绩 2，405，310 tokens/s。",
-     "url": "https://www.ithome.com/1/003/575.htm",
-     "aihot": "https://aihot.news/items/cmu57f4ke045wro4of7p7tocw",
-     "selected": false,
-     "score": 46,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
@@ -392,17 +293,17 @@ const DATA = {
    "count": 1,
    "items": [
     {
-     "n": 10,
-     "title": "Emerald AI 联合 Google、Nvidia、Anthropic 成立 AEMA，用需求响应为更多数据中心腾出电网空间",
+     "n": 3,
+     "title": "Nvidia 的 Nader Khalil 与 Sydney Sykes 将在 TechCrunch Disrupt 2026 探讨开放与闭源 AI 之争",
      "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-09-17T21:49:34.502000+08:00",
-     "publishedAt": "2026-09-17T13:38:33.000Z",
-     "discoveredAt": "2026-09-17T13:49:34.502Z",
-     "summary": "Emerald AI 牵头成立 AI Energy Management Alliance（AEMA），创始成员包括 Google、Nvidia、Anthropic 及 AES、Constellation、National Grid、NRG Energy 等公用事业公司，推动数据中心通过暂停非关键任务、转移计算负载参…",
-     "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
-     "aihot": "https://aihot.news/items/cmu5l6a4i0a7croqomvxy05bx",
+     "ts": "2026-09-19T00:20:00.428000+08:00",
+     "publishedAt": "2026-09-18T15:30:00.000Z",
+     "discoveredAt": "2026-09-18T16:20:00.428Z",
+     "summary": "Nvidia 开发者技术总监 Nader Khalil 与全球 VC 合作负责人 Sydney Sykes 将于 10 月 13-15 日在旧金山 TechCrunch Disrupt 2026 的 Builders Stage 主持\"开放与闭源 AI 之争才刚刚开始\"专场，讨论两种路线的取舍及能否形成持久竞争优势。",
+     "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026",
+     "aihot": "https://aihot.news/items/cmu75zlmb0rrqrowkv6nb7rem",
      "selected": false,
-     "score": 51,
+     "score": 27,
      "category": "industry"
     }
    ],
@@ -411,32 +312,9 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 11,
-     "title": "NVIDIA 发布 Agora：用 Git 作为智能体共享记忆的论文",
-     "source": "X：DAIR.AI (@dair_ai)",
-     "ts": "2026-09-18T00:59:13.819000+08:00",
-     "publishedAt": "2026-09-17T16:34:48.000Z",
-     "discoveredAt": "2026-09-17T16:59:13.819Z",
-     "summary": "NVIDIA 论文提出 Agora，把多个研究智能体的共享记忆记录为 Git 中只增不改的 DAG，每个结果、假设和验证都是不可变 commit，父边标明依赖关系，索引列出开放分支与验证状态。",
-     "url": "https://x.com/dair_ai/status/2100624521967665445",
-     "aihot": "https://aihot.news/items/cmu5ryemu0hwaroqo5eeav1kc",
-     "selected": false,
-     "score": 54,
-     "category": "paper",
-     "also": [
-      {
-       "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-       "title": "NVIDIA 发布 Agora 论文：以 Git 作为研究智能体的共享内存",
-       "url": "https://x.com/omarsar0/status/2100624082752667809",
-       "aihot": "https://aihot.news/items/cmu5rck8b0h7vroqo07hyet45"
-      }
-     ]
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
@@ -444,31 +322,31 @@ const DATA = {
    "count": 2,
    "items": [
     {
-     "n": 12,
-     "title": "黄仁勋称英伟达明年芯片销量将是今年的两倍",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-17T21:24:34.337000+08:00",
-     "publishedAt": "2026-09-17T13:08:04.000Z",
-     "discoveredAt": "2026-09-17T13:24:34.337Z",
-     "summary": "英伟达 CEO 黄仁勋在苏格兰一场科技行业高管会议上表示，预计 2027 年芯片销量约为 2026 年的两倍。他同时强调 AI 安全至关重要，企业若无法对产品安全性充满信心就不应推出产品；另据报道，他与扎克伯格、马斯克曾就拟议中的行业资助监管机构向特朗普表达担忧，该计划暂时搁置。",
-     "url": "https://www.ithome.com/1/003/831.htm",
-     "aihot": "https://aihot.news/items/cmu5ka5r809a2roqo5z5ir29b",
+     "n": 4,
+     "title": "黄仁勋：AI 2030 年前灭绝人类概率为零",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-19T08:42:23.169000+08:00",
+     "publishedAt": "2026-09-19T00:15:25.000Z",
+     "discoveredAt": "2026-09-19T00:42:23.169Z",
+     "summary": "\"0% 概率\"AI 会在 2030 年前终结人类。 他们这么做（散布恐慌）肯定有别的目的。也许是政治原因，也许只是为了博眼球。\" -- 黄仁勋接受 CBS News 采访，Jo Ling Kent（@jolingkent）主持的新访谈。 他强烈反驳了关于能力日益增强的 AI 可能在这十年内脱离人类控制的警告。",
+     "url": "https://x.com/rohanpaul_ai/status/2101102827947049058",
+     "aihot": "https://aihot.news/items/cmu7nxok00kf8rogrv19a432p",
      "selected": false,
-     "score": 62,
+     "score": 39,
      "category": "tip"
     },
     {
-     "n": 13,
-     "title": "英国国王查尔斯三世召集 AI 论坛，要求英伟达、OpenAI、谷歌 DeepMind 等巨头保证可控",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-17T16:24:32.247000+08:00",
-     "publishedAt": "2026-09-17T08:20:45.000Z",
-     "discoveredAt": "2026-09-17T08:24:32.247Z",
-     "summary": "英国国王查尔斯三世在苏格兰邓弗里斯庄园召集 AI 论坛，英伟达 CEO 黄仁勋、OpenAI CFO 莎拉·弗莱尔和谷歌 DeepMind 联合创始人德米斯·哈萨比斯出席，Anthropic 高层代表与英国 AI 大臣卡尼什卡·纳拉扬也将与会。",
-     "url": "https://www.ithome.com/1/003/678.htm",
-     "aihot": "https://aihot.news/items/cmu59kb5304lnro8tnstih0n5",
+     "n": 5,
+     "title": "Anthropic CEO Dario Amodei 提出\"前沿节奏\"AI 安全方案，Nvidia 黄仁勋公开反驳",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-19T01:20:01.923000+08:00",
+     "publishedAt": "2026-09-18T17:06:32.000Z",
+     "discoveredAt": "2026-09-18T17:20:01.923Z",
+     "summary": "Anthropic CEO Dario Amodei 在一名研究员发出末日警告一周后，提出依靠独立安全评估机构和民主国家 AI 实验室之间的协调来\"pace the frontier\"（把控前沿节奏）的方案，已获部分行业支持，但遭到 Nvidia 黄仁勋的尖锐反驳。",
+     "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves",
+     "aihot": "https://aihot.news/items/cmu784s6v0u4xrowkeztavp1j",
      "selected": false,
-     "score": 40,
+     "score": 32,
      "category": "tip"
     }
    ],
