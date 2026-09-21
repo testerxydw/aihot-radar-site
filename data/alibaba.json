@@ -14,13 +14,13 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-19",
-  "winEnd": "2026-09-20",
-  "generated": "2026-09-20 13:54",
-  "rawHits": 13,
-  "selectedHits": 0,
-  "shown": 9,
-  "dedupedFrom": 12,
+  "winStart": "2026-09-20",
+  "winEnd": "2026-09-21",
+  "generated": "2026-09-21 14:01",
+  "rawHits": 30,
+  "selectedHits": 3,
+  "shown": 11,
+  "dedupedFrom": 24,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "通义千问",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,39 +43,39 @@
     "q": "通义千问",
     "mode": "all",
     "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Qwen",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Qwen",
-    "mode": "all",
-    "window": "24h",
-    "count": 10,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "阿里云",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "阿里云",
-    "mode": "all",
-    "window": "24h",
     "count": 5,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Qwen",
+    "mode": "selected",
+    "window": "24h",
+    "count": 3,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Qwen",
+    "mode": "all",
+    "window": "24h",
+    "count": 23,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "阿里云",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "阿里云",
+    "mode": "all",
+    "window": "24h",
+    "count": 11,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,87 +86,21 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "GAVEL 用图世界模型让 Qwen3-8B 长程机器人任务成功率升至 91.8%",
-     "source": "X：DAIR.AI (@dair_ai)",
-     "ts": "2026-09-20T10:29:13.706000+08:00",
-     "publishedAt": "2026-09-20T02:10:02.000Z",
-     "discoveredAt": "2026-09-20T02:29:13.706Z",
-     "summary": "GAVEL 在不改动模型的前提下，将 Qwen3-8B 在长程机器人任务上的成功率从 41.2% 提升至 91.8%，增益全部来自外部 harness。它维护一个显式图世界模型，记录物体关系、动作前置条件与效果，以及未观测物体位置的概率信念，在动作执行前预测后果，可直接修复的违规无需再次调用模型。",
-     "url": "https://x.com/dair_ai/status/2101494059898655108",
-     "aihot": "https://aihot.news/items/cmu976xef02n3ro1xy5very8a",
-     "selected": false,
-     "score": 46,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "Qwen3.8-Omni-Flash 发布，价格低于 Gemini Flash 且多模态基准相当",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-09-19T22:51:27.517000+08:00",
-     "publishedAt": "2026-09-19T14:30:57.000Z",
-     "discoveredAt": "2026-09-19T14:51:27.517Z",
-     "summary": "Qwen 发布首个面向 AI 智能体的多模态模型 Qwen3.8-Omni-Flash，可联合处理音频和视频并自主使用工具，上下文窗口达 100 万 token。",
-     "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks",
-     "aihot": "https://aihot.news/items/cmu8i9lon1ma6rogr8vpz3xo3",
-     "selected": false,
-     "score": 68,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "每日AI简报：Grok语音转录2.0与Qwen3.8-Omni-Flash发布",
-       "url": "https://x.com/testingcatalog/status/2101246004255158279",
-       "aihot": "https://aihot.news/items/cmu87tser1817rogr6kjnixu1"
-      }
-     ]
-    },
-    {
-     "n": 3,
-     "title": "阿里云 Apsara 大会将分享 QwenWork 智能引擎",
+     "title": "Qwen3.8-Flash 限时免费一周",
      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-     "ts": "2026-09-19T21:59:13.670000+08:00",
-     "publishedAt": "2026-09-19T13:37:37.000Z",
-     "discoveredAt": "2026-09-19T13:59:13.670Z",
-     "summary": "阿里云 Apsara Conference 2026 将举办 QwenWork： An Intelligent Engine for Growth 主题分享，由 Alibaba Token Hub 的 QwenWork 产品解决方案架构师 Jacob Si 与 Staple AI COO Boon Thai Hoh…",
-     "url": "https://x.com/alibaba_cloud/status/2101304706542735550",
-     "aihot": "https://aihot.news/items/cmu8geerg1kaxrogrt7oqezmr",
+     "ts": "2026-09-21T13:59:13.893000+08:00",
+     "publishedAt": "2026-09-21T05:50:43.000Z",
+     "discoveredAt": "2026-09-21T05:59:13.893Z",
+     "summary": "限时福利！⚡️ 9月20日至27日，在 @TokenHarborAI 免费试用 Qwen3.8-Flash。1M 上下文 + 极速体验--快来看看它能做什么！",
+     "url": "https://x.com/alibaba_cloud/status/2101911984073753011",
+     "aihot": "https://aihot.news/items/cmuau4u5r04i9roln1dv5bzio",
      "selected": false,
-     "score": 20,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-       "title": "阿里云 Apsara 大会探讨智能体 AI 重塑视频创作",
-       "url": "https://x.com/alibaba_cloud/status/2101525555254345778",
-       "aihot": "https://aihot.news/items/cmu9bh8j906giro8ir0z43rv8"
-      }
-     ]
-    },
-    {
-     "n": 4,
-     "title": "阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，支持原文译文同帧同出",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-19T15:24:53.302000+08:00",
-     "publishedAt": "2026-09-19T07:14:27.000Z",
-     "discoveredAt": "2026-09-19T07:24:53.302Z",
-     "summary": "阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，基于 Hybrid MoE 的 Thinker-Talker 双模块设计，以 Interleave 架构重构实时同传，字均延迟（LAAL）从 2.8 秒降至 2.3 秒。",
-     "url": "https://www.ithome.com/1/004/450.htm",
-     "aihot": "https://aihot.news/items/cmu82bb6f12hgrogrhl5v7ssl",
-     "selected": false,
-     "score": 63,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-       "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同声传译模型",
-       "url": "https://x.com/Alibaba_Qwen/status/2101206705111757253",
-       "aihot": "https://aihot.news/items/cmu82rp7b12xarograp65omv5"
-      }
-     ]
+     "score": 28,
+     "category": "ai-models"
     }
    ],
    "note": null
@@ -177,59 +111,135 @@
    "count": 4,
    "items": [
     {
-     "n": 5,
-     "title": "阿里云 AI Agent 技术论坛报名",
-     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-     "ts": "2026-09-20T10:29:13.706000+08:00",
-     "publishedAt": "2026-09-20T02:13:11.000Z",
-     "discoveredAt": "2026-09-20T02:29:13.706Z",
-     "summary": "AI 的下一篇章是智能体。加入 #ApsaraConference2026 国际 AI Agent 技术论坛，探索驱动 AI 原生企业的创新，开启云、数据、智能工作、编程和内容创作的新可能。",
-     "url": "https://x.com/alibaba_cloud/status/2101494851736875183",
-     "aihot": "https://aihot.news/items/cmu976xe002n2ro1xczcw1yq1",
-     "selected": false,
-     "score": 20,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "阿里云 Qoder 将亮相 2026 云栖大会谈智能体编程",
-     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-     "ts": "2026-09-19T20:29:13.828000+08:00",
-     "publishedAt": "2026-09-19T12:26:23.000Z",
-     "discoveredAt": "2026-09-19T12:29:13.828Z",
-     "summary": "阿里云 Qoder 将在 #ApsaraConference2026 探讨智能体编程（agentic coding）及 Qoder 如何塑造 AI 构建新方式。Qoder 高级主任工程师 William Yao 与 TinyFish Inc. 联合创始人兼 CPO Shuhao Zhang 将共同分享 AI 驱动软件…",
-     "url": "https://x.com/alibaba_cloud/status/2101286781912064243",
-     "aihot": "https://aihot.news/items/cmu8d6pj81gyvrogr16y57kx2",
-     "selected": false,
-     "score": 17,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "ByteShape 发布 Qwen 3.8 27B 全量 ShapeLearn 量化并对比六种 GPU 的质量速度表现",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-19T20:19:49.991000+08:00",
-     "publishedAt": "2026-09-19T12:12:26.592Z",
-     "discoveredAt": "2026-09-19T12:19:49.991Z",
-     "summary": "ByteShape 为 2026 年 8 月 14 日发布的 Qwen 3.8 27B 推出全量 ShapeLearn 量化模型，五个模型在六种 GPU 实测中全部位于质量速度边界上，GPU-5（IQ4_XS，13.1 GB）达到 BF16 综合基准分数的 99.63%。",
-     "url": "https://byteshape.com/blogs/Qwen3.8-27B",
-     "aihot": "https://aihot.news/items/cmu8cuksh1glbrogrd06puuod",
-     "selected": false,
-     "score": 56,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "Qwen 3.8 27B 助力 Cerebras 打造 Money Agent",
+     "n": 2,
+     "title": "SGLang-Diffusion Day-0 支持 Qwen-Image 2.1，支持文生图、多图编辑与透明 RGBA 输出",
      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-     "ts": "2026-09-19T17:07:37+08:00",
-     "publishedAt": "2026-09-19T08:55:43.000Z",
-     "discoveredAt": "2026-09-19T09:07:37.000Z",
-     "summary": "实际 AI 解决现实问题的绝佳案例！比以往更快。感谢用 Qwen 构建。@cerebras 快来亲自试试！🏠 Cerebras 打造了 Money Agent，一款由 Qwen 3.8 27B 在 Cerebras 上驱动的个人理财助手。现在你可以把购房问题变成实时对话，再更快地转化为财务目标。",
-     "url": "https://x.com/Alibaba_Qwen/status/2101233765179904007",
-     "aihot": "https://aihot.news/items/cmu85zecx166frogrlwxlojlt",
+     "ts": "2026-09-21T11:07:37.253000+08:00",
+     "publishedAt": "2026-09-21T02:50:43.000Z",
+     "discoveredAt": "2026-09-21T03:07:37.253Z",
+     "summary": "SGLang-Diffusion 发布对 Qwen-Image 2.1 的 Day-0 支持，覆盖文本生成图像、多图编辑和透明 RGBA 输出，单 checkpoint 即可完成。",
+     "url": "https://x.com/Alibaba_Qwen/status/2101866688425984233",
+     "aihot": "https://aihot.news/items/cmuao05at0q8tro5t3zwcsxle",
      "selected": false,
-     "score": 30,
+     "score": 64,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+     "source": "Qwen：Blog Retrieval（API）",
+     "ts": "2026-09-20T20:51:42.765000+08:00",
+     "publishedAt": "2026-09-20T12:00:00.000Z",
+     "discoveredAt": "2026-09-20T12:51:42.765Z",
+     "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆…",
+     "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+     "aihot": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
+     "selected": true,
+     "score": 72,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+       "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+       "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+       "aihot": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz"
+      },
+      {
+       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+       "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+       "url": "https://x.com/Alibaba_Qwen/status/2101866671900401913",
+       "aihot": "https://aihot.news/items/cmuao05at0q8uro5tpc85e2kj"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "通义千问开源 Qwen-Image-2.1，统一图像生成与编辑并原生支持透明图像",
+       "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+       "aihot": "https://aihot.news/items/cmu9xgdkk06mirowj62wq9zvs"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "Qwen 开源 Qwen-Image-2.1：7B 视觉生成组件统一图像生成与编辑",
+       "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+       "aihot": "https://aihot.news/items/cmu9xo2mh06ryrowjrilb8syo"
+      },
+      {
+       "source": "X：Kim (@kimmonismus)",
+       "title": "Qwen-Image-2.1 开源：7B 图像生成与编辑模型",
+       "url": "https://x.com/kimmonismus/status/2101679965590769872",
+       "aihot": "https://aihot.news/items/cmu9xdsw606jirowjx8kxtk9w"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "阿里 Qwen 团队发布开源权重图像生成模型 Qwen-Image-2.1，仅 7B 参数",
+       "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters",
+       "aihot": "https://aihot.news/items/cmua0xs340akkrowjz7e8urc3"
+      },
+      {
+       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+       "title": "阿里云发布 Qwen-Image-2.1 图像生成模型并开放权重",
+       "url": "https://x.com/alibaba_cloud/status/2101880701952172276",
+       "aihot": "https://aihot.news/items/cmuapuiof0saaro5ts1z4glfk"
+      },
+      {
+       "source": "IT之家（RSS）",
+       "title": "阿里千问开源 Qwen-Image-2.1 图像模型，支持透明图像与最多 10 张参考图",
+       "url": "https://www.ithome.com/1/004/989.htm",
+       "aihot": "https://aihot.news/items/cmu9umj2103p6rowj5oxsez69"
+      },
+      {
+       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+       "title": "通义千问发布 Qwen-Image-2.1，vLLM-Omni 提供首日支持",
+       "url": "https://x.com/Alibaba_Qwen/status/2101670804794884242",
+       "aihot": "https://aihot.news/items/cmu9w55at056lrowj9ic0vit4"
+      },
+      {
+       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+       "title": "通义千问发布 Qwen-Image-2.1 并开放权重",
+       "url": "https://x.com/Alibaba_Qwen/status/2101659302792679789",
+       "aihot": "https://aihot.news/items/cmu9tzwo202z0rowjoa0unsup"
+      },
+      {
+       "source": "X：AK (@_akhaliq)",
+       "title": "Qwen-Image-2.1 上线 Hugging Face",
+       "url": "https://x.com/_akhaliq/status/2101679817762734150",
+       "aihot": "https://aihot.news/items/cmu9x0480068trowjxqrftkgs"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "阿里通义Qwen团队发布Qwen3.8-LiveTranslate，实时翻译平均延迟降至2.3秒、支持60种语言",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-09-20T14:50:25.860000+08:00",
+     "publishedAt": "2026-09-20T06:46:08.000Z",
+     "discoveredAt": "2026-09-20T06:50:25.860Z",
+     "summary": "通义千问（Qwen）发布实时同声传译模型Qwen3.8-LiveTranslate，采用新的Interleave架构，平均滞后（LAAL）从2.8秒降至2.3秒，约降低18%。",
+     "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate",
+     "aihot": "https://aihot.news/items/cmu9gitxy047vro5awf2bmm3t",
+     "selected": false,
+     "score": 63,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+       "title": "阿里发布 Qwen3.8-LiveTranslate 实时同声传译模型，60 种语言平均延迟降至 2.3s",
+       "url": "https://x.com/alibaba_cloud/status/2101560636148994449",
+       "aihot": "https://aihot.news/items/cmu9gu56s04lqro5acam83wy8"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "阿里云AI Agent技术论坛直播",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-20T14:29:14.092000+08:00",
+     "publishedAt": "2026-09-20T06:13:58.000Z",
+     "discoveredAt": "2026-09-20T06:29:14.092Z",
+     "summary": "属于你的智能体原生时代前排席位，等你入座。 锁定 2026 云栖大会国际 AI Agent 技术论坛直播，探索驱动下一波 AI 浪潮的技术。 日期：2026 年 9 月 23 日 | 时间：14：00-16：25（UTC+8） https://x.com/i/broadcasts/1dJrProPrWVKX",
+     "url": "https://x.com/alibaba_cloud/status/2101555446071034362",
+     "aihot": "https://aihot.news/items/cmu9frl7s03lpro5ae44yc8bg",
+     "selected": false,
+     "score": 22,
      "category": "ai-products"
     }
    ],
@@ -238,20 +248,48 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
+   "count": 3,
    "items": [
     {
-     "n": 9,
-     "title": "阿里云周末推文：API 访问渠道",
+     "n": 6,
+     "title": "阿里云 QwenWork 定时比价并自动生成报告",
      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-     "ts": "2026-09-20T09:59:13.881000+08:00",
-     "publishedAt": "2026-09-20T01:58:57.000Z",
-     "discoveredAt": "2026-09-20T01:59:13.881Z",
-     "summary": "周末快乐！忘掉日常生活中的所有烦恼；出门去摸摸草吧！🫳🌱 更多 API 访问：• Qwen Cloud：https://click.qwencloud.com/m/20000003019/ • Model Studio：https://click.alibabacloud.com/m/20000003027/",
-     "url": "https://x.com/alibaba_cloud/status/2101491269927104548",
-     "aihot": "https://aihot.news/items/cmu964cwt02u1roar7ezu2uyr",
+     "ts": "2026-09-21T12:59:13.955000+08:00",
+     "publishedAt": "2026-09-21T04:37:30.000Z",
+     "discoveredAt": "2026-09-21T04:59:13.955Z",
+     "summary": "阿里云 QwenWork 可让用户设定\"每周一上午 9 点检查价格变动并发送报告\"，到点后自动打开同类目五个品牌站点，与上周快照比对，抓取涨价、降价和促销等所有变化，每项变化附带时间戳的截图。全程无需人工操作，报告按时送达。",
+     "url": "https://x.com/alibaba_cloud/status/2101893557657178411",
+     "aihot": "https://aihot.news/items/cmuarzr0n0umiro5tob3gbbks",
      "selected": false,
-     "score": 15,
+     "score": 31,
+     "category": "industry"
+    },
+    {
+     "n": 7,
+     "title": "阿里云 Happy Horse 剪纸世界",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-21T11:29:13.460000+08:00",
+     "publishedAt": "2026-09-21T03:12:46.000Z",
+     "discoveredAt": "2026-09-21T03:29:13.460Z",
+     "summary": "加入 Happy Horse，创建你自己的剪纸世界。 更多 API 接入： • Qwen Cloud：https://click.qwencloud.com/m/20000003019/ • Model Studio：https://click.alibabacloud.com/m/20000003027/",
+     "url": "https://x.com/alibaba_cloud/status/2101872236013461691",
+     "aihot": "https://aihot.news/items/cmuaorxo60rbaro5t466jijhr",
+     "selected": false,
+     "score": 19,
+     "category": "industry"
+    },
+    {
+     "n": 8,
+     "title": "阿里云携手 AIFJ 举办 WonderClip 实操工作坊",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-20T18:59:13.855000+08:00",
+     "publishedAt": "2026-09-20T10:33:25.000Z",
+     "discoveredAt": "2026-09-20T10:59:13.855Z",
+     "summary": "阿里云加入 AIFJ Creative Foundry #01，将在实际视频创作流程中测试 WonderClip。该活动由日本 AI 电影节 AIFJ 发起，首期由阿里云与 WonderClip 联合呈现，嘉宾为白井暁彦，9 月 30 日在涩谷举行，限 50 人、需审核。",
+     "url": "https://x.com/alibaba_cloud/status/2101620741980684327",
+     "aihot": "https://aihot.news/items/cmu9pesud0522ro6655molhei",
+     "selected": false,
+     "score": 24,
      "category": "industry"
     }
    ],
@@ -267,9 +305,60 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 9,
+     "title": "阿里云 ApsaraConference2026 明日开幕，主打 Agent-Native",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-21T09:29:13.359000+08:00",
+     "publishedAt": "2026-09-21T01:02:15.000Z",
+     "discoveredAt": "2026-09-21T01:29:13.359Z",
+     "summary": "阿里云 ApsaraConference2026 进入最后 1 天倒计时，将于 9 月 22-24 日在杭州举办，主题为 Agent-Native 时代。大会设 4 个沉浸式展馆、3 场主题演讲、140+ 分论坛和 1，000+ 参展商，并提供国际 Agentic AI Forum、国际 AI Agent Tech…",
+     "url": "https://x.com/alibaba_cloud/status/2101839388141343171",
+     "aihot": "https://aihot.news/items/cmuakhm7i0mjcro5tm1kdow3j",
+     "selected": false,
+     "score": 26,
+     "category": "tip"
+    },
+    {
+     "n": 10,
+     "title": "阿里云 Apsara 大会智能体 AI 论坛直播",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-20T14:29:14.092000+08:00",
+     "publishedAt": "2026-09-20T06:15:44.000Z",
+     "discoveredAt": "2026-09-20T06:29:14.092Z",
+     "summary": "锁定 2026 云栖大会 International Agentic AI Forum 直播，聆听全球技术领袖分享智能体 AI 如何在基础设施、应用和行业中演进。 日期：2026 年 9 月 23 日 | 时间：09：30-12：00（UTC+8） https://x.com/i/broadcasts/1OxwbnO…",
+     "url": "https://x.com/alibaba_cloud/status/2101555892290535755",
+     "aihot": "https://aihot.news/items/cmu9frl7s03loro5at5ck7pwz",
+     "selected": false,
+     "score": 21,
+     "category": "tip",
+     "also": [
+      {
+       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+       "title": "阿里云Apsara大会探讨AI模型与生产力",
+       "url": "https://x.com/alibaba_cloud/status/2101858133194801625",
+       "aihot": "https://aihot.news/items/cmuammsbz0ovqro5tp8cx0pqm"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "阿里云东盟区域论坛直播",
+     "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+     "ts": "2026-09-20T14:29:14.092000+08:00",
+     "publishedAt": "2026-09-20T06:09:59.000Z",
+     "discoveredAt": "2026-09-20T06:29:14.092Z",
+     "summary": "见证东南亚 AI 故事实时展开。 锁定 Apsara Conference 2026 区域论坛：ASEAN 直播，了解 AI 应用在该地区如何演进。 日期：2026 年 9 月 22 日 | 时间：14：00-16：00（UTC+8） https://x.com/i/broadcasts/1pKdRDlbqVoJW",
+     "url": "https://x.com/alibaba_cloud/status/2101554446941720664",
+     "aihot": "https://aihot.news/items/cmu9frl7s03lqro5an0b13rs9",
+     "selected": false,
+     "score": 20,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
