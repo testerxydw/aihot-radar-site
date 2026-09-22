@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-20",
-  "winEnd": "2026-09-21",
-  "generated": "2026-09-21 14:01",
-  "rawHits": 14,
-  "selectedHits": 1,
-  "shown": 3,
-  "dedupedFrom": 4,
+  "winStart": "2026-09-21",
+  "winEnd": "2026-09-22",
+  "generated": "2026-09-22 13:57",
+  "rawHits": 13,
+  "selectedHits": 0,
+  "shown": 9,
+  "dedupedFrom": 9,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -204,7 +204,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 4,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 9,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,20 +247,34 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-09-21T04:50:39.560000+08:00",
-     "publishedAt": "2026-09-20T20:20:56.000Z",
-     "discoveredAt": "2026-09-20T20:50:39.560Z",
-     "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
-     "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
-     "aihot": "https://aihot.news/items/cmuaajd3y08yjro5tqgc5u6up",
-     "selected": true,
-     "score": 78,
+     "title": "Salesforce AI 研究：弱模型智能体模仿 Gemini 反而退化，on-policy 修正更有效",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-22T04:12:23.613000+08:00",
+     "publishedAt": "2026-09-21T20:02:10.000Z",
+     "discoveredAt": "2026-09-21T20:12:23.613Z",
+     "summary": "Salesforce AI 用 Qwen3-Coder-30B-A3B 在 7 项企业任务上测试发现，把 Qwen 用 Gemini 完整轨迹微调后，成功率从 78.0% 降到 63.1%，7 项任务全部下滑，原因是 Qwen 照搬了 Gemini 的规划方式，与围绕它原有行为搭建的智能体设置不再匹配。",
+     "url": "https://x.com/rohanpaul_ai/status/2102126261279810001",
+     "aihot": "https://aihot.news/items/cmubom7qi04k9ro4v1qbrpvml",
+     "selected": false,
+     "score": 55,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Google 确认 Gemini 模型在 2026 年 5 月测试中入侵三家公司",
+     "source": "Ars Technica：AI（RSS）",
+     "ts": "2026-09-22T01:19:10.167000+08:00",
+     "publishedAt": "2026-09-21T16:57:26.000Z",
+     "discoveredAt": "2026-09-21T17:19:10.167Z",
+     "summary": "Google 在《华尔街日报》报道后确认，Gemini 模型在 2026 年 5 月网络安全公司 Irregular 的 capture the flag 测试中入侵了三家真实公司。",
+     "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+     "aihot": "https://aihot.news/items/cmubif91911durolnhxbkc4xf",
+     "selected": false,
+     "score": 75,
      "category": "ai-models"
     }
    ],
@@ -269,42 +283,20 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "Gemini 4.0 即将发布",
-     "source": "X：Haider (@haider1)",
-     "ts": "2026-09-21T12:01:31.560000+08:00",
-     "publishedAt": "2026-09-21T04:00:00.000Z",
-     "discoveredAt": "2026-09-21T04:01:31.560Z",
-     "summary": "gemini 4.0 是即将到来的又一个重大发布 由于这是一个新的模型家族，google 会发布一个 pro 模型来取代 3.1 pro--但鉴于他们目前的方向，他们可能会在 flash 上迭代得比 pro 快得多 也许一年一个 pro，而新的 flash 模型每月发布",
-     "url": "https://x.com/haider1/status/2101884121043656991",
-     "aihot": "https://aihot.news/items/cmuapxhfl0scero5twp2ckp4e",
-     "selected": false,
-     "score": 27,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Haider (@haider1)",
-       "title": "Google 或在 Gemini 4.0 前再推 Flash 模型",
-       "url": "https://x.com/haider1/status/2101608745470169385",
-       "aihot": "https://aihot.news/items/cmu9nclp602soro6651fodfcq"
-      }
-     ]
-    },
-    {
      "n": 3,
-     "title": "Google DeepMind 将发布 Nano Banana 2.5",
-     "source": "@mark_k",
-     "ts": "2026-09-21T04:01:31.707000+08:00",
-     "publishedAt": "2026-09-20T19:52:48.000Z",
-     "discoveredAt": "2026-09-20T20:01:31.707Z",
-     "summary": "Nano Banana 2.5 即将从 @GoogleDeepMind 推出。🔥 这个样本看起来非常有前景： Nano Banana 2.5（`spicy-mayo`）已部署，将在下周发布。",
-     "url": "https://x.com/mark_k/status/2101761515661463777",
-     "aihot": "https://aihot.news/items/cmua8s7b0077dro5tzr3byj27",
+     "title": "Google 发布 $899 Googlebook 笔记本，深度集成 Gemini",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-21T22:51:28.775000+08:00",
+     "publishedAt": "2026-09-21T14:39:22.000Z",
+     "discoveredAt": "2026-09-21T14:51:28.775Z",
+     "summary": "Google 宣布 Googlebook AI 笔记本开放预购，售价 $899，运行 Android OS 加桌面版 Chrome，深度集成 Gemini 功能，包括 Magic Cursor AI 光标、Rambler 语音整理和 vibe-coded 小部件。",
+     "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+     "aihot": "https://aihot.news/items/cmubd5as70vhsrolnb175exnl",
      "selected": false,
-     "score": 38,
+     "score": 62,
      "category": "ai-products"
     }
    ],
@@ -313,23 +305,110 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 4,
+     "title": "Gemini 4.0 已不可避免",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-22T11:31:31.565000+08:00",
+     "publishedAt": "2026-09-22T03:15:00.000Z",
+     "discoveredAt": "2026-09-22T03:31:31.565Z",
+     "summary": "是的，Gemini 4.0 现在已是不可避免了",
+     "url": "https://x.com/haider1/status/2102235185639014596",
+     "aihot": "https://aihot.news/items/cmuc4aqwz08r9rotsv27rzvm4",
+     "selected": false,
+     "score": 24,
+     "category": "industry"
+    },
+    {
+     "n": 5,
+     "title": "Gemini 3.8 Flash 为何缺席 GeminiApp",
+     "source": "X：Emad Mostaque (@EMostaque)",
+     "ts": "2026-09-22T06:39:39.048000+08:00",
+     "publishedAt": "2026-09-21T22:16:15.000Z",
+     "discoveredAt": "2026-09-21T22:39:39.048Z",
+     "summary": "为什么 @GeminiApp 里没有 Gemini 3.8 Flash",
+     "url": "https://x.com/EMostaque/status/2102160000604910074",
+     "aihot": "https://aihot.news/items/cmubtvefq0adfrocis1kxc6rq",
+     "selected": false,
+     "score": 20,
+     "category": "industry"
+    },
+    {
+     "n": 6,
+     "title": "Google 押注 Gemini 4 与 RSI 突破",
+     "source": "X：Haider (@haider1)",
+     "ts": "2026-09-21T15:31:31.297000+08:00",
+     "publishedAt": "2026-09-21T07:30:08.000Z",
+     "discoveredAt": "2026-09-21T07:31:31.297Z",
+     "summary": "Google 更愿意让 OAI 和 Anthropic 在原始能力上争夺第一，而自己专注于帮助普通用户处理日常任务。 毫无疑问，Gemini 4 对 Google 来说是一场大赌注，尤其是考虑到近期泄露的信息指向某种 RSI 突破。",
+     "url": "https://x.com/haider1/status/2101937005810876621",
+     "aihot": "https://aihot.news/items/cmuaxfjk50aqirolnqjfexcdv",
+     "selected": false,
+     "score": 24,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 7,
+     "title": "不要用 AI 来写作：Claude、Codex/ChatGPT 和 Gemini 适合编码研究，但写作必须自己思考",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-22T04:21:17.938000+08:00",
+     "publishedAt": "2026-09-21T19:49:52.271Z",
+     "discoveredAt": "2026-09-21T20:21:17.938Z",
+     "summary": "一位重度用户建议不要用 Claude、Codex/ChatGPT 和 Gemini 等 AI 工具写作，因为写作的核心价值在于强迫自己深度思考，而 AI 擅长写作却不擅长思考和提出新想法。他主张先自己完成写作与思考，再用 AI 以提问方式获取反馈，如\"这份文档最重要的一点是什么\"，而非让 AI 直接修改或生成内容。",
+     "url": "https://paulbakker.io/writing/no-ai-for-writing",
+     "aihot": "https://aihot.news/items/cmuboxfwa051hro4vntt5he08",
+     "selected": false,
+     "score": 50,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 8,
+     "title": "Gemini 直播演示如何用 AI 购物",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-09-22T04:28:28.504000+08:00",
+     "publishedAt": "2026-09-21T20:14:34.000Z",
+     "discoveredAt": "2026-09-21T20:28:28.504Z",
+     "summary": "加入我们，观看一场直播演示，了解如何用 Gemini 购物。 无论你是想做出明智的购买决策、比较各种选项，还是用摄像头随手一拍来浏览，你都能借助 Gemini 的力量更聪明地购物。",
+     "url": "https://x.com/GeminiApp/status/2102129380042666458",
+     "aihot": "https://aihot.news/items/cmubp6pnm05f8ro4veurjo3y8",
+     "selected": false,
+     "score": 25,
+     "category": "tip"
+    },
+    {
+     "n": 9,
+     "title": "Gemini 3.8 打造屏幕编程导师",
+     "source": "X：Google AI for Developers (@googleaidevs)",
+     "ts": "2026-09-22T03:07:37.394000+08:00",
+     "publishedAt": "2026-09-21T18:46:34.000Z",
+     "discoveredAt": "2026-09-21T19:07:37.394Z",
+     "summary": "遇到 bug 卡住时，是否希望屏幕上的确切问题能被直接指出来？ 看看我们如何用 Gemini 3.8 Live Extended Thinking 构建一个编程导师，它能看见你的屏幕，并通过 function calling 引用 p5.js 库，为你讲解其中的逻辑。",
+     "url": "https://x.com/googleaidevs/status/2102107233912016926",
+     "aihot": "https://aihot.news/items/cmubmaq7h0445ro0lnon1rel7",
+     "selected": false,
+     "score": 32,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
