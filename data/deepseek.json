@@ -13,12 +13,12 @@
   ],
   "windowDays": 1,
   "winStart": "2026-09-21",
-  "winEnd": "2026-09-22",
-  "generated": "2026-09-22 13:57",
-  "rawHits": 15,
+  "winEnd": "2026-09-23",
+  "generated": "2026-09-23 13:41",
+  "rawHits": 13,
   "selectedHits": 1,
-  "shown": 3,
-  "dedupedFrom": 3,
+  "shown": 7,
+  "dedupedFrom": 7,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 12,
     "hasMore": false,
     "from_cache": false
    },
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    }
@@ -68,20 +68,20 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "DeepSeek v4.1 flash 在 WorkBuddy 国际版限时免费",
-     "source": "X：阿易 AI Notes (@AYi_AInotes)",
-     "ts": "2026-09-21T20:39:39.480000+08:00",
-     "publishedAt": "2026-09-21T12:18:07.000Z",
-     "discoveredAt": "2026-09-21T12:39:39.480Z",
-     "summary": "DeepSeek v4.1 flash 在 WorkBuddy 国际版限时免费，仅剩最后 4 天。引用推文介绍用 WorkBuddy + Karpathy LLM Wiki 搭建私人内容生产线：把代表作、创作笔记和定位说明结构化为 19 个知识页，封装成专属内容 Skill，实现个人知识库 + 专属 Skill +…",
-     "url": "https://x.com/AYi_AInotes/status/2102009475288686691",
-     "aihot": "https://aihot.news/items/cmub8ftfz0qd8roln1fhyebik",
+     "title": "据 The Information 报道，梁文锋称 DeepSeek 计划用华为芯片训练模型",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-09-22T15:57:09.307000+08:00",
+     "publishedAt": "2026-09-22T07:31:54.000Z",
+     "discoveredAt": "2026-09-22T07:57:09.307Z",
+     "summary": "据 The Information 报道，梁文锋告诉投资者 DeepSeek 计划使用华为芯片训练，950DT 可能于 2026 年 Q4 或 2027 年 Q1 到货。他据称正在训练 2T 参数模型并规划 8T 模型，高于 V4 的 1.4T。",
+     "url": "https://x.com/thexpin/status/2102299835907141654",
+     "aihot": "https://aihot.news/items/cmucdscpq04hproiji4jwk7ry",
      "selected": false,
-     "score": 24,
+     "score": 69,
      "category": "ai-models"
     },
     {
@@ -97,20 +97,6 @@
      "selected": true,
      "score": 69,
      "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "五菱缤果 Pro 开启 OTA 升级：尊享款新增车机网联，接入 DeepSeek 大模型",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-21T16:25:18.889000+08:00",
-     "publishedAt": "2026-09-21T08:22:06.000Z",
-     "discoveredAt": "2026-09-21T08:25:18.889Z",
-     "summary": "上汽通用五菱 9 月 21 日起分批次向缤果 Pro 330km 与 403km 尊享款推送 OTA 升级，新增车机网联功能，升级完成后 2 个工作日内发放 3 年车机无限流量权益。本次更新带来语音控车，并上线灵语 AI 中枢大模型，深度融合 DeepSeek 车机，可识别粤、川、陕、豫、鲁、沪等十种方言。",
-     "url": "https://www.ithome.com/1/005/300.htm",
-     "aihot": "https://aihot.news/items/cmuazcpyq0ctarolndst9rkue",
-     "selected": false,
-     "score": 29,
-     "category": "ai-models"
     }
    ],
    "note": null
@@ -120,28 +106,101 @@
    "label": "产品发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 3,
+     "title": "China's CAC is investigating DeepSeek and Moonshot after Anthropic alleged they secretly routed sens…",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-09-23T12:57:09.835000+08:00",
+     "publishedAt": "2026-09-23T04:34:05.000Z",
+     "discoveredAt": "2026-09-23T04:57:09.835Z",
+     "summary": "",
+     "url": "https://x.com/thexpin/status/2102617476261404770",
+     "aihot": "https://aihot.news/items/cmudmsqw10gqaroggr74npcwd",
+     "selected": false,
+     "score": 69,
+     "category": "industry"
+    },
+    {
+     "n": 4,
+     "title": "DeepSeek-V4.1-Flash 在 WorkBuddy 限免",
+     "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+     "ts": "2026-09-23T12:17:00.752000+08:00",
+     "publishedAt": "2026-09-23T04:11:02.000Z",
+     "discoveredAt": "2026-09-23T04:17:00.752Z",
+     "summary": "消息来了：DeepSeek-V4.1-Flash 在 WorkBuddy 上免费使用，截至 10 月 9 日！ 🗞️趁优惠还在，把它用在你下一个任务上。",
+     "url": "https://x.com/WorkBuddy_AI/status/2102611673962213506",
+     "aihot": "https://aihot.news/items/cmudld3gg0f7crogg3c5fh9rs",
+     "selected": false,
+     "score": 25,
+     "category": "industry"
+    },
+    {
+     "n": 5,
+     "title": "消息称高瓴创投合伙人严文韬加入 DeepSeek，终结三年 CFO 空缺",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-22T14:25:28.399000+08:00",
+     "publishedAt": "2026-09-22T06:25:13.000Z",
+     "discoveredAt": "2026-09-22T06:25:28.399Z",
+     "summary": "据投资界报道，高瓴创投合伙人严文韬于 9 月 21 日正式加入 DeepSeek，终结公司成立三年来 CFO 空缺的局面。严文韬 1991 年出生，毕业于复旦大学，曾先后任职于腾讯投资、H Capital，2020 年加入高瓴创投。",
+     "url": "https://www.ithome.com/1/005/674.htm",
+     "aihot": "https://aihot.news/items/cmucaig0n0jnirotss9jsni4m",
+     "selected": false,
+     "score": 58,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 6,
+     "title": "DeepSeek 发表 DSec 论文公开 Agent 训练沙盒基础设施，梁文锋署名",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-23T12:25:38.332000+08:00",
+     "publishedAt": "2026-09-23T03:37:48.000Z",
+     "discoveredAt": "2026-09-23T04:25:38.332Z",
+     "summary": "DeepSeek 发布 DSec（DeepSeek Elastic Compute）论文并署名梁文锋，公开用于 Agent 训练的沙盒基础设施技术细节。",
+     "url": "https://www.ithome.com/1/006/148.htm",
+     "aihot": "https://aihot.news/items/cmudlo7770fmerogg4hhbdvhq",
+     "selected": false,
+     "score": 73,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 7,
+     "title": "消息称 DeepSeek 本周将参加联合国安理会会议讲解 AI 安全风险",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-23T00:25:32.941000+08:00",
+     "publishedAt": "2026-09-22T15:26:51.000Z",
+     "discoveredAt": "2026-09-22T16:25:32.941Z",
+     "summary": "据路透社援引知情人士消息，DeepSeek 将于本周参加联合国安理会会议，讲解 AI 安全风险。安理会 15 个成员国计划周三开会讨论 AI 与国际安全问题，DeepSeek 和月之暗面等中国 AI 企业均受邀发言，OpenAI CEO 奥尔特曼计划演讲，Anthropic 代表也可能出席。",
+     "url": "https://www.ithome.com/1/005/990.htm",
+     "aihot": "https://aihot.news/items/cmucvy59z0qooroed9zok4hde",
+     "selected": false,
+     "score": 55,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
