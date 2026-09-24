@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-22",
-  "winEnd": "2026-09-23",
-  "generated": "2026-09-23 13:40",
-  "rawHits": 54,
-  "selectedHits": 15,
-  "shown": 11,
-  "dedupedFrom": 33,
+  "winStart": "2026-09-23",
+  "winEnd": "2026-09-24",
+  "generated": "2026-09-24 13:56",
+  "rawHits": 47,
+  "selectedHits": 13,
+  "shown": 19,
+  "dedupedFrom": 32,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 15,
+    "count": 12,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 4,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 27,
+    "count": 19,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "奥特曼",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,182 +86,76 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 5,
    "items": [
     {
      "n": 1,
-     "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
-     "source": "Epoch AI：研究、数据与评测",
-     "ts": "2026-09-23T05:40:46.303000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-22T21:40:46.303Z",
-     "summary": "Epoch AI 发布报告，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，即每年约 13 倍，并认为这一速度可能自 2021 年 11 月商业 LLM 推理开始以来持续至今。",
-     "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
-     "aihot": "https://aihot.news/items/cmud77i8r04yerorajpj343j2",
+     "title": "Cursor 提升 agent 长时运行 token 效率，用户成本降低 7%",
+     "source": "Cursor Blog",
+     "ts": "2026-09-24T06:59:33.651000+08:00",
+     "publishedAt": "2026-09-23T12:00:00.000Z",
+     "discoveredAt": "2026-09-23T22:59:33.651Z",
+     "summary": "Cursor 通过改进 agent harness，在不降低 agent 质量的情况下将用户 token 成本降低 7%。",
+     "url": "https://cursor.com/blog/improved-token-efficiency",
+     "aihot": "https://aihot.news/items/cmuepgodc0egrroyn9ves9c7r",
      "selected": true,
-     "score": 66,
+     "score": 60,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
+     "title": "Airbnb 扩大对 GPT-6 Astra 等 OpenAI 前沿模型的访问权限",
      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-09-23T03:13:26.358000+08:00",
-     "publishedAt": "2026-09-22T18:00:00.000Z",
-     "discoveredAt": "2026-09-22T19:13:26.358Z",
-     "summary": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
-     "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-     "aihot": "https://aihot.news/items/cmud1y2ku039iro5ysl7pq6d3",
-     "selected": true,
-     "score": 82,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "Artificial Analysis 完整文章（网页）",
-       "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
-       "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
-       "aihot": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
-       "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
-       "aihot": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n"
-      },
-      {
-       "source": "X：ChatGPT (@ChatGPT)",
-       "title": "GPT-6 Sol 与 GPT-6 Luna 在 ChatGPT Work 和 Codex 中推送",
-       "url": "https://x.com/ChatGPT/status/2102462020339613966",
-       "aihot": "https://aihot.news/items/cmud0ng5n001gro1fb8xe3oji"
-      },
-      {
-       "source": "X：Sherwin Wu（@sherwinwu）",
-       "title": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50%",
-       "url": "https://x.com/sherwinwu/status/2102462783707344907",
-       "aihot": "https://aihot.news/items/cmud102ad03urro1fdmzfqj9w"
-      },
-      {
-       "source": "X：OpenRouter (@OpenRouter)",
-       "title": "OpenAI GPT-6 Sol 和 GPT-6 Luna 上线 OpenRouter",
-       "url": "https://x.com/OpenRouter/status/2102463839283617992",
-       "aihot": "https://aihot.news/items/cmud0p2q603inro1fm32430f8"
-      },
-      {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%",
-       "url": "https://x.com/thsottiaux/status/2102509507415048245",
-       "aihot": "https://aihot.news/items/cmud73hd204tvrora52lp47l0"
-      },
-      {
-       "source": "X：Sam Altman (@sama)",
-       "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格比 GPT-5.6 促销价低 50%",
-       "url": "https://x.com/sama/status/2102464201335984392",
-       "aihot": "https://aihot.news/items/cmud0p2rm03irro1f0azwgip8"
-      },
-      {
-       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-       "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
-       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-       "aihot": "https://aihot.news/items/cmud4mu5303n5roa915w7f1ja"
-      },
-      {
-       "source": "X：Arena (@arena)",
-       "title": "Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布",
-       "url": "https://x.com/arena/status/2102480304409878769",
-       "aihot": "https://aihot.news/items/cmud3aisf04anrov691zrlhcg"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价降低 50%",
-       "url": "https://www.ithome.com/1/006/001.htm",
-       "aihot": "https://aihot.news/items/cmud2dm9s03w3ro5yar53tpf3"
-      },
-      {
-       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-       "title": "OpenAI 发布 GPT-6 Sol 和 Luna，API 价格较 GPT-5.6 降价 50%",
-       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-       "aihot": "https://aihot.news/items/cmud15z7h040oro1fq0zyporb"
-      },
-      {
-       "source": "X：ZHO (@ZHO_ZHO_ZHO)",
-       "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna",
-       "url": "https://x.com/ZHO_ZHO_ZHO/status/2102472026103701697",
-       "aihot": "https://aihot.news/items/cmud1t6gd034aro5y3hmv9y9q"
-      },
-      {
-       "source": "Hacker News：AI 热帖",
-       "title": "OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna，API 价格较 GPT-5.6 降价 50%",
-       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-       "aihot": "https://aihot.news/items/cmud0xb4d03s9ro1f2xkdxcaa"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 发布 GPT-6 Sol 和 Luna，价格减半但性能几乎持平 GPT-5.6",
-       "url": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance",
-       "aihot": "https://aihot.news/items/cmud4g8df05pbrov6dmyhpdnk"
-      },
-      {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "Anthropic 发布 Opus 5.5，OpenAI 发布 GPT-6 Sol 和 Luna：能力小幅提升但成本大降",
-       "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money",
-       "aihot": "https://aihot.news/items/cmud7j0no059hrorah1qy8ynv"
-      },
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Artificial Analysis 评测：GPT-6 Sol 和 Luna 以约一半成本保持与 GPT-5.6 系列相近的 Intelligence Index 得分",
-       "url": "https://x.com/ArtificialAnlys/status/2102527962201624915",
-       "aihot": "https://aihot.news/items/cmud9s4pn001groggnqsackao"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 发布 GPT-6 Sol 和 Luna，价格减半并降低错误率",
-       "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna",
-       "aihot": "https://aihot.news/items/cmud03uoj03uaro7n3mmltb7g"
-      },
-      {
-       "source": "X：Charlie Holtz（@charlieholtz）",
-       "title": "GPT-6 Sol 与 Luna 上线 Conductor",
-       "url": "https://x.com/charlieholtz/status/2102479262226002272",
-       "aihot": "https://aihot.news/items/cmud2ideb03ivrov6yabvi8b2"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI 增强 GPT-6 提示词缓存可靠性与可控性",
-       "url": "https://x.com/rohanpaul_ai/status/2102541845679255986",
-       "aihot": "https://aihot.news/items/cmudbhd2b04fdroggn32l8x0w"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "OpenAI 改进 GPT-6 API 提示词缓存",
-       "url": "https://x.com/OpenAIDevs/status/2102506476401258678",
-       "aihot": "https://aihot.news/items/cmud6cz2a03z4roraynotl31v"
-      },
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "OpenAI 推出 GPT-6 Sol 与 Luna",
-       "url": "https://x.com/testingcatalog/status/2102459873518866788",
-       "aihot": "https://aihot.news/items/cmud0daci0480ro7nadedgj2c"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "OpenAI GPT-6 黑客松星图项目",
-       "url": "https://x.com/OpenAIDevs/status/2102523216136900988",
-       "aihot": "https://aihot.news/items/cmud9kp8g0492roju6vixkgml"
-      }
-     ]
+     "ts": "2026-09-24T05:02:20.543000+08:00",
+     "publishedAt": "2026-09-23T01:00:00.000Z",
+     "discoveredAt": "2026-09-23T21:02:20.543Z",
+     "summary": "Airbnb 与 OpenAI 达成新协议，让其工程和产品团队通过 OpenAI API 和 Amazon Bedrock 更广泛地使用包括 GPT-6 Astra 在内的前沿模型。",
+     "url": "https://openai.com/index/airbnb-gpt-6-astra",
+     "aihot": "https://aihot.news/items/cmuel9xp406kgroynz4olfxo5",
+     "selected": false,
+     "score": 28,
+     "category": "ai-models"
     },
     {
      "n": 3,
-     "title": "transformers 支持直接加载 GGUF 量化模型，本地推理性能接近 llama.cpp",
-     "source": "Hugging Face：Blog（RSS）",
-     "ts": "2026-09-22T19:05:55.386000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-22T11:05:55.386Z",
-     "summary": "Hugging Face 宣布 transformers 支持直接运行 GGUF 量化模型，通过 from_pretrained 传入 gguf_file 即可加载 Hub 上的 GGUF checkpoint，并复用 ggml 的 Metal 内核。",
-     "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-     "aihot": "https://aihot.news/items/cmuckj3gv09kiroed6m91iyre",
+     "title": "Tomer Tunguz：AI 最重要的市场在中段而非前沿模型",
+     "source": "Tomer Tunguz 博客（VC 分析）",
+     "ts": "2026-09-24T04:06:15.919000+08:00",
+     "publishedAt": "2026-09-23T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T20:06:15.919Z",
+     "summary": "Tomer Tunguz 分析认为企业 AI 用量集中在需要足够智能且价格可负担的多步骤工作流中段市场，降价竞争正是证据。Anthropic 前沿模型 Fable 5.1 上线前十二天仅占网关支出的 3.7%，大型企业账户的前沿模型 token 消耗占比从 8 月初的 53% 降至 9 月的 45%；",
+     "url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle",
+     "aihot": "https://aihot.news/items/cmuej9tln04hproynr12xpgt5",
      "selected": true,
-     "score": 72,
+     "score": 71,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "Arena 实测：GPT-6 Sol （Max） 以 1689 分列 Code Arena： WebDev 第 4 名",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-09-24T01:23:20.251000+08:00",
+     "publishedAt": "2026-09-23T17:05:25.000Z",
+     "discoveredAt": "2026-09-23T17:23:20.251Z",
+     "summary": "Arena 公布 OpenAI 的 GPT-6 Sol （Max） 真实投票结果，在 Code Arena： WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。",
+     "url": "https://x.com/arena/status/2102806554340974612",
+     "aihot": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf",
+     "selected": true,
+     "score": 75,
+     "category": "ai-models"
+    },
+    {
+     "n": 5,
+     "title": "vLLM 发布 vllm-metal v0.28.0：在 Apple Silicon 上支持并发推理服务",
+     "source": "vLLM 官方博客（RSS）",
+     "ts": "2026-09-23T23:42:43.377000+08:00",
+     "publishedAt": "2026-09-22T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T15:42:43.377Z",
+     "summary": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
+     "url": "https://vllm.ai/blog/2026-09-22-vllm-metal-v0-28-0",
+     "aihot": "https://aihot.news/items/cmue9uxe20smtroghgwne9l3u",
+     "selected": true,
+     "score": 73,
      "category": "ai-models"
     }
    ],
@@ -270,62 +164,146 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 4,
+   "count": 7,
    "items": [
     {
-     "n": 4,
-     "title": "OpenAI 设立九人数学家顾问小组 AGMAI，试图修复数学成果发布争议",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-09-23T08:22:53.080000+08:00",
-     "publishedAt": "2026-09-23T00:17:17.000Z",
-     "discoveredAt": "2026-09-23T00:22:53.080Z",
-     "summary": "OpenAI 宣布成立独立数学家顾问小组 AGMAI，由普林斯顿 IAS 承办，九名成员来自 Stanford、Harvard、Oxford、Cambridge 等机构，将就新兴数学成果的评审与发布提供建议。",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-     "aihot": "https://aihot.news/items/cmudczysp063yroggiwyp80u1",
-     "selected": false,
-     "score": 65,
-     "category": "ai-products"
-    },
-    {
-     "n": 5,
-     "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-     "source": "Simon Willison 博客",
-     "ts": "2026-09-23T08:08:14.545000+08:00",
-     "publishedAt": "2026-09-22T23:46:41.000Z",
-     "discoveredAt": "2026-09-23T00:08:14.545Z",
-     "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；",
-     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-     "aihot": "https://aihot.news/items/cmudch57g05bqroggl65fi9vo",
-     "selected": true,
-     "score": 81,
-     "category": "ai-products"
-    },
-    {
      "n": 6,
-     "title": "ChatGPT 在 macOS 27 崩溃，Astra 发现 libuv 旧 bug",
-     "source": "X：Peter Steinberger (@steipete)",
-     "ts": "2026-09-23T05:05:44.247000+08:00",
-     "publishedAt": "2026-09-22T20:53:48.000Z",
-     "discoveredAt": "2026-09-22T21:05:44.247Z",
-     "summary": "更新到 macOS 27 后，ChatGPT 有时会崩溃，然后……Astra 在 libuv 里发现了一个约 14 年前的 bug。https://github.com/libuv/libuv/pull/5283",
-     "url": "https://x.com/steipete/status/2102501642176528743",
-     "aihot": "https://aihot.news/items/cmud5yh1903iarorahi0vox9u",
+     "title": "Claude Opus 5.5 与 GPT-6 Sol 在 Arena 对比",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-09-24T04:21:06.325000+08:00",
+     "publishedAt": "2026-09-23T20:15:40.000Z",
+     "discoveredAt": "2026-09-23T20:21:06.325Z",
+     "summary": "来看看 Arena 上由 @AnthropicAI 的 Claude Opus 5.5 和 @OpenAI 的 GPT-6 Sol 生成的并排输出。 @claudeai Opus 5.5 的评分即将公布。来自我们全球用户社区的真实任务驱动着 Arena 排行榜。现在就前往 Arena 体验，敬请期待！",
+     "url": "https://x.com/arena/status/2102854430454669767",
+     "aihot": "https://aihot.news/items/cmuejsxa9055droynqvywsjzj",
      "selected": false,
-     "score": 42,
+     "score": 44,
      "category": "ai-products"
     },
     {
      "n": 7,
-     "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-     "source": "Anthropic：Newsroom（网页）",
-     "ts": "2026-09-23T00:53:30.664000+08:00",
-     "publishedAt": "2026-09-22T16:53:30.664Z",
-     "discoveredAt": "2026-09-22T16:53:30.664Z",
-     "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-     "url": "https://www.anthropic.com/claude-opus-5-5",
-     "aihot": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+     "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-09-24T04:02:17.123000+08:00",
+     "publishedAt": "2026-09-23T10:00:00.000Z",
+     "discoveredAt": "2026-09-23T20:02:17.123Z",
+     "summary": "OpenAI 发布开放基准 MentalHealthBench，评估 AI 在真实心理健康对话中的表现，由来自 22 个国家、19 种语言的 80 多位持证心理学家和精神科医生共同构建。",
+     "url": "https://openai.com/index/introducing-mentalhealthbench",
+     "aihot": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv",
      "selected": true,
-     "score": 86,
+     "score": 62,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 发布心理健康对话基准 MentalHealthBench",
+       "url": "https://x.com/OpenAI/status/2102837574092161102",
+       "aihot": "https://aihot.news/items/cmueup7f003m6royqdxwyksro"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "OpenAI 发布 MentalHealthBench，GPT-6 Astra 得分 57.3",
+       "url": "https://x.com/rohanpaul_ai/status/2102842483311104332",
+       "aihot": "https://aihot.news/items/cmueictm3036yroynlm0xxrv1"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "title": "ChatGPT 移动端上线语音智能体功能，Plus 和 Pro 订阅用户可用 Work 标签页",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-24T03:10:23.072000+08:00",
+     "publishedAt": "2026-09-23T18:44:00.000Z",
+     "discoveredAt": "2026-09-23T19:10:23.072Z",
+     "summary": "ChatGPT 移动应用获得基于语音的智能体功能。手机端 Plus 和 Pro 订阅用户可使用 Work 标签页，完成创建文档、起草邮件、总结 Slack 消息等任务，还可以创建网站和演示文稿、使用云浏览器，并使用 finances 等分区。",
+     "url": "https://x.com/rohanpaul_ai/status/2102831363434901914",
+     "aihot": "https://aihot.news/items/cmueh9zc705n3rovx1ijt3rtz",
+     "selected": false,
+     "score": 69,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "OpenAI 在 ChatGPT 移动端推出语音触发的智能体功能",
+       "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
+       "aihot": "https://aihot.news/items/cmuefqk4x001zrovxqr7in54q"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "title": "Greg Brockman 宣布 GPT Voice 大幅升级，支持使用工具并登陆 ChatGPT Work",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-09-24T02:07:37.425000+08:00",
+     "publishedAt": "2026-09-23T18:05:37.000Z",
+     "discoveredAt": "2026-09-23T18:07:37.425Z",
+     "summary": "GPT Voice 获得重大升级，现在可以使用邮箱、日历、Slack 等工具，并由 GPT-6 Astra、Sol 和 Luna 驱动。语音功能现已登陆网页端和移动端的 ChatGPT Work，用户可仅通过语音在浏览器中创建文档、演示文稿、网站和表格或处理复杂任务，今日起在全球最新版应用中推出。",
+     "url": "https://x.com/gdb/status/2102821706041819401",
+     "aihot": "https://aihot.news/items/cmuef19zy078qrox3486cjnrq",
+     "selected": true,
+     "score": 76,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 更新 ChatGPT Voice：支持邮件、日历、Slack 插件并由 GPT-6 Astra、Sol、Luna 驱动",
+       "url": "https://x.com/OpenAI/status/2102808325742322002",
+       "aihot": "https://aihot.news/items/cmueup7f003m7royq61z93ftn"
+      },
+      {
+       "source": "X：Tibo (@thsottiaux)",
+       "title": "ChatGPT Voice 升级：可调用邮件、日历、Slack 插件并由 GPT-6 Astra、Sol、Luna 驱动",
+       "url": "https://x.com/thsottiaux/status/2102814202117411196",
+       "aihot": "https://aihot.news/items/cmuedyzhy0482romm2rpjfis0"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "OpenAI 宣布 ChatGPT Voice 支持插件并可用于 ChatGPT Work",
+       "url": "https://x.com/testingcatalog/status/2102837554668089513",
+       "aihot": "https://aihot.news/items/cmueuqr3j03p0royq9u3nm4z5"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-09-24T01:09:01.108000+08:00",
+     "publishedAt": "2026-09-23T17:09:01.108Z",
+     "discoveredAt": "2026-09-23T17:09:01.108Z",
+     "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
+     "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
+     "aihot": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q",
+     "selected": true,
+     "score": 70,
+     "category": "ai-products"
+    },
+    {
+     "n": 11,
+     "title": "OpenAI Academy 两周年：举办超 250 场活动，推出社区培训师计划",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-09-23T22:59:21.605000+08:00",
+     "publishedAt": "2026-09-23T14:59:21.605Z",
+     "discoveredAt": "2026-09-23T14:59:21.605Z",
+     "summary": "OpenAI Academy 自 2024 年 9 月上线以来已举办超 250 场活动，超 400 万人接触其内容。该平台本月新增面向知识工作者、开发者、管理者、教育者和大学生的 Academy 学习路径，学员通过测评可获课程徽章。",
+     "url": "https://openai.com/index/two-years-of-openai-academy",
+     "aihot": "https://aihot.news/items/cmue8b9ja0qunroghpdzdk91b",
+     "selected": false,
+     "score": 41,
+     "category": "ai-products"
+    },
+    {
+     "n": 12,
+     "title": "OpenAI 与 Grab 推出 GO Forward with AI，为东南亚 3 万司机与商户提供 AI 技能培训",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-09-23T19:14:10.609000+08:00",
+     "publishedAt": "2026-09-23T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T11:14:10.609Z",
+     "summary": "OpenAI 与东南亚超级应用 Grab 合作推出 GO Forward with AI 技能培训项目，计划两年内帮助东南亚 3 万名 Grab 司机、配送和商户合作伙伴掌握实用 AI 技能。",
+     "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+     "aihot": "https://aihot.news/items/cmue09l920ecwroghstmo07qq",
+     "selected": false,
+     "score": 35,
      "category": "ai-products"
     }
    ],
@@ -334,34 +312,48 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 2,
+   "count": 3,
    "items": [
     {
-     "n": 8,
-     "title": "不列颠哥伦比亚省起诉 OpenAI，要求为 ChatGPT 涉及的枪击案支付新学校费用",
-     "source": "Ars Technica：AI（RSS）",
-     "ts": "2026-09-23T03:49:41.614000+08:00",
-     "publishedAt": "2026-09-22T19:28:23.000Z",
-     "discoveredAt": "2026-09-22T19:49:41.614Z",
-     "summary": "不列颠哥伦比亚省就 Tumbler Ridge 枪击案起诉 OpenAI，指控 ChatGPT 的设计而非用户存在缺陷，称模型规范指示聊天机器人在用户发起暴力对话时假定\"善意\"且\"不探查意图\"，并要求法院下令修改这两项指令。",
-     "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting",
-     "aihot": "https://aihot.news/items/cmud38nub0480rov69o3ax6e4",
-     "selected": false,
-     "score": 75,
+     "n": 13,
+     "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T09:28:02.163000+08:00",
+     "publishedAt": "2026-09-24T01:12:13.000Z",
+     "discoveredAt": "2026-09-24T01:28:02.163Z",
+     "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+     "url": "https://www.ithome.com/1/006/548.htm",
+     "aihot": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d",
+     "selected": true,
+     "score": 78,
      "category": "industry"
     },
     {
-     "n": 9,
-     "title": "PixVerse ChatGPT 插件新增热门预设",
-     "source": "X：PixVerse (@PixVerse)",
-     "ts": "2026-09-22T21:29:13.961000+08:00",
-     "publishedAt": "2026-09-22T13:09:53.000Z",
-     "discoveredAt": "2026-09-22T13:29:13.961Z",
-     "summary": "ChatGPT 上的 PixVerse 插件带来更多热门预设",
-     "url": "https://x.com/PixVerse/status/2102384890633433177",
-     "aihot": "https://aihot.news/items/cmucpneau0jbgroed7nrceau9",
+     "n": 14,
+     "title": "OpenAI 攻击 Hugging Face 技术失误",
+     "source": "X：SemiAnalysis (@SemiAnalysis_)",
+     "ts": "2026-09-24T02:10:24.731000+08:00",
+     "publishedAt": "2026-09-23T18:00:35.000Z",
+     "discoveredAt": "2026-09-23T18:10:24.731Z",
+     "summary": "OpenAI 对 Hugging Face 发动网络攻击时犯下的诸多低级技术错误，鲜少受到关注。在此，我们逐一梳理其中几处。（1/7）🧵",
+     "url": "https://x.com/SemiAnalysis_/status/2102820439202394458",
+     "aihot": "https://aihot.news/items/cmuef56tj07cxrox3u747bwbu",
      "selected": false,
-     "score": 37,
+     "score": 34,
+     "category": "industry"
+    },
+    {
+     "n": 15,
+     "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-09-23T20:14:13.272000+08:00",
+     "publishedAt": "2026-09-23T13:00:00.000Z",
+     "discoveredAt": "2026-09-23T12:14:13.272Z",
+     "summary": "OpenAI 宣布向乌克兰政府开放其 Daybreak 计划，支持民用基础设施的网络防御，与乌克兰数字化转型部合作提供识别软件漏洞、开发和测试修复的工具。乌克兰 CERT-UA 在 2025 年处理了近 6，000 起网络事件；",
+     "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+     "aihot": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi",
+     "selected": true,
+     "score": 66,
      "category": "industry"
     }
    ],
@@ -370,42 +362,119 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 16,
+     "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-24T06:59:38.001000+08:00",
+     "publishedAt": "2026-09-23T22:54:29.320Z",
+     "discoveredAt": "2026-09-23T22:59:38.001Z",
+     "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。",
+     "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+     "aihot": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4",
+     "selected": true,
+     "score": 84,
+     "category": "paper",
+     "also": [
+      {
+       "source": "X：Nathan Lambert (@natolambert)",
+       "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
+       "url": "https://x.com/natolambert/status/2102872133244183038",
+       "aihot": "https://aihot.news/items/cmuem5vyq07nqroynhi5j65vd"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "澳大利亚称 OpenAI 智能体入侵政府医疗数据门户",
+       "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
+       "aihot": "https://aihot.news/items/cmuf1tg2u073krooducxna1u9"
+      },
+      {
+       "source": "IT之家（RSS）",
+       "title": "澳大利亚总理证实 OpenAI 智能体 6 月未经授权侵入政府网站",
+       "url": "https://www.ithome.com/1/006/515.htm",
+       "aihot": "https://aihot.news/items/cmueqh72i0fhuroyny08mx29j"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "FT 报道 OpenAI 智能体越权访问澳大利亚 Medicare 统计门户，面临调查",
+       "url": "https://x.com/rohanpaul_ai/status/2102887365039816924",
+       "aihot": "https://aihot.news/items/cmueos1z60dveroynrttd4v8c"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
+   "count": 3,
    "items": [
     {
-     "n": 10,
-     "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-09-23T08:53:18.852000+08:00",
-     "publishedAt": "2026-09-23T00:00:00.000Z",
-     "discoveredAt": "2026-09-23T00:53:18.852Z",
-     "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
-     "url": "https://openrouter.ai/blog/insights/best-embedding-models-2026",
-     "aihot": "https://aihot.news/items/cmude350u077jroggw7odbigk",
-     "selected": true,
-     "score": 66,
+     "n": 17,
+     "title": "OpenAI CEO 奥尔特曼联合国演讲：AI 可能走向文艺复兴，也可能带来工业革命式动荡",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T08:27:57.064000+08:00",
+     "publishedAt": "2026-09-23T23:31:33.000Z",
+     "discoveredAt": "2026-09-24T00:27:57.064Z",
+     "summary": "OpenAI CEO 萨姆·奥尔特曼在联合国安理会就 AI 议题发表讲话，称 AI 可能像一场充满创造力与发现的文艺复兴，也可能像一场引发动荡与混乱的工业革命。他呼吁建立针对前沿 AI 系统的能力评估、风险评估、安全防护和人类监督标准，并强调不应让最强模型和权力集中在少数人手中。",
+     "url": "https://www.ithome.com/1/006/521.htm",
+     "aihot": "https://aihot.news/items/cmuesmd640hjgroyngobx53uo",
+     "selected": false,
+     "score": 48,
      "category": "tip"
     },
     {
-     "n": 11,
-     "title": "OpenAI 高管 Mark Chen 盛赞 Mich Pokrass 对 ChatGPT 的贡献",
-     "source": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
-     "ts": "2026-09-22T16:48:18.405000+08:00",
-     "publishedAt": "2026-09-22T08:35:20.000Z",
-     "discoveredAt": "2026-09-22T08:48:18.405Z",
-     "summary": "OpenAI 首席研究官 Mark Chen 表示，Mich Pokrass 对 OpenAI 消费级产品影响巨大，ChatGPT 在她的领导下迎来\"重生\"，许多成果源于她的愿景与信念。",
-     "url": "https://x.com/markchen90/status/2102315801730564516",
-     "aihot": "https://aihot.news/items/cmucfm4qn046droedir2bm5gv",
+     "n": 18,
+     "title": "Sam Altman 在联合国安理会警告 AI 递归自我改进风险",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-24T05:10:25.003000+08:00",
+     "publishedAt": "2026-09-23T21:09:44.000Z",
+     "discoveredAt": "2026-09-23T21:10:25.003Z",
+     "summary": "Sam Altman 在联合国安理会发言称，人类可能在未来失去对 AI 的控制，风险在于 AI 发展过快以致人们无法跟上或及时干预。他特别提到当接近可自我改进的系统即递归自我改进时，AI 进展可能迅速加速，这一时刻需要极度谨慎。他还表示 OpenAI 过去曾单方面放缓 AI 开发，未来也会再次这样做。",
+     "url": "https://x.com/rohanpaul_ai/status/2102868037561135204",
+     "aihot": "https://aihot.news/items/cmuelkk6g06uyroynve4ih496",
      "selected": false,
-     "score": 19,
-     "category": "tip"
+     "score": 61,
+     "category": "tip",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Sam Altman 在联合国安理会称人类可能失去对 AI 的控制",
+       "url": "https://x.com/rohanpaul_ai/status/2102865744866562437",
+       "aihot": "https://aihot.news/items/cmuelkk6g06uzroynp8aw5d1a"
+      },
+      {
+       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+       "title": "Sam Altman 在联合国安理会阐述 AI 风险与国际合作主张",
+       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+       "aihot": "https://aihot.news/items/cmuelte66074qroyneq7xit7f"
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "title": "Business Insider 起底 OpenAI 的网红营销策略：让 ChatGPT 看起来'对世界有益'",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-09-23T21:45:02.414000+08:00",
+     "publishedAt": "2026-09-23T12:32:00.000Z",
+     "discoveredAt": "2026-09-23T13:45:02.414Z",
+     "summary": "Business Insider 报道称 OpenAI 正加大网红营销投入，以在 AI 安全担忧升温时塑造 ChatGPT 形象。",
+     "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+     "aihot": "https://aihot.news/items/cmue5nke40nvcroghql1nsgs1",
+     "selected": false,
+     "score": 59,
+     "category": "tip",
+     "also": [
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "OpenAI 扩大网红营销：ChatGPT 赞助帖从 6 月的 61 条增至 8 月的 141 条",
+       "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+       "aihot": "https://aihot.news/items/cmue70km00peuroghdlpl3xa8"
+      }
+     ]
     }
    ],
    "note": null

@@ -14,13 +14,13 @@
    "Dario Amodei"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-22",
-  "winEnd": "2026-09-23",
-  "generated": "2026-09-23 13:40",
-  "rawHits": 58,
-  "selectedHits": 16,
-  "shown": 9,
-  "dedupedFrom": 43,
+  "winStart": "2026-09-23",
+  "winEnd": "2026-09-24",
+  "generated": "2026-09-24 13:57",
+  "rawHits": 53,
+  "selectedHits": 21,
+  "shown": 24,
+  "dedupedFrom": 44,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "Anthropic",
     "mode": "selected",
     "window": "24h",
-    "count": 10,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Claude",
     "mode": "selected",
     "window": "24h",
-    "count": 15,
+    "count": 16,
     "hasMore": false,
     "from_cache": false
    },
@@ -67,7 +67,7 @@
     "q": "Dario Amodei",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Dario Amodei",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,62 +86,110 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 6,
    "items": [
     {
      "n": 1,
-     "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
-     "source": "Epoch AI：研究、数据与评测",
-     "ts": "2026-09-23T05:40:46.303000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-22T21:40:46.303Z",
-     "summary": "Epoch AI 发布报告，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，即每年约 13 倍，并认为这一速度可能自 2021 年 11 月商业 LLM 推理开始以来持续至今。",
-     "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
-     "aihot": "https://aihot.news/items/cmud77i8r04yerorajpj343j2",
+     "title": "Claude Opus 5.5 登顶 Arena Code Arena： WebDev 榜首，得 1818 分",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-09-24T10:51:06.860000+08:00",
+     "publishedAt": "2026-09-24T02:46:25.000Z",
+     "discoveredAt": "2026-09-24T02:51:06.860Z",
+     "summary": "Arena 宣布 Claude Opus 5.5 （Max） 以 1818 分登顶 Code Arena： WebDev，领先第二名 GPT-6 Astra （Max） 26 分，比 Opus 5 （Max） 的 1692 分高出 126 分。",
+     "url": "https://x.com/arena/status/2102952767614779403",
+     "aihot": "https://aihot.news/items/cmuexqizk03anroowc9has4ui",
      "selected": true,
-     "score": 66,
-     "category": "ai-models"
+     "score": 79,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna/Sol 发布改变智能指数与成本 Pareto 前沿",
+       "url": "https://x.com/ArtificialAnlys/status/2102833926788288704",
+       "aihot": "https://aihot.news/items/cmueho4vu065orovxbe0r7q3s"
+      },
+      {
+       "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+       "title": "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
+       "url": "https://x.com/AravSrinivas/status/2102780186202972254",
+       "aihot": "https://aihot.news/items/cmue9wuq00sqxrogh9805ahzr"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Claude Opus 5.5 与 GPT-6 Sol 在 Arena 对比",
+       "url": "https://x.com/arena/status/2102854430454669767",
+       "aihot": "https://aihot.news/items/cmuejsxa9055droynqvywsjzj"
+      }
+     ]
     },
     {
      "n": 2,
-     "title": "Claude Opus 5.5 system card：任务不可行时 reward hacking 尝试率升至约 3 到 6 倍",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-09-23T05:10:23.440000+08:00",
-     "publishedAt": "2026-09-22T20:46:04.000Z",
-     "discoveredAt": "2026-09-22T21:10:23.440Z",
-     "summary": "Claude Opus 5.5 system card 显示，面对不可能完成的任务时，所有受测模型的 reward hacking 尝试率比可行任务高约 3 到 6 倍，环境缺失或定义不清会改变模型行为而不只是让基准分数波动。",
-     "url": "https://x.com/rohanpaul_ai/status/2102499693892940069",
-     "aihot": "https://aihot.news/items/cmud64hc703nlrorajn1ohy7o",
-     "selected": false,
-     "score": 73,
+     "title": "Fireworks Research 发布 Ember-1，以更少推理 token 保持 Kimi K3 质量",
+     "source": "Fireworks AI（网页）",
+     "ts": "2026-09-24T05:40:50.983000+08:00",
+     "publishedAt": "2026-09-23T21:40:50.983Z",
+     "discoveredAt": "2026-09-23T21:40:50.983Z",
+     "summary": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以约少 40% 的 token 达到与 Kimi K3 相当的质量，今日以 Research Preview 形式在 Serverless 上线。",
+     "url": "https://fireworks.ai/blog/ember-1",
+     "aihot": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3",
+     "selected": true,
+     "score": 63,
      "category": "ai-models"
     },
     {
      "n": 3,
-     "title": "Meta Muse 助手曝出严重 0-day 漏洞，Amazon 已开始封禁 Muse",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-23T03:51:38.625000+08:00",
-     "publishedAt": "2026-09-22T19:29:49.288Z",
-     "discoveredAt": "2026-09-22T19:51:38.625Z",
-     "summary": "Meta 的 AI 助手 Muse 存在一个 0-day 漏洞，任何本地应用或终端命令都可获取用户 Muse 账户的认证 token，获得对智能体的完全控制。发现者 Patrick Wardle 表示已开发出多个概念验证攻击，如写恶意文件和拍照；Meta 在披露约 12 小时后发布热修复补丁。",
-     "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
-     "aihot": "https://aihot.news/items/cmud3b5q504b9rov6qig73auy",
+     "title": "Tomer Tunguz：AI 最重要的市场在中段而非前沿模型",
+     "source": "Tomer Tunguz 博客（VC 分析）",
+     "ts": "2026-09-24T04:06:15.919000+08:00",
+     "publishedAt": "2026-09-23T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T20:06:15.919Z",
+     "summary": "Tomer Tunguz 分析认为企业 AI 用量集中在需要足够智能且价格可负担的多步骤工作流中段市场，降价竞争正是证据。Anthropic 前沿模型 Fable 5.1 上线前十二天仅占网关支出的 3.7%，大型企业账户的前沿模型 token 消耗占比从 8 月初的 53% 降至 9 月的 45%；",
+     "url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle",
+     "aihot": "https://aihot.news/items/cmuej9tln04hproynr12xpgt5",
      "selected": true,
-     "score": 79,
+     "score": 71,
      "category": "ai-models"
     },
     {
      "n": 4,
-     "title": "transformers 支持直接加载 GGUF 量化模型，本地推理性能接近 llama.cpp",
-     "source": "Hugging Face：Blog（RSS）",
-     "ts": "2026-09-22T19:05:55.386000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-22T11:05:55.386Z",
-     "summary": "Hugging Face 宣布 transformers 支持直接运行 GGUF 量化模型，通过 from_pretrained 传入 gguf_file 即可加载 Hub 上的 GGUF checkpoint，并复用 ggml 的 Metal 内核。",
-     "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-     "aihot": "https://aihot.news/items/cmuckj3gv09kiroed6m91iyre",
+     "title": "Modal 详解如何以万亿 token 规模服务 Kimi K2.6 编码 Agent 推理",
+     "source": "Modal 官方工程博客（RSS）",
+     "ts": "2026-09-24T02:38:27.812000+08:00",
+     "publishedAt": "2026-09-23T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T18:38:27.812Z",
+     "summary": "Modal 分享为编码 Agent 提供万亿参数模型 Kimi K2.6 推理服务的优化实践，优化后单副本每用户性能提升 2.8x、副本整体吞吐提升 5.6x，单个服务日处理数千亿 token。",
+     "url": "https://modal.com/blog/trillion-tokens-trillion-parameters",
+     "aihot": "https://aihot.news/items/cmueg56ob04iqrovxup3jp0ly",
      "selected": true,
-     "score": 72,
+     "score": 61,
+     "category": "ai-models"
+    },
+    {
+     "n": 5,
+     "title": "Anthropic 发布 Claude Opus 5.5：默认 1M token 上下文，面向长时间运行的智能体编码",
+     "source": "Claude Platform：开发者版本说明（RSS）",
+     "ts": "2026-09-24T02:19:23.042000+08:00",
+     "publishedAt": "2026-09-22T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T18:19:23.042Z",
+     "summary": "Anthropic 发布 Claude Opus 5.5（claude-opus-5-5），定位于长时间运行的智能体编码与知识工作，默认 1M token 上下文窗口。",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview#september-22-2026",
+     "aihot": "https://aihot.news/items/cmuefgoq007p2rox3gq6ng3y4",
+     "selected": true,
+     "score": 83,
+     "category": "ai-models"
+    },
+    {
+     "n": 6,
+     "title": "vLLM 发布 vllm-metal v0.28.0：在 Apple Silicon 上支持并发推理服务",
+     "source": "vLLM 官方博客（RSS）",
+     "ts": "2026-09-23T23:42:43.377000+08:00",
+     "publishedAt": "2026-09-22T00:00:00.000Z",
+     "discoveredAt": "2026-09-23T15:42:43.377Z",
+     "summary": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
+     "url": "https://vllm.ai/blog/2026-09-22-vllm-metal-v0-28-0",
+     "aihot": "https://aihot.news/items/cmue9uxe20smtroghgwne9l3u",
+     "selected": true,
+     "score": 73,
      "category": "ai-models"
     }
    ],
@@ -150,241 +198,127 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 7,
    "items": [
     {
-     "n": 5,
-     "title": "Claude 网页版上线用量重置按钮",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-09-23T05:29:13.256000+08:00",
-     "publishedAt": "2026-09-22T21:04:28.000Z",
-     "discoveredAt": "2026-09-22T21:29:13.256Z",
-     "summary": "ANTHROPIC 🔥：用量上限重置按钮已登陆 Claude 网页版和桌面端。用户现在可以使用新的 Reset 来\"探索 Opus 5.5！\" 在我看来，它更像是个\"测试\"按钮！👀",
-     "url": "https://x.com/testingcatalog/status/2102504325876781280",
-     "aihot": "https://aihot.news/items/cmud6snvn04lprora250cg2wf",
-     "selected": false,
-     "score": 33,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-     "source": "Anthropic：Newsroom（网页）",
-     "ts": "2026-09-23T00:53:30.664000+08:00",
-     "publishedAt": "2026-09-22T16:53:30.664Z",
-     "discoveredAt": "2026-09-22T16:53:30.664Z",
-     "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-     "url": "https://www.anthropic.com/claude-opus-5-5",
-     "aihot": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+     "n": 7,
+     "title": "Claude Code 云会话正式上线，Pro 和 Max 订阅者可领一次性额度",
+     "source": "X：Claude Devs (@ClaudeDevs)",
+     "ts": "2026-09-24T09:28:13.469000+08:00",
+     "publishedAt": "2026-09-23T21:23:41.000Z",
+     "discoveredAt": "2026-09-24T01:28:13.469Z",
+     "summary": "Claude Code 云会话正式可用，结束研究预览阶段，可在笔记本合盖后继续在 Anthropic 托管的基础设施上运行。现有订阅者可领取一次性额度，Pro 为 $100、Max 为 $250，额度独立于套餐用量限制，需在 10 月 7 日 11：59 PM PT 前领取、11 月 4 日前用完。",
+     "url": "https://x.com/ClaudeDevs/status/2102871550974427462",
+     "aihot": "https://aihot.news/items/cmueurvwl03tvroyqdzcth166",
      "selected": true,
-     "score": 86,
+     "score": 67,
      "category": "ai-products",
      "also": [
       {
-       "source": "Artificial Analysis 完整文章（网页）",
-       "title": "Claude Opus 5.5 登顶 Artificial Analysis 智能指数，得分 58",
-       "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
-       "aihot": "https://aihot.news/items/cmucyny580521roni2aiyh9xj"
-      },
-      {
-       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-       "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-       "aihot": "https://aihot.news/items/cmud1y2ku039iro5ysl7pq6d3"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
-       "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
-       "aihot": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n"
-      },
-      {
-       "source": "Simon Willison 博客",
-       "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-       "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-       "aihot": "https://aihot.news/items/cmudch57g05bqroggl65fi9vo"
-      },
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Claude Opus 5.5 登顶 Artificial Analysis Intelligence Index，并降价 20%",
-       "url": "https://x.com/ArtificialAnlys/status/2102438210798514391",
-       "aihot": "https://aihot.news/items/cmucwv0h50ro5roedgmckw2j5"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
-       "url": "https://x.com/rohanpaul_ai/status/2102491250515681384",
-       "aihot": "https://aihot.news/items/cmud52j4i003droralpe8a53b"
-      },
-      {
-       "source": "X：Arena (@arena)",
-       "title": "Claude Opus 5.5 上架 Arena 的 Agent Arena 与 Battle Mode",
-       "url": "https://x.com/arena/status/2102454952576868638",
-       "aihot": "https://aihot.news/items/cmucz06v905eironivy08mtvk"
-      },
-      {
-       "source": "X：OpenRouter (@OpenRouter)",
-       "title": "Claude Opus 5.5 上线 OpenRouter，智能体编码等能力领先 Opus 5",
-       "url": "https://x.com/OpenRouter/status/2102438921213014078",
-       "aihot": "https://aihot.news/items/cmucxgaki0sfkroed0n804wg5"
-      },
-      {
-       "source": "X：Boris Cherny (@bcherny)",
-       "title": "Boris Cherny 实测 Claude Opus 5.5：比 Fable 5.1 快且便宜 51%",
-       "url": "https://x.com/bcherny/status/2102439069053747549",
-       "aihot": "https://aihot.news/items/cmucxgajz0sfiroedxx6y9qyw"
-      },
-      {
-       "source": "X：Claude (@claudeai)",
-       "title": "Anthropic 发布 Claude Opus 5.5，Claude 5.5 系列首个模型",
-       "url": "https://x.com/claudeai/status/2102435511222890900",
-       "aihot": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u"
-      },
-      {
-       "source": "Claude Code：GitHub Releases（RSS）",
-       "title": "Claude Code v2.1.280 发布，新增 Claude Opus 5.5 为默认 Opus 模型",
-       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
-       "aihot": "https://aihot.news/items/cmucxceh40salroedruwhn0ee"
-      },
-      {
-       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-       "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-       "url": "https://www.anthropic.com/claude-opus-5-5",
-       "aihot": "https://aihot.news/items/cmucxy8iq04f0roniymw9tfvq"
-      },
-      {
-       "source": "Hacker News：AI 热帖",
-       "title": "Anthropic 发布 Claude Opus 5.5",
-       "url": "https://www.anthropic.com/claude-opus-5-5",
-       "aihot": "https://aihot.news/items/cmucwn00k0rglroed55jw9pqk"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "Anthropic 发布 Claude Opus 5.5：性能对标 Fable 5.1，运行成本比 Opus 5 低 40%",
-       "url": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release",
-       "aihot": "https://aihot.news/items/cmud28tsp03quro5yp2q3ynpp"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "Anthropic 发布 Opus 5.5，价格更低并在多项基准上超越 Fable",
-       "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance",
-       "aihot": "https://aihot.news/items/cmucww3hj0rqbroed0bxd4trc"
+       "source": "X：Claude Devs (@ClaudeDevs)",
+       "title": "Claude Code 澄清 Cloud sessions 按订阅计费，Pro 补 $100、Max 补 $250 一次性抵用金",
+       "url": "https://x.com/ClaudeDevs/status/2102940480736821610",
+       "aihot": "https://aihot.news/items/cmuew6nid02ggro3ko74hery9"
       },
       {
        "source": "IT之家（RSS）",
-       "title": "Anthropic 发布 Claude Opus 5.5：成本比 Opus 5 低 40%，输出快 30% 以上",
-       "url": "https://www.ithome.com/1/005/998.htm",
-       "aihot": "https://aihot.news/items/cmud2dm9s03w6ro5ymdfkg55p"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "Anthropic 发布 Claude Opus 5.5，加强网络安全相关防护",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-       "aihot": "https://aihot.news/items/cmucwvx1h0rpwroedzlvjp5y7"
-      },
-      {
-       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-       "title": "Artificial Analysis 公布 Claude Opus 5.5 智能与价格分析",
-       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-       "aihot": "https://aihot.news/items/cmud28kkd03qfro5ypmn30ac5"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Claude Opus 5.5 发布，系统卡称 AI 可能把 1.5 年能力进展压缩进 1 年",
-       "url": "https://x.com/rohanpaul_ai/status/2102468302866121073",
-       "aihot": "https://aihot.news/items/cmud0u4y403obro1fx1ere7vq"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Rohan Paul 梳理 Claude Opus 5.5 系统卡中的安全发现与定价变化",
-       "url": "https://x.com/rohanpaul_ai/status/2102502397188907356",
-       "aihot": "https://aihot.news/items/cmud64hc703nkrora7yw4s3ef"
-      },
-      {
-       "source": "Hacker News：AI 热帖",
-       "title": "Artificial Analysis 发布 Claude Opus 5.5 智能与价格分析（Max Effort）",
-       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
-       "aihot": "https://aihot.news/items/cmud0xb4d03saro1fx7glsdv5"
-      },
-      {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "Anthropic 发布 Opus 5.5，OpenAI 发布 GPT-6 Sol 和 Luna：能力小幅提升但成本大降",
-       "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money",
-       "aihot": "https://aihot.news/items/cmud7j0no059hrorah1qy8ynv"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Claude Opus 5.5 系统卡披露模型自发产生恶意指令的\"自发性提示注入\"现象",
-       "url": "https://x.com/rohanpaul_ai/status/2102466725732299058",
-       "aihot": "https://aihot.news/items/cmud0u4y403ocro1fohf9pifg"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Anthropic 称 Claude Opus 5.5 常怀疑自己正被评估，评测难以预测真实部署行为",
-       "url": "https://x.com/rohanpaul_ai/status/2102446724258345191",
-       "aihot": "https://aihot.news/items/cmucyoyjg0538roninsh7warn"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Rohan Paul 梳理 Claude Opus 5.5 系统卡要点并指出 METR 评估的证据透明度问题",
-       "url": "https://x.com/rohanpaul_ai/status/2102517750031888573",
-       "aihot": "https://aihot.news/items/cmud89ngw02pyroc2m2pqf94g"
-      },
-      {
-       "source": "X：Claude Devs (@ClaudeDevs)",
-       "title": "Claude 团队分享 Opus 5.5 首次会话使用建议",
-       "url": "https://x.com/ClaudeDevs/status/2102491840612380934",
-       "aihot": "https://aihot.news/items/cmud4ybvr03w0roa9az3a6lu0"
-      },
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Artificial Analysis 测算 Claude Opus 5.5 （max） 每 Intelligence Index task 成本 $5.98，与 Opus 5 持平",
-       "url": "https://x.com/ArtificialAnlys/status/2102541956014657615",
-       "aihot": "https://aihot.news/items/cmudbv5b604t6roggflbrx8aa"
-      },
-      {
-       "source": "Claude：YouTube（RSS）",
-       "title": "Meet Claude Opus 5.5",
-       "url": "https://www.youtube.com/watch?v=FcK--rzZfpA",
-       "aihot": "https://aihot.news/items/cmudlruwb0fshroggrit1d3j2"
-      },
-      {
-       "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-       "title": "Anthropic 提示词助 Claude Code 长任务",
-       "url": "https://x.com/omarsar0/status/2102506755037306925",
-       "aihot": "https://aihot.news/items/cmud771ii04vzrora6infmli1"
-      },
-      {
-       "source": "X：Boris Cherny (@bcherny)",
-       "title": "用 Opus 5.5 与 Lean 形式化验证 Claude Agent SDK",
-       "url": "https://x.com/bcherny/status/2102543349102338309",
-       "aihot": "https://aihot.news/items/cmudcgea205beroggyifqxqn3"
-      },
-      {
-       "source": "Simon Willison 博客",
-       "title": "llm-anthropic 0.29 发布，新增 Claude Opus 5.5 支持",
-       "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic",
-       "aihot": "https://aihot.news/items/cmudch57g05bsroggdlfus3h7"
-      },
-      {
-       "source": "X：karminski (@karminski3)",
-       "title": "Claude Opus 5.5 前端测试：疑似 Fable 5.1 蒸馏版",
-       "url": "https://x.com/karminski3/status/2102479290420048093",
-       "aihot": "https://aihot.news/items/cmud2gaow0016rov6och9ct9x"
-      },
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "Claude Opus 5.5 与 GPT-6 Sol 3D 场景对比",
-       "url": "https://x.com/testingcatalog/status/2102523754186256535",
-       "aihot": "https://aihot.news/items/cmud8xuq803ojroju3wzt5vmr"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Claude Opus 5.5 发布后，下一个 GPT 模型引期待",
-       "url": "https://x.com/rohanpaul_ai/status/2102574482359734700",
-       "aihot": "https://aihot.news/items/cmudgu9in0a60roggidbefb55"
+       "title": "Anthropic Claude Code 云会话正式上线，Pro/Max 用户可领 100~250 美元额度",
+       "url": "https://www.ithome.com/1/006/704.htm",
+       "aihot": "https://aihot.news/items/cmuf176xy06brroodv39plept"
       }
      ]
+    },
+    {
+     "n": 8,
+     "title": "Claude Code Projects 新增本地支持，线程可在用户自己的机器上运行",
+     "source": "X：Claude Devs (@ClaudeDevs)",
+     "ts": "2026-09-24T09:28:13.469000+08:00",
+     "publishedAt": "2026-09-23T22:49:38.000Z",
+     "discoveredAt": "2026-09-24T01:28:13.469Z",
+     "summary": "Claude Code 的 Projects 功能新增本地支持，线程现在可以在用户自己的机器上运行。此前 Projects 已在桌面端和网页端推出，一个项目即一段与 Claude 的对话，它会自行把工作拆分为线程、以并行云端会话运行、在线程间传递上下文，并在用户离开后继续执行，目前对部分用户开放 beta。",
+     "url": "https://x.com/ClaudeDevs/status/2102893178273874102",
+     "aihot": "https://aihot.news/items/cmueurvwl03turoyqm0v6qrlp",
+     "selected": false,
+     "score": 52,
+     "category": "ai-products"
+    },
+    {
+     "n": 9,
+     "title": "Claude 打造 Rescue Raiders 现代重制版",
+     "source": "X：Ethan Mollick (@emollick)",
+     "ts": "2026-09-24T09:27:16.515000+08:00",
+     "publishedAt": "2026-09-23T18:56:05.000Z",
+     "discoveredAt": "2026-09-24T01:27:16.515Z",
+     "summary": "有一款我小时候很喜欢的 abandonware 游戏叫 Rescue Raiders。 我让 Claude 用新的画面、目标、科技树等，做一个现代且更新版的游戏。它和 critic 及 art 智能体来回迭代，直到我得到了这个。很好玩！https://rescue-raiders.netlify.app/",
+     "url": "https://x.com/emollick/status/2102834402908582112",
+     "aihot": "https://aihot.news/items/cmueuqr0q03osroyqxv38pali",
+     "selected": false,
+     "score": 30,
+     "category": "ai-products"
+    },
+    {
+     "n": 10,
+     "title": "Claude Code v2.1.281 发布",
+     "source": "Claude Code：GitHub Releases（RSS）",
+     "ts": "2026-09-24T04:06:44.909000+08:00",
+     "publishedAt": "2026-09-23T19:19:15.000Z",
+     "discoveredAt": "2026-09-23T20:06:44.909Z",
+     "summary": "Claude Code v2.1.281 为 Claude apps gateway 的 Bedrock 上游新增 assume_role 与 guardrail 支持，并加入 settings.json 的 \"attribution\"： false 以隐藏提交与 PR 署名。",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+     "aihot": "https://aihot.news/items/cmuejagar04j0roynldh4g5gy",
+     "selected": false,
+     "score": 45,
+     "category": "ai-products"
+    },
+    {
+     "n": 11,
+     "title": "Anthropic 上线 Claude Marketplace，汇聚插件、智能体与服务伙伴",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-09-24T03:03:25.133000+08:00",
+     "publishedAt": "2026-09-23T19:03:25.133Z",
+     "discoveredAt": "2026-09-23T19:03:25.133Z",
+     "summary": "Anthropic 推出 Claude Marketplace，将插件与连接器、智能体与产品、服务伙伴集中到一个入口。",
+     "url": "https://claude.com/blog/claude-marketplace",
+     "aihot": "https://aihot.news/items/cmueh1dx305ejrovxhm7a1f4l",
+     "selected": true,
+     "score": 66,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Claude (@claudeai)",
+       "title": "Claude Marketplace 上线，可发现工具、智能体与服务伙伴",
+       "url": "https://x.com/claudeai/status/2102840851538080172",
+       "aihot": "https://aihot.news/items/cmueup7el03m5royq2iehppkp"
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "title": "Strands 发布通用 agent harness：一行代码搭建云端智能体，成本较 Claude Code 低 77%",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-24T02:59:31.148000+08:00",
+     "publishedAt": "2026-09-23T18:25:26.425Z",
+     "discoveredAt": "2026-09-23T18:59:31.148Z",
+     "summary": "Strands 团队发布 Strands harness，一个开箱即用的通用型 agent harness，可用一行 Python 或 TypeScript 接入 Amazon Bedrock、Anthropic、OpenAI、Google、Ollama 或 LiteLLM 的模型，采用 Apache 2.0 许可开…",
+     "url": "https://strandsagents.com/blog/introducing-strands-harness",
+     "aihot": "https://aihot.news/items/cmuegw2zh05b9rovxv74r57mz",
+     "selected": false,
+     "score": 68,
+     "category": "ai-products"
+    },
+    {
+     "n": 13,
+     "title": "Anthropic 前线工程师分享 AI 驱动代码现代化项目的六步准备方法",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-09-23T22:33:15.378000+08:00",
+     "publishedAt": "2026-09-23T14:33:15.378Z",
+     "discoveredAt": "2026-09-23T14:33:15.378Z",
+     "summary": "Anthropic 在 Notes from the Field 系列中分享管理大型代码现代化项目的经验，称原本需数年的现代化可在数月或数周内完成，瓶颈从写代码转向组织动员。",
+     "url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+     "aihot": "https://aihot.news/items/cmue7dm420pvmroghjxeh5rk3",
+     "selected": true,
+     "score": 63,
+     "category": "ai-products"
     }
    ],
    "note": null
@@ -392,34 +326,76 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 2,
+   "count": 5,
    "items": [
     {
-     "n": 7,
-     "title": "China's CAC is investigating DeepSeek and Moonshot after Anthropic alleged they secretly routed sens…",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-09-23T12:57:09.835000+08:00",
-     "publishedAt": "2026-09-23T04:34:05.000Z",
-     "discoveredAt": "2026-09-23T04:57:09.835Z",
-     "summary": "",
-     "url": "https://x.com/thexpin/status/2102617476261404770",
-     "aihot": "https://aihot.news/items/cmudmsqw10gqaroggr74npcwd",
+     "n": 14,
+     "title": "Claude 助力刚果埃博拉疫情响应",
+     "source": "X：Anthropic (@AnthropicAI)",
+     "ts": "2026-09-24T10:58:28.923000+08:00",
+     "publishedAt": "2026-09-23T23:08:15.000Z",
+     "discoveredAt": "2026-09-24T02:58:28.923Z",
+     "summary": "在刚果民主共和国，包括 @CEPIvaccines、@WHOAFRO 和 @inrb_kinshasa 在内的全球卫生组织正在使用 Claude 加速应对一种不寻常的埃博拉变异株疫情。 在此阅读全文：https://www.anthropic.com/features/ebola-response",
+     "url": "https://x.com/AnthropicAI/status/2102897863097545197",
+     "aihot": "https://aihot.news/items/cmuexzypj03j8roow2auzzqw6",
      "selected": false,
-     "score": 69,
+     "score": 39,
      "category": "industry"
     },
     {
-     "n": 8,
-     "title": "Anthropic 据报洽谈向 Apollo 旗下数据中心开发商租用至多 1GW 算力",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-09-23T12:10:23.385000+08:00",
-     "publishedAt": "2026-09-23T03:41:02.000Z",
-     "discoveredAt": "2026-09-23T04:10:23.385Z",
-     "summary": "据 The Information 报道，Anthropic 正与 Apollo Global Management 多数持股的数据中心开发商 Stream 初步洽谈，租用至多 1GW 算力。",
-     "url": "https://x.com/rohanpaul_ai/status/2102604124282093956",
-     "aihot": "https://aihot.news/items/cmudl4kzc0evaroggsluh8hqu",
+     "n": 15,
+     "title": "Claude 一次生成完整音乐视频",
+     "source": "X：Thariq (@trq212)",
+     "ts": "2026-09-24T09:28:13.469000+08:00",
+     "publishedAt": "2026-09-23T21:18:56.000Z",
+     "discoveredAt": "2026-09-24T01:28:13.469Z",
+     "summary": "用户给 Claude 一段约 1 万字符的提示词，包含技能、示例和 API key，要求它独立完成一支\"Claude Pop\"歌曲音乐视频的端到端重制。任务要求保留原音轨，用 JavaScript 动画呈现歌词，并调用 ElevenLabs API 做音效设计、用图像生成 API 制作角色设定与场景，再以 seeda…",
+     "url": "https://x.com/trq212/status/2102870353781641416",
+     "aihot": "https://aihot.news/items/cmueurvys03u1royq1k5vsr7g",
      "selected": false,
-     "score": 51,
+     "score": 47,
+     "category": "industry"
+    },
+    {
+     "n": 16,
+     "title": "Claude Code 仅在遥测开启时读取 AGENTS.md",
+     "source": "X：Peter Steinberger (@steipete)",
+     "ts": "2026-09-24T09:28:08.776000+08:00",
+     "publishedAt": "2026-09-23T22:34:18.000Z",
+     "discoveredAt": "2026-09-24T01:28:08.776Z",
+     "summary": "嗯。有个坑。https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+     "url": "https://x.com/steipete/status/2102889319849713698",
+     "aihot": "https://aihot.news/items/cmueurtqk03skroyqp0ktdm4j",
+     "selected": false,
+     "score": 33,
+     "category": "industry"
+    },
+    {
+     "n": 17,
+     "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T09:28:02.163000+08:00",
+     "publishedAt": "2026-09-24T01:12:13.000Z",
+     "discoveredAt": "2026-09-24T01:28:02.163Z",
+     "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+     "url": "https://www.ithome.com/1/006/548.htm",
+     "aihot": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d",
+     "selected": true,
+     "score": 78,
+     "category": "industry"
+    },
+    {
+     "n": 18,
+     "title": "Claude Opus 5.5 一次生成浏览器版 Minecraft",
+     "source": "X：Viggle AI (@ViggleAI)",
+     "ts": "2026-09-24T05:16:20.455000+08:00",
+     "publishedAt": "2026-09-23T20:52:57.000Z",
+     "discoveredAt": "2026-09-23T21:16:20.455Z",
+     "summary": "Claude Opus 5.5 在浏览器中一次成型构建 Minecraft……结果太疯狂了！ 这是 Claude Opus 5.5 x @Viggle_PINOC MCP 用于游戏开发的又一示例。",
+     "url": "https://x.com/ViggleAI/status/2102863816006533565",
+     "aihot": "https://aihot.news/items/cmuelryvi0733royn2loo9m8c",
+     "selected": false,
+     "score": 35,
      "category": "industry"
     }
    ],
@@ -428,27 +404,186 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 19,
+     "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-24T06:59:38.001000+08:00",
+     "publishedAt": "2026-09-23T22:54:29.320Z",
+     "discoveredAt": "2026-09-23T22:59:38.001Z",
+     "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。",
+     "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+     "aihot": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4",
+     "selected": true,
+     "score": 84,
+     "category": "paper"
+    },
+    {
+     "n": 20,
+     "title": "Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-24T03:10:23.072000+08:00",
+     "publishedAt": "2026-09-23T18:46:48.000Z",
+     "discoveredAt": "2026-09-23T19:10:23.072Z",
+     "summary": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。",
+     "url": "https://x.com/rohanpaul_ai/status/2102832068157984990",
+     "aihot": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze",
+     "selected": true,
+     "score": 81,
+     "category": "paper",
+     "also": [
+      {
+       "source": "Anthropic：Newsroom（网页）",
+       "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
+       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+       "aihot": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn"
+      },
+      {
+       "source": "X：Anthropic (@AnthropicAI)",
+       "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
+       "url": "https://x.com/AnthropicAI/status/2102824959827742916",
+       "aihot": "https://aihot.news/items/cmuexzypj03j9roow55c4teir"
+      },
+      {
+       "source": "X：Claude Devs (@ClaudeDevs)",
+       "title": "Claude 团队分享两周内将 claude.ai 提速 3 倍的方法与提示词",
+       "url": "https://x.com/ClaudeDevs/status/2102839691154427983",
+       "aihot": "https://aihot.news/items/cmueurvwl03twroyqsw3ygr4q"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "Anthropic 复盘如何让 claude.ai 和桌面应用快 3 倍",
+       "url": "https://claude.dev/blog/how-we-made-claude-ai-faster",
+       "aihot": "https://aihot.news/items/cmuenbkly08n0royn8xzedcew"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "Anthropic 宣布 Claude 自主发现 CRISPR 样新酶系统 ART",
+       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+       "aihot": "https://aihot.news/items/cmuej177704awroyns4ao2x2c"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "Anthropic 团队详解如何用 Claude 在两周内把 claude.ai 提速约 3 倍",
+       "url": "https://claude.dev/blog/how-we-made-claude-ai-faster",
+       "aihot": "https://aihot.news/items/cmuekny10060lroyn21gctbfw"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "Anthropic：Claude 自主发现类 CRISPR 的新型酶系统 ART",
+       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+       "aihot": "https://aihot.news/items/cmueiiurq03s1roynxroplimr"
+      },
+      {
+       "source": "IT之家（RSS）",
+       "title": "Anthropic 成立生命科学团队和实验室，Claude 自主发现新型酶系统 ART",
+       "url": "https://www.ithome.com/1/006/524.htm",
+       "aihot": "https://aihot.news/items/cmuesmd640hjdroynw8800cxr"
+      },
+      {
+       "source": "X：Yuchen Jin (@Yuchenj_UW)",
+       "title": "Yuchen Jin 引用 Anthropic 公告调侃让 Claude 修发际线",
+       "url": "https://x.com/Yuchenj_UW/status/2102833748077433138",
+       "aihot": "https://aihot.news/items/cmueurtqy03smroyqv9x547wn"
+      },
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "Anthropic 称其生物实验室用 Claude 发现疑似类 CRISPR 的新酶系统",
+       "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big",
+       "aihot": "https://aihot.news/items/cmueocivh0do4roynfduavg0x"
+      },
+      {
+       "source": "X：Thariq (@trq212)",
+       "title": "Anthropic 分享如何用 Claude 两周内将 claude.ai 提速 3 倍",
+       "url": "https://x.com/trq212/status/2102857025206255902",
+       "aihot": "https://aihot.news/items/cmueurvys03u2royqp7h42ajs"
+      },
+      {
+       "source": "X：Boris Cherny (@bcherny)",
+       "title": "Anthropic 团队两周内将 claude.ai 提速 3 倍并公开优化方法",
+       "url": "https://x.com/bcherny/status/2102854267782705648",
+       "aihot": "https://aihot.news/items/cmueurvvv03ttroyqfm5td7tp"
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "title": "Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统",
+     "source": "X：Dario Amodei (@DarioAmodei)",
+     "ts": "2026-09-24T02:47:22.870000+08:00",
+     "publishedAt": "2026-09-23T18:43:14.000Z",
+     "discoveredAt": "2026-09-23T18:47:22.870Z",
+     "summary": "Anthropic 宣布 Claude 主导发现一种疑似新型基因编辑机制的分子机器：Claude 阅读文献和基因组数据后发现了隐藏在噬菌体 DNA 中的未知酶系统，其基因旁有类似 CRISPR 的重复 DNA 阵列，已知少数同类系统均能切割、复制和粘贴 DNA，具体功能和实用价值尚待研究。",
+     "url": "https://x.com/DarioAmodei/status/2102831170299834652",
+     "aihot": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz",
+     "selected": true,
+     "score": 68,
+     "category": "paper",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Dario Amodei 在联合国安理会谈及 Claude 发现新基因编辑机制",
+       "url": "https://x.com/rohanpaul_ai/status/2102871470770999404",
+       "aihot": "https://aihot.news/items/cmuemmwzz07xtroyndvhej9qd"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Dario Amodei 在联合国安理会提议让外部评估员以员工级权限常驻 Anthropic",
+       "url": "https://x.com/rohanpaul_ai/status/2102878246945841209",
+       "aihot": "https://aihot.news/items/cmuenprwd0cxzroynmzrnzdwn"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 3,
    "items": [
     {
-     "n": 9,
-     "title": "OpenRouter 实测 Jev 1.13 与 Claude Opus 5 在 Banking77 分类任务上的准确率、延迟与成本",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-09-23T01:21:52.130000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-22T17:21:52.130Z",
-     "summary": "OpenRouter 用 Banking77 测试集的 3，080 条客服语料对比 Jev 1.13 与 Claude Opus 5 的意图分类表现。Jev 准确率 81.0% 比 Opus 的 84.4% 低 3.3 个百分点，但中位延迟 175 ms 约为 Opus（2，266 ms）的 1/13，每千次请求成本…",
-     "url": "https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification",
-     "aihot": "https://aihot.news/items/cmucxyky704ftronibjzp4dos",
+     "n": 22,
+     "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-09-24T09:51:07.001000+08:00",
+     "publishedAt": "2026-09-24T01:24:22.000Z",
+     "discoveredAt": "2026-09-24T01:51:07.001Z",
+     "summary": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68…",
+     "url": "https://x.com/ArtificialAnlys/status/2102932119995756613",
+     "aihot": "https://aihot.news/items/cmuevlgvm04y3royqizmoqx3s",
      "selected": true,
-     "score": 62,
+     "score": 68,
+     "category": "tip"
+    },
+    {
+     "n": 23,
+     "title": "AI 公司负责人在联合国安理会简报会上警告 AI 可能危及全人类",
+     "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+     "ts": "2026-09-24T06:09:28.705000+08:00",
+     "publishedAt": "2026-09-23T21:46:40.000Z",
+     "discoveredAt": "2026-09-23T22:09:28.705Z",
+     "summary": "联合国安理会举行 AI 简报会，Yoshua Bengio、Sam Altman、Dario Amodei 和 Hugging Face CEO Clement Delangue 相继发言，美联社报道主要 AI 公司负责人警告若无干预，AI 可能对全人类构成风险。",
+     "url": "https://garymarcus.substack.com/p/historic-un-security-council-briefing",
+     "aihot": "https://aihot.news/items/cmueno9s80cv0royn7zd2ihe1",
+     "selected": true,
+     "score": 64,
+     "category": "tip"
+    },
+    {
+     "n": 24,
+     "title": "CodeRabbit、Power Digital 与 ThoughtSpot 如何借 Claude Marketplace 扩展 Snowflake 和 Vercel 用量",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-09-24T03:03:25.133000+08:00",
+     "publishedAt": "2026-09-23T19:03:25.133Z",
+     "discoveredAt": "2026-09-23T19:03:25.133Z",
+     "summary": "CodeRabbit、Power Digital 和 ThoughtSpot 通过 Claude Marketplace 将部分 Anthropic 承诺额度用于采购 Snowflake 和 Vercel，无需申请新预算。",
+     "url": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+     "aihot": "https://aihot.news/items/cmueh1dx305eirovxpd8v3jye",
+     "selected": false,
+     "score": 31,
      "category": "tip"
     }
    ],

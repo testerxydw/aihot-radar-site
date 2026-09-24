@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-22",
-  "winEnd": "2026-09-23",
-  "generated": "2026-09-23 13:40",
-  "rawHits": 10,
-  "selectedHits": 2,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "winStart": "2026-09-23",
+  "winEnd": "2026-09-24",
+  "generated": "2026-09-24 13:57",
+  "rawHits": 33,
+  "selectedHits": 3,
+  "shown": 8,
+  "dedupedFrom": 22,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,7 +204,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 3,
+    "count": 6,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,8 +220,8 @@ const DATA = {
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 8,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
@@ -247,20 +247,34 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "OpenRouter 推出 Batch API，批量推理可享半价",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-09-22T20:51:48.140000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-22T12:51:48.140Z",
-     "summary": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
-     "url": "https://openrouter.ai/blog/announcements/batch-api",
-     "aihot": "https://aihot.news/items/cmucobbcz0hj4roedra9qgdbh",
-     "selected": true,
-     "score": 70,
+     "title": "Gemini 4 进入后训练阶段",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-24T11:40:23.473000+08:00",
+     "publishedAt": "2026-09-24T03:35:55.000Z",
+     "discoveredAt": "2026-09-24T03:40:23.473Z",
+     "summary": "Google DeepMind 负责人 Koray Kavukcuoglu 表示，Gemini 4 目前处于后训练阶段，即将发布。 他向 The Information 表示，希望比年底\"早得多\"地发布一个早期后训练版本，然后快速迭代。",
+     "url": "https://x.com/rohanpaul_ai/status/2102965226937434614",
+     "aihot": "https://aihot.news/items/cmuezhuvu04gurood4k1lbwkp",
+     "selected": false,
+     "score": 41,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Google DeepMind 为 Private AI Compute 增加安全的服务端持久记忆",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-09-24T00:23:34.605000+08:00",
+     "publishedAt": "2026-09-23T16:00:57.000Z",
+     "discoveredAt": "2026-09-23T16:23:34.605Z",
+     "summary": "Google DeepMind 宣布将为 Private AI Compute 平台引入私密的服务端持久记忆，使 AI 助手能跨设备长期保留上下文。数据密封在云端专用加密存储中，解密密钥仅保存在用户设备上，请求通过端到端加密通道在隔离的安全飞区中临时解密处理，即使 Google 也无法访问。",
+     "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+     "aihot": "https://aihot.news/items/cmuebbh0l0ub7roghm1fu3zjh",
+     "selected": false,
+     "score": 53,
      "category": "ai-models"
     }
    ],
@@ -269,16 +283,192 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 4,
+   "items": [
+    {
+     "n": 3,
+     "title": "Gemini Notebook 推出交互式学习概览",
+     "source": "X：Gemini Notebook (@Gemini_Notebook)",
+     "ts": "2026-09-24T01:36:06.678000+08:00",
+     "publishedAt": "2026-09-21T19:06:58.000Z",
+     "discoveredAt": "2026-09-23T17:36:06.678Z",
+     "summary": "发布还在继续！用 Interactive Learning Overviews 升级你的学习体验--现已向所有用户开放！📓✨ 在 Reports 下，将来源摘要与 studio 产物无缝整合为一个交互式中心。非常适合学习或一站式深入探索新主题。",
+     "url": "https://x.com/Gemini_Notebook/status/2102112369677844967",
+     "aihot": "https://aihot.news/items/cmuedwqnp0466rommv577xh6z",
+     "selected": false,
+     "score": 47,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Gemini Notebook (@Gemini_Notebook)",
+       "title": "Gemini Notebook 接入 Google Docs",
+       "url": "https://x.com/Gemini_Notebook/status/2102814184790692324",
+       "aihot": "https://aihot.news/items/cmuedwqnp0465rommqazbivob"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-09-24T01:09:01.108000+08:00",
+     "publishedAt": "2026-09-23T17:09:01.108Z",
+     "discoveredAt": "2026-09-23T17:09:01.108Z",
+     "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
+     "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
+     "aihot": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q",
+     "selected": true,
+     "score": 70,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "YouTube 在 Creator Studio 推出 AI 工具，涵盖脚本辅导、智能缩略图和 Gemini 剪辑",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-24T00:54:05.202000+08:00",
+     "publishedAt": "2026-09-23T16:37:43.000Z",
+     "discoveredAt": "2026-09-23T16:54:05.202Z",
+     "summary": "YouTube 向创作者推出多项 AI 工具。YouTube Studio 内的故事助手可分析脚本和粗剪，给出节奏、结构与叙事建议，支持最多三个剪辑版本 A/B 测试；动态缩略图会为不同观众自动展示三张预览图中最合适的一张。",
+     "url": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing",
+     "aihot": "https://aihot.news/items/cmueceui804wiro2d42kiz19r",
+     "selected": false,
+     "score": 57,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-09-23T23:53:33.804000+08:00",
+     "publishedAt": "2026-09-23T15:25:14.000Z",
+     "discoveredAt": "2026-09-23T15:53:33.804Z",
+     "summary": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。",
+     "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+     "aihot": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
+     "selected": true,
+     "score": 73,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS，可用文字描述从零设计 AI 语音",
+       "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions",
+       "aihot": "https://aihot.news/items/cmueeofn404bkrox35k1njuvk"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 文本转语音模型",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech",
+       "aihot": "https://aihot.news/items/cmuefqf7v000irovx7v4pz35g"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech",
+       "aihot": "https://aihot.news/items/cmuee8fwi04lbrommueh6vgyt"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "Google 发布 gemini-3.8-flash-tts 与 flash-lite-tts 两款语音合成模型",
+       "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground",
+       "aihot": "https://aihot.news/items/cmuelhvkp06rfroynsz32qwq1"
+      },
+      {
+       "source": "IT之家（RSS）",
+       "title": "谷歌发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 文本转语音模型",
+       "url": "https://www.ithome.com/1/006/509.htm",
+       "aihot": "https://aihot.news/items/cmuebe9hd0ueyroghhplin0wk"
+      },
+      {
+       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+       "title": "Google 发布 Gemini 3.8 Flash 与 Flash-Lite TTS 语音模型",
+       "url": "https://x.com/OfficialLoganK/status/2102785495726219305",
+       "aihot": "https://aihot.news/items/cmueaojrp0tguroghb2g5nqdg"
+      },
+      {
+       "source": "X：Google AI (@GoogleAI)",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 与 Gemini 3.8 Flash-Lite TTS 语音模型",
+       "url": "https://x.com/GoogleAI/status/2102781694730285427",
+       "aihot": "https://aihot.news/items/cmuea0fus0styroghsv6n2nc1"
+      },
+      {
+       "source": "MarkTechPost（RSS）",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 和 Flash-Lite TTS，支持提示词语音设计",
+       "url": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design",
+       "aihot": "https://aihot.news/items/cmuek16ig05gbroynuyr4y9up"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 文本转语音模型",
+       "url": "https://x.com/GoogleDeepMind/status/2102781530867126505",
+       "aihot": "https://aihot.news/items/cmue9clpx0s7lrogh3gzyvqoi"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 语音生成模型",
+       "url": "https://x.com/testingcatalog/status/2102782476829487419",
+       "aihot": "https://aihot.news/items/cmueag51q0ta8rogheivdwjqw"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Google 发布 Gemini 3.8 Flash TTS 与 Gemini 3.8 Flash-Lite TTS",
+       "url": "https://x.com/ArtificialAnlys/status/2102784197853380647",
+       "aihot": "https://aihot.news/items/cmuea5qhl0syyrogh1s96d0e2"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Gemini 3.8 Flash TTS 登顶发音鲁棒性榜",
+       "url": "https://x.com/ArtificialAnlys/status/2102812473816723826",
+       "aihot": "https://aihot.news/items/cmueeg3e8042yrox3i0v0ksje"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 2,
+   "items": [
+    {
+     "n": 7,
+     "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T09:28:02.163000+08:00",
+     "publishedAt": "2026-09-24T01:12:13.000Z",
+     "discoveredAt": "2026-09-24T01:28:02.163Z",
+     "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+     "url": "https://www.ithome.com/1/006/548.htm",
+     "aihot": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d",
+     "selected": true,
+     "score": 78,
+     "category": "industry"
+    },
+    {
+     "n": 8,
+     "title": "Gemini 接入 13 款新应用",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-09-24T00:28:28.498000+08:00",
+     "publishedAt": "2026-09-23T16:02:59.000Z",
+     "discoveredAt": "2026-09-23T16:28:28.498Z",
+     "summary": "现在 Gemini 可以连接 13 款新应用，包括 @adobe、@squarespace、@onepeloton 等。 无需在多个标签页之间切换，你现在可以直接在 Gemini 中拓展业务、设计素材、规划锻炼。🧵",
+     "url": "https://x.com/GeminiApp/status/2102790841270210746",
+     "aihot": "https://aihot.news/items/cmuebhrcf0uj9roghshvy9hmc",
+     "selected": false,
+     "score": 42,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+       "title": "Gemini 接入 13 款新应用",
+       "url": "https://x.com/joshwoodward/status/2102800209894056351",
+       "aihot": "https://aihot.news/items/cmueciqjs053uro2dfns8k7bz"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
@@ -290,24 +480,9 @@ const DATA = {
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-09-23T08:53:18.852000+08:00",
-     "publishedAt": "2026-09-23T00:00:00.000Z",
-     "discoveredAt": "2026-09-23T00:53:18.852Z",
-     "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
-     "url": "https://openrouter.ai/blog/insights/best-embedding-models-2026",
-     "aihot": "https://aihot.news/items/cmude350u077jroggw7odbigk",
-     "selected": true,
-     "score": 66,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
