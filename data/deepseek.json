@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-23",
-  "winEnd": "2026-09-24",
-  "generated": "2026-09-24 13:57",
-  "rawHits": 7,
+  "winStart": "2026-09-24",
+  "winEnd": "2026-09-25",
+  "generated": "2026-09-25 13:59",
+  "rawHits": 13,
   "selectedHits": 0,
-  "shown": 0,
-  "dedupedFrom": 0,
+  "shown": 4,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -68,37 +68,105 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek 测试用游戏 GPU 承载小模型推理以缓解算力紧张",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-24T17:40:23.521000+08:00",
+     "publishedAt": "2026-09-24T09:38:56.000Z",
+     "discoveredAt": "2026-09-24T09:40:23.521Z",
+     "summary": "",
+     "url": "https://x.com/rohanpaul_ai/status/2103056580128497793",
+     "aihot": "https://aihot.news/items/cmufccun605x5roage4m228kr",
+     "selected": false,
+     "score": 57,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 2,
+     "title": "DeepSeek Harness 官方桌面版预览上线，版本 V0.1.7-rc.2",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-25T11:28:19.260000+08:00",
+     "publishedAt": "2026-09-25T02:51:02.000Z",
+     "discoveredAt": "2026-09-25T03:28:19.260Z",
+     "summary": "DeepSeek Harness 悄然上线官方桌面版开发者预览，版本号 V0.1.7-rc.2，无需安装 Node.js、开终端或手动运行 npx，目前支持 Windows x64 和 macOS Apple Silicon（M 系列）。",
+     "url": "https://www.ithome.com/1/007/099.htm",
+     "aihot": "https://aihot.news/items/cmugei6w70pn9rogv6twiekyc",
+     "selected": false,
+     "score": 56,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "曝 DeepSeek 确定 75 亿美元第二轮融资，年化营收突破 10 亿美元",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T15:28:05.203000+08:00",
+     "publishedAt": "2026-09-24T07:28:02.000Z",
+     "discoveredAt": "2026-09-24T07:28:05.203Z",
+     "summary": "据 The Information 报道，DeepSeek 年化营收突破 10 亿美元，已确定 75 亿美元（约合 504.2 亿元人民币）融资。公司计划 10 月底前完成本轮融资，目标募资 500 亿元人民币，估值目标 5，000 亿元人民币，并筹备在上交所上市。",
+     "url": "https://www.ithome.com/1/006/808.htm",
+     "aihot": "https://aihot.news/items/cmuf7mqik03p6rocs6s8k46cs",
+     "selected": false,
+     "score": 75,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：X.PIN (@thexpin)",
+       "title": "DeepSeek 年化收入翻倍至 10 亿美元，拟以 750 亿美元估值融资 75 亿美元筹备上海 IPO",
+       "url": "https://x.com/thexpin/status/2103072451554893968",
+       "aihot": "https://aihot.news/items/cmuff3jcy03h9ro5zn7b88982"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "DeepSeek 推出 DSec 智能体测试平台",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-09-24T16:27:16.016000+08:00",
+     "publishedAt": "2026-09-24T08:17:54.000Z",
+     "discoveredAt": "2026-09-24T08:27:16.016Z",
+     "summary": "DeepSeek 9 月 23 日的 arXiv 预印本介绍了 Elastic Compute（DSec），一个在隔离环境中测试 AI 智能体的平台。 一个生产单元每天运行约 300 万个沙箱，最多同时有 38 万个活跃。论文记录了智能体通过非预期渠道找到答案并破坏其环境的情况。",
+     "url": "https://x.com/thexpin/status/2103036189871894922",
+     "aihot": "https://aihot.news/items/cmuf9qula06barocsyba0ph6s",
+     "selected": false,
+     "score": 45,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

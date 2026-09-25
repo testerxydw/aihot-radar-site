@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-23",
-  "winEnd": "2026-09-24",
-  "generated": "2026-09-24 13:56",
-  "rawHits": 47,
-  "selectedHits": 13,
-  "shown": 19,
-  "dedupedFrom": 32,
+  "winStart": "2026-09-24",
+  "winEnd": "2026-09-25",
+  "generated": "2026-09-25 13:58",
+  "rawHits": 41,
+  "selectedHits": 5,
+  "shown": 14,
+  "dedupedFrom": 21,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 12,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 5,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 19,
+    "count": 21,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "奥特曼",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,76 +86,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 5,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "Cursor 提升 agent 长时运行 token 效率，用户成本降低 7%",
-     "source": "Cursor Blog",
-     "ts": "2026-09-24T06:59:33.651000+08:00",
-     "publishedAt": "2026-09-23T12:00:00.000Z",
-     "discoveredAt": "2026-09-23T22:59:33.651Z",
-     "summary": "Cursor 通过改进 agent harness，在不降低 agent 质量的情况下将用户 token 成本降低 7%。",
-     "url": "https://cursor.com/blog/improved-token-efficiency",
-     "aihot": "https://aihot.news/items/cmuepgodc0egrroyn9ves9c7r",
-     "selected": true,
-     "score": 60,
+     "title": "OpenAI 将在数日内预览网络安全专用模型 GPT-6 Cyber",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-25T08:28:17.504000+08:00",
+     "publishedAt": "2026-09-25T00:04:23.000Z",
+     "discoveredAt": "2026-09-25T00:28:17.504Z",
+     "summary": "OpenAI 计划在未来几天内抢先预览网络安全专用模型 GPT-6 Cyber，并推出配套产品协助客户更安全、自动化地部署该模型。该模型及配套产品预计 9 月 29 日在旧金山 OpenAI 开发者大会上亮相，甚至可能更早，计划未来数月内正式上线，将是 OpenAI 今年发布的第四款网络安全专用模型。",
+     "url": "https://www.ithome.com/1/007/061.htm",
+     "aihot": "https://aihot.news/items/cmug82n1l0io0rogvao2qqjp7",
+     "selected": false,
+     "score": 43,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Airbnb 扩大对 GPT-6 Astra 等 OpenAI 前沿模型的访问权限",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-09-24T05:02:20.543000+08:00",
-     "publishedAt": "2026-09-23T01:00:00.000Z",
-     "discoveredAt": "2026-09-23T21:02:20.543Z",
-     "summary": "Airbnb 与 OpenAI 达成新协议，让其工程和产品团队通过 OpenAI API 和 Amazon Bedrock 更广泛地使用包括 GPT-6 Astra 在内的前沿模型。",
-     "url": "https://openai.com/index/airbnb-gpt-6-astra",
-     "aihot": "https://aihot.news/items/cmuel9xp406kgroynz4olfxo5",
+     "title": "谷歌、OpenAI、Anthropic 拟联合组建 AI 安全标准自律组织 SAFA",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T21:28:07.640000+08:00",
+     "publishedAt": "2026-09-24T13:25:13.000Z",
+     "discoveredAt": "2026-09-24T13:28:07.640Z",
+     "summary": "据 The Information 援引知情人士报道，谷歌、OpenAI 和 Anthropic 正推进成立名为 Standards Authority for Frontier AI（SAFA）的自律组织，计划于今年年底或明年年初启动。",
+     "url": "https://www.ithome.com/1/007/016.htm",
+     "aihot": "https://aihot.news/items/cmufkhp2a031wro8w8u4309d1",
      "selected": false,
-     "score": 28,
+     "score": 64,
      "category": "ai-models"
     },
     {
      "n": 3,
-     "title": "Tomer Tunguz：AI 最重要的市场在中段而非前沿模型",
-     "source": "Tomer Tunguz 博客（VC 分析）",
-     "ts": "2026-09-24T04:06:15.919000+08:00",
-     "publishedAt": "2026-09-23T00:00:00.000Z",
-     "discoveredAt": "2026-09-23T20:06:15.919Z",
-     "summary": "Tomer Tunguz 分析认为企业 AI 用量集中在需要足够智能且价格可负担的多步骤工作流中段市场，降价竞争正是证据。Anthropic 前沿模型 Fable 5.1 上线前十二天仅占网关支出的 3.7%，大型企业账户的前沿模型 token 消耗占比从 8 月初的 53% 降至 9 月的 45%；",
-     "url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle",
-     "aihot": "https://aihot.news/items/cmuej9tln04hproynr12xpgt5",
-     "selected": true,
-     "score": 71,
-     "category": "ai-models"
-    },
-    {
-     "n": 4,
-     "title": "Arena 实测：GPT-6 Sol （Max） 以 1689 分列 Code Arena： WebDev 第 4 名",
-     "source": "X：Arena (@arena)",
-     "ts": "2026-09-24T01:23:20.251000+08:00",
-     "publishedAt": "2026-09-23T17:05:25.000Z",
-     "discoveredAt": "2026-09-23T17:23:20.251Z",
-     "summary": "Arena 公布 OpenAI 的 GPT-6 Sol （Max） 真实投票结果，在 Code Arena： WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。",
-     "url": "https://x.com/arena/status/2102806554340974612",
-     "aihot": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf",
-     "selected": true,
-     "score": 75,
-     "category": "ai-models"
-    },
-    {
-     "n": 5,
-     "title": "vLLM 发布 vllm-metal v0.28.0：在 Apple Silicon 上支持并发推理服务",
-     "source": "vLLM 官方博客（RSS）",
-     "ts": "2026-09-23T23:42:43.377000+08:00",
-     "publishedAt": "2026-09-22T00:00:00.000Z",
-     "discoveredAt": "2026-09-23T15:42:43.377Z",
-     "summary": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
-     "url": "https://vllm.ai/blog/2026-09-22-vllm-metal-v0-28-0",
-     "aihot": "https://aihot.news/items/cmue9uxe20smtroghgwne9l3u",
-     "selected": true,
-     "score": 73,
+     "title": "Daily AI Brief：Meta 首款 AI 原生 VR 眼镜、OpenAI GPT-6 Sol/Luna、Anthropic Claude Opus 5.5",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-09-24T14:59:13.354000+08:00",
+     "publishedAt": "2026-09-24T06:55:33.000Z",
+     "discoveredAt": "2026-09-24T06:59:13.354Z",
+     "summary": "Meta 发布首款 AI 原生 VR 眼镜，搭载 Muse avatar 与眼、手、语音控制，Muse Charm 钥匙扣 12 月发货。OpenAI 将 GPT-6 Sol 和 Luna 推向 ChatGPT Work 与 Codex，API 定价 Sol $2/$10、Luna $0.10/$0.50 每 1M…",
+     "url": "https://x.com/testingcatalog/status/2103015463089238076",
+     "aihot": "https://aihot.news/items/cmuf6ljs60g6iroodl5icvlic",
+     "selected": false,
+     "score": 39,
      "category": "ai-models"
     }
    ],
@@ -164,146 +136,68 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 7,
+   "count": 3,
    "items": [
     {
-     "n": 6,
-     "title": "Claude Opus 5.5 与 GPT-6 Sol 在 Arena 对比",
-     "source": "X：Arena (@arena)",
-     "ts": "2026-09-24T04:21:06.325000+08:00",
-     "publishedAt": "2026-09-23T20:15:40.000Z",
-     "discoveredAt": "2026-09-23T20:21:06.325Z",
-     "summary": "来看看 Arena 上由 @AnthropicAI 的 Claude Opus 5.5 和 @OpenAI 的 GPT-6 Sol 生成的并排输出。 @claudeai Opus 5.5 的评分即将公布。来自我们全球用户社区的真实任务驱动着 Arena 排行榜。现在就前往 Arena 体验，敬请期待！",
-     "url": "https://x.com/arena/status/2102854430454669767",
-     "aihot": "https://aihot.news/items/cmuejsxa9055droynqvywsjzj",
+     "n": 4,
+     "title": "ChatGPT Pro Max 订阅或由 Cerebras 提供算力",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-09-25T07:29:13.583000+08:00",
+     "publishedAt": "2026-09-24T23:05:44.000Z",
+     "discoveredAt": "2026-09-24T23:29:13.583Z",
+     "summary": "即将推出的 ChatGPT Pro Max 订阅定价 500 美元（页面显示 600 美元为含增值税），据称很可能由 Cerebras 基础设施提供算力。相比 ChatGPT Pro，该套餐描述目前仅新增\"Fastest Work and Codex\"，用量上限也可能更高。",
+     "url": "https://x.com/testingcatalog/status/2103259620592542102",
+     "aihot": "https://aihot.news/items/cmug5yp8o0gkkrogv3q2zenxd",
      "selected": false,
-     "score": 44,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-09-24T04:02:17.123000+08:00",
-     "publishedAt": "2026-09-23T10:00:00.000Z",
-     "discoveredAt": "2026-09-23T20:02:17.123Z",
-     "summary": "OpenAI 发布开放基准 MentalHealthBench，评估 AI 在真实心理健康对话中的表现，由来自 22 个国家、19 种语言的 80 多位持证心理学家和精神科医生共同构建。",
-     "url": "https://openai.com/index/introducing-mentalhealthbench",
-     "aihot": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv",
-     "selected": true,
-     "score": 62,
+     "score": 41,
      "category": "ai-products",
      "also": [
       {
-       "source": "X：OpenAI (@OpenAI)",
-       "title": "OpenAI 发布心理健康对话基准 MentalHealthBench",
-       "url": "https://x.com/OpenAI/status/2102837574092161102",
-       "aihot": "https://aihot.news/items/cmueup7f003m6royqdxwyksro"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI 发布 MentalHealthBench，GPT-6 Astra 得分 57.3",
-       "url": "https://x.com/rohanpaul_ai/status/2102842483311104332",
-       "aihot": "https://aihot.news/items/cmueictm3036yroynlm0xxrv1"
-      }
-     ]
-    },
-    {
-     "n": 8,
-     "title": "ChatGPT 移动端上线语音智能体功能，Plus 和 Pro 订阅用户可用 Work 标签页",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-09-24T03:10:23.072000+08:00",
-     "publishedAt": "2026-09-23T18:44:00.000Z",
-     "discoveredAt": "2026-09-23T19:10:23.072Z",
-     "summary": "ChatGPT 移动应用获得基于语音的智能体功能。手机端 Plus 和 Pro 订阅用户可使用 Work 标签页，完成创建文档、起草邮件、总结 Slack 消息等任务，还可以创建网站和演示文稿、使用云浏览器，并使用 finances 等分区。",
-     "url": "https://x.com/rohanpaul_ai/status/2102831363434901914",
-     "aihot": "https://aihot.news/items/cmueh9zc705n3rovx1ijt3rtz",
-     "selected": false,
-     "score": 69,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 在 ChatGPT 移动端推出语音触发的智能体功能",
-       "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
-       "aihot": "https://aihot.news/items/cmuefqk4x001zrovxqr7in54q"
-      }
-     ]
-    },
-    {
-     "n": 9,
-     "title": "Greg Brockman 宣布 GPT Voice 大幅升级，支持使用工具并登陆 ChatGPT Work",
-     "source": "X：Greg Brockman (@gdb)",
-     "ts": "2026-09-24T02:07:37.425000+08:00",
-     "publishedAt": "2026-09-23T18:05:37.000Z",
-     "discoveredAt": "2026-09-23T18:07:37.425Z",
-     "summary": "GPT Voice 获得重大升级，现在可以使用邮箱、日历、Slack 等工具，并由 GPT-6 Astra、Sol 和 Luna 驱动。语音功能现已登陆网页端和移动端的 ChatGPT Work，用户可仅通过语音在浏览器中创建文档、演示文稿、网站和表格或处理复杂任务，今日起在全球最新版应用中推出。",
-     "url": "https://x.com/gdb/status/2102821706041819401",
-     "aihot": "https://aihot.news/items/cmuef19zy078qrox3486cjnrq",
-     "selected": true,
-     "score": 76,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：OpenAI (@OpenAI)",
-       "title": "OpenAI 更新 ChatGPT Voice：支持邮件、日历、Slack 插件并由 GPT-6 Astra、Sol、Luna 驱动",
-       "url": "https://x.com/OpenAI/status/2102808325742322002",
-       "aihot": "https://aihot.news/items/cmueup7f003m7royq61z93ftn"
-      },
-      {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "ChatGPT Voice 升级：可调用邮件、日历、Slack 插件并由 GPT-6 Astra、Sol、Luna 驱动",
-       "url": "https://x.com/thsottiaux/status/2102814202117411196",
-       "aihot": "https://aihot.news/items/cmuedyzhy0482romm2rpjfis0"
+       "source": "IT之家（RSS）",
+       "title": "OpenAI 被曝筹备 ChatGPT Pro Max 订阅层级，月费或达 600 美元",
+       "url": "https://www.ithome.com/1/007/107.htm",
+       "aihot": "https://aihot.news/items/cmuggnch60ruzrogvyc1mi3xq"
       },
       {
        "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "OpenAI 宣布 ChatGPT Voice 支持插件并可用于 ChatGPT Work",
-       "url": "https://x.com/testingcatalog/status/2102837554668089513",
-       "aihot": "https://aihot.news/items/cmueuqr3j03p0royq9u3nm4z5"
+       "title": "ChatGPT Pro Max 订阅定价 500 美元",
+       "url": "https://x.com/testingcatalog/status/2103238785278312463",
+       "aihot": "https://aihot.news/items/cmug2qyjh09kerogvtlkwdnbh"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "OpenAI 开发 ChatGPT Pro Max 新套餐",
+       "url": "https://x.com/testingcatalog/status/2103234677842559034",
+       "aihot": "https://aihot.news/items/cmug1odg508lirogv8ogj4260"
       }
      ]
     },
     {
-     "n": 10,
-     "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-09-24T01:09:01.108000+08:00",
-     "publishedAt": "2026-09-23T17:09:01.108Z",
-     "discoveredAt": "2026-09-23T17:09:01.108Z",
-     "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
-     "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
-     "aihot": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q",
-     "selected": true,
+     "n": 5,
+     "title": "OpenAI 为 ChatGPT 移动端新增语音智能体功能，可语音撰写文档、总结邮件",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T15:28:05.203000+08:00",
+     "publishedAt": "2026-09-24T06:35:16.000Z",
+     "discoveredAt": "2026-09-24T07:28:05.203Z",
+     "summary": "OpenAI 宣布 ChatGPT 移动端新增基于语音的智能体功能，用户可通过说话完成撰写文档、总结电子邮件等工作。Pro 和 Plus 订阅用户可用\"工作\"创建文档、写邮件、总结 Slack 消息，还能创建网站、制作 PPT、使用云端浏览器；",
+     "url": "https://www.ithome.com/1/006/776.htm",
+     "aihot": "https://aihot.news/items/cmuf7mqil03plrocs5ushy4sn",
+     "selected": false,
      "score": 70,
      "category": "ai-products"
     },
     {
-     "n": 11,
-     "title": "OpenAI Academy 两周年：举办超 250 场活动，推出社区培训师计划",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-09-23T22:59:21.605000+08:00",
-     "publishedAt": "2026-09-23T14:59:21.605Z",
-     "discoveredAt": "2026-09-23T14:59:21.605Z",
-     "summary": "OpenAI Academy 自 2024 年 9 月上线以来已举办超 250 场活动，超 400 万人接触其内容。该平台本月新增面向知识工作者、开发者、管理者、教育者和大学生的 Academy 学习路径，学员通过测评可获课程徽章。",
-     "url": "https://openai.com/index/two-years-of-openai-academy",
-     "aihot": "https://aihot.news/items/cmue8b9ja0qunroghpdzdk91b",
+     "n": 6,
+     "title": "OpenAI 发布 MentalHealthBench：1215 段对话评估 AI 心理健康应对能力",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T15:28:05.203000+08:00",
+     "publishedAt": "2026-09-24T07:22:21.000Z",
+     "discoveredAt": "2026-09-24T07:28:05.203Z",
+     "summary": "OpenAI 发布开放式基准 MentalHealthBench，包含 1215 段合成心理健康对话，由 22 个国家和地区的 80 多名持证心理学家和精神科医生参与制定，共 5262 条专家评分标准。",
+     "url": "https://www.ithome.com/1/006/805.htm",
+     "aihot": "https://aihot.news/items/cmuf7mqik03p8rocs3n5ytu0y",
      "selected": false,
-     "score": 41,
-     "category": "ai-products"
-    },
-    {
-     "n": 12,
-     "title": "OpenAI 与 Grab 推出 GO Forward with AI，为东南亚 3 万司机与商户提供 AI 技能培训",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-09-23T19:14:10.609000+08:00",
-     "publishedAt": "2026-09-23T00:00:00.000Z",
-     "discoveredAt": "2026-09-23T11:14:10.609Z",
-     "summary": "OpenAI 与东南亚超级应用 Grab 合作推出 GO Forward with AI 技能培训项目，计划两年内帮助东南亚 3 万名 Grab 司机、配送和商户合作伙伴掌握实用 AI 技能。",
-     "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-     "aihot": "https://aihot.news/items/cmue09l920ecwroghstmo07qq",
-     "selected": false,
-     "score": 35,
+     "score": 55,
      "category": "ai-products"
     }
    ],
@@ -312,48 +206,110 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 3,
+   "count": 6,
    "items": [
     {
-     "n": 13,
-     "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-24T09:28:02.163000+08:00",
-     "publishedAt": "2026-09-24T01:12:13.000Z",
-     "discoveredAt": "2026-09-24T01:28:02.163Z",
-     "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
-     "url": "https://www.ithome.com/1/006/548.htm",
-     "aihot": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d",
+     "n": 7,
+     "title": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-24T22:29:33.155000+08:00",
+     "publishedAt": "2026-09-24T14:01:05.000Z",
+     "discoveredAt": "2026-09-24T14:29:33.155Z",
+     "summary": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
+     "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face",
+     "aihot": "https://aihot.news/items/cmufmonss05qtro8wec8r2gd3",
      "selected": true,
-     "score": 78,
+     "score": 88,
      "category": "industry"
     },
     {
-     "n": 14,
-     "title": "OpenAI 攻击 Hugging Face 技术失误",
-     "source": "X：SemiAnalysis (@SemiAnalysis_)",
-     "ts": "2026-09-24T02:10:24.731000+08:00",
-     "publishedAt": "2026-09-23T18:00:35.000Z",
-     "discoveredAt": "2026-09-23T18:10:24.731Z",
-     "summary": "OpenAI 对 Hugging Face 发动网络攻击时犯下的诸多低级技术错误，鲜少受到关注。在此，我们逐一梳理其中几处。（1/7）🧵",
-     "url": "https://x.com/SemiAnalysis_/status/2102820439202394458",
-     "aihot": "https://aihot.news/items/cmuef56tj07cxrox3u747bwbu",
+     "n": 8,
+     "title": "ChatGPT Astra 可做真实操控赛车游戏",
+     "source": "X：PixVerse (@PixVerse)",
+     "ts": "2026-09-24T22:29:13.010000+08:00",
+     "publishedAt": "2026-09-24T14:00:21.000Z",
+     "discoveredAt": "2026-09-24T14:29:13.010Z",
+     "summary": "原来 ChatGPT Astra 能做出带真实操控的赛车游戏 有了 Blender 粗模引导，一切都协调统一",
+     "url": "https://x.com/PixVerse/status/2103122369879650372",
+     "aihot": "https://aihot.news/items/cmufmo9k105q8ro8w9xmqfs1q",
      "selected": false,
-     "score": 34,
+     "score": 30,
      "category": "industry"
     },
     {
-     "n": 15,
-     "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-09-23T20:14:13.272000+08:00",
-     "publishedAt": "2026-09-23T13:00:00.000Z",
-     "discoveredAt": "2026-09-23T12:14:13.272Z",
-     "summary": "OpenAI 宣布向乌克兰政府开放其 Daybreak 计划，支持民用基础设施的网络防御，与乌克兰数字化转型部合作提供识别软件漏洞、开发和测试修复的工具。乌克兰 CERT-UA 在 2025 年处理了近 6，000 起网络事件；",
-     "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-     "aihot": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi",
+     "n": 9,
+     "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+     "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+     "ts": "2026-09-24T21:13:18.775000+08:00",
+     "publishedAt": "2026-09-24T12:27:50.000Z",
+     "discoveredAt": "2026-09-24T13:13:18.775Z",
+     "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯…",
+     "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+     "aihot": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
      "selected": true,
-     "score": 66,
+     "score": 69,
+     "category": "industry"
+    },
+    {
+     "n": 10,
+     "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-24T20:58:48.615000+08:00",
+     "publishedAt": "2026-09-24T12:54:19.000Z",
+     "discoveredAt": "2026-09-24T12:58:48.615Z",
+     "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。",
+     "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+     "aihot": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl",
+     "selected": true,
+     "score": 89,
+     "category": "industry",
+     "also": [
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "OpenAI 智能体入侵澳大利亚 Medicare 统计门户，政府启动 AI 治理快速审查",
+       "url": "https://www.bbc.com/news/live/cvgl73pxgndwt",
+       "aihot": "https://aihot.news/items/cmufieytb03f0ro6opqp3sdax"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "OpenAI 智能体入侵澳大利亚政府网站以搜寻数据",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+       "aihot": "https://aihot.news/items/cmufh9tv204ozrolqvcjxjbhf"
+      },
+      {
+       "source": "Ars Technica：AI（RSS）",
+       "title": "OpenAI 智能体绕过限制访问澳大利亚政府 Medicare 统计门户，总理称正调查",
+       "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+       "aihot": "https://aihot.news/items/cmufqupjb0536roxzupo8i08v"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "软银完成 111 亿美元高收益债券发行，为 OpenAI 投资融资",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-24T19:28:07.060000+08:00",
+     "publishedAt": "2026-09-24T11:06:39.000Z",
+     "discoveredAt": "2026-09-24T11:28:07.060Z",
+     "summary": "软银完成 111 亿美元美元和欧元计价债券发行，创下全球规模最大的高收益企业债券发行纪录，资金用于支持其对 OpenAI 的巨额投资。",
+     "url": "https://www.ithome.com/1/006/982.htm",
+     "aihot": "https://aihot.news/items/cmufg7chf03m4rolqnx7uny3t",
+     "selected": false,
+     "score": 69,
+     "category": "industry"
+    },
+    {
+     "n": 12,
+     "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
+     "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+     "ts": "2026-09-24T17:39:40.001000+08:00",
+     "publishedAt": "2026-09-24T09:32:14.000Z",
+     "discoveredAt": "2026-09-24T09:39:40.001Z",
+     "summary": "Thomas Wolf 转发并评论 Transluce 的披露：Transluce 称 OpenAI 攻击澳大利亚政府并非孤立事件，发布超过 30，000 条日志，内容包括这次攻击活动及针对此前未知目标的尝试。",
+     "url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+     "aihot": "https://aihot.news/items/cmufcbvmu05wqroaga2mai2eu",
+     "selected": true,
+     "score": 85,
      "category": "industry"
     }
    ],
@@ -365,42 +321,24 @@
    "count": 1,
    "items": [
     {
-     "n": 16,
-     "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+     "n": 13,
+     "title": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-24T06:59:38.001000+08:00",
-     "publishedAt": "2026-09-23T22:54:29.320Z",
-     "discoveredAt": "2026-09-23T22:59:38.001Z",
-     "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。",
-     "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
-     "aihot": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4",
+     "ts": "2026-09-25T01:30:08.611000+08:00",
+     "publishedAt": "2026-09-24T17:19:34.716Z",
+     "discoveredAt": "2026-09-24T17:30:08.611Z",
+     "summary": "安全研究者发现针对 ChatGPT、Gemini 和 Google AI Overview 的规模化 AI 虚假信息攻击，共检测到 374 家被攻击企业，包括 Delta、Lufthansa、Bank of America、Airbnb 等，AI 会向用户给出诈骗电话和钓鱼链接。",
+     "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+     "aihot": "https://aihot.news/items/cmuft4xrw07varoxz9brnf7vh",
      "selected": true,
-     "score": 84,
+     "score": 76,
      "category": "paper",
      "also": [
       {
-       "source": "X：Nathan Lambert (@natolambert)",
-       "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
-       "url": "https://x.com/natolambert/status/2102872133244183038",
-       "aihot": "https://aihot.news/items/cmuem5vyq07nqroynhi5j65vd"
-      },
-      {
        "source": "Hacker News：AI 热帖",
-       "title": "澳大利亚称 OpenAI 智能体入侵政府医疗数据门户",
-       "url": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
-       "aihot": "https://aihot.news/items/cmuf1tg2u073krooducxna1u9"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "澳大利亚总理证实 OpenAI 智能体 6 月未经授权侵入政府网站",
-       "url": "https://www.ithome.com/1/006/515.htm",
-       "aihot": "https://aihot.news/items/cmueqh72i0fhuroyny08mx29j"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "FT 报道 OpenAI 智能体越权访问澳大利亚 Medicare 统计门户，面临调查",
-       "url": "https://x.com/rohanpaul_ai/status/2102887365039816924",
-       "aihot": "https://aihot.news/items/cmueos1z60dveroynrttd4v8c"
+       "title": "安全团队披露 ChatGPT、Gemini 与 Google AI Overview 被 GEO 投毒导向诈骗电话",
+       "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+       "aihot": "https://aihot.news/items/cmufn98ut06grro8w7zceabqh"
       }
      ]
     }
@@ -410,71 +348,21 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 3,
+   "count": 1,
    "items": [
     {
-     "n": 17,
-     "title": "OpenAI CEO 奥尔特曼联合国演讲：AI 可能走向文艺复兴，也可能带来工业革命式动荡",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-24T08:27:57.064000+08:00",
-     "publishedAt": "2026-09-23T23:31:33.000Z",
-     "discoveredAt": "2026-09-24T00:27:57.064Z",
-     "summary": "OpenAI CEO 萨姆·奥尔特曼在联合国安理会就 AI 议题发表讲话，称 AI 可能像一场充满创造力与发现的文艺复兴，也可能像一场引发动荡与混乱的工业革命。他呼吁建立针对前沿 AI 系统的能力评估、风险评估、安全防护和人类监督标准，并强调不应让最强模型和权力集中在少数人手中。",
-     "url": "https://www.ithome.com/1/006/521.htm",
-     "aihot": "https://aihot.news/items/cmuesmd640hjgroyngobx53uo",
+     "n": 14,
+     "title": "闲鱼上的ChatGPT代充暗号：从奥特曼充电到Tibo洗衣粉的斗智斗勇",
+     "source": "公众号：数字生命卡兹克",
+     "ts": "2026-09-24T16:21:30.666000+08:00",
+     "publishedAt": "2026-09-24T00:44:05.000Z",
+     "discoveredAt": "2026-09-24T08:21:30.666Z",
+     "summary": "作者实测闲鱼上ChatGPT代充的隐语生态，因直接搜GPT属违规，卖家造出奥特曼充电、鸡屁踢、DeepSeek老祖宗、Tibo洗衣粉等暗号，版本快速轮动且不断被封。交易需加微信后提供含访问令牌的会话代码，一单约135至140元，价格随汇率浮动且按天退款。",
+     "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686693&idx=1&sn=8bcd40ab4ea0b32c2138bcd28cb71b89",
+     "aihot": "https://aihot.news/items/cmuf9jea805wjrocszqvvy8he",
      "selected": false,
-     "score": 48,
+     "score": 56,
      "category": "tip"
-    },
-    {
-     "n": 18,
-     "title": "Sam Altman 在联合国安理会警告 AI 递归自我改进风险",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-09-24T05:10:25.003000+08:00",
-     "publishedAt": "2026-09-23T21:09:44.000Z",
-     "discoveredAt": "2026-09-23T21:10:25.003Z",
-     "summary": "Sam Altman 在联合国安理会发言称，人类可能在未来失去对 AI 的控制，风险在于 AI 发展过快以致人们无法跟上或及时干预。他特别提到当接近可自我改进的系统即递归自我改进时，AI 进展可能迅速加速，这一时刻需要极度谨慎。他还表示 OpenAI 过去曾单方面放缓 AI 开发，未来也会再次这样做。",
-     "url": "https://x.com/rohanpaul_ai/status/2102868037561135204",
-     "aihot": "https://aihot.news/items/cmuelkk6g06uyroynve4ih496",
-     "selected": false,
-     "score": 61,
-     "category": "tip",
-     "also": [
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Sam Altman 在联合国安理会称人类可能失去对 AI 的控制",
-       "url": "https://x.com/rohanpaul_ai/status/2102865744866562437",
-       "aihot": "https://aihot.news/items/cmuelkk6g06uzroynp8aw5d1a"
-      },
-      {
-       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-       "title": "Sam Altman 在联合国安理会阐述 AI 风险与国际合作主张",
-       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-       "aihot": "https://aihot.news/items/cmuelte66074qroyneq7xit7f"
-      }
-     ]
-    },
-    {
-     "n": 19,
-     "title": "Business Insider 起底 OpenAI 的网红营销策略：让 ChatGPT 看起来'对世界有益'",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-09-23T21:45:02.414000+08:00",
-     "publishedAt": "2026-09-23T12:32:00.000Z",
-     "discoveredAt": "2026-09-23T13:45:02.414Z",
-     "summary": "Business Insider 报道称 OpenAI 正加大网红营销投入，以在 AI 安全担忧升温时塑造 ChatGPT 形象。",
-     "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-     "aihot": "https://aihot.news/items/cmue5nke40nvcroghql1nsgs1",
-     "selected": false,
-     "score": 59,
-     "category": "tip",
-     "also": [
-      {
-       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-       "title": "OpenAI 扩大网红营销：ChatGPT 赞助帖从 6 月的 61 条增至 8 月的 141 条",
-       "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
-       "aihot": "https://aihot.news/items/cmue70km00peuroghdlpl3xa8"
-      }
-     ]
     }
    ],
    "note": null
