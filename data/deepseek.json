@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-24",
-  "winEnd": "2026-09-25",
-  "generated": "2026-09-25 13:59",
-  "rawHits": 13,
-  "selectedHits": 0,
-  "shown": 4,
-  "dedupedFrom": 5,
+  "winStart": "2026-09-25",
+  "winEnd": "2026-09-26",
+  "generated": "2026-09-26 13:59",
+  "rawHits": 6,
+  "selectedHits": 1,
+  "shown": 3,
+  "dedupedFrom": 4,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 13,
+    "count": 6,
     "hasMore": false,
     "from_cache": false
    },
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -68,71 +68,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "DeepSeek 测试用游戏 GPU 承载小模型推理以缓解算力紧张",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-09-24T17:40:23.521000+08:00",
-     "publishedAt": "2026-09-24T09:38:56.000Z",
-     "discoveredAt": "2026-09-24T09:40:23.521Z",
-     "summary": "",
-     "url": "https://x.com/rohanpaul_ai/status/2103056580128497793",
-     "aihot": "https://aihot.news/items/cmufccun605x5roage4m228kr",
-     "selected": false,
-     "score": 57,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek Harness 约六成用户使用第三方插件",
+     "source": "X：Tianyi Cui（@tianyi）",
+     "ts": "2026-09-26T01:28:28.334000+08:00",
+     "publishedAt": "2026-09-25T17:17:16.000Z",
+     "discoveredAt": "2026-09-25T17:28:28.334Z",
+     "summary": "DeepSeek 官方 API 统计显示，约 60% 的 DeepSeek Harness 用户使用了至少一个第三方插件。DSH 团队表示将持续支持第三方插件生态，推动插件 API 趋于稳定，减少破坏性更新；作者本人将在接下来几天每天推荐一个优质 DSH 插件并征集自荐。",
+     "url": "https://x.com/tianyi/status/2103534313463783831",
+     "aihot": "https://aihot.news/items/cmuh8im5l08cyro55x3zhfjr2",
+     "selected": false,
+     "score": 34,
+     "category": "ai-products"
+    },
     {
      "n": 2,
-     "title": "DeepSeek Harness 官方桌面版预览上线，版本 V0.1.7-rc.2",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-25T11:28:19.260000+08:00",
-     "publishedAt": "2026-09-25T02:51:02.000Z",
-     "discoveredAt": "2026-09-25T03:28:19.260Z",
-     "summary": "DeepSeek Harness 悄然上线官方桌面版开发者预览，版本号 V0.1.7-rc.2，无需安装 Node.js、开终端或手动运行 npx，目前支持 Windows x64 和 macOS Apple Silicon（M 系列）。",
-     "url": "https://www.ithome.com/1/007/099.htm",
-     "aihot": "https://aihot.news/items/cmugei6w70pn9rogv6twiekyc",
+     "title": "opencode 将 DeepSeek v4.1 Flash 的 60 美元用量额度设为永久",
+     "source": "X：opencode (@opencode)",
+     "ts": "2026-09-25T23:31:44.490000+08:00",
+     "publishedAt": "2026-09-25T15:22:57.000Z",
+     "discoveredAt": "2026-09-25T15:31:44.490Z",
+     "summary": "opencode 宣布其平台上 DeepSeek v4.1 Flash 的 60 美元用量额度转为永久提供，此前该额度为阶段性活动。",
+     "url": "https://x.com/opencode/status/2103505541871907109",
+     "aihot": "https://aihot.news/items/cmuh4ckkq03siro555yjfyi92",
      "selected": false,
-     "score": 56,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 3,
-     "title": "曝 DeepSeek 确定 75 亿美元第二轮融资，年化营收突破 10 亿美元",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-24T15:28:05.203000+08:00",
-     "publishedAt": "2026-09-24T07:28:02.000Z",
-     "discoveredAt": "2026-09-24T07:28:05.203Z",
-     "summary": "据 The Information 报道，DeepSeek 年化营收突破 10 亿美元，已确定 75 亿美元（约合 504.2 亿元人民币）融资。公司计划 10 月底前完成本轮融资，目标募资 500 亿元人民币，估值目标 5，000 亿元人民币，并筹备在上交所上市。",
-     "url": "https://www.ithome.com/1/006/808.htm",
-     "aihot": "https://aihot.news/items/cmuf7mqik03p6rocs6s8k46cs",
-     "selected": false,
-     "score": 75,
-     "category": "industry",
+     "score": 58,
+     "category": "ai-products",
      "also": [
       {
-       "source": "X：X.PIN (@thexpin)",
-       "title": "DeepSeek 年化收入翻倍至 10 亿美元，拟以 750 亿美元估值融资 75 亿美元筹备上海 IPO",
-       "url": "https://x.com/thexpin/status/2103072451554893968",
-       "aihot": "https://aihot.news/items/cmuff3jcy03h9ro5zn7b88982"
+       "source": "X：SemiAnalysis (@SemiAnalysis_)",
+       "title": "DeepSeek V4.1 Flash 记忆机制探析",
+       "url": "https://x.com/SemiAnalysis_/status/2103681005261345264",
+       "aihot": "https://aihot.news/items/cmuhtazeu049lroaffyizi44c"
       }
      ]
     }
@@ -140,22 +117,29 @@
    "note": null
   },
   {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+  },
+  {
    "slug": "paper",
    "label": "论文研究",
    "count": 1,
    "items": [
     {
-     "n": 4,
-     "title": "DeepSeek 推出 DSec 智能体测试平台",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-09-24T16:27:16.016000+08:00",
-     "publishedAt": "2026-09-24T08:17:54.000Z",
-     "discoveredAt": "2026-09-24T08:27:16.016Z",
-     "summary": "DeepSeek 9 月 23 日的 arXiv 预印本介绍了 Elastic Compute（DSec），一个在隔离环境中测试 AI 智能体的平台。 一个生产单元每天运行约 300 万个沙箱，最多同时有 38 万个活跃。论文记录了智能体通过非预期渠道找到答案并破坏其环境的情况。",
-     "url": "https://x.com/thexpin/status/2103036189871894922",
-     "aihot": "https://aihot.news/items/cmuf9qula06barocsyba0ph6s",
-     "selected": false,
-     "score": 45,
+     "n": 3,
+     "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-26T08:31:32.238000+08:00",
+     "publishedAt": "2026-09-25T23:59:47.248Z",
+     "discoveredAt": "2026-09-26T00:31:32.238Z",
+     "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+     "url": "https://swarmtraces.org/",
+     "aihot": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8",
+     "selected": true,
+     "score": 82,
      "category": "paper"
     }
    ],
@@ -166,7 +150,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [

@@ -175,13 +175,13 @@ const DATA = {
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-24",
-  "winEnd": "2026-09-25",
-  "generated": "2026-09-25 13:59",
-  "rawHits": 13,
+  "winStart": "2026-09-26",
+  "winEnd": "2026-09-26",
+  "generated": "2026-09-26 13:59",
+  "rawHits": 8,
   "selectedHits": 1,
-  "shown": 6,
-  "dedupedFrom": 6,
+  "shown": 4,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -220,7 +220,7 @@ const DATA = {
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 13,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,63 +247,29 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Qwen-Planner-Agent：面向真实移动规划智能体的闭环 AI-for-AI 框架",
-     "source": "HuggingFace Daily Papers（社区热门论文）",
-     "ts": "2026-09-25T10:20:52.152000+08:00",
-     "publishedAt": "2026-09-24T00:00:00.000Z",
-     "discoveredAt": "2026-09-25T02:20:52.152Z",
-     "summary": "阿里 Qwen 团队提出 Qwen-Planner-Agent，一个连接数据生产、模型训练与部署的闭环 AI-for-AI 框架，用于可扩展地开发移动规划智能体。",
-     "url": "https://arxiv.org/abs/2609.29892",
-     "aihot": "https://aihot.news/items/cmugc3elz0n0vrogvzv0fzmml",
+     "title": "Qwen 团队发布 Qwen3.8-Omni-Flash 报告：面向原生全模态智能体",
+     "source": "X：DAIR.AI (@dair_ai)",
+     "ts": "2026-09-26T03:59:13.062000+08:00",
+     "publishedAt": "2026-09-25T19:53:12.000Z",
+     "discoveredAt": "2026-09-25T19:59:13.062Z",
+     "summary": "Qwen 团队发布报告，介绍 Qwen3.8-Omni-Flash，一个原生多模态模型，面向跨文本、音频和视频的长程智能体任务，如视频编辑和长音频视频翻译。模型采用 Qwen3.8-Next 的稀疏 MoE 架构，上下文窗口达一百万 token，并通过协同训练策略在保持文本性能的同时将智能体能力迁移到音频和视频任务。",
+     "url": "https://x.com/dair_ai/status/2103573552611926373",
+     "aihot": "https://aihot.news/items/cmuhdwhpo0abaro3b872nki4e",
      "selected": false,
-     "score": 38,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "BottleCap AI 发布 ThinkingCap-Qwen3.8-27B：思考 token 减少 37.2%，精度仅降 0.86pp",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-09-25T03:28:08.494000+08:00",
-     "publishedAt": "2026-09-24T18:58:56.000Z",
-     "discoveredAt": "2026-09-24T19:28:08.494Z",
-     "summary": "BottleCap AI 发布 ThinkingCap-Qwen3.8-27B，这是基于 Qwen3.8-27B 的微调模型，在 12 个基准上平均减少 37.2% 思考 token，宏观精度从 86.65% 降至 85.79%。",
-     "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost",
-     "aihot": "https://aihot.news/items/cmufxcnf403x0rogvgmp7gr13",
-     "selected": false,
-     "score": 57,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "动态消除：用 Engram 多层引导在 Qwen3-4B 上实现无损拒绝抑制",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-25T02:00:09.667000+08:00",
-     "publishedAt": "2026-09-24T17:51:26.342Z",
-     "discoveredAt": "2026-09-24T18:00:09.667Z",
-     "summary": "一种名为 Dynamic Abliteration 的方法通过 PyTorch forward hooks 在运行时拦截多层残差流，无需修改权重即可抑制 Qwen3-4B 的拒绝行为，基座模型权重保持 100% 冻结。",
-     "url": "https://blog.madhukaraphatak.in/non-destructive-refusal-supression-using-engram",
-     "aihot": "https://aihot.news/items/cmufu7jo108x4roxz44wclxuz",
-     "selected": false,
-     "score": 38,
-     "category": "ai-models"
-    },
-    {
-     "n": 4,
-     "title": "vLLM 新增基于 Gumbel-max 的无失真文本水印功能",
-     "source": "vLLM 官方博客（RSS）",
-     "ts": "2026-09-25T01:43:16.775000+08:00",
-     "publishedAt": "2026-09-24T00:00:00.000Z",
-     "discoveredAt": "2026-09-24T17:43:16.775Z",
-     "summary": "vLLM 宣布支持基于 Gumbel-max 算法的无失真水印，将其集成进 Model Runner v2 的采样管线，并通过 PR #54053、#56122、#56233 实现融合 GPU kernel、双键方案和上下文去重，以兼容投机解码并保持输出多样性。",
-     "url": "https://vllm.ai/blog/2026-09-24-watermarking-in-vllm",
-     "aihot": "https://aihot.news/items/cmuftlsmy08bfroxz8mnqow1d",
-     "selected": true,
-     "score": 66,
-     "category": "ai-models"
+     "score": 70,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：DAIR.AI (@dair_ai)",
+       "title": "Qwen 团队发布 Qwen3.8-Omni-Flash 全模态智能体模型报告",
+       "url": "https://x.com/dair_ai/status/2103563695381209417",
+       "aihot": "https://aihot.news/items/cmuhctws709c9ro3bc9io6um2"
+      }
+     ]
     }
    ],
    "note": null
@@ -314,17 +280,17 @@ const DATA = {
    "count": 1,
    "items": [
     {
-     "n": 5,
-     "title": "Pruna 发布 Qwen-Image-2.1 少步数 LoRA 适配器，图像生成提速至 6.3 倍",
+     "n": 2,
+     "title": "Qwen-Image-2.1-viggle-turbo v0.2 发布",
      "source": "X：AK (@_akhaliq)",
-     "ts": "2026-09-25T03:31:44.391000+08:00",
-     "publishedAt": "2026-09-24T19:15:15.000Z",
-     "discoveredAt": "2026-09-24T19:31:44.391Z",
-     "summary": "Pruna-Qwen-Image-2.1 是一组少步数 LoRA 适配器，可将 Qwen-Image-2.1 的图像生成与编辑速度提升至多 6.3 倍。生成或编辑图像只需 5 或 8 步而不用 40 步，选 5 步追求最快速度，选 8 步兼顾效果与速度。",
-     "url": "https://x.com/_akhaliq/status/2103201617004949888",
-     "aihot": "https://aihot.news/items/cmufxhatn044srogv9uufiino",
+     "ts": "2026-09-26T04:31:44.077000+08:00",
+     "publishedAt": "2026-09-25T20:13:22.000Z",
+     "discoveredAt": "2026-09-25T20:31:44.077Z",
+     "summary": "Qwen-Image-2.1-viggle-turbo v0.2 已在 Hugging Face 上线 文生图和图像编辑仅需 6 步 比 40 步的 Qwen-Image-2.1 快约 5 倍 模型：https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+     "url": "https://x.com/_akhaliq/status/2103578627359268987",
+     "aihot": "https://aihot.news/items/cmuhf2ay203i2rojng8aape7d",
      "selected": false,
-     "score": 51,
+     "score": 48,
      "category": "ai-products"
     }
    ],
@@ -333,38 +299,53 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "Qwen Image 3 Pro 夺 Memebench 冠军",
+     "source": "X：OpenRouter (@OpenRouter)",
+     "ts": "2026-09-26T05:07:37.752000+08:00",
+     "publishedAt": "2026-09-25T20:42:25.000Z",
+     "discoveredAt": "2026-09-25T21:07:37.752Z",
+     "summary": "群众已经发声。 Qwen Image 3 Pro 赢得首届 Memebench 对决，以 35% 的得票率拿下\"Why would I deceive you？\"梗图。Nano Banana Pro 以一票之差、33% 的得票率位居第二。 恭喜 Qwen Image 3 Pro！",
+     "url": "https://x.com/OpenRouter/status/2103585941764129130",
+     "aihot": "https://aihot.news/items/cmuhgch1z04p5rojnzkrv7jke",
+     "selected": false,
+     "score": 41,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-26T08:31:32.238000+08:00",
+     "publishedAt": "2026-09-25T23:59:47.248Z",
+     "discoveredAt": "2026-09-26T00:31:32.238Z",
+     "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+     "url": "https://swarmtraces.org/",
+     "aihot": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8",
+     "selected": true,
+     "score": 82,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 6,
-     "title": "千问「健康档案」升级：基于 Qwen3.8 系列模型新增数据解读与智能跟进",
-     "source": "公众号：千问APP（阿里）",
-     "ts": "2026-09-24T16:21:29.143000+08:00",
-     "publishedAt": "2026-09-24T03:35:23.000Z",
-     "discoveredAt": "2026-09-24T08:21:29.143Z",
-     "summary": "千问「健康档案」全新升级，依托 Qwen3.8 系列模型的 Agentic 能力，新增数据解读与智能跟进功能，可从主流智能手表、手环、动态血糖仪等设备健康应用接入数据，并支持手动记录病史、过敏史等医疗健康信息。",
-     "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488875&idx=1&sn=df243aca1863619308a58b76e47e5d35",
-     "aihot": "https://aihot.news/items/cmuf9jeag05wmrocsysn87h62",
-     "selected": false,
-     "score": 37,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [
