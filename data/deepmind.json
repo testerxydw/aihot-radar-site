@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-25",
-  "winEnd": "2026-09-26",
-  "generated": "2026-09-26 13:59",
+  "winStart": "2026-09-26",
+  "winEnd": "2026-09-27",
+  "generated": "2026-09-27 14:25",
   "rawHits": 10,
-  "selectedHits": 0,
-  "shown": 5,
-  "dedupedFrom": 5,
+  "selectedHits": 1,
+  "shown": 3,
+  "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -93,70 +93,41 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 3,
-   "items": [
-    {
-     "n": 1,
-     "title": "Gemini Notebook 音频更新预告",
-     "source": "X：Gemini Notebook (@Gemini_Notebook)",
-     "ts": "2026-09-26T04:14:04.358000+08:00",
-     "publishedAt": "2026-09-25T19:51:04.000Z",
-     "discoveredAt": "2026-09-25T20:14:04.358Z",
-     "summary": "致我们最敏锐的听众，如果你注意到我们的声音有了新变化--你说对了。 我们的 AI 主播很乐意解释正在发生什么（以及你可以期待什么）！",
-     "url": "https://x.com/Gemini_Notebook/status/2103573015678349658",
-     "aihot": "https://aihot.news/items/cmuheflza002vrojnic1i2l8s",
-     "selected": false,
-     "score": 18,
-     "category": "ai-products"
-    },
-    {
-     "n": 2,
-     "title": "Google 发布 Gemini 3.8 Flash TTS 等多项更新",
-     "source": "X：Google AI (@GoogleAI)",
-     "ts": "2026-09-26T02:53:00.498000+08:00",
-     "publishedAt": "2026-09-25T18:28:00.000Z",
-     "discoveredAt": "2026-09-25T18:53:00.498Z",
-     "summary": "Google 本周发布 Gemini 3.8 Flash TTS 与 Gemini 3.8 Flash-Lite TTS 两款音频生成模型，并推出 Gemini 3.8 Live with Live Avatar，为对话式 AI 带来近实时视觉形象。",
-     "url": "https://x.com/GoogleAI/status/2103552111233343980",
-     "aihot": "https://aihot.news/items/cmuhbjc9n07qfro3b0kl13n6m",
-     "selected": false,
-     "score": 44,
-     "category": "ai-products"
-    },
-    {
-     "n": 3,
-     "title": "Google 测试 Call for Me 功能，Gemini 可代替用户致电商家",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-09-25T19:59:55.660000+08:00",
-     "publishedAt": "2026-09-25T11:49:52.000Z",
-     "discoveredAt": "2026-09-25T11:59:55.660Z",
-     "summary": "Google 正在测试 Call for Me 功能，让 Gemini 代表用户致电商家处理订位、改约或查询库存等任务。目前仅限美国 Pixel 11 用户使用，需要付费 Gemini 订阅和 Phone 应用测试版；AI 会通过语音菜单、等待接听，并用用户自己的号码拨出，用户可通过实时转录查看通话并随时接管。",
-     "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you",
-     "aihot": "https://aihot.news/items/cmugws3na1cgirogvrusolvpt",
-     "selected": false,
-     "score": 51,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 4,
-     "title": "悉尼补习公司 Dymocks Tutoring 建议家长改用 Gemini 或 ChatGPT 后将关停",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-25T14:01:11.424000+08:00",
-     "publishedAt": "2026-09-25T05:45:21.151Z",
-     "discoveredAt": "2026-09-25T06:01:11.424Z",
-     "summary": "澳大利亚补习公司 Dymocks Tutoring 和 Talent 100 告知家长，与其付费请人工辅导，不如投资 Gemini 或 ChatGPT。这家在悉尼设有五个中心的公司将在本周末关停，称技术已使其服务过时。",
-     "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-     "aihot": "https://aihot.news/items/cmugjyr2z0ylyrogvumj49ron",
+     "n": 1,
+     "title": "Google 在印度测试通过 Gemini 和 AI Mode 直接购买 Flipkart 商品",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-27T10:30:08.148000+08:00",
+     "publishedAt": "2026-09-27T01:30:00.000Z",
+     "discoveredAt": "2026-09-27T02:30:08.148Z",
+     "summary": "Google 开始在印度测试让用户在 Gemini 和 AI Mode 内直接购买沃尔玛旗下 Flipkart 的商品，部分用户可在智能手机、电子产品等少量商品上看到\"Buy\"按钮，点击后进入 Flipkart 结账流程而无需离开 AI 界面。",
+     "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+     "aihot": "https://aihot.news/items/cmuj7b4pw0nhmrohynfzdcyxs",
      "selected": false,
-     "score": 59,
+     "score": 43,
+     "category": "industry"
+    },
+    {
+     "n": 2,
+     "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-09-27T03:46:02.127000+08:00",
+     "publishedAt": "2026-09-26T14:03:54.000Z",
+     "discoveredAt": "2026-09-26T19:46:02.127Z",
+     "summary": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。",
+     "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+     "aihot": "https://aihot.news/items/cmuisvcxk05a2rohyozb492a3",
+     "selected": true,
+     "score": 86,
      "category": "industry"
     }
    ],
@@ -167,7 +138,7 @@
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
@@ -175,17 +146,17 @@
    "count": 1,
    "items": [
     {
-     "n": 5,
-     "title": "又一Google DeepMind研究员离职，称近期追求超级智能\"本质上不负责任\"",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-09-26T02:00:00.872000+08:00",
-     "publishedAt": "2026-09-25T17:55:51.000Z",
-     "discoveredAt": "2026-09-25T18:00:00.872Z",
-     "summary": "Google DeepMind新西兰技术专家Robert O'Callahan因AI风险离职，称AI\"当前变化速度过快\"，认为\"在不久的将来以ASI为目标本质上不负责任\"。他曾参与让AI更便宜、更快的芯片设计工具开发，如今表示无法再为此辩护，并警告认知投降、AI引发的精神病与孤独、权力集中、经济冲击、网络安全风险及问…",
-     "url": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible",
-     "aihot": "https://aihot.news/items/cmuh9ngcz02y7ro3bzmg01a5k",
+     "n": 3,
+     "title": "小北谈 Google Health 接入 Gemini 的健康管理体验",
+     "source": "X：小北 (@frxiaobei)",
+     "ts": "2026-09-27T09:29:13.119000+08:00",
+     "publishedAt": "2026-09-27T01:18:26.000Z",
+     "discoveredAt": "2026-09-27T01:29:13.119Z",
+     "summary": "小北到美国后购入 Google Fitbit Air，与 Apple Watch 左右手同时佩戴。他认为接入 Gemini 的 Google Health 才是健康管理软件的正确打开方式。选择 Fitbit 的原因是数据基本都在 Google 上，且认可 Google 的数据安全表现。",
+     "url": "https://x.com/frxiaobei/status/2104017789941928046",
+     "aihot": "https://aihot.news/items/cmuj54qb80l67rohybfgawpbc",
      "selected": false,
-     "score": 49,
+     "score": 24,
      "category": "tip"
     }
    ],

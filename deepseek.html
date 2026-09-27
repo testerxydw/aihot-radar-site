@@ -173,13 +173,13 @@ const DATA = {
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-25",
-  "winEnd": "2026-09-26",
-  "generated": "2026-09-26 13:59",
-  "rawHits": 6,
-  "selectedHits": 1,
-  "shown": 3,
-  "dedupedFrom": 4,
+  "winStart": "2026-09-26",
+  "winEnd": "2026-09-27",
+  "generated": "2026-09-27 14:26",
+  "rawHits": 8,
+  "selectedHits": 0,
+  "shown": 2,
+  "dedupedFrom": 2,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -194,7 +194,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -202,7 +202,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -229,82 +229,60 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek 发布 DSec 弹性计算沙箱平台技术报告，支撑大规模智能体 RL 训练",
+     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+     "ts": "2026-09-27T07:03:04.094000+08:00",
+     "publishedAt": "2026-09-26T22:58:22.682Z",
+     "discoveredAt": "2026-09-26T23:03:04.094Z",
+     "summary": "DeepSeek-AI 发布技术报告，介绍用于大规模 LLM 智能体 RL 训练与评估的生产级沙箱平台 DeepSeek Elastic Compute（DSec），统一提供 FnCall、容器、microVM 和完整 VM 四种后端。",
+     "url": "https://arxiv.org/abs/2609.22978",
+     "aihot": "https://aihot.news/items/cmuizwqn30fmtrohyy8c9tgcx",
+     "selected": false,
+     "score": 70,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 1,
-     "title": "DeepSeek Harness 约六成用户使用第三方插件",
-     "source": "X：Tianyi Cui（@tianyi）",
-     "ts": "2026-09-26T01:28:28.334000+08:00",
-     "publishedAt": "2026-09-25T17:17:16.000Z",
-     "discoveredAt": "2026-09-25T17:28:28.334Z",
-     "summary": "DeepSeek 官方 API 统计显示，约 60% 的 DeepSeek Harness 用户使用了至少一个第三方插件。DSH 团队表示将持续支持第三方插件生态，推动插件 API 趋于稳定，减少破坏性更新；作者本人将在接下来几天每天推荐一个优质 DSH 插件并征集自荐。",
-     "url": "https://x.com/tianyi/status/2103534313463783831",
-     "aihot": "https://aihot.news/items/cmuh8im5l08cyro55x3zhfjr2",
-     "selected": false,
-     "score": 34,
-     "category": "ai-products"
-    },
-    {
-     "n": 2,
-     "title": "opencode 将 DeepSeek v4.1 Flash 的 60 美元用量额度设为永久",
-     "source": "X：opencode (@opencode)",
-     "ts": "2026-09-25T23:31:44.490000+08:00",
-     "publishedAt": "2026-09-25T15:22:57.000Z",
-     "discoveredAt": "2026-09-25T15:31:44.490Z",
-     "summary": "opencode 宣布其平台上 DeepSeek v4.1 Flash 的 60 美元用量额度转为永久提供，此前该额度为阶段性活动。",
-     "url": "https://x.com/opencode/status/2103505541871907109",
-     "aihot": "https://aihot.news/items/cmuh4ckkq03siro555yjfyi92",
-     "selected": false,
-     "score": 58,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：SemiAnalysis (@SemiAnalysis_)",
-       "title": "DeepSeek V4.1 Flash 记忆机制探析",
-       "url": "https://x.com/SemiAnalysis_/status/2103681005261345264",
-       "aihot": "https://aihot.news/items/cmuhtazeu049lroaffyizi44c"
-      }
-     ]
-    }
-   ],
-   "note": null
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
    "count": 0,
    "items": [],
    "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
-   "slug": "paper",
-   "label": "论文研究",
+   "slug": "industry",
+   "label": "行业动态",
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-26T08:31:32.238000+08:00",
-     "publishedAt": "2026-09-25T23:59:47.248Z",
-     "discoveredAt": "2026-09-26T00:31:32.238Z",
-     "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
-     "url": "https://swarmtraces.org/",
-     "aihot": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8",
-     "selected": true,
-     "score": 82,
-     "category": "paper"
+     "n": 2,
+     "title": "OpenCode 宣布 DeepSeek V4.1 Flash 的 60 美元额度永久有效",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-26T19:28:35.276000+08:00",
+     "publishedAt": "2026-09-26T11:07:36.000Z",
+     "discoveredAt": "2026-09-26T11:28:35.276Z",
+     "summary": "OpenCode 宣布\"Operation Cheepseek\"第二阶段启动，DeepSeek V4.1 Flash 在 OpenCode Go 中的 60 美元额度（约合 403.5 元人民币）由限时调整为永久有效，原 15 美元额度被划线标记。",
+     "url": "https://www.ithome.com/1/007/421.htm",
+     "aihot": "https://aihot.news/items/cmuib3o6z0c6orov0twm6blbt",
+     "selected": false,
+     "score": 52,
+     "category": "industry"
     }
    ],
    "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
