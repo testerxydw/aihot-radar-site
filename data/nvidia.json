@@ -14,13 +14,13 @@
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-26",
-  "winEnd": "2026-09-27",
-  "generated": "2026-09-27 14:25",
+  "winStart": "2026-09-27",
+  "winEnd": "2026-09-28",
+  "generated": "2026-09-28 14:29",
   "rawHits": 13,
   "selectedHits": 0,
-  "shown": 4,
-  "dedupedFrom": 4,
+  "shown": 5,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -75,7 +75,7 @@
     "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,20 +86,34 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "Nvidia SoL-Pi 系统优化 agent harness，编码任务 token 用量减少近一半",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-09-26T19:00:23.220000+08:00",
-     "publishedAt": "2026-09-26T10:30:32.000Z",
-     "discoveredAt": "2026-09-26T11:00:23.220Z",
-     "summary": "Nvidia 研究人员提出 SoL-Pi 系统，用研究 agent 自动优化编码 agent 的控制层（harness），在 EdgeBench 上相比 Codex 节省 50%、相比 Claude Code 节省 54.3% 的 token，性能与原 Pi harness 大致持平。",
-     "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
-     "aihot": "https://aihot.news/items/cmuia3dtr0b2jrov0w9x40faf",
+     "title": "Nvidia 为何不自己卖 token",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-28T02:10:23.382000+08:00",
+     "publishedAt": "2026-09-27T18:04:37.000Z",
+     "discoveredAt": "2026-09-27T18:10:23.382Z",
+     "summary": "为什么 Nvidia 不自己卖 token “Jensen 真的很擅长让他的朋友们成为亿万富翁。” —— Neil Movva，Sail Research 联合创始人，前 Nvidia GPU/kernel 工程师",
+     "url": "https://x.com/rohanpaul_ai/status/2104271002280816664",
+     "aihot": "https://aihot.news/items/cmuk4w9mv1bhcro9hpnuhjoin",
      "selected": false,
-     "score": 61,
+     "score": 29,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Nvidia 发布开源语音分离模型 Nemotron 3 Diarization，实时区分最多八位说话人",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-09-27T19:31:32.422000+08:00",
+     "publishedAt": "2026-09-27T11:01:13.000Z",
+     "discoveredAt": "2026-09-27T11:31:32.422Z",
+     "summary": "Nvidia 发布约 100M 参数的 Nemotron 3 Diarization 模型，权重免费开放，可实时区分最多八位说话人并检测重叠语音，支持录音和实时音频。",
+     "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time",
+     "aihot": "https://aihot.news/items/cmujqnapk0q66ro9hpzs5l6vy",
+     "selected": false,
+     "score": 56,
      "category": "ai-models"
     }
    ],
@@ -108,34 +122,20 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "开发者 Daniel 一天两更 DLSS-NR-on-AMD，让 AMD 显卡运行 DLSS 5 性能累计提升近 74%",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-27T10:28:43.999000+08:00",
-     "publishedAt": "2026-09-27T02:13:33.000Z",
-     "discoveredAt": "2026-09-27T02:28:43.999Z",
-     "summary": "开发者 Daniel 的 DLSS-NR-on-AMD 工具可让 AMD Radeon 显卡运行 DLSS 5 神经渲染，支持 RX 9000 系列，据报道也可用于 RX 7000 系列。",
-     "url": "https://www.ithome.com/1/007/475.htm",
-     "aihot": "https://aihot.news/items/cmuj798xv0nf4rohyv6ztu6qc",
-     "selected": false,
-     "score": 55,
-     "category": "ai-products"
-    },
-    {
      "n": 3,
-     "title": "华硕：英伟达 RTX Spark 款 ProArt 创 16 创作本 10 月 8 日登场",
+     "title": "开发者用英伟达 RTX Remix 让《GTA 2》支持光追",
      "source": "IT之家（RSS）",
-     "ts": "2026-09-26T17:28:34.228000+08:00",
-     "publishedAt": "2026-09-26T09:00:37.000Z",
-     "discoveredAt": "2026-09-26T09:28:34.228Z",
-     "summary": "华硕宣布，基于英伟达 RTX Spark N1X 超级芯片的 ProArt 创 16（P16）创作本将于 10 月 8 日登场，号称\"全球首款智能体电脑\"，支持本地 AI 智能体流畅响应。",
-     "url": "https://www.ithome.com/1/007/393.htm",
-     "aihot": "https://aihot.news/items/cmui6tbaf07r7rov08gesyrtp",
+     "ts": "2026-09-28T12:28:56.745000+08:00",
+     "publishedAt": "2026-09-28T04:16:21.000Z",
+     "discoveredAt": "2026-09-28T04:28:56.745Z",
+     "summary": "Mod 作者 gebdag 发布《GTA 2》RTX Remix 模组，为这款 1999 年的 2D 俯视角游戏带来完整路径追踪和动态昼夜光照。由于 RTX Remix 不原生支持游戏所用的 DirectDraw 和早期 Direct3D，作者用两个 DLL 搭建定制 Direct3D 9 封装层完成转换，并解锁 1…",
+     "url": "https://www.ithome.com/1/007/764.htm",
+     "aihot": "https://aihot.news/items/cmukqzp5e225ero9h1nc7itwj",
      "selected": false,
-     "score": 39,
+     "score": 45,
      "category": "ai-products"
     }
    ],
@@ -146,32 +146,46 @@
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 4,
-     "title": "OpenAI 回应 NVIDIA 首席科学家对 Jalapeno 的质疑",
-     "source": "X：SemiAnalysis (@SemiAnalysis_)",
-     "ts": "2026-09-27T03:10:23.709000+08:00",
-     "publishedAt": "2026-09-26T19:01:08.000Z",
-     "discoveredAt": "2026-09-26T19:10:23.709Z",
-     "summary": "OpenAI 的 Jalapeno 负责人回应 NVIDIA 首席科学家在计算机博物馆座谈会 YouTube 评论区的质疑，称 Jalapeno 已在 SemiAnalysis InferenceX 基准上运行非 OpenAI 模型且速度很快，甚至超过 NVIDIA 的 July Rubin 芯片。",
-     "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
-     "aihot": "https://aihot.news/items/cmuirlkc303yhrohy8pchwxwq",
+     "title": "黄仁勋谈企业专业化智能",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-09-28T08:40:23.627000+08:00",
+     "publishedAt": "2026-09-28T00:17:52.000Z",
+     "discoveredAt": "2026-09-28T00:40:23.627Z",
+     "summary": "“每家公司都建立在某种专业化的智能基础之上。 我们不可能样样精通，但会在某一件事上非常、非常擅长。这种专业化，也就是你公司的智能，就是你的本质。” ——NVIDIA CEO 黄仁勋",
+     "url": "https://x.com/rohanpaul_ai/status/2104364935803551798",
+     "aihot": "https://aihot.news/items/cmukits7n1t0yro9h4geyn5u8",
      "selected": false,
-     "score": 46,
+     "score": 25,
+     "category": "tip"
+    },
+    {
+     "n": 5,
+     "title": "美国小偷盯上印英伟达 Logo 的 PlusAI 自动驾驶重卡，只偷到 18 吨沙子",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-27T17:28:47.156000+08:00",
+     "publishedAt": "2026-09-27T08:45:22.000Z",
+     "discoveredAt": "2026-09-27T09:28:47.156Z",
+     "summary": "美国自动驾驶卡车公司 PlusAI 两辆停在仓库外的重卡被盗，警方协助找回，车内 4 万磅（约 18.1 吨）测试用沙子未被盗。这两辆卡车侧面印有 PlusAI 和英伟达 Logo，PlusAI 称测试时使用模拟载荷以验证自动驾驶系统稳定性。案件仍在调查中，尚无嫌疑人被捕。",
+     "url": "https://www.ithome.com/1/007/548.htm",
+     "aihot": "https://aihot.news/items/cmujm9grl0lk4ro9h9a9o3mee",
+     "selected": false,
+     "score": 39,
      "category": "tip"
     }
    ],

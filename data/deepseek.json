@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-26",
-  "winEnd": "2026-09-27",
-  "generated": "2026-09-27 14:26",
-  "rawHits": 8,
-  "selectedHits": 0,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "winStart": "2026-09-27",
+  "winEnd": "2026-09-28",
+  "generated": "2026-09-28 14:31",
+  "rawHits": 7,
+  "selectedHits": 1,
+  "shown": 3,
+  "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 8,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,67 +68,82 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "DeepSeek 发布 DSec 弹性计算沙箱平台技术报告，支撑大规模智能体 RL 训练",
-     "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-     "ts": "2026-09-27T07:03:04.094000+08:00",
-     "publishedAt": "2026-09-26T22:58:22.682Z",
-     "discoveredAt": "2026-09-26T23:03:04.094Z",
-     "summary": "DeepSeek-AI 发布技术报告，介绍用于大规模 LLM 智能体 RL 训练与评估的生产级沙箱平台 DeepSeek Elastic Compute（DSec），统一提供 FnCall、容器、microVM 和完整 VM 四种后端。",
-     "url": "https://arxiv.org/abs/2609.22978",
-     "aihot": "https://aihot.news/items/cmuizwqn30fmtrohyy8c9tgcx",
-     "selected": false,
-     "score": 70,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
    "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "OpenCode 宣布 DeepSeek V4.1 Flash 的 60 美元额度永久有效",
-     "source": "IT之家（RSS）",
-     "ts": "2026-09-26T19:28:35.276000+08:00",
-     "publishedAt": "2026-09-26T11:07:36.000Z",
-     "discoveredAt": "2026-09-26T11:28:35.276Z",
-     "summary": "OpenCode 宣布\"Operation Cheepseek\"第二阶段启动，DeepSeek V4.1 Flash 在 OpenCode Go 中的 60 美元额度（约合 403.5 元人民币）由限时调整为永久有效，原 15 美元额度被划线标记。",
-     "url": "https://www.ithome.com/1/007/421.htm",
-     "aihot": "https://aihot.news/items/cmuib3o6z0c6orov0twm6blbt",
+     "n": 1,
+     "title": "DSH-better-sidebar：为 DeepSeek Harness 扩展 UI 定制",
+     "source": "X：Tianyi Cui（@tianyi）",
+     "ts": "2026-09-27T16:28:28.331000+08:00",
+     "publishedAt": "2026-09-27T08:25:15.000Z",
+     "discoveredAt": "2026-09-27T08:28:28.331Z",
+     "summary": "dsh-better-sidebar 插件为 DeepSeek Harness 添加侧边栏、底边栏、分栏与可浮动栏等 UI 定制能力，并复用官方组件接口、在官方基础侧边栏之上继续扩展。",
+     "url": "https://x.com/tianyi/status/2104125200048746899",
+     "aihot": "https://aihot.news/items/cmujk3v2o0jagro9hie10h7hv",
      "selected": false,
-     "score": 52,
-     "category": "industry"
+     "score": 26,
+     "category": "ai-products"
     }
    ],
    "note": null
   },
   {
-   "slug": "paper",
-   "label": "论文研究",
+   "slug": "industry",
+   "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 1,
+   "items": [
+    {
+     "n": 2,
+     "title": "小米 MiMo-V3 的 HySparse2 等本周 AI 论文",
+     "source": "X：DAIR.AI (@dair_ai)",
+     "ts": "2026-09-28T01:59:13.310000+08:00",
+     "publishedAt": "2026-09-27T17:34:28.000Z",
+     "discoveredAt": "2026-09-27T17:59:13.310Z",
+     "summary": "小米 MiMo 团队为即将推出的 MiMo-V3 打造了注意力架构 HySparse2，在 80B-A3B MoE 模型上把 prefill FLOPs 较 MiMo-V2 系列的 Hybrid SWA 降低 5.02x、较 HySparse 降低 2.92x，KV cache 从 12.09 GB 降至 2.69…",
+     "url": "https://x.com/dair_ai/status/2104263416252625124",
+     "aihot": "https://aihot.news/items/cmuk4hvff17horo9hftcowxzz",
+     "selected": false,
+     "score": 39,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
+     "source": "小米 MiMo：官网发布与博客",
+     "ts": "2026-09-28T00:53:29.632000+08:00",
+     "publishedAt": "2026-09-26T16:00:00.000Z",
+     "discoveredAt": "2026-09-27T16:53:29.632Z",
+     "summary": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；",
+     "url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition",
+     "aihot": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz",
+     "selected": true,
+     "score": 63,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
