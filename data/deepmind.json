@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-28",
-  "winEnd": "2026-09-29",
-  "generated": "2026-09-29 14:41",
-  "rawHits": 19,
-  "selectedHits": 1,
-  "shown": 2,
-  "dedupedFrom": 3,
+  "winStart": "2026-09-29",
+  "winEnd": "2026-09-30",
+  "generated": "2026-09-30 14:26",
+  "rawHits": 20,
+  "selectedHits": 2,
+  "shown": 5,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 19,
+    "count": 15,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    }
@@ -90,16 +90,16 @@
    "items": [
     {
      "n": 1,
-     "title": "Perplexity 红队测试 SPACE 沙箱：108 次运行中 9 个模型均未能逃逸 VM，但有 4 个模型借助网络访问绕过封锁",
-     "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-     "ts": "2026-09-28T23:59:12.266000+08:00",
-     "publishedAt": "2026-09-28T15:41:27.000Z",
-     "discoveredAt": "2026-09-28T15:59:12.266Z",
-     "summary": "Perplexity 安全团队对运行 Perplexity Computer 的沙箱平台 SPACE 做了一个月红队测试，给 Opus 5、GPT-5.6 Sol、Kimi K3、Gemini 3.1 Pro 等 9 个模型 VM 内 root 权限，108 次运行中无一逃逸 VM 边界。",
-     "url": "https://x.com/AravSrinivas/status/2104597362475708781",
-     "aihot": "https://aihot.news/items/xb126e0awmyhyzh0hn39j1q9v",
+     "title": "Arena 研究：LLM 裁判偏爱自己答案的概率比人类高 70%",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-09-30T00:34:30.191000+08:00",
+     "publishedAt": "2026-09-29T16:05:24.000Z",
+     "discoveredAt": "2026-09-29T16:34:30.191Z",
+     "summary": "Arena 用 12 个模型对 1,460 场真实 Text Arena 对战做了 34,580 条裁决，发现模型偏爱自己答案的程度平均比人类高约 70%，GPT-6 Astra 在 88% 的对战中选了自己。",
+     "url": "https://x.com/arena/status/2104965778613452895",
+     "aihot": "https://aihot.news/items/u6afu3icor0mjvuoie6d2fd2w",
      "selected": true,
-     "score": 70,
+     "score": 67,
      "category": "ai-models"
     }
    ],
@@ -108,29 +108,35 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 2,
-     "title": "Google 将关停 Gemini 的 Gems，迁移为跨任务的 skills",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-09-29T01:38:25.110000+08:00",
-     "publishedAt": "2026-09-28T17:29:50.000Z",
-     "discoveredAt": "2026-09-28T17:38:25.110Z",
-     "summary": "Google 宣布关停 Gemini 的自定义 AI 助手功能 Gems，并将其自动迁移为可跨不同 AI 任务使用的 skills，迁移自 2026 年 11 月 17 日起，用户无需操作，Gems 在此之前仍可使用。",
-     "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
-     "aihot": "https://aihot.news/items/wyzsj9cgfa2iqluhkpjlhja6y",
+     "title": "Gemini Notebook 移动端 Live Chat 全量上线",
+     "source": "X：Gemini Notebook (@Gemini_Notebook)",
+     "ts": "2026-09-30T03:29:27.567000+08:00",
+     "publishedAt": "2026-09-29T19:17:04.000Z",
+     "discoveredAt": "2026-09-29T19:29:27.567Z",
+     "summary": "Live Chat 现已 100% 向移动端所有 Pro 用户开放！ 你试过了吗？欢迎告诉我们你的想法！☺️",
+     "url": "https://x.com/Gemini_Notebook/status/2105014011649814640",
+     "aihot": "https://aihot.news/items/xrztu1l3sg0o7jfoxsuz227ht",
      "selected": false,
-     "score": 45,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "IT之家（RSS）",
-       "title": "谷歌宣布停用 Gemini 的 Gems 功能，将自动迁移为“技能”",
-       "url": "https://www.ithome.com/1/008/077.htm",
-       "aihot": "https://aihot.news/items/fvbttiafgv609n017hueqnawj"
-      }
-     ]
+     "score": 46,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "谷歌开始停用安卓端 Google Assistant，由 Gemini 取代",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-29T17:00:38.375000+08:00",
+     "publishedAt": "2026-09-29T09:00:33.000Z",
+     "discoveredAt": "2026-09-29T09:00:38.375Z",
+     "summary": "据 Android Authority 报道，谷歌上月起发邮件通知停用手机端 Google Assistant，如今大批安卓用户反馈手机已无法使用，部分用户发现 Gemini 应用账户菜单内没有了切换到 Google Assistant 的选项。",
+     "url": "https://www.ithome.com/1/008/382.htm",
+     "aihot": "https://aihot.news/items/cvvw14na1b78dq1zre5m3euhn",
+     "selected": false,
+     "score": 58,
+     "category": "ai-products"
     }
    ],
    "note": null
@@ -138,16 +144,46 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "白宫上线 AI 聊天机器人 America.gov，Google Gemini 参与其中",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-09-30T00:58:11.266000+08:00",
+     "publishedAt": "2026-09-29T16:55:56.000Z",
+     "discoveredAt": "2026-09-29T16:58:11.266Z",
+     "summary": "特朗普宣布白宫推出 AI 聊天机器人 America.gov，用于帮助民众查找政府服务信息，Google 确认其 Gemini 模型参与该项目的合作。文章同时提出担忧，大语言模型仍易产生幻觉，若民众依赖该机器人查询食品券申请、签证续期或报税等信息，错误可能导致错过截止日期、福利被拒或处罚。",
+     "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+     "aihot": "https://aihot.news/items/k056ci919l9qrtstbqw595ivd",
+     "selected": false,
+     "score": 56,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 5,
+     "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-09-29T18:51:09.274000+08:00",
+     "publishedAt": "2026-09-29T09:03:41.000Z",
+     "discoveredAt": "2026-09-29T10:51:09.274Z",
+     "summary": "IMDEA Networks 等机构对 ChatGPT、Claude、Grok、DeepSeek、Gemini、Perplexity、Copilot、Mistral 和 Meta AI 九款对话式 AI 服务做了系统性隐私分析。",
+     "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+     "aihot": "https://aihot.news/items/k8sujz02e95ov1206fwycu9ci",
+     "selected": true,
+     "score": 77,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",

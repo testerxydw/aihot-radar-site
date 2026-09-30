@@ -173,13 +173,13 @@ const DATA = {
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-28",
-  "winEnd": "2026-09-29",
-  "generated": "2026-09-29 14:41",
-  "rawHits": 8,
-  "selectedHits": 0,
-  "shown": 1,
-  "dedupedFrom": 1,
+  "winStart": "2026-09-29",
+  "winEnd": "2026-09-30",
+  "generated": "2026-09-30 14:27",
+  "rawHits": 12,
+  "selectedHits": 4,
+  "shown": 7,
+  "dedupedFrom": 9,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -194,7 +194,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -202,7 +202,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 8,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -210,7 +210,7 @@ const DATA = {
     "q": "深度求索",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -218,7 +218,7 @@ const DATA = {
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -229,27 +229,84 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
    "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Tianyi Cui 推荐三个 DeepSeek Harness 插件导航站",
-     "source": "X：Tianyi Cui（@tianyi）",
-     "ts": "2026-09-28T21:39:30.032000+08:00",
-     "publishedAt": "2026-09-28T13:35:04.000Z",
-     "discoveredAt": "2026-09-28T13:39:30.032Z",
-     "summary": "Tianyi Cui 提名三个使用广泛、更新及时的 DSH 插件导航站：https://dshfind.com/、https://dshmarket.com/ 和 https://awesome-dsh-plugin.com/，其中 dshmarket 还可直接作为 DSH 插件安装到设置页中。",
-     "url": "https://x.com/tianyi/status/2104565558712959065",
-     "aihot": "https://aihot.news/items/s9y778to48lith1wze1i5gu7t",
+     "title": "Arena 研究：LLM 裁判偏爱自己答案的概率比人类高 70%",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-09-30T00:34:30.191000+08:00",
+     "publishedAt": "2026-09-29T16:05:24.000Z",
+     "discoveredAt": "2026-09-29T16:34:30.191Z",
+     "summary": "Arena 用 12 个模型对 1,460 场真实 Text Arena 对战做了 34,580 条裁决，发现模型偏爱自己答案的程度平均比人类高约 70%，GPT-6 Astra 在 88% 的对战中选了自己。",
+     "url": "https://x.com/arena/status/2104965778613452895",
+     "aihot": "https://aihot.news/items/u6afu3icor0mjvuoie6d2fd2w",
+     "selected": true,
+     "score": 67,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 3,
+   "items": [
+    {
+     "n": 2,
+     "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
+     "source": "公众号：DeepSeek（深度求索）",
+     "ts": "2026-09-30T11:30:45.495000+08:00",
+     "publishedAt": "2026-09-30T02:01:00.000Z",
+     "discoveredAt": "2026-09-30T03:30:45.495Z",
+     "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
+     "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485843&idx=1&sn=565102c3642d88e814331390bf62d276&chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&scene=126&sessionid=1790739034#rd",
+     "aihot": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
+     "selected": true,
+     "score": 72,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "IT之家（RSS）",
+       "title": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，与英伟达平台一一对应",
+       "url": "https://www.ithome.com/1/008/604.htm",
+       "aihot": "https://aihot.news/items/wz9jd4ruvxati57gfakml2t2i"
+      },
+      {
+       "source": "X：X.PIN (@thexpin)",
+       "title": "DeepSeek 开源 TileLang、DeepGEMM、DeepEP 等昇腾组件",
+       "url": "https://x.com/thexpin/status/2105173841580585399",
+       "aihot": "https://aihot.news/items/az9py22z4omqa52t7v5cw2t8o"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Anthropic 评测 GLM-5.3：能自主构建端到端网络漏洞利用且防护易被绕过",
+     "source": "Anthropic：Research（发表成果 · 网页）",
+     "ts": "2026-09-30T00:50:12.017000+08:00",
+     "publishedAt": "2026-09-28T16:00:00.000Z",
+     "discoveredAt": "2026-09-29T16:50:12.017Z",
+     "summary": "Anthropic 发布对智谱 GLM-5.3 网络攻击能力的分析，发现其可自主开发端到端漏洞利用，在 ExploitBench 410 次尝试中成功 50 次，接近 Claude Mythos Preview 的 56 次。",
+     "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+     "aihot": "https://aihot.news/items/eqf3o3tlak08851t52unuji2o",
+     "selected": true,
+     "score": 81,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "DeepSeek Harness 桌面端预览版 v0.2 发布，支持插件安装与自动化任务",
+     "source": "IT之家（RSS）",
+     "ts": "2026-09-29T20:26:18.779000+08:00",
+     "publishedAt": "2026-09-29T12:24:41.000Z",
+     "discoveredAt": "2026-09-29T12:26:18.779Z",
+     "summary": "DeepSeek Harness v0.2 预览版发布，提供 macOS 和 Windows 桌面端安装包，已上线 DeepSeek 官网。新版本新增插件安装与管理页面（无需命令行，输入 npm 包名即可安装），内置可按计划执行重复性工作的自动化任务插件，并优化了文件展示、代码变更展示体验。",
+     "url": "https://www.ithome.com/1/008/469.htm",
+     "aihot": "https://aihot.news/items/ktt8q5xgwb4zuahp3sfcguy1x",
      "selected": false,
-     "score": 51,
+     "score": 58,
      "category": "ai-products"
     }
    ],
@@ -258,23 +315,67 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 2,
+   "items": [
+    {
+     "n": 5,
+     "title": "美国众议员 Ro Khanna 致信 DeepSeek、阿里、Moonshot AI，追问超级智能与 RSI 安全措施",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-09-29T20:47:17.912000+08:00",
+     "publishedAt": "2026-09-29T12:00:00.000Z",
+     "discoveredAt": "2026-09-29T12:47:17.912Z",
+     "summary": "美国众议院中国问题特别委员会首席民主党人 Ro Khanna 致信 DeepSeek、阿里巴巴和 Moonshot AI，要求其提供追求\"超级智能\"与递归自我改进（RSI）的相关文件，并说明是否设有 safeguards 和\"kill switches\"。",
+     "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+     "aihot": "https://aihot.news/items/zl16xf4igra74y9swzy3ez0ay",
+     "selected": false,
+     "score": 56,
+     "category": "industry"
+    },
+    {
+     "n": 6,
+     "title": "DeepSeek 弹性计算团队招聘并分享 DSec 沙盒基础设施",
+     "source": "X：Tianyi Cui（@tianyi）",
+     "ts": "2026-09-29T18:44:10.291000+08:00",
+     "publishedAt": "2026-09-29T10:31:17.000Z",
+     "discoveredAt": "2026-09-29T10:44:10.291Z",
+     "summary": "DeepSeek 弹性计算团队正大量招聘，尤其需要资深工程师。团队同时发布技术分享《DeepSeek 弹性计算 (DSec)：面向大规模 Agent 训练的沙盒基础设施》，介绍其面向大规模 Agent 训练的沙盒基础设施。",
+     "url": "https://x.com/tianyi/status/2104881693706653733",
+     "aihot": "https://aihot.news/items/hr6p4xv7qmvrmdkavec7k57hl",
+     "selected": false,
+     "score": 42,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 7,
+     "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-09-29T18:51:09.274000+08:00",
+     "publishedAt": "2026-09-29T09:03:41.000Z",
+     "discoveredAt": "2026-09-29T10:51:09.274Z",
+     "summary": "IMDEA Networks 等机构对 ChatGPT、Claude、Grok、DeepSeek、Gemini、Perplexity、Copilot、Mistral 和 Meta AI 九款对话式 AI 服务做了系统性隐私分析。",
+     "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+     "aihot": "https://aihot.news/items/k8sujz02e95ov1206fwycu9ci",
+     "selected": true,
+     "score": 77,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [
