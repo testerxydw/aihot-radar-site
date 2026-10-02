@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-09-30",
-  "winEnd": "2026-10-01",
-  "generated": "2026-10-01 15:00",
-  "rawHits": 41,
-  "selectedHits": 7,
+  "winStart": "2026-10-01",
+  "winEnd": "2026-10-02",
+  "generated": "2026-10-02 14:50",
+  "rawHits": 26,
+  "selectedHits": 3,
   "shown": 8,
-  "dedupedFrom": 33,
+  "dedupedFrom": 13,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 5,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 20,
+    "count": 11,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 4,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,15 +59,15 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 16,
+    "hasMore": false,
     "from_cache": false
    },
    {
     "q": "Demis Hassabis",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -90,30 +90,30 @@
    "items": [
     {
      "n": 1,
-     "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-10-01T09:17:38.079000+08:00",
-     "publishedAt": "2026-10-01T00:00:00.000Z",
-     "discoveredAt": "2026-10-01T01:17:38.079Z",
-     "summary": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
-     "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
-     "aihot": "https://aihot.news/items/v6j23p9krwwoxqvk05d9n0bfz",
-     "selected": true,
-     "score": 67,
+     "title": "Cohere 发布 Embed 5 嵌入模型：Pro 与 Fast 双档对比 Voyage 4 Large、Gemini Embedding 2 和 OpenAI",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-10-02T01:29:21.585000+08:00",
+     "publishedAt": "2026-10-01T17:13:12.000Z",
+     "discoveredAt": "2026-10-01T17:29:21.585Z",
+     "summary": "Cohere 发布 Embed 5 嵌入模型家族，分 Pro 和 Fast 两档，均支持文本、图像及图文融合输入、100+ 语言和 128K token 上下文，两档共享同一向量空间，可用 Pro 建索引、Fast 查询。",
+     "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
+     "aihot": "https://aihot.news/items/rh0be2o70zepk7a0s3q0uywyk",
+     "selected": false,
+     "score": 63,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Gemini 4 在 PostTrainBench 达 45.3%",
-     "source": "X：Karina Nguyen（@karinanguyen）",
-     "ts": "2026-10-01T05:51:40.205000+08:00",
-     "publishedAt": "2026-09-30T21:35:23.000Z",
-     "discoveredAt": "2026-09-30T21:51:40.205Z",
-     "summary": "Gemini 4 在 PostTrainBench 上达到 45.3%，是 Gemini 3.1 Pro 的 21.99% 的两倍多，并击败了 GPT-6 Astra 🔥",
-     "url": "https://x.com/karinanguyen/status/2105411208635711499",
-     "aihot": "https://aihot.news/items/kp5dxldxgea7yadm4hj9qqkhp",
+     "title": "Gemini 4 Argon 测试：1M 输出 token，DeepSWE 77.9%",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-01T16:00:41.706000+08:00",
+     "publishedAt": "2026-10-01T07:51:13.000Z",
+     "discoveredAt": "2026-10-01T08:00:41.706Z",
+     "summary": "Gemini 4 Argon 已向 Fairwind 可信测试者和美国政府开放，支持 1M 输出 token，主打编程、企业知识工作与网络防御，在 DeepSWE v1.1 上取得 77.9% 的新 SOTA。",
+     "url": "https://x.com/testingcatalog/status/2105566186771546490",
+     "aihot": "https://aihot.news/items/lx41assf9279cicpt80haae41",
      "selected": false,
-     "score": 45,
+     "score": 36,
      "category": "ai-models"
     }
    ],
@@ -122,187 +122,95 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 4,
    "items": [
     {
      "n": 3,
-     "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-10-01T05:14:37.580000+08:00",
-     "publishedAt": "2026-09-30T21:09:24.000Z",
-     "discoveredAt": "2026-09-30T21:14:37.580Z",
-     "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
-     "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
-     "aihot": "https://aihot.news/items/sv8dhqgv5kccksxx30x4oa7n3",
-     "selected": true,
-     "score": 79,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
-     "source": "Google DeepMind：Blog（RSS）",
-     "ts": "2026-10-01T04:14:38.076000+08:00",
-     "publishedAt": "2026-09-30T20:01:45.000Z",
-     "discoveredAt": "2026-09-30T20:14:38.076Z",
-     "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
-     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "aihot": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-     "selected": true,
-     "score": 78,
+     "title": "Google DeepMind 发布 SynthID Bio 为 AI 设计的蛋白质添加水印",
+     "source": "X：Sundar Pichai (@sundarpichai)",
+     "ts": "2026-10-02T09:27:23.406000+08:00",
+     "publishedAt": "2026-10-02T01:12:06.000Z",
+     "discoveredAt": "2026-10-02T01:27:23.406Z",
+     "summary": "Google DeepMind 发布 SynthID Bio，一套面向 AI 生成生物设计的水印方法家族，可将不可察觉的签名直接嵌入蛋白质序列而不影响其生物功能。Sundar Pichai 转发该消息并称赞其对科学诚信与生物安全的推进。",
+     "url": "https://x.com/sundarpichai/status/2105828136428691774",
+     "aihot": "https://aihot.news/items/mx1nabzkkpauikvq4ubjcpwl9",
+     "selected": false,
+     "score": 58,
      "category": "ai-products",
      "also": [
       {
-       "source": "Google DeepMind：Blog（RSS）",
-       "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
-       "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-       "aihot": "https://aihot.news/items/deivg466iwv9ypddacud3hd7d"
-      },
-      {
-       "source": "X：Arena (@arena)",
-       "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
-       "url": "https://x.com/arena/status/2105411271525052418",
-       "aihot": "https://aihot.news/items/m49i2ro59f3lqy8ocoghr9f2j"
-      },
-      {
-       "source": "Artificial Analysis 完整文章（网页）",
-       "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
-       "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
-       "aihot": "https://aihot.news/items/thdata2aa7ex9kgzv72mk4kn3"
-      },
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Artificial Analysis 评测 Gemini 4 Argon，智能指数追平 GPT-6 Astra 且成本仅 60%",
-       "url": "https://x.com/ArtificialAnlys/status/2105392625788637299",
-       "aihot": "https://aihot.news/items/v4apga9k7wdoz05ktc8xgk6va"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Google 发布 Gemini 4 Argon：缩小与 OpenAI 和 Anthropic 的差距但未明显领先",
-       "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-       "aihot": "https://aihot.news/items/oyqytutjzet3wan8qz7ovr37m"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "谷歌发布 Gemini 4 Argon，DeepSWE 测试 77.9% 超 Claude Opus 5.5",
-       "url": "https://www.ithome.com/1/008/953.htm",
-       "aihot": "https://aihot.news/items/x7lody1qwcc3fm7uit5p84osn"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "Google DeepMind 发布 Gemini 4 Argon：单次输出可达 1M tokens",
-       "url": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
-       "aihot": "https://aihot.news/items/ylmzhp0e938xzvucd4zdv1xt4"
-      },
-      {
-       "source": "X：Arena (@arena)",
-       "title": "Gemini 4 Argon (High) 登顶 Arena 文本榜第一并进入 WebDev 榜前八",
-       "url": "https://x.com/arena/status/2105394855644139908",
-       "aihot": "https://aihot.news/items/vu6eu0y5ctms185ppdx2bmpmq"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "Google 发布 Gemini 4 Argon，目前仅限受信任的网络防御者使用",
-       "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-       "aihot": "https://aihot.news/items/ufnpivdhtywidzzvlm8j80sjb"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Google 发布 Gemini 4 Argon，多数基准领先 GPT-6 Astra 与 Claude Opus 5.5",
-       "url": "https://x.com/rohanpaul_ai/status/2105399761084043514",
-       "aihot": "https://aihot.news/items/kfepix5rjw2b1todb2hk93un9"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Google Gemini 4 Argon 单次输出上限提升至 1M tokens",
-       "url": "https://x.com/rohanpaul_ai/status/2105401953186721855",
-       "aihot": "https://aihot.news/items/phc3hq15997w3ykk4y8cn6clf"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "谷歌逐步推出 Gemini 4 Argon 旗舰模型，内部对编码实战表现存在质疑",
-       "url": "https://www.ithome.com/1/008/982.htm",
-       "aihot": "https://aihot.news/items/ns055r3g4avngzgtuhqkipbf5"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "Google 发布 Gemini 4 Argon，称其为迄今最强模型",
-       "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-       "aihot": "https://aihot.news/items/nphcmtyw8yyfsx8ypkg3ivnwn"
-      },
-      {
-       "source": "X：Demis Hassabis (@demishassabis)",
-       "title": "DeepMind 发布 SynthID Bio 蛋白质水印方法，成果登上 Nature 并开源工具",
-       "url": "https://x.com/demishassabis/status/2105348732464070823",
-       "aihot": "https://aihot.news/items/i6tszqpmounfk6nseezrvp44q"
-      },
-      {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "Google 发布 Gemini 4 Argon 模型，尚未开放使用",
-       "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-       "aihot": "https://aihot.news/items/ejolvgpnnnptqhgnv9q3ktg0g"
-      },
-      {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "Google DeepMind 提出 AI 设计蛋白质水印方法 SynthIDBio",
-       "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
-       "aihot": "https://aihot.news/items/eo88qsz50l2igg5metqwwlre0"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "谷歌 DeepMind 推出 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
-       "url": "https://www.ithome.com/1/008/940.htm",
-       "aihot": "https://aihot.news/items/l2nzpph1zgw88iilnsr3i41ms"
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 推出 SynthID Bio 水印",
+       "url": "https://x.com/GoogleDeepMind/status/2105624656170643854",
+       "aihot": "https://aihot.news/items/mjg7lxu51v562q0ksxv2ec31m"
       },
       {
        "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 推出 Argon 模型",
-       "url": "https://x.com/GoogleDeepMind/status/2105388087367127256",
-       "aihot": "https://aihot.news/items/zkf9f6hkwfk5vjgk1zzg5f101"
+       "title": "Google DeepMind 开源生物设计安全验证工具",
+       "url": "https://x.com/GoogleDeepMind/status/2105624661912392028",
+       "aihot": "https://aihot.news/items/v43djlkl5qk75bwh4ldthfo91"
       },
       {
-       "source": "X：Arena (@arena)",
-       "title": "Gemini 4 Argon 与前沿模型对比",
-       "url": "https://x.com/arena/status/2105449871671173257",
-       "aihot": "https://aihot.news/items/fivtp2kgf8jv2mx9lujepq7re"
-      },
-      {
-       "source": "X：洪明 (@hongming731)",
-       "title": "Gemini 4 Argon 发布，输出 token 上限提至 1M",
-       "url": "https://x.com/hongming731/status/2105454334876246028",
-       "aihot": "https://aihot.news/items/oepd80efkckrp5105uaj46cbp"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google DeepMind 等论文：AI 抢工作后政府该怎么保民生",
+       "url": "https://x.com/rohanpaul_ai/status/2105598654530884047",
+       "aihot": "https://aihot.news/items/fe1jquztew7dpnmth20jt7mmp"
       },
       {
        "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Gemini 4 Argon 前沿模型发布",
-       "url": "https://x.com/GoogleDeepMind/status/2105388084154056939",
-       "aihot": "https://aihot.news/items/j19f6izjomqedy0ieqf04bfmy"
+       "title": "Google DeepMind 播客探讨 AI 内容溯源与水印",
+       "url": "https://x.com/GoogleDeepMind/status/2105707085287567709",
+       "aihot": "https://aihot.news/items/bzrds1zlqjkvvalxzc11h48i1"
       },
       {
-       "source": "X：Demis Hassabis (@demishassabis)",
-       "title": "Gemini 4 Argon 前沿模型发布",
-       "url": "https://x.com/demishassabis/status/2105417239432200636",
-       "aihot": "https://aihot.news/items/pueszzzugaldvri5nq1bjtrhz"
-      },
-      {
-       "source": "Hacker News：AI 热帖",
-       "title": "Gemini 4 Argon (High) 智能、性能与价格分析",
-       "url": "https://artificialanalysis.ai/models/gemini-4-argon",
-       "aihot": "https://aihot.news/items/eojsxjj6ifzmw5j17rteml9ck"
-      },
-      {
-       "source": "X：马东锡 NLP (@dongxi_nlp)",
-       "title": "Gemini 4 Argon 等前沿模型密集发布",
-       "url": "https://x.com/dongxi_nlp/status/2105429105739026499",
-       "aihot": "https://aihot.news/items/h3so4mtjggk0cbu4888vqd4ib"
-      },
-      {
-       "source": "X：马东锡 NLP (@dongxi_nlp)",
-       "title": "Gemini 4 新模型为何命名 Argon？",
-       "url": "https://x.com/dongxi_nlp/status/2105404111206437096",
-       "aihot": "https://aihot.news/items/v8qpenys969lax4t9johwi0v6"
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 推出蛋白质水印技术",
+       "url": "https://x.com/GoogleDeepMind/status/2105624658951176323",
+       "aihot": "https://aihot.news/items/iguljlpiw10rydjo04m7l5sbt"
       }
      ]
+    },
+    {
+     "n": 4,
+     "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-02T08:54:22.372000+08:00",
+     "publishedAt": "2026-10-02T00:44:40.000Z",
+     "discoveredAt": "2026-10-02T00:54:22.372Z",
+     "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；",
+     "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+     "aihot": "https://aihot.news/items/fe27jbwrn6gfzym6j9q179auw",
+     "selected": true,
+     "score": 80,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-10-02T08:34:22.629000+08:00",
+     "publishedAt": "2026-10-02T00:17:12.000Z",
+     "discoveredAt": "2026-10-02T00:34:22.629Z",
+     "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
+     "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+     "aihot": "https://aihot.news/items/jhshh53c18f71tkzk44izbs25",
+     "selected": true,
+     "score": 73,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "Google 在 Gemini Live 推出 Guided Vision，用 AI 实时描述镜头画面",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-02T05:29:21.686000+08:00",
+     "publishedAt": "2026-10-01T19:47:51.000Z",
+     "discoveredAt": "2026-10-01T21:29:21.686Z",
+     "summary": "Google 在 Gemini Live 上线 Guided Vision，可在兼容 Android 设备上通过共享摄像头，用 AI 实时语音描述镜头中的内容，帮助读取小字、识别物体和描述周围环境。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+     "aihot": "https://aihot.news/items/fuu3omlczqw6i2t97k4foexld",
+     "selected": false,
+     "score": 49,
+     "category": "ai-products"
     }
    ],
    "note": null
@@ -312,43 +220,14 @@
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 6 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
-   "items": [
-    {
-     "n": 5,
-     "title": "Nathan Lambert 评 Gemini 4：更多实验室站上前沿是好事",
-     "source": "X：Nathan Lambert (@natolambert)",
-     "ts": "2026-10-01T07:43:36.640000+08:00",
-     "publishedAt": "2026-09-30T23:16:55.000Z",
-     "discoveredAt": "2026-09-30T23:43:36.640Z",
-     "summary": "Nathan Lambert 发文称很高兴看到 Google 用 Gemini 4 给人们带来惊喜。他认为更多实验室处于前沿对消费者（竞争）和世界（减少权力集中）都有好处，并期待其在真实场景中的表现。",
-     "url": "https://x.com/natolambert/status/2105436759496773946",
-     "aihot": "https://aihot.news/items/mbx8q7c6rnmzujyengjydo8l7",
-     "selected": false,
-     "score": 54,
-     "category": "paper"
-    },
-    {
-     "n": 6,
-     "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
-     "source": "MIT News（RSS）",
-     "ts": "2026-10-01T00:06:18.839000+08:00",
-     "publishedAt": "2026-09-30T15:00:00.000Z",
-     "discoveredAt": "2026-09-30T16:06:18.839Z",
-     "summary": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
-     "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
-     "aihot": "https://aihot.news/items/knj4jcg30hz6vujhwu7xqeplj",
-     "selected": true,
-     "score": 61,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
@@ -357,30 +236,30 @@
    "items": [
     {
      "n": 7,
-     "title": "Demis Hassabis 为团队成果感到自豪",
-     "source": "X：Demis Hassabis (@demishassabis)",
-     "ts": "2026-10-01T06:22:39.114000+08:00",
-     "publishedAt": "2026-09-30T21:59:21.000Z",
-     "discoveredAt": "2026-09-30T22:22:39.114Z",
-     "summary": "为这支一直如此努力、不懈投入的出色团队感到无比自豪！更多信息见博客文章：https://goo.gle/4rZBiSd",
-     "url": "https://x.com/demishassabis/status/2105417241424540136",
-     "aihot": "https://aihot.news/items/drhi77bf1mrz20tzac2cvgbhw",
+     "title": "DeepMind 联创：远程认知岗位最易被 AI 替代",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-02T13:02:22.435000+08:00",
+     "publishedAt": "2026-10-02T04:32:13.000Z",
+     "discoveredAt": "2026-10-02T05:02:22.435Z",
+     "summary": "所有仅靠一台笔记本电脑就能完成的远程认知类工作，最容易被 AI 自动化或大幅削减。 ~ Shane Legg，Google DeepMind 首席 AGI 科学家兼联合创始人 ---- 完整视频来自 \"Google DeepMind and Hannah Fry\" YouTube 频道（链接见评论）",
+     "url": "https://x.com/rohanpaul_ai/status/2105878496228876293",
+     "aihot": "https://aihot.news/items/ssvhtv5zf70cffsbszdncwdxp",
      "selected": false,
-     "score": 10,
+     "score": 34,
      "category": "tip"
     },
     {
      "n": 8,
-     "title": "RFK Jr. 称 AI 支持其对疫苗等问题的反主流观点，Ars Technica 实测 Gemini 与 ChatGPT 答案相反",
-     "source": "Ars Technica：AI（RSS）",
-     "ts": "2026-10-01T05:09:36.436000+08:00",
-     "publishedAt": "2026-09-30T19:31:25.000Z",
-     "discoveredAt": "2026-09-30T21:09:36.436Z",
-     "summary": "美国卫生部长 RFK Jr. 在一场 MAHA 活动上称 AI“比全国任何医生都更有信息量”，鼓励美国人用 AI 对医疗建议做二次判断，并称 AI 会推翻口罩、社交距离和疫苗防传播等专家结论。",
-     "url": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
-     "aihot": "https://aihot.news/items/r0pv0ejqsqcciss9cl46q34nk",
-     "selected": false,
-     "score": 69,
+     "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+     "source": "Ethan Mollick：One Useful Thing（RSS）",
+     "ts": "2026-10-01T19:30:31.541000+08:00",
+     "publishedAt": "2026-10-01T10:54:12.000Z",
+     "discoveredAt": "2026-10-01T11:30:31.541Z",
+     "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
+     "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+     "aihot": "https://aihot.news/items/i35lar26hjm4djheowz5ytplm",
+     "selected": true,
+     "score": 64,
      "category": "tip"
     }
    ],
