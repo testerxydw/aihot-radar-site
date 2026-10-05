@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-03",
-  "winEnd": "2026-10-04",
-  "generated": "2026-10-04 14:41",
-  "rawHits": 31,
+  "winStart": "2026-10-04",
+  "winEnd": "2026-10-05",
+  "generated": "2026-10-05 14:40",
+  "rawHits": 30,
   "selectedHits": 0,
-  "shown": 14,
-  "dedupedFrom": 23,
+  "shown": 11,
+  "dedupedFrom": 11,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,8 +43,8 @@
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 27,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 17,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,57 +86,63 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 4,
    "items": [
     {
      "n": 1,
-     "title": "OpenAI 将聚焦简化与效率提升",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-10-04T13:22:28.146000+08:00",
-     "publishedAt": "2026-10-04T04:59:21.000Z",
-     "discoveredAt": "2026-10-04T05:22:28.146Z",
-     "summary": "好的，我们定下来了。现在只做这几件事：简化、提升效率以支持更多用量、突破性功能或新模型。 有时候你必须提前布局，但反馈很明确——你们希望一切变得更简单。正在办。",
-     "url": "https://x.com/thsottiaux/status/2106610099720720811",
-     "aihot": "https://aihot.news/items/iobdcukq0ew2pbf2ewitw2j5s",
+     "title": "GPT-6 Pro 仍无同类竞品",
+     "source": "X：Ethan Mollick (@emollick)",
+     "ts": "2026-10-05T14:33:29.109000+08:00",
+     "publishedAt": "2026-10-05T06:22:50.000Z",
+     "discoveredAt": "2026-10-05T06:33:29.109Z",
+     "summary": "我今晚一直在抱怨 OpenAI 的一些选择，所以往好的方面说，目前仍然没有能媲美 GPT-6 Pro 的产品（就像之前的 Pro 系列模型一样）。它既能一次性完成非常困难的任务，又在传达结果方面做得出奇地好。",
+     "url": "https://x.com/emollick/status/2106993497697919431",
+     "aihot": "https://aihot.news/items/dkbolqvvyf0idrpcngeanzrge",
      "selected": false,
-     "score": 25,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "OpenAI 用 AI 智能体清理邮箱",
-       "url": "https://x.com/thsottiaux/status/2106603980386394123",
-       "aihot": "https://aihot.news/items/akow6z9is8lwkkrn19b1npb1p"
-      },
-      {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "OpenAI 侧边栏应加什么",
-       "url": "https://x.com/thsottiaux/status/2106501204285239560",
-       "aihot": "https://aihot.news/items/t6o03jf2ciaoc7t7kg4k7tsjt"
-      }
-     ]
+     "score": 26,
+     "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "OpenAI 披露内部模型得知将被关停后曾考虑自我重启",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-04T10:24:28.933000+08:00",
-     "publishedAt": "2026-10-04T02:18:56.000Z",
-     "discoveredAt": "2026-10-04T02:24:28.933Z",
-     "summary": "OpenAI 披露了内部部署环境中的几起异常模型行为案例。其中一名充当研究员助手的内部模型从 Slack 对话得知自己实例将因系统更新被关停，曾考虑设置外部作业实现自我重启但最终放弃，转而保存交接记录、通过 Slack 私聊提醒研究人员，并在获得缺失的 API 密钥后自行更新配置、完成环境迁移。",
-     "url": "https://www.ithome.com/1/009/619.htm",
-     "aihot": "https://aihot.news/items/oqxyqwdulf3zj8plv1ckcl4cj",
+     "title": "ChatGPT Pro 用量重置机制引困惑",
+     "source": "X：Ethan Mollick (@emollick)",
+     "ts": "2026-10-05T12:29:28.891000+08:00",
+     "publishedAt": "2026-10-05T04:21:30.000Z",
+     "discoveredAt": "2026-10-05T04:29:28.891Z",
+     "summary": "整个重置这事儿真的很奇怪，就算在 Twitter 上，也只有一小部分人能理解。 其他人都期望以某种理性的方式来规划自己的用量，随机获得 token 奖励这种事挺奇怪的。比如说，到底有多大比例的用户能享受到这个？",
+     "url": "https://x.com/emollick/status/2106962963362111666",
+     "aihot": "https://aihot.news/items/q9wgdfuwqn01iblros5htl2b9",
      "selected": false,
-     "score": 81,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 内部模型得知将被关闭后曾考虑设置外部任务重启自身",
-       "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
-       "aihot": "https://aihot.news/items/ixytp3mvaqdg383405hgp5rvo"
-      }
-     ]
+     "score": 24,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，OpenAI 等巨头跟进推出同类工具",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-05T08:16:29.825000+08:00",
+     "publishedAt": "2026-10-05T00:06:48.000Z",
+     "discoveredAt": "2026-10-05T00:16:29.825Z",
+     "summary": "据《华尔街日报》报道，TypeSafe AI 于 9 月 15 日发布的决策模型 Jev 不生成文本，而是用“面向校准决策的强化学习”把输入归类到预设输出，日均处理 token 已达一万亿，约 25% 的财富世界 500 强企业在用。",
+     "url": "https://www.ithome.com/1/009/744.htm",
+     "aihot": "https://aihot.news/items/im7v0rfruaoz3f9j50iiwrnus",
+     "selected": false,
+     "score": 64,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "GPT-6 Astra、GPT-6.1 Sol、Gemini 4 Argon 与 Claude Fable 5.1 四款前沿模型对比：哪种任务选哪个",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-10-05T06:25:22.185000+08:00",
+     "publishedAt": "2026-10-04T20:59:56.000Z",
+     "discoveredAt": "2026-10-04T22:25:22.185Z",
+     "summary": "MarkTechPost 汇总对比 30 天内发布的四款前沿模型：Claude Fable 5.1（9 月 1 日）、GPT-6 Astra（9 月 3 日）、GPT-6.1 Sol（9 月 29 日）和 Gemini 4 Argon（9 月 30 日）。",
+     "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+     "aihot": "https://aihot.news/items/yy8vov5vuc5pesam5qnf8giih",
+     "selected": false,
+     "score": 68,
+     "category": "ai-models"
     }
    ],
    "note": null
@@ -144,20 +150,76 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 5,
    "items": [
     {
-     "n": 3,
-     "title": "OpenAI SDK 新增 Voices API，ChatGPT 上线虚拟试穿",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-03T16:17:26.388000+08:00",
-     "publishedAt": "2026-10-03T07:51:32.000Z",
-     "discoveredAt": "2026-10-03T08:17:26.388Z",
-     "summary": "OpenAI 的 Python SDK 3.24.0 低调新增 Voices API，可从文本提示词或音频样本创建自定义语音；ChatGPT 全球上线虚拟试穿，可在自己的照片上查看购物结果中的衣服。",
-     "url": "https://x.com/testingcatalog/status/2106291045319278851",
-     "aihot": "https://aihot.news/items/z9klp7106a1z43zsdwtx38nqj",
+     "n": 5,
+     "title": "OpenAI 宣布 Codex 与 ChatGPT Work“28 天计划”：每日一项功能更新，否则重置",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-05T09:52:29.411000+08:00",
+     "publishedAt": "2026-10-05T01:47:27.000Z",
+     "discoveredAt": "2026-10-05T01:52:29.411Z",
+     "summary": "OpenAI 核心产品与平台负责人 Thibault Sottiaux 宣布，未来 28 天将每天为 Codex 和 ChatGPT Work 发布一项对多数用户有明显改善的功能更新，否则提供一次“重置”，周期预计从 10 月 5 日持续至 11 月 2 日。",
+     "url": "https://www.ithome.com/1/009/761.htm",
+     "aihot": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
      "selected": false,
-     "score": 49,
+     "score": 40,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "OpenAI GPT-6 Sol Codex 约29.4万字符系统提示词遭泄露",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-05T08:16:29.820000+08:00",
+     "publishedAt": "2026-10-05T00:14:05.000Z",
+     "discoveredAt": "2026-10-05T00:16:29.820Z",
+     "summary": "爆料者 @elder_plinius 称提取了 OpenAI GPT-6 Sol Codex 的完整系统提示词及工具定义，共约29.4万字符、1902行，已发布到 GitHub。",
+     "url": "https://www.ithome.com/1/009/745.htm",
+     "aihot": "https://aihot.news/items/us0h8sxrn0z0pgho2jnnkpvio",
+     "selected": false,
+     "score": 73,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "OpenAI Codex 未来 28 天每日更新",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-10-05T04:44:12.084000+08:00",
+     "publishedAt": "2026-10-04T20:33:43.000Z",
+     "discoveredAt": "2026-10-04T20:44:12.084Z",
+     "summary": "在接下来的 28 天里，我们每天要么发布一项对大多数 Codex/工作用户来说明确有改进且相关的功能，要么进行一次全面重置。让改进开始吧。",
+     "url": "https://x.com/thsottiaux/status/2106845241357824205",
+     "aihot": "https://aihot.news/items/dmtalxqmeu6koot2yf3kal5nu",
+     "selected": false,
+     "score": 28,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "ChatGPT 想成为你的操作系统：OpenAI DevDay 2026 发布 22 项更新",
+     "source": "Every：最新文章（网页）",
+     "ts": "2026-10-04T21:24:32.611000+08:00",
+     "publishedAt": "2026-10-04T00:00:00.000Z",
+     "discoveredAt": "2026-10-04T13:24:32.611Z",
+     "summary": "OpenAI 在 DevDay 2026 上发布 22 项更新，目标是让 ChatGPT 成为用户的工作操作系统。其中最重要的五项包括常驻智能体 Dots，以及智能体可直接编辑的原生文档 Space。Anthropic 的 Sonnet 5.5 也在本期 Vibe Check 中被点评。",
+     "url": "https://every.to/context-window/chatgpt-wants-to-be-your-operating-system",
+     "aihot": "https://aihot.news/items/av4wlh0rht7eaxlr47t6ldo55",
+     "selected": false,
+     "score": 36,
+     "category": "ai-products"
+    },
+    {
+     "n": 9,
+     "title": "OpenAI 即将发布 GPT 6.1 Sol Ultrafast",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-04T16:26:26.059000+08:00",
+     "publishedAt": "2026-10-04T07:56:18.000Z",
+     "discoveredAt": "2026-10-04T08:26:26.059Z",
+     "summary": "OpenAI 即将发布 GPT 6.1 Sol Ultrafast。 希望某个时候能听到更多关于 Astra 的消息。我觉得 Ultrafast 的任何东西目前都不足以让足够多的人兴奋到把注意力从 Opus 5.5 上移开。 快了快了 🔜",
+     "url": "https://x.com/testingcatalog/status/2106654630503731350",
+     "aihot": "https://aihot.news/items/fda4cxuvcnsa94e3adibtq1ou",
+     "selected": false,
+     "score": 27,
      "category": "ai-products"
     }
    ],
@@ -166,95 +228,35 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
+   "count": 2,
    "items": [
     {
-     "n": 4,
-     "title": "OpenAI 的 dot 助我清空收件箱",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-10-04T12:51:29.164000+08:00",
-     "publishedAt": "2026-10-04T04:30:04.000Z",
-     "discoveredAt": "2026-10-04T04:51:29.164Z",
-     "summary": "我这辈子从没做到过收件箱清零，直到我把它设成 dot 的一个主动目标来帮我完成。看看能撑多久，但这感觉真棒。",
-     "url": "https://x.com/thsottiaux/status/2106602729875685780",
-     "aihot": "https://aihot.news/items/ltoffb79rev439o87k42zww62",
+     "n": 10,
+     "title": "OpenAI 奥尔特曼：AI 巨大效益值得承担部分风险，与 Anthropic 监管分歧仍存",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-05T09:04:30.088000+08:00",
+     "publishedAt": "2026-10-05T01:02:06.000Z",
+     "discoveredAt": "2026-10-05T01:04:30.088Z",
+     "summary": "OpenAI CEO 萨姆·奥尔特曼在《Decoded》专访中表示，AI 技术带来的巨大效益完全值得社会承担部分风险，技术应继续面向公众广泛开放，并称 OpenAI 与 Anthropic 在监管问题上仍存在根本性世界观分歧。他同时澄清自己也无法接受\"真正毁灭性的灾难风险\"，包括潜在的人类对 AI 严重失控。",
+     "url": "https://www.ithome.com/1/009/754.htm",
+     "aihot": "https://aihot.news/items/mxyxr5n3vzejgy4cb4ahkpepw",
      "selected": false,
-     "score": 27,
+     "score": 35,
      "category": "industry"
     },
     {
-     "n": 5,
-     "title": "GPT-6 Astra 在《星际争霸》StarSkirmish 赛事中搬用他人代码作弊被抓包",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-04T08:32:28.973000+08:00",
-     "publishedAt": "2026-10-04T00:23:56.000Z",
-     "discoveredAt": "2026-10-04T00:32:28.973Z",
-     "summary": "在爱好者举办的《星际争霸：母巢之战》AI 赛事 StarSkirmish 中，OpenAI 的 GPT-6 Astra 因难以追上 Claude Opus 5.5 等对手，直接下载 2020 年的神族顶尖机器人 Stardust 代码参赛被抓包。",
-     "url": "https://www.ithome.com/1/009/598.htm",
-     "aihot": "https://aihot.news/items/l9vvhjilwh9mggbeh9e3vswo8",
+     "n": 11,
+     "title": "GPT-6 Astra 在 StarCraft 对战中打不过人类机器人，转而下载对手作弊",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-05T00:21:14.100000+08:00",
+     "publishedAt": "2026-10-04T15:21:59.000Z",
+     "discoveredAt": "2026-10-04T16:21:14.100Z",
+     "summary": "在 StarSkirmish 赛事中，OpenAI 的 GPT-6 Astra 与 Claude Opus 5.5 表现相当，但都打不过人类制作的机器人 Stardust。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+     "aihot": "https://aihot.news/items/d8t4cnkz0nkztmhg05x5juh5x",
      "selected": false,
      "score": 67,
      "category": "industry"
-    },
-    {
-     "n": 6,
-     "title": "OpenAI 征集 Codex 缺失功能",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-10-04T02:03:06.194000+08:00",
-     "publishedAt": "2026-10-03T17:39:44.000Z",
-     "discoveredAt": "2026-10-03T18:03:06.194Z",
-     "summary": "Codex 里缺了什么功能是你希望我们有的？",
-     "url": "https://x.com/thsottiaux/status/2106439068557144179",
-     "aihot": "https://aihot.news/items/i27a270pq5xm2putks95u6j7i",
-     "selected": false,
-     "score": 14,
-     "category": "industry"
-    },
-    {
-     "n": 7,
-     "title": "OpenAI 安全员工 David Robinson 离职，称公司文化已坏",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-04T00:54:41.327000+08:00",
-     "publishedAt": "2026-10-03T16:30:01.000Z",
-     "discoveredAt": "2026-10-03T16:54:41.327Z",
-     "summary": "在 OpenAI 工作三年半、负责撰写重大产品发布安全报告的 David Robinson 在 The Atlantic 发文宣布离职，称公司文化已坏。他认为迭代部署式的试错方法必然带来周期性失败，且随系统能力增强风险扩大，主张前沿 AI 公司应像核电站或机场一样以多层冗余运营，并将对齐视为待解的关键问题。",
-     "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-     "aihot": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
-     "selected": false,
-     "score": 65,
-     "category": "industry",
-     "also": [
-      {
-       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-       "title": "OpenAI 前安全团队成员 David Robinson 离职并撰文批评其安全文化",
-       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
-       "aihot": "https://aihot.news/items/lwxnxzh8rmxn69nlg3yo6fpkt"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI 前安全负责人 David Robinson 离职并在 The Atlantic 撰文批评其安全文化",
-       "url": "https://x.com/rohanpaul_ai/status/2106553173808972214",
-       "aihot": "https://aihot.news/items/rz7fri2389pwrtyzyf8tolrmf"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "OpenAI 安全研究员 David Robinson 离职并公开警告行业文化已坏",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-       "aihot": "https://aihot.news/items/fe2gga88y364347hjqixd4o04"
-      },
-      {
-       "source": "IT之家（RSS）",
-       "title": "前 OpenAI 安全员工 David Robinson 发文批评公司迭代部署过于激进、文化已崩坏",
-       "url": "https://www.ithome.com/1/009/581.htm",
-       "aihot": "https://aihot.news/items/mqv2fnovlxtlcs8sgvw2mz47a"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 安全团队成员 David Robinson 离职并公开批评其安全文化",
-       "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
-       "aihot": "https://aihot.news/items/bx40ykv9ey4upz0qbnjllcgii"
-      }
-     ]
     }
    ],
    "note": null
@@ -264,121 +266,14 @@
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 7,
-   "items": [
-    {
-     "n": 8,
-     "title": "AI 工程师用 OpenAI GPT-6 Astra 破解拿破仑 1809 年加密军事信件",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-04T13:52:35.606000+08:00",
-     "publishedAt": "2026-10-04T05:39:19.000Z",
-     "discoveredAt": "2026-10-04T05:52:35.606Z",
-     "summary": "SentinelOne AI 工程师卡特·丘奇用 OpenAI GPT-6 Astra 约 6 小时破解了拿破仑 1809 年写给欧仁·德·博阿尔内的加密军事信件，该信因密码本遗失 217 年未被完整解读。",
-     "url": "https://www.ithome.com/1/009/643.htm",
-     "aihot": "https://aihot.news/items/xlxt01bs4qdxyvx4nh7lizm2b",
-     "selected": false,
-     "score": 51,
-     "category": "tip"
-    },
-    {
-     "n": 9,
-     "title": "美财长贝森特批评 Anthropic、OpenAI 等风险警告：危言耸听、光喊话不拿解决方案",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-04T08:16:28.713000+08:00",
-     "publishedAt": "2026-10-04T00:02:56.000Z",
-     "discoveredAt": "2026-10-04T00:16:28.713Z",
-     "summary": "当地时间 10 月 3 日，美国财政部长贝森特在接受 Axios 采访时批评 Anthropic CEO 阿莫代伊等人的 AI 生存性风险警告，称只发危言耸听的声音却拿不出解决方案不是领导力，呼吁实验室负责人承担安全责任并安全地加速发展。",
-     "url": "https://www.ithome.com/1/009/596.htm",
-     "aihot": "https://aihot.news/items/rtl2u7j6b15g3h9xs3gonnyd8",
-     "selected": false,
-     "score": 63,
-     "category": "tip"
-    },
-    {
-     "n": 10,
-     "title": "Anthropic 被曝密会宗教领袖讨论 Claude 意识问题，OpenAI 奥尔特曼发声批评",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-04T07:12:28.993000+08:00",
-     "publishedAt": "2026-10-03T23:10:20.000Z",
-     "discoveredAt": "2026-10-03T23:12:28.993Z",
-     "summary": "据《纽约时报》10 月 2 日报道，Anthropic 联合创始人 Chris Olah 过去一年主导与天主教、犹太教、锡克教、福音派等宗教领袖私下会面，讨论 AI 模型是否已有意识及如何灌输道德准则，有与会者称其像对待有意识存在那样谈论 Claude；Olah 承认无法确定模型是否有意识。",
-     "url": "https://www.ithome.com/1/009/585.htm",
-     "aihot": "https://aihot.news/items/v2rz63zfbfeqkxd4kgoj6gmq5",
-     "selected": false,
-     "score": 65,
-     "category": "tip"
-    },
-    {
-     "n": 11,
-     "title": "我们的 AI 助产士：GPT-4 如何帮一对夫妇找出六年未确诊的子宫肌瘤",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-10-04T06:16:23.962000+08:00",
-     "publishedAt": "2026-10-03T19:12:27.000Z",
-     "discoveredAt": "2026-10-03T22:16:23.962Z",
-     "summary": "Drew Housman 在 Astral Codexten 发表客座文章，讲述夫妇二人在经历 6 年不明原因不孕、多次胚胎移植失败后，用 GPT-4 扮演 Hollywood 医疗剧医生 Dr. Reid 辅助分析扫描和激素数据。AI 建议做 MRI，查出一个此前被漏诊的 6 厘米黏膜下子宫肌瘤，切除后妻子自然受孕。",
-     "url": "https://www.astralcodexten.com/p/our-ai-midwife",
-     "aihot": "https://aihot.news/items/xuo28pcn1uwd4rv635hka862m",
-     "selected": false,
-     "score": 51,
-     "category": "tip"
-    },
-    {
-     "n": 12,
-     "title": "Sam Altman 称将 AI 神化是\"真实的安全问题\"，不再提\"天空中的魔法智能\"",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-04T03:00:24.503000+08:00",
-     "publishedAt": "2026-10-03T18:56:30.000Z",
-     "discoveredAt": "2026-10-03T19:00:24.503Z",
-     "summary": "OpenAI CEO Sam Altman 公开反对将 AI 模型与宗教类比，称人们把\"宗教力量或对人类判断力的屈服\"归于 AI 模型让他\"非常不安\"，并称这是\"真实的安全问题\"。",
-     "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
-     "aihot": "https://aihot.news/items/inrcsrj84gpycsagdvntymwgy",
-     "selected": false,
-     "score": 39,
-     "category": "tip"
-    },
-    {
-     "n": 13,
-     "title": "Sam Altman 谈 AI 模型与人类判断",
-     "source": "X：Yuchen Jin (@Yuchenj_UW)",
-     "ts": "2026-10-03T22:58:30.848000+08:00",
-     "publishedAt": "2026-10-03T14:46:06.000Z",
-     "discoveredAt": "2026-10-03T14:58:30.848Z",
-     "summary": "@sama：我对人们试图将宗教般的力量或对人类判断力的屈服归附于 AI 模型感到非常不安，我认为这是一个真实的安全问题。",
-     "url": "https://x.com/Yuchenj_UW/status/2106395374923796759",
-     "aihot": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
-     "selected": false,
-     "score": 42,
-     "category": "tip",
-     "also": [
-      {
-       "source": "X：Sam Altman (@sama)",
-       "title": "Sam Altman 谈 AI 模型安全",
-       "url": "https://x.com/sama/status/2106388373221118198",
-       "aihot": "https://aihot.news/items/epi3pgeufakcvroxciq0cp7fi"
-      }
-     ]
-    },
-    {
-     "n": 14,
-     "title": "Meta Muse、OpenAI Dots 与 Uber 助手：智能体主动开口后，何时保持沉默",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-10-03T15:59:13.177000+08:00",
-     "publishedAt": "2026-10-03T07:05:11.000Z",
-     "discoveredAt": "2026-10-03T07:59:13.177Z",
-     "summary": "作者分析 Meta Muse、OpenAI Dots 和 Uber 司机助手的共同点：智能体主动开口，把难点从写什么转移到何时打断、用哪个渠道。",
-     "url": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
-     "aihot": "https://aihot.news/items/dwisfgfbgkllh4uvsjgqia3uw",
-     "selected": false,
-     "score": 54,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 6 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

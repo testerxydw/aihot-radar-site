@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-03",
-  "winEnd": "2026-10-04",
-  "generated": "2026-10-04 14:41",
-  "rawHits": 10,
+  "winStart": "2026-10-04",
+  "winEnd": "2026-10-05",
+  "generated": "2026-10-05 14:40",
+  "rawHits": 12,
   "selectedHits": 0,
-  "shown": 1,
-  "dedupedFrom": 1,
+  "shown": 2,
+  "dedupedFrom": 2,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 9,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,9 +86,38 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 1,
+     "title": "GPT-6 Astra、GPT-6.1 Sol、Gemini 4 Argon 与 Claude Fable 5.1 四款前沿模型对比：哪种任务选哪个",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-10-05T06:25:22.185000+08:00",
+     "publishedAt": "2026-10-04T20:59:56.000Z",
+     "discoveredAt": "2026-10-04T22:25:22.185Z",
+     "summary": "MarkTechPost 汇总对比 30 天内发布的四款前沿模型：Claude Fable 5.1（9 月 1 日）、GPT-6 Astra（9 月 3 日）、GPT-6.1 Sol（9 月 29 日）和 Gemini 4 Argon（9 月 30 日）。",
+     "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+     "aihot": "https://aihot.news/items/yy8vov5vuc5pesam5qnf8giih",
+     "selected": false,
+     "score": 68,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Google 调整 Gemini 订阅档位，免费用户仅保留 Flash-Lite",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-04T15:38:21.764000+08:00",
+     "publishedAt": "2026-10-04T07:28:54.000Z",
+     "discoveredAt": "2026-10-04T07:38:21.764Z",
+     "summary": "Google 自 2026 年 10 起限制个人账号的 Gemini 模型访问，免费用户只能使用最小的 Flash-Lite，无法再用 Flash 和 Pro。",
+     "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+     "aihot": "https://aihot.news/items/seeewuqup4pzvjwy7xbmuo0es",
+     "selected": false,
+     "score": 64,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
@@ -107,31 +136,16 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "DeepMind 研究者提出人工共生智能，替代奇点叙事",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-03T18:55:22.227000+08:00",
-     "publishedAt": "2026-10-03T10:21:23.000Z",
-     "discoveredAt": "2026-10-03T10:55:22.227Z",
-     "summary": "DeepMind 研究者提出人工共生智能（Artificial Symbiotic Intelligence），主张智能是社会现象，研究重点应转向协调人、智能体和机构构成的网络，而非打造单一超级智能。",
-     "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
-     "aihot": "https://aihot.news/items/am5bh8gmsd3y0f67ycj9yjfl8",
-     "selected": false,
-     "score": 54,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
