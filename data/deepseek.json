@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-04",
-  "winEnd": "2026-10-05",
-  "generated": "2026-10-05 14:41",
-  "rawHits": 6,
-  "selectedHits": 0,
-  "shown": 3,
-  "dedupedFrom": 3,
+  "winStart": "2026-10-05",
+  "winEnd": "2026-10-06",
+  "generated": "2026-10-06 15:22",
+  "rawHits": 19,
+  "selectedHits": 3,
+  "shown": 4,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 19,
     "hasMore": false,
     "from_cache": false
    },
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -68,20 +68,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "Aleph Alpha 研究：Qwen、DeepSeek、Kimi 等中国 AI 模型在敏感话题上回避或复述官方立场",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-04T17:33:25.993000+08:00",
-     "publishedAt": "2026-10-04T08:47:52.000Z",
-     "discoveredAt": "2026-10-04T09:33:25.993Z",
-     "summary": "Aleph Alpha 用 967 个敏感话题测试阿里 Qwen、DeepSeek 和月之暗面 Kimi，其自研评分系统仅将 17% 至 41% 的回答评为平衡，其余为复述官方立场、回避或拒答。",
-     "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
-     "aihot": "https://aihot.news/items/lrc6ln6o67vxqd73jh7rcmxsv",
+     "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+     "source": "Latent Space（RSS）",
+     "ts": "2026-10-06T15:13:24.126000+08:00",
+     "publishedAt": "2026-10-06T06:28:43.000Z",
+     "discoveredAt": "2026-10-06T07:13:24.126Z",
+     "summary": "Reflection 发布文本-only 的 501B 总参数 / 23B 激活 MoE 模型 Beam，面向编码、智能体和科学任务，从零训练，完整权重将在本月以 Apache 2.0 发布。",
+     "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+     "aihot": "https://aihot.news/items/krivwcmcv6qloa3az7f5j0jip",
+     "selected": true,
+     "score": 66,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "英伟达投资的 Reflection AI 发布首款开放权重模型 Beam，对标 DeepSeek 和 Kimi",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-06T08:52:41.035000+08:00",
+     "publishedAt": "2026-10-06T00:42:20.000Z",
+     "discoveredAt": "2026-10-06T00:52:41.035Z",
+     "summary": "英伟达投资的初创公司 Reflection AI 于当地时间周一发布首款开放权重大模型 Beam，定位在代码与智能体任务领域与 DeepSeek、Kimi 等中国模型竞争。",
+     "url": "https://www.ithome.com/1/009/932.htm",
+     "aihot": "https://aihot.news/items/u4bx9o7x7971gnmx2uewyn7su",
      "selected": false,
-     "score": 50,
+     "score": 55,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
+     "source": "Together AI 研究与产品博客（RSS）",
+     "ts": "2026-10-05T23:48:26.925000+08:00",
+     "publishedAt": "2026-10-05T00:00:00.000Z",
+     "discoveredAt": "2026-10-05T15:48:26.925Z",
+     "summary": "Together AI 发布 Together Link，把团队已用的编码智能体工具连接到 Together AI 上的开源模型，宣称可节省超过 50% 支出。",
+     "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+     "aihot": "https://aihot.news/items/ef2o8x2jh4m8n7ggsq5bc5eag",
+     "selected": true,
+     "score": 61,
      "category": "ai-models"
     }
    ],
@@ -92,58 +120,51 @@
    "label": "产品发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-06T14:28:09.418000+08:00",
+     "publishedAt": "2026-10-06T06:25:15.000Z",
+     "discoveredAt": "2026-10-06T06:28:09.418Z",
+     "summary": "据彭博社报道，DeepSeek 新一轮融资接近敲定，规模至少 800 亿元，超出原定约 500 亿元目标，最终总额可能逼近 1000 亿元，腾讯和宁德时代是出资规模最大的投资方之一。",
+     "url": "https://www.ithome.com/1/009/990.htm",
+     "aihot": "https://aihot.news/items/g59v2qb4tcs4ibikxg8uucify",
+     "selected": true,
+     "score": 80,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Bloomberg：DeepSeek 接近完成至少 120 亿美元融资，估值或达 710 亿美元",
+       "url": "https://x.com/rohanpaul_ai/status/2107361452428611741",
+       "aihot": "https://aihot.news/items/j4k9ntg885nelmuyksqbfiluq"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "彭博行业研究：DeepSeek V4.1 Flash 发布后中美顶尖模型 LiveBench 差距缩至 3%",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-05T09:04:30.107000+08:00",
-     "publishedAt": "2026-10-05T00:50:23.000Z",
-     "discoveredAt": "2026-10-05T01:04:30.107Z",
-     "summary": "据彭博行业研究报告，DeepSeek 9 月发布 V4.1 Flash 后，中国顶尖模型在基准测试上仅落后美国对手 3%，较 5 月约 9% 和今年早些时候 15% 明显收窄。",
-     "url": "https://www.ithome.com/1/009/751.htm",
-     "aihot": "https://aihot.news/items/rs46yry43z67emnagkyheyg1z",
-     "selected": false,
-     "score": 65,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 3,
-     "title": "DeepSeek Harness 崔添翼解读 Claude Code Mods 兼容层：核心理念是一切皆插件",
-     "source": "IT之家（RSS）",
-     "ts": "2026-10-04T20:42:27.145000+08:00",
-     "publishedAt": "2026-10-04T12:27:24.000Z",
-     "discoveredAt": "2026-10-04T12:42:27.145Z",
-     "summary": "DeepSeek Harness 组成员崔添翼回应 v0.2.1-alpha.1 版本加入 Claude Code Mods 兼容层，称其属于 alpha 版本中的实验性功能，目的是验证 Claude Code Mods 提供的扩展能力是否大致是 DSH 一切皆插件架构能力的一个子集，目前还无法让所有 Claude…",
-     "url": "https://www.ithome.com/1/009/701.htm",
-     "aihot": "https://aihot.news/items/qazd01rv9adcrm4xpe73o8k7p",
-     "selected": false,
-     "score": 61,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [
