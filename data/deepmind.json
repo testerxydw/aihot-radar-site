@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-05",
-  "winEnd": "2026-10-06",
-  "generated": "2026-10-06 15:22",
-  "rawHits": 26,
-  "selectedHits": 3,
-  "shown": 9,
-  "dedupedFrom": 10,
+  "winStart": "2026-10-06",
+  "winEnd": "2026-10-07",
+  "generated": "2026-10-07 15:01",
+  "rawHits": 42,
+  "selectedHits": 4,
+  "shown": 12,
+  "dedupedFrom": 31,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 17,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 19,
+    "count": 30,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -90,6 +90,20 @@
    "items": [
     {
      "n": 1,
+     "title": "Google 将于 10 月 9 日起限制免费用户访问 Gemini Flash 和 Pro",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-06T21:54:29.172000+08:00",
+     "publishedAt": "2026-10-06T13:19:01.000Z",
+     "discoveredAt": "2026-10-06T13:54:29.172Z",
+     "summary": "Google 宣布自 10 月 9 日起，Gemini 免费用户将只能使用 Flash Lite 模型，使用标准 Flash 模型需要 4.99 美元/月的 Google AI Plus 订阅。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+     "aihot": "https://aihot.news/items/wm2604yb5gn4pbrwsn8an8qih",
+     "selected": false,
+     "score": 72,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
      "source": "Latent Space（RSS）",
      "ts": "2026-10-06T15:13:24.126000+08:00",
@@ -101,20 +115,6 @@
      "selected": true,
      "score": 66,
      "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "Google Gemini 调整模型权限，Aleph Alpha 开源 Kolibri-1",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-05T16:04:17.328000+08:00",
-     "publishedAt": "2026-10-05T07:37:09.000Z",
-     "discoveredAt": "2026-10-05T08:04:17.328Z",
-     "summary": "Google Gemini 应用调整模型访问权限：10 月 9 日起免费用户仅能用 Flash-Lite，AI Plus 失去 Pro，AI Pro 获得 Deep Think。Aleph Alpha 以 Apache 2.0 开源 Kolibri-1，78B MoE、3.46B 激活参数，面向德语/英语主权部署。",
-     "url": "https://x.com/testingcatalog/status/2107012200657301888",
-     "aihot": "https://aihot.news/items/nbx6wyf9577gcgz2k19ywf3rv",
-     "selected": false,
-     "score": 44,
-     "category": "ai-models"
     }
    ],
    "note": null
@@ -122,48 +122,252 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 3,
+   "count": 9,
    "items": [
     {
      "n": 3,
-     "title": "谷歌 Call for Me 功能有望升级：Gemini 将支持代用户拨打亲友私人电话",
+     "title": "谷歌 Fitbit Edge 手环曝光：179 欧元，内置 Gemini 个性化教练",
      "source": "IT之家（RSS）",
-     "ts": "2026-10-06T07:48:37.334000+08:00",
-     "publishedAt": "2026-10-05T23:37:51.000Z",
-     "discoveredAt": "2026-10-05T23:48:37.334Z",
-     "summary": "谷歌 Pixel 11 系列上线的 Call for Me 功能有望拓展至私人通话场景，Gemini 可代用户拨打亲友电话，界面示例中出现\"妈妈\"和\"约翰\"。该版本中 Gemini 的任务仍受约束，主要转达信息或做简单问询，并会提供拒绝接收 AI 来电的选项。",
-     "url": "https://www.ithome.com/1/009/921.htm",
-     "aihot": "https://aihot.news/items/rqed79ovuc47fhctqibtcyyfm",
+     "ts": "2026-10-07T11:10:41.679000+08:00",
+     "publishedAt": "2026-10-07T03:02:40.000Z",
+     "discoveredAt": "2026-10-07T03:10:41.679Z",
+     "summary": "谷歌新款手环 Fitbit Edge 欧洲售价曝光为 179 欧元，较 Fitbit Charge 6 高 20 欧元，内置 Gemini 个性化教练。该手环配备 1.34 英寸 AMOLED 屏幕，关闭常亮显示续航最长 7 天，支持血氧、心电图及心房颤动检测，提供 4 种配色组合，运行 Fitbit OS 并支持蓝…",
+     "url": "https://www.ithome.com/1/010/172.htm",
+     "aihot": "https://aihot.news/items/a4u0jvjubwovt8s4dte0o5r8n",
      "selected": false,
-     "score": 27,
+     "score": 33,
      "category": "ai-products"
     },
     {
      "n": 4,
-     "title": "Gemini Call for Me 或扩展至亲友通话，可代发\"晚到 15 分钟\"消息",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-10-06T07:42:37.311000+08:00",
-     "publishedAt": "2026-10-05T23:09:55.000Z",
-     "discoveredAt": "2026-10-05T23:42:37.311Z",
-     "summary": "Google 的 Gemini \"Call for Me\" AI 功能可能从商务通话扩展到亲友通话。Android Authority 在 APK 拆解中发现 \"Gemini Calling\" 引导页，示例包括\"打电话给妈妈说我晚到 15 分钟\"和\"打电话问 John 是否来吃晚饭\"，功能可能限于类似短信的简短通话。",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-     "aihot": "https://aihot.news/items/mid9e4m377uvvg4frqyrav39s",
+     "title": "Gemini-4-Pro 是否已发布引疑问",
+     "source": "X：karminski (@karminski3)",
+     "ts": "2026-10-07T10:59:41.438000+08:00",
+     "publishedAt": "2026-10-07T02:33:29.000Z",
+     "discoveredAt": "2026-10-07T02:59:41.438Z",
+     "summary": "话说 Gemini-4-Pro 到底是发了还是没发？找不到能试用的地方？还是我姿势不对？",
+     "url": "https://x.com/karminski3/status/2107660555578405094",
+     "aihot": "https://aihot.news/items/f9xox99un27am5t6r02igol2z",
      "selected": false,
-     "score": 28,
+     "score": 20,
      "category": "ai-products"
     },
     {
      "n": 5,
-     "title": "Gemini Notebook 更新用量限额系统并新增后台生成队列",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-05T23:15:30.065000+08:00",
-     "publishedAt": "2026-10-05T15:06:10.000Z",
-     "discoveredAt": "2026-10-05T15:15:30.065Z",
-     "summary": "Gemini Notebook 推出新的用量限额系统、artifact 生成用量估算和后台队列。限额从每 24 小时刷新改为每 5 小时刷新；原来按功能单独限额改为灵活的 Notebook 专属限额，由用户自行分配；额度用完时可将视频、幻灯片等生成任务放入后台队列，之后自动生成。",
-     "url": "https://x.com/testingcatalog/status/2107125198579286277",
-     "aihot": "https://aihot.news/items/cnt6tddrdk4fw0c0u7fqypj2n",
+     "title": "谷歌发布 Nano Banana 2.1，改进视觉设计、蒙版编辑与主体一致性",
+     "source": "IT之家（RSS）",
+     "ts": "2026-10-07T09:03:25.385000+08:00",
+     "publishedAt": "2026-10-07T01:01:58.000Z",
+     "discoveredAt": "2026-10-07T01:03:25.385Z",
+     "summary": "谷歌于 10 月 7 日发布 AI 图像生成与编辑模型 Nano Banana 2.1，重点提升视觉设计、基于蒙版的局部编辑以及多图生成中的主体一致性。",
+     "url": "https://www.ithome.com/1/010/149.htm",
+     "aihot": "https://aihot.news/items/nda84rlkb6kqnsi41vkzygifz",
      "selected": false,
-     "score": 51,
+     "score": 60,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-10-07T05:03:32.845000+08:00",
+     "publishedAt": "2026-10-06T19:57:04.000Z",
+     "discoveredAt": "2026-10-06T21:03:32.845Z",
+     "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
+     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+     "aihot": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+     "selected": true,
+     "score": 70,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "Google Developers Blog（RSS）",
+       "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
+       "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
+       "aihot": "https://aihot.news/items/arlkhdtjzshqi1qdyowqvtwyy"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google 发布端侧多模态嵌入模型 EmbeddingGemma 2，采用 Apache 2.0 开源",
+       "url": "https://x.com/rohanpaul_ai/status/2107578087726895515",
+       "aihot": "https://aihot.news/items/b1gfmjtu01an085xjzd4oflo0"
+      },
+      {
+       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+       "title": "Google 发布 EmbeddingGemma 2 多模态嵌入模型",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+       "aihot": "https://aihot.news/items/p5p6mvoswutj6qpv6ew2p1nvo"
+      },
+      {
+       "source": "IT之家（RSS）",
+       "title": "谷歌发布 EmbeddingGemma 2 多模态嵌入模型：7.4 亿参数，量化后手机端仅需 191MB 内存",
+       "url": "https://www.ithome.com/1/010/125.htm",
+       "aihot": "https://aihot.news/items/nf4p4vrsm3nr9a2fbdxab8ehu"
+      },
+      {
+       "source": "X：Unsloth (@UnslothAI)",
+       "title": "Google 发布开源多模态嵌入模型 EmbeddingGemma 2，最低 0.5GB RAM 本地运行",
+       "url": "https://x.com/UnslothAI/status/2107505698531868941",
+       "aihot": "https://aihot.news/items/z60fmzpug0v9qlqs0vi6amz4m"
+      },
+      {
+       "source": "MarkTechPost（RSS）",
+       "title": "Google DeepMind 发布 EmbeddingGemma 2：基于 Gemma 4 的 740M 开源多模态嵌入模型",
+       "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
+       "aihot": "https://aihot.news/items/bnzr47lbb2y78brilcesr1qa1"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google 推出 EmbeddingGemma 2",
+       "url": "https://x.com/GoogleDeepMind/status/2107502286758895878",
+       "aihot": "https://aihot.news/items/ugnyztc6ayp6kunohxertjvai"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "EmbeddingGemma 2 上线 HuggingFace",
+       "url": "https://x.com/Google/status/2107505126755676545",
+       "aihot": "https://aihot.news/items/lvwfs6jnqm00hdmc3buolay4t"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google 发布 EmbeddingGemma 2",
+       "url": "https://x.com/GoogleDeepMind/status/2107502289652982118",
+       "aihot": "https://aihot.news/items/e3udw2wp6qln1h4rzs36pow8s"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Gemini Guided Vision 登陆 Android 9 及以上设备",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-10-07T03:05:33.404000+08:00",
+     "publishedAt": "2026-10-06T19:01:00.000Z",
+     "discoveredAt": "2026-10-06T19:05:33.404Z",
+     "summary": "Gemini 宣布 Guided Vision 在支持 Gemini Live 的地区和语言中，面向运行 Android 9 及以上设备的 Android 用户开放。用户需将 Gemini 应用和 Android 系统软件更新到最新版本，官方博客介绍了日常使用场景及该功能与无障碍社区合作开发的过程。",
+     "url": "https://x.com/GeminiApp/status/2107546685048340716",
+     "aihot": "https://aihot.news/items/fk2pzigvu10rkvjzlbkd4h6kv",
+     "selected": false,
+     "score": 61,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini Live 推出 Guided Vision 实时视觉辅助功能",
+       "url": "https://x.com/GeminiApp/status/2107546530987286542",
+       "aihot": "https://aihot.news/items/o2uot53gklowmfcv7bvqvc7zl"
+      },
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini Live 引导视觉助调整镜头",
+       "url": "https://x.com/GeminiApp/status/2107546682145787983",
+       "aihot": "https://aihot.news/items/uv9bq516fio242u9brzx7dfi9"
+      },
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 推出 Guided Vision 视觉辅助功能",
+       "url": "https://x.com/GeminiApp/status/2107546683571880406",
+       "aihot": "https://aihot.news/items/xiz591wvvkap25pr6j0odtdit"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "title": "OpenRouter 上线 Gemini Nano Banana 2.1，支持最多 14 张参考图与 4K 全景",
+     "source": "X：OpenRouter (@OpenRouter)",
+     "ts": "2026-10-07T02:51:32.145000+08:00",
+     "publishedAt": "2026-10-06T18:49:39.000Z",
+     "discoveredAt": "2026-10-06T18:51:32.145Z",
+     "summary": "OpenRouter 发布 Gemini Nano Banana 2.1 相关页面，图像生成支持最多 14 张参考图，并接入 Google Search grounding。新增 1:4、4:1、1:8、8:1 的 2K 和 4K 全景输出，定价为 1K 每张 $0.0336、2K $0.0504、4K $0.113…",
+     "url": "https://x.com/OpenRouter/status/2107543827213127684",
+     "aihot": "https://aihot.news/items/af032jgkdnmj4ptc62davrqst",
+     "selected": false,
+     "score": 57,
+     "category": "ai-products"
+    },
+    {
+     "n": 9,
+     "title": "Gemini Nano Banana 2.1 图像生成模型正式发布，gemini-3.1-flash-image 被弃用",
+     "source": "Gemini API：更新日志（网页）",
+     "ts": "2026-10-07T00:44:32.499000+08:00",
+     "publishedAt": "2026-10-06T00:00:00.000Z",
+     "discoveredAt": "2026-10-06T16:44:32.499Z",
+     "summary": "Google 在 Gemini API 更新日志中宣布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1）正式可用，作为 Nano Banana 2（gemini-3.1-flash-image）的更新版本。",
+     "url": "https://ai.google.dev/gemini-api/docs/changelog#10-06-2026",
+     "aihot": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+     "selected": true,
+     "score": 68,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "Google Nano Banana 2.1 图像模型上线 Google AI Studio、API 和 Gemini",
+       "url": "https://x.com/testingcatalog/status/2107499443532530001",
+       "aihot": "https://aihot.news/items/d85c8vr4aiwrs3awbg5fyrwd1"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google 发布图像模型 Nano Banana 2.1，价格约降一半",
+       "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+       "aihot": "https://aihot.news/items/k5w9r6x4l8weokoqvnth7ub1l"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Google Nano Banana 2.1 上线 Arena 三大图像榜单，多图编辑列第 4",
+       "url": "https://x.com/arena/status/2107567724264313059",
+       "aihot": "https://aihot.news/items/fzcgy2zwlnvbzfg4w6unxn6do"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Google 发布 Nano Banana 2.1，登入 Arena 三个图像榜单",
+       "url": "https://x.com/arena/status/2107576893973344578",
+       "aihot": "https://aihot.news/items/xvpvopoz26rgg2y5fggo7vv8f"
+      },
+      {
+       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+       "title": "Nano Banana 2.1 发布，Google Labs 高管称蒙版编辑是当日最爱",
+       "url": "https://x.com/joshwoodward/status/2107679061854273656",
+       "aihot": "https://aihot.news/items/d3qx5y4tlypar1un5jyy33xe6"
+      },
+      {
+       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+       "title": "Google 发布 Nano Banana 2.1 图像生成与编辑模型",
+       "url": "https://x.com/OfficialLoganK/status/2107533224453058731",
+       "aihot": "https://aihot.news/items/hzqmmzrht9rselwx58tdifeab"
+      },
+      {
+       "source": "X：fal (@fal)",
+       "title": "Gemini Nano Banana 2.1 图像模型上线 fal",
+       "url": "https://x.com/fal/status/2107502772392267817",
+       "aihot": "https://aihot.news/items/s248jlyvmpff4zdjpq90r1pgu"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Nano Banana 2.1 开始在 Gemini App、Search AI Mode 等多平台推出",
+     "source": "X：Google (@Google)",
+     "ts": "2026-10-07T00:29:27.195000+08:00",
+     "publishedAt": "2026-10-06T16:00:18.000Z",
+     "discoveredAt": "2026-10-06T16:29:27.195Z",
+     "summary": "Google 宣布 Nano Banana 2.1 于当天开始推出，覆盖 Gemini App、Search AI Mode、Google AI Studio、Flow、Stitch、Google Ads 和 Gemini Enterprise Platform。",
+     "url": "https://x.com/Google/status/2107501211532382687",
+     "aihot": "https://aihot.news/items/hwji6k0ict39xcj1dpnkcxdcm",
+     "selected": false,
+     "score": 66,
+     "category": "ai-products"
+    },
+    {
+     "n": 11,
+     "title": "Nano Banana 2.1（gemini-nano-banana-2.1）发布，价格降至每张 $0.034 并超越前代 Pro",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-10-07T00:17:26.632000+08:00",
+     "publishedAt": "2026-10-06T16:07:00.000Z",
+     "discoveredAt": "2026-10-06T16:17:26.632Z",
+     "summary": "Google 发布 Nano Banana 2.1（gemini-nano-banana-2.1），价格降至 $0.034 每张图，是此前 Pro 版本 $0.134 的约四分之一，且表现超越前者。",
+     "url": "https://x.com/_philschmid/status/2107502894685749672",
+     "aihot": "https://aihot.news/items/h01wpjzzyyslqfz0sk5h0znq9",
+     "selected": false,
+     "score": 74,
      "category": "ai-products"
     }
    ],
@@ -172,89 +376,38 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 6,
-     "title": "Gemini Notebook 入选 a16z Gen AI 榜单前十",
-     "source": "X：Gemini Notebook (@Gemini_Notebook)",
-     "ts": "2026-10-06T06:16:38.840000+08:00",
-     "publishedAt": "2026-10-05T22:04:10.000Z",
-     "discoveredAt": "2026-10-05T22:16:38.840Z",
-     "summary": "我们……我们真没想到。能进入 @a16z 的 Gen AI Web Products 前十，真是莫大的荣幸 😭🏆 我们要感谢那些了不起的用户，你们花了无数小时听自己笔记生成的 AI 播客。是你们让这一切成真！",
-     "url": "https://x.com/Gemini_Notebook/status/2107230392642417113",
-     "aihot": "https://aihot.news/items/wuz0couqpni9do5tspsxv71he",
-     "selected": false,
-     "score": 47,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 12,
+     "title": "Google DeepMind 等提出 IdeaLens：读大纲检测 AI 生成创意",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-07T11:06:39.818000+08:00",
+     "publishedAt": "2026-10-07T02:43:41.000Z",
+     "discoveredAt": "2026-10-07T03:06:39.818Z",
+     "summary": "Google DeepMind 等机构发布论文，提出检测 AI 生成创意（而非文字或图像）的检测器 IdeaLens，其核心发现是读取文档大纲而非文字即可判断创意出自人还是 AI。",
+     "url": "https://x.com/rohanpaul_ai/status/2107663123104891021",
+     "aihot": "https://aihot.news/items/kqjdeewrml4bda6q16cvjwjic",
+     "selected": false,
+     "score": 55,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 3,
-   "items": [
-    {
-     "n": 7,
-     "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
-     "source": "X：卡兹克 (@Khazix0918)",
-     "ts": "2026-10-06T10:48:38.090000+08:00",
-     "publishedAt": "2026-10-06T02:31:56.000Z",
-     "discoveredAt": "2026-10-06T02:48:38.090Z",
-     "summary": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；",
-     "url": "https://x.com/Khazix0918/status/2107297777583825359",
-     "aihot": "https://aihot.news/items/tfuj58rvo46hvh8l2nzcbpf7n",
-     "selected": true,
-     "score": 72,
-     "category": "tip",
-     "also": [
-      {
-       "source": "公众号：数字生命卡兹克",
-       "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
-       "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686876&idx=1&sn=55c719c9dded44507dbd2a000a2ec5a7",
-       "aihot": "https://aihot.news/items/wiip2ye21b67quiydxlnqmeyc"
-      }
-     ]
-    },
-    {
-     "n": 8,
-     "title": "Google 为 Gemini 开发 Superprojects",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-06T04:56:42.545000+08:00",
-     "publishedAt": "2026-10-05T20:34:44.000Z",
-     "discoveredAt": "2026-10-05T20:56:42.545Z",
-     "summary": "Google 正在为 Gemini 开发\"Superprojects\"。 > Superprojects（内部名称）是 Projects 的下一代迭代，将在 Gemini 中取代 Gemini Notebook 项目。 > 这些项目中的文件和聊天会话将可通过多种 Google 产品访问。 很快？👀",
-     "url": "https://x.com/testingcatalog/status/2107207883171537058",
-     "aihot": "https://aihot.news/items/zfu49n9xqwfs3qn8d5m2dx34n",
-     "selected": false,
-     "score": 26,
-     "category": "tip"
-    },
-    {
-     "n": 9,
-     "title": "Gemma 4 联手 BOTANIC-1 加速植物 DNA 解析",
-     "source": "X：Google AI (@GoogleAI)",
-     "ts": "2026-10-06T01:19:26.860000+08:00",
-     "publishedAt": "2026-10-05T16:55:09.000Z",
-     "discoveredAt": "2026-10-05T17:19:26.860Z",
-     "summary": "AI 研究实验室 Living Models 将 Gemma 4 与植物 DNA 专用模型 BOTANIC-1 配对，快速定位决定作物性状的关键突变。BOTANIC-1 基于 320 种植物训练，在甜瓜产量相关基因测试中，二者不到 4 分钟就从 2494 个候选突变中把目标突变排到第 1 位，而传统工具会卡在数千个突…",
-     "url": "https://x.com/GoogleAI/status/2107152626873663898",
-     "aihot": "https://aihot.news/items/qn3uvt9iv39vrx38yppoilr3b",
-     "selected": false,
-     "score": 46,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
