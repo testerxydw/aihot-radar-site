@@ -1,29 +1,29 @@
 {
- "generatedAt": "2026-10-07T15:02:11.235044+08:00",
+ "generatedAt": "2026-10-08T15:10:07.423287+08:00",
  "reports": [
   {
    "slug": "nvidia",
    "company": "英伟达 NVIDIA",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 34,
+   "rawHits": 31,
    "tiers": {
-    "T1": 8,
+    "T1": 13,
     "T2": 6,
-    "T3": 18
+    "T3": 12
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 8,
-   "selectedHits": 1,
-   "dedupedFrom": 8,
+   "shown": 11,
+   "selectedHits": 4,
+   "dedupedFrom": 13,
    "categoryDist": {
     "模型发布 / 更新": 2,
-    "产品发布 / 更新": 2,
-    "行业动态": 4,
+    "产品发布 / 更新": 5,
+    "行业动态": 3,
     "论文研究": 0,
-    "技巧与观点": 0
+    "技巧与观点": 1
    },
    "requests": {
     "requests": 6,
@@ -31,8 +31,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20261007-1500.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20261007-1500.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20261008-1508.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-20261008-1508.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/nvidia-latest.html"
    },
    "page": {
@@ -44,10 +44,10 @@
      "英伟达",
      "黄仁勋"
     ],
-    "shown": 8,
-    "raw": 32,
-    "selected": 1,
-    "generated": "2026-10-07 15:00",
+    "shown": 11,
+    "raw": 31,
+    "selected": 4,
+    "generated": "2026-10-08 15:08",
     "window": "最近 1 天"
    }
   },
@@ -56,24 +56,24 @@
    "company": "OpenAI",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 52,
+   "rawHits": 54,
    "tiers": {
-    "T1": 37,
-    "T2": 7,
-    "T3": 7
+    "T1": 41,
+    "T2": 3,
+    "T3": 10
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 24,
-   "selectedHits": 5,
-   "dedupedFrom": 37,
+   "shown": 19,
+   "selectedHits": 7,
+   "dedupedFrom": 41,
    "categoryDist": {
     "模型发布 / 更新": 4,
-    "产品发布 / 更新": 7,
-    "行业动态": 5,
-    "论文研究": 2,
-    "技巧与观点": 6
+    "产品发布 / 更新": 9,
+    "行业动态": 2,
+    "论文研究": 1,
+    "技巧与观点": 3
    },
    "requests": {
     "requests": 6,
@@ -81,8 +81,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20261007-1501.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20261007-1501.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20261008-1509.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/openai-20261008-1509.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/openai-latest.html"
    },
    "page": {
@@ -94,10 +94,10 @@
      "ChatGPT",
      "奥特曼"
     ],
-    "shown": 24,
-    "raw": 51,
-    "selected": 5,
-    "generated": "2026-10-07 15:01",
+    "shown": 19,
+    "raw": 54,
+    "selected": 7,
+    "generated": "2026-10-08 15:09",
     "window": "最近 1 天"
    }
   },
@@ -106,24 +106,24 @@
    "company": "Anthropic",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 46,
+   "rawHits": 45,
    "tiers": {
-    "T1": 26,
-    "T2": 6,
-    "T3": 12
+    "T1": 32,
+    "T2": 3,
+    "T3": 10
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 19,
-   "selectedHits": 4,
-   "dedupedFrom": 26,
+   "shown": 18,
+   "selectedHits": 10,
+   "dedupedFrom": 32,
    "categoryDist": {
-    "模型发布 / 更新": 5,
-    "产品发布 / 更新": 6,
-    "行业动态": 2,
-    "论文研究": 0,
-    "技巧与观点": 6
+    "模型发布 / 更新": 4,
+    "产品发布 / 更新": 9,
+    "行业动态": 1,
+    "论文研究": 1,
+    "技巧与观点": 3
    },
    "requests": {
     "requests": 6,
@@ -131,8 +131,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20261007-1501.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20261007-1501.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20261008-1509.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-20261008-1509.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/anthropic-latest.html"
    },
    "page": {
@@ -144,10 +144,10 @@
      "Claude",
      "Dario Amodei"
     ],
-    "shown": 19,
-    "raw": 44,
-    "selected": 4,
-    "generated": "2026-10-07 15:01",
+    "shown": 18,
+    "raw": 45,
+    "selected": 10,
+    "generated": "2026-10-08 15:09",
     "window": "最近 1 天"
    }
   },
@@ -156,22 +156,22 @@
    "company": "Google DeepMind",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 43,
+   "rawHits": 29,
    "tiers": {
-    "T1": 31,
-    "T2": 3,
-    "T3": 8
+    "T1": 7,
+    "T2": 9,
+    "T3": 13
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 12,
-   "selectedHits": 4,
-   "dedupedFrom": 31,
+   "shown": 6,
+   "selectedHits": 3,
+   "dedupedFrom": 7,
    "categoryDist": {
-    "模型发布 / 更新": 2,
-    "产品发布 / 更新": 9,
-    "行业动态": 0,
+    "模型发布 / 更新": 1,
+    "产品发布 / 更新": 3,
+    "行业动态": 1,
     "论文研究": 1,
     "技巧与观点": 0
    },
@@ -181,8 +181,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20261007-1501.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20261007-1501.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20261008-1509.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-20261008-1509.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/deepmind-latest.html"
    },
    "page": {
@@ -194,10 +194,10 @@
      "Gemini",
      "Demis Hassabis"
     ],
-    "shown": 12,
-    "raw": 42,
-    "selected": 4,
-    "generated": "2026-10-07 15:01",
+    "shown": 6,
+    "raw": 29,
+    "selected": 3,
+    "generated": "2026-10-08 15:09",
     "window": "最近 1 天"
    }
   },
@@ -206,24 +206,24 @@
    "company": "阿里云通义",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 16,
+   "rawHits": 11,
    "tiers": {
-    "T1": 4,
-    "T2": 1,
-    "T3": 8
+    "T1": 7,
+    "T2": 0,
+    "T3": 4
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 3,
-   "selectedHits": 1,
-   "dedupedFrom": 4,
+   "shown": 7,
+   "selectedHits": 3,
+   "dedupedFrom": 7,
    "categoryDist": {
-    "模型发布 / 更新": 1,
+    "模型发布 / 更新": 4,
     "产品发布 / 更新": 2,
     "行业动态": 0,
     "论文研究": 0,
-    "技巧与观点": 0
+    "技巧与观点": 1
    },
    "requests": {
     "requests": 6,
@@ -231,8 +231,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20261007-1502.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20261007-1502.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20261008-1509.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-20261008-1509.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/alibaba-latest.html"
    },
    "page": {
@@ -244,10 +244,10 @@
      "Qwen",
      "阿里云"
     ],
-    "shown": 3,
-    "raw": 13,
-    "selected": 1,
-    "generated": "2026-10-07 15:02",
+    "shown": 7,
+    "raw": 11,
+    "selected": 3,
+    "generated": "2026-10-08 15:09",
     "window": "最近 1 天"
    }
   },
@@ -256,22 +256,22 @@
    "company": "DeepSeek 深度求索",
    "window": "24h",
    "windowDays": 1,
-   "rawHits": 19,
+   "rawHits": 8,
    "tiers": {
-    "T1": 10,
-    "T2": 2,
-    "T3": 7
+    "T1": 2,
+    "T2": 1,
+    "T3": 5
    },
    "tierFilter": [
     "T1"
    ],
-   "shown": 6,
-   "selectedHits": 4,
-   "dedupedFrom": 10,
+   "shown": 2,
+   "selectedHits": 1,
+   "dedupedFrom": 2,
    "categoryDist": {
-    "模型发布 / 更新": 3,
-    "产品发布 / 更新": 0,
-    "行业动态": 3,
+    "模型发布 / 更新": 1,
+    "产品发布 / 更新": 1,
+    "行业动态": 0,
     "论文研究": 0,
     "技巧与观点": 0
    },
@@ -281,8 +281,8 @@
     "errors": 0
    },
    "outputs": {
-    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20261007-1502.html",
-    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20261007-1502.json",
+    "html": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20261008-1510.html",
+    "json": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-20261008-1510.json",
     "latest": "/home/runner/work/aihot-radar/aihot-radar/out/deepseek-latest.html"
    },
    "page": {
@@ -293,10 +293,10 @@
      "DeepSeek",
      "深度求索"
     ],
-    "shown": 6,
-    "raw": 19,
-    "selected": 4,
-    "generated": "2026-10-07 15:02",
+    "shown": 2,
+    "raw": 8,
+    "selected": 1,
+    "generated": "2026-10-08 15:10",
     "window": "最近 1 天"
    }
   }
