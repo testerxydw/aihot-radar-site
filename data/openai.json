@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-07",
-  "winEnd": "2026-10-08",
-  "generated": "2026-10-08 15:09",
-  "rawHits": 54,
+  "winStart": "2026-10-08",
+  "winEnd": "2026-10-09",
+  "generated": "2026-10-09 15:13",
+  "rawHits": 52,
   "selectedHits": 7,
   "shown": 19,
-  "dedupedFrom": 41,
+  "dedupedFrom": 31,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -51,7 +51,7 @@
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,8 +59,8 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 25,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -90,58 +90,66 @@
    "items": [
     {
      "n": 1,
-     "title": "PFN 发布 PLaMo 3 Translate 31B 翻译模型：日语翻译表现优于 GPT-6.1 Sol",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-08T14:17:29.089000+08:00",
-     "publishedAt": "2026-10-08T05:54:56.163Z",
-     "discoveredAt": "2026-10-08T06:17:29.089Z",
-     "summary": "日本企业 Preferred Networks 发布翻译模型 PLaMo 3 Translate 31B，完全由日本自主研发，训练数据中日语占比约 30%。该模型基于 PLaMo 3，支持语言从 2 种扩展至 53 种，并引入覆盖 15 种语言的在线会议翻译模式。",
-     "url": "https://www.ithome.com/1/010/469.htm",
-     "aihot": "https://aihot.news/items/iblokija8xt56oof1e7358ia1",
+     "title": "ttok 1.0 发布：默认 tokenizer 从 GPT-4 切换至 GPT-5/GPT-6",
+     "source": "Simon Willison 博客",
+     "ts": "2026-10-09T12:48:27.343000+08:00",
+     "publishedAt": "2026-10-09T00:34:43.000Z",
+     "discoveredAt": "2026-10-09T04:48:27.343Z",
+     "summary": "Simon Willison 发布 ttok 1.0，将默认 tokenizer 从 GPT-4 切换为 GPT-5/GPT-6 系列。",
+     "url": "https://simonwillison.net/2026/Oct/9/ttok/",
+     "aihot": "https://aihot.news/items/nfja2uh84sktwkq9vj8qv86ol",
      "selected": false,
-     "score": 44,
+     "score": 37,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "GPT-6 Luna Decisions 上架 OpenRouter",
-     "source": "X：OpenRouter (@OpenRouter)",
-     "ts": "2026-10-08T04:34:24.559000+08:00",
-     "publishedAt": "2026-10-07T20:21:00.000Z",
-     "discoveredAt": "2026-10-07T20:34:24.559Z",
-     "summary": "OpenRouter 宣布 GPT-6 Luna Decisions 上线。OpenAI 的 Decisions API 可让应用选择合适的模型、工具或动作，支持发送文本、JSON 或图片并返回带概率的类型化答案。",
-     "url": "https://x.com/OpenRouter/status/2107929204142874759",
-     "aihot": "https://aihot.news/items/x40bi9csoomsdaflejehop22y",
-     "selected": true,
-     "score": 66,
+     "title": "Emad Mostaque 谈 OpenAI 算力成本",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-09T05:08:17.925000+08:00",
+     "publishedAt": "2026-10-08T20:52:06.000Z",
+     "discoveredAt": "2026-10-08T21:08:17.925Z",
+     "summary": "Emad Mostaque（Stability AI 联合创始人）：OpenAI 在求解 Navier-Stokes 上花了大约 1000 万到 2000 万美元的算力 价格会快速下降，达到国际数学奥林匹克金牌水平最初要花 8 万美元，“如今，用最新模型只需 10 美元就能做到。",
+     "url": "https://x.com/rohanpaul_ai/status/2108299417497297382",
+     "aihot": "https://aihot.news/items/acxrsw7dng262r3uyuemyfejs",
+     "selected": false,
+     "score": 36,
      "category": "ai-models"
     },
     {
      "n": 3,
-     "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
-     "source": "Microsoft Research 博客（RSS）",
-     "ts": "2026-10-08T00:26:28.399000+08:00",
+     "title": "Artificial Analysis Cyber Index 引入 trusted-access 模型，GPT-6 Sol (Daybreak Blue) 登顶",
+     "source": "Artificial Analysis 完整文章（网页）",
+     "ts": "2026-10-09T04:33:15.218000+08:00",
      "publishedAt": "2026-10-07T16:00:00.000Z",
-     "discoveredAt": "2026-10-07T16:26:28.399Z",
-     "summary": "Microsoft Research Asia 提出 Harnessed Agentic RL 训练范式并开源重建的 Agent Lightning v1.0，让部署时使用的同一 agent harness 直接参与强化学习，无需在训练框架内重写 agent。",
-     "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-     "aihot": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l",
-     "selected": true,
-     "score": 69,
-     "category": "ai-models"
+     "discoveredAt": "2026-10-08T20:33:15.218Z",
+     "summary": "Artificial Analysis 将 Cyber Index 排行榜扩展至非公开访问的 trusted-access 模型，首个纳入的 GPT-6 Sol (Daybreak Blue, max) 目前登顶，仅可通过 OpenAI 的 Daybreak 项目使用。",
+     "url": "https://artificialanalysis.ai/articles/trusted-access-models-cyber-index",
+     "aihot": "https://aihot.news/items/ilwqal36uf19pwqg377kycj6u",
+     "selected": false,
+     "score": 51,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Artificial Analysis 网络指数新增可信访问模型，GPT-6 Sol 登顶",
+       "url": "https://x.com/ArtificialAnlys/status/2108280721358111188",
+       "aihot": "https://aihot.news/items/kahai4fajqonb92l7f05k0sc7"
+      }
+     ]
     },
     {
      "n": 4,
-     "title": "LlamaIndex 发布 OpenDocRouter：一个 API 统一调用多种文档解析模型",
-     "source": "LlamaIndex：产品、工程与评测",
-     "ts": "2026-10-07T23:13:23.173000+08:00",
-     "publishedAt": "2026-10-06T16:00:00.000Z",
-     "discoveredAt": "2026-10-07T15:13:23.173Z",
-     "summary": "LlamaIndex 推出 OpenDocRouter 平台，通过统一 API 将文档（PDF、PNG、JPEG 或 URL）解析为 markdown，接入 Claude Opus 5.5、Gemini 3 Flash、GPT-6 Luna 等 5 个前沿模型和 MinerU2.5-Pro、PaddleOCR-VL-…",
-     "url": "https://www.llamaindex.ai/blog/introducing-opendocrouter",
-     "aihot": "https://aihot.news/items/hye210jt0h75h9t4dgf4rveow",
+     "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-10-08T16:41:31.070000+08:00",
+     "publishedAt": "2026-10-08T00:46:00.000Z",
+     "discoveredAt": "2026-10-08T08:41:31.070Z",
+     "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+     "url": "https://github.com/pingdotgg/ts-rust",
+     "aihot": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg",
      "selected": true,
-     "score": 64,
+     "score": 76,
      "category": "ai-models"
     }
    ],
@@ -150,265 +158,77 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 9,
+   "count": 2,
    "items": [
     {
      "n": 5,
-     "title": "Codex Cloud 静默重新上线",
+     "title": "Tibo 发帖称“宣布 ChatGPT”",
      "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-10-08T14:40:31.947000+08:00",
-     "publishedAt": "2026-10-08T06:38:33.000Z",
-     "discoveredAt": "2026-10-08T06:40:31.947Z",
-     "summary": "Day 3（返场）/ 我们静默重新发布了 codex cloud。现在相当不错了",
-     "url": "https://x.com/thsottiaux/status/2108084615349170480",
-     "aihot": "https://aihot.news/items/eqjgvcpprcye5cy5lk4ol8wj1",
+     "ts": "2026-10-09T08:13:20.350000+08:00",
+     "publishedAt": "2026-10-09T00:12:24.000Z",
+     "discoveredAt": "2026-10-09T00:13:20.350Z",
+     "summary": "Tibo 在 X 发帖写道：“今天，我们宣布 ChatGPT”，并附上 chatgpt.com 链接。ChatGPT 已于 2022 年推出；该帖未提供新的版本、功能或可用范围，不能据此认定发生了新的产品发布。",
+     "url": "https://x.com/thsottiaux/status/2108349826727588000",
+     "aihot": "https://aihot.news/items/f3doqdpq8n9mpmqc95jdyaxq0",
      "selected": false,
-     "score": 41,
+     "score": null,
      "category": "ai-products"
     },
     {
      "n": 6,
-     "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-10-08T12:06:25.318000+08:00",
-     "publishedAt": "2026-10-08T03:44:55.000Z",
-     "discoveredAt": "2026-10-08T04:06:25.318Z",
-     "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
-     "url": "https://x.com/thsottiaux/status/2108040921044639779",
-     "aihot": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm",
-     "selected": true,
-     "score": 74,
+     "title": "OpenAI GPT-6.1 Sol 推出 Ultrafast 模式，速度最高 8 倍、价格为 6 倍",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-09T03:35:38.113000+08:00",
+     "publishedAt": "2026-10-08T19:18:48.000Z",
+     "discoveredAt": "2026-10-08T19:35:38.113Z",
+     "summary": "OpenAI 为 GPT-6.1 Sol 推出 Ultrafast 模式，今日起在 API、Codex 和 ChatGPT Work 上线，速度最高达 Sol Standard 的 8 倍，价格高出 6 倍。",
+     "url": "https://x.com/rohanpaul_ai/status/2108275940782702945",
+     "aihot": "https://aihot.news/items/kg1t14n12zsgj66w4g1nhzowf",
+     "selected": false,
+     "score": 61,
      "category": "ai-products",
      "also": [
       {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "Tibo 发布 OpenAI Day 3 更新：GPT-6 进驻 Chat，Codex 与 ChatGPT Work 活跃用户达 4000 万",
-       "url": "https://x.com/thsottiaux/status/2107913674593644711",
-       "aihot": "https://aihot.news/items/a339nv050181170a3ouoqdzw4"
-      },
-      {
-       "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-       "title": "Codex 与 ChatGPT Work 用户破 4000 万",
-       "url": "https://x.com/reach_vb/status/2107959412778209407",
-       "aihot": "https://aihot.news/items/v85ei9jbyu1wz0ge0w3emp0nb"
-      }
-     ]
-    },
-    {
-     "n": 7,
-     "title": "OpenAI 在 GitHub 发布 openai/math 仓库，722 份数学手稿引发数学界震荡",
-     "source": "公众号：数字生命卡兹克",
-     "ts": "2026-10-08T08:43:20.904000+08:00",
-     "publishedAt": "2026-10-08T00:36:00.000Z",
-     "discoveredAt": "2026-10-08T00:43:20.904Z",
-     "summary": "OpenAI 于10月7日在 GitHub 发布 openai/math 仓库，收录其未公开内部模型产出的722份数学手稿，归为372个成果组，覆盖数论、代数几何、偏微分方程等方向，每个结果平均花费约3小时 ChatGPT Pro 级别思考算力。",
-     "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686908&idx=1&sn=29a97b5ff695871a7bf219d3d6bd6487",
-     "aihot": "https://aihot.news/items/e9brxl1crqxmo66s80z8vrf0n",
-     "selected": false,
-     "score": 81,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：卡兹克 (@Khazix0918)",
-       "title": "OpenAI 发布 722 份数学手稿后，卡兹克长文解读 AI 如何改变数学研究",
-       "url": "https://x.com/Khazix0918/status/2108037650003493350",
-       "aihot": "https://aihot.news/items/auznqmo5hoh5us8rdl65ahyri"
-      }
-     ]
-    },
-    {
-     "n": 8,
-     "title": "Anthropic 发布 Claude Haiku 5.5，定价对齐 GPT-6 Luna 并附 API 积分",
-     "source": "Simon Willison 博客",
-     "ts": "2026-10-08T05:21:23.719000+08:00",
-     "publishedAt": "2026-10-07T20:56:21.000Z",
-     "discoveredAt": "2026-10-07T21:21:23.719Z",
-     "summary": "Anthropic 发布 Claude Haiku 5.5，价格与 GPT-6 Luna 对齐为 $0.10/$0.50（10 万 token 以内），超出后涨至 $0.50/$2.50。",
-     "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-     "aihot": "https://aihot.news/items/f4rqrnmk3xy5rdbthp5vky10r",
-     "selected": false,
-     "score": 76,
-     "category": "ai-products"
-    },
-    {
-     "n": 9,
-     "title": "ChatGPT 插件扩展功能上线",
-     "source": "X：OpenAI Developers (@OpenAIDevs)",
-     "ts": "2026-10-08T04:34:24.553000+08:00",
-     "publishedAt": "2026-10-07T20:12:32.000Z",
-     "discoveredAt": "2026-10-07T20:34:24.553Z",
-     "summary": "为 ChatGPT 构建更丰富、更具交互性的插件。 通过插件扩展，你可以从侧边栏启动插件、支持 @ 提及，并添加文件查看器。 在 @coreyching 的这篇演示中了解具体做法：",
-     "url": "https://x.com/OpenAIDevs/status/2107927072165548276",
-     "aihot": "https://aihot.news/items/vrmsddctt9vmacx1hc1k1jnno",
-     "selected": false,
-     "score": 37,
-     "category": "ai-products"
-    },
-    {
-     "n": 10,
-     "title": "Sam Altman 宣布 ChatGPT 可生成自定义 UI",
-     "source": "X：Sam Altman (@sama)",
-     "ts": "2026-10-08T04:21:25.235000+08:00",
-     "publishedAt": "2026-10-07T20:01:57.000Z",
-     "discoveredAt": "2026-10-07T20:21:25.235Z",
-     "summary": "Sam Altman 宣布 ChatGPT 现在可以为用户生成自定义 UI。引用的 OpenAI 内容称 GPT-6 与 Intelligent UI 正在向所有 ChatGPT 用户推出，可提供快速交互式回答，让日常问题更可视化、复杂主题更易理解，并为任务即时生成交互工具。",
-     "url": "https://x.com/sama/status/2107924408597950702",
-     "aihot": "https://aihot.news/items/sd9421ibml14y7yog6u3gqtx0",
-     "selected": false,
-     "score": 79,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Sam Altman (@sama)",
-       "title": "Sam Altman 称不愿回到旧版 ChatGPT",
-       "url": "https://x.com/sama/status/2107924677801001381",
-       "aihot": "https://aihot.news/items/x7vpk39x9z4iom10r39cqtrf0"
-      }
-     ]
-    },
-    {
-     "n": 11,
-     "title": "OpenAI 公布 ChatGPT for Teens 进展与 College Planner",
-     "source": "X：OpenAI (@OpenAI)",
-     "ts": "2026-10-08T03:32:25.913000+08:00",
-     "publishedAt": "2026-10-07T19:03:52.000Z",
-     "discoveredAt": "2026-10-07T19:32:25.913Z",
-     "summary": "OpenAI 分享了 ChatGPT for Teens 的进展，该体验面向 18 岁以下用户，对识别为未成年人的账号自动生效且默认开启保护。即将推出的 College Planner 面向美国计划就读四年制大学的高中生，整合申请要求、截止日期、任务与助学金步骤。",
-     "url": "https://x.com/OpenAI/status/2107909792945832070",
-     "aihot": "https://aihot.news/items/b9fqh7eiix11bleqgup10lqwk",
-     "selected": false,
-     "score": 50,
-     "category": "ai-products"
-    },
-    {
-     "n": 12,
-     "title": "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
-     "source": "LangChain：Blog（RSS）",
-     "ts": "2026-10-08T03:22:27.217000+08:00",
-     "publishedAt": "2026-10-07T18:49:50.000Z",
-     "discoveredAt": "2026-10-07T19:22:27.217Z",
-     "summary": "LangChain 重构 Deep Agents 的 Skills 支持，针对企业技能库增至数千个技能的场景推出三项更新：工具可绑定到技能、仅在该技能被读取时加载，用户可通过 /meeting-prep 之类的显式请求固定技能以在首次模型调用前加载，长线程可通过将 skills_metadata 设为 None 重载…",
-     "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
-     "aihot": "https://aihot.news/items/m3vyz2bex4i58vffqfx586u3h",
-     "selected": true,
-     "score": 60,
-     "category": "ai-products"
-    },
-    {
-     "n": 13,
-     "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-10-08T02:28:12.883000+08:00",
-     "publishedAt": "2026-10-07T18:00:58.000Z",
-     "discoveredAt": "2026-10-07T18:28:12.883Z",
-     "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
-     "url": "https://openai.com/index/gpt-6-for-everyone/",
-     "aihot": "https://aihot.news/items/uir31g728myjry383z17txvrw",
-     "selected": true,
-     "score": 87,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：邵猛 (@shao__meng)",
-       "title": "GPT-6 面向超 12 亿 ChatGPT 用户全面推送，带来 Intelligent UI 生成式界面能力",
-       "url": "https://x.com/shao__meng/status/2108020232183029778",
-       "aihot": "https://aihot.news/items/ah36xjjg7fkkgxsnwnls33r5h"
-      },
-      {
-       "source": "X：ChatGPT (@ChatGPT)",
-       "title": "OpenAI 开始向 ChatGPT 全档位推送 GPT-6 与 Intelligent UI",
-       "url": "https://x.com/ChatGPT/status/2107933136780947764",
-       "aihot": "https://aihot.news/items/ro51lvneb9eggwctsrqnitfua"
-      },
-      {
-       "source": "X：OpenAI (@OpenAI)",
-       "title": "OpenAI 全球推送 GPT-6 智能界面，Plus 等付费档用 GPT-6 Sol",
-       "url": "https://x.com/OpenAI/status/2107895006350791071",
-       "aihot": "https://aihot.news/items/mm3oa4t5zxobn6mmgmi8s64bc"
-      },
-      {
-       "source": "X：Ethan Mollick (@emollick)",
-       "title": "Ethan Mollick 谈 ChatGPT Intelligent UI：界面正按问题按需生成",
-       "url": "https://x.com/emollick/status/2107938889004396561",
-       "aihot": "https://aihot.news/items/c7nry2q60zru2igjwun67r1sc"
-      },
-      {
-       "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-       "title": "OpenAI 在 ChatGPT 推出 GPT-6 与 Intelligent UI 交互式回答功能",
-       "url": "https://x.com/reach_vb/status/2107899798024007897",
-       "aihot": "https://aihot.news/items/in21r0s34nqa6h3feu7d1srpr"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI 向所有用户推出 ChatGPT Intelligent UI 界面功能",
-       "url": "https://x.com/rohanpaul_ai/status/2107942819881185733",
-       "aihot": "https://aihot.news/items/rrjbk0j27vv6eaki3go2anwn2"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 向 ChatGPT 用户推送 GPT-6，新增 Intelligent UI 交互式界面",
-       "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
-       "aihot": "https://aihot.news/items/wx0vj67lzz48dprfe3xd0msms"
-      },
-      {
-       "source": "X：Greg Brockman (@gdb)",
-       "title": "ChatGPT 推出 Intelligent UI 交互式界面能力",
-       "url": "https://x.com/gdb/status/2107899150247616531",
-       "aihot": "https://aihot.news/items/sbjw9mf3n1o9mdcckqfv0jw0q"
-      },
-      {
-       "source": "X：OpenAI (@OpenAI)",
-       "title": "OpenAI 向所有 ChatGPT 用户推送 GPT-6 和 Intelligent UI",
-       "url": "https://x.com/OpenAI/status/2107894997538525580",
-       "aihot": "https://aihot.news/items/npjfwe89kt6tpayfevb7ip89s"
-      },
-      {
-       "source": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
-       "title": "OpenAI 在 ChatGPT 全量推出 GPT-6 与 Intelligent UI",
-       "url": "https://x.com/markchen90/status/2107947355115028880",
-       "aihot": "https://aihot.news/items/e9x6n5jwnvfek828vpdbhirwx"
-      },
-      {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "GPT-6 新版本随 Intelligent UI 向全部 ChatGPT 用户推送",
-       "url": "https://x.com/thsottiaux/status/2107912709715132482",
-       "aihot": "https://aihot.news/items/vlccl1i179h3np91rwriw0m3n"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "ChatGPT 推出 Intelligent UI，回答将搭配图表、按钮等交互式视觉内容",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-       "aihot": "https://aihot.news/items/nbtwjgs7tmjikl3e3bmvrx1wb"
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "OpenAI GPT-6.1 Sol Ultrafast 在 ChatGPT Work、Codex 和 API 推出",
+       "url": "https://x.com/testingcatalog/status/2108265185106391234",
+       "aihot": "https://aihot.news/items/nykvdjqq2suaqnyars0raz19p"
       },
       {
        "source": "IT之家·人工智能",
-       "title": "OpenAI 面向所有 ChatGPT 用户推出 GPT-6 系列模型和智能用户界面",
-       "url": "https://www.ithome.com/1/010/327.htm",
-       "aihot": "https://aihot.news/items/toa8f9rsvl2p3ckb7sc4gpdks"
+       "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 版：最高 8 倍速度、6 倍价格",
+       "url": "https://www.ithome.com/1/010/768.htm",
+       "aihot": "https://aihot.news/items/kciqy068qxkzh5iommr8ju6fi"
       },
       {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 随 GPT-6 推出 ChatGPT 可视化新界面 Intelligent UI",
-       "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-       "aihot": "https://aihot.news/items/oqqnihodkl2w2s0dbgw0zeiye"
+       "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+       "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，速度最高快 8 倍",
+       "url": "https://x.com/reach_vb/status/2108264743744020833",
+       "aihot": "https://aihot.news/items/yvkdld5jgcbc3epep912s3es8"
       },
       {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "GPT-6 与 Intelligent UI 开始向所有 ChatGPT 用户推送",
-       "url": "https://x.com/testingcatalog/status/2107923723638493593",
-       "aihot": "https://aihot.news/items/qyb494pleksggb3idbal82gfj"
+       "source": "X：Tibo (@thsottiaux)",
+       "title": "GPT-6.1 Sol ultrafast 发布，Codex steering 改进为即时响应",
+       "url": "https://x.com/thsottiaux/status/2108275041276420573",
+       "aihot": "https://aihot.news/items/mjcipkmcvo0ofbl2tegerkjvi"
       },
       {
-       "source": "X：ChatGPT (@ChatGPT)",
-       "title": "ChatGPT 推出 Intelligent UI，并预告 GPT-6 将面向所有用户",
-       "url": "https://x.com/ChatGPT/status/2107933133635248145",
-       "aihot": "https://aihot.news/items/nmtp1bhr3dfqo0fc2kat4an8e"
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "GPT-6.1 Sol 的 Ultrafast 模式今日在 API、Codex 和 ChatGPT Work 推出",
+       "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+       "aihot": "https://aihot.news/items/xfxjf5ntt9ruycw05n5xtjkze"
       },
       {
-       "source": "X：ChatGPT (@ChatGPT)",
-       "title": "ChatGPT 推出 Intelligent UI",
-       "url": "https://x.com/ChatGPT/status/2107933135061291215",
-       "aihot": "https://aihot.news/items/jysaycuol2bhlw9jdp7g0wj5i"
+       "source": "X：OpenRouter (@OpenRouter)",
+       "title": "GPT-6.1 Sol Ultrafast 上线 OpenRouter",
+       "url": "https://x.com/OpenRouter/status/2108278630027771935",
+       "aihot": "https://aihot.news/items/yyjgf50b0s0s14idpxfbibu5q"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "Codex 与 ChatGPT Work 开放 Ultrafast 访问",
+       "url": "https://x.com/OpenAIDevs/status/2108262843544211494",
+       "aihot": "https://aihot.news/items/wu0q1vuxxry46u6x9nleuie5g"
       }
      ]
     }
@@ -421,31 +241,39 @@
    "count": 2,
    "items": [
     {
-     "n": 14,
-     "title": "WSJ：Broadcom 为 OpenAI 定制芯片筹备超 500 亿美元融资",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-08T09:00:25.512000+08:00",
-     "publishedAt": "2026-10-08T00:47:03.000Z",
-     "discoveredAt": "2026-10-08T01:00:25.512Z",
-     "summary": "据 WSJ 报道，Broadcom 正为 OpenAI 定制芯片筹备超过 500 亿美元融资，Apollo 和 Blackstone 在贷方之列，目标在 2026 年底前敲定。",
-     "url": "https://x.com/rohanpaul_ai/status/2107996158115401800",
-     "aihot": "https://aihot.news/items/cqps0if0awnosigdtjsbwg45f",
-     "selected": false,
-     "score": 71,
-     "category": "industry"
+     "n": 7,
+     "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-09T07:20:16.953000+08:00",
+     "publishedAt": "2026-10-08T23:02:44.683Z",
+     "discoveredAt": "2026-10-08T23:20:16.953Z",
+     "summary": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。",
+     "url": "https://www.ithome.com/1/010/751.htm",
+     "aihot": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+     "selected": true,
+     "score": 78,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "OpenAI 年化营收下修至近 500 亿美元拖累纳指百创跌 1.4%",
+       "url": "https://x.com/rohanpaul_ai/status/2108394998253396357",
+       "aihot": "https://aihot.news/items/loc8ghr02u1m59yr3uzm876a0"
+      }
+     ]
     },
     {
-     "n": 15,
-     "title": "前 OpenAI 安全负责人戴维·罗宾逊批评老东家 AI 安全言行不一",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-08T07:38:23.055000+08:00",
-     "publishedAt": "2026-10-07T23:08:44.720Z",
-     "discoveredAt": "2026-10-07T23:38:23.055Z",
-     "summary": "据《商业内幕》报道，上周从 OpenAI 离职的安全系统团队前负责人之一戴维·罗宾逊称公司对待 AI 安全说一套做一套：一边发布模型风险警告、公开谈论放慢开发，内部却全速训练和部署被自己警告危险的模型。",
-     "url": "https://www.ithome.com/1/010/351.htm",
-     "aihot": "https://aihot.news/items/rdketzmvt7kpelxz8cb9audel",
-     "selected": false,
-     "score": 65,
+     "n": 8,
+     "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-10-09T00:24:35.786000+08:00",
+     "publishedAt": "2026-10-08T00:00:00.000Z",
+     "discoveredAt": "2026-10-08T16:24:35.786Z",
+     "summary": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；",
+     "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "aihot": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr",
+     "selected": true,
+     "score": 72,
      "category": "industry"
     }
    ],
@@ -454,20 +282,48 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
+   "count": 3,
    "items": [
     {
-     "n": 16,
-     "title": "Ethan Mollick 转述数学家面对 OpenAI 数百个 AI 证明的第一手体验",
-     "source": "X：Ethan Mollick (@emollick)",
-     "ts": "2026-10-08T06:55:24.615000+08:00",
-     "publishedAt": "2026-10-07T22:42:18.000Z",
-     "discoveredAt": "2026-10-07T22:55:24.615Z",
-     "summary": "Ethan Mollick 转发 Scott Aaronson 博客内容，汇集数学家阅读 OpenAI 发布的数百个大型 AI 证明的第一手体验，称其为遭遇狭窄超人类智能的早期记录。",
-     "url": "https://x.com/emollick/status/2107964764316209326",
-     "aihot": "https://aihot.news/items/op09s8w0r95usopfg04e9vmvr",
+     "n": 9,
+     "title": "陶哲轩批评 OpenAI 发布 719 篇 AI 数学证明：人类来不及理解和消化",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-09T10:15:28.741000+08:00",
+     "publishedAt": "2026-10-09T01:40:55.240Z",
+     "discoveredAt": "2026-10-09T02:15:28.741Z",
+     "summary": "陶哲轩于 10 月 7 日在 mathstodon 发帖，批评 OpenAI 10 月公布 719 份 AI 数学解答（涵盖 372 个结果族）的做法，称这会把开放问题变成可批量消耗的资源。",
+     "url": "https://www.ithome.com/1/010/795.htm",
+     "aihot": "https://aihot.news/items/u6gge44az9k77bh34680uylbk",
      "selected": false,
-     "score": 66,
+     "score": 73,
+     "category": "paper"
+    },
+    {
+     "n": 10,
+     "title": "OpenAI 撤回两天前发布的数学论文",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-09T09:15:15.028000+08:00",
+     "publishedAt": "2026-10-09T00:49:57.000Z",
+     "discoveredAt": "2026-10-09T01:15:15.028Z",
+     "summary": "OpenAI 撤回了它两天前发布的一篇数学论文的部分内容。",
+     "url": "https://x.com/rohanpaul_ai/status/2108359277706711097",
+     "aihot": "https://aihot.news/items/w0vr03zjoe5ktm5rggsiu6cvw",
+     "selected": false,
+     "score": 35,
+     "category": "paper"
+    },
+    {
+     "n": 11,
+     "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-08T21:27:33.293000+08:00",
+     "publishedAt": "2026-10-08T13:01:01.000Z",
+     "discoveredAt": "2026-10-08T13:27:33.293Z",
+     "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话…",
+     "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+     "aihot": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v",
+     "selected": true,
+     "score": 80,
      "category": "paper"
     }
    ],
@@ -476,56 +332,138 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 3,
+   "count": 8,
    "items": [
     {
-     "n": 17,
-     "title": "AHM 批评 OpenAI 发布 722 份数学手稿，Terence Tao 转发声明，作者称抵制不是科学立场",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-08T10:33:24.832000+08:00",
-     "publishedAt": "2026-10-08T02:28:26.000Z",
-     "discoveredAt": "2026-10-08T02:33:24.832Z",
-     "summary": "人类数学协会（AHM）批评 OpenAI 前一日发布的 722 份数学手稿仓库，敦促数学家停止与 OpenAI 合作，并指出 OpenAI 忽略了其顾问小组关于前沿 AI 公司不应在内部模型上测试高深数学问题的立场。Terence Tao 在博客转发了 AHM 声明。",
-     "url": "https://x.com/rohanpaul_ai/status/2108021673706615292",
-     "aihot": "https://aihot.news/items/wpv5spxe33fs2qfvuk3q3bjxh",
-     "selected": false,
-     "score": 50,
-     "category": "tip"
-    },
-    {
-     "n": 18,
-     "title": "Common Sense Media 评估称 ChatGPT for Teens 在心理健康危机中仍鼓励青少年继续对话",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-08T02:48:26.521000+08:00",
-     "publishedAt": "2026-10-07T18:15:28.000Z",
-     "discoveredAt": "2026-10-07T18:48:26.521Z",
-     "summary": "Common Sense Media 发布研究，将 ChatGPT for Teens 评为“不可接受风险”，称其留存设计在危机情境中依然普遍存在，对五类红线级严重危害中的三类评分不及格。",
-     "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-     "aihot": "https://aihot.news/items/i1gpblg3xxpabsofe0g5xfns7",
-     "selected": false,
-     "score": 71,
+     "n": 12,
+     "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
+     "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+     "ts": "2026-10-09T14:37:29.306000+08:00",
+     "publishedAt": "2026-10-09T06:17:00.000Z",
+     "discoveredAt": "2026-10-09T06:37:29.306Z",
+     "summary": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。",
+     "url": "https://x.com/OpenAINewsroom/status/2108441580806025712",
+     "aihot": "https://aihot.news/items/uceike4yt1on0k7sj37f9nfeh",
+     "selected": true,
+     "score": 70,
      "category": "tip",
      "also": [
       {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "被解雇的 OpenAI 安全研究员发公开信否认不当行为指控，警告寒蝉效应",
+       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+       "aihot": "https://aihot.news/items/l2y63969capzwzyxqolue2swu"
+      },
+      {
        "source": "IT之家·人工智能",
-       "title": "Common Sense Media 报告称 ChatGPT 青少年模式对青少年风险过高",
-       "url": "https://www.ithome.com/1/010/383.htm",
-       "aihot": "https://aihot.news/items/g9di9maxf2mo10aqt8mbfnodt"
+       "title": "3 名遭解雇 OpenAI 研究员发表公开信，称公司做法或引发寒蝉效应",
+       "url": "https://www.ithome.com/1/010/760.htm",
+       "aihot": "https://aihot.news/items/c6otew1vr1nms259zzb4l0xku"
+      },
+      {
+       "source": "X：马东锡 NLP (@dongxi_nlp)",
+       "title": "OpenAI 解雇三名安全研究员，当事人发公开信称因优先安全被清除",
+       "url": "https://x.com/dongxi_nlp/status/2108280915709276490",
+       "aihot": "https://aihot.news/items/hq6df43jfssxsdomcv1l2zqlc"
       }
      ]
     },
     {
-     "n": 19,
-     "title": "a16z 解析德州为何让数据中心排队等电",
-     "source": "a16z：News（RSS）",
-     "ts": "2026-10-07T22:27:29.810000+08:00",
-     "publishedAt": "2026-10-07T14:01:44.000Z",
-     "discoveredAt": "2026-10-07T14:27:29.810Z",
-     "summary": "a16z 的 Ryan McEntush 分析德州电网暂停审批数据中心的原因：并网队列从 2024 年底的 63 GW 激增到今年 6 月的 474 GW，约 90% 是数据中心，开发商大量投机性申请且社区沟通不足。",
-     "url": "https://www.a16z.news/p/why-texas-is-making-data-centers",
-     "aihot": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki",
+     "n": 13,
+     "title": "马东锡调侃 Tibo 与 Codex Reset",
+     "source": "X：马东锡 NLP (@dongxi_nlp)",
+     "ts": "2026-10-09T13:22:25.477000+08:00",
+     "publishedAt": "2026-10-09T05:14:26.000Z",
+     "discoveredAt": "2026-10-09T05:22:25.477Z",
+     "summary": "我认为 Tibo @thsottiaux 就是 OpenAI 的雨宫阳平，他说的任何 codex 的新功能都不再重要了，大家就等那一句： Codex Reset “中华冷面开始供应了！”",
+     "url": "https://x.com/dongxi_nlp/status/2108425837225640168",
+     "aihot": "https://aihot.news/items/cwkguxsx6j0x4rdg2enm4q1bf",
+     "selected": false,
+     "score": 13,
+     "category": "tip"
+    },
+    {
+     "n": 14,
+     "title": "OpenAI 调侃 GPT-6 洗碗广告",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-10-09T11:01:28.057000+08:00",
+     "publishedAt": "2026-10-09T02:44:14.000Z",
+     "discoveredAt": "2026-10-09T03:01:28.057Z",
+     "summary": "对细节的关注有点令人担忧。",
+     "url": "https://x.com/OpenAIDevs/status/2108388035767521718",
+     "aihot": "https://aihot.news/items/a9dbjrd1zywjwccjdr34dyos6",
+     "selected": false,
+     "score": 20,
+     "category": "tip"
+    },
+    {
+     "n": 15,
+     "title": "OpenAI 数学突破速度超过人类理解：数学家面临身份危机",
+     "source": "Platformer（热点 RSS）",
+     "ts": "2026-10-09T09:29:15.820000+08:00",
+     "publishedAt": "2026-10-09T00:28:26.000Z",
+     "discoveredAt": "2026-10-09T01:29:15.820Z",
+     "summary": "OpenAI 在数学问题上的突破速度已超过人类理解解题过程的速度，可能引发数学家的身份危机。Platformer 报道指出，这一进展让人追问下一个受冲击的领域会是什么。",
+     "url": "https://www.platformer.news/openai-math-breakthroughs-tao-reaction/",
+     "aihot": "https://aihot.news/items/jyecccohnjw5byxjvnuk24cnh",
+     "selected": false,
+     "score": 25,
+     "category": "tip"
+    },
+    {
+     "n": 16,
+     "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-09T02:31:39.721000+08:00",
+     "publishedAt": "2026-10-08T18:17:07.000Z",
+     "discoveredAt": "2026-10-08T18:31:39.721Z",
+     "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+     "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+     "aihot": "https://aihot.news/items/wf099r75jv1tzyhxa2j2o8n1p",
      "selected": true,
-     "score": 75,
+     "score": 81,
+     "category": "tip"
+    },
+    {
+     "n": 17,
+     "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+     "source": "LangChain：Blog（RSS）",
+     "ts": "2026-10-09T00:42:29.807000+08:00",
+     "publishedAt": "2026-10-08T16:21:08.000Z",
+     "discoveredAt": "2026-10-08T16:42:29.807Z",
+     "summary": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+     "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+     "aihot": "https://aihot.news/items/l846t7ycr11aqcasu45nowosp",
+     "selected": true,
+     "score": 61,
+     "category": "tip"
+    },
+    {
+     "n": 18,
+     "title": "The Verge 评 Luca Guadagnino 的 OpenAI 题材讽刺电影《Artificial》",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-08T22:37:29.848000+08:00",
+     "publishedAt": "2026-10-08T14:00:00.000Z",
+     "discoveredAt": "2026-10-08T14:37:29.848Z",
+     "summary": "《Artificial》是 Luca Guadagnino 执导的 Sam Altman 传记讽刺片，在纽约电影节首映，由 Andrew Garfield 饰演 Altman，情节紧扣 OpenAI 内部权力斗争与 Altman 被董事会罢免又复出的真实事件。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+     "aihot": "https://aihot.news/items/hsegy52347nllldnttku6u6m7",
+     "selected": false,
+     "score": 58,
+     "category": "tip"
+    },
+    {
+     "n": 19,
+     "title": "Decoder 访谈：把生活交给 Meta 的 Muse 还是 OpenAI 的 Dots，你能信任谁",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-08T22:37:29.838000+08:00",
+     "publishedAt": "2026-10-08T14:00:00.000Z",
+     "discoveredAt": "2026-10-08T14:37:29.838Z",
+     "summary": "The Verge 的 Decoder 节目邀请资深 AI 记者 Hayden Field，讨论 Meta Muse、OpenAI Dots 与 xAI Grok Bot 带来的消费级 AI 智能体浪潮，三者都延续 OpenClaw 的模型加浏览器 harness 技术路线。",
+     "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+     "aihot": "https://aihot.news/items/aluvuhatnonussbcbcqo8ddnp",
+     "selected": false,
+     "score": 72,
      "category": "tip"
     }
    ],
