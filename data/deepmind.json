@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-08",
-  "winEnd": "2026-10-09",
-  "generated": "2026-10-09 15:14",
-  "rawHits": 27,
-  "selectedHits": 5,
-  "shown": 10,
-  "dedupedFrom": 14,
+  "winStart": "2026-10-09",
+  "winEnd": "2026-10-10",
+  "generated": "2026-10-10 14:50",
+  "rawHits": 17,
+  "selectedHits": 1,
+  "shown": 9,
+  "dedupedFrom": 10,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 4,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 22,
+    "count": 15,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,48 +86,34 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "Gemini Agent 将上线 Gemini Argon 4 与 Claude 模型",
+     "title": "Gemini 4 Argon 现身 Antigravity，推理档位统一",
      "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-09T03:03:49.473000+08:00",
-     "publishedAt": "2026-10-08T18:55:17.000Z",
-     "discoveredAt": "2026-10-08T19:03:49.473Z",
-     "summary": "谷歌 Gemini Business 新发布的 Gemini Agent 将同时提供 Gemini Argon 4、Gemini Flash 3.8 以及 Claude Opus 5、Claude Sonnet 5.5，这是 Claude 模型首次出现在 Gemini 平台上。",
-     "url": "https://x.com/testingcatalog/status/2108270023319970086",
-     "aihot": "https://aihot.news/items/hvldppnf5lklgyb4cajr02stz",
+     "ts": "2026-10-10T07:24:21.366000+08:00",
+     "publishedAt": "2026-10-09T23:10:57.000Z",
+     "discoveredAt": "2026-10-09T23:24:21.366Z",
+     "summary": "Google 在 Antigravity（隐藏项）中新增 Gemini 4 Argon 模型引用，支持 low、medium、high 三档推理强度；Gemini 网页端也已为所有模型显示这三档推理选项，统一了各工具的推理选择器。",
+     "url": "https://x.com/testingcatalog/status/2108696747874697354",
+     "aihot": "https://aihot.news/items/j6ayqbalqogbmmannnb6coe5g",
      "selected": false,
-     "score": 42,
+     "score": 32,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "ts": "2026-10-09T00:54:32.765000+08:00",
-     "publishedAt": "2026-10-08T16:42:42.000Z",
-     "discoveredAt": "2026-10-08T16:54:32.765Z",
-     "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
-     "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-     "aihot": "https://aihot.news/items/dsbzfsw2pdaw0ikh67cyxmlss",
-     "selected": true,
-     "score": 75,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
-     "source": "Goodfire Research（网页）",
-     "ts": "2026-10-09T00:25:30.871000+08:00",
-     "publishedAt": "2026-10-07T16:00:00.000Z",
-     "discoveredAt": "2026-10-08T16:25:30.871Z",
-     "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
-     "url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
-     "aihot": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv",
-     "selected": true,
-     "score": 72,
+     "title": "Gemini API 弃用 gemini-3.7-flash 与 gemini-3.5-flash，Deep Research Agent 将于 10 月 23 日关停",
+     "source": "Gemini API：更新日志（网页）",
+     "ts": "2026-10-09T17:39:41.727000+08:00",
+     "publishedAt": "2026-10-08T00:00:00.000Z",
+     "discoveredAt": "2026-10-09T09:39:41.727Z",
+     "summary": "Gemini API 弃用 gemini-3.7-flash 和 gemini-3.5-flash，请求分别自动路由至 gemini-3.8-flash 和 gemini-3.6-flash，需更新模型字符串。",
+     "url": "https://ai.google.dev/gemini-api/docs/changelog#10-08-2026",
+     "aihot": "https://aihot.news/items/e1i255iw9el1bq7bhsqpno6eu",
+     "selected": false,
+     "score": 31,
      "category": "ai-models"
     }
    ],
@@ -136,89 +122,85 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 4,
+   "count": 5,
    "items": [
     {
-     "n": 4,
-     "title": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-09T03:05:39.367000+08:00",
-     "publishedAt": "2026-10-08T00:00:00.000Z",
-     "discoveredAt": "2026-10-08T19:05:39.367Z",
-     "summary": "Google AI Edge 团队以 Apache 2.0 许可开源 ML Drift，一个跨平台端侧 GPU 推理计算引擎，作为 LiteRT 的核心 GPU 加速层。",
-     "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
-     "aihot": "https://aihot.news/items/vemmtcq70ojxkk343dse8qfuc",
+     "n": 3,
+     "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+     "source": "X：indigo (@indigox)",
+     "ts": "2026-10-10T13:33:22.087000+08:00",
+     "publishedAt": "2026-10-10T05:26:34.000Z",
+     "discoveredAt": "2026-10-10T05:33:22.087Z",
+     "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
+     "url": "https://x.com/indigox/status/2108791275914993998",
+     "aihot": "https://aihot.news/items/lnphc0ojxpdl4tpb2zvpz8352",
      "selected": true,
-     "score": 70,
+     "score": 81,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Google DeepMind Pushmeet Kohli 与 Biohub Sal Candido 对谈：AlphaFold 为何没有解决蛋白质折叠",
+     "source": "Latent Space（RSS）",
+     "ts": "2026-10-10T09:10:06.498000+08:00",
+     "publishedAt": "2026-10-10T00:31:26.000Z",
+     "discoveredAt": "2026-10-10T01:10:06.498Z",
+     "summary": "Latent Space 发布圆桌实录，Google DeepMind 的 Pushmeet Kohli 与 Biohub 的 Sal Candido 讨论为什么 AlphaFold 的突破只是开始。",
+     "url": "https://www.latent.space/p/biohub-deepmind",
+     "aihot": "https://aihot.news/items/ne04118xtv1bfco7ck3jkjknc",
+     "selected": false,
+     "score": 55,
      "category": "ai-products"
     },
     {
      "n": 5,
-     "title": "Google 推出 Gemini 统一智能体，率先面向企业用户",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-09T02:58:38.083000+08:00",
-     "publishedAt": "2026-10-08T18:18:00.000Z",
-     "discoveredAt": "2026-10-08T18:58:38.083Z",
-     "summary": "Google 在 Google Cloud 活动上宣布为 Gemini 推出统一智能体，可接受目标而非仅指令，自行规划任务、使用技能与工具并连接企业内部系统。",
-     "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-     "aihot": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
+     "title": "谷歌 Gemini 4“Argon”即将发布，内部已在测试“Carbon”新版本",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-10T07:14:19.120000+08:00",
+     "publishedAt": "2026-10-09T22:51:52.157Z",
+     "discoveredAt": "2026-10-09T23:14:19.120Z",
+     "summary": "谷歌即将向公众发布新一代 Gemini 4“Argon”模型，同时内部员工已在测试代号“Carbon”的后续迭代版本，该版本很可能属于 Argon 架构下的新检查点更新，并已接入谷歌内部代码平台 Jetski。",
+     "url": "https://www.ithome.com/1/011/162.htm",
+     "aihot": "https://aihot.news/items/i1kkowks6muzracd72tp3q0b7",
      "selected": false,
-     "score": 67,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Sundar Pichai (@sundarpichai)",
-       "title": "Google 在 Gemini at Work 活动上发布通用工作智能体 Gemini agent",
-       "url": "https://x.com/sundarpichai/status/2108257472553386059",
-       "aihot": "https://aihot.news/items/jc7t120lhn6aio590tcmhgua7"
-      },
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "Google 在 Gemini at Work 更新中为 Gemini Enterprise 推出新的 Gemini Agent",
-       "url": "https://x.com/testingcatalog/status/2108201283777700103",
-       "aihot": "https://aihot.news/items/g2j60jo6gjrfp7qdrkcyc2xkq"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "Google 在 Gemini at Work 活动上推出跨应用通用 Gemini 智能体",
-       "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-       "aihot": "https://aihot.news/items/rt8m8o0uc4prkfw0koif4ujfw"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "谷歌云发布 Gemini Agent，定位“通用工作智能体”",
-       "url": "https://www.ithome.com/1/010/706.htm",
-       "aihot": "https://aihot.news/items/ads6o0svdax6pco5m1jjmkgdb"
-      }
-     ]
+     "score": 35,
+     "category": "ai-products"
     },
     {
      "n": 6,
-     "title": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-09T02:05:31.011000+08:00",
-     "publishedAt": "2026-10-08T00:00:00.000Z",
-     "discoveredAt": "2026-10-08T18:05:31.011Z",
-     "summary": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
-     "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
-     "aihot": "https://aihot.news/items/col84h6b3pdq383v6iuju3a9v",
-     "selected": true,
-     "score": 66,
+     "title": "Google 本周发布：SynthID 全球上线与 Gemma 4 等",
+     "source": "X：Google AI (@GoogleAI)",
+     "ts": "2026-10-09T21:36:31.684000+08:00",
+     "publishedAt": "2026-10-09T13:28:05.000Z",
+     "discoveredAt": "2026-10-09T13:36:31.684Z",
+     "summary": "Google 本周宣布 SynthID 检测门户面向全球开放英文版，可验证图像、视频、音频是否由 Google 及行业伙伴的 AI 生成。同时发布 Nano Banana 2.1，在视觉设计、主体一致性和精准局部编辑上大幅提升；",
+     "url": "https://x.com/GoogleAI/status/2108550067724407281",
+     "aihot": "https://aihot.news/items/zknfg8l938mnovlo8a7054tgi",
+     "selected": false,
+     "score": 46,
      "category": "ai-products"
     },
     {
      "n": 7,
-     "title": "SynthID Detector 公开上线，支持 Nano Banana 2.1、OpenAI、NVIDIA、Kakao 水印检测",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-10-08T22:56:30.322000+08:00",
-     "publishedAt": "2026-10-08T14:53:29.000Z",
-     "discoveredAt": "2026-10-08T14:56:30.322Z",
-     "summary": "Google DeepMind 的 Philipp Schmid 宣布 SynthID Detector（synthid.com）现已公开可用，可检测图像、视频或音频文件是否由 AI 生成，支持 Nano Banana 2.1、OpenAI、NVIDIA、Kakao 的水印，Apple 支持即将推出。",
-     "url": "https://x.com/_philschmid/status/2108209169052414138",
-     "aihot": "https://aihot.news/items/c57cvl45etwivp3cxe0zv5yv3",
+     "title": "Google Cloud 发布 Gemini agent，面向企业工作的统一智能体",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-10-09T16:52:39.795000+08:00",
+     "publishedAt": "2026-10-09T06:47:56.000Z",
+     "discoveredAt": "2026-10-09T08:52:39.795Z",
+     "summary": "Google Cloud 在 Gemini at Work 活动上发布 Gemini agent，用一个提示框和 1 个 API 覆盖问答、知识工作、媒体生成和代码编写，可在 web、移动端、CLI、Workspace、Microsoft 365、Slack 等入口使用。",
+     "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+     "aihot": "https://aihot.news/items/d1gqsajezl34g4fzda9z65xrv",
      "selected": false,
-     "score": 62,
-     "category": "ai-products"
+     "score": 65,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：邵猛 (@shao__meng)",
+       "title": "Google Cloud 发布面向工作的 Gemini 通用智能体",
+       "url": "https://x.com/shao__meng/status/2108748821991960838",
+       "aihot": "https://aihot.news/items/sschjmk2qatgj3mgj06pfn6j8"
+      }
+     ]
     }
    ],
    "note": null
@@ -226,64 +208,48 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 8,
-     "title": "Biohub 联合 DOE、NIH 及 Google DeepMind、Meta 等投入 18 亿美元扩建 Virtual Biology Initiative",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-10-09T08:56:15.218000+08:00",
-     "publishedAt": "2026-10-08T20:46:25.000Z",
-     "discoveredAt": "2026-10-09T00:56:15.218Z",
-     "summary": "Biohub、美国能源部（DOE）、NIH 与新合作伙伴宣布扩大 Virtual Biology Initiative，共投入 18 亿美元生成 AI 可用的开放生物数据。",
-     "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-     "aihot": "https://aihot.news/items/r3c0em9l36tcj1znw0wdf1d7j",
-     "selected": false,
-     "score": 67,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 9,
-     "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-08T21:27:33.293000+08:00",
-     "publishedAt": "2026-10-08T13:01:01.000Z",
-     "discoveredAt": "2026-10-08T13:27:33.293Z",
-     "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话…",
-     "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
-     "aihot": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v",
-     "selected": true,
-     "score": 80,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 10,
-     "title": "Gemini 2.5 医疗建议质量比肩医生",
+     "n": 8,
+     "title": "Google 后 Gemini 4 时代的挑战",
      "source": "X：Ethan Mollick (@emollick)",
-     "ts": "2026-10-09T12:51:25.774000+08:00",
-     "publishedAt": "2026-10-09T04:28:23.000Z",
-     "discoveredAt": "2026-10-09T04:51:25.774Z",
-     "summary": "在急诊场景中，已过时的 Gemini 2.5 Pro 和 Gemini 2.5 Flash（无法访问患者病历）给出的建议，被其他医生评为与医生质量相当。未发现安全问题。 此后模型已显著提升。",
-     "url": "https://x.com/emollick/status/2108414247558316508",
-     "aihot": "https://aihot.news/items/dy4cx4si74rsennhe0ivmf2wa",
+     "ts": "2026-10-10T00:11:30.831000+08:00",
+     "publishedAt": "2026-10-09T15:43:04.000Z",
+     "discoveredAt": "2026-10-09T16:11:30.831Z",
+     "summary": "Google 在 Gemini 4 之后面临的挑战将是他们如何用好一个优秀的模型。Anthropic 和 OpenAI 表明，我们正走向通过编排智能体以单一界面处理多种任务的方向。Gemini 3 时代充斥着面向众多市场的碎片化产品。这行不通了，对下一步而言。",
+     "url": "https://x.com/emollick/status/2108584037451550741",
+     "aihot": "https://aihot.news/items/exyt6k1yy699ltg7l189pj5us",
      "selected": false,
-     "score": 41,
+     "score": 29,
+     "category": "tip"
+    },
+    {
+     "n": 9,
+     "title": "马东锡NLP谈谷歌参访：Gemini 太拉但员工福利到位",
+     "source": "X：马东锡 NLP (@dongxi_nlp)",
+     "ts": "2026-10-09T15:25:29.885000+08:00",
+     "publishedAt": "2026-10-09T07:07:32.000Z",
+     "discoveredAt": "2026-10-09T07:25:29.885Z",
+     "summary": "马东锡 NLP 称，拜访谷歌前因 Gemini 表现不佳而看低这家公司，进入谷歌后则被其对员工的关爱打动，认为福利安排细致且不计成本，午餐水准很高，据称中国办公室甚至能吃到整只甲鱼。他因此建议\"牛马\"应去谷歌这类公司上班，而不是去其他公司接受 PUA，并调侃 AGI 是否实现与个人无关，活得长短才与自己相关。",
+     "url": "https://x.com/dongxi_nlp/status/2108454297788624944",
+     "aihot": "https://aihot.news/items/t3j8zohtfe30btcrbeaxugzya",
+     "selected": false,
+     "score": 20,
      "category": "tip"
     }
    ],

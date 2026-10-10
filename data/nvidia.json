@@ -14,13 +14,13 @@
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-08",
-  "winEnd": "2026-10-09",
-  "generated": "2026-10-09 15:13",
-  "rawHits": 21,
-  "selectedHits": 2,
-  "shown": 11,
-  "dedupedFrom": 11,
+  "winStart": "2026-10-09",
+  "winEnd": "2026-10-10",
+  "generated": "2026-10-10 14:49",
+  "rawHits": 14,
+  "selectedHits": 1,
+  "shown": 3,
+  "dedupedFrom": 4,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "NVIDIA",
     "mode": "all",
     "window": "24h",
-    "count": 20,
+    "count": 14,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "英伟达",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "英伟达",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,52 +86,9 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
-   "items": [
-    {
-     "n": 1,
-     "title": "Nvidia 新论文：模型与技能交替更新提升智能体",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-09T02:33:41.235000+08:00",
-     "publishedAt": "2026-10-08T18:31:56.000Z",
-     "discoveredAt": "2026-10-08T18:33:41.235Z",
-     "summary": "Nvidia 新论文提出 VERA，通过交替更新模型参数与技能文件来提升长流程多步任务的智能体表现，仅训练模型或仅改技能都会损失约一半增益。VERA 构建超 9000 个可重启沙箱，用真实文件与日志逐步打分，决定下一步修复模型还是技能。",
-     "url": "https://x.com/rohanpaul_ai/status/2108264146202710372",
-     "aihot": "https://aihot.news/items/rtb6iursuqwuzzunlx1h3n7ov",
-     "selected": false,
-     "score": 46,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "NVIDIA Dynamo 通过会话级 ID 优化智能体推理：路由、准入控制与 KV 缓存管理",
-     "source": "PyTorch：Blog（RSS）",
-     "ts": "2026-10-09T02:27:41.945000+08:00",
-     "publishedAt": "2026-10-08T18:13:46.000Z",
-     "discoveredAt": "2026-10-08T18:27:41.945Z",
-     "summary": "NVIDIA Dynamo 引入统一的会话级标识符 session_id，把请求级推理服务升级为程序感知系统，覆盖会话感知路由、共享 KV 索引与程序化缓存迁移，兼容 vLLM 和 SGLang。",
-     "url": "https://pytorch.org/blog/session-aware-agentic-inference-with-nvidia-dynamo/",
-     "aihot": "https://aihot.news/items/v0etl74hps4tfznhm4lhp83if",
-     "selected": false,
-     "score": 58,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "NVIDIA PivotOPD：让多轮 AI 智能体从关键错误中恢复的在线策略蒸馏方法",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-10-08T18:35:29.841000+08:00",
-     "publishedAt": "2026-10-08T08:40:02.000Z",
-     "discoveredAt": "2026-10-08T10:35:29.841Z",
-     "summary": "NVIDIA 联合普林斯顿大学和马里兰大学提出 PivotOPD，一种面向多轮 LLM 智能体的在线策略蒸馏方法，训练智能体避免最致命的早期错误并在错误发生后恢复。",
-     "url": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
-     "aihot": "https://aihot.news/items/d66w8k2d987sjbv1lsjoqg6i2",
-     "selected": false,
-     "score": 47,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
@@ -139,32 +96,40 @@
    "count": 2,
    "items": [
     {
-     "n": 4,
-     "title": "SynthID Detector 公开上线，支持 Nano Banana 2.1、OpenAI、NVIDIA、Kakao 水印检测",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-10-08T22:56:30.322000+08:00",
-     "publishedAt": "2026-10-08T14:53:29.000Z",
-     "discoveredAt": "2026-10-08T14:56:30.322Z",
-     "summary": "Google DeepMind 的 Philipp Schmid 宣布 SynthID Detector（synthid.com）现已公开可用，可检测图像、视频或音频文件是否由 AI 生成，支持 Nano Banana 2.1、OpenAI、NVIDIA、Kakao 的水印，Apple 支持即将推出。",
-     "url": "https://x.com/_philschmid/status/2108209169052414138",
-     "aihot": "https://aihot.news/items/c57cvl45etwivp3cxe0zv5yv3",
-     "selected": false,
-     "score": 62,
+     "n": 1,
+     "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+     "source": "X：indigo (@indigox)",
+     "ts": "2026-10-10T13:33:22.087000+08:00",
+     "publishedAt": "2026-10-10T05:26:34.000Z",
+     "discoveredAt": "2026-10-10T05:33:22.087Z",
+     "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
+     "url": "https://x.com/indigox/status/2108791275914993998",
+     "aihot": "https://aihot.news/items/lnphc0ojxpdl4tpb2zvpz8352",
+     "selected": true,
+     "score": 81,
      "category": "ai-products"
     },
     {
-     "n": 5,
-     "title": "Nvidia 押注物理 AI：Halos 安全系统瞄准更安全的 robotaxi 与人形机器人",
-     "source": "Ars Technica：AI（RSS）",
-     "ts": "2026-10-08T19:29:31.755000+08:00",
-     "publishedAt": "2026-10-08T11:15:33.000Z",
-     "discoveredAt": "2026-10-08T11:29:31.755Z",
-     "summary": "Nvidia 正将数十亿美元押注于机器人和自动驾驶等物理 AI 技术，其 Halos 安全系统于 2025 年推出，提供硬件和软件工具帮助开发者在自动驾驶汽车中实现安全护栏。",
-     "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-     "aihot": "https://aihot.news/items/xem0hjpmq2qhw1f05ppxd5ixt",
+     "n": 2,
+     "title": "vLLM 支持 NVIDIA Vera Rubin NVL72：吞吐量达 GB200 NVL72 的 7.8 倍",
+     "source": "vLLM 官方博客（RSS）",
+     "ts": "2026-10-10T10:45:21.408000+08:00",
+     "publishedAt": "2026-10-09T00:00:00.000Z",
+     "discoveredAt": "2026-10-10T02:45:21.408Z",
+     "summary": "vLLM 现已支持 NVIDIA Vera Rubin NVL72，在 AgentX 上匹配交互性时每 GPU 吞吐量达 GB200 NVL72 的 7.8 倍，MLPerf 中 VLM 吞吐量最高为 GB300 NVL72 的 3.7 倍。",
+     "url": "https://vllm.ai/blog/2026-10-09-vera-rubin-preview",
+     "aihot": "https://aihot.news/items/u9xzcsipm3c31k0lfku1ej8v0",
      "selected": false,
-     "score": 47,
-     "category": "ai-products"
+     "score": 45,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：MiniMax (@MiniMax_AI)",
+       "title": "MiniMax M3 上线 NVIDIA Vera Rubin",
+       "url": "https://x.com/MiniMax_AI/status/2108793182968504771",
+       "aihot": "https://aihot.news/items/p6e383238q3f815oeex4uk5gs"
+      }
+     ]
     }
    ],
    "note": null
@@ -172,66 +137,9 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
-   "items": [
-    {
-     "n": 6,
-     "title": "消息称英伟达拟投资 AI 推理 ASIC 企业 d-Matrix，双方此前已达成技术合作",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-09T11:51:24.200000+08:00",
-     "publishedAt": "2026-10-09T03:23:10.923Z",
-     "discoveredAt": "2026-10-09T03:51:24.200Z",
-     "summary": "外媒 The Information 报道称，NVIDIA 拟投资 AI 推理 ASIC 芯片初创企业 d-Matrix，这是其\"事实收购\"Groq 后对芯片领域竞争对手的又一次重磅行动。",
-     "url": "https://www.ithome.com/1/010/847.htm",
-     "aihot": "https://aihot.news/items/an9spvbgn7rbosu0go6x91q9l",
-     "selected": false,
-     "score": 43,
-     "category": "industry"
-    },
-    {
-     "n": 7,
-     "title": "黄仁勋女婿 Nico Caprez 晋升英伟达全球 AI 基础设施增长副总裁",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-09T09:43:27.452000+08:00",
-     "publishedAt": "2026-10-09T01:18:19.957Z",
-     "discoveredAt": "2026-10-09T01:43:27.452Z",
-     "summary": "黄仁勋长女 Madison Huang 的丈夫 Nico Caprez 今年 1 月升任英伟达全球 AI 基础设施增长副总裁，完全跳过高级总监级别，加入英伟达不到两年。他负责数据中心运营和“Neocloud”服务，并参与推进目标超过 5,000 亿美元资本动员的 AI 计算融资平台。",
-     "url": "https://www.ithome.com/1/010/788.htm",
-     "aihot": "https://aihot.news/items/hynbmdsrcrg1lh9beis25garh",
-     "selected": false,
-     "score": 40,
-     "category": "industry"
-    },
-    {
-     "n": 8,
-     "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-09T07:20:16.953000+08:00",
-     "publishedAt": "2026-10-08T23:02:44.683Z",
-     "discoveredAt": "2026-10-08T23:20:16.953Z",
-     "summary": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。",
-     "url": "https://www.ithome.com/1/010/751.htm",
-     "aihot": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
-     "selected": true,
-     "score": 78,
-     "category": "industry"
-    },
-    {
-     "n": 9,
-     "title": "NVIDIA 承诺未来五年投入 10 亿美元推进美国科学研究",
-     "source": "NVIDIA：Newsroom（RSS）",
-     "ts": "2026-10-08T22:59:30.911000+08:00",
-     "publishedAt": "2026-10-08T14:31:00.000Z",
-     "discoveredAt": "2026-10-08T14:59:30.911Z",
-     "summary": "NVIDIA 宣布在未来五年投入价值 10 亿美元的资源，推进量子计算、医疗健康和能源安全等领域的超级智能研发。该承诺在华盛顿的 Science: A New Golden Age 活动上公布，涉及支持高校科研机构、量子计算投入和云服务商合作，并延续其与美国国家实验室超过二十年的合作，包括参与 Genesis Mis…",
-     "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
-     "aihot": "https://aihot.news/items/mjiagxsldu65z7csz1ej8idbp",
-     "selected": false,
-     "score": 55,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -243,34 +151,20 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 10,
-     "title": "NVIDIA Omniverse 如何用 GPT-6 Astra 等前沿 AI 智能体把想法变成仿真应用",
-     "source": "NVIDIA Blog（RSS）",
-     "ts": "2026-10-09T05:42:18.045000+08:00",
-     "publishedAt": "2026-10-08T21:06:35.000Z",
-     "discoveredAt": "2026-10-08T21:42:18.045Z",
-     "summary": "NVIDIA 展示开发者如何用 GPT-6 Astra、Claude Fable 5 等前沿 AI 智能体配合 Omniverse 库构建仿真应用，覆盖人形机器人仓库控制、自动驾驶测试、数字孪生传感器校验等场景。",
-     "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-     "aihot": "https://aihot.news/items/asm40uu12fgncweo197pxzzar",
+     "n": 3,
+     "title": "SGLang 与 Miles 在 NVIDIA Vera Rubin 上的早期适配：推理内核调优与端到端 RL 训练",
+     "source": "LMSYS Blog",
+     "ts": "2026-10-10T12:52:25.184000+08:00",
+     "publishedAt": "2026-10-09T00:00:00.000Z",
+     "discoveredAt": "2026-10-10T04:52:25.184Z",
+     "summary": "RadixArk 的 SGLang & Miles 团队获得两台 NVIDIA Vera Rubin 节点（8 GPU）的早期访问，将 SGLang 用于推理、Miles 用于 RL 训练并首次跑通。",
+     "url": "https://www.lmsys.org/blog/2026-10-09-vera-rubin",
+     "aihot": "https://aihot.news/items/ttqx5omqhex52rwgllwrl18z8",
      "selected": false,
-     "score": 34,
-     "category": "tip"
-    },
-    {
-     "n": 11,
-     "title": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
-     "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-     "ts": "2026-10-09T02:38:39.348000+08:00",
-     "publishedAt": "2026-10-07T16:00:00.000Z",
-     "discoveredAt": "2026-10-08T18:38:39.348Z",
-     "summary": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
-     "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
-     "aihot": "https://aihot.news/items/j6n1853qowosk0pks0y39o3eq",
-     "selected": true,
-     "score": 62,
+     "score": 50,
      "category": "tip"
     }
    ],

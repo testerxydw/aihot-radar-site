@@ -173,13 +173,13 @@ const DATA = {
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-08",
-  "winEnd": "2026-10-09",
-  "generated": "2026-10-09 15:14",
-  "rawHits": 9,
-  "selectedHits": 1,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "winStart": "2026-10-09",
+  "winEnd": "2026-10-10",
+  "generated": "2026-10-10 14:50",
+  "rawHits": 7,
+  "selectedHits": 0,
+  "shown": 0,
+  "dedupedFrom": 0,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -194,7 +194,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -202,7 +202,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -231,29 +231,14 @@ const DATA = {
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-08T18:24:29.949000+08:00",
-     "publishedAt": "2026-10-08T09:24:17.000Z",
-     "discoveredAt": "2026-10-08T10:24:29.949Z",
-     "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
-     "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
-     "aihot": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7",
-     "selected": true,
-     "score": 82,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
@@ -265,31 +250,16 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "字节 Seed 团队论文解释 DeepSeek 抽风原因，指长上下文检索存在相位敏感性",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-09T09:12:11.750000+08:00",
-     "publishedAt": "2026-10-09T00:49:58.453Z",
-     "discoveredAt": "2026-10-09T01:12:11.750Z",
-     "summary": "字节 Seed 团队 9 月底在 arXiv 提交论文，指出分块 KV 缓存压缩引入 Token 相位这一新位置坐标，导致检索性能周期性变化，用以解释 DeepSeek 的抽风现象。",
-     "url": "https://www.ithome.com/1/010/780.htm",
-     "aihot": "https://aihot.news/items/iyxwtrig39mb8pg496gcdkbxu",
-     "selected": false,
-     "score": 57,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
