@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-10",
-  "winEnd": "2026-10-11",
-  "generated": "2026-10-11 14:56",
-  "rawHits": 6,
+  "winStart": "2026-10-11",
+  "winEnd": "2026-10-12",
+  "generated": "2026-10-12 15:06",
+  "rawHits": 8,
   "selectedHits": 0,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "shown": 0,
+  "dedupedFrom": 0,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,52 +86,23 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 1,
-     "title": "Google Gemini 4 \"Carbon\" 被曝编程性能接近 Anthropic Opus 5.5",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-10T18:03:30.687000+08:00",
-     "publishedAt": "2026-10-10T08:59:49.000Z",
-     "discoveredAt": "2026-10-10T10:03:30.687Z",
-     "summary": "Google 正在内部测试 Gemini 4 的 Argon、Barium、Carbon 三个变体，其中 Carbon 已在内部编程平台 Jetski 部署，编程任务表现优于 Argon，有员工将其与 Anthropic 最强编程模型 Opus 5.5 相提并论。",
-     "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
-     "aihot": "https://aihot.news/items/j5rdjr1u88egef2aeo3ery2hk",
-     "selected": false,
-     "score": 40,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "每日AI简报：微软发布决策模型，谷歌测试Gemini 4",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-10T15:38:18.952000+08:00",
-     "publishedAt": "2026-10-10T07:16:07.000Z",
-     "discoveredAt": "2026-10-10T07:38:18.952Z",
-     "summary": "微软在Foundry推出Microsoft-Decision-1，基于Qwen3.5-9B后训练的快速决策评分模型，即将支持OpenRouter。谷歌为Gemini应用全量用户提供低中高思考等级，免费用户被迁移至Auto模式；",
-     "url": "https://x.com/testingcatalog/status/2108818845460844904",
-     "aihot": "https://aihot.news/items/s4ha597r3t3wvvrho01mxxant",
-     "selected": false,
-     "score": 34,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -145,7 +116,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

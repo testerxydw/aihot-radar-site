@@ -14,13 +14,13 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-10",
-  "winEnd": "2026-10-11",
-  "generated": "2026-10-11 14:56",
+  "winStart": "2026-10-11",
+  "winEnd": "2026-10-12",
+  "generated": "2026-10-12 15:06",
   "rawHits": 8,
   "selectedHits": 0,
-  "shown": 1,
-  "dedupedFrom": 2,
+  "shown": 0,
+  "dedupedFrom": 0,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "通义千问",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,46 +86,23 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "Microsoft 发布 Microsoft-Decision-1：基于 Qwen3.5-9B 的决策评分模型",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-10-10T15:11:20.383000+08:00",
-     "publishedAt": "2026-10-10T06:03:09.000Z",
-     "discoveredAt": "2026-10-10T07:11:20.383Z",
-     "summary": "Microsoft 发布 Microsoft-Decision-1，一个由 Qwen3.5-9B 后训练的决策评分模型，对固定选项输出校准概率而非生成文本，已上线 Microsoft Foundry 和 OpenRouter。",
-     "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
-     "aihot": "https://aihot.news/items/x1upix3ug5q2zpo4ojrzcfjcb",
-     "selected": false,
-     "score": 58,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Microsoft 发布 Decision-1 决策模型，基于 Qwen3.5-9B",
-       "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
-       "aihot": "https://aihot.news/items/b2p5q0fcdxo2gy7drxhseo2g0"
-      }
-     ]
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -139,7 +116,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

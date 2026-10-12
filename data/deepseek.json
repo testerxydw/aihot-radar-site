@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-10",
-  "winEnd": "2026-10-11",
-  "generated": "2026-10-11 14:56",
-  "rawHits": 3,
+  "winStart": "2026-10-11",
+  "winEnd": "2026-10-12",
+  "generated": "2026-10-12 15:06",
+  "rawHits": 5,
   "selectedHits": 0,
-  "shown": 0,
-  "dedupedFrom": 0,
+  "shown": 2,
+  "dedupedFrom": 2,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 3,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -70,7 +70,7 @@
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
@@ -82,9 +82,38 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek 拟融资超 120 亿美元、Manus 脱离 Meta 后获 5 亿美元、Kling 筹备超 10 亿美元 IPO",
+     "source": "Recode China AI（RSS）",
+     "ts": "2026-10-11T23:30:28.036000+08:00",
+     "publishedAt": "2026-10-11T14:54:12.000Z",
+     "discoveredAt": "2026-10-11T15:30:28.036Z",
+     "summary": "DeepSeek 正以至少 120 亿美元规模融资，腾讯参投，CNBC 消息称其考虑将规模翻倍至 150 亿美元。Manus 脱离 Meta 后首轮融资超 5 亿美元，重启北京办公室并转向个人 AI 助手。快手旗下 Kling 已选定投行筹备超 10 亿美元 IPO。",
+     "url": "https://www.recodechinaai.com/p/deepseek-raises-12b-manus-lands-500m",
+     "aihot": "https://aihot.news/items/s9u5ybnxaszwusfscizt3gze7",
+     "selected": false,
+     "score": 37,
+     "category": "industry"
+    },
+    {
+     "n": 2,
+     "title": "ChinaTalk 第三季度十大要点：DeepSeek 战略、AI 安全分歧与芯片化学供应链",
+     "source": "ChinaTalk（RSS）",
+     "ts": "2026-10-11T19:23:26.196000+08:00",
+     "publishedAt": "2026-10-11T11:08:09.000Z",
+     "discoveredAt": "2026-10-11T11:23:26.196Z",
+     "summary": "ChinaTalk 发布第三季度十大要点，其中《The DeepSeek Thesis》依据梁文锋与投资者四小时会议泄露纪要还原 DeepSeek 战略：梁文锋认为通用智能是唯一值得解决的问题，产品可以等待。",
+     "url": "https://www.chinatalk.media/p/10-takeaways-from-q3",
+     "aihot": "https://aihot.news/items/kgwhhemu328kjmkgn49koc3zt",
+     "selected": false,
+     "score": null,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
@@ -98,7 +127,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
