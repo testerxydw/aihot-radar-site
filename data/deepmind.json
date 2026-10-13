@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-11",
-  "winEnd": "2026-10-12",
-  "generated": "2026-10-12 15:06",
-  "rawHits": 8,
-  "selectedHits": 0,
-  "shown": 0,
-  "dedupedFrom": 0,
+  "winStart": "2026-10-12",
+  "winEnd": "2026-10-13",
+  "generated": "2026-10-13 15:30",
+  "rawHits": 23,
+  "selectedHits": 3,
+  "shown": 8,
+  "dedupedFrom": 8,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 4,
+    "count": 9,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 4,
+    "count": 15,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,37 +86,154 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "Google 筹备 Nano Banana 3 Pro",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-13T05:56:25.367000+08:00",
+     "publishedAt": "2026-10-12T21:42:09.000Z",
+     "discoveredAt": "2026-10-12T21:56:25.367Z",
+     "summary": "BREAKING 🔥：Google 正在筹备 Nano Banana 3 Pro，基于 Gemini 4 模型。 Gempix 是内部代号。预计将在 11 月至 12 月期间推出。 今年 💪👀",
+     "url": "https://x.com/testingcatalog/status/2109761567675838548",
+     "aihot": "https://aihot.news/items/q2fbmtxtnix1ixmdsefnfk0sr",
+     "selected": false,
+     "score": 36,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 2,
+   "items": [
+    {
+     "n": 2,
+     "title": "Gemini 4 Argon 今日面向 Ultra 订阅者上线",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-13T13:40:30.533000+08:00",
+     "publishedAt": "2026-10-13T05:27:04.000Z",
+     "discoveredAt": "2026-10-13T05:40:30.533Z",
+     "summary": "GOOGLE 🔥：已正式确认，今天就是 Gemini 4 Argon 到来的日子（面向 Ultra 订阅者）。 它要来了 👀",
+     "url": "https://x.com/testingcatalog/status/2109878567337439634",
+     "aihot": "https://aihot.news/items/duy8lmlu78gj269sgaxeczlnu",
+     "selected": false,
+     "score": 33,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
+     "source": "Artificial Analysis 完整文章（网页）",
+     "ts": "2026-10-13T03:53:22.710000+08:00",
+     "publishedAt": "2026-10-11T16:00:00.000Z",
+     "discoveredAt": "2026-10-12T19:53:22.710Z",
+     "summary": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort）。",
+     "url": "https://artificialanalysis.ai/articles/muse-wonder",
+     "aihot": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
+     "selected": true,
+     "score": 76,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "ChatGPT 网页流量份额回升至 56%，Gemini 微降至 25%",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-12T17:04:22.656000+08:00",
+     "publishedAt": "2026-10-12T08:51:53.000Z",
+     "discoveredAt": "2026-10-12T09:04:22.656Z",
+     "summary": "Similarweb 数据显示，ChatGPT 网页流量份额过去 4 个月持续回升，从 53% 升至 56%，但远低于一年前的 71%；Gemini 同期仅从 26% 微降至 25%，其去年增长主要来自 Gemini 3 的成功。",
+     "url": "https://x.com/testingcatalog/status/2109567721968976114",
+     "aihot": "https://aihot.news/items/ed92dcea2ytix6ee9qbqy3l73",
+     "selected": false,
+     "score": 47,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 5,
+     "title": "Hassabis 祝贺 AMIE 前瞻性临床研究发表于 The Lancet",
+     "source": "X：Demis Hassabis (@demishassabis)",
+     "ts": "2026-10-13T09:32:28.585000+08:00",
+     "publishedAt": "2026-10-13T01:09:37.000Z",
+     "discoveredAt": "2026-10-13T01:32:28.585Z",
+     "summary": "Google 与 BIDMC 合作的 AMIE 患者对话式诊断前瞻性研究在 TheLancet 发表，是 AMIE 首次在真实诊所外测试。临床医生报告称 AMIE 的病史摘要在 75% 的病例中有助于访视准备，其鉴别诊断与医生最终诊断的吻合率达 90%，这也是 Google 首篇登上 The Lancet 主刊的论文。",
+     "url": "https://x.com/demishassabis/status/2109813775377563908",
+     "aihot": "https://aihot.news/items/qbi6xi7a3re15txfell8i9a7c",
+     "selected": true,
+     "score": 65,
+     "category": "paper"
+    },
+    {
+     "n": 6,
+     "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-12T17:44:06.673000+08:00",
+     "publishedAt": "2026-10-12T09:35:54.000Z",
+     "discoveredAt": "2026-10-12T09:44:06.673Z",
+     "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
+     "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+     "aihot": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk",
+     "selected": true,
+     "score": 76,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 7,
+     "title": "Gemini 相关推文",
+     "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+     "ts": "2026-10-13T10:51:29.419000+08:00",
+     "publishedAt": "2026-10-13T02:39:51.000Z",
+     "discoveredAt": "2026-10-13T02:51:29.419Z",
+     "summary": "Gemini --- **说明：** 主推文内容仅为 \"Gemini\" 一个词，没有更多可翻译的正文内容。由于原文极短且无实质信息，标题只能以主体 \"Gemini\" 为核心，无法进一步概括具体事件或动作。如需更准确的标题，建议提供完整的推文内容。",
+     "url": "https://x.com/OfficialLoganK/status/2109836485981778260",
+     "aihot": "https://aihot.news/items/fm4cbzhqec3h5yzjfnhwe3k3k",
+     "selected": false,
+     "score": 9,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "Gemini 4 Argon 据称在 Antigravity 上 A/B 测试",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-12T22:43:21.081000+08:00",
+     "publishedAt": "2026-10-12T14:25:19.000Z",
+     "discoveredAt": "2026-10-12T14:43:21.081Z",
+     "summary": "GOOGLE 🔥：据报道，Gemini 4 Argon 已在 Antigravity 上以 Gemini 3.8 Flash 的名义进行了一段时间的 A/B 测试。 相比现有的 Flash 模型，这似乎是一次巨大的跃升。 世界生成提示词 > Gemini 4 Argon（据称）",
+     "url": "https://x.com/testingcatalog/status/2109651631583240290",
+     "aihot": "https://aihot.news/items/wc7j9e0x98iw5yx6cp3zm2522",
+     "selected": false,
+     "score": 28,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [

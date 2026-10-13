@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-11",
-  "winEnd": "2026-10-12",
-  "generated": "2026-10-12 15:06",
-  "rawHits": 5,
+  "winStart": "2026-10-12",
+  "winEnd": "2026-10-13",
+  "generated": "2026-10-13 15:31",
+  "rawHits": 10,
   "selectedHits": 0,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "shown": 3,
+  "dedupedFrom": 4,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 10,
     "hasMore": false,
     "from_cache": false
    },
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -70,50 +70,58 @@
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
    "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "DeepSeek 拟融资超 120 亿美元、Manus 脱离 Meta 后获 5 亿美元、Kling 筹备超 10 亿美元 IPO",
-     "source": "Recode China AI（RSS）",
-     "ts": "2026-10-11T23:30:28.036000+08:00",
-     "publishedAt": "2026-10-11T14:54:12.000Z",
-     "discoveredAt": "2026-10-11T15:30:28.036Z",
-     "summary": "DeepSeek 正以至少 120 亿美元规模融资，腾讯参投，CNBC 消息称其考虑将规模翻倍至 150 亿美元。Manus 脱离 Meta 后首轮融资超 5 亿美元，重启北京办公室并转向个人 AI 助手。快手旗下 Kling 已选定投行筹备超 10 亿美元 IPO。",
-     "url": "https://www.recodechinaai.com/p/deepseek-raises-12b-manus-lands-500m",
-     "aihot": "https://aihot.news/items/s9u5ybnxaszwusfscizt3gze7",
+     "title": "WorkBuddy 延续 DeepSeek V4.1 Flash 免费",
+     "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+     "ts": "2026-10-13T00:15:27.086000+08:00",
+     "publishedAt": "2026-10-12T15:52:27.000Z",
+     "discoveredAt": "2026-10-12T16:15:27.086Z",
+     "summary": "好消息：免费访问继续。 应大家要求，DeepSeek V4.1 Flash 将在 WorkBuddy 上保持免费至 10 月 31 日。 趁还在，继续探索吧。",
+     "url": "https://x.com/WorkBuddy_AI/status/2109673559710974130",
+     "aihot": "https://aihot.news/items/et5jjq1lkurv4o8wmsmicmd52",
      "selected": false,
-     "score": 37,
-     "category": "industry"
+     "score": 24,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：opencode (@opencode)",
+       "title": "OpenCode 推出 DeepSeek V4.1 Flash 低价活动",
+       "url": "https://x.com/opencode/status/2109573342584058065",
+       "aihot": "https://aihot.news/items/sf1sa4d5stzpn0iki8mgtxu7e"
+      }
+     ]
     },
     {
      "n": 2,
-     "title": "ChinaTalk 第三季度十大要点：DeepSeek 战略、AI 安全分歧与芯片化学供应链",
-     "source": "ChinaTalk（RSS）",
-     "ts": "2026-10-11T19:23:26.196000+08:00",
-     "publishedAt": "2026-10-11T11:08:09.000Z",
-     "discoveredAt": "2026-10-11T11:23:26.196Z",
-     "summary": "ChinaTalk 发布第三季度十大要点，其中《The DeepSeek Thesis》依据梁文锋与投资者四小时会议泄露纪要还原 DeepSeek 战略：梁文锋认为通用智能是唯一值得解决的问题，产品可以等待。",
-     "url": "https://www.chinatalk.media/p/10-takeaways-from-q3",
-     "aihot": "https://aihot.news/items/kgwhhemu328kjmkgn49koc3zt",
+     "title": "华为昇腾在华份额或超英伟达，DeepSeek 部署 16 万芯片",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-10-12T22:43:21.117000+08:00",
+     "publishedAt": "2026-10-12T14:24:08.000Z",
+     "discoveredAt": "2026-10-12T14:43:21.117Z",
+     "summary": "华为称昇腾 AI 芯片在中国已超越英伟达，Bernstein 估计其今年或拿下约 50% 中国市场，而英伟达仅 8%。华为轮值董事长徐直军表示瓶颈已不在芯片设计，而在制造工艺与供应；DeepSeek 据报计划在内蒙古数据中心部署至少 16 万颗昇腾 950DT 芯片。",
+     "url": "https://x.com/thexpin/status/2109651336274857989",
+     "aihot": "https://aihot.news/items/flhtha81to61bn8ne74f9zd3w",
      "selected": false,
-     "score": null,
-     "category": "industry"
+     "score": 42,
+     "category": "ai-products"
     }
    ],
    "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -125,9 +133,24 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "英特尔 CEO 陈立武：DeepSeek、Kimi、GLM 等中国前沿 AI 模型普及速度非常快",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-12T17:59:06.042000+08:00",
+     "publishedAt": "2026-10-12T09:34:01.423Z",
+     "discoveredAt": "2026-10-12T09:59:06.042Z",
+     "summary": "英特尔 CEO 陈立武表示，DeepSeek、Kimi 和 GLM 等中国前沿 AI 模型的 Token 成本较低，普及速度非常快，性能已经足够好。他坚定支持开源，认为这是提高效率的最优路径，并称市场将决定不同模型的应用场景。他还表示量子计算可能在未来三到五年内走向主流。",
+     "url": "https://www.ithome.com/1/012/013.htm",
+     "aihot": "https://aihot.news/items/g39ofs9upownbm9i2135taduu",
+     "selected": false,
+     "score": 36,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
