@@ -175,13 +175,13 @@ const DATA = {
    "Dario Amodei"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-15",
-  "winEnd": "2026-10-16",
-  "generated": "2026-10-16 13:37",
+  "winStart": "2026-10-16",
+  "winEnd": "2026-10-17",
+  "generated": "2026-10-17 13:25",
   "rawHits": 46,
-  "selectedHits": 7,
-  "shown": 18,
-  "dedupedFrom": 28,
+  "selectedHits": 8,
+  "shown": 22,
+  "dedupedFrom": 39,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "Anthropic",
     "mode": "selected",
     "window": "24h",
-    "count": 5,
+    "count": 6,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Claude",
     "mode": "selected",
     "window": "24h",
-    "count": 5,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Dario Amodei",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,60 +247,142 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 7,
    "items": [
     {
      "n": 1,
-     "title": "Anthropic 宣布新一代反蒸馏防御措施，推理 token 窃取量下降 90%–99%",
-     "source": "X：邵猛 (@shao__meng)",
-     "ts": "2026-10-16T10:40:46.173000+08:00",
-     "publishedAt": "2026-10-16T02:39:56.000Z",
-     "discoveredAt": "2026-10-16T02:40:46.173Z",
-     "summary": "Anthropic 发布蒸馏防御研究，称几个月来蒸馏攻击获取的推理 token 量下降 90%–99%，并将蒸馏定调为国家安全问题。",
-     "url": "https://x.com/shao__meng/status/2110923670755631111",
-     "aihot": "https://aihot.news/items/sj5d4076973hvnycu7q7amr4z",
+     "title": "Claude Code v2.1.302 发布：新增自动模式模型选择与空闲压缩开关",
+     "source": "Claude Code：GitHub Releases（RSS）",
+     "ts": "2026-10-17T07:35:32.199000+08:00",
+     "publishedAt": "2026-10-16T20:53:06.000Z",
+     "discoveredAt": "2026-10-16T23:35:32.199Z",
+     "summary": "Claude Code v2.1.302 新增 CLAUDE_CODE_AUTO_MODE_MODEL 环境变量，可指定客户端自动模式分类器所用模型，并支持在 /config 中关闭或重新开启空闲压缩。",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+     "aihot": "https://aihot.news/items/ksaap5hd0ia9ilsqx5h3nso9i",
      "selected": false,
-     "score": 81,
+     "score": 37,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Claude、Gemini、GPT 重建同一游戏视觉",
-     "source": "X：OpenRouter (@OpenRouter)",
-     "ts": "2026-10-16T06:47:45.059000+08:00",
-     "publishedAt": "2026-10-15T22:24:41.000Z",
-     "discoveredAt": "2026-10-15T22:47:45.059Z",
-     "summary": "Claude Opus 5.5、Gemini 4 Argon 和 GPT-6 Astra 各自重建了同一个 Royale: Last Agent Standing 的游戏视觉效果。",
-     "url": "https://x.com/OpenRouter/status/2110859435023483078",
-     "aihot": "https://aihot.news/items/xr283hdvjndnwcmt2v597qhg9",
+     "title": "Claude Code 优化响应速度",
+     "source": "X：Claude Devs (@ClaudeDevs)",
+     "ts": "2026-10-17T06:05:16.801000+08:00",
+     "publishedAt": "2026-10-16T21:34:34.000Z",
+     "discoveredAt": "2026-10-16T22:05:16.801Z",
+     "summary": "我们持续提升 Claude 的各项性能，你可能已经注意到它开始更快地响应了！ Claude Code 现在会对每一轮发送的对话内容进行 gzip 压缩，从而更快地送达模型。云端会话也会在你开始输入时立即启动。",
+     "url": "https://x.com/ClaudeDevs/status/2111209208012210409",
+     "aihot": "https://aihot.news/items/tnd3vvo8kshbdjlnwq7yrxbwb",
      "selected": false,
-     "score": 35,
+     "score": 29,
      "category": "ai-models"
     },
     {
      "n": 3,
-     "title": "Ori 让 Claude Code 自动权限模式兼容任意模型",
-     "source": "X：OpenRouter (@OpenRouter)",
-     "ts": "2026-10-16T05:14:45.671000+08:00",
-     "publishedAt": "2026-10-15T21:00:23.000Z",
-     "discoveredAt": "2026-10-15T21:14:45.671Z",
-     "summary": "Armor 让 Claude Code 的自动权限模式兼容任意模型。想要即时设置，用 Ori 运行 Claude Code 和你喜欢的模型： $ ori claude --model moonshotai/kimi-k3 -- --permission-mode auto",
-     "url": "https://x.com/OpenRouter/status/2110838217834696885",
-     "aihot": "https://aihot.news/items/zhoyhugkyspor2zmhabd5qpij",
+     "title": "Claude Haiku 5.5 写俳句并用 JS 绘制动画",
+     "source": "X：Claude (@claudeai)",
+     "ts": "2026-10-17T03:32:30.459000+08:00",
+     "publishedAt": "2026-10-16T19:29:56.000Z",
+     "discoveredAt": "2026-10-16T19:32:30.459Z",
+     "summary": "Haiku 5.5 写了二十首俳句，然后用 JavaScript 画出了每一帧。",
+     "url": "https://x.com/claudeai/status/2111177845846495646",
+     "aihot": "https://aihot.news/items/x7h24h8lcdi7swjyv4z1ztlks",
      "selected": false,
-     "score": 44,
+     "score": 25,
      "category": "ai-models"
     },
     {
      "n": 4,
-     "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
-     "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-     "ts": "2026-10-15T23:53:27.171000+08:00",
-     "publishedAt": "2026-10-15T15:30:00.000Z",
-     "discoveredAt": "2026-10-15T15:53:27.171Z",
-     "summary": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据…",
-     "url": "https://x.com/StepFun_ai/status/2110755075845169428",
-     "aihot": "https://aihot.news/items/mimehokpfhvz10dk3pdz131ky",
+     "title": "Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
+     "source": "Anthropic：Research（发表成果 · 网页）",
+     "ts": "2026-10-17T03:25:29.271000+08:00",
+     "publishedAt": "2026-10-15T16:00:00.000Z",
+     "discoveredAt": "2026-10-16T19:25:29.271Z",
+     "summary": "Anthropic 团队让内部研究模型在不到半小时内发现 NIST P-192、P-224、P-256、P-384、P-521 等曲线种子的来源：它们并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需要 1842 次迭代。",
+     "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+     "aihot": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
+     "selected": true,
+     "score": 78,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：邵猛 (@shao__meng)",
+       "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+       "url": "https://x.com/shao__meng/status/2111274173192638932",
+       "aihot": "https://aihot.news/items/p4mq9t7wyzlxritu15i6d8dtv"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "Anthropic 用 Claude 不到 30 分钟追溯出 NIST 五条椭圆曲线种子来源",
+       "url": "https://www.ithome.com/1/014/191.htm",
+       "aihot": "https://aihot.news/items/rotnddfabetd8lswa5udswghj"
+      },
+      {
+       "source": "X：马东锡 NLP (@dongxi_nlp)",
+       "title": "Anthropic 如何做 Code Review：机器初审加人工分级审批",
+       "url": "https://x.com/dongxi_nlp/status/2111202933849178210",
+       "aihot": "https://aihot.news/items/g0u21j3abhg21fsprjwk94vap"
+      },
+      {
+       "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+       "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
+       "url": "https://x.com/adocomplete/status/2111171735806767558",
+       "aihot": "https://aihot.news/items/kygipgwqrajle6hctg9nqid7w"
+      },
+      {
+       "source": "X：Claude Devs (@ClaudeDevs)",
+       "title": "Anthropic 称 Claude 编写了约 90% 的 Claude Code 代码",
+       "url": "https://x.com/ClaudeDevs/status/2111168901723906176",
+       "aihot": "https://aihot.news/items/xrf8ehv7iav37g8cwrmbsj1v5"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Anthropic 用 Claude Mythos 5 设计出更高效的量子电路，多项超过已发表最优设计",
+     "source": "Anthropic：Research（发表成果 · 网页）",
+     "ts": "2026-10-17T02:24:30.168000+08:00",
+     "publishedAt": "2026-10-15T16:00:00.000Z",
+     "discoveredAt": "2026-10-16T18:24:30.168Z",
+     "summary": "Anthropic 发布研究报告，让 Claude Mythos 5 在闭环中自主优化量子电路：模型提出电路设计、由自动评估器验证正确性并按 qubit 数乘以门数打分，八项涵盖化学、优化、量子模拟和数论的任务均超过此前最优已发表设计，部分提升达一个数量级以上。",
+     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+     "aihot": "https://aihot.news/items/jn8i9j3ppsb0f79mrtldd43h8",
+     "selected": true,
+     "score": 73,
+     "category": "ai-models"
+    },
+    {
+     "n": 6,
+     "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
+     "source": "Ollama：Blog（RSS）",
+     "ts": "2026-10-16T22:04:21.340000+08:00",
+     "publishedAt": "2026-10-16T00:00:00.000Z",
+     "discoveredAt": "2026-10-16T14:04:21.340Z",
+     "summary": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
+     "url": "https://ollama.com/blog/reflection-beam",
+     "aihot": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w",
+     "selected": true,
+     "score": 72,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "Artificial Analysis 完整文章（网页）",
+       "title": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
+       "url": "https://artificialanalysis.ai/articles/reflection-beam",
+       "aihot": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+     "source": "PromptArmor：Threat Intelligence",
+     "ts": "2026-10-16T16:25:17.237000+08:00",
+     "publishedAt": "2026-10-16T00:00:00.000Z",
+     "discoveredAt": "2026-10-16T08:25:17.237Z",
+     "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+     "url": "https://www.promptarmor.com/resources/open-weight-susceptibility",
+     "aihot": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d",
      "selected": true,
      "score": 67,
      "category": "ai-models"
@@ -311,90 +393,34 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 6,
+   "count": 2,
    "items": [
     {
-     "n": 5,
-     "title": "OpenRouter 推出 ori，可在其平台任意模型上运行 Claude Code 等工具",
-     "source": "X：OpenRouter (@OpenRouter)",
-     "ts": "2026-10-16T06:47:45.053000+08:00",
-     "publishedAt": "2026-10-15T22:24:44.000Z",
-     "discoveredAt": "2026-10-15T22:47:45.053Z",
-     "summary": "OpenRouter 发布 ori，支持在 OpenRouter 上的任意模型运行 Claude Code 及 Codex、Pi 等工具。安装命令为 curl -fsSL https://openrouter.ai/labs/ori/install.sh | bash，示例命令 ori claude --model…",
-     "url": "https://x.com/OpenRouter/status/2110859447287578631",
-     "aihot": "https://aihot.news/items/wof226xvs9u3rhsgml7o81n5m",
-     "selected": false,
-     "score": 64,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "Anthropic 出资 500 万美元支持数学界用 AI",
-     "source": "X：Anthropic (@AnthropicAI)",
-     "ts": "2026-10-16T05:54:45.201000+08:00",
-     "publishedAt": "2026-10-15T21:31:45.000Z",
-     "discoveredAt": "2026-10-15T21:54:45.201Z",
-     "summary": "Anthropic 承诺投入 500 万美元资金、算力与 Claude 访问权限，帮助数学界应对 AI 带来的巨大变化，并与 Simons Foundation 合作以社区驱动方式管理该资助，支持工作坊、会议和领域专家讲座。",
-     "url": "https://x.com/AnthropicAI/status/2110846112152105136",
-     "aihot": "https://aihot.news/items/czozt6juvumudhf25edslqks1",
-     "selected": false,
-     "score": 44,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "Hugging Face 谈开源参与 Anthropic 对齐评估",
-     "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-     "ts": "2026-10-16T04:52:45.462000+08:00",
-     "publishedAt": "2026-10-15T20:50:16.000Z",
-     "discoveredAt": "2026-10-15T20:52:45.462Z",
-     "summary": "我们要派一堆 Microducks 去评估 @AnthropicAI！ 开个玩笑，这事还没获批，但在我看来，让开源工程师和科学家参与这些重要工作以实现透明度非常重要。这也是 @Thom_Wolf 发起开放对齐倡议的重要原因之一。我们同舟共济！",
-     "url": "https://x.com/ClementDelangue/status/2110835673003667527",
-     "aihot": "https://aihot.news/items/qresombap5b5891gsjsxz9bwl",
-     "selected": false,
-     "score": 30,
-     "category": "ai-products"
-    },
-    {
      "n": 8,
-     "title": "Claude Code v2.1.301 发布：新增重试看门狗与 OpenTelemetry 追踪",
-     "source": "Claude Code：GitHub Releases（RSS）",
-     "ts": "2026-10-16T04:13:45.030000+08:00",
-     "publishedAt": "2026-10-15T19:22:06.000Z",
-     "discoveredAt": "2026-10-15T20:13:45.030Z",
-     "summary": "Claude Code 发布 v2.1.301，新增 CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS，让无人值守重试模式在用量限额重置过远时直接结束请求而非等待。",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-     "aihot": "https://aihot.news/items/ogxihw52jb6a8iobwuqeq06gd",
+     "title": "Simon Willison 用 Claude Code 构建 LaTeX 渲染工具，文档存于 URL fragment",
+     "source": "Simon Willison 博客",
+     "ts": "2026-10-17T07:22:30.407000+08:00",
+     "publishedAt": "2026-10-15T02:07:28.000Z",
+     "discoveredAt": "2026-10-16T23:22:30.407Z",
+     "summary": "Simon Willison 受 Tiny Little Office 启发，用 Claude Code（Opus 5.5 Extra）构建了一个 LaTeX 渲染工具，通过 URL 的 #fragment 存放 LaTeX 代码并渲染，支持自定义压缩字典。",
+     "url": "https://simonwillison.net/2026/Oct/15/latex/",
+     "aihot": "https://aihot.news/items/y2snktdz73xohx7nsb8lmceyh",
      "selected": false,
-     "score": 34,
+     "score": 53,
      "category": "ai-products"
     },
     {
      "n": 9,
-     "title": "Conductor 0.91.0 发布：修复大量细节问题，新增 Claude Haiku 5.5",
-     "source": "Conductor 官方更新",
-     "ts": "2026-10-16T03:46:45.917000+08:00",
-     "publishedAt": "2026-10-15T00:00:00.000Z",
-     "discoveredAt": "2026-10-15T19:46:45.917Z",
-     "summary": "Conductor 发布 0.91.0 版本，本次更新以打磨体验和修复细节问题为主，涵盖聊天、云工作区、PR 和文件同步等数十项修复。新增功能包括在 agent 回复和 Markdown 预览中一键运行 Bash 代码片段、模型选择器加入 Claude Haiku 5.5，以及 macOS 26 上的本地语音转写。",
-     "url": "https://www.conductor.build/changelog/0.91.0-a-mostly-boring-update",
-     "aihot": "https://aihot.news/items/qtvago4b20kumspit36zw250b",
+     "title": "Luma 支持从 Claude Motion 导入动画继续创作",
+     "source": "X：Luma AI (@LumaLabsAI)",
+     "ts": "2026-10-17T02:47:15.932000+08:00",
+     "publishedAt": "2026-10-16T18:26:06.000Z",
+     "discoveredAt": "2026-10-16T18:47:15.932Z",
+     "summary": "在 Claude Motion 里做好了？来 Luma 继续。 把你的动画发过来，从这里接着做。 在 Claude Motion 里找到 Send to Luma。",
+     "url": "https://x.com/LumaLabsAI/status/2111161778247786541",
+     "aihot": "https://aihot.news/items/mm69tb6liwi6f9gkuvbgldcwv",
      "selected": false,
-     "score": 35,
-     "category": "ai-products"
-    },
-    {
-     "n": 10,
-     "title": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-16T00:29:31.542000+08:00",
-     "publishedAt": "2026-10-15T00:00:00.000Z",
-     "discoveredAt": "2026-10-15T16:29:31.542Z",
-     "summary": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
-     "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/",
-     "aihot": "https://aihot.news/items/i0rgqwqwxspm5dl3314cc3ewt",
-     "selected": true,
-     "score": 61,
+     "score": 28,
      "category": "ai-products"
     }
    ],
@@ -403,96 +429,160 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 5,
+   "count": 7,
    "items": [
     {
-     "n": 11,
-     "title": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
+     "n": 10,
+     "title": "Anthropic 内部调查：多数员工预计到 2030 年 AI 能完成至少八成工作",
      "source": "IT之家·人工智能",
-     "ts": "2026-10-16T09:23:42.321000+08:00",
-     "publishedAt": "2026-10-16T00:54:07.827Z",
-     "discoveredAt": "2026-10-16T01:23:42.321Z",
-     "summary": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-     "url": "https://www.ithome.com/1/013/723.htm",
-     "aihot": "https://aihot.news/items/ldwt1jervkxlsh99322u661fc",
+     "ts": "2026-10-17T08:08:29.960000+08:00",
+     "publishedAt": "2026-10-16T23:45:10.100Z",
+     "discoveredAt": "2026-10-17T00:08:29.960Z",
+     "summary": "据《商业内幕》报道，Anthropic 一项对比 1334 名员工与美国成年人的调查显示，大多数员工预计到 2030 年自己至少 80% 的工作可交给 AI 完成，而美国劳动者中仅约 5% 持相同看法。",
+     "url": "https://www.ithome.com/1/014/205.htm",
+     "aihot": "https://aihot.news/items/hwu0e97477aihz809k1f61d9l",
+     "selected": false,
+     "score": 62,
+     "category": "industry"
+    },
+    {
+     "n": 11,
+     "title": "Anthropic 报告：AI 如何改变公司内部的雇佣与工作组织",
+     "source": "Anthropic：Research（发表成果 · 网页）",
+     "ts": "2026-10-17T07:28:32.543000+08:00",
+     "publishedAt": "2026-10-15T16:00:00.000Z",
+     "discoveredAt": "2026-10-16T23:28:32.543Z",
+     "summary": "Anthropic 发布基于内部数据的技术报告，研究 AI 对自身雇佣与工作组织的影响。到 2026 年 8 月，交互式 AI agent 工时已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。",
+     "url": "https://www.anthropic.com/research/employment-at-anthropic",
+     "aihot": "https://aihot.news/items/nextj30ehkdcjpzpk4fgz1p1w",
      "selected": true,
      "score": 77,
      "category": "industry"
     },
     {
      "n": 12,
-     "title": "纽约市审计长要求 Anthropic 推迟 IPO 直至解决安全担忧",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-16T05:30:44.892000+08:00",
-     "publishedAt": "2026-10-15T21:13:04.000Z",
-     "discoveredAt": "2026-10-15T21:30:44.892Z",
-     "summary": "纽约市审计长致信 Anthropic CEO Dario Amodei，要求公司在完全透明地解决 AI 安全、治理和发展节奏问题前推迟 IPO。他管理超过 $325B 的纽约市养老资产，对 Anthropic 敞口约 $7M，要求 Anthropic 说明计划的审计与保障措施、针对的风险及实施时间表，并认为与白宫签署…",
-     "url": "https://x.com/rohanpaul_ai/status/2110841412401172829",
-     "aihot": "https://aihot.news/items/ny5lwpr20pq2i4rqmh60jtc0n",
-     "selected": false,
-     "score": 56,
-     "category": "industry"
-    },
-    {
-     "n": 13,
-     "title": "Anthropic 与 Gray Swan 合作举办 30 万美元间接提示词注入红队挑战赛",
-     "source": "X：Boris Cherny (@bcherny)",
-     "ts": "2026-10-16T02:16:30.344000+08:00",
-     "publishedAt": "2026-10-15T17:55:32.000Z",
-     "discoveredAt": "2026-10-15T18:16:30.344Z",
-     "summary": "Boris Cherny 转发 Gray Swan 与 Anthropic、Meta、Google DeepMind、Reflection 等合作举办的间接提示词注入红队挑战赛，总奖金池 30 万美元。",
-     "url": "https://x.com/bcherny/status/2110791698611855624",
-     "aihot": "https://aihot.news/items/sd884iv6naytl6n1mnw40rmst",
-     "selected": false,
-     "score": 63,
-     "category": "industry"
-    },
-    {
-     "n": 14,
-     "title": "Anthropic 公布独立评估机制细节，METR 团队获类员工访问权限",
-     "source": "Anthropic：Newsroom（网页）",
-     "ts": "2026-10-16T02:02:29.738000+08:00",
-     "publishedAt": "2026-10-14T16:00:00.000Z",
-     "discoveredAt": "2026-10-15T18:02:29.738Z",
-     "summary": "Anthropic 宣布已向评估前沿 AI 模型的非营利机构 METR 的六名员工提供类员工访问权限，包括公司硬件、办公空间和与内部风险评估团队相当的内部系统访问，METR 将公开发布风险评估结果，Anthropic 不得否决发布但可要求删减少数预定义类别的信息。",
-     "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-     "aihot": "https://aihot.news/items/xl51s0hyyzi1krwrmown4hoqh",
+     "title": "Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟",
+     "source": "Anthropic：Research（发表成果 · 网页）",
+     "ts": "2026-10-17T07:28:32.537000+08:00",
+     "publishedAt": "2026-10-15T16:00:00.000Z",
+     "discoveredAt": "2026-10-16T23:28:32.537Z",
+     "summary": "Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）与其员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大。91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。",
+     "url": "https://www.anthropic.com/research/ai-expectations-gap",
+     "aihot": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
      "selected": true,
-     "score": 62,
+     "score": 60,
      "category": "industry",
      "also": [
       {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "Anthropic 向 METR 研究人员开放员工级访问权限",
-       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-       "aihot": "https://aihot.news/items/cz3ftpej2w40xy997086vhzv7"
+       "source": "Anthropic：Research（发表成果 · 网页）",
+       "title": "Anthropic 发布两份报告：AI 改变内部用工，员工与公众对未来预期差距显著",
+       "url": "https://www.anthropic.com/research/expectations-for-the-future",
+       "aihot": "https://aihot.news/items/wtmd78luqk5s14wflubin5or3"
       },
       {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Anthropic 给外部机构 METR 的 6 名安全评估员开放近似员工级别的内部访问",
-       "url": "https://x.com/rohanpaul_ai/status/2110802609678450830",
-       "aihot": "https://aihot.news/items/and82too6mhlh00mifpmoa3sd"
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 发布 AI 进展对经济影响的情景比较框架",
+       "url": "https://x.com/PeterMcCrory/status/2111197615425716275",
+       "aihot": "https://aihot.news/items/g722f2gmhr4tv13457sir4flv"
       },
       {
-       "source": "X：Anthropic (@AnthropicAI)",
-       "title": "Anthropic 介绍第三方安全评估合作进展并向 METR 团队开放员工级访问",
-       "url": "https://x.com/AnthropicAI/status/2110784662071398807",
-       "aihot": "https://aihot.news/items/pwrv4rzq54p7dn9gmbv7mk95k"
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 内部 AI 智能体使用量超员工 6 倍",
+       "url": "https://x.com/PeterMcCrory/status/2111197599852302346",
+       "aihot": "https://aihot.news/items/sryb8nzgoa7pffv3nvi3b7c4r"
+      },
+      {
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 发布 AI 经济影响研究",
+       "url": "https://x.com/PeterMcCrory/status/2111197616772124764",
+       "aihot": "https://aihot.news/items/yihmpn4roz4iqoa4s5nu68oti"
+      },
+      {
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 发布 AI 经济影响新发现",
+       "url": "https://x.com/PeterMcCrory/status/2111197592285860233",
+       "aihot": "https://aihot.news/items/glwltnoweiw1jh54cuhghi6jl"
+      },
+      {
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 招聘转向自主性与判断力",
+       "url": "https://x.com/PeterMcCrory/status/2111197608945611260",
+       "aihot": "https://aihot.news/items/ziy32wdrr2r6fxl4d0af3zj49"
+      },
+      {
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic：AI 智能体普及带动公司生产力提升",
+       "url": "https://x.com/PeterMcCrory/status/2111197604264763461",
+       "aihot": "https://aihot.news/items/twkjgz5rg4pk27hexz63vnsb4"
+      },
+      {
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 员工与公众对 AI 经济影响看法相似",
+       "url": "https://x.com/PeterMcCrory/status/2111197613521572033",
+       "aihot": "https://aihot.news/items/gd0pq12ykfkcltpf3i4n79hag"
+      },
+      {
+       "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+       "title": "Anthropic 员工与公众对 AI 进展预期对比",
+       "url": "https://x.com/PeterMcCrory/status/2111197595943256119",
+       "aihot": "https://aihot.news/items/xq1cjhgzi7abf5z33vtvxuwka"
       }
      ]
     },
     {
-     "n": 15,
-     "title": "埃森哲限制员工每月 Claude 用量报销至 29 美元",
-     "source": "404 Media（RSS）",
-     "ts": "2026-10-16T00:56:34.767000+08:00",
-     "publishedAt": "2026-10-15T16:46:18.000Z",
-     "discoveredAt": "2026-10-15T16:56:34.767Z",
-     "summary": "埃森哲自 10 月 1 日起对 Claude Enterprise 实行新费用政策，公司每人每月仅集中承担 29 美元用量，超出部分需员工找到具体项目或团队（WBS）出资。据 404 Media 看到的内部消息，有员工月用量达 500 至 1000 美元，有人正争取升级到每周含 250 美元 token 用量的 Pr…",
-     "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
-     "aihot": "https://aihot.news/items/cgm6nmpld3s4b141xfif2z7au",
+     "n": 13,
+     "title": "Anthropic 向美国国会推介 AI 监管草案，仅模型造成 10 亿美元损失或 50 人以上伤亡时方可叫停",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-17T07:28:31.113000+08:00",
+     "publishedAt": "2026-10-16T23:05:10.797Z",
+     "discoveredAt": "2026-10-16T23:28:31.113Z",
+     "summary": "据 POLITICO 报道，Anthropic 代表已向美国国会议员推介一份前沿 AI 安全与防务监管法案草案。草案规定仅在模型可预见地造成超过 10 亿美元经济损失、或导致 50 人以上死亡或重伤，且风险特定源自生物武器、模型失控或严重网络攻击时，政府方可叫停模型，措辞沿用加州 SB 53 等现行法案条款。",
+     "url": "https://www.ithome.com/1/014/193.htm",
+     "aihot": "https://aihot.news/items/jxszzjrwfc4656n0m8oh0elgt",
      "selected": false,
-     "score": 66,
+     "score": 69,
+     "category": "industry"
+    },
+    {
+     "n": 14,
+     "title": "Anthropic 报告：智能体工时达人类员工 6 倍，初级技术岗位招聘占比从 27% 降至 9%",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-17T07:28:31.105000+08:00",
+     "publishedAt": "2026-10-16T23:13:28.910Z",
+     "discoveredAt": "2026-10-16T23:28:31.105Z",
+     "summary": "Anthropic 于 10 月 16 日发布报告，称其员工部署的交互式 AI 智能体工作时长到 2026 年 8 月已达人类员工的 6 倍，人均创收为 Meta 和谷歌同期的 2 至 4 倍。",
+     "url": "https://www.ithome.com/1/014/195.htm",
+     "aihot": "https://aihot.news/items/we5x0aeailoezuugv834oxpr2",
+     "selected": false,
+     "score": 72,
+     "category": "industry"
+    },
+    {
+     "n": 15,
+     "title": "Claude Opus 5.5 打造野火分析原型",
+     "source": "X：Claude (@claudeai)",
+     "ts": "2026-10-17T03:32:30.485000+08:00",
+     "publishedAt": "2026-10-16T19:29:54.000Z",
+     "discoveredAt": "2026-10-16T19:32:30.485Z",
+     "summary": "最近几周引起我们关注的六个项目： 一个野火分析原型，可绘制火灾随时间的蔓延情况并追踪热点，使用 Opus 5.5 制作。",
+     "url": "https://x.com/claudeai/status/2111177834127601902",
+     "aihot": "https://aihot.news/items/jaimrjlsauim3s6jfu3bp1a3r",
+     "selected": false,
+     "score": 22,
+     "category": "industry"
+    },
+    {
+     "n": 16,
+     "title": "Claude Sonnet 5.5 生成手绘涂鸦国际象棋",
+     "source": "X：Claude (@claudeai)",
+     "ts": "2026-10-17T03:32:30.480000+08:00",
+     "publishedAt": "2026-10-16T19:29:54.000Z",
+     "discoveredAt": "2026-10-16T19:32:30.480Z",
+     "summary": "国际象棋，画成笔记本纸上的涂鸦。由 Sonnet 5.5 制作。",
+     "url": "https://x.com/claudeai/status/2111177836723920962",
+     "aihot": "https://aihot.news/items/ypdzj382cc46tz0c25svgdrm3",
+     "selected": false,
+     "score": 23,
      "category": "industry"
     }
    ],
@@ -501,94 +591,20 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 3,
+   "count": 1,
    "items": [
     {
-     "n": 16,
-     "title": "Anthropic Code Review 正式可用，面向 Team 和 Enterprise 组织",
-     "source": "Claude：Blog（网页）",
-     "ts": "2026-10-16T04:51:45.392000+08:00",
-     "publishedAt": "2026-10-15T00:00:00.000Z",
-     "discoveredAt": "2026-10-15T20:51:45.392Z",
-     "summary": "Anthropic 宣布 Claude 的 Code Review 结束研究预览，正式向 Claude Team 和 Enterprise 组织开放。",
-     "url": "https://claude.com/blog/code-review-is-now-generally-available",
-     "aihot": "https://aihot.news/items/wmxwoemumqiq2yfrjngl3a5rc",
-     "selected": true,
-     "score": 61,
-     "category": "paper",
-     "also": [
-      {
-       "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-       "title": "Claude Code 团队如何做代码审查",
-       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-       "aihot": "https://aihot.news/items/x02vc0ewajam37hjrbpwsfnre"
-      },
-      {
-       "source": "X：Claude Devs (@ClaudeDevs)",
-       "title": "Claude Code 代码审查功能正式开放，管理员开启后自动审查每个新 PR",
-       "url": "https://x.com/ClaudeDevs/status/2110866214528716975",
-       "aihot": "https://aihot.news/items/iijla88ljwjvi0kpv2u1l7r35"
-      },
-      {
-       "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-       "title": "Claude Code Review 正式向 Team 和 Enterprise 计划开放",
-       "url": "https://x.com/adocomplete/status/2110871587205566687",
-       "aihot": "https://aihot.news/items/zx4yy1exmkh3g0epr5ax79ky6"
-      },
-      {
-       "source": "X：Claude Devs (@ClaudeDevs)",
-       "title": "Claude Code Review 面向 Team 和 Enterprise 套餐正式开放",
-       "url": "https://x.com/ClaudeDevs/status/2110866210573386065",
-       "aihot": "https://aihot.news/items/jrpecy320ruqac28pwg3la23d"
-      },
-      {
-       "source": "X：Claude Devs (@ClaudeDevs)",
-       "title": "Claude Code 代码审查正式发布",
-       "url": "https://x.com/ClaudeDevs/status/2110866212217651527",
-       "aihot": "https://aihot.news/items/rx1pqnllomyqlf2w8v63x8sqq"
-      },
-      {
-       "source": "X：Claude Devs (@ClaudeDevs)",
-       "title": "Claude Enterprise 可领 Code Review 额度",
-       "url": "https://x.com/ClaudeDevs/status/2110866213266203118",
-       "aihot": "https://aihot.news/items/in8bui2e9iqrqp2a3114k6nha"
-      }
-     ]
-    },
-    {
      "n": 17,
-     "title": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
-     "source": "X：Claude Devs (@ClaudeDevs)",
-     "ts": "2026-10-16T04:19:43.987000+08:00",
-     "publishedAt": "2026-10-15T20:09:02.000Z",
-     "discoveredAt": "2026-10-15T20:19:43.987Z",
-     "summary": "Anthropic 宣布 Claude 平台上的 Opus 5.5 fast mode 不再处于研究预览阶段，并已移除等待名单。该模式速度最高提升 2.5 倍，定价为 $8 / $40 per million tokens；",
-     "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
-     "aihot": "https://aihot.news/items/e2ssy0a7scpnel6ppyl3r9f2t",
-     "selected": true,
-     "score": 66,
-     "category": "paper",
-     "also": [
-      {
-       "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-       "title": "Claude Opus 5.5 最高强度使用体验",
-       "url": "https://x.com/adocomplete/status/2110920667118154161",
-       "aihot": "https://aihot.news/items/fv1jskwi9vk64zovua88t424k"
-      }
-     ]
-    },
-    {
-     "n": 18,
-     "title": "Anthropic 论文提出 GRAFT：把被标记样本的更新路由到可删除 adapter 以消除奖励黑客",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-16T03:27:29.396000+08:00",
-     "publishedAt": "2026-10-15T19:02:13.000Z",
-     "discoveredAt": "2026-10-15T19:27:29.396Z",
-     "summary": "Rohan Paul 介绍 Anthropic 一篇论文，发现当监控器只能捕获部分 reward hack 时，惩罚被标记样本会让模型转向监控器察觉不到的黑客方式，而把被标记样本的更新路由进可删除的 adapter 则能消除黑客行为。",
-     "url": "https://x.com/rohanpaul_ai/status/2110808480210989348",
-     "aihot": "https://aihot.news/items/gwek0x8cwe44cskh3wjxfb8zw",
+     "title": "Claude 30分钟破解25年密码学难题",
+     "source": "X：Yuchen Jin (@Yuchenj_UW)",
+     "ts": "2026-10-17T04:43:29.522000+08:00",
+     "publishedAt": "2026-10-16T20:13:32.000Z",
+     "discoveredAt": "2026-10-16T20:43:29.522Z",
+     "summary": "Claude 在不到 30 分钟内破解了一个悬置 25 年的密码学谜题。 有一大类研究问题，其搜索空间极其庞大，但验证成本很低。 AI 智能体能够大规模探索假设、运行实验并做出新发现。我们将看到越来越多这样的案例。",
+     "url": "https://x.com/Yuchenj_UW/status/2111188816359043401",
+     "aihot": "https://aihot.news/items/wvdymxlp256ki55mx40mmd95f",
      "selected": false,
-     "score": 66,
+     "score": 49,
      "category": "paper"
     }
    ],
@@ -597,9 +613,94 @@ const DATA = {
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 5,
+   "items": [
+    {
+     "n": 18,
+     "title": "Claude Code 团队谈 AI 时代的代码评审如何从末端门槛变为持续检查",
+     "source": "Simon Willison 博客",
+     "ts": "2026-10-17T07:22:30.392000+08:00",
+     "publishedAt": "2026-10-16T22:06:37.000Z",
+     "discoveredAt": "2026-10-16T23:22:30.392Z",
+     "summary": "Simon Willison 引用 Addy Osmani、Morgan Westlee Lunt 和 Qing Wang 关于 Claude Code 团队代码评审的文章，认为“是否有人类读过代码”是判断变更风险的不精确代理，更应问的是变更可能出什么问题、该用自动化还是人工检查来发现。",
+     "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+     "aihot": "https://aihot.news/items/a7sb5b0i41s8tvlrriel0r3a3",
+     "selected": false,
+     "score": 63,
+     "category": "tip"
+    },
+    {
+     "n": 19,
+     "title": "Claude 用自然语言配置智能家居自动化",
+     "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+     "ts": "2026-10-17T07:08:30.900000+08:00",
+     "publishedAt": "2026-10-16T23:02:42.000Z",
+     "discoveredAt": "2026-10-16T23:08:30.900Z",
+     "summary": "给我的智能家居应用添加自动化，就像描述你想要发生什么一样简单。Claude 会搞清楚如何正确设置规则，然后我们就搞定了（或者说，灯就亮了）。:)",
+     "url": "https://x.com/adocomplete/status/2111231387974185281",
+     "aihot": "https://aihot.news/items/fhbtsxaqz2kjxuryukuz8yzht",
+     "selected": false,
+     "score": 24,
+     "category": "tip",
+     "also": [
+      {
+       "source": "X：Claude (@claudeai)",
+       "title": "Claude 助力心脏病学教学工具开发",
+       "url": "https://x.com/claudeai/status/2111177843413807120",
+       "aihot": "https://aihot.news/items/qk88qtvpke07mv5rt0rqm1r2e"
+      },
+      {
+       "source": "X：Claude (@claudeai)",
+       "title": "Claude 周末创作征集",
+       "url": "https://x.com/claudeai/status/2111177848228823102",
+       "aihot": "https://aihot.news/items/a8loo3v5n1znfstmmdq4ol08t"
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "title": "Replit CEO 称已不再与 Anthropic 合作",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-10-17T05:54:14.858000+08:00",
+     "publishedAt": "2026-10-16T21:22:28.000Z",
+     "discoveredAt": "2026-10-16T21:54:14.858Z",
+     "summary": "Replit CEO Amjad Masad 在 TechCrunch Disrupt 上表示，公司已不再与 Anthropic 合作，理由包括成本、伙伴关系和性能，并称 ChatGPT 现在更好，其内部基准上 Sol 和 Astra 在从零构建应用上表现更好。",
+     "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+     "aihot": "https://aihot.news/items/sg4x4x2bo1c2pd1b4ue9yay94",
+     "selected": false,
+     "score": 61,
+     "category": "tip"
+    },
+    {
+     "n": 21,
+     "title": "Claude Code Review 向 Team 和 Enterprise 计划全面开放",
+     "source": "X：Boris Cherny (@bcherny)",
+     "ts": "2026-10-17T02:31:30.253000+08:00",
+     "publishedAt": "2026-10-16T18:12:20.000Z",
+     "discoveredAt": "2026-10-16T18:31:30.253Z",
+     "summary": "Claude 官方宣布 Code Review 对 Claude Team 和 Enterprise 计划正式全面开放，审查速度更快、能发现更多关键 bug，管理员可为每个仓库选择 Quick、Standard 或 Deep 三档审查级别。",
+     "url": "https://x.com/bcherny/status/2111158313463525518",
+     "aihot": "https://aihot.news/items/b372nlntel7of1z2knbxk2npy",
+     "selected": false,
+     "score": 62,
+     "category": "tip"
+    },
+    {
+     "n": 22,
+     "title": "Claude Slides 制作幻灯片体验",
+     "source": "X：Boris Cherny (@bcherny)",
+     "ts": "2026-10-17T02:31:30.002000+08:00",
+     "publishedAt": "2026-10-16T18:13:42.000Z",
+     "discoveredAt": "2026-10-16T18:31:30.002Z",
+     "summary": "别忽视 Claude Slides。我现在就是这样制作幻灯片的——再也不用像以前那样去谷歌搜\"iphone frame svg\"了 试试看：https://claude.ai/artifacts",
+     "url": "https://x.com/bcherny/status/2111158659971699136",
+     "aihot": "https://aihot.news/items/kxfvj1r4ax9x9rvgt7b1xo6o8",
+     "selected": false,
+     "score": 35,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [

@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-15",
-  "winEnd": "2026-10-16",
-  "generated": "2026-10-16 13:37",
-  "rawHits": 36,
-  "selectedHits": 3,
-  "shown": 5,
-  "dedupedFrom": 22,
+  "winStart": "2026-10-16",
+  "winEnd": "2026-10-17",
+  "generated": "2026-10-17 13:25",
+  "rawHits": 24,
+  "selectedHits": 1,
+  "shown": 8,
+  "dedupedFrom": 13,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,8 +220,8 @@ const DATA = {
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 18,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -251,30 +251,38 @@ const DATA = {
    "items": [
     {
      "n": 1,
-     "title": "Claude、Gemini、GPT 重建同一游戏视觉",
-     "source": "X：OpenRouter (@OpenRouter)",
-     "ts": "2026-10-16T06:47:45.059000+08:00",
-     "publishedAt": "2026-10-15T22:24:41.000Z",
-     "discoveredAt": "2026-10-15T22:47:45.059Z",
-     "summary": "Claude Opus 5.5、Gemini 4 Argon 和 GPT-6 Astra 各自重建了同一个 Royale: Last Agent Standing 的游戏视觉效果。",
-     "url": "https://x.com/OpenRouter/status/2110859435023483078",
-     "aihot": "https://aihot.news/items/xr283hdvjndnwcmt2v597qhg9",
+     "title": "四个 Gemini 4 Argon 智能体用 27 小时从零击败 Minecraft 末影龙",
+     "source": "X：Google DeepMind (@GoogleDeepMind)",
+     "ts": "2026-10-17T00:30:16.935000+08:00",
+     "publishedAt": "2026-10-16T16:11:50.000Z",
+     "discoveredAt": "2026-10-16T16:30:16.935Z",
+     "summary": "Google DeepMind 展示四个 Gemini 4 Argon 智能体在共享的 Minecraft 世界中从零击败末影龙，全程无人类帮助，耗时 27 小时。智能体在只用代码和文本的沙盒中编写了 2,783 个程序，通过聊天分工、共享笔记并共同调试错误。",
+     "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
+     "aihot": "https://aihot.news/items/j09idrjvlzzusmmlsy0tlpr4e",
      "selected": false,
-     "score": 35,
-     "category": "ai-models"
+     "score": 62,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Ethan Mollick (@emollick)",
+       "title": "Gemini 4 智能体协作通关 Minecraft 论文",
+       "url": "https://x.com/emollick/status/2111171225418408236",
+       "aihot": "https://aihot.news/items/o8lslwuom8w8ra0rpfzld6yov"
+      }
+     ]
     },
     {
      "n": 2,
-     "title": "Lovable 接入 GPT-Live、Claude、Gemini 与 Perplexity 等模型和工具",
-     "source": "Lovable Blog",
-     "ts": "2026-10-16T00:45:33.960000+08:00",
-     "publishedAt": "2026-10-15T15:30:00.000Z",
-     "discoveredAt": "2026-10-15T16:45:33.960Z",
-     "summary": "Lovable 宣布平台内新增多种 AI 模型和工具，用户无需离开 Lovable 即可构建带语音、推理、视频、搜索等能力的应用。",
-     "url": "https://lovable.dev/blog/ai-models-and-tools-in-lovable",
-     "aihot": "https://aihot.news/items/a7gl11w82js0nqjbpdxgpe1im",
-     "selected": false,
-     "score": 52,
+     "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+     "source": "PromptArmor：Threat Intelligence",
+     "ts": "2026-10-16T16:25:17.237000+08:00",
+     "publishedAt": "2026-10-16T00:00:00.000Z",
+     "discoveredAt": "2026-10-16T08:25:17.237Z",
+     "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+     "url": "https://www.promptarmor.com/resources/open-weight-susceptibility",
+     "aihot": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d",
+     "selected": true,
+     "score": 67,
      "category": "ai-models"
     }
    ],
@@ -283,152 +291,59 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 3,
-     "title": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-16T00:29:31.542000+08:00",
-     "publishedAt": "2026-10-15T00:00:00.000Z",
-     "discoveredAt": "2026-10-15T16:29:31.542Z",
-     "summary": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
-     "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/",
-     "aihot": "https://aihot.news/items/i0rgqwqwxspm5dl3314cc3ewt",
-     "selected": true,
-     "score": 61,
+     "title": "Gemini Notebook 将支持对话生成视频和幻灯片",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-17T01:40:16.541000+08:00",
+     "publishedAt": "2026-10-16T17:18:38.000Z",
+     "discoveredAt": "2026-10-16T17:40:16.541Z",
+     "summary": "Gemini Notebook 用户很快就能从聊天对话中逐步生成视频和幻灯片。 最近新增了一条隐藏提示：“你现在可以逐步创建 Slides 和 Videos” Gemini 4 升级要来了？👀",
+     "url": "https://x.com/testingcatalog/status/2111144801710006394",
+     "aihot": "https://aihot.news/items/yw0ac3lxzg3eyqqgpbif6ydz5",
+     "selected": false,
+     "score": 26,
      "category": "ai-products"
-    }
-   ],
-   "note": null
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 6 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "paper",
-   "label": "论文研究",
-   "count": 1,
-   "items": [
+    },
     {
      "n": 4,
-     "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
-     "source": "X：ARC Prize (@arcprize)",
-     "ts": "2026-10-16T00:45:35.013000+08:00",
-     "publishedAt": "2026-10-15T16:22:30.000Z",
-     "discoveredAt": "2026-10-15T16:45:35.013Z",
-     "summary": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；",
-     "url": "https://x.com/arcprize/status/2110768288523251762",
-     "aihot": "https://aihot.news/items/cvpbhz4ao2wr6pxpthix2z15c",
-     "selected": true,
-     "score": 66,
-     "category": "paper",
+     "title": "Gemini 4 Argon 向 Pro 订阅者开放",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-10-16T14:32:14.779000+08:00",
+     "publishedAt": "2026-10-16T06:01:08.000Z",
+     "discoveredAt": "2026-10-16T06:32:14.779Z",
+     "summary": "Gemini 4 Argon 现已向 Pro 订阅者开放。作者同时征集早期使用反馈，询问应从哪些方面改进。",
+     "url": "https://x.com/_philschmid/status/2110974303927701565",
+     "aihot": "https://aihot.news/items/fwvgenjud9hqgeaaw33xp4rls",
+     "selected": false,
+     "score": 68,
+     "category": "ai-products",
      "also": [
       {
-       "source": "X：Ethan Mollick (@emollick)",
-       "title": "Ethan Mollick 评 Gemini 4 Argon 攻克 ARC-AGI：知名难题基准时代落幕",
-       "url": "https://x.com/emollick/status/2110875851600633956",
-       "aihot": "https://aihot.news/items/e8xvz5p1l47zzcyc295k0v8uz"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 发布 Gemini 4 Argon 并开放研究者与网络安全防御者申请",
-       "url": "https://x.com/Google/status/2110747258983518660",
-       "aihot": "https://aihot.news/items/jj77v3tatww8mtg47i36l0qo2"
-      },
-      {
-       "source": "X：Francois Chollet (@fchollet)",
-       "title": "François Chollet 评价 Gemini 4 Argon 在 ARC-AGI-3 的表现与 Astra 相近",
-       "url": "https://x.com/fchollet/status/2110775560846914009",
-       "aihot": "https://aihot.news/items/g0u2tpw40xm0vnicogmh04l0r"
-      },
-      {
-       "source": "X：Testing Catalog (@testingcatalog)",
-       "title": "Gemini 4 Argon 向 Google AI Pro 订阅用户在 Antigravity 推送",
-       "url": "https://x.com/testingcatalog/status/2110872881261601280",
-       "aihot": "https://aihot.news/items/dokxgsunour4geugeekbbg52l"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Google 演示 Gemini 4 Argon 的机器人全流程用法",
-       "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
-       "aihot": "https://aihot.news/items/ywdktjet2i0juj4fgoy8ld7vz"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 披露 Gemini 4 Argon 助力 Chrome 完成 Chromium 大规模代码重构",
-       "url": "https://x.com/Google/status/2110746361742188838",
-       "aihot": "https://aihot.news/items/y2mmqjtibhvmr1rgfx11ny1sb"
-      },
-      {
        "source": "X：Gemini (@GeminiApp)",
-       "title": "Google Gemini 演示用 Gemini 4 Argon 在 Canvas 中搭建 3D CAD 工作台制作家具配件",
-       "url": "https://x.com/GeminiApp/status/2110772859580895678",
-       "aihot": "https://aihot.news/items/k4z6e8sbpb8rw26sxauihmyaa"
-      },
-      {
-       "source": "X：ARC Prize (@arcprize)",
-       "title": "ARC Prize 公布 Gemini 4 Argon 的 ARC-AGI-3 标准 harness 测试结果",
-       "url": "https://x.com/arcprize/status/2110768292101042240",
-       "aihot": "https://aihot.news/items/w3ihskvnr3d8e868l1zpiv4r2"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 用 Gemini 4 Argon 将 Gemma 4 E2B 推理速度提升至 2.85x",
-       "url": "https://x.com/Google/status/2110746373196780033",
-       "aihot": "https://aihot.news/items/vaqyg4wm4090znuj9lmbgj6hi"
-      },
-      {
-       "source": "X：ARC Prize (@arcprize)",
-       "title": "Gemini 4 Argon 登 ARC Prize 排行榜",
-       "url": "https://x.com/arcprize/status/2110768293761921137",
-       "aihot": "https://aihot.news/items/j6tymdq7rrjn8zehd1ocskaua"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Argon 将 NASA 海量档案转为幻灯片",
-       "url": "https://x.com/Google/status/2110791397573845265",
-       "aihot": "https://aihot.news/items/vltviy5cehbrwod7rrl6vzn66"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Argon 把学术 PDF 变成动画绘本",
-       "url": "https://x.com/Google/status/2110751391899644101",
-       "aihot": "https://aihot.news/items/ev2zf19z26j8tutzn6zh2f5ju"
-      },
-      {
-       "source": "X：Google AI (@GoogleAI)",
-       "title": "Gemini 4 Argon 自主构建 3D 世界",
-       "url": "https://x.com/GoogleAI/status/2110744759111213217",
-       "aihot": "https://aihot.news/items/gw1qibghqdxy9u8eevjzy3sa8"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 分享 Gemini 4 Argon 详情",
-       "url": "https://x.com/Google/status/2110751395381141798",
-       "aihot": "https://aihot.news/items/auxnh5u7ck10xx4bs98cfqty6"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Isomorphic Labs 用 Gemini 4 Argon 加速药物研发",
-       "url": "https://x.com/Google/status/2110766445940572599",
-       "aihot": "https://aihot.news/items/f25wwpckqs24v8zzqvfs2ybz8"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 团队用 Gemini 4 Argon 攻坚工程难题",
-       "url": "https://x.com/Google/status/2110746360047603834",
-       "aihot": "https://aihot.news/items/llhsm3hkvykpakzolb4vcpq18"
+       "title": "Gemini 4 Argon 支持 Canvas 将 PDF 转为可交互动画网页应用",
+       "url": "https://x.com/GeminiApp/status/2111147479248855484",
+       "aihot": "https://aihot.news/items/c1vpsz8auizdle66sohyrx0c6"
       },
       {
        "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-       "title": "Philipp Schmid 回应 Gemini 4 Argon 反馈",
-       "url": "https://x.com/_philschmid/status/2110775071631708523",
-       "aihot": "https://aihot.news/items/x7uwwnddl9zb7u8ud8f33qd4p"
+       "title": "Gemini 4 Argon 向 Pro 订阅用户开放",
+       "url": "https://x.com/_philschmid/status/2110974256590835907",
+       "aihot": "https://aihot.news/items/fjf9qlzw0aqfd81xu49mk92at"
+      },
+      {
+       "source": "X：Perplexity (@perplexity_ai)",
+       "title": "Gemini 4 Argon 在 WANDR 创纪录",
+       "url": "https://x.com/perplexity_ai/status/2111110772747321460",
+       "aihot": "https://aihot.news/items/gqxutp7vdw37ps37kqp1hce5r"
+      },
+      {
+       "source": "X：Ammaar Reshi (@ammaar)",
+       "title": "Gemini 4 Argon 打造特斯拉 Roadster 版地铁跑酷",
+       "url": "https://x.com/ammaar/status/2111200113095803282",
+       "aihot": "https://aihot.news/items/sdmiwynrfr3jwkdo5pfwqtkfi"
       }
      ]
     }
@@ -436,22 +351,80 @@ const DATA = {
    "note": null
   },
   {
-   "slug": "tip",
-   "label": "技巧与观点",
+   "slug": "industry",
+   "label": "行业动态",
    "count": 1,
    "items": [
     {
      "n": 5,
-     "title": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-15T22:27:32.772000+08:00",
-     "publishedAt": "2026-10-15T00:00:00.000Z",
-     "discoveredAt": "2026-10-15T14:27:32.772Z",
-     "summary": "Google Developers Blog 发布智能体评测实践指南，指出仅靠终端跑几个提示词的 vibe check 无法发现智能体重试循环、工具参数幻觉等隐性失败。",
-     "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/",
-     "aihot": "https://aihot.news/items/ojpe4mr67tjbrt5atyi6hyapl",
-     "selected": true,
-     "score": 63,
+     "title": "谷歌 DeepMind 哈萨比斯预警：AI 智能体网络攻击是前哨警报，未来一两年恐现灾难性事件",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-17T12:28:28.855000+08:00",
+     "publishedAt": "2026-10-17T04:19:55.760Z",
+     "discoveredAt": "2026-10-17T04:28:28.855Z",
+     "summary": "谷歌 DeepMind 联合创始人兼董事长哈萨比斯称，近期 AI 智能体发起的网络攻击是\"前哨预警\"，若全行业与各国政府不加大系统安全投入，未来一至两年很可能演变为灾难性重大事件。微软总裁史密斯在同一峰会上称 AI 失控行为让 2026 年成为\"令人警醒的一年\"，呼吁出台合理平衡的 AI 安全法律与监管。",
+     "url": "https://www.ithome.com/1/014/264.htm",
+     "aihot": "https://aihot.news/items/sk0h2b6exgypu6ukr7jzlonmz",
+     "selected": false,
+     "score": 46,
+     "category": "industry"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 1,
+   "items": [
+    {
+     "n": 6,
+     "title": "Google Gemini 4 Argon 在 ARC-AGI-3 达 97.5%，但仍落后数学与软件工程前列",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-16T23:11:18.362000+08:00",
+     "publishedAt": "2026-10-16T15:03:46.000Z",
+     "discoveredAt": "2026-10-16T15:11:18.362Z",
+     "summary": "Google DeepMind 的 Gemini 4 Argon 在 ARC-AGI-3 上以 Provider Adapter Harness 取得 97.5%，成为继 OpenAI 之后第二家越过 95% 的实验室，成本 $4,800，但仍低于 GPT-6 Astra 的 99.9%。",
+     "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+     "aihot": "https://aihot.news/items/cqlsedakjd026b9gwsdor3la5",
+     "selected": false,
+     "score": 74,
+     "category": "paper"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 2,
+   "items": [
+    {
+     "n": 7,
+     "title": "Google DeepMind 用 AI 助力疾病检测与治疗",
+     "source": "X：Google DeepMind (@GoogleDeepMind)",
+     "ts": "2026-10-16T18:18:15.378000+08:00",
+     "publishedAt": "2026-10-16T10:15:04.000Z",
+     "discoveredAt": "2026-10-16T10:18:15.378Z",
+     "summary": "我们与全球科学家携手，我们的模型和工具正在帮助让疾病更可检测、更可治疗、更可预防。🧬 从精确定位罕见基因变异到加速药物发现，以下是我们如何帮助将实验室突破转化为现实世界中的医疗护理 → https://goo.gle/4i48Cmr",
+     "url": "https://x.com/GoogleDeepMind/status/2111038207240388770",
+     "aihot": "https://aihot.news/items/i8bwcyrq8aduzsia3ejo2wl81",
+     "selected": false,
+     "score": 21,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "谷歌布林称 Gemini 正迈向递归自我改进（RSI）阶段",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-16T16:02:17.098000+08:00",
+     "publishedAt": "2026-10-16T07:34:44.337Z",
+     "discoveredAt": "2026-10-16T08:02:17.098Z",
+     "summary": "谷歌联合创始人谢尔盖·布林在 Gemini 4 Argon 圆桌讨论中表示，AI 已开始参与打造下一代模型，Flash 系列已显现这一趋势，公司正踏上 RSI（递归自我改进）的跑步机。",
+     "url": "https://www.ithome.com/1/013/957.htm",
+     "aihot": "https://aihot.news/items/vu1y5xtrk9ja8zute0uwtfoag",
+     "selected": false,
+     "score": 60,
      "category": "tip"
     }
    ],
