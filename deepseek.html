@@ -173,13 +173,13 @@ const DATA = {
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-16",
-  "winEnd": "2026-10-17",
-  "generated": "2026-10-17 13:25",
-  "rawHits": 10,
-  "selectedHits": 2,
-  "shown": 4,
-  "dedupedFrom": 4,
+  "winStart": "2026-10-17",
+  "winEnd": "2026-10-18",
+  "generated": "2026-10-18 13:34",
+  "rawHits": 26,
+  "selectedHits": 3,
+  "shown": 1,
+  "dedupedFrom": 22,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -194,7 +194,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -202,7 +202,7 @@ const DATA = {
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 26,
     "hasMore": false,
     "from_cache": false
    },
@@ -218,7 +218,7 @@ const DATA = {
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -229,74 +229,30 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 1,
-     "title": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
-     "source": "vLLM 官方博客（RSS）",
-     "ts": "2026-10-16T21:57:16.519000+08:00",
-     "publishedAt": "2026-10-16T00:00:00.000Z",
-     "discoveredAt": "2026-10-16T13:57:16.519Z",
-     "summary": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。",
-     "url": "https://vllm.ai/blog/2026-10-16-reflection-beam",
-     "aihot": "https://aihot.news/items/d0pow9b93paydjtg2i76ang83",
-     "selected": true,
-     "score": 65,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
-     "source": "PromptArmor：Threat Intelligence",
-     "ts": "2026-10-16T16:25:17.237000+08:00",
-     "publishedAt": "2026-10-16T00:00:00.000Z",
-     "discoveredAt": "2026-10-16T08:25:17.237Z",
-     "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
-     "url": "https://www.promptarmor.com/resources/open-weight-susceptibility",
-     "aihot": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d",
-     "selected": true,
-     "score": 67,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 3,
-     "title": "DeepSeek 开源 TileLang 与 Ascend 支持，试图削弱 Nvidia 不可或缺性",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-10-17T06:47:31.324000+08:00",
-     "publishedAt": "2026-10-16T22:39:25.000Z",
-     "discoveredAt": "2026-10-16T22:47:31.324Z",
-     "summary": "DeepSeek 在 9 月 30 日开源面向华为昇腾平台的编程基础设施，包括计算与通信库，其 TileKernels 仓库新增昇腾后端，让同一套 Python API 可在 Nvidia GPU 与华为 NPU 上运行。",
-     "url": "https://x.com/thexpin/status/2111225530888384869",
-     "aihot": "https://aihot.news/items/hbvfpex76ecwu9amvds2er8o0",
-     "selected": false,
-     "score": 68,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 18 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
@@ -304,18 +260,146 @@ const DATA = {
    "count": 1,
    "items": [
     {
-     "n": 4,
-     "title": "消息称 DeepSeek 整合 Harness、Web、App、Platform 团队成立产品部",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-16T16:44:14.931000+08:00",
-     "publishedAt": "2026-10-16T07:55:25.897Z",
-     "discoveredAt": "2026-10-16T08:44:14.931Z",
-     "summary": "据澎湃新闻报道，DeepSeek 将 Harness、Web、App、Platform 团队整合成立产品部，负责公司所有产品、设计和研发工作，崔添翼任负责人，其本人于 10 月 16 日确认消息属实。",
-     "url": "https://www.ithome.com/1/013/970.htm",
-     "aihot": "https://aihot.news/items/n5zuq9qx315uoi15fmwpyxj0q",
-     "selected": false,
-     "score": 53,
-     "category": "tip"
+     "n": 1,
+     "title": "DeepSeek 开放自研搜索 API",
+     "source": "DeepSeek：API 更新日志",
+     "ts": "2026-10-17T16:19:34.289000+08:00",
+     "publishedAt": "2026-10-16T16:00:00.000Z",
+     "discoveredAt": "2026-10-17T08:19:34.289Z",
+     "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+     "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+     "aihot": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+     "selected": true,
+     "score": 67,
+     "category": "tip",
+     "also": [
+      {
+       "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+       "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+       "url": "https://x.com/WorkBuddy_AI/status/2111404103402430558",
+       "aihot": "https://aihot.news/items/xgj246drlw70qbgypibz6atla"
+      },
+      {
+       "source": "DeepSeek：API 更新日志",
+       "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+       "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+       "aihot": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "DeepSeek 发布 V4.1-Flash-1017：智能体任务超越更大对手，成本再降，并首次开放自研搜索 API",
+       "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+       "aihot": "https://aihot.news/items/s6ad9vu3fmlbioz0kdomylfcc"
+      },
+      {
+       "source": "MarkTechPost（RSS）",
+       "title": "DeepSeek 发布 V4.1-Flash-1017，DeepSWE 得分 77.0 并开放 Search API",
+       "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
+       "aihot": "https://aihot.news/items/lhyfe3xx4mdiws5597kmhc5w1"
+      },
+      {
+       "source": "Hacker News：AI 热帖",
+       "title": "OpenRouter 上线 DeepSeek V4.1 Flash 1017 快照，552B 总参 8B/16B 激活",
+       "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+       "aihot": "https://aihot.news/items/gfkqhzytwbq9ac19yepc0bx5f"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "DeepSeek 发布开源权重模型 DeepSeek-V4.1-Flash-1017",
+       "url": "https://x.com/testingcatalog/status/2111380259295653976",
+       "aihot": "https://aihot.news/items/a0batory42lpikbb6srujrcm7"
+      },
+      {
+       "source": "公众号：DeepSeek（深度求索）",
+       "title": "DeepSeek 发布 V4.1-Flash-1017：性能费用帕累托改进并开放自研搜索 API",
+       "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485876&idx=1&sn=2606d3fa9ac085f94290ddd1d94649cc",
+       "aihot": "https://aihot.news/items/wjhfnwgvg4s6ft7t7tmhhkf3w"
+      },
+      {
+       "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+       "title": "Thomas Wolf 点评 DeepSeek-V4.1-Flash-1017：自称 minor update 但 Terminal-Bench 4.0 从 31.2 升至 42.3",
+       "url": "https://x.com/Thom_Wolf/status/2111401132840890440",
+       "aihot": "https://aihot.news/items/u10wb9lknsrn2hx85ilsyldy5"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "DeepSeek 上线 Search/Fetch 网页搜索 API，API 短暂出现 V4.1 Flash-1017 快照，Harness v0.2.1-rc1 发布",
+       "url": "https://www.ithome.com/1/014/291.htm",
+       "aihot": "https://aihot.news/items/e3wq1hzkjq59f8g3prttrddb5"
+      },
+      {
+       "source": "X：邵猛 (@shao__meng)",
+       "title": "DeepSeek 发布 V4.1-Flash-1017 并将内部搜索引擎开放为 Search & Fetch API",
+       "url": "https://x.com/shao__meng/status/2111436190612349384",
+       "aihot": "https://aihot.news/items/skccm7zeft49lqkbm0wla8yua"
+      },
+      {
+       "source": "X：Oran Ge (@oran_ge)",
+       "title": "DeepSeek 发布 DeepSeek-V4.1-Flash-1017，性能更强且输出更省 token",
+       "url": "https://x.com/oran_ge/status/2111384805741105182",
+       "aihot": "https://aihot.news/items/s3ft7zg3cpnmuk0xht19gtj5v"
+      },
+      {
+       "source": "X：X.PIN (@thexpin)",
+       "title": "DeepSeek 开放搜索 API 并更新 V4.1 Flash 1017",
+       "url": "https://x.com/thexpin/status/2111378855155896448",
+       "aihot": "https://aihot.news/items/czfaqu0vajok6bnt9iw5eebd1"
+      },
+      {
+       "source": "X：Nathan Lambert (@natolambert)",
+       "title": "DeepSeek 发布 V4.1-Flash-1017，Nathan Lambert 称其或凭内置视觉强于 GLM 5.3",
+       "url": "https://x.com/natolambert/status/2111440910257099072",
+       "aihot": "https://aihot.news/items/ua39ly8afnr06q06b9tuk7yhy"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "DeepSeek V4.1-Flash-1017 发布：能力提升、成本下降，权重以 MIT 许可开源",
+       "url": "https://www.ithome.com/1/014/328.htm",
+       "aihot": "https://aihot.news/items/lh81wg222ih850wyc1isvrg9j"
+      },
+      {
+       "source": "X：Yuchen Jin (@Yuchenj_UW)",
+       "title": "Yuchen Jin 称 DeepSeek-V4.1-Flash-1017 以 1/83 成本达到 Opus 5 级编码表现",
+       "url": "https://x.com/Yuchenj_UW/status/2111510402140197252",
+       "aihot": "https://aihot.news/items/bvh07bfwx5x7ktp10eb0wv3n1"
+      },
+      {
+       "source": "X：OpenRouter (@OpenRouter)",
+       "title": "DeepSeek V4.1 Flash 1017 上线 OpenRouter",
+       "url": "https://x.com/OpenRouter/status/2111377421404651714",
+       "aihot": "https://aihot.news/items/nmdm1jltt10h5qovhjpnzwp7i"
+      },
+      {
+       "source": "X：Tianyi Cui（@tianyi）",
+       "title": "DeepSeek 发布 DeepSeek-V4.1-Flash-1017，官网、App 和 API 已可用",
+       "url": "https://x.com/tianyi/status/2111376782717035007",
+       "aihot": "https://aihot.news/items/pajhl5y869re0ngqb3yzv7qrl"
+      },
+      {
+       "source": "X：DeepSeek (@deepseek_ai)",
+       "title": "DeepSeek-V4.1-Flash-1017 发布",
+       "url": "https://x.com/deepseek_ai/status/2111375640717033777",
+       "aihot": "https://aihot.news/items/lsnm2pguig9q1vk82qt22531f"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "OpenAI 升级 GPT-6 Astra Pro，DeepSeek 发布 V4.1-Flash",
+       "url": "https://x.com/testingcatalog/status/2111409303701577925",
+       "aihot": "https://aihot.news/items/ivatvasklri5wxuvipyld8veh"
+      },
+      {
+       "source": "X：邵猛 (@shao__meng)",
+       "title": "WorkBuddy 国际版限免 DeepSeek-V4.1-Flash-1017",
+       "url": "https://x.com/shao__meng/status/2111651905177092577",
+       "aihot": "https://aihot.news/items/rmn57dg016qz2c2sstdbdusib"
+      },
+      {
+       "source": "X：马东锡 NLP (@dongxi_nlp)",
+       "title": "DeepSeek-V4.1-Flash-1017 发布",
+       "url": "https://x.com/dongxi_nlp/status/2111627044962390368",
+       "aihot": "https://aihot.news/items/yb1gc6kqgitkjxis0blb9zzc8"
+      }
+     ]
     }
    ],
    "note": null
