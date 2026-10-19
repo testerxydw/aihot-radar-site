@@ -175,12 +175,12 @@ const DATA = {
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-17",
-  "winEnd": "2026-10-18",
-  "generated": "2026-10-18 13:33",
-  "rawHits": 6,
-  "selectedHits": 2,
-  "shown": 2,
+  "winStart": "2026-10-18",
+  "winEnd": "2026-10-19",
+  "generated": "2026-10-19 13:53",
+  "rawHits": 9,
+  "selectedHits": 0,
+  "shown": 3,
   "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
@@ -196,7 +196,7 @@ const DATA = {
     "q": "NVIDIA",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,7 +204,7 @@ const DATA = {
     "q": "NVIDIA",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "英伟达",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "英伟达",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,9 +247,24 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "NVIDIA Structured Data Models 实测：零训练表格预测与多个默认行为陷阱",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-10-18T15:46:29.612000+08:00",
+     "publishedAt": "2026-10-18T05:56:05.000Z",
+     "discoveredAt": "2026-10-18T07:46:29.612Z",
+     "summary": "作者用可运行代码实测 NVIDIA Structured Data Models 库，将 TabICLv2、KumoTabular 和 KumoRelational 等预训练模型通过同一 PyTorch 接口做零训练表格预测。",
+     "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
+     "aihot": "https://aihot.news/items/qol3tncubqej26hmjahxcrljd",
+     "selected": false,
+     "score": 69,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
@@ -257,39 +272,31 @@ const DATA = {
    "count": 2,
    "items": [
     {
-     "n": 1,
-     "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
-     "source": "X：卡兹克 (@Khazix0918)",
-     "ts": "2026-10-18T10:11:19.522000+08:00",
-     "publishedAt": "2026-10-18T02:04:38.000Z",
-     "discoveredAt": "2026-10-18T02:11:19.522Z",
-     "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
-     "url": "https://x.com/Khazix0918/status/2111639562720329976",
-     "aihot": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt",
-     "selected": true,
-     "score": 68,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "公众号：数字生命卡兹克",
-       "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
-       "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
-       "aihot": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz"
-      }
-     ]
+     "n": 2,
+     "title": "NVIDIA 将 Run:ai 平台以 Apache 2.0 协议开源，用于 Kubernetes GPU 编排",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-10-19T13:02:18.298000+08:00",
+     "publishedAt": "2026-10-19T03:19:18.000Z",
+     "discoveredAt": "2026-10-19T05:02:18.298Z",
+     "summary": "NVIDIA 将 Run:ai 平台完整开源，源码以 Apache 2.0 协议发布在 GitHub，平台团队可检视、fork 和自托管而无需付费订阅。",
+     "url": "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/",
+     "aihot": "https://aihot.news/items/t4k9stbchn7bkvp9w31x3v4a5",
+     "selected": false,
+     "score": 59,
+     "category": "ai-products"
     },
     {
-     "n": 2,
-     "title": "NVIDIA RTX Spark 笔记本开售，起价 $2,399 并在全球多地举办庆祝活动",
-     "source": "NVIDIA Blog（RSS）",
-     "ts": "2026-10-18T05:55:45.746000+08:00",
-     "publishedAt": "2026-10-17T21:00:13.000Z",
-     "discoveredAt": "2026-10-17T21:55:45.746Z",
-     "summary": "NVIDIA RTX Spark 笔记本正式上市，搭载 Blackwell RTX GPU 与 Grace CPU 的超级芯片，提供最高 1 petaflop AI 算力和 128GB 统一内存，起价 $2,399。",
-     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-     "aihot": "https://aihot.news/items/p4onrft3oltqqk5e5xv21khvc",
+     "n": 3,
+     "title": "英伟达优化 Kimi K3 推理速度，GB300 NVL72 上提升 1.68 倍",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-18T21:49:30.671000+08:00",
+     "publishedAt": "2026-10-18T13:25:18.020Z",
+     "discoveredAt": "2026-10-18T13:49:30.671Z",
+     "summary": "英伟达通过一项上游 vLLM 优化，让 2.8 万亿参数量的 Kimi K3 在 GB300 NVL72 上达到 423 tok/s/user 的推理速度，性能提升 1.68 倍。",
+     "url": "https://www.ithome.com/1/014/595.htm",
+     "aihot": "https://aihot.news/items/yjpib8e04l9rntdkg91c2k9ac",
      "selected": false,
-     "score": 63,
+     "score": 45,
      "category": "ai-products"
     }
    ],
@@ -300,7 +307,7 @@ const DATA = {
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",

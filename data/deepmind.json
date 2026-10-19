@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-17",
-  "winEnd": "2026-10-17",
-  "generated": "2026-10-18 13:34",
-  "rawHits": 4,
+  "winStart": "2026-10-18",
+  "winEnd": "2026-10-19",
+  "generated": "2026-10-19 13:53",
+  "rawHits": 9,
   "selectedHits": 0,
-  "shown": 0,
-  "dedupedFrom": 0,
+  "shown": 1,
+  "dedupedFrom": 1,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 4,
+    "count": 9,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,9 +86,24 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "四个 Gemini 4 Argon 智能体在无人类干预下首次击败 Minecraft",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-18T20:50:36.039000+08:00",
+     "publishedAt": "2026-10-18T12:39:51.000Z",
+     "discoveredAt": "2026-10-18T12:50:36.039Z",
+     "summary": "Google DeepMind 的四个 Gemini 4 Argon 智能体在无人类输入下击败 Minecraft，全自主击杀末影龙。智能体被投入随机生成世界，未分配角色或策略，自行分工、互相预警威胁、回收阵亡队友物品并记录错误到共享记忆。",
+     "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+     "aihot": "https://aihot.news/items/fwv33hfg6lfx6s280hdx9jgth",
+     "selected": false,
+     "score": 71,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
@@ -102,14 +117,14 @@
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
