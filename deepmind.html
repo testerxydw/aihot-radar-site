@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-18",
-  "winEnd": "2026-10-19",
-  "generated": "2026-10-19 13:53",
-  "rawHits": 9,
-  "selectedHits": 0,
-  "shown": 1,
-  "dedupedFrom": 1,
+  "winStart": "2026-10-19",
+  "winEnd": "2026-10-20",
+  "generated": "2026-10-20 13:46",
+  "rawHits": 19,
+  "selectedHits": 2,
+  "shown": 4,
+  "dedupedFrom": 6,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -204,7 +204,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 9,
+    "count": 17,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,52 +247,111 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 8 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
    "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "四个 Gemini 4 Argon 智能体在无人类干预下首次击败 Minecraft",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-18T20:50:36.039000+08:00",
-     "publishedAt": "2026-10-18T12:39:51.000Z",
-     "discoveredAt": "2026-10-18T12:50:36.039Z",
-     "summary": "Google DeepMind 的四个 Gemini 4 Argon 智能体在无人类输入下击败 Minecraft，全自主击杀末影龙。智能体被投入随机生成世界，未分配角色或策略，自行分工、互相预警威胁、回收阵亡队友物品并记录错误到共享记忆。",
-     "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-     "aihot": "https://aihot.news/items/fwv33hfg6lfx6s280hdx9jgth",
+     "title": "Gemini 4 Argon 两小时后台生成特斯拉跑酷游戏",
+     "source": "X：Ammaar Reshi (@ammaar)",
+     "ts": "2026-10-20T04:18:33.772000+08:00",
+     "publishedAt": "2026-10-19T20:07:44.000Z",
+     "discoveredAt": "2026-10-19T20:18:33.772Z",
+     "summary": "Gemini 4 Argon 在后台自主运行 2 小时，做出了一款以飞行版特斯拉 Roadster 为主角的 Subway Surfers 风格跑酷游戏，上线后已有超 2 万人游玩。",
+     "url": "https://x.com/ammaar/status/2112274521671831824",
+     "aihot": "https://aihot.news/items/hf423igq0zt7eqw5qvsdg579j",
      "selected": false,
-     "score": 71,
-     "category": "ai-models"
+     "score": 44,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Argon 把实景变可玩游戏",
+       "url": "https://x.com/Google/status/2112199261899411579",
+       "aihot": "https://aihot.news/items/r5l8t34zlczqs1iacxe4xqfrs"
+      },
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 4 Argon 打造 3D 巫师棋",
+       "url": "https://x.com/GeminiApp/status/2112214581443498261",
+       "aihot": "https://aihot.news/items/ddfgeiufemigun9v4htxl29jd"
+      }
+     ]
     }
    ],
    "note": null
   },
   {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 2,
+     "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-10-20T00:39:32.748000+08:00",
+     "publishedAt": "2026-10-19T16:14:30.000Z",
+     "discoveredAt": "2026-10-19T16:39:32.748Z",
+     "summary": "Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。",
+     "url": "https://x.com/arena/status/2112215825944117361",
+     "aihot": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha",
+     "selected": true,
+     "score": 65,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "谷歌论文：四个 Gemini 4 Argon 智能体 27 小时自主通关《我的世界》击败末影龙",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-19T23:20:32.390000+08:00",
+     "publishedAt": "2026-10-19T15:03:29.230Z",
+     "discoveredAt": "2026-10-19T15:20:32.390Z",
+     "summary": "谷歌研究人员发布论文，使用四个 Gemini 4 Argon 智能体在 27 小时内完全自主通关《我的世界》并击败末影龙，团队称这是 AI 智能体首次在无人类辅助下从头到尾通关。",
+     "url": "https://www.ithome.com/1/015/048.htm",
+     "aihot": "https://aihot.news/items/eaka832qgigdnj4edsqeni17d",
+     "selected": false,
+     "score": 61,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "Google ADK 教程：用流式工具与响应调度构建永不冷场的语音智能体",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-10-20T00:44:35.096000+08:00",
+     "publishedAt": "2026-10-18T16:00:00.000Z",
+     "discoveredAt": "2026-10-19T16:44:35.096Z",
+     "summary": "Google Developers Blog 发布教程，讲解如何用开源 ADK 与 gemini-3.8-live 构建不出现冷场的语音智能体，核心是非阻塞工具调用。",
+     "url": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
+     "aihot": "https://aihot.news/items/emuxoxo4dpkovprjlldl4ugqt",
+     "selected": true,
+     "score": 65,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
