@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-19",
-  "winEnd": "2026-10-20",
-  "generated": "2026-10-20 13:46",
-  "rawHits": 19,
-  "selectedHits": 2,
-  "shown": 4,
-  "dedupedFrom": 6,
+  "winStart": "2026-10-20",
+  "winEnd": "2026-10-21",
+  "generated": "2026-10-21 13:50",
+  "rawHits": 25,
+  "selectedHits": 1,
+  "shown": 8,
+  "dedupedFrom": 12,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 17,
+    "count": 18,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,42 +86,113 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 8 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
    "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Gemini 4 Argon 两小时后台生成特斯拉跑酷游戏",
-     "source": "X：Ammaar Reshi (@ammaar)",
-     "ts": "2026-10-20T04:18:33.772000+08:00",
-     "publishedAt": "2026-10-19T20:07:44.000Z",
-     "discoveredAt": "2026-10-19T20:18:33.772Z",
-     "summary": "Gemini 4 Argon 在后台自主运行 2 小时，做出了一款以飞行版特斯拉 Roadster 为主角的 Subway Surfers 风格跑酷游戏，上线后已有超 2 万人游玩。",
-     "url": "https://x.com/ammaar/status/2112274521671831824",
-     "aihot": "https://aihot.news/items/hf423igq0zt7eqw5qvsdg579j",
+     "title": "Meta 开源权重模型 Muse Spark Open 在 Fireworks 上线，主打长上下文编码与 Agent 工作",
+     "source": "Fireworks AI（网页）",
+     "ts": "2026-10-21T04:12:36.441000+08:00",
+     "publishedAt": "2026-10-19T16:00:00.000Z",
+     "discoveredAt": "2026-10-20T20:12:36.441Z",
+     "summary": "Meta 的开源权重模型 Muse Spark Open 在 Fireworks 上 Day-0 开放 serverless 调用，为 816B 参数 MoE 模型，每 token 激活 42B 参数，上下文窗口 1M token。",
+     "url": "https://fireworks.ai/blog/meta-muse-spark-open",
+     "aihot": "https://aihot.news/items/bnkk7s6s6tijtopwjxvx6eiw3",
+     "selected": true,
+     "score": 72,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 4,
+   "items": [
+    {
+     "n": 2,
+     "title": "Google 将 Personal Intelligence 个性化功能引入车载 Gemini",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-21T06:30:36.053000+08:00",
+     "publishedAt": "2026-10-20T22:11:34.000Z",
+     "discoveredAt": "2026-10-20T22:30:36.053Z",
+     "summary": "Google 为 Android Auto 和 Google built-in 车机上的 Gemini 推出 Personal Intelligence，可跨 Gmail、Calendar、Maps、Photos、YouTube 和 Search 调用个人信息，例如从 Gmail 读取航班确认信息后查询航班状态，或按…",
+     "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+     "aihot": "https://aihot.news/items/c8jq05dsf8zby3d0ggbkq6cmo",
      "selected": false,
-     "score": 44,
+     "score": 56,
      "category": "ai-products",
      "also": [
       {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Argon 把实景变可玩游戏",
-       "url": "https://x.com/Google/status/2112199261899411579",
-       "aihot": "https://aihot.news/items/r5l8t34zlczqs1iacxe4xqfrs"
-      },
-      {
-       "source": "X：Gemini (@GeminiApp)",
-       "title": "Gemini 4 Argon 打造 3D 巫师棋",
-       "url": "https://x.com/GeminiApp/status/2112214581443498261",
-       "aihot": "https://aihot.news/items/ddfgeiufemigun9v4htxl29jd"
+       "source": "Ars Technica：AI（RSS）",
+       "title": "Google 将 Gemini 的 Personal Intelligence 引入 Android Auto 与 Google Built-in",
+       "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+       "aihot": "https://aihot.news/items/zgg5xo96yfry81y6k4h4zsjhw"
       }
      ]
+    },
+    {
+     "n": 3,
+     "title": "Gemini 车载个人智能上线",
+     "source": "X：Google (@Google)",
+     "ts": "2026-10-21T05:29:37.269000+08:00",
+     "publishedAt": "2026-10-20T21:22:04.000Z",
+     "discoveredAt": "2026-10-20T21:29:37.269Z",
+     "summary": "Personal Intelligence 现已在 Android Auto 上的 Gemini 中推出，并将在未来几个月内推广到内置 Google 的汽车，让你在行车途中获得更出色的免手操作帮助。",
+     "url": "https://x.com/Google/status/2112655614132285592",
+     "aihot": "https://aihot.news/items/duhjb2yq1x0tlcxiwgqwyrjxm",
+     "selected": false,
+     "score": 42,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Gemini 4 Argon 打造3D元素周期表",
+     "source": "X：Sundar Pichai (@sundarpichai)",
+     "ts": "2026-10-21T05:03:36.977000+08:00",
+     "publishedAt": "2026-10-20T20:52:34.000Z",
+     "discoveredAt": "2026-10-20T21:03:36.977Z",
+     "summary": "打开声音！",
+     "url": "https://x.com/sundarpichai/status/2112648189656616999",
+     "aihot": "https://aihot.news/items/mmr19z106ldw2dtpqqiocym0d",
+     "selected": false,
+     "score": 42,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+       "title": "Gemini 4 Argon 上线72小时处理25万亿token",
+       "url": "https://x.com/OfficialLoganK/status/2112767157746688480",
+       "aihot": "https://aihot.news/items/hjog3xmwcnsq6s1hc4jg4pnmb"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Gemini 4 Argon 打造 3D 元素周期表",
+       "url": "https://x.com/GoogleDeepMind/status/2112557925264752930",
+       "aihot": "https://aihot.news/items/btxwy0996cwlj19nniszy7xkp"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Argon 浏览器实时 3D 毛发物理",
+       "url": "https://x.com/Google/status/2112552114467602487",
+       "aihot": "https://aihot.news/items/p10lcna670lht9n1942k51sar"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "Philipp Schmid 介绍用 Gemini Managed Agents 试用 Gemini 4 Argon",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-10-20T23:52:19.456000+08:00",
+     "publishedAt": "2026-10-20T15:25:00.000Z",
+     "discoveredAt": "2026-10-20T15:52:19.456Z",
+     "summary": "Philipp Schmid 介绍在智能体环境中试用 Gemini 4 Argon 的最简单方式是 Gemini Managed Agents，单次 API 调用即可获得 Python、Node.js、Git 和 Bash 环境，并附示例代码。",
+     "url": "https://x.com/_philschmid/status/2112565754444820713",
+     "aihot": "https://aihot.news/items/vbhml9qirp1p3z3vwrq8kqxsr",
+     "selected": false,
+     "score": 57,
+     "category": "ai-products"
     }
    ],
    "note": null
@@ -129,20 +200,34 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 2,
-     "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
-     "source": "X：Arena (@arena)",
-     "ts": "2026-10-20T00:39:32.748000+08:00",
-     "publishedAt": "2026-10-19T16:14:30.000Z",
-     "discoveredAt": "2026-10-19T16:39:32.748Z",
-     "summary": "Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。",
-     "url": "https://x.com/arena/status/2112215825944117361",
-     "aihot": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha",
-     "selected": true,
-     "score": 65,
+     "n": 6,
+     "title": "Gemini App 可信测试者社区达里程碑",
+     "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+     "ts": "2026-10-21T07:03:38.093000+08:00",
+     "publishedAt": "2026-10-20T22:46:09.000Z",
+     "discoveredAt": "2026-10-20T23:03:38.093Z",
+     "summary": "昨天，我们的 @GeminiApp 可信测试者社区刚刚跨过了一个重要里程碑。TLDR：很多人想尝试 Web、Android 和 iOS 上的早期功能！如果你之前已经注册过，就已经完全加入了。如果你想注册……👇",
+     "url": "https://x.com/joshwoodward/status/2112676777290248675",
+     "aihot": "https://aihot.news/items/hg4871n0h9vld6vcpaha81rbb",
+     "selected": false,
+     "score": 27,
+     "category": "industry"
+    },
+    {
+     "n": 7,
+     "title": "Sundar Pichai 深谈 Gemini 4 Argon：Google 坚守 AI 前沿、算力取舍与太空数据中心",
+     "source": "Big Technology（热点 RSS）",
+     "ts": "2026-10-21T02:08:17.788000+08:00",
+     "publishedAt": "2026-10-20T17:47:40.000Z",
+     "discoveredAt": "2026-10-20T18:08:17.788Z",
+     "summary": "Alphabet CEO Sundar Pichai 在 Big Technology Podcast 访谈中否认 Google 放弃前沿 AI，称 Gemini 4 Argon 在编码、数学、科学和知识工作基准上超越 OpenAI 和 Anthropic 的最新公开模型，上线 72 小时处理近 25 万亿 toke…",
+     "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+     "aihot": "https://aihot.news/items/ek3djklxz7x0cxk9ha36tglvq",
+     "selected": false,
+     "score": 63,
      "category": "industry"
     }
    ],
@@ -154,17 +239,17 @@
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "谷歌论文：四个 Gemini 4 Argon 智能体 27 小时自主通关《我的世界》击败末影龙",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-19T23:20:32.390000+08:00",
-     "publishedAt": "2026-10-19T15:03:29.230Z",
-     "discoveredAt": "2026-10-19T15:20:32.390Z",
-     "summary": "谷歌研究人员发布论文，使用四个 Gemini 4 Argon 智能体在 27 小时内完全自主通关《我的世界》并击败末影龙，团队称这是 AI 智能体首次在无人类辅助下从头到尾通关。",
-     "url": "https://www.ithome.com/1/015/048.htm",
-     "aihot": "https://aihot.news/items/eaka832qgigdnj4edsqeni17d",
+     "n": 8,
+     "title": "Google DeepMind 论文发现自我进化智能体边学习边遗忘，学得最快的 GEPA 遗忘也最多",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-21T03:00:19.770000+08:00",
+     "publishedAt": "2026-10-20T18:47:08.000Z",
+     "discoveredAt": "2026-10-20T19:00:19.770Z",
+     "summary": "Rohan Paul 介绍了 Google DeepMind 论文《Are Self-Evolving Agents Continual Learners?》的发现：自我进化智能体通过编辑系统提示词、记忆或技能文件来改进，但在任务流变化时会出现遗忘，学新任务最快的方法破坏旧任务也最多。",
+     "url": "https://x.com/rohanpaul_ai/status/2112616622708101178",
+     "aihot": "https://aihot.news/items/lls7o046whtejucmcgt9957su",
      "selected": false,
-     "score": 61,
+     "score": 59,
      "category": "paper"
     }
    ],
@@ -173,24 +258,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 4,
-     "title": "Google ADK 教程：用流式工具与响应调度构建永不冷场的语音智能体",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-20T00:44:35.096000+08:00",
-     "publishedAt": "2026-10-18T16:00:00.000Z",
-     "discoveredAt": "2026-10-19T16:44:35.096Z",
-     "summary": "Google Developers Blog 发布教程，讲解如何用开源 ADK 与 gemini-3.8-live 构建不出现冷场的语音智能体，核心是非阻塞工具调用。",
-     "url": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
-     "aihot": "https://aihot.news/items/emuxoxo4dpkovprjlldl4ugqt",
-     "selected": true,
-     "score": 65,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
