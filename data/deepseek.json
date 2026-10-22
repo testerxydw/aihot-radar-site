@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-20",
-  "winEnd": "2026-10-21",
-  "generated": "2026-10-21 13:50",
-  "rawHits": 33,
-  "selectedHits": 4,
-  "shown": 8,
-  "dedupedFrom": 22,
+  "winStart": "2026-10-21",
+  "winEnd": "2026-10-22",
+  "generated": "2026-10-22 13:53",
+  "rawHits": 15,
+  "selectedHits": 2,
+  "shown": 6,
+  "dedupedFrom": 6,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 4,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,8 +41,8 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 15,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -68,119 +68,35 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
-     "source": "vLLM 官方博客（RSS）",
-     "ts": "2026-10-21T11:13:30.567000+08:00",
-     "publishedAt": "2026-10-21T00:00:00.000Z",
-     "discoveredAt": "2026-10-21T03:13:30.567Z",
-     "summary": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。",
-     "url": "https://vllm.ai/blog/2026-10-21-humming",
-     "aihot": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q",
-     "selected": true,
-     "score": 67,
+     "title": "Artificial Analysis 实测 DeepSeek Search：搜索索引得分 69，付费 Search API 中单价最低",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-10-22T12:30:31.022000+08:00",
+     "publishedAt": "2026-10-22T04:23:36.000Z",
+     "discoveredAt": "2026-10-22T04:30:31.022Z",
+     "summary": "Artificial Analysis 将 DeepSeek Search 纳入其 Search Index 实测，得分 69，在 27 个搜索产品中排第 17，价格为 $0.75/1k 次搜索，是实测中单价最低的付费 Search API。",
+     "url": "https://x.com/ArtificialAnlys/status/2113124084410425362",
+     "aihot": "https://aihot.news/items/yq27i6np5ss8ovjyodvokqp94",
+     "selected": false,
+     "score": 62,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Google 发布 vLLM 与 SGLang 的 TorchTPU 原生推理引擎",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-20T23:04:26.165000+08:00",
-     "publishedAt": "2026-10-19T16:00:00.000Z",
-     "discoveredAt": "2026-10-20T15:04:26.165Z",
-     "summary": "Google 在 PyTorch 相关公告中推出基于 TorchTPU 的 vLLM 和 SGLang 原生 PyTorch 推理引擎，分别与 Inferact、RadixArk 合作开发，让开发者用熟悉的 PyTorch 工具在 TPU 上部署模型。",
-     "url": "https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/",
-     "aihot": "https://aihot.news/items/mlusnw9gi199uld4ixj58m2cz",
-     "selected": true,
-     "score": 71,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "PyTorch：Blog（RSS）",
-       "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
-       "url": "https://pytorch.org/blog/introducing-torchtpu/",
-       "aihot": "https://aihot.news/items/lh8vm7yp332xoffhqoscusss4"
-      }
-     ]
-    },
-    {
-     "n": 3,
-     "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
-     "source": "公众号：DeepSeek（深度求索）",
-     "ts": "2026-10-20T17:30:05.569000+08:00",
-     "publishedAt": "2026-10-20T08:54:54.000Z",
-     "discoveredAt": "2026-10-20T09:30:05.569Z",
-     "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。",
-     "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
-     "aihot": "https://aihot.news/items/ckykonvith99q6hvd0utjdwfn",
-     "selected": true,
-     "score": 75,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：邵猛 (@shao__meng)",
-       "title": "DeepSeek 开源推理框架 DeepInfer 并发布技术报告，公开大规模部署细节",
-       "url": "https://x.com/shao__meng/status/2112740048299082127",
-       "aihot": "https://aihot.news/items/zp7fjrp880cdsrcnfhoqw7ak7"
-      },
-      {
-       "source": "X：Tianyi Cui（@tianyi）",
-       "title": "DeepSeek 开源自研推理框架 DeepInfer",
-       "url": "https://x.com/tianyi/status/2112529760748437977",
-       "aihot": "https://aihot.news/items/e3jv8k3r5dks7ae6u2mhh2gsr"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "DeepSeek 开源 DeepInfer 推理框架，支撑 DeepSeek-V4.1-Flash 生产服务",
-       "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
-       "aihot": "https://aihot.news/items/hgro6biofb0t2dc4mi4vfr35u"
-      },
-      {
-       "source": "X：Oran Ge (@oran_ge)",
-       "title": "DeepSeek 完全开源自研推理框架 DeepInfer",
-       "url": "https://x.com/oran_ge/status/2112486001184850341",
-       "aihot": "https://aihot.news/items/qh1rsccwh1vkyo7v0mj49wmkd"
-      },
-      {
-       "source": "X：Nathan Lambert (@natolambert)",
-       "title": "DeepSeek 开源自研推理框架 DeepInfer",
-       "url": "https://x.com/natolambert/status/2112509913847210471",
-       "aihot": "https://aihot.news/items/iykrf6nfhefnznf9ebwhuybd4"
-      },
-      {
-       "source": "X：Yuchen Jin (@Yuchenj_UW)",
-       "title": "DeepSeek 开源自研推理框架 DeepInfer",
-       "url": "https://x.com/Yuchenj_UW/status/2112544687001342389",
-       "aihot": "https://aihot.news/items/oquyyfv4iiu96svoqfykxn73o"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "DeepSeek 开源推理框架 DeepInfer，采用 Apache License 2.0",
-       "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
-       "aihot": "https://aihot.news/items/q7sy38nan6ypdxhq57axgmmf6"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "DeepSeek 以 Apache 2.0 开源生产推理引擎 DeepInfer",
-       "url": "https://x.com/rohanpaul_ai/status/2112517682646155349",
-       "aihot": "https://aihot.news/items/ckn0qt2gr1byl2lbfm2mmy9ot"
-      },
-      {
-       "source": "X：Yuchen Jin (@Yuchenj_UW)",
-       "title": "Databricks 员工调侃 DeepSeek 开源 DeepInfer 并公布推理收入数据",
-       "url": "https://x.com/Yuchenj_UW/status/2112755768693043468",
-       "aihot": "https://aihot.news/items/l7yr3cl8jr8t7kmmxkpa6k1h2"
-      },
-      {
-       "source": "X：马东锡 NLP (@dongxi_nlp)",
-       "title": "DeepSeek 以 Apache-2.0 开源高性能推理框架 DeepInfer",
-       "url": "https://x.com/dongxi_nlp/status/2112480169046999044",
-       "aihot": "https://aihot.news/items/in0zmqupombvlz82k0pczvlbn"
-      }
-     ]
+     "title": "DeepSeek 开源内部推理框架 DeepInfer",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-10-21T17:26:28.617000+08:00",
+     "publishedAt": "2026-10-21T09:26:08.000Z",
+     "discoveredAt": "2026-10-21T09:26:28.617Z",
+     "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 完全开源，代码位于 github.com/deepseek-ai/DeepInfer。",
+     "url": "https://x.com/thexpin/status/2112837830544081199",
+     "aihot": "https://aihot.news/items/eokygpb410q0isffci7g4a8ik",
+     "selected": false,
+     "score": 72,
+     "category": "ai-models"
     }
    ],
    "note": null
@@ -188,43 +104,21 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 4,
-     "title": "DeepSeek 公开推理集群数据：单集群日服务 155 万亿 token，每 GPU 小时收入 $38",
-     "source": "X：Yuchen Jin (@Yuchenj_UW)",
-     "ts": "2026-10-21T01:27:22.712000+08:00",
-     "publishedAt": "2026-10-20T17:05:36.000Z",
-     "discoveredAt": "2026-10-20T17:27:22.712Z",
-     "summary": "Yuchen Jin 转发 DeepSeek 开源 DeepInfer 推理框架时公布的运营数据：单集群日吞吐 155 万亿 token，按非高峰价格计算每 GPU 小时收入 $38。",
-     "url": "https://x.com/Yuchenj_UW/status/2112591074409742733",
-     "aihot": "https://aihot.news/items/tbw48skvv9vc713okgcrvroca",
+     "n": 3,
+     "title": "SemiAnalysis 剖析华为与 DeepSeek 共生：Ascend 950PR 实测与 DeepSeek 开源适配",
+     "source": "SemiAnalysis 长文 RSS（RSS）",
+     "ts": "2026-10-22T02:28:26.886000+08:00",
+     "publishedAt": "2026-10-21T17:34:38.000Z",
+     "discoveredAt": "2026-10-21T18:28:26.886Z",
+     "summary": "SemiAnalysis 发布长文，分析 9 月 30 日 DeepSeek 为 TileLang、DeepGEMM、DeepEP、FlashMLA 等 6 个仓库加入 Ascend 支持背后的华为-DeepSeek 互补关系。",
+     "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+     "aihot": "https://aihot.news/items/vae57hgmrey7nxgpmvl0u3nr0",
      "selected": false,
      "score": 70,
      "category": "ai-products"
-    },
-    {
-     "n": 5,
-     "title": "DeepSeek-V4.1-Flash-1017 登顶 Agent Arena 与 Code Arena: WebDev 开源榜，总榜第 11",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-20T16:25:21.912000+08:00",
-     "publishedAt": "2026-10-20T07:57:37.717Z",
-     "discoveredAt": "2026-10-20T08:25:21.912Z",
-     "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 和 Code Arena: WebDev 开源模型榜单，总榜排名第 11。",
-     "url": "https://www.ithome.com/1/015/370.htm",
-     "aihot": "https://aihot.news/items/gebmh9u6d8dtqrqp3yhqua6bs",
-     "selected": false,
-     "score": 68,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Arena (@arena)",
-       "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Arena 的 Agent 和 Code 两大榜单开源模型第一",
-       "url": "https://x.com/arena/status/2112683123406479810",
-       "aihot": "https://aihot.news/items/pwdldfnta3ut27a749j2wen17"
-      }
-     ]
     }
    ],
    "note": null
@@ -235,46 +129,32 @@
    "count": 2,
    "items": [
     {
-     "n": 6,
-     "title": "最新开放成果第25期：DeepSeek V4.1 Flash 1017、美国产模型与中美新监管措施",
-     "source": "Nathan Lambert：Interconnects（RSS）",
-     "ts": "2026-10-21T01:52:17.313000+08:00",
-     "publishedAt": "2026-10-20T17:04:21.000Z",
-     "discoveredAt": "2026-10-20T17:52:17.313Z",
-     "summary": "DeepSeek 发布新尺寸模型 DeepSeek-V4.1-Flash-1017（552B-A16B），支持图像输入并沿用 MIT 许可，在 DeepSWE 上性能价格比领先。",
-     "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-     "aihot": "https://aihot.news/items/ss1e3835q656v6d2uozlo03d3",
-     "selected": false,
-     "score": 47,
+     "n": 4,
+     "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-22T11:28:34.414000+08:00",
+     "publishedAt": "2026-10-22T03:13:00.000Z",
+     "discoveredAt": "2026-10-22T03:28:34.414Z",
+     "summary": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。",
+     "url": "https://x.com/rohanpaul_ai/status/2113106318659928525",
+     "aihot": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah",
+     "selected": true,
+     "score": 76,
      "category": "industry"
     },
     {
-     "n": 7,
-     "title": "美国下令联邦机构移除 DeepSeek AI 系统",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-20T22:05:20.041000+08:00",
-     "publishedAt": "2026-10-20T13:07:24.000Z",
-     "discoveredAt": "2026-10-20T14:05:20.041Z",
-     "summary": "美国国土安全部要求联邦文职机构停止采购 DeepSeek 开发的产品与服务，并从政府 IT 系统中移除，禁令还覆盖基于 DeepSeek 技术构建的第三方产品，机构可申请例外。该命令以国家安全为由，担忧美国政府用户的敏感数据可能被中国方面获取。中国外交部发言人毛宁回应称反对过度扩大国家安全概念、将科技和贸易问题政治化。",
-     "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-     "aihot": "https://aihot.news/items/ov8o0a47ynrggjy3zxwto4l0m",
+     "n": 5,
+     "title": "美国禁政府系统使用 DeepSeek，中国抗议并指其歧视，但国内仍封锁 ChatGPT、Claude 和 Gemini",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-21T21:53:25.977000+08:00",
+     "publishedAt": "2026-10-21T13:04:19.000Z",
+     "discoveredAt": "2026-10-21T13:53:25.977Z",
+     "summary": "美国国土安全部要求民用联邦机构从 IT 系统中移除 DeepSeek 产品及基于其开源模型构建的软件，并禁止后续采购，中国外交部与商务部抗议并要求撤销。文章指出中方立场难以自洽：ChatGPT、Claude 和 Gemini 未获中国批准，自 2023 年起 AI 服务须经网信办审查并符合政治准则，该规则覆盖整个市场。",
+     "url": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
+     "aihot": "https://aihot.news/items/mcdgtzrqkovzwmnoq8u2tpr2g",
      "selected": false,
-     "score": 78,
-     "category": "industry",
-     "also": [
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "美国国土安全部禁止联邦民用机构使用 DeepSeek 技术",
-       "url": "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/",
-       "aihot": "https://aihot.news/items/q25epswbwucfhv5dqpj7bq65m"
-      },
-      {
-       "source": "X：X.PIN (@thexpin)",
-       "title": "美国国土安全部下令联邦民事机构清除 DeepSeek 产品",
-       "url": "https://x.com/thexpin/status/2112435726432240076",
-       "aihot": "https://aihot.news/items/oc05t79cvsqdrwbo6rwq5x14b"
-      }
-     ]
+     "score": null,
+     "category": "industry"
     }
    ],
    "note": null
@@ -292,17 +172,17 @@
    "count": 1,
    "items": [
     {
-     "n": 8,
-     "title": "ValsAI称DeepSeek V4.1 Flash攻防测试胜GPT 6 Sol",
-     "source": "X：Nathan Lambert (@natolambert)",
-     "ts": "2026-10-20T23:51:21.154000+08:00",
-     "publishedAt": "2026-10-20T15:32:47.000Z",
-     "discoveredAt": "2026-10-20T15:51:21.154Z",
-     "summary": "防御性网络安全方面可能也很出色，但没人会发这种内容来博眼球！",
-     "url": "https://x.com/natolambert/status/2112567715689042021",
-     "aihot": "https://aihot.news/items/pocswfw23qce838duvvq0e9qb",
-     "selected": false,
-     "score": 30,
+     "n": 6,
+     "title": "ChinaTalk 解读商务部第48号公告对AI技术出口管制的影响",
+     "source": "ChinaTalk（RSS）",
+     "ts": "2026-10-21T21:51:40.570000+08:00",
+     "publishedAt": "2026-10-21T13:43:39.000Z",
+     "discoveredAt": "2026-10-21T13:51:40.570Z",
+     "summary": "ChinaTalk 作者详读中国商务部与科技部10月16日发布的第48号公告草案，该草案拟向《中国禁止出口限制出口技术目录》新增40项技术（14项禁售、26项需许可），其中23项涉及AI。",
+     "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
+     "aihot": "https://aihot.news/items/btdpdvumudpoab4rls1j5ni8m",
+     "selected": true,
+     "score": 83,
      "category": "tip"
     }
    ],
