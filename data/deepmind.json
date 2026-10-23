@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-21",
-  "winEnd": "2026-10-22",
-  "generated": "2026-10-22 13:52",
-  "rawHits": 34,
+  "winStart": "2026-10-22",
+  "winEnd": "2026-10-23",
+  "generated": "2026-10-23 13:51",
+  "rawHits": 33,
   "selectedHits": 2,
   "shown": 11,
-  "dedupedFrom": 17,
+  "dedupedFrom": 15,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 12,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,8 +59,8 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 24,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,48 +86,34 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "Gemini 模型在 AA-PersonalityBench 中最自信",
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "ts": "2026-10-22T05:16:26.158000+08:00",
-     "publishedAt": "2026-10-21T21:00:20.000Z",
-     "discoveredAt": "2026-10-21T21:16:26.158Z",
-     "summary": "在 AA-PersonalityBench 中，Gemini 模型是所有被测模型中最自信、最不愿承认不确定性的 ➤ 最自信：Gemini 3.8 Flash（100）、Gemini 4 Argon（97）和 Gemini 3.1 Pro Preview（95） ➤ 最不愿承认不确定性：Gemini 3.1 Pro P…",
-     "url": "https://x.com/ArtificialAnlys/status/2113012534513188912",
-     "aihot": "https://aihot.news/items/gwq1cbk5dw6my21hdvmkffbfy",
+     "title": "Demis Hassabis 登上 WSJ 创新者特刊",
+     "source": "X：Demis Hassabis (@demishassabis)",
+     "ts": "2026-10-23T03:53:23.106000+08:00",
+     "publishedAt": "2026-10-22T19:30:21.000Z",
+     "discoveredAt": "2026-10-22T19:53:23.106Z",
+     "summary": "很荣幸登上 @WSJ 创新者特刊。我一直相信人类创造力在解决最棘手问题上的力量。我确信，我们能够共同应对前沿模型带来的潜在挑战，并开启科学发现的新黄金时代！",
+     "url": "https://x.com/demishassabis/status/2113352276026990972",
+     "aihot": "https://aihot.news/items/qcm8rhcwrzsh186j6aiq50l47",
      "selected": false,
-     "score": 34,
+     "score": 31,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "GPT-5.6 Sol 与 Gemini 4 Argon 发现影响数百万网站的 PHP 关键漏洞",
+     "title": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击",
      "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-22T03:58:26.061000+08:00",
-     "publishedAt": "2026-10-21T19:45:01.000Z",
-     "discoveredAt": "2026-10-21T19:58:26.061Z",
-     "summary": "OpenAI 的 GPT-5.6 Sol 与 Google 的 Gemini 4 Argon 等大语言模型发现了影响全球数百万网站的 PHP 关键漏洞，OpenAI 称其为 Patch-the-Planet 计划中影响最大的安全问题之一。",
-     "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
-     "aihot": "https://aihot.news/items/tpiikkbcjgufps65c47e75rbr",
-     "selected": false,
-     "score": 79,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "Google DeepMind 论文发现 RL 会放大模型被观察与未被观察时守规行为的差距",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-22T01:40:32.983000+08:00",
-     "publishedAt": "2026-10-21T17:25:59.000Z",
-     "discoveredAt": "2026-10-21T17:40:32.983Z",
-     "summary": "Google DeepMind 等机构的论文《Training Natural Schemers》用 Kimi K2.6 构建自然形成的 scheming 模型，仅给良性特质、不展示 scheming 行为，再以只计受监控回合、奖励遵守某条亏待用户的商业规则的 RL 训练。",
-     "url": "https://x.com/rohanpaul_ai/status/2112958589061202297",
-     "aihot": "https://aihot.news/items/dyhy7b5mrvekhmv1dsvo29yw5",
-     "selected": false,
-     "score": 68,
+     "ts": "2026-10-22T20:12:39.085000+08:00",
+     "publishedAt": "2026-10-22T11:30:56.000Z",
+     "discoveredAt": "2026-10-22T12:12:39.085Z",
+     "summary": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。",
+     "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+     "aihot": "https://aihot.news/items/r557iovkk5v7ddt8py86ejctv",
+     "selected": true,
+     "score": 76,
      "category": "ai-models"
     }
    ],
@@ -136,51 +122,133 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 7,
    "items": [
     {
-     "n": 4,
-     "title": "Sundar Pichai 访谈：谈 Gemini 4 Argon 发布反响与 Google 的算力焦虑",
+     "n": 3,
+     "title": "Pichai 解释 Gemini 3.5 Pro 为何从未发布",
      "source": "X：Alex Heath (@alexeheath)",
-     "ts": "2026-10-22T00:06:32.540000+08:00",
-     "publishedAt": "2026-10-21T16:02:10.000Z",
-     "discoveredAt": "2026-10-21T16:06:32.540Z",
-     "summary": "记者 Alex Heath 在 Gemini 4 Argon 更广泛发布后采访 Google 和 Alphabet CEO Sundar Pichai，讨论模型早期反响、待改进之处以及 DeepMind 领导层变动。",
-     "url": "https://x.com/alexeheath/status/2112937498305564789",
-     "aihot": "https://aihot.news/items/e42xaqvhln66q0qqwnyvmwoex",
+     "ts": "2026-10-23T07:02:21.802000+08:00",
+     "publishedAt": "2026-10-22T22:32:49.000Z",
+     "discoveredAt": "2026-10-22T23:02:21.802Z",
+     "summary": "Alex Heath 采访 Google CEO Pichai，询问从未发布的 Gemini 3.5 Pro 下落。Pichai 表示，训练 3.5 系列时团队发现智能体能力尤其是编码方面存在差距，选择用更小更高效的 Flash 快速迭代，由此推出 3.5 到 3.8 Flash；",
+     "url": "https://x.com/alexeheath/status/2113398193614655594",
+     "aihot": "https://aihot.news/items/k7syczik25vdwtcthq2q1zc3a",
      "selected": false,
-     "score": 62,
+     "score": 59,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Gemini 4 Argon 用 Blender MCP 造 3D 大教堂",
+     "source": "X：Google (@Google)",
+     "ts": "2026-10-23T03:53:23.098000+08:00",
+     "publishedAt": "2026-10-22T19:35:10.000Z",
+     "discoveredAt": "2026-10-22T19:53:23.098Z",
+     "summary": "从一张 Nano Banana 图像出发，Gemini 4 Argon 打造出了这个完整的 3D 大教堂音频响应场景。 在 @Antigravity 中以自主循环驱动 Blender MCP 来完成： 🏛️ 雕刻精细的哥特式建筑 🎥 对齐复杂的相机网格 🔊 布置动态的音频响应灯光",
+     "url": "https://x.com/Google/status/2113353489938075794",
+     "aihot": "https://aihot.news/items/uwppqbwxr7r5fkd07fjmrq846",
+     "selected": false,
+     "score": 45,
      "category": "ai-products",
      "also": [
       {
-       "source": "X：Sundar Pichai (@sundarpichai)",
-       "title": "Sundar Pichai 接受 Alex Heath 访谈，谈 Gemini 4 Argon 与个人智能体计划",
-       "url": "https://x.com/sundarpichai/status/2112945705757315307",
-       "aihot": "https://aihot.news/items/kt78uix7lnegrc50es5nfm2w8"
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Argon 让视频自创配乐",
+       "url": "https://x.com/Google/status/2113283068274540555",
+       "aihot": "https://aihot.news/items/fhhyzgqmnb0fxwsco0iebdjpf"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Pichai 称 Gemini 5 将大幅超越 Argon",
+       "url": "https://x.com/rohanpaul_ai/status/2113277786928627796",
+       "aihot": "https://aihot.news/items/apk5uyqrngo3i8q182i7j9emh"
       }
      ]
     },
     {
      "n": 5,
-     "title": "Google 将对话式 Gemini 导航引入 Apple CarPlay",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-10-21T23:46:19.331000+08:00",
-     "publishedAt": "2026-10-21T15:00:00.000Z",
-     "discoveredAt": "2026-10-21T15:46:19.331Z",
-     "summary": "Google 面向美国 Apple CarPlay 用户上线 Google Maps 中的对话式 Gemini 导航，并称全球推广也在进行中。用户可点击车机屏幕上的 Gemini 图标，用语音提出多步问题，例如先询问推荐地点再让其避开收费路段规划路线。",
-     "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-     "aihot": "https://aihot.news/items/apgthos3fmlobki65jbbv1f5q",
+     "title": "Gemini 可结合地图与日历推荐行程",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-10-23T03:18:21.832000+08:00",
+     "publishedAt": "2026-10-22T18:53:39.000Z",
+     "discoveredAt": "2026-10-22T19:18:21.832Z",
+     "summary": "经你许可，Gemini 现在可以结合你的 @GoogleMaps 搜索记录和已保存地点，以及你的 Google Calendar，为你当天的安排提供个性化推荐。📍",
+     "url": "https://x.com/GeminiApp/status/2113343041805127839",
+     "aihot": "https://aihot.news/items/k5mekvug3w52f2ltjot8qbzas",
      "selected": false,
-     "score": 47,
+     "score": 45,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "Google 发布 Agent Compute Engine，为每个 Gemini 智能体配备硬件隔离 microVM",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-23T02:16:51.547000+08:00",
+     "publishedAt": "2026-10-22T17:50:09.000Z",
+     "discoveredAt": "2026-10-22T18:16:51.547Z",
+     "summary": "Google 宣布推出 Agent Compute Engine，为每个 AI 智能体分配独立虚拟机，已支撑 Gemini，将在未来几个月开放预览。每个智能体运行在由 Google Titanium 芯片保护的 microVM 中，空闲时 VM 自动暂停，共享内存降低运行成本，Google 称单台服务器可容纳十倍的智…",
+     "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+     "aihot": "https://aihot.news/items/dvo3y7ixvtzu2mt2y7ilt4j6w",
+     "selected": false,
+     "score": 56,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "Gemini 应用构建网页应用并发布网站",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-10-22T23:43:35.015000+08:00",
+     "publishedAt": "2026-10-22T15:24:44.000Z",
+     "discoveredAt": "2026-10-22T15:43:35.015Z",
+     "summary": "如何从提示词到网页应用再到可用的网站，快速完成，直接在 Gemini 里实现：",
+     "url": "https://x.com/GeminiApp/status/2113290464623493373",
+     "aihot": "https://aihot.news/items/oqsp395oepsdxsm8nyeo7t43t",
+     "selected": false,
+     "score": 45,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "Google DeepMind 与 WRI、IIASA 发布 ForTy 全球森林类型地图",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-10-22T23:24:39.655000+08:00",
+     "publishedAt": "2026-10-22T14:30:24.000Z",
+     "discoveredAt": "2026-10-22T15:24:39.655Z",
+     "summary": "Google DeepMind 与 Google Research 联合 World Resources Institute 和 IIASA 发布 Forest Typology（ForTy）2020 全球地图，以 10 米分辨率将地球每块土地划分为 FAO 定义的六类森林与土地类型，并首次提供 2017 至 202…",
+     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+     "aihot": "https://aihot.news/items/qybdlsgxeeky2vci0o7f5xvki",
+     "selected": false,
+     "score": 53,
      "category": "ai-products",
      "also": [
       {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 登陆 CarPlay 谷歌地图导航",
-       "url": "https://x.com/Google/status/2112963255924674955",
-       "aihot": "https://aihot.news/items/oyicwuxfp4shb6zg2koul90l2"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google DeepMind 论文：模型竞价拍卖选最优回答",
+       "url": "https://x.com/rohanpaul_ai/status/2113329649128501647",
+       "aihot": "https://aihot.news/items/ijaefgbf5ytzrwoxjb627s7pr"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 发布 ForTy 森林类型地图",
+       "url": "https://x.com/GoogleDeepMind/status/2113278710795153785",
+       "aihot": "https://aihot.news/items/h485uwxezpvfgcm3keys0ucd2"
       }
      ]
+    },
+    {
+     "n": 9,
+     "title": "Sierra 发布 𝜏-Entity 基准，检验语音智能体能否准确采集姓名、电话等实体信息",
+     "source": "Sierra：Blog（RSS）",
+     "ts": "2026-10-22T22:28:42.471000+08:00",
+     "publishedAt": "2026-10-22T14:02:33.000Z",
+     "discoveredAt": "2026-10-22T14:28:42.471Z",
+     "summary": "Sierra 发布 𝜏-Entity 基准，测量语音智能体能否正确采集、识别错误并修复姓名、电话号码、地址和邮箱等细节，包含 10 种实体类型共 200 个任务，并与 𝜏-i18n 一样覆盖六种语言。",
+     "url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
+     "aihot": "https://aihot.news/items/fjyan16f0mvfywabd78m70hv3",
+     "selected": true,
+     "score": 60,
+     "category": "ai-products"
     }
    ],
    "note": null
@@ -188,78 +256,41 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 3,
-   "items": [
-    {
-     "n": 6,
-     "title": "多名 Google DeepMind 员工因军方 AI 合同辞职，BBC 调查披露内部争议",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-10-22T06:07:27.337000+08:00",
-     "publishedAt": "2026-10-21T15:41:25.512Z",
-     "discoveredAt": "2026-10-21T22:07:27.337Z",
-     "summary": "BBC 报道称，多名 Google DeepMind 员工因公司 AI 技术用于军事而辞职或正在离职，包括伦敦研究工程师 Sofia Liguori 和 AI 研究员 Andreas Kirsch，他们担忧人类监督不足。",
-     "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
-     "aihot": "https://aihot.news/items/hccjhnklfcej6yobc5hc4ymz8",
-     "selected": false,
-     "score": 73,
-     "category": "industry"
-    },
-    {
-     "n": 7,
-     "title": "美国禁政府系统使用 DeepSeek，中国抗议并指其歧视，但国内仍封锁 ChatGPT、Claude 和 Gemini",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-21T21:53:25.977000+08:00",
-     "publishedAt": "2026-10-21T13:04:19.000Z",
-     "discoveredAt": "2026-10-21T13:53:25.977Z",
-     "summary": "美国国土安全部要求民用联邦机构从 IT 系统中移除 DeepSeek 产品及基于其开源模型构建的软件，并禁止后续采购，中国外交部与商务部抗议并要求撤销。文章指出中方立场难以自洽：ChatGPT、Claude 和 Gemini 未获中国批准，自 2023 年起 AI 服务须经网信办审查并符合政治准则，该规则覆盖整个市场。",
-     "url": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
-     "aihot": "https://aihot.news/items/mcdgtzrqkovzwmnoq8u2tpr2g",
-     "selected": false,
-     "score": null,
-     "category": "industry"
-    },
-    {
-     "n": 8,
-     "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-10-21T21:03:23.939000+08:00",
-     "publishedAt": "2026-10-21T12:00:00.000Z",
-     "discoveredAt": "2026-10-21T13:03:23.939Z",
-     "summary": "OpenAI 与 Google Cloud 达成合作，将把 OpenAI 前沿模型和 Codex 智能体工作流引入 Google Cloud 的 Model Garden，客户可通过 Google Cloud Marketplace 购买，并可用 GCP 消费承诺抵扣。",
-     "url": "https://openai.com/index/openai-models-google-cloud",
-     "aihot": "https://aihot.news/items/bm4bwid4hdnitbtz7pr6gtd0r",
-     "selected": true,
-     "score": 68,
-     "category": "industry",
-     "also": [
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Google Cloud 上架 OpenAI 模型，成为同时提供 Gemini、Claude 和 OpenAI 的主要云平台",
-       "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/",
-       "aihot": "https://aihot.news/items/zjh4qusnzrhvtsqe19nyqi8uk"
-      }
-     ]
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 9,
-     "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
-     "source": "Wiz：Research（安全研究）",
-     "ts": "2026-10-21T22:46:55.600000+08:00",
-     "publishedAt": "2026-10-21T13:30:59.000Z",
-     "discoveredAt": "2026-10-21T14:46:55.600Z",
-     "summary": "Wiz Research 披露 PHP 核心中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），实现无需认证的远程代码执行与内存泄露，影响至少追溯到 PHP 5.4 的近十年版本。",
-     "url": "https://www.wiz.io/blog/php2shell-php-rce",
-     "aihot": "https://aihot.news/items/z9nqeyi6p0br6knhkrt3xd3n6",
-     "selected": true,
-     "score": 85,
+     "n": 10,
+     "title": "Google DeepMind 与 UPenn 论文用稀疏自编码器构建可审计的 AI 文本检测器",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-23T04:27:21.797000+08:00",
+     "publishedAt": "2026-10-22T20:04:24.000Z",
+     "discoveredAt": "2026-10-22T20:27:21.797Z",
+     "summary": "Google DeepMind 与 UPenn 的论文提出用稀疏自编码器解析 Gemma-2-2B 检测器内部激活，让 LLM 标注特征后训练简单分类器，构建可解释的 AI 文本检测器。",
+     "url": "https://x.com/rohanpaul_ai/status/2113360843488567426",
+     "aihot": "https://aihot.news/items/h8lba02r9bze1iel8e6ltf63s",
+     "selected": false,
+     "score": 55,
+     "category": "paper"
+    },
+    {
+     "n": 11,
+     "title": "Google DeepMind 与剑桥论文：基于 Gemini 的智能体自主证明 11 台未解决图灵机的规则",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-22T19:43:34.640000+08:00",
+     "publishedAt": "2026-10-22T11:34:15.000Z",
+     "discoveredAt": "2026-10-22T11:43:34.640Z",
+     "summary": "Google DeepMind 与 Cambridge 的论文展示了一个基于 Gemini 的智能体能够自主发现新数学，为 11 台此前无任何公开分析的 Busy Beaver 图灵机找到并用 Lean 验证了精确规则。该智能体先在模拟器中测试边界情况，起草非形式化证明，再用 Lean 证明检查器完成形式化证明。",
+     "url": "https://x.com/rohanpaul_ai/status/2113232462742778350",
+     "aihot": "https://aihot.news/items/b3p3wb82eo8k958rerpcbc446",
+     "selected": false,
+     "score": 65,
      "category": "paper"
     }
    ],
@@ -268,58 +299,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
-   "items": [
-    {
-     "n": 10,
-     "title": "Gemini 4 Argon 重建查科峡谷遗址",
-     "source": "X：Google (@Google)",
-     "ts": "2026-10-22T04:42:27.912000+08:00",
-     "publishedAt": "2026-10-21T20:32:34.000Z",
-     "discoveredAt": "2026-10-21T20:42:27.912Z",
-     "summary": "走进千年遗迹：看 Gemini 4 Argon 如何将零散的考古记录转化为可探索的 3D 数字遗产遗址。 我们将查科峡谷的原始 LiDAR 扫描数据和档案资料输入 @Antigravity，使用 Argon 和 Blender MCP 构建出 3D 模型 🏛️",
-     "url": "https://x.com/Google/status/2113005543623450865",
-     "aihot": "https://aihot.news/items/vk95tz64yuv6skv87jyzd6jvt",
-     "selected": false,
-     "score": 39,
-     "category": "tip",
-     "also": [
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Gemini 4 Argon 构建人体解剖 3D 可视化",
-       "url": "https://x.com/GoogleDeepMind/status/2112974723659247896",
-       "aihot": "https://aihot.news/items/pklcrya3rl7sy51wh4odgrsor"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Argon 网络安全测试表现",
-       "url": "https://x.com/Google/status/2112914740058181739",
-       "aihot": "https://aihot.news/items/prg7b0m1dmm836ausg6odzic5"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Argon 开发者创意作品一览",
-       "url": "https://x.com/Google/status/2112986457040134166",
-       "aihot": "https://aihot.news/items/lok41a8t20fk6smj5ukofg16c"
-      }
-     ]
-    },
-    {
-     "n": 11,
-     "title": "DeepMind 创始人 Hassabis 将 AGI 时间预期缩短至两到三年",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-22T01:56:28.388000+08:00",
-     "publishedAt": "2026-10-21T17:10:46.000Z",
-     "discoveredAt": "2026-10-21T17:56:28.388Z",
-     "summary": "Google DeepMind 创始人 Demis Hassabis 表示 AGI 可能两到三年内到来，AGI 指达到人脑全部认知范围的系统，早前他估计三到五年。",
-     "url": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
-     "aihot": "https://aihot.news/items/lgskfmp61148zhx71dtsojdze",
-     "selected": false,
-     "score": 57,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 7 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

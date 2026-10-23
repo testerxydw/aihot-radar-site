@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-21",
-  "winEnd": "2026-10-22",
-  "generated": "2026-10-22 13:53",
+  "winStart": "2026-10-22",
+  "winEnd": "2026-10-23",
+  "generated": "2026-10-23 13:51",
   "rawHits": 15,
-  "selectedHits": 2,
-  "shown": 6,
-  "dedupedFrom": 6,
+  "selectedHits": 0,
+  "shown": 3,
+  "dedupedFrom": 4,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,35 +68,29 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Artificial Analysis 实测 DeepSeek Search：搜索索引得分 69，付费 Search API 中单价最低",
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "ts": "2026-10-22T12:30:31.022000+08:00",
-     "publishedAt": "2026-10-22T04:23:36.000Z",
-     "discoveredAt": "2026-10-22T04:30:31.022Z",
-     "summary": "Artificial Analysis 将 DeepSeek Search 纳入其 Search Index 实测，得分 69，在 27 个搜索产品中排第 17，价格为 $0.75/1k 次搜索，是实测中单价最低的付费 Search API。",
-     "url": "https://x.com/ArtificialAnlys/status/2113124084410425362",
-     "aihot": "https://aihot.news/items/yq27i6np5ss8ovjyodvokqp94",
+     "title": "DeepSeek V4.1 Flash 1017 在 ARC-AGI Verified 上取得 78.1%",
+     "source": "X：ARC Prize (@arcprize)",
+     "ts": "2026-10-23T01:22:52.776000+08:00",
+     "publishedAt": "2026-10-22T17:14:17.000Z",
+     "discoveredAt": "2026-10-22T17:22:52.776Z",
+     "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 1017 在 ARC-AGI Verified 上的成绩：ARC-AGI-2 为 78.1%（$0.16/task），ARC-AGI-1 为 94.5%（$0.06/task）。",
+     "url": "https://x.com/arcprize/status/2113318031954764273",
+     "aihot": "https://aihot.news/items/lz8t6qvs5xile13qy9vx0qrmb",
      "selected": false,
-     "score": 62,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "DeepSeek 开源内部推理框架 DeepInfer",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-10-21T17:26:28.617000+08:00",
-     "publishedAt": "2026-10-21T09:26:08.000Z",
-     "discoveredAt": "2026-10-21T09:26:28.617Z",
-     "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 完全开源，代码位于 github.com/deepseek-ai/DeepInfer。",
-     "url": "https://x.com/thexpin/status/2112837830544081199",
-     "aihot": "https://aihot.news/items/eokygpb410q0isffci7g4a8ik",
-     "selected": false,
-     "score": 72,
-     "category": "ai-models"
+     "score": 66,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：OpenClaw (@openclaw)",
+       "title": "DeepSeek V4.1 Flash 上线 OpenClaw",
+       "url": "https://x.com/openclaw/status/2113414141327380480",
+       "aihot": "https://aihot.news/items/msm3uk7y614e6awu4yiob2snz"
+      }
+     ]
     }
    ],
    "note": null
@@ -107,17 +101,17 @@
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "SemiAnalysis 剖析华为与 DeepSeek 共生：Ascend 950PR 实测与 DeepSeek 开源适配",
-     "source": "SemiAnalysis 长文 RSS（RSS）",
-     "ts": "2026-10-22T02:28:26.886000+08:00",
-     "publishedAt": "2026-10-21T17:34:38.000Z",
-     "discoveredAt": "2026-10-21T18:28:26.886Z",
-     "summary": "SemiAnalysis 发布长文，分析 9 月 30 日 DeepSeek 为 TileLang、DeepGEMM、DeepEP、FlashMLA 等 6 个仓库加入 Ascend 支持背后的华为-DeepSeek 互补关系。",
-     "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
-     "aihot": "https://aihot.news/items/vae57hgmrey7nxgpmvl0u3nr0",
+     "n": 2,
+     "title": "DeepSeek、MiniMax 已就AI技术出口新规履行登记手续并完成开源和海外授权",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-23T09:37:19.837000+08:00",
+     "publishedAt": "2026-10-23T00:58:54.873Z",
+     "discoveredAt": "2026-10-23T01:37:19.837Z",
+     "summary": "据玉渊谭天消息，自商务部、科技部就修订《中国禁止出口限制出口技术目录》公开征求意见后，DeepSeek、MiniMax 已顺利履行登记手续，并完成开源和海外授权使用。",
+     "url": "https://www.ithome.com/1/016/796.htm",
+     "aihot": "https://aihot.news/items/kcr4c26jzgoh6m3c70c4xilhd",
      "selected": false,
-     "score": 70,
+     "score": 72,
      "category": "ai-products"
     }
    ],
@@ -126,34 +120,20 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 4,
-     "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-22T11:28:34.414000+08:00",
-     "publishedAt": "2026-10-22T03:13:00.000Z",
-     "discoveredAt": "2026-10-22T03:28:34.414Z",
-     "summary": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。",
-     "url": "https://x.com/rohanpaul_ai/status/2113106318659928525",
-     "aihot": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah",
-     "selected": true,
-     "score": 76,
-     "category": "industry"
-    },
-    {
-     "n": 5,
-     "title": "美国禁政府系统使用 DeepSeek，中国抗议并指其歧视，但国内仍封锁 ChatGPT、Claude 和 Gemini",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-21T21:53:25.977000+08:00",
-     "publishedAt": "2026-10-21T13:04:19.000Z",
-     "discoveredAt": "2026-10-21T13:53:25.977Z",
-     "summary": "美国国土安全部要求民用联邦机构从 IT 系统中移除 DeepSeek 产品及基于其开源模型构建的软件，并禁止后续采购，中国外交部与商务部抗议并要求撤销。文章指出中方立场难以自洽：ChatGPT、Claude 和 Gemini 未获中国批准，自 2023 年起 AI 服务须经网信办审查并符合政治准则，该规则覆盖整个市场。",
-     "url": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
-     "aihot": "https://aihot.news/items/mcdgtzrqkovzwmnoq8u2tpr2g",
+     "n": 3,
+     "title": "DeepSeek 在美国限制后据报融资约 150 亿美元",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-10-22T21:46:59.675000+08:00",
+     "publishedAt": "2026-10-22T13:11:13.000Z",
+     "discoveredAt": "2026-10-22T13:46:59.675Z",
+     "summary": "据 Bloomberg 报道，DeepSeek 在美国下令联邦机构移除其技术两天后融资约 150 亿美元（约 1000 亿元人民币），潜在投资方包括宁德时代和腾讯。此前其 6 月以 500 亿美元估值融资超 70 亿美元，7 月还曾寻求以约 710 亿美元估值再融 15 亿美元，并计划最早明年在中国 IPO。",
+     "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+     "aihot": "https://aihot.news/items/r5wm73jcdoc1sea7r4qfkg3lz",
      "selected": false,
-     "score": null,
+     "score": 75,
      "category": "industry"
     }
    ],
@@ -169,24 +149,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 6,
-     "title": "ChinaTalk 解读商务部第48号公告对AI技术出口管制的影响",
-     "source": "ChinaTalk（RSS）",
-     "ts": "2026-10-21T21:51:40.570000+08:00",
-     "publishedAt": "2026-10-21T13:43:39.000Z",
-     "discoveredAt": "2026-10-21T13:51:40.570Z",
-     "summary": "ChinaTalk 作者详读中国商务部与科技部10月16日发布的第48号公告草案，该草案拟向《中国禁止出口限制出口技术目录》新增40项技术（14项禁售、26项需许可），其中23项涉及AI。",
-     "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
-     "aihot": "https://aihot.news/items/btdpdvumudpoab4rls1j5ni8m",
-     "selected": true,
-     "score": 83,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
