@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-22",
-  "winEnd": "2026-10-23",
-  "generated": "2026-10-23 13:51",
-  "rawHits": 33,
+  "winStart": "2026-10-23",
+  "winEnd": "2026-10-24",
+  "generated": "2026-10-24 13:33",
+  "rawHits": 17,
   "selectedHits": 2,
-  "shown": 11,
-  "dedupedFrom": 15,
+  "shown": 4,
+  "dedupedFrom": 4,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 12,
+    "count": 6,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 24,
+    "count": 16,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,168 +86,27 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 1,
-     "title": "Demis Hassabis 登上 WSJ 创新者特刊",
-     "source": "X：Demis Hassabis (@demishassabis)",
-     "ts": "2026-10-23T03:53:23.106000+08:00",
-     "publishedAt": "2026-10-22T19:30:21.000Z",
-     "discoveredAt": "2026-10-22T19:53:23.106Z",
-     "summary": "很荣幸登上 @WSJ 创新者特刊。我一直相信人类创造力在解决最棘手问题上的力量。我确信，我们能够共同应对前沿模型带来的潜在挑战，并开启科学发现的新黄金时代！",
-     "url": "https://x.com/demishassabis/status/2113352276026990972",
-     "aihot": "https://aihot.news/items/qcm8rhcwrzsh186j6aiq50l47",
-     "selected": false,
-     "score": 31,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-22T20:12:39.085000+08:00",
-     "publishedAt": "2026-10-22T11:30:56.000Z",
-     "discoveredAt": "2026-10-22T12:12:39.085Z",
-     "summary": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。",
-     "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-     "aihot": "https://aihot.news/items/r557iovkk5v7ddt8py86ejctv",
-     "selected": true,
-     "score": 76,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 6 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 7,
+   "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "Pichai 解释 Gemini 3.5 Pro 为何从未发布",
-     "source": "X：Alex Heath (@alexeheath)",
-     "ts": "2026-10-23T07:02:21.802000+08:00",
-     "publishedAt": "2026-10-22T22:32:49.000Z",
-     "discoveredAt": "2026-10-22T23:02:21.802Z",
-     "summary": "Alex Heath 采访 Google CEO Pichai，询问从未发布的 Gemini 3.5 Pro 下落。Pichai 表示，训练 3.5 系列时团队发现智能体能力尤其是编码方面存在差距，选择用更小更高效的 Flash 快速迭代，由此推出 3.5 到 3.8 Flash；",
-     "url": "https://x.com/alexeheath/status/2113398193614655594",
-     "aihot": "https://aihot.news/items/k7syczik25vdwtcthq2q1zc3a",
+     "n": 1,
+     "title": "Gemini 4 Argon 用 Blender MCP 建 3D 哥特教堂",
+     "source": "X：Google DeepMind (@GoogleDeepMind)",
+     "ts": "2026-10-23T23:00:36.322000+08:00",
+     "publishedAt": "2026-10-23T14:57:21.000Z",
+     "discoveredAt": "2026-10-23T15:00:36.322Z",
+     "summary": "仅用一张 Nano Banana 图像和 Blender MCP，Gemini 4 Argon 在 @Antigravity 中搭建了一座 3D 哥特式大教堂。 它不断迭代几何结构、纹理和光照，最终完成整个场景。",
+     "url": "https://x.com/GoogleDeepMind/status/2113645959762575623",
+     "aihot": "https://aihot.news/items/piow9uqig807li9cqr5t9wghu",
      "selected": false,
-     "score": 59,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "Gemini 4 Argon 用 Blender MCP 造 3D 大教堂",
-     "source": "X：Google (@Google)",
-     "ts": "2026-10-23T03:53:23.098000+08:00",
-     "publishedAt": "2026-10-22T19:35:10.000Z",
-     "discoveredAt": "2026-10-22T19:53:23.098Z",
-     "summary": "从一张 Nano Banana 图像出发，Gemini 4 Argon 打造出了这个完整的 3D 大教堂音频响应场景。 在 @Antigravity 中以自主循环驱动 Blender MCP 来完成： 🏛️ 雕刻精细的哥特式建筑 🎥 对齐复杂的相机网格 🔊 布置动态的音频响应灯光",
-     "url": "https://x.com/Google/status/2113353489938075794",
-     "aihot": "https://aihot.news/items/uwppqbwxr7r5fkd07fjmrq846",
-     "selected": false,
-     "score": 45,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Argon 让视频自创配乐",
-       "url": "https://x.com/Google/status/2113283068274540555",
-       "aihot": "https://aihot.news/items/fhhyzgqmnb0fxwsco0iebdjpf"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Pichai 称 Gemini 5 将大幅超越 Argon",
-       "url": "https://x.com/rohanpaul_ai/status/2113277786928627796",
-       "aihot": "https://aihot.news/items/apk5uyqrngo3i8q182i7j9emh"
-      }
-     ]
-    },
-    {
-     "n": 5,
-     "title": "Gemini 可结合地图与日历推荐行程",
-     "source": "X：Gemini (@GeminiApp)",
-     "ts": "2026-10-23T03:18:21.832000+08:00",
-     "publishedAt": "2026-10-22T18:53:39.000Z",
-     "discoveredAt": "2026-10-22T19:18:21.832Z",
-     "summary": "经你许可，Gemini 现在可以结合你的 @GoogleMaps 搜索记录和已保存地点，以及你的 Google Calendar，为你当天的安排提供个性化推荐。📍",
-     "url": "https://x.com/GeminiApp/status/2113343041805127839",
-     "aihot": "https://aihot.news/items/k5mekvug3w52f2ltjot8qbzas",
-     "selected": false,
-     "score": 45,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "Google 发布 Agent Compute Engine，为每个 Gemini 智能体配备硬件隔离 microVM",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-23T02:16:51.547000+08:00",
-     "publishedAt": "2026-10-22T17:50:09.000Z",
-     "discoveredAt": "2026-10-22T18:16:51.547Z",
-     "summary": "Google 宣布推出 Agent Compute Engine，为每个 AI 智能体分配独立虚拟机，已支撑 Gemini，将在未来几个月开放预览。每个智能体运行在由 Google Titanium 芯片保护的 microVM 中，空闲时 VM 自动暂停，共享内存降低运行成本，Google 称单台服务器可容纳十倍的智…",
-     "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
-     "aihot": "https://aihot.news/items/dvo3y7ixvtzu2mt2y7ilt4j6w",
-     "selected": false,
-     "score": 56,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "Gemini 应用构建网页应用并发布网站",
-     "source": "X：Gemini (@GeminiApp)",
-     "ts": "2026-10-22T23:43:35.015000+08:00",
-     "publishedAt": "2026-10-22T15:24:44.000Z",
-     "discoveredAt": "2026-10-22T15:43:35.015Z",
-     "summary": "如何从提示词到网页应用再到可用的网站，快速完成，直接在 Gemini 里实现：",
-     "url": "https://x.com/GeminiApp/status/2113290464623493373",
-     "aihot": "https://aihot.news/items/oqsp395oepsdxsm8nyeo7t43t",
-     "selected": false,
-     "score": 45,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "Google DeepMind 与 WRI、IIASA 发布 ForTy 全球森林类型地图",
-     "source": "Google DeepMind：Blog（RSS）",
-     "ts": "2026-10-22T23:24:39.655000+08:00",
-     "publishedAt": "2026-10-22T14:30:24.000Z",
-     "discoveredAt": "2026-10-22T15:24:39.655Z",
-     "summary": "Google DeepMind 与 Google Research 联合 World Resources Institute 和 IIASA 发布 Forest Typology（ForTy）2020 全球地图，以 10 米分辨率将地球每块土地划分为 FAO 定义的六类森林与土地类型，并首次提供 2017 至 202…",
-     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-     "aihot": "https://aihot.news/items/qybdlsgxeeky2vci0o7f5xvki",
-     "selected": false,
-     "score": 53,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Google DeepMind 论文：模型竞价拍卖选最优回答",
-       "url": "https://x.com/rohanpaul_ai/status/2113329649128501647",
-       "aihot": "https://aihot.news/items/ijaefgbf5ytzrwoxjb627s7pr"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 发布 ForTy 森林类型地图",
-       "url": "https://x.com/GoogleDeepMind/status/2113278710795153785",
-       "aihot": "https://aihot.news/items/h485uwxezpvfgcm3keys0ucd2"
-      }
-     ]
-    },
-    {
-     "n": 9,
-     "title": "Sierra 发布 𝜏-Entity 基准，检验语音智能体能否准确采集姓名、电话等实体信息",
-     "source": "Sierra：Blog（RSS）",
-     "ts": "2026-10-22T22:28:42.471000+08:00",
-     "publishedAt": "2026-10-22T14:02:33.000Z",
-     "discoveredAt": "2026-10-22T14:28:42.471Z",
-     "summary": "Sierra 发布 𝜏-Entity 基准，测量语音智能体能否正确采集、识别错误并修复姓名、电话号码、地址和邮箱等细节，包含 10 种实体类型共 200 个任务，并与 𝜏-i18n 一样覆盖六种语言。",
-     "url": "https://sierra.ai/blog/tau-entity-can-voice-agents-get-the-details-right",
-     "aihot": "https://aihot.news/items/fjyan16f0mvfywabd78m70hv3",
-     "selected": true,
-     "score": 60,
+     "score": 34,
      "category": "ai-products"
     }
    ],
@@ -258,39 +117,25 @@
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 10,
-     "title": "Google DeepMind 与 UPenn 论文用稀疏自编码器构建可审计的 AI 文本检测器",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-23T04:27:21.797000+08:00",
-     "publishedAt": "2026-10-22T20:04:24.000Z",
-     "discoveredAt": "2026-10-22T20:27:21.797Z",
-     "summary": "Google DeepMind 与 UPenn 的论文提出用稀疏自编码器解析 Gemma-2-2B 检测器内部激活，让 LLM 标注特征后训练简单分类器，构建可解释的 AI 文本检测器。",
-     "url": "https://x.com/rohanpaul_ai/status/2113360843488567426",
-     "aihot": "https://aihot.news/items/h8lba02r9bze1iel8e6ltf63s",
-     "selected": false,
-     "score": 55,
-     "category": "paper"
-    },
-    {
-     "n": 11,
-     "title": "Google DeepMind 与剑桥论文：基于 Gemini 的智能体自主证明 11 台未解决图灵机的规则",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-22T19:43:34.640000+08:00",
-     "publishedAt": "2026-10-22T11:34:15.000Z",
-     "discoveredAt": "2026-10-22T11:43:34.640Z",
-     "summary": "Google DeepMind 与 Cambridge 的论文展示了一个基于 Gemini 的智能体能够自主发现新数学，为 11 台此前无任何公开分析的 Busy Beaver 图灵机找到并用 Lean 验证了精确规则。该智能体先在模拟器中测试边界情况，起草非形式化证明，再用 Lean 证明检查器完成形式化证明。",
-     "url": "https://x.com/rohanpaul_ai/status/2113232462742778350",
-     "aihot": "https://aihot.news/items/b3p3wb82eo8k958rerpcbc446",
-     "selected": false,
-     "score": 65,
+     "n": 2,
+     "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
+     "source": "Latent Space（RSS）",
+     "ts": "2026-10-23T17:46:28.354000+08:00",
+     "publishedAt": "2026-10-22T07:42:44.000Z",
+     "discoveredAt": "2026-10-23T09:46:28.354Z",
+     "summary": "Latent Space 的 AINews 汇总梳理了 PHP 核心漏洞 PHP2Shell（CVE-2026-109618、CVE-2026-109619）的披露时间线，研究者在 PHP 引擎的内存溢出和致命错误处理中发现缺陷，演示了对 WordPress、Drupal、Joomla 的预认证 RCE 和远程内存泄…",
+     "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+     "aihot": "https://aihot.news/items/ih894crlfahslc0pttsw80r0c",
+     "selected": true,
+     "score": 84,
      "category": "paper"
     }
    ],
@@ -299,9 +144,38 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 7 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 3,
+     "title": "谷歌 CEO 皮查伊：AI 递归自我改进仍处早期，Gemini 4 Argon 将助解复杂编程难题",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-24T08:19:34.099000+08:00",
+     "publishedAt": "2026-10-23T23:37:18.267Z",
+     "discoveredAt": "2026-10-24T00:19:34.099Z",
+     "summary": "谷歌 CEO 皮查伊表示，距离 AI 实现递归自我改进（RSI）的最终形态还很远，目前 AI 智能体仅以一定程度的自动化协助研究人员开发模型。他预计明年将有进一步进展，并提到 Gemini 4 Argon 将帮助处理更复杂的编程难题，谷歌因程序错误回滚软件版本的次数已减少三分之一。",
+     "url": "https://www.ithome.com/1/017/290.htm",
+     "aihot": "https://aihot.news/items/bnzyhn58dmi4pmzb3xyrnk6q0",
+     "selected": false,
+     "score": 47,
+     "category": "tip"
+    },
+    {
+     "n": 4,
+     "title": "Sundar Pichai 解释 Demis Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职",
+     "source": "X：Alex Heath (@alexeheath)",
+     "ts": "2026-10-24T03:08:35.070000+08:00",
+     "publishedAt": "2026-10-23T18:58:15.000Z",
+     "discoveredAt": "2026-10-23T19:08:35.070Z",
+     "summary": "Sundar Pichai 在访谈中解释 Demis Hassabis 逐步退出 DeepMind 日常管理和 Jeff Dean 离开 Google 的原因，称前沿模型开发已成为一项从数据、算力到团队管理都全消耗的规模化工作。",
+     "url": "https://x.com/alexeheath/status/2113706585348600220",
+     "aihot": "https://aihot.news/items/ryf4bbjezfib8jx05ng0889zf",
+     "selected": true,
+     "score": 76,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [

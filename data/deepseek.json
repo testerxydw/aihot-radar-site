@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-22",
-  "winEnd": "2026-10-23",
-  "generated": "2026-10-23 13:51",
-  "rawHits": 15,
-  "selectedHits": 0,
-  "shown": 3,
-  "dedupedFrom": 4,
+  "winStart": "2026-10-23",
+  "winEnd": "2026-10-24",
+  "generated": "2026-10-24 13:33",
+  "rawHits": 17,
+  "selectedHits": 1,
+  "shown": 6,
+  "dedupedFrom": 6,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 18,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,29 +68,77 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 5,
    "items": [
     {
      "n": 1,
-     "title": "DeepSeek V4.1 Flash 1017 在 ARC-AGI Verified 上取得 78.1%",
-     "source": "X：ARC Prize (@arcprize)",
-     "ts": "2026-10-23T01:22:52.776000+08:00",
-     "publishedAt": "2026-10-22T17:14:17.000Z",
-     "discoveredAt": "2026-10-22T17:22:52.776Z",
-     "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 1017 在 ARC-AGI Verified 上的成绩：ARC-AGI-2 为 78.1%（$0.16/task），ARC-AGI-1 为 94.5%（$0.06/task）。",
-     "url": "https://x.com/arcprize/status/2113318031954764273",
-     "aihot": "https://aihot.news/items/lz8t6qvs5xile13qy9vx0qrmb",
+     "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
+     "source": "Moonshot AI：Kimi Blog",
+     "ts": "2026-10-24T01:37:37.205000+08:00",
+     "publishedAt": "2026-10-23T16:00:00.000Z",
+     "discoveredAt": "2026-10-23T17:37:37.205Z",
+     "summary": "月之暗面发布 Kimi K3.1 系列首个模型 Kimi K3.1 Pro，为 3T 级开放权重模型，上下文窗口 100 万 token，并同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed。",
+     "url": "https://www.kimi.com/blog/kimi-k3-1-pro",
+     "aihot": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
+     "selected": true,
+     "score": 81,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Nathan Lambert 制图对比：DeepSeek 单集群日处理 150T token，超过多家平台开源模型推理量总和",
+     "source": "X：Nathan Lambert (@natolambert)",
+     "ts": "2026-10-24T01:35:36.142000+08:00",
+     "publishedAt": "2026-10-23T17:34:57.000Z",
+     "discoveredAt": "2026-10-23T17:35:36.142Z",
+     "summary": "Nathan Lambert 表示 DeepSeek 在单个集群上每日服务 150T token，超过 OpenRouter、Fireworks、Together 和 BaseTen 上开源模型推理量的总和，并引用了 DeepSeek 的 DeepInfer 部署问答文档。",
+     "url": "https://x.com/natolambert/status/2113685620941885732",
+     "aihot": "https://aihot.news/items/crkr5f7t6bjia2y7s5rapgp7q",
      "selected": false,
-     "score": 66,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：OpenClaw (@openclaw)",
-       "title": "DeepSeek V4.1 Flash 上线 OpenClaw",
-       "url": "https://x.com/openclaw/status/2113414141327380480",
-       "aihot": "https://aihot.news/items/msm3uk7y614e6awu4yiob2snz"
-      }
-     ]
+     "score": 68,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "DeepSeek V4.1 Flash 1017 登顶 Artificial Analysis Cyber Index 开放模型榜首",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-10-24T01:35:35.715000+08:00",
+     "publishedAt": "2026-10-23T17:23:09.000Z",
+     "discoveredAt": "2026-10-23T17:35:35.715Z",
+     "summary": "DeepSeek V4.1 Flash 1017 在 Artificial Analysis Cyber Index 得分 57%，成为排名第一的开放可用模型，总分位列第二，比前代提升 16 点，其中 CyberGym-E2E-AA 从 23% 升至 76%。",
+     "url": "https://x.com/ArtificialAnlys/status/2113682654709313811",
+     "aihot": "https://aihot.news/items/k515s3al69uk77b0ueaiy2axa",
+     "selected": false,
+     "score": 61,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "DeepSeek V4.1 Flash 对比 GPT-6 Astra 建 3D 世界",
+     "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+     "ts": "2026-10-23T22:00:35.491000+08:00",
+     "publishedAt": "2026-10-23T13:42:34.000Z",
+     "discoveredAt": "2026-10-23T14:00:35.491Z",
+     "summary": "同样的提示词，不同的模型。 DeepSeek V4.1 Flash 1017 对比 GPT-6 Astra——两者都用 Three.js 构建同一个交互式 3D 世界。 质量几乎相同，甚至更好——成本比 Astra 低 50% 以上。 提示词在评论区。💬 以下是并排对比 👇",
+     "url": "https://x.com/SiliconFlowAI/status/2113627142772899916",
+     "aihot": "https://aihot.news/items/foa4o0682750qmtg7jk2hgmbi",
+     "selected": false,
+     "score": 35,
+     "category": "ai-models"
+    },
+    {
+     "n": 5,
+     "title": "DeepSeek 与 MiniMax 在中国新 AI 出口规则下完成备案并继续开源模型",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-23T18:55:24.217000+08:00",
+     "publishedAt": "2026-10-23T10:34:13.000Z",
+     "discoveredAt": "2026-10-23T10:55:24.217Z",
+     "summary": "DeepSeek 和 MiniMax 在中国新的 AI 出口规则下完成政府备案，随后继续开源模型。自 10 月 16 日起，中国要求 AI 公司在向境外输出受管辖的 AI 技术前须向政府备案，向全球公开模型权重或代码（即开源）也属于此类出口，因此即便是开源发布也需要先提交备案。",
+     "url": "https://x.com/rohanpaul_ai/status/2113579743249596449",
+     "aihot": "https://aihot.news/items/a9rpfjkdqiwfn1padph31hz0w",
+     "selected": false,
+     "score": 65,
+     "category": "ai-models"
     }
    ],
    "note": null
@@ -98,24 +146,9 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "DeepSeek、MiniMax 已就AI技术出口新规履行登记手续并完成开源和海外授权",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-23T09:37:19.837000+08:00",
-     "publishedAt": "2026-10-23T00:58:54.873Z",
-     "discoveredAt": "2026-10-23T01:37:19.837Z",
-     "summary": "据玉渊谭天消息，自商务部、科技部就修订《中国禁止出口限制出口技术目录》公开征求意见后，DeepSeek、MiniMax 已顺利履行登记手续，并完成开源和海外授权使用。",
-     "url": "https://www.ithome.com/1/016/796.htm",
-     "aihot": "https://aihot.news/items/kcr4c26jzgoh6m3c70c4xilhd",
-     "selected": false,
-     "score": 72,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
@@ -123,17 +156,17 @@
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "DeepSeek 在美国限制后据报融资约 150 亿美元",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-22T21:46:59.675000+08:00",
-     "publishedAt": "2026-10-22T13:11:13.000Z",
-     "discoveredAt": "2026-10-22T13:46:59.675Z",
-     "summary": "据 Bloomberg 报道，DeepSeek 在美国下令联邦机构移除其技术两天后融资约 150 亿美元（约 1000 亿元人民币），潜在投资方包括宁德时代和腾讯。此前其 6 月以 500 亿美元估值融资超 70 亿美元，7 月还曾寻求以约 710 亿美元估值再融 15 亿美元，并计划最早明年在中国 IPO。",
-     "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-     "aihot": "https://aihot.news/items/r5wm73jcdoc1sea7r4qfkg3lz",
+     "n": 6,
+     "title": "据 36Kr 报道 DeepSeek 150 亿美元融资拟建乌兰察布 1GW 数据中心",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-10-23T16:21:24.835000+08:00",
+     "publishedAt": "2026-10-23T07:59:21.000Z",
+     "discoveredAt": "2026-10-23T08:21:24.835Z",
+     "summary": "据 36Kr 报道，DeepSeek 的 150 亿美元巨额融资将用于在内蒙古乌兰察布建设 1GW 数据中心，算力至少由 160,000 颗华为昇腾 950DT 芯片提供。乌兰察布廉价的可再生能源是控制高额运营成本的关键，宁德时代本轮追加 14 亿美元以提供储能、绿电直连和电网接口等完整能源方案。",
+     "url": "https://x.com/thexpin/status/2113540767536861593",
+     "aihot": "https://aihot.news/items/vnprs3azu2stbrk6vb10ogb9t",
      "selected": false,
-     "score": 75,
+     "score": 65,
      "category": "industry"
     }
    ],
@@ -144,14 +177,14 @@
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

@@ -14,13 +14,13 @@
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-22",
-  "winEnd": "2026-10-23",
-  "generated": "2026-10-23 13:50",
-  "rawHits": 32,
+  "winStart": "2026-10-14",
+  "winEnd": "2026-10-24",
+  "generated": "2026-10-24 13:32",
+  "rawHits": 18,
   "selectedHits": 1,
-  "shown": 14,
-  "dedupedFrom": 14,
+  "shown": 4,
+  "dedupedFrom": 6,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "NVIDIA",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,39 +43,39 @@
     "q": "NVIDIA",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 16,
+    "hasMore": false,
     "from_cache": false
    },
    {
     "q": "英伟达",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
    {
     "q": "英伟达",
-    "mode": "all",
-    "window": "24h",
-    "count": 4,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "黄仁勋",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
     "count": 2,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "黄仁勋",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "黄仁勋",
+    "mode": "all",
+    "window": "24h",
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,63 +86,29 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "NVIDIA NeMo 提供 MiniMax-M3.1-Flash day-0 微调支持",
-     "source": "X：MiniMax (@MiniMax_AI)",
-     "ts": "2026-10-23T09:34:25.263000+08:00",
-     "publishedAt": "2026-10-23T01:21:09.000Z",
-     "discoveredAt": "2026-10-23T01:34:25.263Z",
-     "summary": "MiniMax 感谢 NVIDIA NeMo 团队为 MiniMax-M3.1-Flash 提供 day-0 微调支持。引用内容提到 Space Bunny 此前已处理 200T+ tokens，现已开放权重，NeMo-AutoModel 支持 FSDP2、专家、流水线和上下文并行，可扩展到 128 GPUs，NVF…",
-     "url": "https://x.com/MiniMax_AI/status/2113440559385977075",
-     "aihot": "https://aihot.news/items/oytegvoeznpgowhmcwcsnkixi",
+     "title": "NVIDIA 演示用 AI 智能体训练 Microduck 机器人在仿真中行走",
+     "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+     "ts": "2026-10-23T23:45:31.221000+08:00",
+     "publishedAt": "2026-10-22T16:00:00.000Z",
+     "discoveredAt": "2026-10-23T15:45:31.221Z",
+     "summary": "NVIDIA 技术博客介绍如何用 AI 智能体教 Microduck 机器人在仿真中学会越障行走：Hermes 和 Nemotron 3.5 Bolt 在 RTX Spark 上把提示词转为项目计划。",
+     "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+     "aihot": "https://aihot.news/items/d5jvm8ej1nyuabqlel6eqg1e5",
      "selected": false,
-     "score": 63,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "Perplexity 与 NVIDIA 提出 JOLT：教师与学生联合训练的后训练强化学习方法",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-10-22T15:04:34.345000+08:00",
-     "publishedAt": "2026-10-22T04:56:31.000Z",
-     "discoveredAt": "2026-10-22T07:04:34.345Z",
-     "summary": "Perplexity 与 NVIDIA 团队提出后训练方法 JOLT，让同一个模型同时扮演教师和学生，且教师也参与训练。在 MATH 上，JOLT 以 6.5 倍更少的训练 token 达到 GRPO 的准确率；",
-     "url": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
-     "aihot": "https://aihot.news/items/je1nofr8yl252qal4teifugmp",
-     "selected": false,
-     "score": 46,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "NVIDIA Earth-2 开放模型在欧洲落地：StormScope EU 与多行业天气预测应用",
-     "source": "NVIDIA Blog（RSS）",
-     "ts": "2026-10-22T14:08:39.385000+08:00",
-     "publishedAt": "2026-10-22T05:00:19.000Z",
-     "discoveredAt": "2026-10-22T06:08:39.385Z",
-     "summary": "NVIDIA 在 GTC Berlin 展示与 Earthmover 合作的 StormScope EU 实时预报演示，该模型基于 EUMETSAT 卫星观测，每 10 分钟更新一次欧洲云况预测。",
-     "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-     "aihot": "https://aihot.news/items/f0u1lq2gv12y61rsy11j2h1vw",
-     "selected": false,
-     "score": 48,
-     "category": "ai-models"
-    },
-    {
-     "n": 4,
-     "title": "NVIDIA 如何改造欧洲零售：从数字发现到实体运营",
-     "source": "NVIDIA Blog（RSS）",
-     "ts": "2026-10-22T14:08:39.379000+08:00",
-     "publishedAt": "2026-10-22T05:00:23.000Z",
-     "discoveredAt": "2026-10-22T06:08:39.379Z",
-     "summary": "NVIDIA 展示欧洲零售商用开放模型与物理智能改造业务的成果：Shopify 基于 NVIDIA Nemotron 3.5 Lightning 后训练的 GraphQL 子智能体在内部基准上准确率超过领先前沿模型，服务成本降低 90%、响应快 7 倍。",
-     "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-     "aihot": "https://aihot.news/items/h0zsp3d6ntrobzh4zy6wnb11z",
-     "selected": false,
-     "score": 31,
-     "category": "ai-models"
+     "score": 55,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "Nvidia CEO 演示 Microduck 机器人后预订单突破 20000 台",
+       "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+       "aihot": "https://aihot.news/items/mokt1q3mwvo08u365uy7exgy7"
+      }
+     ]
     }
    ],
    "note": null
@@ -150,76 +116,42 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 5,
+   "count": 2,
    "items": [
     {
-     "n": 5,
-     "title": "哈萨克斯坦扩建算力：Firebird 部署 45,000 块 NVIDIA Grace Blackwell GPU",
-     "source": "NVIDIA Blog（RSS）",
-     "ts": "2026-10-23T10:25:22.768000+08:00",
-     "publishedAt": "2026-10-23T02:00:13.000Z",
-     "discoveredAt": "2026-10-23T02:25:22.768Z",
-     "summary": "Firebird 获得美国出口许可，将在哈萨克斯坦部署 45,000 块 NVIDIA Grace Blackwell GPU，首期与 Kazakhtelecom 在 Data Center Valley 共建，目标 2027 年第三季度商用。",
-     "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-     "aihot": "https://aihot.news/items/sna2kv0kcjkdn1uddws3w8hib",
-     "selected": false,
-     "score": 46,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "黄仁勋详解 Vera Rubin 智能体系统",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-23T05:29:23.427000+08:00",
-     "publishedAt": "2026-10-22T21:01:24.000Z",
-     "discoveredAt": "2026-10-22T21:29:23.427Z",
-     "summary": "黄仁勋完整阐述了 Vera Rubin 智能体系统： NVL72 用于模型，MGX 用于安全智能体处理，CMX 用于知识服务，RTX 用于 CUDA-X 工具。 --- 完整视频见“NVIDIA”YouTube 频道，（链接在评论中）",
-     "url": "https://x.com/rohanpaul_ai/status/2113375187840479690",
-     "aihot": "https://aihot.news/items/noo52cgxyont1qlxymsybuetm",
+     "n": 2,
+     "title": "黄仁勋效应带动 MicroDucks 销量",
+     "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+     "ts": "2026-10-23T18:25:24.751000+08:00",
+     "publishedAt": "2026-10-23T10:24:41.000Z",
+     "discoveredAt": "2026-10-23T10:25:24.751Z",
+     "summary": "黄仁勋效应 🦆 发布日：售出 3,000 只 MicroDucks @JensenHuang 在 @nvidia GTC 舞台上展示它之后的第二天：4,000+ 比我们（本就庞大的）发布日销量还多！",
+     "url": "https://x.com/Thom_Wolf/status/2113577340752015727",
+     "aihot": "https://aihot.news/items/fgomkkmdy79ckvsh6g0i6nwjq",
      "selected": false,
      "score": 35,
-     "category": "ai-products"
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+       "title": "黄仁勋GTC展示带动MicroDucks销量",
+       "url": "https://x.com/Thom_Wolf/status/2113578676189044827",
+       "aihot": "https://aihot.news/items/t1eayr2cd595toi5kav3y8ebr"
+      }
+     ]
     },
     {
-     "n": 7,
-     "title": "英伟达推出OpenShell智能体安全架构",
-     "source": "X：SpaceX Super Intelligence (@SpaceXSI)",
-     "ts": "2026-10-23T04:27:24.870000+08:00",
-     "publishedAt": "2026-10-22T20:22:40.000Z",
-     "discoveredAt": "2026-10-22T20:27:24.870Z",
-     "summary": "很荣幸参与 NVIDIA 这项重要计划 @nvidia：Jensen 推出 OpenShell 参考架构，帮助企业为 AI 智能体划定边界，并在其越界时将其停止。 为全球智能体保驾护航。🔒",
-     "url": "https://x.com/SpaceXSI/status/2113365443931148624",
-     "aihot": "https://aihot.news/items/v3ivem5lx28fje6g3tzmg2y3h",
-     "selected": false,
-     "score": 35,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "NVIDIA 宣布支持八节点 DGX Spark 集群，统一内存扩展至 1 TB",
-     "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-     "ts": "2026-10-23T00:26:38.285000+08:00",
-     "publishedAt": "2026-10-21T16:00:00.000Z",
-     "discoveredAt": "2026-10-22T16:26:38.285Z",
-     "summary": "NVIDIA 在 GTC Berlin 宣布官方支持八节点 DGX Spark 集群，统一内存从单节点 128 GB 扩展到 1 TB，可本地运行完整 GLM 5.3 (753B) 等前沿模型，GLM 5.3 Flash 生成速度约 80 TPS。",
-     "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
-     "aihot": "https://aihot.news/items/a79cxsghdtft0g6wttnr4853u",
-     "selected": false,
-     "score": 67,
-     "category": "ai-products"
-    },
-    {
-     "n": 9,
-     "title": "NVIDIA 发布 Minerva：为 AI 工厂提供端到端可观测性",
-     "source": "NVIDIA Blog（RSS）",
-     "ts": "2026-10-22T23:15:37.253000+08:00",
-     "publishedAt": "2026-10-22T15:00:02.000Z",
-     "discoveredAt": "2026-10-22T15:15:37.253Z",
-     "summary": "NVIDIA 发布 AIOps 平台 Minerva，汇聚 GPU、网络、存储、调度器与工作负载的遥测数据，用专用 AI 模型将数据转化为可执行洞察。该平台每小时分析数十亿数据点，通过动态知识图谱定位影响训练任务的组件，并把告警风暴聚合为单一事件与可能根因。",
-     "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-     "aihot": "https://aihot.news/items/s8wznyl8xp888nqxx2z2gw0nc",
-     "selected": false,
-     "score": 38,
+     "n": 3,
+     "title": "禾赛发布三维世界数据引擎 Kosmo 及 8K AI 空间相机 Kosmo One",
+     "source": "禾赛科技",
+     "ts": "2026-10-14T00:00:00+08:00",
+     "publishedAt": "2026-10-13T16:00:00.000Z",
+     "discoveredAt": "2026-10-23T06:17:45.166Z",
+     "summary": "10 月 14 日，禾赛科技正式发布三维世界数据引擎 Kosmo，同步推出集成 8K 影像系统的 AI 空间相机 Kosmo One 和云平台 Kosmo World，瞄准具身智能与世界模型的真实世界数据需求。",
+     "url": "https://www.hesaitech.com/cn/news/1526",
+     "aihot": "https://aihot.news/items/jmd8cc56pi525th3tcccmzxqf",
+     "selected": true,
+     "score": 71,
      "category": "ai-products"
     }
    ],
@@ -228,62 +160,20 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
+   "count": 1,
    "items": [
     {
-     "n": 10,
-     "title": "inDrive 携手 Pony.ai 与 Nvidia 计划 2027 年在哈萨克斯坦测试 robotaxi",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-23T12:44:25.198000+08:00",
-     "publishedAt": "2026-10-23T04:00:00.000Z",
-     "discoveredAt": "2026-10-23T04:44:25.198Z",
-     "summary": "打车平台 inDrive 与自动驾驶公司 Pony.ai、Nvidia 签署谅解备忘录，计划 2027 年上半年在哈萨克斯坦首都阿斯塔纳开始 robotaxi 测试，初期配备安全员，最终目标是全无人驾驶。",
-     "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-     "aihot": "https://aihot.news/items/hp2upmekka2ys9fug9lfoyllr",
+     "n": 4,
+     "title": "NVIDIA 相关推文引感叹",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-24T06:46:35.386000+08:00",
+     "publishedAt": "2026-10-23T22:39:00.000Z",
+     "discoveredAt": "2026-10-23T22:46:35.386Z",
+     "summary": "😅",
+     "url": "https://x.com/rohanpaul_ai/status/2113762138108154181",
+     "aihot": "https://aihot.news/items/gf209yrn1iazc858qr39xzv27",
      "selected": false,
-     "score": 52,
-     "category": "industry"
-    },
-    {
-     "n": 11,
-     "title": "SpaceX 启动超级智能合作伙伴网络，英伟达等 130 余家公司参与早期计划",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-23T10:02:20.142000+08:00",
-     "publishedAt": "2026-10-23T01:35:51.947Z",
-     "discoveredAt": "2026-10-23T02:02:20.142Z",
-     "summary": "SpaceX 与英伟达、阿波罗、Snowflake、Databricks、贝恩等 130 多家公司启动 Super Intelligence Partner Network 早期计划，帮助企业用 Grok AI 平台构建、集成和扩展应用。",
-     "url": "https://www.ithome.com/1/016/814.htm",
-     "aihot": "https://aihot.news/items/dh4uvf8g046ub1e32epy7rlal",
-     "selected": false,
-     "score": 48,
-     "category": "industry"
-    },
-    {
-     "n": 12,
-     "title": "The Verge 分析 SpaceX 与特斯拉成立特别委员会讨论合并背后的财务逻辑",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-10-23T05:11:19.229000+08:00",
-     "publishedAt": "2026-10-22T19:45:00.000Z",
-     "discoveredAt": "2026-10-22T21:11:19.229Z",
-     "summary": "The Verge 作者 Elizabeth Lopatto 分析 SpaceX 和 Tesla 各自成立特别委员会讨论合并一事。",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-     "aihot": "https://aihot.news/items/w7axcg0e1y7uoyro92cmanong",
-     "selected": true,
-     "score": 79,
-     "category": "industry"
-    },
-    {
-     "n": 13,
-     "title": "OpenAI、Anthropic、Nvidia 游说支出创单季新高",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-10-23T00:07:36.586000+08:00",
-     "publishedAt": "2026-10-22T15:50:30.000Z",
-     "discoveredAt": "2026-10-22T16:07:36.586Z",
-     "summary": "联邦披露显示，OpenAI、Anthropic 和 Nvidia 在 7 至 9 月均创下各自单季游说支出最高纪录，其中 Nvidia 花 220 万美元居首，Anthropic 花 210 万美元，OpenAI 花 150 万美元。",
-     "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-     "aihot": "https://aihot.news/items/hd62uqv00wsbbnnsdj5b6sxfc",
-     "selected": false,
-     "score": 60,
+     "score": 8,
      "category": "industry"
     }
    ],
@@ -299,24 +189,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 14,
-     "title": "黄仁勋谈 neocloud 融资与高资金成本",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-23T00:21:36.955000+08:00",
-     "publishedAt": "2026-10-22T15:54:35.000Z",
-     "discoveredAt": "2026-10-22T16:21:36.955Z",
-     "summary": "黄仁勋谈 neocloud 融资与高资金成本，称 Nvidia 投资 neocloud 是因为投资回报好，这与为其背书不同。他表示 neocloud 客户充足、产能已售罄，唯一问题是为购买土地、电力、建筑和芯片而缺少营运资金；",
-     "url": "https://x.com/rohanpaul_ai/status/2113297977423130794",
-     "aihot": "https://aihot.news/items/c6tl1tgkrg2j7g6xr3uur74jo",
-     "selected": false,
-     "score": 51,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
