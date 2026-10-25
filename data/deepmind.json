@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-23",
-  "winEnd": "2026-10-24",
-  "generated": "2026-10-24 13:33",
-  "rawHits": 17,
-  "selectedHits": 2,
-  "shown": 4,
-  "dedupedFrom": 4,
+  "winStart": "2026-10-24",
+  "winEnd": "2026-10-25",
+  "generated": "2026-10-25 13:49",
+  "rawHits": 7,
+  "selectedHits": 0,
+  "shown": 0,
+  "dedupedFrom": 0,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 16,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -88,94 +88,35 @@
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 6 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "Gemini 4 Argon 用 Blender MCP 建 3D 哥特教堂",
-     "source": "X：Google DeepMind (@GoogleDeepMind)",
-     "ts": "2026-10-23T23:00:36.322000+08:00",
-     "publishedAt": "2026-10-23T14:57:21.000Z",
-     "discoveredAt": "2026-10-23T15:00:36.322Z",
-     "summary": "仅用一张 Nano Banana 图像和 Blender MCP，Gemini 4 Argon 在 @Antigravity 中搭建了一座 3D 哥特式大教堂。 它不断迭代几何结构、纹理和光照，最终完成整个场景。",
-     "url": "https://x.com/GoogleDeepMind/status/2113645959762575623",
-     "aihot": "https://aihot.news/items/piow9uqig807li9cqr5t9wghu",
-     "selected": false,
-     "score": 34,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
-     "source": "Latent Space（RSS）",
-     "ts": "2026-10-23T17:46:28.354000+08:00",
-     "publishedAt": "2026-10-22T07:42:44.000Z",
-     "discoveredAt": "2026-10-23T09:46:28.354Z",
-     "summary": "Latent Space 的 AINews 汇总梳理了 PHP 核心漏洞 PHP2Shell（CVE-2026-109618、CVE-2026-109619）的披露时间线，研究者在 PHP 引擎的内存溢出和致命错误处理中发现缺陷，演示了对 WordPress、Drupal、Joomla 的预认证 RCE 和远程内存泄…",
-     "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
-     "aihot": "https://aihot.news/items/ih894crlfahslc0pttsw80r0c",
-     "selected": true,
-     "score": 84,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
-   "items": [
-    {
-     "n": 3,
-     "title": "谷歌 CEO 皮查伊：AI 递归自我改进仍处早期，Gemini 4 Argon 将助解复杂编程难题",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-24T08:19:34.099000+08:00",
-     "publishedAt": "2026-10-23T23:37:18.267Z",
-     "discoveredAt": "2026-10-24T00:19:34.099Z",
-     "summary": "谷歌 CEO 皮查伊表示，距离 AI 实现递归自我改进（RSI）的最终形态还很远，目前 AI 智能体仅以一定程度的自动化协助研究人员开发模型。他预计明年将有进一步进展，并提到 Gemini 4 Argon 将帮助处理更复杂的编程难题，谷歌因程序错误回滚软件版本的次数已减少三分之一。",
-     "url": "https://www.ithome.com/1/017/290.htm",
-     "aihot": "https://aihot.news/items/bnzyhn58dmi4pmzb3xyrnk6q0",
-     "selected": false,
-     "score": 47,
-     "category": "tip"
-    },
-    {
-     "n": 4,
-     "title": "Sundar Pichai 解释 Demis Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职",
-     "source": "X：Alex Heath (@alexeheath)",
-     "ts": "2026-10-24T03:08:35.070000+08:00",
-     "publishedAt": "2026-10-23T18:58:15.000Z",
-     "discoveredAt": "2026-10-23T19:08:35.070Z",
-     "summary": "Sundar Pichai 在访谈中解释 Demis Hassabis 逐步退出 DeepMind 日常管理和 Jeff Dean 离开 Google 的原因，称前沿模型开发已成为一项从数据、算力到团队管理都全消耗的规模化工作。",
-     "url": "https://x.com/alexeheath/status/2113706585348600220",
-     "aihot": "https://aihot.news/items/ryf4bbjezfib8jx05ng0889zf",
-     "selected": true,
-     "score": 76,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
