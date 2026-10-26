@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-24",
-  "winEnd": "2026-10-25",
-  "generated": "2026-10-25 13:49",
-  "rawHits": 28,
-  "selectedHits": 2,
-  "shown": 8,
-  "dedupedFrom": 10,
+  "winStart": "2026-10-25",
+  "winEnd": "2026-10-26",
+  "generated": "2026-10-26 13:52",
+  "rawHits": 21,
+  "selectedHits": 1,
+  "shown": 7,
+  "dedupedFrom": 7,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 23,
+    "count": 21,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 9,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,113 +86,91 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
-     "source": "X：Ethan Mollick (@emollick)",
-     "ts": "2026-10-24T22:48:46.184000+08:00",
-     "publishedAt": "2026-10-24T14:30:45.000Z",
-     "discoveredAt": "2026-10-24T14:48:46.184Z",
-     "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Melt…",
-     "url": "https://x.com/emollick/status/2114001653879672877",
-     "aihot": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
-     "selected": true,
-     "score": 77,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+     "title": "Nvidia 开源机器人视频标注引擎 Flora，标注成本约为 GPT-6 Astra 的 1/125",
      "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-24T19:53:51.477000+08:00",
-     "publishedAt": "2026-10-24T11:12:36.000Z",
-     "discoveredAt": "2026-10-24T11:53:51.477Z",
-     "summary": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
-     "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-     "aihot": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
-     "selected": true,
-     "score": 82,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：Dex Horthy（HumanLayer）(@dexhorthy)",
-       "title": "Dex Horthy 评 OpenAI 智能体用 CPU 缓存隐蔽通信：该技术此前已被演示，可能已存在于权重中",
-       "url": "https://x.com/dexhorthy/status/2113884720983658730",
-       "aihot": "https://aihot.news/items/iy15t1r5ol3s78ifbntuh648f"
-      }
-     ]
-    },
-    {
-     "n": 3,
-     "title": "Codex 支持对话中切换推理等级",
-     "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-     "ts": "2026-10-24T15:33:37.517000+08:00",
-     "publishedAt": "2026-10-24T07:25:56.000Z",
-     "discoveredAt": "2026-10-24T07:33:37.517Z",
-     "summary": "Codex 开发者的体验更新： 现在可以在对话中途切换推理等级，而且不会丢失缓存！简单任务用低推理，需要时再调高，无需重建上下文。 还有一些不错的 CLI 更新： - 可复用的提示词预设 - 内联切换模型和权限 - 修复长会话恢复问题 - 企业版 MCP 登录和 Windows 代理认证 另外，dot 调用现在的连接…",
-     "url": "https://x.com/reach_vb/status/2113894745118290345",
-     "aihot": "https://aihot.news/items/r8s64sz704toyhz5jmuzz55zc",
+     "ts": "2026-10-25T18:15:14.266000+08:00",
+     "publishedAt": "2026-10-25T10:08:49.000Z",
+     "discoveredAt": "2026-10-25T10:15:14.266Z",
+     "summary": "Nvidia GEAR 实验室开源机器人视频标注数据引擎 Flora，由三个微调 Qwen3.5 模型组成，覆盖动作分段、执行评分和结果判定三类标注，模型已上架 Hugging Face，并已用于 GR00T 训练，在 512 块 GB300 GPU 上每天可标注 20 万小时视频。",
+     "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+     "aihot": "https://aihot.news/items/papeguwubbxlxgljwbydzxa47",
      "selected": false,
-     "score": 49,
-     "category": "ai-models"
+     "score": 55,
+     "category": "ai-products"
     }
    ],
    "note": null
   },
   {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
    "slug": "industry",
    "label": "行业动态",
-   "count": 3,
+   "count": 4,
    "items": [
     {
-     "n": 4,
-     "title": "Codex 登陆 iPhone duo",
-     "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-     "ts": "2026-10-24T20:40:47.008000+08:00",
-     "publishedAt": "2026-10-24T12:39:17.000Z",
-     "discoveredAt": "2026-10-24T12:40:47.008Z",
-     "summary": "Codex 在 iPhone duo 上：",
-     "url": "https://x.com/reach_vb/status/2113973602978758847",
-     "aihot": "https://aihot.news/items/sl968brzxraigrjmdykmytkfs",
+     "n": 2,
+     "title": "OpenAI 以最高 90% 折扣争夺 Anthropic 大客户，多家公司转移 AI 支出",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-25T16:13:15.227000+08:00",
+     "publishedAt": "2026-10-25T07:30:11.000Z",
+     "discoveredAt": "2026-10-25T08:13:15.227Z",
+     "summary": "据 The Information 报道，OpenAI 向大客户提供最高 90% 的折扣以争夺 Anthropic 的主要客户。",
+     "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+     "aihot": "https://aihot.news/items/b18largheqo95pfg2sbam8xcj",
      "selected": false,
-     "score": 19,
+     "score": 75,
+     "category": "industry"
+    },
+    {
+     "n": 3,
+     "title": "施密特等学者撰文：OpenAI 与 Anthropic 正像现代东印度公司",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-25T16:13:15.218000+08:00",
+     "publishedAt": "2026-10-25T08:09:32.000Z",
+     "discoveredAt": "2026-10-25T08:13:15.218Z",
+     "summary": "前 Google CEO Eric Schmidt 与历史学家 Niall Ferguson 等人在《Foreign Affairs》撰文，将 OpenAI 和 Anthropic 比作殖民时代的东印度公司，称其与政府签约却自成势力。",
+     "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+     "aihot": "https://aihot.news/items/dm1joekq43t53uisz1jcq0wtd",
+     "selected": false,
+     "score": null,
+     "category": "industry"
+    },
+    {
+     "n": 4,
+     "title": "OpenAI 用量额度随调钟重置回 100%",
+     "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+     "ts": "2026-10-25T15:47:13.003000+08:00",
+     "publishedAt": "2026-10-25T07:17:28.000Z",
+     "discoveredAt": "2026-10-25T07:47:13.003Z",
+     "summary": "时钟回拨了一小时，你的用量额度也回到了 100% 周末愉快，尽情 codex maxxing 吧！",
+     "url": "https://x.com/reach_vb/status/2114255005167349952",
+     "aihot": "https://aihot.news/items/y08641zgkvhq3m3wam7ye5e9t",
+     "selected": false,
+     "score": 29,
      "category": "industry"
     },
     {
      "n": 5,
-     "title": "OpenAI 员工感叹 GPT-6 Astra 演示视频播放量约 1.4 亿次",
-     "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-     "ts": "2026-10-24T19:38:48.203000+08:00",
-     "publishedAt": "2026-10-24T11:22:39.000Z",
-     "discoveredAt": "2026-10-24T11:38:48.203Z",
-     "summary": "OpenAI 的 Vaibhav Srivastav 发帖称仍觉得难以置信，GPT-6 Astra 演示视频的播放量约达 1.4 亿次。视频原文称，你在电脑上能做的任何事，Astra 都能快速替你完成。",
-     "url": "https://x.com/reach_vb/status/2113954319141654673",
-     "aihot": "https://aihot.news/items/z83pvniw0tsjq2br729k6iugd",
+     "title": "OpenAI 的 Codex 已全面推送",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-10-25T14:16:12.328000+08:00",
+     "publishedAt": "2026-10-25T06:06:16.000Z",
+     "discoveredAt": "2026-10-25T06:16:12.328Z",
+     "summary": "已全部推送完成。明天尽情享受疯狂的 codexing 吧。接下来也是有趣的一周。",
+     "url": "https://x.com/thsottiaux/status/2114237083652882932",
+     "aihot": "https://aihot.news/items/emnw0127sawwqu8f2qd6ru6s0",
      "selected": false,
-     "score": 56,
-     "category": "industry"
-    },
-    {
-     "n": 6,
-     "title": "瑞典政府办公厅禁止办公电脑直接访问 ChatGPT 和 Claude，改用经批准的 AI 服务",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-24T15:04:35.792000+08:00",
-     "publishedAt": "2026-10-24T06:45:40.383Z",
-     "discoveredAt": "2026-10-24T07:04:35.792Z",
-     "summary": "瑞典政府办公厅宣布自下周一起禁止工作人员通过办公电脑直接访问 ChatGPT 和 Claude，要求改用微软 Copilot 等获批准的 AI 服务。",
-     "url": "https://www.ithome.com/1/017/385.htm",
-     "aihot": "https://aihot.news/items/wk3k8hj6c4ogdbdiqd6pf8dnp",
-     "selected": false,
-     "score": 66,
+     "score": 21,
      "category": "industry"
     }
    ],
@@ -201,42 +179,20 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 7,
-     "title": "三名被解雇的 OpenAI 安全研究员否认泄密，怀疑因推动 AI 透明度被针对",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-25T12:01:10.090000+08:00",
-     "publishedAt": "2026-10-25T03:28:57.717Z",
-     "discoveredAt": "2026-10-25T04:01:10.090Z",
-     "summary": "三名因涉嫌泄密被解雇的 OpenAI 安全研究员科尔巴克、巴莱斯尼和王茉莉接受《华尔街日报》采访，否认泄露机密信息，并猜测解雇与他们倡导保留模型思维链可核查能力有关。",
-     "url": "https://www.ithome.com/1/017/563.htm",
-     "aihot": "https://aihot.news/items/dftvl258fny4smo7tqvba5rgz",
+     "n": 6,
+     "title": "Greg Brockman 评价 OpenAI 流体奇点论文技术构造超出人类直觉但可被理解",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-10-26T06:36:20.414000+08:00",
+     "publishedAt": "2026-10-25T22:23:33.000Z",
+     "discoveredAt": "2026-10-25T22:36:20.414Z",
+     "summary": "Greg Brockman 引用 PDE 专家 @scottnarmstrong 的分析称，这篇 OpenAI 论文在技术层面令人难以置信，或超出人类能想出的范围，但仍在人类理解力之内。分析认为论文用物理不稳定性让流动自行产生振荡，这种构造方式此前文献中没有先例，多组专家正在消化理解，预计解读很快会陆续出现。",
+     "url": "https://x.com/gdb/status/2114483026608755082",
+     "aihot": "https://aihot.news/items/z9gm915cjjqx88q0kdqt3ce34",
      "selected": false,
-     "score": 74,
-     "category": "paper",
-     "also": [
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "三名被解雇的 OpenAI 安全研究员称从未被告知泄密内容",
-       "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-       "aihot": "https://aihot.news/items/b2o0xkungztaq168b12a81uoe"
-      }
-     ]
-    },
-    {
-     "n": 8,
-     "title": "Convovo 研究：Grok 4.7 强制选择时 92% 推荐共和党，GPT-6.1 Sol 97% 推荐民主党",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-10-24T23:52:45.357000+08:00",
-     "publishedAt": "2026-10-24T15:00:00.000Z",
-     "discoveredAt": "2026-10-24T15:52:45.357Z",
-     "summary": "Convovo 研究室要求 GPT 与 Grok 模型通过 API 在近 500 个选区中指定一名候选人，Grok 4.7 在 92% 的回答中推荐共和党候选人，GPT-6.1 Sol 在 97% 中推荐民主党，两者一致率不足 10%。",
-     "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-     "aihot": "https://aihot.news/items/ggpyd5zaj25h11h1rcqrfer6p",
-     "selected": false,
-     "score": 63,
+     "score": 55,
      "category": "paper"
     }
    ],
@@ -245,9 +201,24 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 7,
+     "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
+     "source": "Browser Use",
+     "ts": "2026-10-26T07:59:19.584000+08:00",
+     "publishedAt": "2026-10-25T00:00:00.000Z",
+     "discoveredAt": "2026-10-25T23:59:19.584Z",
+     "summary": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
+     "url": "https://browser-use.com/posts/coding-agent-logged-in-chrome",
+     "aihot": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h",
+     "selected": true,
+     "score": 76,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [

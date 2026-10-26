@@ -14,10 +14,10 @@
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-24",
-  "winEnd": "2026-10-25",
-  "generated": "2026-10-25 13:49",
-  "rawHits": 13,
+  "winStart": "2026-10-25",
+  "winEnd": "2026-10-26",
+  "generated": "2026-10-26 13:51",
+  "rawHits": 7,
   "selectedHits": 0,
   "shown": 2,
   "dedupedFrom": 2,
@@ -43,7 +43,7 @@
     "q": "NVIDIA",
     "mode": "all",
     "window": "24h",
-    "count": 11,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -88,25 +88,39 @@
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "vLLM 在 GB300 NVL72 上规模化服务 DeepSeek-V4.1-Flash，解码吞吐与 DeepInfer 差距在 6% 以内",
-     "source": "vLLM 官方博客（RSS）",
-     "ts": "2026-10-25T02:32:46.123000+08:00",
-     "publishedAt": "2026-10-23T00:00:00.000Z",
-     "discoveredAt": "2026-10-24T18:32:46.123Z",
-     "summary": "vLLM 用 P/D 分离与 Wide-EP 在单台 NVIDIA GB300 NVL72 上服务 DeepSeek-V4.1-Flash，在 SemiAnalysis AgentX 上达到每 GPU 954K tokens/s、单用户 P90 196 tokens/s，为早期单节点结果的 7.9 倍。",
-     "url": "https://vllm.ai/blog/2026-10-23-deepseek-v41-flash-pd-wide-ep",
-     "aihot": "https://aihot.news/items/ln25949991kg9sace8iafbn11",
+     "title": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-26T12:16:19.360000+08:00",
+     "publishedAt": "2026-10-26T03:26:52.503Z",
+     "discoveredAt": "2026-10-26T04:16:19.360Z",
+     "summary": "根据 NVIDIA 今年 10 月文档与 6 月文档的对比，NVIDIA 下调了 Rubin GPU 系统的 HBM 与 NVLink 带宽，同时提升网络带宽。",
+     "url": "https://www.ithome.com/1/017/812.htm",
+     "aihot": "https://aihot.news/items/biakuagye3oijk0ydn1zcjwit",
      "selected": false,
-     "score": 46,
+     "score": 50,
+     "category": "ai-products"
+    },
+    {
+     "n": 2,
+     "title": "Nvidia 开源机器人视频标注引擎 Flora，标注成本约为 GPT-6 Astra 的 1/125",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-25T18:15:14.266000+08:00",
+     "publishedAt": "2026-10-25T10:08:49.000Z",
+     "discoveredAt": "2026-10-25T10:15:14.266Z",
+     "summary": "Nvidia GEAR 实验室开源机器人视频标注数据引擎 Flora，由三个微调 Qwen3.5 模型组成，覆盖动作分段、执行评分和结果判定三类标注，模型已上架 Hugging Face，并已用于 GR00T 训练，在 512 块 GB300 GPU 上每天可标注 20 万小时视频。",
+     "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+     "aihot": "https://aihot.news/items/papeguwubbxlxgljwbydzxa47",
+     "selected": false,
+     "score": 55,
      "category": "ai-products"
     }
    ],
@@ -115,38 +129,23 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "Higgsfield 获 NVIDIA 与 TCV 投资 Series B 延长轮，年化收入突破 10 亿美元",
-     "source": "X：Higgsfield AI (@higgsfield)",
-     "ts": "2026-10-24T22:37:47.654000+08:00",
-     "publishedAt": "2026-10-24T14:11:34.000Z",
-     "discoveredAt": "2026-10-24T14:37:47.654Z",
-     "summary": "AI 视频公司 Higgsfield 宣布 NVIDIA 和 TCV 加入其 Series B 延长轮投资。公司称自 8 月 Series B 以来年化收入突破 10 亿美元，企业合同增长 71%，用户从 3000 万增至超过 4000 万；",
-     "url": "https://x.com/higgsfield/status/2113996828379336979",
-     "aihot": "https://aihot.news/items/t2jkkvoa0kvjffq189dcaa8g8",
-     "selected": false,
-     "score": 52,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
