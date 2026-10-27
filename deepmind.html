@@ -175,11 +175,11 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-25",
-  "winEnd": "2026-10-26",
-  "generated": "2026-10-26 13:52",
-  "rawHits": 10,
-  "selectedHits": 1,
+  "winStart": "2026-10-26",
+  "winEnd": "2026-10-27",
+  "generated": "2026-10-27 14:05",
+  "rawHits": 8,
+  "selectedHits": 0,
   "shown": 4,
   "dedupedFrom": 4,
   "perQueryLimit": 30,
@@ -204,7 +204,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,16 +247,60 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "Google DeepMind 论文发现 LLM 无法自主产生真随机选择",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-27T02:52:38.683000+08:00",
+     "publishedAt": "2026-10-26T18:24:12.000Z",
+     "discoveredAt": "2026-10-26T18:52:38.683Z",
+     "summary": "Google DeepMind 论文《The Illusion of Stochasticity in LLMs》发现 LLM 无法自主完成符合目标概率的随机采样。",
+     "url": "https://x.com/rohanpaul_ai/status/2114785180653437126",
+     "aihot": "https://aihot.news/items/jsqiztsfs2f3k9r0ast2hdwxg",
+     "selected": false,
+     "score": 60,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 2,
+     "title": "Google 发布 Gemini API CLI：供现有 Agent 调用 Gemini API 的无状态命令行工具",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-10-27T01:47:22.307000+08:00",
+     "publishedAt": "2026-10-26T17:37:53.000Z",
+     "discoveredAt": "2026-10-26T17:47:22.307Z",
+     "summary": "Google 发布 Gemini API CLI，一个用于调用 Gemini API 的命令行工具，可交给 Claude Code、Codex、Antigravity、Cursor 等已有 Agent 使用。",
+     "url": "https://x.com/_philschmid/status/2114773524787187804",
+     "aihot": "https://aihot.news/items/u5uq8ccww6eg9hj3jk0iqm7b9",
+     "selected": false,
+     "score": 55,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "Gemini Generate Content API 付费层新项目默认开启请求存储",
+     "source": "Gemini API：更新日志（网页）",
+     "ts": "2026-10-26T19:26:35.388000+08:00",
+     "publishedAt": "2026-10-26T00:00:00.000Z",
+     "discoveredAt": "2026-10-26T11:26:35.388Z",
+     "summary": "Gemini Generate Content API（generateContent、streamGenerateContent、batchGenerateContent）付费层新项目现默认存储请求（store=true），与 Interactions API 保持一致，已有项目维持原设置。",
+     "url": "https://ai.google.dev/gemini-api/docs/changelog#10-26-2026",
+     "aihot": "https://aihot.news/items/xicxfkimgpj966l6xfsuwe8ki",
+     "selected": false,
+     "score": 32,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
@@ -268,34 +312,20 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 1,
-     "title": "Google DeepMind 等发布 TheoPhysEval 基准，最强智能体解出 50 道未发表理论物理题中的 49 道",
+     "n": 4,
+     "title": "Google DeepMind 论文：4 个 Gemini 4 Argon 智能体无人干预击败 Minecraft 末影龙",
      "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-25T18:53:20.809000+08:00",
-     "publishedAt": "2026-10-25T10:42:05.000Z",
-     "discoveredAt": "2026-10-25T10:53:20.809Z",
-     "summary": "Google DeepMind 与多所高校发布 TheoPhysEval 基准，用专家贡献的 50 道未发表研究级理论物理题测试 AI 智能体，每道题约相当于领域专家一天的工作量，单题成本低于 3 美元。",
-     "url": "https://x.com/rohanpaul_ai/status/2114306498658812026",
-     "aihot": "https://aihot.news/items/phi7llq4oej7orp3ogiymv9rw",
+     "ts": "2026-10-27T05:58:42.502000+08:00",
+     "publishedAt": "2026-10-26T21:44:50.000Z",
+     "discoveredAt": "2026-10-26T21:58:42.502Z",
+     "summary": "Google DeepMind 论文将 4 个 Gemini 4 Argon 智能体放入沙盒 Minecraft 生存世界，只给一个目标击败 Ender Dragon，未分配角色或预写游戏工具，智能体通过聊天和共享记忆自行组织分工。",
+     "url": "https://x.com/rohanpaul_ai/status/2114835672985113080",
+     "aihot": "https://aihot.news/items/efkvdzx01tprr40dwhz91iddm",
      "selected": false,
-     "score": 74,
-     "category": "paper"
-    },
-    {
-     "n": 2,
-     "title": "Google DeepMind 论文：主动式 AI 智能体进团队，有人视其为救星，有人感到被监视",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-25T14:45:14.347000+08:00",
-     "publishedAt": "2026-10-25T06:24:09.000Z",
-     "discoveredAt": "2026-10-25T06:45:14.347Z",
-     "summary": "Google DeepMind 论文研究主动式 AI 智能体在大公司 20 多个团队运行 5 个月的情况，并访谈 17 名用户，发现同一智能体被部分人视为救星，另一些人却因它擅自动作而感到压力。",
-     "url": "https://x.com/rohanpaul_ai/status/2114241586989334537",
-     "aihot": "https://aihot.news/items/kvbeuuzi3ly6rdgtpcsqtj7f0",
-     "selected": false,
-     "score": 56,
+     "score": 66,
      "category": "paper"
     }
    ],
@@ -304,38 +334,9 @@ const DATA = {
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
-   "items": [
-    {
-     "n": 3,
-     "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
-     "source": "Browser Use",
-     "ts": "2026-10-26T07:59:19.584000+08:00",
-     "publishedAt": "2026-10-25T00:00:00.000Z",
-     "discoveredAt": "2026-10-25T23:59:19.584Z",
-     "summary": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
-     "url": "https://browser-use.com/posts/coding-agent-logged-in-chrome",
-     "aihot": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h",
-     "selected": true,
-     "score": 76,
-     "category": "tip"
-    },
-    {
-     "n": 4,
-     "title": "谷歌 DeepMind 高管：终身学习者将在 AI 职场中占据优势",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-25T20:52:19.453000+08:00",
-     "publishedAt": "2026-10-25T11:59:23.200Z",
-     "discoveredAt": "2026-10-25T12:52:19.453Z",
-     "summary": "谷歌 DeepMind 高管莱拉·易卜拉欣表示，公司招聘越来越看重能证明自己在课堂之外持续学习的求职者，多项资历比单一学历更能体现持续学习的心态。她透露应届生已在简历中更详细列出正规教育之外的学习经历，这些信息有助于 DeepMind 判断求职者的好奇心与终身学习准备。",
-     "url": "https://www.ithome.com/1/017/681.htm",
-     "aihot": "https://aihot.news/items/t0gx02evurmf2j6o6cvq95b5a",
-     "selected": false,
-     "score": 36,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [

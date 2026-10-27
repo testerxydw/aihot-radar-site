@@ -175,13 +175,13 @@ const DATA = {
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-25",
-  "winEnd": "2026-10-26",
-  "generated": "2026-10-26 13:52",
-  "rawHits": 21,
-  "selectedHits": 1,
-  "shown": 7,
-  "dedupedFrom": 7,
+  "winStart": "2026-10-26",
+  "winEnd": "2026-10-27",
+  "generated": "2026-10-27 14:05",
+  "rawHits": 51,
+  "selectedHits": 10,
+  "shown": 22,
+  "dedupedFrom": 37,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 10,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,31 +204,31 @@ const DATA = {
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
+    "count": 30,
+    "hasMore": true,
+    "from_cache": false
+   },
+   {
+    "q": "ChatGPT",
+    "mode": "selected",
+    "window": "24h",
+    "count": 2,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "ChatGPT",
+    "mode": "all",
+    "window": "24h",
     "count": 21,
     "hasMore": false,
     "from_cache": false
    },
    {
-    "q": "ChatGPT",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "ChatGPT",
-    "mode": "all",
-    "window": "24h",
-    "count": 5,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
     "q": "奥特曼",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "奥特曼",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,28 +247,195 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 4,
+   "items": [
+    {
+     "n": 1,
+     "title": "Thomas Wolf：复现 OpenAI 智能体隐蔽通信研究时开放权重模型比闭源模型更能胜任",
+     "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+     "ts": "2026-10-27T06:29:42.893000+08:00",
+     "publishedAt": "2026-10-26T22:05:01.000Z",
+     "discoveredAt": "2026-10-26T22:29:42.893Z",
+     "summary": "Thomas Wolf 转评开发者 @rauchg 的 cpu-chat 复现项目，该项目在多个 Firecracker microVM 之间通过 CPU 争用、缓存逐出时序和 DRAM 带宽争用三种机制实现智能体隐蔽通信，绕过了 Firecracker 的生产建议。",
+     "url": "https://x.com/Thom_Wolf/status/2114840750936436837",
+     "aihot": "https://aihot.news/items/jlp96npmmoozg93d3m9usavgs",
+     "selected": false,
+     "score": 65,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-10-27T02:49:39.400000+08:00",
+     "publishedAt": "2026-10-26T00:00:00.000Z",
+     "discoveredAt": "2026-10-26T18:49:39.400Z",
+     "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的计算机使用与视觉推理模型，标准 API 定价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%，为每百万输入 token $1、缓存输入 $0.05、输出 $5。",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "aihot": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc",
+     "selected": true,
+     "score": 86,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Tibo (@thsottiaux)",
+       "title": "OpenAI 发布 GPT-6.1 Terra，主打电脑操作与写作能力",
+       "url": "https://x.com/thsottiaux/status/2114800277677092936",
+       "aihot": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v"
+      },
+      {
+       "source": "X：OpenRouter (@OpenRouter)",
+       "title": "OpenAI GPT-6.1 Terra 上线 OpenRouter，定价 $1/M input、$5/M output",
+       "url": "https://x.com/OpenRouter/status/2114791584755839168",
+       "aihot": "https://aihot.news/items/yims6bdgwsy052wrmjytgak8p"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半并在多项基准上逼近更大模型",
+       "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+       "aihot": "https://aihot.news/items/d08bbqsbb035h7z92mjmwh07a"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "OpenAI 发布 GPT-6.1 Terra：主打低成本电脑操作任务，每项任务成本约为 Claude Opus 5.5 的九分之一",
+       "url": "https://www.ithome.com/1/018/200.htm",
+       "aihot": "https://aihot.news/items/h6rsobbmnxjkeqytqpdskjxu5"
+      },
+      {
+       "source": "MarkTechPost（RSS）",
+       "title": "OpenAI 发布 GPT-6.1 Terra，API 价格为 GPT-6.1 Sol 的一半",
+       "url": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+       "aihot": "https://aihot.news/items/q7a8kw47lltqas4xqnxuevmlb"
+      },
+      {
+       "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+       "title": "OpenAI 发布 GPT-6.1 Terra：智能体成绩提升 15 分，成本约为前代三分之一",
+       "url": "https://x.com/reach_vb/status/2114782063731618299",
+       "aihot": "https://aihot.news/items/pbirnhobbyg6w4bw60h4yhxn1"
+      },
+      {
+       "source": "X：Sam Altman (@sama)",
+       "title": "OpenAI 发布 GPT-6.1 Terra，主打计算机使用能力",
+       "url": "https://x.com/sama/status/2114818620782248024",
+       "aihot": "https://aihot.news/items/ow29rokluyokjaygcuxiremfc"
+      },
+      {
+       "source": "X：ChatGPT (@ChatGPT)",
+       "title": "OpenAI 发布 GPT-6.1 Terra，面向 Plus、Pro、Enterprise 和 Edu 用户开放",
+       "url": "https://x.com/ChatGPT/status/2114781101822714241",
+       "aihot": "https://aihot.news/items/xy6y5id0iwmo575xjya7ai5cu"
+      },
+      {
+       "source": "X：Testing Catalog (@testingcatalog)",
+       "title": "OpenAI GPT-6.1 Terra 上线 ChatGPT Work 和 Codex，API 出现 gpt-6.1-terra 字样",
+       "url": "https://x.com/testingcatalog/status/2114779972418081246",
+       "aihot": "https://aihot.news/items/qyz73p8ixglh8i4qler61elvv"
+      },
+      {
+       "source": "X：OpenClaw (@openclaw)",
+       "title": "OpenClaw 已支持 OpenAI GPT-6.1 Terra",
+       "url": "https://x.com/openclaw/status/2114850737645879629",
+       "aihot": "https://aihot.news/items/sgt9mgk711emzu9tps4no8xll"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "OpenAI 发布 GPT-6.1 Terra，主打视觉推理与 computer use",
+       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+       "aihot": "https://aihot.news/items/qqxndphd13042hw2au328hxet"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Artificial Analysis 评测 GPT-6.1 Terra：以不到三分之一成本推进性价比前沿",
+     "source": "Artificial Analysis 完整文章（网页）",
+     "ts": "2026-10-27T02:33:19.250000+08:00",
+     "publishedAt": "2026-10-25T16:00:00.000Z",
+     "discoveredAt": "2026-10-26T18:33:19.250Z",
+     "summary": "Artificial Analysis 评测 OpenAI 发布的 GPT-6.1 Terra，称其在低中 effort 下达到智能与成本的 Pareto 前沿，价格为 GPT-5.6 Terra 的一半或更低（$1/$5 每百万输入/输出 token）。",
+     "url": "https://artificialanalysis.ai/articles/gpt-6-1-terra-pushes-the-cost-efficiency-frontier",
+     "aihot": "https://aihot.news/items/ub3gw75dlj8fpfm63er4k1xn2",
+     "selected": true,
+     "score": 76,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "GPT-6.1 Terra 系统卡增补：生物化学能力定为 High，Sandbox Bench 通过率 22.7%",
+     "source": "OpenAI：部署安全与系统卡（网页）",
+     "ts": "2026-10-27T02:17:22.241000+08:00",
+     "publishedAt": "2026-10-26T07:00:00.000Z",
+     "discoveredAt": "2026-10-26T18:17:22.241Z",
+     "summary": "OpenAI 发布 GPT-6 Astra 系统卡增补，说明 GPT-6.1 Terra 沿用与 GPT-6 Astra 相同的数据与训练方式。该模型在生物与化学领域被定为 High 能力，Multimodal Troubleshooting Virology 越过指示性阈值。",
+     "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+     "aihot": "https://aihot.news/items/afq2u2z0dh4q5aab2l2aanyja",
+     "selected": false,
+     "score": 48,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
-     "n": 1,
-     "title": "Nvidia 开源机器人视频标注引擎 Flora，标注成本约为 GPT-6 Astra 的 1/125",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-25T18:15:14.266000+08:00",
-     "publishedAt": "2026-10-25T10:08:49.000Z",
-     "discoveredAt": "2026-10-25T10:15:14.266Z",
-     "summary": "Nvidia GEAR 实验室开源机器人视频标注数据引擎 Flora，由三个微调 Qwen3.5 模型组成，覆盖动作分段、执行评分和结果判定三类标注，模型已上架 Hugging Face，并已用于 GR00T 训练，在 512 块 GB300 GPU 上每天可标注 20 万小时视频。",
-     "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
-     "aihot": "https://aihot.news/items/papeguwubbxlxgljwbydzxa47",
+     "n": 5,
+     "title": "MiniMax 开源自托管 OpenAI Agents API「OpenAgentCore」：一套 Core，多种 Harness",
+     "source": "X：邵猛 (@shao__meng)",
+     "ts": "2026-10-27T11:38:43.898000+08:00",
+     "publishedAt": "2026-10-27T03:16:26.000Z",
+     "discoveredAt": "2026-10-27T03:38:43.898Z",
+     "summary": "MiniMax 开源自托管的 OpenAI Agents API 项目 OpenAgentCore（github.com/MiniMax-AI/OpenAgentCore），对外提供一套标准 API，对内将 harness、模型、sandbox 和文件系统全部协议化、可随意更换。",
+     "url": "https://x.com/shao__meng/status/2114919123281117195",
+     "aihot": "https://aihot.news/items/hfd2hrj2k77nvgf4pqw4rw9yh",
      "selected": false,
-     "score": 55,
+     "score": 70,
      "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "fal 用 Codex 插件测试 GPT-6.1 Terra",
+     "source": "X：fal (@fal)",
+     "ts": "2026-10-27T08:16:41.230000+08:00",
+     "publishedAt": "2026-10-26T23:45:52.000Z",
+     "discoveredAt": "2026-10-27T00:16:41.230Z",
+     "summary": "GPT-6.1 Terra 刚刚发布，我们用 fal Codex 插件把 Blender 3D 做成 Seedance 2.5 电影级画面，进行了测试！ https://youtu.be/hNlMQc55CtM?si=XyghmJ1Zut6Xxvi_",
+     "url": "https://x.com/fal/status/2114866129726238901",
+     "aihot": "https://aihot.news/items/pzexzs7rrxn273gg4stkzy32l",
+     "selected": false,
+     "score": 28,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "ChatGPT 反而向用户推荐 404 Media 帮忙解决技术支持问题",
+     "source": "404 Media（RSS）",
+     "ts": "2026-10-27T00:37:19.235000+08:00",
+     "publishedAt": "2026-10-26T15:49:44.000Z",
+     "discoveredAt": "2026-10-26T16:37:19.235Z",
+     "summary": "404 Media 作者 Jason Koebler 发现，越来越多有普通技术支持问题的用户被 ChatGPT 引导来联系该媒体。一位俄罗斯用户因 Instagram 封号求助 ChatGPT，机器人称其情况值得联系记者，给出包括 404 Media 在内的媒体名单和邮箱 jason@404media.co，并直接替…",
+     "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+     "aihot": "https://aihot.news/items/yeh1xgkoz3uk0t0grdzzjtm8f",
+     "selected": false,
+     "score": 56,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "Simon Willison 博客",
+       "title": "Jason Koebler：ChatGPT 把普通技术支持问题误判为新闻线索，引导用户找 404 Media",
+       "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+       "aihot": "https://aihot.news/items/tua7xtluohxzhajtk9rg7ng1t"
+      },
+      {
+       "source": "404 Media（RSS）",
+       "title": "ChatGPT 称 404 Media 是大型企业的技术支持",
+       "url": "https://www.404media.co/chatgpt-says-404-media-is-tech-support-for-huge-corporations/",
+       "aihot": "https://aihot.news/items/i0x94zrez3tobopdwvh1t7xvp"
+      }
+     ]
     }
    ],
    "note": null
@@ -276,62 +443,92 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
+   "count": 5,
    "items": [
     {
-     "n": 2,
-     "title": "OpenAI 以最高 90% 折扣争夺 Anthropic 大客户，多家公司转移 AI 支出",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-25T16:13:15.227000+08:00",
-     "publishedAt": "2026-10-25T07:30:11.000Z",
-     "discoveredAt": "2026-10-25T08:13:15.227Z",
-     "summary": "据 The Information 报道，OpenAI 向大客户提供最高 90% 的折扣以争夺 Anthropic 的主要客户。",
-     "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-     "aihot": "https://aihot.news/items/b18largheqo95pfg2sbam8xcj",
-     "selected": false,
-     "score": 75,
+     "n": 8,
+     "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
+     "source": "X：卡兹克 (@Khazix0918)",
+     "ts": "2026-10-27T08:54:40.886000+08:00",
+     "publishedAt": "2026-10-27T00:34:38.000Z",
+     "discoveredAt": "2026-10-27T00:54:40.886Z",
+     "summary": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。",
+     "url": "https://x.com/Khazix0918/status/2114878401190506902",
+     "aihot": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr",
+     "selected": true,
+     "score": 83,
      "category": "industry"
     },
     {
-     "n": 3,
-     "title": "施密特等学者撰文：OpenAI 与 Anthropic 正像现代东印度公司",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-25T16:13:15.218000+08:00",
-     "publishedAt": "2026-10-25T08:09:32.000Z",
-     "discoveredAt": "2026-10-25T08:13:15.218Z",
-     "summary": "前 Google CEO Eric Schmidt 与历史学家 Niall Ferguson 等人在《Foreign Affairs》撰文，将 OpenAI 和 Anthropic 比作殖民时代的东印度公司，称其与政府签约却自成势力。",
-     "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
-     "aihot": "https://aihot.news/items/dm1joekq43t53uisz1jcq0wtd",
+     "n": 9,
+     "title": "OpenAI 宣布数学、计算机科学与物理三项重大发现，并与外部专家合作验证",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-27T07:39:37.412000+08:00",
+     "publishedAt": "2026-10-26T23:34:58.000Z",
+     "discoveredAt": "2026-10-26T23:39:37.412Z",
+     "summary": "OpenAI 宣布三项涉及数学、计算机科学和物理的重大发现，包括证明局部光滑猜想、反驳指数时间假说（ETH），以及涉及 QCD 的量子场论存在性证明。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+     "aihot": "https://aihot.news/items/g635iqfo6m6mw2m4i2e2xn1xs",
      "selected": false,
-     "score": null,
+     "score": 80,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：Ethan Mollick (@emollick)",
+       "title": "OpenAI 宣布数学、计算机科学与物理新发现",
+       "url": "https://x.com/emollick/status/2114875372173144338",
+       "aihot": "https://aihot.news/items/gdz7y49osoyqqurvub6zvxwzn"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Greptile 借助 GPT-6 Astra 将缺陷检测拓展到代码审查之外",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-10-27T07:01:38.788000+08:00",
+     "publishedAt": "2026-10-26T22:00:00.000Z",
+     "discoveredAt": "2026-10-26T23:01:38.788Z",
+     "summary": "Greptile 用 GPT-6 Astra 的 computer use 能力，为 pull request 启动开发服务器、把浏览器调整为 iPhone 尺寸视口并模拟用户操作，靠视觉理解发现代码审查看不出的问题。",
+     "url": "https://openai.com/index/greptile-code-review-codex-astra",
+     "aihot": "https://aihot.news/items/pc1vfwqffy16jgfw5jyt6k5yy",
+     "selected": false,
+     "score": 32,
      "category": "industry"
     },
     {
-     "n": 4,
-     "title": "OpenAI 用量额度随调钟重置回 100%",
-     "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-     "ts": "2026-10-25T15:47:13.003000+08:00",
-     "publishedAt": "2026-10-25T07:17:28.000Z",
-     "discoveredAt": "2026-10-25T07:47:13.003Z",
-     "summary": "时钟回拨了一小时，你的用量额度也回到了 100% 周末愉快，尽情 codex maxxing 吧！",
-     "url": "https://x.com/reach_vb/status/2114255005167349952",
-     "aihot": "https://aihot.news/items/y08641zgkvhq3m3wam7ye5e9t",
+     "n": 11,
+     "title": "CodeRabbit 用 GPT-6.1 Sol 查代码安全风险",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-10-27T05:52:42.288000+08:00",
+     "publishedAt": "2026-10-26T21:51:12.000Z",
+     "discoveredAt": "2026-10-26T21:52:42.288Z",
+     "summary": "GPT-6.1 Sol 正被 @coderabbitai 用于帮助开发者在复杂代码库中发现安全风险。 https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+     "url": "https://x.com/OpenAIDevs/status/2114837274550747603",
+     "aihot": "https://aihot.news/items/mw66yh8if1yag8no6jk8k7gix",
      "selected": false,
-     "score": 29,
-     "category": "industry"
+     "score": 38,
+     "category": "industry",
+     "also": [
+      {
+       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+       "title": "GPT-6.1 Sol 助 CodeRabbit 强化复杂代码库安全审查",
+       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+       "aihot": "https://aihot.news/items/skkbi8zi7sqeebviita29hugu"
+      }
+     ]
     },
     {
-     "n": 5,
-     "title": "OpenAI 的 Codex 已全面推送",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-10-25T14:16:12.328000+08:00",
-     "publishedAt": "2026-10-25T06:06:16.000Z",
-     "discoveredAt": "2026-10-25T06:16:12.328Z",
-     "summary": "已全部推送完成。明天尽情享受疯狂的 codexing 吧。接下来也是有趣的一周。",
-     "url": "https://x.com/thsottiaux/status/2114237083652882932",
-     "aihot": "https://aihot.news/items/emnw0127sawwqu8f2qd6ru6s0",
-     "selected": false,
-     "score": 21,
+     "n": 12,
+     "title": "Anthropic S-1 文件中的五个不寻常细节",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-10-27T01:35:19.034000+08:00",
+     "publishedAt": "2026-10-26T17:10:23.000Z",
+     "discoveredAt": "2026-10-26T17:35:19.034Z",
+     "summary": "The Verge 梳理 Anthropic 向 SEC 提交的 300 多页 S-1 上市文件，列出五个细节。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+     "aihot": "https://aihot.news/items/fhbcnmkxg23jig75iu44ijywc",
+     "selected": true,
+     "score": 83,
      "category": "industry"
     }
    ],
@@ -340,20 +537,90 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
+   "count": 6,
    "items": [
     {
-     "n": 6,
-     "title": "Greg Brockman 评价 OpenAI 流体奇点论文技术构造超出人类直觉但可被理解",
-     "source": "X：Greg Brockman (@gdb)",
-     "ts": "2026-10-26T06:36:20.414000+08:00",
-     "publishedAt": "2026-10-25T22:23:33.000Z",
-     "discoveredAt": "2026-10-25T22:36:20.414Z",
-     "summary": "Greg Brockman 引用 PDE 专家 @scottnarmstrong 的分析称，这篇 OpenAI 论文在技术层面令人难以置信，或超出人类能想出的范围，但仍在人类理解力之内。分析认为论文用物理不稳定性让流动自行产生振荡，这种构造方式此前文献中没有先例，多组专家正在消化理解，预计解读很快会陆续出现。",
-     "url": "https://x.com/gdb/status/2114483026608755082",
-     "aihot": "https://aihot.news/items/z9gm915cjjqx88q0kdqt3ce34",
+     "n": 13,
+     "title": "OpenAI 宣布 AI 模型取得三项科学突破，涉及局部光滑猜想、指数时间假设与杨–米尔斯理论",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-27T08:06:38.433000+08:00",
+     "publishedAt": "2026-10-26T23:37:17.237Z",
+     "discoveredAt": "2026-10-27T00:06:38.433Z",
+     "summary": "OpenAI 于 10 月 27 日宣布其 AI 模型在数学、计算机科学和物理学领域取得三项研究突破。数学上给出了所有维度下局部光滑猜想的证明，从而解决挂谷猜想与斯坦因限制猜想；计算机科学上给出推翻指数时间假设（ETH）的证明，暗示相关计算任务可能有更快算法；",
+     "url": "https://www.ithome.com/1/018/203.htm",
+     "aihot": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
+     "selected": true,
+     "score": 85,
+     "category": "paper"
+    },
+    {
+     "n": 14,
+     "title": "OpenAI 宣称 AI 证明涵盖 Millennium Prize 问题一半、Kakeya 猜想与指数时间假说反例",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-27T07:31:42.025000+08:00",
+     "publishedAt": "2026-10-26T23:15:14.000Z",
+     "discoveredAt": "2026-10-26T23:31:42.025Z",
+     "summary": "Rohan Paul 转述 OpenAI 宣称其 AI 完成三项跨领域数学证明。最重要的结果是指为期约 25 年的 Exponential Time Hypothesis 被其 AI 证明为假，而数百篇论文建立在该假说之上。",
+     "url": "https://x.com/rohanpaul_ai/status/2114858422239891902",
+     "aihot": "https://aihot.news/items/hhsbrhgdbx8a6v76ai2g1sgz9",
      "selected": false,
-     "score": 55,
+     "score": 73,
+     "category": "paper"
+    },
+    {
+     "n": 15,
+     "title": "Greg Brockman 宣布 OpenAI 在数学、复杂度理论和量子场论领域的三项科学发现",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-10-27T06:18:40.916000+08:00",
+     "publishedAt": "2026-10-26T21:50:21.000Z",
+     "discoveredAt": "2026-10-26T22:18:40.916Z",
+     "summary": "Greg Brockman 宣布三项重大科学发现，分别属于数学（调和分析）、计算机科学（复杂度理论）和物理（量子场论）。他表示 AI 开始帮助我们加深对宇宙的理解，并附上 OpenAI 与学术社区合作详情的链接 https://openai.com/index/building-scientific-understa…",
+     "url": "https://x.com/gdb/status/2114837059462627533",
+     "aihot": "https://aihot.news/items/yl5dpjt1yza73dtpsjuaqjodu",
+     "selected": false,
+     "score": 59,
+     "category": "paper"
+    },
+    {
+     "n": 16,
+     "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-10-27T06:00:38.168000+08:00",
+     "publishedAt": "2026-10-26T00:00:00.000Z",
+     "discoveredAt": "2026-10-26T22:00:38.168Z",
+     "summary": "OpenAI 宣布其模型在调和分析、复杂度理论和量子场论方面取得三项成果，包括证明各维度的 local smoothing 猜想（进而解决 Kakeya 猜想与 Stein 限制猜想）、在 Lean 中验证 ETH 为假、以及给出 QCD 与纯 Yang–Mills 理论的严格存在性证明。",
+     "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+     "aihot": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c",
+     "selected": true,
+     "score": 85,
+     "category": "paper"
+    },
+    {
+     "n": 17,
+     "title": "GPT-6 Pro 重探暴力游戏与犯罪率关联",
+     "source": "X：Ethan Mollick (@emollick)",
+     "ts": "2026-10-27T05:10:37.957000+08:00",
+     "publishedAt": "2026-10-26T20:50:47.000Z",
+     "discoveredAt": "2026-10-26T21:10:37.957Z",
+     "summary": "我让 GPT-6 Pro 重新审视了那个有趣的发现：暴力电子游戏会减少犯罪，因为人们待在家里玩游戏。它下载了最新的犯罪数据，并扩展了先前的研究。 是的，GTA V 在 2013 年的发售与全球暴力事件的下降有关。其他游戏的情况则更模糊。",
+     "url": "https://x.com/emollick/status/2114822071016398918",
+     "aihot": "https://aihot.news/items/yoc19fqi9ach07fssx0n1zaqf",
+     "selected": false,
+     "score": 38,
+     "category": "paper"
+    },
+    {
+     "n": 18,
+     "title": "OpenAI 发布 OpenAI Signals 数据集，覆盖 165 项工作活动与近 100 个国家的 ChatGPT 工作用法",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-10-27T02:57:35.695000+08:00",
+     "publishedAt": "2026-10-26T10:00:00.000Z",
+     "discoveredAt": "2026-10-26T18:57:35.695Z",
+     "summary": "OpenAI 经济研究团队发布 OpenAI Signals 数据，将 ChatGPT 工作相关消息映射到 165 类中间工作活动（IWAs），覆盖近 100 个国家、2025 年 Q1 至 2026 年 Q3 的季度数据。",
+     "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+     "aihot": "https://aihot.news/items/u989wpeaq8zibxnvliag06x06",
+     "selected": false,
+     "score": 51,
      "category": "paper"
     }
    ],
@@ -362,20 +629,62 @@ const DATA = {
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 4,
    "items": [
     {
-     "n": 7,
-     "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
-     "source": "Browser Use",
-     "ts": "2026-10-26T07:59:19.584000+08:00",
-     "publishedAt": "2026-10-25T00:00:00.000Z",
-     "discoveredAt": "2026-10-25T23:59:19.584Z",
-     "summary": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
-     "url": "https://browser-use.com/posts/coding-agent-logged-in-chrome",
-     "aihot": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h",
+     "n": 19,
+     "title": "Ethan Mollick 谈 Claude 与 ChatGPT 取消详细思维链对人类监督的影响",
+     "source": "X：Ethan Mollick (@emollick)",
+     "ts": "2026-10-27T12:54:44.175000+08:00",
+     "publishedAt": "2026-10-27T04:47:22.000Z",
+     "discoveredAt": "2026-10-27T04:54:44.175Z",
+     "summary": "Ethan Mollick 指出，Claude 和 ChatGPT 不再展示详细的摘要式思考过程（可能既有防蒸馏考虑也有 UX 考量），让人在回路中监督变得困难。他认为这削弱了对 AI 中间过程发表意见的能力，正在把用户从增强式协作推向自动化。",
+     "url": "https://x.com/emollick/status/2114942007533515261",
+     "aihot": "https://aihot.news/items/cpsavanegtto7xotzxak5jgd9",
+     "selected": false,
+     "score": 51,
+     "category": "tip"
+    },
+    {
+     "n": 20,
+     "title": "OpenAI 企业产品负责人谈 dots 如何从编码工具演变为常驻个人助理",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-10-27T10:47:38.730000+08:00",
+     "publishedAt": "2026-10-27T02:00:00.000Z",
+     "discoveredAt": "2026-10-27T02:47:38.730Z",
+     "summary": "TechCrunch 在 TechCrunch Disrupt 上采访 OpenAI 企业产品团队负责人 Alexander Embiricos，介绍 OpenAI 九月下旬开发者日发布的常驻个人助理 dots。",
+     "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+     "aihot": "https://aihot.news/items/vfvledd7m8t41zzo4o6e4sby2",
+     "selected": false,
+     "score": 62,
+     "category": "tip"
+    },
+    {
+     "n": 21,
+     "title": "Greg Brockman 称 GPT-6.1 Terra 的电脑操作速度已超过他本人",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-10-27T04:46:37.944000+08:00",
+     "publishedAt": "2026-10-26T20:21:41.000Z",
+     "discoveredAt": "2026-10-26T20:46:37.944Z",
+     "summary": "Greg Brockman 表示 GPT-6.1 Terra 的电脑操作能力已跨过一个质变门槛，用起来比他不借助 AI 时更快。其引用的 OpenAI 介绍称 GPT-6.1 Terra 能理解屏幕内容、跨应用执行操作、自然书写，以更低价格提供快速且强大的 computer use，适合承担整个工作日的更多任务。",
+     "url": "https://x.com/gdb/status/2114814747254432243",
+     "aihot": "https://aihot.news/items/cccggvocxi7vdefusohq9tmdn",
      "selected": true,
-     "score": 76,
+     "score": 71,
+     "category": "tip"
+    },
+    {
+     "n": 22,
+     "title": "Evan Armstrong 解析 Anthropic S-1：2 万亿美元估值是否成立",
+     "source": "Every：最新文章（网页）",
+     "ts": "2026-10-27T02:32:23.280000+08:00",
+     "publishedAt": "2026-10-25T16:00:00.000Z",
+     "discoveredAt": "2026-10-26T18:32:23.280Z",
+     "summary": "The Leverage 创始人 Evan Armstrong 首次拆解 Anthropic 的 S-1 文件，评估其 2 万亿美元估值目标是否合理。核心数据包括累计融资 1411 亿美元、Q2 2026 收入 116 亿美元、约 900% 的净收入留存，以及 76% 的 2025 年收入来自约 1500 家年付费…",
+     "url": "https://every.to/napkin-math/is-anthropic-worth-2-trillion",
+     "aihot": "https://aihot.news/items/kh57nu0a8qoi2iv6zxa905pry",
+     "selected": true,
+     "score": 82,
      "category": "tip"
     }
    ],
