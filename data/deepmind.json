@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-26",
-  "winEnd": "2026-10-27",
-  "generated": "2026-10-27 14:05",
-  "rawHits": 8,
-  "selectedHits": 0,
-  "shown": 4,
-  "dedupedFrom": 4,
+  "winStart": "2026-10-27",
+  "winEnd": "2026-10-28",
+  "generated": "2026-10-28 14:43",
+  "rawHits": 35,
+  "selectedHits": 2,
+  "shown": 7,
+  "dedupedFrom": 18,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,31 +43,31 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
+    "count": 14,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "selected",
+    "window": "24h",
     "count": 2,
     "hasMore": false,
     "from_cache": false
    },
    {
     "q": "Gemini",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 8,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
     "q": "Demis Hassabis",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    }
@@ -90,17 +90,85 @@
    "items": [
     {
      "n": 1,
-     "title": "Google DeepMind 论文发现 LLM 无法自主产生真随机选择",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-27T02:52:38.683000+08:00",
-     "publishedAt": "2026-10-26T18:24:12.000Z",
-     "discoveredAt": "2026-10-26T18:52:38.683Z",
-     "summary": "Google DeepMind 论文《The Illusion of Stochasticity in LLMs》发现 LLM 无法自主完成符合目标概率的随机采样。",
-     "url": "https://x.com/rohanpaul_ai/status/2114785180653437126",
-     "aihot": "https://aihot.news/items/jsqiztsfs2f3k9r0ast2hdwxg",
-     "selected": false,
-     "score": 60,
-     "category": "ai-models"
+     "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-10-28T00:09:41.747000+08:00",
+     "publishedAt": "2026-10-27T16:01:38.000Z",
+     "discoveredAt": "2026-10-27T16:09:41.747Z",
+     "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "aihot": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+     "selected": true,
+     "score": 73,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "IT之家·人工智能",
+       "title": "谷歌 DeepMind 发布世界模型 Genie 4：一句话生成可交互虚拟世界并同步音频",
+       "url": "https://www.ithome.com/1/018/711.htm",
+       "aihot": "https://aihot.news/items/zcwqbxbdxlss459ltxq3jnyha"
+      },
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "Google DeepMind 发布世界模型 Genie 4 研究预览版，新增音频与实时场景调整",
+       "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+       "aihot": "https://aihot.news/items/lj7bl8bdnv1au5n31crj3w270"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "谷歌 DeepMind 发布 Genie 4 世界模型，皮查伊称其为迄今最逼真、最具互动性",
+       "url": "https://www.ithome.com/1/018/718.htm",
+       "aihot": "https://aihot.news/items/rg7byhsw8r3tp5gkcw9nrbdzv"
+      },
+      {
+       "source": "X：Google AI (@GoogleAI)",
+       "title": "Google DeepMind 发布世界模型 Genie 4",
+       "url": "https://x.com/GoogleAI/status/2115114625985368299",
+       "aihot": "https://aihot.news/items/cs5n4i3ygmpf9wskd34uuas7k"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google DeepMind 发布实时世界模型 Genie 4，支持原生音频与可编辑模拟",
+       "url": "https://x.com/rohanpaul_ai/status/2115127052898816103",
+       "aihot": "https://aihot.news/items/buszbb6qidmli2oz58csr5m9o"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google DeepMind 发布 Genie 4 实时世界模型",
+       "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+       "aihot": "https://aihot.news/items/p9lvo7nzdvuv6aspokwq01iz8"
+      },
+      {
+       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+       "title": "Google DeepMind 发布实时世界模型 Genie 4，支持原生音频与实时提示词编辑",
+       "url": "https://x.com/_philschmid/status/2115129878697697566",
+       "aihot": "https://aihot.news/items/qps0q2mwa2o75qrcy5s94mn4t"
+      },
+      {
+       "source": "X：Demis Hassabis (@demishassabis)",
+       "title": "Google DeepMind 发布交互式世界模型 Genie 4",
+       "url": "https://x.com/demishassabis/status/2115232001275924722",
+       "aihot": "https://aihot.news/items/d5bif7t1eui5glzu2ofyr6hgs"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 发布 Genie 4 世界模型",
+       "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+       "aihot": "https://aihot.news/items/y1arecfli51l4at7wvi3p8bge"
+      },
+      {
+       "source": "Ars Technica：AI（RSS）",
+       "title": "DeepMind 发布 Genie 4 世界模型，人物更真实、物理模拟更精确",
+       "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+       "aihot": "https://aihot.news/items/ygu6eku7qnxfjxm6bo8bf16lp"
+      },
+      {
+       "source": "X：indigo (@indigox)",
+       "title": "Google Genie 4 上线：Gemini Omni 驱动的实时交互世界模型",
+       "url": "https://x.com/indigox/status/2115258086625861733",
+       "aihot": "https://aihot.news/items/a4dviqjrqelpjjfunymjmfz68"
+      }
+     ]
     }
    ],
    "note": null
@@ -108,34 +176,62 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 4,
    "items": [
     {
      "n": 2,
-     "title": "Google 发布 Gemini API CLI：供现有 Agent 调用 Gemini API 的无状态命令行工具",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-10-27T01:47:22.307000+08:00",
-     "publishedAt": "2026-10-26T17:37:53.000Z",
-     "discoveredAt": "2026-10-26T17:47:22.307Z",
-     "summary": "Google 发布 Gemini API CLI，一个用于调用 Gemini API 的命令行工具，可交给 Claude Code、Codex、Antigravity、Cursor 等已有 Agent 使用。",
-     "url": "https://x.com/_philschmid/status/2114773524787187804",
-     "aihot": "https://aihot.news/items/u5uq8ccww6eg9hj3jk0iqm7b9",
+     "title": "Gemini API CLI（gemini-api）Beta 版发布",
+     "source": "Gemini API：更新日志（网页）",
+     "ts": "2026-10-28T11:00:08.381000+08:00",
+     "publishedAt": "2026-10-27T00:00:00.000Z",
+     "discoveredAt": "2026-10-28T03:00:08.381Z",
+     "summary": "Gemini API 推出无状态、零依赖的命令行客户端 gemini-api Beta 版，面向 AI 编程智能体、脚本和 CI 流水线。用户可在 Interactions API 上用它生成文本与媒体、分析文件并运行 Gemini 托管智能体。",
+     "url": "https://ai.google.dev/gemini-api/docs/changelog#10-27-2026",
+     "aihot": "https://aihot.news/items/kk4px0xz330hzxaknqzq5r4u2",
      "selected": false,
-     "score": 55,
+     "score": 43,
      "category": "ai-products"
     },
     {
      "n": 3,
-     "title": "Gemini Generate Content API 付费层新项目默认开启请求存储",
-     "source": "Gemini API：更新日志（网页）",
-     "ts": "2026-10-26T19:26:35.388000+08:00",
-     "publishedAt": "2026-10-26T00:00:00.000Z",
-     "discoveredAt": "2026-10-26T11:26:35.388Z",
-     "summary": "Gemini Generate Content API（generateContent、streamGenerateContent、batchGenerateContent）付费层新项目现默认存储请求（store=true），与 Interactions API 保持一致，已有项目维持原设置。",
-     "url": "https://ai.google.dev/gemini-api/docs/changelog#10-26-2026",
-     "aihot": "https://aihot.news/items/xicxfkimgpj966l6xfsuwe8ki",
+     "title": "谷歌更新 Android Bench 榜单：Gemini 4 Argon 编程能力落后于 Claude 与 GPT",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-28T10:36:06.605000+08:00",
+     "publishedAt": "2026-10-28T02:09:56.407Z",
+     "discoveredAt": "2026-10-28T02:36:06.605Z",
+     "summary": "谷歌更新评估安卓编程辅助能力的 Android Bench 榜单，新增 GPT-6 Sol、GPT-6.1 Sol、Claude Sonnet 5、Claude Sonnet 5.5 和 Gemini 4 Argon 的成绩，并标注各模型推理等级。",
+     "url": "https://www.ithome.com/1/018/757.htm",
+     "aihot": "https://aihot.news/items/byy72eie05rd8q5e50p90vl97",
      "selected": false,
-     "score": 32,
+     "score": 59,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Gemini Notebook 移动端支持录制 1 小时音频",
+     "source": "X：Testing Catalog (@testingcatalog)",
+     "ts": "2026-10-28T08:16:12.845000+08:00",
+     "publishedAt": "2026-10-28T00:04:50.000Z",
+     "discoveredAt": "2026-10-28T00:16:12.845Z",
+     "summary": "GOOGLE 🔥：Gemini Notebook 移动端现在最多可录制 1 小时的实时音频！ > 录制的音频之后可作为 Notebook 的来源使用。 该功能似乎在逐步推送中。 Live Notebook 👀",
+     "url": "https://x.com/testingcatalog/status/2115233290214936648",
+     "aihot": "https://aihot.news/items/e661dw1716ls8orf1uzmqq8gs",
+     "selected": false,
+     "score": 48,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "Google 用 LangGraph 与 Gemini 在 GCP 上构建 HappyDelivery 多智能体对话式商务原型",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-10-28T01:42:44.613000+08:00",
+     "publishedAt": "2026-10-26T16:00:00.000Z",
+     "discoveredAt": "2026-10-27T17:42:44.613Z",
+     "summary": "Google Developers 基于 此前发布的 3 层对话式商务架构蓝图，用 LangGraph、Gemini、FastAPI 和 Google Cloud 构建出可运行原型 HappyDelivery。",
+     "url": "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/",
+     "aihot": "https://aihot.news/items/ug0jeh0hgnqrbmp1vbue0uqg2",
+     "selected": false,
+     "score": 51,
      "category": "ai-products"
     }
    ],
@@ -146,7 +242,7 @@
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -154,17 +250,17 @@
    "count": 1,
    "items": [
     {
-     "n": 4,
-     "title": "Google DeepMind 论文：4 个 Gemini 4 Argon 智能体无人干预击败 Minecraft 末影龙",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-27T05:58:42.502000+08:00",
-     "publishedAt": "2026-10-26T21:44:50.000Z",
-     "discoveredAt": "2026-10-26T21:58:42.502Z",
-     "summary": "Google DeepMind 论文将 4 个 Gemini 4 Argon 智能体放入沙盒 Minecraft 生存世界，只给一个目标击败 Ender Dragon，未分配角色或预写游戏工具，智能体通过聊天和共享记忆自行组织分工。",
-     "url": "https://x.com/rohanpaul_ai/status/2114835672985113080",
-     "aihot": "https://aihot.news/items/efkvdzx01tprr40dwhz91iddm",
+     "n": 6,
+     "title": "前 DeepMind 研究员 Thore Graepel 创办 Metis Reasoning，欲借 AlphaGo 思路解决模型幻觉",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-10-27T22:02:41.752000+08:00",
+     "publishedAt": "2026-10-27T13:55:24.000Z",
+     "discoveredAt": "2026-10-27T14:02:41.752Z",
+     "summary": "前 DeepMind 研究员 Thore Graepel 在 Nvidia GTC 柏林大会上介绍其新公司 Metis Reasoning 的方法，把 AlphaGo 的搜索思路搬到通用推理，用显式知识账本记录已知内容、置信度和未解问题，由独立模块对照计算、形式证明或经验证据检验每个结论。",
+     "url": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/",
+     "aihot": "https://aihot.news/items/b6441yui6jerhip0bqe93pwal",
      "selected": false,
-     "score": 66,
+     "score": 50,
      "category": "paper"
     }
    ],
@@ -173,9 +269,24 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 7,
+     "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-10-28T04:27:43.395000+08:00",
+     "publishedAt": "2026-10-27T20:00:27.000Z",
+     "discoveredAt": "2026-10-27T20:27:43.395Z",
+     "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
+     "url": "https://x.com/GeminiApp/status/2115171788812669225",
+     "aihot": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
+     "selected": true,
+     "score": 68,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
