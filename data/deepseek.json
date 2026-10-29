@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-27",
-  "winEnd": "2026-10-28",
-  "generated": "2026-10-28 14:44",
-  "rawHits": 10,
+  "winStart": "2026-10-28",
+  "winEnd": "2026-10-29",
+  "generated": "2026-10-29 14:51",
+  "rawHits": 18,
   "selectedHits": 1,
-  "shown": 1,
-  "dedupedFrom": 1,
+  "shown": 4,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 18,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,23 +68,75 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek Harness 代码库现 DeepSeek-V5 占位符，为新一代模型铺路",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-28T17:18:26.282000+08:00",
+     "publishedAt": "2026-10-28T08:54:17.640Z",
+     "discoveredAt": "2026-10-28T09:18:26.282Z",
+     "summary": "开发者在 DeepSeek Harness 官方 GitHub 代码库的 provider.spec.ts 测试文件中发现 deepseek-v5、deepseek-v5-open 和 deepseek-v5-next 三个占位条目，与已有的 deepseek-v4-pro 并列。",
+     "url": "https://www.ithome.com/1/018/980.htm",
+     "aihot": "https://aihot.news/items/m0uwunb2y4u978swfsjdirc7s",
+     "selected": false,
+     "score": 37,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 2,
+     "title": "Artificial Analysis 发布 Intelligence Index v5 基准，DeepSeek V4.1 Flash 1017 取 FrontierCode 2.0 开源最高分",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-29T01:45:38.701000+08:00",
+     "publishedAt": "2026-10-28T17:06:21.037Z",
+     "discoveredAt": "2026-10-28T17:45:38.701Z",
+     "summary": "Artificial Analysis 昨日发布 Intelligence Index v5，60% 评测权重首次建立在私有测试集或隐藏答案之上，并把 Cognition 的 FrontierCode 2.0 纳入编码评测，按仓库维护者是否愿意合并 PR 打分。",
+     "url": "https://www.ithome.com/1/019/237.htm",
+     "aihot": "https://aihot.news/items/i76im8k5cprezvffs8hoi1f29",
+     "selected": false,
+     "score": 66,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "面壁智能 ForgeKernel 直播挑战 DeepSeek FlashMLA Prefill 手写算子",
+     "source": "公众号：面壁智能（MiniCPM）",
+     "ts": "2026-10-28T20:38:00.621000+08:00",
+     "publishedAt": "2026-10-28T12:25:51.000Z",
+     "discoveredAt": "2026-10-28T12:38:00.621Z",
+     "summary": "面壁智能将于 10 月 29 日上午 10:00 直播，由 ForgeKernel 基于 DeepSeek-V4.1 的真实推理负载现场生成、编译并跑分算子，正面挑战 DeepSeek 官方开源的 FlashMLA Prefill。",
+     "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499663&idx=1&sn=b879302c82b0bd1e2e76647d593044af",
+     "aihot": "https://aihot.news/items/vlhg2hi5arkts8oyuvj7fzilx",
+     "selected": false,
+     "score": 42,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+       "title": "ForgeKernel Live 优化 DeepSeek 内核",
+       "url": "https://x.com/OpenBMB/status/2115631804711415855",
+       "aihot": "https://aihot.news/items/tntja753ksc3u8jh8sk1zlp8z"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -99,17 +151,17 @@
    "count": 1,
    "items": [
     {
-     "n": 1,
-     "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
-     "source": "Latent Space（RSS）",
-     "ts": "2026-10-27T16:11:37.932000+08:00",
-     "publishedAt": "2026-10-27T07:24:59.000Z",
-     "discoveredAt": "2026-10-27T08:11:37.932Z",
-     "summary": "Latent Space 汇总解读 Anthropic 公开提交的 S-1 文件，公司计划以代码 AN 上市纳斯达克，营收从 2023 年的 41M 美元增至 H1 2026 的 16.3B 美元，Q2 营收 11.6B 美元同比增长 1,368%，营业利润 974M 美元，H1 2026 毛利率达 85%。",
-     "url": "https://latent.space/p/ainews-anthropic-s1/",
-     "aihot": "https://aihot.news/items/nbvleghbxraalsahhggnc6qov",
+     "n": 4,
+     "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-10-29T08:33:30.586000+08:00",
+     "publishedAt": "2026-10-29T00:00:00.000Z",
+     "discoveredAt": "2026-10-29T00:33:30.586Z",
+     "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+     "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+     "aihot": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
      "selected": true,
-     "score": 88,
+     "score": 76,
      "category": "tip"
     }
    ],

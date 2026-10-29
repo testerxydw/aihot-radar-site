@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-27",
-  "winEnd": "2026-10-28",
-  "generated": "2026-10-28 14:43",
-  "rawHits": 35,
-  "selectedHits": 2,
-  "shown": 7,
-  "dedupedFrom": 18,
+  "winStart": "2026-10-28",
+  "winEnd": "2026-10-29",
+  "generated": "2026-10-29 14:51",
+  "rawHits": 40,
+  "selectedHits": 5,
+  "shown": 9,
+  "dedupedFrom": 31,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -204,7 +204,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 14,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,87 +247,191 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 4,
    "items": [
     {
      "n": 1,
-     "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-     "source": "Google DeepMind：Blog（RSS）",
-     "ts": "2026-10-28T00:09:41.747000+08:00",
-     "publishedAt": "2026-10-27T16:01:38.000Z",
-     "discoveredAt": "2026-10-27T16:09:41.747Z",
-     "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
-     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-     "aihot": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
-     "selected": true,
-     "score": 73,
+     "title": "Google 发布 EmbeddingGemma 2 多模态嵌入模型论文",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-29T12:03:31.456000+08:00",
+     "publishedAt": "2026-10-29T04:00:56.000Z",
+     "discoveredAt": "2026-10-29T04:03:31.456Z",
+     "summary": "Google 发布 EmbeddingGemma 2 论文，这是一个基于 Gemma 4、以 Apache 2.0 许可开源的 744M 参数多模态嵌入模型，可将文本、代码、图像、音频和视频嵌入统一向量空间，性能超过部分参数量大 2 到 12 倍的模型。",
+     "url": "https://x.com/rohanpaul_ai/status/2115655095505576117",
+     "aihot": "https://aihot.news/items/x7673996ly9f3oyxayoxjbloj",
+     "selected": false,
+     "score": 61,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Gemini 接入 Strava 生成个性化训练计划",
+     "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+     "ts": "2026-10-29T07:16:32.794000+08:00",
+     "publishedAt": "2026-10-28T23:04:43.000Z",
+     "discoveredAt": "2026-10-28T23:16:32.794Z",
+     "summary": "Gemini 新功能：连接你的 @Strava 账号，把多年的原始训练日志转化为你的个性化教练计划",
+     "url": "https://x.com/joshwoodward/status/2115580552170627080",
+     "aihot": "https://aihot.news/items/u8pgzo65gn0bj66nn6buyq1nf",
+     "selected": false,
+     "score": 42,
      "category": "ai-models",
      "also": [
       {
-       "source": "IT之家·人工智能",
-       "title": "谷歌 DeepMind 发布世界模型 Genie 4：一句话生成可交互虚拟世界并同步音频",
-       "url": "https://www.ithome.com/1/018/711.htm",
-       "aihot": "https://aihot.news/items/zcwqbxbdxlss459ltxq3jnyha"
-      },
+       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+       "title": "Gemini 可连接 Strava 开启方式",
+       "url": "https://x.com/joshwoodward/status/2115603212304843230",
+       "aihot": "https://aihot.news/items/kbrdl8ri48s0frsed35wpgqew"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Google DeepMind 新论文：LLM 关键词建主题树优于嵌入向量",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-10-29T02:47:08.863000+08:00",
+     "publishedAt": "2026-10-28T18:32:17.000Z",
+     "discoveredAt": "2026-10-28T18:47:08.863Z",
+     "summary": "Google DeepMind 新论文提出 CALLIOPE：让 LLM 从关键词而非嵌入向量构建主题树，在严格隐私约束下生成更清晰的主题图。该方法由 LLM 给每篇文档打少量关键词并加噪，只保留高频关键词，再由 LLM 据此提出主题并归类文档。",
+     "url": "https://x.com/rohanpaul_ai/status/2115511990592655620",
+     "aihot": "https://aihot.news/items/bkokdbxzzc8rdi7mi1hbyu9t2",
+     "selected": false,
+     "score": 45,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-10-29T01:28:40.425000+08:00",
+     "publishedAt": "2026-10-28T17:00:58.000Z",
+     "discoveredAt": "2026-10-28T17:28:40.425Z",
+     "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intellige…",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "aihot": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+     "selected": true,
+     "score": 68,
+     "category": "ai-models",
+     "also": [
       {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "Google DeepMind 发布世界模型 Genie 4 研究预览版，新增音频与实时场景调整",
-       "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-       "aihot": "https://aihot.news/items/lj7bl8bdnv1au5n31crj3w270"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "谷歌 DeepMind 发布 Genie 4 世界模型，皮查伊称其为迄今最逼真、最具互动性",
-       "url": "https://www.ithome.com/1/018/718.htm",
-       "aihot": "https://aihot.news/items/rg7byhsw8r3tp5gkcw9nrbdzv"
-      },
-      {
-       "source": "X：Google AI (@GoogleAI)",
-       "title": "Google DeepMind 发布世界模型 Genie 4",
-       "url": "https://x.com/GoogleAI/status/2115114625985368299",
-       "aihot": "https://aihot.news/items/cs5n4i3ygmpf9wskd34uuas7k"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Google DeepMind 发布实时世界模型 Genie 4，支持原生音频与可编辑模拟",
-       "url": "https://x.com/rohanpaul_ai/status/2115127052898816103",
-       "aihot": "https://aihot.news/items/buszbb6qidmli2oz58csr5m9o"
+       "source": "X：Sundar Pichai (@sundarpichai)",
+       "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+       "url": "https://x.com/sundarpichai/status/2115489219804352921",
+       "aihot": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw"
       },
       {
        "source": "The Decoder：AI News（RSS）",
-       "title": "Google DeepMind 发布 Genie 4 实时世界模型",
-       "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
-       "aihot": "https://aihot.news/items/p9lvo7nzdvuv6aspokwq01iz8"
+       "title": "Google DeepMind 发布 Gemini 4 Carbon，登顶 Artificial Analysis Intelligence Index",
+       "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+       "aihot": "https://aihot.news/items/ugkyvkwl9tqrdi3anmneg4dhe"
       },
       {
-       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-       "title": "Google DeepMind 发布实时世界模型 Genie 4，支持原生音频与实时提示词编辑",
-       "url": "https://x.com/_philschmid/status/2115129878697697566",
-       "aihot": "https://aihot.news/items/qps0q2mwa2o75qrcy5s94mn4t"
+       "source": "Latent Space（RSS）",
+       "title": "AINews：Gemini 4 Carbon 登顶独立榜单，面向网络防御者开放",
+       "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+       "aihot": "https://aihot.news/items/gdbj2o943ws11fwqcnjr7g0eb"
       },
       {
-       "source": "X：Demis Hassabis (@demishassabis)",
-       "title": "Google DeepMind 发布交互式世界模型 Genie 4",
-       "url": "https://x.com/demishassabis/status/2115232001275924722",
-       "aihot": "https://aihot.news/items/d5bif7t1eui5glzu2ofyr6hgs"
+       "source": "MarkTechPost（RSS）",
+       "title": "Google DeepMind 发布 Gemini 4 Carbon，面向网络防御与智能体编程",
+       "url": "https://www.marktechpost.com/2026/10/28/google-deepmind-gemini-4-carbon-frontier-model/",
+       "aihot": "https://aihot.news/items/p3bf8zugmx5kay0ygy3x759d6"
       },
       {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 发布 Genie 4 世界模型",
-       "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
-       "aihot": "https://aihot.news/items/y1arecfli51l4at7wvi3p8bge"
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Carbon (High) 登顶 Arena 文本榜第一，Agent 榜第二",
+       "url": "https://x.com/arena/status/2115495002998751262",
+       "aihot": "https://aihot.news/items/qblraaqhu25lcjf7s0ox3p0w2"
       },
       {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "DeepMind 发布 Genie 4 世界模型，人物更真实、物理模拟更精确",
-       "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
-       "aihot": "https://aihot.news/items/ygu6eku7qnxfjxm6bo8bf16lp"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google 发布 Gemini 4 Carbon，在 Artificial Analysis 多项基准上超过 GPT-6 Astra 与 Claude Opus 5.5",
+       "url": "https://x.com/rohanpaul_ai/status/2115496031031058815",
+       "aihot": "https://aihot.news/items/ewy3f5yi5u72xmyq1fcybmjba"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Artificial Analysis：Gemini 4 Carbon 登顶 Intelligence Index v5，编码智能体仅次于 Claude Opus 5.5",
+       "url": "https://x.com/ArtificialAnlys/status/2115494553780367384",
+       "aihot": "https://aihot.news/items/pw0ska49rglwvgvj9shpmaw7o"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "谷歌发布 Gemini 4 Carbon，登顶 Artificial Analysis Intelligence Index v5.0 榜首",
+       "url": "https://www.ithome.com/1/019/240.htm",
+       "aihot": "https://aihot.news/items/l3e6ty0n9ot6jmkbvqezljsaf"
+      },
+      {
+       "source": "Artificial Analysis 完整文章（网页）",
+       "title": "Artificial Analysis：Gemini 4 Carbon 登顶 Intelligence Index v5 榜首",
+       "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+       "aihot": "https://aihot.news/items/a3efk1e2tvgmgdba85w6e8ij7"
+      },
+      {
+       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+       "title": "Google 发布 Gemini 4 Carbon，Argon 两周后再推前沿模型",
+       "url": "https://x.com/joshwoodward/status/2115495943948902517",
+       "aihot": "https://aihot.news/items/bywf9bmsdjyyt5e5bh60lmt3g"
+      },
+      {
+       "source": "MarkTechPost（RSS）",
+       "title": "Google DeepMind 发布 Genie 4 实时世界模型，原生生成音频并由 Gemini 3.8 Flash 在循环中规划",
+       "url": "https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/",
+       "aihot": "https://aihot.news/items/qbvhe25k7w1yhyi1mrgxthypt"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Carbon (High) 登上 Agent Arena 等三个榜单的帕累托前沿",
+       "url": "https://x.com/arena/status/2115522866942967984",
+       "aihot": "https://aihot.news/items/t6tk0h0cdf9uqlpzgridk18bk"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Carbon 登顶 Arena 文本榜，Agent 榜第二且成本低于 Claude Opus 5.5",
+       "url": "https://x.com/arena/status/2115551386608017411",
+       "aihot": "https://aihot.news/items/w9lk9yay2sgswlrgzn7dydbiy"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Google 发布 Gemini 4 Carbon 预览，登顶 Artificial Analysis Intelligence Index v5",
+       "url": "https://x.com/Google/status/2115571860746248259",
+       "aihot": "https://aihot.news/items/hkuih8h9gx5fghe7m17n5s3fj"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "Google 发布 Gemini 4 Carbon，主打网络安全能力提升",
+       "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+       "aihot": "https://aihot.news/items/hynhuth1r36f9if8qvqj9t5v5"
       },
       {
        "source": "X：indigo (@indigox)",
-       "title": "Google Genie 4 上线：Gemini Omni 驱动的实时交互世界模型",
-       "url": "https://x.com/indigox/status/2115258086625861733",
-       "aihot": "https://aihot.news/items/a4dviqjrqelpjjfunymjmfz68"
+       "title": "Google 发布 Gemini 4 Carbon，财报后股价盘后跌 10%",
+       "url": "https://x.com/indigox/status/2115567557143101713",
+       "aihot": "https://aihot.news/items/y7w5tp3wx7xrx6xdi92j1k7tf"
+      },
+      {
+       "source": "Ars Technica：AI（RSS）",
+       "title": "Google 发布 Gemini 4 Carbon，将在 Fairwinds 网络防御计划中分阶段开放",
+       "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+       "aihot": "https://aihot.news/items/skl0s9hgmitk6nws70e1i093j"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Carbon 预览版早期实测：与 Claude Opus 5.5、GPT-6.1 Sol 等模型对比 3D 生成与 UI 任务",
+       "url": "https://x.com/arena/status/2115533649395503204",
+       "aihot": "https://aihot.news/items/uj4lgmu6b8eyrj1nl0c3lybkl"
+      },
+      {
+       "source": "X：Demis Hassabis (@demishassabis)",
+       "title": "Gemini 4 Carbon 关键基准达 SOTA",
+       "url": "https://x.com/demishassabis/status/2115489550256746502",
+       "aihot": "https://aihot.news/items/e73tt74x18si6varz4z613ytk"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Gemini 4 Carbon 发布",
+       "url": "https://x.com/GoogleDeepMind/status/2115489356437651654",
+       "aihot": "https://aihot.news/items/gsdqeqx6fybeos23f1s7abub7"
       }
      ]
     }
@@ -337,62 +441,42 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 4,
+   "count": 2,
    "items": [
     {
-     "n": 2,
-     "title": "Gemini API CLI（gemini-api）Beta 版发布",
-     "source": "Gemini API：更新日志（网页）",
-     "ts": "2026-10-28T11:00:08.381000+08:00",
-     "publishedAt": "2026-10-27T00:00:00.000Z",
-     "discoveredAt": "2026-10-28T03:00:08.381Z",
-     "summary": "Gemini API 推出无状态、零依赖的命令行客户端 gemini-api Beta 版，面向 AI 编程智能体、脚本和 CI 流水线。用户可在 Interactions API 上用它生成文本与媒体、分析文件并运行 Gemini 托管智能体。",
-     "url": "https://ai.google.dev/gemini-api/docs/changelog#10-27-2026",
-     "aihot": "https://aihot.news/items/kk4px0xz330hzxaknqzq5r4u2",
-     "selected": false,
-     "score": 43,
-     "category": "ai-products"
-    },
-    {
-     "n": 3,
-     "title": "谷歌更新 Android Bench 榜单：Gemini 4 Argon 编程能力落后于 Claude 与 GPT",
-     "source": "IT之家·人工智能",
-     "ts": "2026-10-28T10:36:06.605000+08:00",
-     "publishedAt": "2026-10-28T02:09:56.407Z",
-     "discoveredAt": "2026-10-28T02:36:06.605Z",
-     "summary": "谷歌更新评估安卓编程辅助能力的 Android Bench 榜单，新增 GPT-6 Sol、GPT-6.1 Sol、Claude Sonnet 5、Claude Sonnet 5.5 和 Gemini 4 Argon 的成绩，并标注各模型推理等级。",
-     "url": "https://www.ithome.com/1/018/757.htm",
-     "aihot": "https://aihot.news/items/byy72eie05rd8q5e50p90vl97",
-     "selected": false,
-     "score": 59,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "Gemini Notebook 移动端支持录制 1 小时音频",
-     "source": "X：Testing Catalog (@testingcatalog)",
-     "ts": "2026-10-28T08:16:12.845000+08:00",
-     "publishedAt": "2026-10-28T00:04:50.000Z",
-     "discoveredAt": "2026-10-28T00:16:12.845Z",
-     "summary": "GOOGLE 🔥：Gemini Notebook 移动端现在最多可录制 1 小时的实时音频！ > 录制的音频之后可作为 Notebook 的来源使用。 该功能似乎在逐步推送中。 Live Notebook 👀",
-     "url": "https://x.com/testingcatalog/status/2115233290214936648",
-     "aihot": "https://aihot.news/items/e661dw1716ls8orf1uzmqq8gs",
-     "selected": false,
-     "score": 48,
-     "category": "ai-products"
-    },
-    {
      "n": 5,
-     "title": "Google 用 LangGraph 与 Gemini 在 GCP 上构建 HappyDelivery 多智能体对话式商务原型",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-10-28T01:42:44.613000+08:00",
-     "publishedAt": "2026-10-26T16:00:00.000Z",
-     "discoveredAt": "2026-10-27T17:42:44.613Z",
-     "summary": "Google Developers 基于 此前发布的 3 层对话式商务架构蓝图，用 LangGraph、Gemini、FastAPI 和 Google Cloud 构建出可运行原型 HappyDelivery。",
-     "url": "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/",
-     "aihot": "https://aihot.news/items/ug0jeh0hgnqrbmp1vbue0uqg2",
+     "title": "Gemini App 推出沉浸式探索功能",
+     "source": "X：Google (@Google)",
+     "ts": "2026-10-29T03:34:31.599000+08:00",
+     "publishedAt": "2026-10-28T19:26:33.000Z",
+     "discoveredAt": "2026-10-28T19:34:31.599Z",
+     "summary": "Google 官方介绍 Gemini App 新增的沉浸式探索（immersive explorations）功能，提供可视化、交互式的分层方式深入探索话题。主题涵盖太空探索、喷气发动机原理、中生代世界等，用户可在新的沉浸式探索库中选择感兴趣的内容。",
+     "url": "https://x.com/Google/status/2115525648722583554",
+     "aihot": "https://aihot.news/items/rwee8cjx8vp7iz6elj5dpwlsk",
      "selected": false,
-     "score": 51,
+     "score": 52,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 推出沉浸式探索功能",
+       "url": "https://x.com/GeminiApp/status/2115507092660289631",
+       "aihot": "https://aihot.news/items/rbovg6nabg1j5kkbf6elm548t"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Google 推出 Connected Apps Platform 向开发者开放 Gemini 和 Search 接入",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-10-29T02:01:08.954000+08:00",
+     "publishedAt": "2026-10-28T17:00:00.000Z",
+     "discoveredAt": "2026-10-28T18:01:08.954Z",
+     "summary": "Google 推出 Connected Apps Platform，让企业和开发者提交第三方应用接入其 Search 和 Gemini 的 AI 体验，平台预览目前以 beta 形式面向美国开发者开放。",
+     "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+     "aihot": "https://aihot.news/items/xx65yxbh0h9vr3bzrb8wum3r8",
+     "selected": false,
+     "score": 56,
      "category": "ai-products"
     }
    ],
@@ -403,47 +487,60 @@ const DATA = {
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 6,
-     "title": "前 DeepMind 研究员 Thore Graepel 创办 Metis Reasoning，欲借 AlphaGo 思路解决模型幻觉",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-27T22:02:41.752000+08:00",
-     "publishedAt": "2026-10-27T13:55:24.000Z",
-     "discoveredAt": "2026-10-27T14:02:41.752Z",
-     "summary": "前 DeepMind 研究员 Thore Graepel 在 Nvidia GTC 柏林大会上介绍其新公司 Metis Reasoning 的方法，把 AlphaGo 的搜索思路搬到通用推理，用显式知识账本记录已知内容、置信度和未解问题，由独立模块对照计算、形式证明或经验证据检验每个结论。",
-     "url": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/",
-     "aihot": "https://aihot.news/items/b6441yui6jerhip0bqe93pwal",
-     "selected": false,
-     "score": 50,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 7,
-     "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
-     "source": "X：Gemini (@GeminiApp)",
-     "ts": "2026-10-28T04:27:43.395000+08:00",
-     "publishedAt": "2026-10-27T20:00:27.000Z",
-     "discoveredAt": "2026-10-27T20:27:43.395Z",
-     "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
-     "url": "https://x.com/GeminiApp/status/2115171788812669225",
-     "aihot": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
+     "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-10-29T08:33:30.586000+08:00",
+     "publishedAt": "2026-10-29T00:00:00.000Z",
+     "discoveredAt": "2026-10-29T00:33:30.586Z",
+     "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+     "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+     "aihot": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
      "selected": true,
-     "score": 68,
+     "score": 76,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+     "source": "GitHub Blog",
+     "ts": "2026-10-29T00:14:31.948000+08:00",
+     "publishedAt": "2026-10-28T16:07:40.000Z",
+     "discoveredAt": "2026-10-28T16:14:31.948Z",
+     "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+     "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+     "aihot": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
+     "selected": true,
+     "score": 78,
+     "category": "tip"
+    },
+    {
+     "n": 9,
+     "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+     "source": "X：Saito 硬地骇客 (@SaitoWu)",
+     "ts": "2026-10-28T18:03:31.646000+08:00",
+     "publishedAt": "2026-10-28T09:32:56.000Z",
+     "discoveredAt": "2026-10-28T10:03:31.646Z",
+     "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+     "url": "https://x.com/SaitoWu/status/2115376256929948006",
+     "aihot": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj",
+     "selected": true,
+     "score": 78,
      "category": "tip"
     }
    ],
