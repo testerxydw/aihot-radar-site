@@ -14,13 +14,13 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-28",
-  "winEnd": "2026-10-29",
-  "generated": "2026-10-29 14:51",
-  "rawHits": 13,
-  "selectedHits": 1,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "winStart": "2026-10-29",
+  "winEnd": "2026-10-30",
+  "generated": "2026-10-30 14:55",
+  "rawHits": 18,
+  "selectedHits": 0,
+  "shown": 4,
+  "dedupedFrom": 4,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -51,7 +51,7 @@
     "q": "Qwen",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 13,
+    "count": 18,
     "hasMore": false,
     "from_cache": false
    },
@@ -90,30 +90,30 @@
    "items": [
     {
      "n": 1,
-     "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
-     "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
-     "ts": "2026-10-29T10:05:30.449000+08:00",
-     "publishedAt": "2026-10-28T16:00:00.000Z",
-     "discoveredAt": "2026-10-29T02:05:30.449Z",
-     "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
-     "url": "https://openmoss.ai/blog/cn/moss-image/",
-     "aihot": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
-     "selected": true,
-     "score": 71,
+     "title": "开发者基于 Qwen3.5-4B 发布 Qwenputer，在模型内实现 RISC-V CPU 执行精确计算",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-30T14:29:13.518000+08:00",
+     "publishedAt": "2026-10-30T06:12:50.823Z",
+     "discoveredAt": "2026-10-30T06:29:13.518Z",
+     "summary": "开发者 Divyansh Agrawal 于 10 月 22 日发布基于阿里 Qwen3.5-4B 的实验性模型 Qwenputer，将 RISC-V RV32IM 指令集编译进模型权重，用门控 DeltaNet 内部状态充当 RAM，无需调用外部工具即可执行程序和精确计算。",
+     "url": "https://www.ithome.com/1/020/059.htm",
+     "aihot": "https://aihot.news/items/xsmq1bvpj93ropdm4l6mb07m3",
+     "selected": false,
+     "score": 63,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Baseten 优化 Qwen3-ASR 1.7B 批量转写，吞吐达原版 vLLM 的 7 倍",
-     "source": "Baseten 工程博客（网页）",
-     "ts": "2026-10-29T02:30:23.771000+08:00",
-     "publishedAt": "2026-10-28T17:39:04.000Z",
-     "discoveredAt": "2026-10-28T18:30:23.771Z",
-     "summary": "Baseten 优化了 Qwen3-ASR 1.7B 的批量转写部署，在 64 并发下吞吐比原生 vLLM 高 7 倍以上，成本降至每音频小时约 $0.0013，比闭源提供商低约 277 倍。",
-     "url": "https://www.baseten.co/blog/fastest-lowest-cost-qwen3-asr-batch-transcription/",
-     "aihot": "https://aihot.news/items/l4esgip2enwt1uerh71db72gb",
+     "title": "小米 MiMo Desktop 会员权益升级：额度加量不加价，新增 DeepSeek、GLM、Kimi、Qwen 等第三方模型",
+     "source": "IT之家·人工智能",
+     "ts": "2026-10-29T15:13:39.558000+08:00",
+     "publishedAt": "2026-10-29T06:41:31.773Z",
+     "discoveredAt": "2026-10-29T07:13:39.558Z",
+     "summary": "小米 MiMo 宣布 Xiaomi MiMo Desktop 会员权益升级，会员总体额度显著上调且加量不加价，调整实时生效并适用于现有及新订阅会员。会员用户不再只能使用 MiMo 模型，还可选择 DeepSeek V4 Pro、DeepSeek V4.1 Flash、GLM 5.3、Kimi K3、Qwen 3.8…",
+     "url": "https://www.ithome.com/1/019/502.htm",
+     "aihot": "https://aihot.news/items/fnp2xhsggumuxq5s9dblytt8y",
      "selected": false,
-     "score": 51,
+     "score": 42,
      "category": "ai-models"
     }
    ],
@@ -124,14 +124,29 @@
    "label": "产品发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "Qwen 3.8 Flash 简单准确性任务表现意外强劲",
+     "source": "X：卡兹克 (@Khazix0918)",
+     "ts": "2026-10-30T14:40:18.486000+08:00",
+     "publishedAt": "2026-10-30T06:28:40.000Z",
+     "discoveredAt": "2026-10-30T06:40:18.486Z",
+     "summary": "有用户发现 Qwen 3.8 Flash 在一些简单的准确性任务评测中表现意外强劲。其所在团队各类产品的自动化任务中，已有一大半从 Claude Opus 5.5 切换为 Qwen 3.8 Flash。",
+     "url": "https://x.com/Khazix0918/status/2116054660851311061",
+     "aihot": "https://aihot.news/items/k0q1i2okfbg59l8eylchax72y",
+     "selected": false,
+     "score": 34,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
@@ -143,9 +158,24 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "Qwen3-TTS 语音嵌入实践：克隆声音混合、指令控制与性别向量运算",
+     "source": "Armin Ronacher AI 博客",
+     "ts": "2026-10-30T04:12:30.319000+08:00",
+     "publishedAt": "2026-10-29T00:00:00.000Z",
+     "discoveredAt": "2026-10-29T20:12:30.319Z",
+     "summary": "作者分享用 Qwen3-TTS 为游戏配音制作自定义声音的实践。1.7B-Base 模型可从 28 秒录音提取 2048 维说话人嵌入，通过加权平均混合出独特声音，再把克隆嵌入传入 CustomVoice 模型即可对克隆声音下指令（如悲伤、低语），比预期效果更好；",
+     "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+     "aihot": "https://aihot.news/items/ycj9art10xap3i1hqolwuy5z6",
+     "selected": false,
+     "score": 60,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
