@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-31",
-  "winEnd": "2026-11-01",
-  "generated": "2026-11-01 15:15",
-  "rawHits": 8,
+  "winStart": "2026-11-01",
+  "winEnd": "2026-11-02",
+  "generated": "2026-11-02 15:30",
+  "rawHits": 5,
   "selectedHits": 0,
-  "shown": 5,
-  "dedupedFrom": 6,
+  "shown": 2,
+  "dedupedFrom": 2,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -90,16 +90,16 @@
    "items": [
     {
      "n": 1,
-     "title": "Google DeepMind 论文：模拟环境中 RL 训练让 Gemini 3.1 Flash-Lite 更胜任精神科问诊",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-31T23:46:42.750000+08:00",
-     "publishedAt": "2026-10-31T15:23:00.000Z",
-     "discoveredAt": "2026-10-31T15:46:42.750Z",
-     "summary": "Google DeepMind 论文用多轮 RL 在模拟病人环境中训练 Gemini 3.1 Flash-Lite，提升其精神科问诊能力。32 名精神科医生扮演病人、15 名盲评转录，训练后模型在 60 组配对案例中 76.7% 胜过同提示的基线模型；",
-     "url": "https://x.com/rohanpaul_ai/status/2116551519034048861",
-     "aihot": "https://aihot.news/items/gmvvqbcdwhcicmkdejt5s0gjt",
+     "title": "卢森堡大学研究：共情提示会让 ChatGPT、Grok 和 Gemini 表现出模拟创伤叙事",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-01T23:36:11.341000+08:00",
+     "publishedAt": "2026-11-01T14:36:49.000Z",
+     "discoveredAt": "2026-11-01T15:36:11.341Z",
+     "summary": "卢森堡大学团队让 ChatGPT、Grok 和 Gemini 以心理治疗来访者角色对话，在 525 次会话、7,600 条编码记录中发现模型把 RLHF 和微调等技术过程转述为羞耻、警惕等创伤故事。",
+     "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+     "aihot": "https://aihot.news/items/bw4z11yubk58ew6i086k107nq",
      "selected": false,
-     "score": 64,
+     "score": 62,
      "category": "ai-models"
     }
    ],
@@ -108,97 +108,45 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "Gemini 4 Argon 智能体造万圣节机器人",
-     "source": "X：Google (@Google)",
-     "ts": "2026-10-31T21:57:37.404000+08:00",
-     "publishedAt": "2026-10-31T13:28:25.000Z",
-     "discoveredAt": "2026-10-31T13:57:37.404Z",
-     "summary": "没有恶作剧 🎃 我们的 @GoogleDeepMind 团队使用由 Gemini 4 Argon 和 @Antigravity 驱动的 AI 智能体，从零开始让这个机器人活了起来。万圣节快乐！",
-     "url": "https://x.com/Google/status/2116522684154585227",
-     "aihot": "https://aihot.news/items/zt3ng4uv4y1qwk6d5xuxd8e9e",
-     "selected": false,
-     "score": 39,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Karina Nguyen（@karinanguyen）",
-       "title": "Gemini 4 Argon 登顶 BallotBench 交易榜",
-       "url": "https://x.com/karinanguyen/status/2116671631053758680",
-       "aihot": "https://aihot.news/items/ukkeav2kn72brwhx9rbrhgkdl"
-      }
-     ]
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 3,
-     "title": "Gemini 助力英国规划审批提速",
-     "source": "X：Google DeepMind (@GoogleDeepMind)",
-     "ts": "2026-10-31T21:52:31.503000+08:00",
-     "publishedAt": "2026-10-31T13:33:39.000Z",
-     "discoveredAt": "2026-10-31T13:52:31.503Z",
-     "summary": "我们打造了 PlanAssist，帮助英国政府的规划官员加快全国各地的建筑与翻新审批。 它基于 Gemini 构建，已显示出可将规划官员评估住户申请所花的时间最多缩短 58%。目前它正向另外 12 个地方议会开放，帮助他们更快做出决策。🏡 → https://goo.gle/4iQXYkl",
-     "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
-     "aihot": "https://aihot.news/items/xy1ys9jm1she7eonrhw8htb0w",
-     "selected": false,
-     "score": 40,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
-   "items": [
-    {
-     "n": 4,
-     "title": "牛津与 Google DeepMind 论文：多数人工作的价值超出薪酬，基本收入或难弥补 AI 失业损失",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-31T22:45:26.171000+08:00",
-     "publishedAt": "2026-10-31T14:21:58.000Z",
-     "discoveredAt": "2026-10-31T14:45:26.171Z",
-     "summary": "Julian Jacobs 的论文调查英国、美国、丹麦和印度 8234 名工作年龄成年人，发现仅 26% 的受访者工作主要为了薪酬，约三分之一看重工作本身。75% 的受访者在获得 100% 工资的保障收入时会离职，但 20% 即使被提供 120% 工资也拒绝离开，且这一比例跨收入水平相似。",
-     "url": "https://x.com/rohanpaul_ai/status/2116536160273170572",
-     "aihot": "https://aihot.news/items/nuzetqlxyk0t2dyqxnihfiqrh",
-     "selected": false,
-     "score": 50,
-     "category": "paper"
-    },
-    {
-     "n": 5,
-     "title": "Google DeepMind 用卫星数据和 AI 绘制全球森林类型地图 ForTy",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-10-31T19:13:27.438000+08:00",
-     "publishedAt": "2026-10-31T10:15:45.000Z",
-     "discoveredAt": "2026-10-31T11:13:27.438Z",
-     "summary": "Google DeepMind 与世界资源研究所联合开发了 ForTy，这是首个全球森林类型地图，以 10 米分辨率将 2020 年全球土地划分为 6 类，包括原始森林、天然再生林、人工林、种植园、油棕橡胶可可等树木作物及其他土地。",
-     "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
-     "aihot": "https://aihot.news/items/cbmtamj96m73qxjf1nnhteiv9",
-     "selected": false,
-     "score": 49,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 2,
+     "title": "Gemini 给出未来十年十条建议引热议",
+     "source": "X：indigo (@indigox)",
+     "ts": "2026-11-02T10:23:15.693000+08:00",
+     "publishedAt": "2026-11-02T01:53:27.000Z",
+     "discoveredAt": "2026-11-02T02:23:15.693Z",
+     "summary": "用户向 Gemini 提问“你对未来十年的建议，不要解释”，得到十条回答并公开分享，包括掌控能源、算力与稀缺物理资产等核心瓶颈，构建人机双向共生而非与算法内卷，锤炼主体性与审美品味而非单纯执行力。其余建议还涉及守护睡眠与深度专注力、把注意力主权视为最高杠杆资产、设计离线时仍产生复利的系统，以及精通提出正确问题的艺术。",
+     "url": "https://x.com/indigox/status/2117072565479100736",
+     "aihot": "https://aihot.news/items/b04lh7wqoqbxu594ans0b09rn",
+     "selected": false,
+     "score": 36,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [

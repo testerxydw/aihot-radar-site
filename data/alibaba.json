@@ -16,11 +16,11 @@
   "windowDays": 1,
   "winStart": "2026-11-01",
   "winEnd": "2026-11-01",
-  "generated": "2026-11-01 15:15",
-  "rawHits": 1,
+  "generated": "2026-11-02 15:30",
+  "rawHits": 7,
   "selectedHits": 0,
-  "shown": 0,
-  "dedupedFrom": 0,
+  "shown": 1,
+  "dedupedFrom": 1,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -88,21 +88,36 @@
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-01T17:30:21.554000+08:00",
+     "publishedAt": "2026-11-01T09:03:59.727Z",
+     "discoveredAt": "2026-11-01T09:30:21.554Z",
+     "summary": "阿里千问 AI 眼镜迎来 OTA 升级，新增通话翻译与媒体翻译功能，支持打电话、线上会议及海外播客、外语网课、外语影片的实时翻译，译文可在千问 AI 穿戴 App 同步显示。此次升级还优化了嘈杂环境下的语音识别，提升同声传译的准确性与及时性。",
+     "url": "https://www.ithome.com/1/020/768.htm",
+     "aihot": "https://aihot.news/items/fa52glz0rx7rr7p09szibh52u",
+     "selected": false,
+     "score": 36,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",

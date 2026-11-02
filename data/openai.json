@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-10-31",
-  "winEnd": "2026-11-01",
-  "generated": "2026-11-01 15:14",
-  "rawHits": 18,
-  "selectedHits": 2,
-  "shown": 8,
-  "dedupedFrom": 13,
+  "winStart": "2026-11-01",
+  "winEnd": "2026-11-02",
+  "generated": "2026-11-02 15:29",
+  "rawHits": 15,
+  "selectedHits": 1,
+  "shown": 6,
+  "dedupedFrom": 8,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 17,
+    "count": 15,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 8,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,48 +86,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
-     "source": "公众号：数字生命卡兹克",
-     "ts": "2026-11-01T08:31:11.801000+08:00",
-     "publishedAt": "2026-11-01T00:22:41.000Z",
-     "discoveredAt": "2026-11-01T00:31:11.801Z",
-     "summary": "作者引述OpenAI凌晨更新的帮助文档称，从12月开始Plus和Pro用户的ChatGPT聊天与Codex用量将合并为同一Token额度，仅Instant聊天不受影响。作者回顾此前按条数计费的历史、一个月内Codex Pro额度先降后恢复的运营反复，以及社区在GitHub上提issue抗议的反应，认为合并与IPO预期…",
-     "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
-     "aihot": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
-     "selected": true,
-     "score": 70,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "IT之家·人工智能",
-       "title": "OpenAI 宣布 12 月起 Plus、Pro、Business 用户在 ChatGPT 与 Codex 之间共享额度",
-       "url": "https://www.ithome.com/1/020/645.htm",
-       "aihot": "https://aihot.news/items/tvof0lfc2lmic7efkj9y3uq7w"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI 官方文档宣布 12 月起 Plus、Pro、Business 套餐 ChatGPT 与 Codex 共享 token 用量",
-       "url": "https://x.com/rohanpaul_ai/status/2116628912860282918",
-       "aihot": "https://aihot.news/items/hvpncb367m05u2z49ltb6mm8u"
-      }
-     ]
+     "title": "卢森堡大学研究：共情提示会让 ChatGPT、Grok 和 Gemini 表现出模拟创伤叙事",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-01T23:36:11.341000+08:00",
+     "publishedAt": "2026-11-01T14:36:49.000Z",
+     "discoveredAt": "2026-11-01T15:36:11.341Z",
+     "summary": "卢森堡大学团队让 ChatGPT、Grok 和 Gemini 以心理治疗来访者角色对话，在 525 次会话、7,600 条编码记录中发现模型把 RLHF 和微调等技术过程转述为羞耻、警惕等创伤故事。",
+     "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+     "aihot": "https://aihot.news/items/bw4z11yubk58ew6i086k107nq",
+     "selected": false,
+     "score": 62,
+     "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "OpenAI 将从 11 月 29 日起用 Daybreak Blue 网络安全会话数据训练模型",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-01T01:17:42.646000+08:00",
-     "publishedAt": "2026-10-31T16:38:37.000Z",
-     "discoveredAt": "2026-10-31T17:17:42.646Z",
-     "summary": "据 OpenAI 致 Trusted Access 项目成员的邮件，自 11 月 29 日起 OpenAI 将使用此前禁止用于训练的 Daybreak Blue 网络安全会话数据训练模型，即使用户关闭了",
-     "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
-     "aihot": "https://aihot.news/items/p3wajj9sy0u7k166d5vyuj0tj",
+     "title": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-01T23:35:20.362000+08:00",
+     "publishedAt": "2026-11-01T14:19:52.347Z",
+     "discoveredAt": "2026-11-01T15:35:20.362Z",
+     "summary": "OpenAI、谷歌、微软和 Anthropic 宣布将采用一项新标准，让内容发布方可一次性向多家 AI 企业统一申明拒绝 AI 训练抓取的偏好。该标准由 Anthropic 技术负责人 Kevin Kelley 向 IETF 提出，集成在网站的 robots.txt 文件中。",
+     "url": "https://www.ithome.com/1/020/837.htm",
+     "aihot": "https://aihot.news/items/u0icl9u1j0rleehslmzq89pe5",
      "selected": false,
-     "score": 61,
+     "score": 67,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "ChatGPT 将合并 Chat 与 Work，12 月起共享单一 token 预算",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-01T18:31:24.957000+08:00",
+     "publishedAt": "2026-11-01T09:51:06.000Z",
+     "discoveredAt": "2026-11-01T10:31:24.957Z",
+     "summary": "据 OpenAI 更新的支持页，12 月起 Plus、Pro 和 Business 计划将在 ChatGPT 与 Codex 之间共享单一 token 预算，Work 的智能体功能并入主界面。",
+     "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+     "aihot": "https://aihot.news/items/g8piw1jpsnvc68jk58fx2p92y",
+     "selected": false,
+     "score": 66,
      "category": "ai-models"
     }
    ],
@@ -136,88 +136,69 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 4,
+     "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
+     "source": "公众号：数字生命卡兹克",
+     "ts": "2026-11-02T08:21:28.806000+08:00",
+     "publishedAt": "2026-11-02T00:19:00.000Z",
+     "discoveredAt": "2026-11-02T00:21:28.806Z",
+     "summary": "自媒体作者卡兹克分享自己搭建近一年的Agent自动化系统，核心是把任务起点从人身上移开，由事件触发Agent工作。系统分为自动化中台、Agent执行、CI中台和飞书决策四层：中台用rules.json统一管理事件触发和Agent调度，本地MacMini跑Agent任务，自建CI中台完成审查、检查、合并、发布、核实五步…",
+     "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688060&idx=1&sn=e00d7e57b6f0e3670f0e267e677047df",
+     "aihot": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier",
+     "selected": true,
+     "score": 72,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "OpenAI 对 ChatGPT 付费订阅施加卡片和设备数量限制",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-01T20:33:38.347000+08:00",
+     "publishedAt": "2026-11-01T12:05:04.000Z",
+     "discoveredAt": "2026-11-01T12:33:38.347Z",
+     "summary": "OpenAI 对 ChatGPT 付费订阅新增支付卡片和设备数量限制，同一张卡或设备绑定过多订阅后将无法开新订阅，触顶时显示 Device limit reached。",
+     "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+     "aihot": "https://aihot.news/items/o7gkeevit9zrx3kzfeardgesb",
+     "selected": false,
+     "score": 58,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
+   "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "OpenAI 的 Tibo 预告“Banked 1/2”",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-01T08:58:27.650000+08:00",
-     "publishedAt": "2026-11-01T00:43:20.000Z",
-     "discoveredAt": "2026-11-01T00:58:27.650Z",
-     "summary": "已入账 1/2",
-     "url": "https://x.com/thsottiaux/status/2116692529970311254",
-     "aihot": "https://aihot.news/items/a6bcdv9ph9odg8ll3ycjq2nee",
-     "selected": false,
-     "score": 7,
-     "category": "industry"
-    },
-    {
-     "n": 4,
-     "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-01T00:24:39.611000+08:00",
-     "publishedAt": "2026-10-31T15:56:00.987Z",
-     "discoveredAt": "2026-10-31T16:24:39.611Z",
-     "summary": "据彭博社10月31日报道，Alphabet、Meta、微软、亚马逊和甲骨文五大巨头承诺未来数年在数据中心等领域投入超过3万亿美元（约20.01万亿元人民币）。其中谷歌支出承诺超1万亿美元、接近一年前的八倍，Meta超8,000亿美元且近半用于最长分30年支付的租约；",
-     "url": "https://www.ithome.com/1/020/632.htm",
-     "aihot": "https://aihot.news/items/htfc0ler37j2h4hoqll6jewz3",
-     "selected": true,
-     "score": 79,
-     "category": "industry"
-    },
-    {
-     "n": 5,
-     "title": "Sam Altman 会见约50名三星高管谈存储芯片合作",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-31T18:06:23.795000+08:00",
-     "publishedAt": "2026-10-31T10:00:58.000Z",
-     "discoveredAt": "2026-10-31T10:06:23.795Z",
-     "summary": "Sam Altman 在韩国会见约50名三星高管，寻求深化存储芯片与数据中心合作，以应对存储短缺对 AI 建设的制约。会谈延续了此前协议：三星为 OpenAI 的 Stargate 项目供应存储并合作建设数据中心，包括海上浮动站点；",
-     "url": "https://x.com/rohanpaul_ai/status/2116470475677405254",
-     "aihot": "https://aihot.news/items/xv3lro1n14tynax8h4v2f5qo3",
-     "selected": false,
-     "score": 48,
-     "category": "industry"
-    },
-    {
      "n": 6,
-     "title": "彭博：OpenAI 融资目标从 300 亿美元缩至约 200 亿美元，估值目标降至 1.25 万亿",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-10-31T17:35:20.610000+08:00",
-     "publishedAt": "2026-10-31T09:21:56.000Z",
-     "discoveredAt": "2026-10-31T09:35:20.610Z",
-     "summary": "据彭博和 Financial Times 报道，OpenAI 本轮融资目标从 300 亿美元缩至约 200 亿美元，缩水 33%，估值目标从 1.4 万亿降至 1.25 万亿美元，约降 11%。",
-     "url": "https://x.com/rohanpaul_ai/status/2116460654718853228",
-     "aihot": "https://aihot.news/items/p92k55tlwk7manop3vvlh4m0n",
+     "title": "OpenAI 或把数据中心改名为“AI 算力园区”",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-02T06:44:43.725000+08:00",
+     "publishedAt": "2026-11-01T21:55:23.000Z",
+     "discoveredAt": "2026-11-01T22:44:43.725Z",
+     "summary": "OpenAI 正筹备中期选举后的公关攻势，其首席全球事务官 Chris Lehane 提出将数据中心重新包装为“AI 算力园区”。他还提到推动设立 AI“限速”、让民众感受到 AI 对日常生活的赋能，并推动美国参与制定全球标准。Lehane 称围绕数据中心的争论“良性且健康”，社区应让企业承担责任。",
+     "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+     "aihot": "https://aihot.news/items/apioobuo772gw6rynva9a573j",
      "selected": false,
-     "score": 73,
+     "score": 47,
      "category": "industry",
      "also": [
       {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 最新一轮仅募得约 110 亿美元，低于 300 亿美元目标，估值定为 1.25 万亿美元",
-       "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
-       "aihot": "https://aihot.news/items/q6gyydpv1ru89c82xpuq0o167"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 传闻将新一轮融资目标下调至 200 亿美元",
-       "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-       "aihot": "https://aihot.news/items/gofbippi72082w3df1poa8hvg"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "OpenAI 将数据中心改称\"AI 算力园区\"",
+       "url": "https://x.com/rohanpaul_ai/status/2116986944605606059",
+       "aihot": "https://aihot.news/items/cr20os47n7rt4z16vt9w80w01"
       },
       {
        "source": "IT之家·人工智能",
-       "title": "消息称 OpenAI 最新融资目标下调 100 亿美元至 200 亿美元，估值约 1.25 万亿美元",
-       "url": "https://www.ithome.com/1/020/478.htm",
-       "aihot": "https://aihot.news/items/k7t4n85ng26diieknx7pohsmr"
+       "title": "OpenAI 将启动大规模公关宣传，考虑把数据中心重新包装为“AI 算力园区”",
+       "url": "https://www.ithome.com/1/020/844.htm",
+       "aihot": "https://aihot.news/items/uvby5zm2ui9xmyn68hxjn1h2e"
       }
      ]
     }
@@ -227,46 +208,16 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 7,
-     "title": "作者实测 GPT-5.6 Sol 在和平模式下 13.5 小时通关 Factorio",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-11-01T04:27:42.332000+08:00",
-     "publishedAt": "2026-10-31T00:00:00.000Z",
-     "discoveredAt": "2026-10-31T20:27:42.332Z",
-     "summary": "Ryan Madden 让 GPT-5.6 Sol 在 Codex 中以低思考级别完成和平模式 Factorio 通关，用时 13.5 小时游戏时间并发射火箭。",
-     "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-     "aihot": "https://aihot.news/items/c7cla6h0vrpagw23ejx1jbvcw",
-     "selected": false,
-     "score": 56,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 8,
-     "title": "Parameter Labs 揭示如何接管 ChatGPT 账户的攻击链",
-     "source": "Simon Willison 博客",
-     "ts": "2026-11-01T08:13:07.433000+08:00",
-     "publishedAt": "2026-10-31T23:15:22.000Z",
-     "discoveredAt": "2026-11-01T00:13:07.433Z",
-     "summary": "Simon Willison 转述 Parameter Labs 披露的 ChatGPT 沙箱逃逸漏洞攻击链：HTML 预览 iframe 中的不可信代码可通过 postMessage 触发 MathLive 虚拟键盘的 innerHTML 注入，再借助被 CSP 允许的 YouTube oEmbed 端点反射执行…",
-     "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-     "aihot": "https://aihot.news/items/mgl3b48alrf6rtm8dauh0hh44",
-     "selected": false,
-     "score": 75,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
