@@ -14,13 +14,13 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-02",
-  "winEnd": "2026-11-03",
-  "generated": "2026-11-03 15:45",
-  "rawHits": 15,
+  "winStart": "2026-11-03",
+  "winEnd": "2026-11-04",
+  "generated": "2026-11-04 15:22",
+  "rawHits": 9,
   "selectedHits": 0,
-  "shown": 5,
-  "dedupedFrom": 7,
+  "shown": 1,
+  "dedupedFrom": 1,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 9,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "阿里云",
     "mode": "all",
     "window": "24h",
-    "count": 3,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,49 +86,21 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "阿里蔡崇信：只有开源才能推动 AI 普及，千问开源模型已超 470 款",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-03T13:20:25.684000+08:00",
-     "publishedAt": "2026-11-03T04:37:29.497Z",
-     "discoveredAt": "2026-11-03T05:20:25.684Z",
-     "summary": "阿里巴巴集团董事会主席蔡崇信在 2026 年世界互联网大会开幕式上表示，只有开源才能推动 AI 普及，可降低中小企业研发成本。他透露阿里千问已开源超过 470 款模型，全球累计下载量突破 40 亿，衍生模型超过 33 万。",
-     "url": "https://www.ithome.com/1/021/495.htm",
-     "aihot": "https://aihot.news/items/f39tao4aamcpfbpa35rexqi30",
+     "title": "Simon Willison 实测 Qwen 3.8 27B 在笔记本上也能从权重识别游戏",
+     "source": "Simon Willison 博客",
+     "ts": "2026-11-04T01:02:24.176000+08:00",
+     "publishedAt": "2026-11-03T16:29:48.000Z",
+     "discoveredAt": "2026-11-03T17:02:24.176Z",
+     "summary": "Simon Willison 实测论文 Sparks of Weight-Space Programming 的示例，发现 17GB 的 Qwen 3.8 27B 在自己笔记本上不借助工具也能从原始权重猜出训练游戏，成功识别 Pac-Man、Pong 和 Breakout，Freeway 失败，单次推理耗时 46 分…",
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "aihot": "https://aihot.news/items/t2o463t11nxaic9r7zsoh7dxu",
      "selected": false,
-     "score": 47,
+     "score": 57,
      "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "MIT CSAIL 提出「权重空间编程」：GPT-6 Astra 仅修改 Qwen3.5-0.8B 约 0.016% 权重，MATH-500 成绩提升至 6 倍",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-03T10:18:11.892000+08:00",
-     "publishedAt": "2026-11-03T02:00:55.937Z",
-     "discoveredAt": "2026-11-03T02:18:11.892Z",
-     "summary": "MIT CSAIL 研究者提出「权重空间编程」，让 GPT-6 Astra 直接读取并修改 Qwen3.5-0.8B 的权重，仅改动 131072 个权重（约 0.016%），无梯度下降或传统训练循环。",
-     "url": "https://www.ithome.com/1/021/337.htm",
-     "aihot": "https://aihot.news/items/zdajxfep092u90haul1cu9if9",
-     "selected": false,
-     "score": 65,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "MIT 研究让 GPT-6 Astra 无需训练直接改写 Qwen3.5-0.8B 权重提升数学表现",
-       "url": "https://x.com/rohanpaul_ai/status/2117350399271371113",
-       "aihot": "https://aihot.news/items/ob84tivbahzy2ux0letnmcxp7"
-      },
-      {
-       "source": "X：indigo (@indigox)",
-       "title": "MIT CSAIL 团队提出权重空间编程，让 GPT-6 Astra 直接改写 Qwen3.5-0.8B 权重",
-       "url": "https://x.com/indigox/status/2117415419061604607",
-       "aihot": "https://aihot.news/items/xgchgeh2exw73ccozwsohftaw"
-      }
-     ]
     }
    ],
    "note": null
@@ -136,60 +108,16 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 3,
-     "title": "开发者发布 qwenGPU：将 45 层编译 GPU 融入 Qwen3.5-2B 权重并运行 CUDA",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-11-02T17:37:21.212000+08:00",
-     "publishedAt": "2026-11-02T07:28:29.000Z",
-     "discoveredAt": "2026-11-02T09:37:21.212Z",
-     "summary": "开发者 Vixhal 在 GitHub 以 MIT 许可发布实验模型 qwenGPU，把一个 4 通道 SIMT GPU 编译为 45 层未训练权重，放在 Qwen3.5-2B 自身 24 层之前，使模型在前向传播中运行真实的 CUDA（编译为 PTX）。",
-     "url": "https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda/",
-     "aihot": "https://aihot.news/items/hup544h5j8s5vwaywfz5pn4fo",
-     "selected": false,
-     "score": 51,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "阿里云 Memory 服务升级，面向 Personal Agent 增强长期记忆与个性化能力",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-02T16:22:20.499000+08:00",
-     "publishedAt": "2026-11-02T07:48:50.803Z",
-     "discoveredAt": "2026-11-02T08:22:20.499Z",
-     "summary": "阿里云宣布 Memory 服务升级，面向 Personal Agent 场景增强对用户偏好、计划和历史约定的记忆能力。Memory 从对话中提取关键信息保存为记忆与用户画像，供后续会话检索使用，减少重复询问。",
-     "url": "https://www.ithome.com/1/021/073.htm",
-     "aihot": "https://aihot.news/items/sekra233bj3t474w387robya0",
-     "selected": false,
-     "score": 53,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
-   "items": [
-    {
-     "n": 5,
-     "title": "阿里云发布 AI 投研工作台 Qovest，面向专业机构投资者",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-02T15:59:20.598000+08:00",
-     "publishedAt": "2026-11-02T07:48:11.320Z",
-     "discoveredAt": "2026-11-02T07:59:20.598Z",
-     "summary": "阿里云发布面向专业机构投资者的 AI 投研工作台 Qovest，用户一句话提出研究需求即可自动查数据、收集资料、分析并生成报告，还能按设定频率持续跟踪研究对象。Qovest 内置权威金融数据库和自研金融场景 Agent 工程框架 Harness，研究结果可沉淀到投研空间继续推进。",
-     "url": "https://www.ithome.com/1/021/071.htm",
-     "aihot": "https://aihot.news/items/zdkwczdzn9gg7h3mpsf9wb47c",
-     "selected": false,
-     "score": 47,
-     "category": "industry"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "paper",
@@ -203,7 +131,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
