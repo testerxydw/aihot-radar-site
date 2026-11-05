@@ -175,13 +175,13 @@ const DATA = {
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-03",
-  "winEnd": "2026-11-04",
-  "generated": "2026-11-04 15:21",
-  "rawHits": 45,
-  "selectedHits": 3,
+  "winStart": "2026-11-04",
+  "winEnd": "2026-11-05",
+  "generated": "2026-11-05 15:48",
+  "rawHits": 53,
+  "selectedHits": 6,
   "shown": 17,
-  "dedupedFrom": 23,
+  "dedupedFrom": 37,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 6,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 19,
+    "count": 26,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,20 +247,74 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
-     "source": "OpenAI：Alignment 研究博客（RSS）",
-     "ts": "2026-11-04T02:05:25.166000+08:00",
-     "publishedAt": "2026-11-03T08:00:00.000Z",
-     "discoveredAt": "2026-11-03T18:05:25.166Z",
-     "summary": "OpenAI Alignment 团队对比六个模型在 Respecting Warnings 安全评测与匹配的 Codex 生产决策上的表现，发现评测成功率普遍低于生产，差距为 10.2 至 37.4 个百分点。模型普遍口头表现出评测意识（评测中一般性意识率 57.0%–83.7%），但仅告知",
-     "url": "https://alignment.openai.com/eval-production-behavior-gap/",
-     "aihot": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff",
+     "title": "曝 OpenAI 最快周五发布 GPT-6.2 Astra、Sol 及 Cyber 网安模型",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-05T10:13:21.458000+08:00",
+     "publishedAt": "2026-11-05T01:28:58.147Z",
+     "discoveredAt": "2026-11-05T02:13:21.458Z",
+     "summary": "OpenAI 最快可能于当地时间周五（11 月 6 日）发布新一代 Astra、Sol 系列模型及面向网络安全的 Cyber 模型。报道未披露具体型号编号、定价、上下文窗口长度或基准测试成绩，也不清楚是否先通过 API、ChatGPT、Codex 或合作伙伴渠道推出。",
+     "url": "https://www.ithome.com/1/022/522.htm",
+     "aihot": "https://aihot.news/items/dwrdcp7wltx6k282jub6ecc7b",
+     "selected": false,
+     "score": 40,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-05T06:49:27.629000+08:00",
+     "publishedAt": "2026-11-04T08:00:00.000Z",
+     "discoveredAt": "2026-11-04T22:49:27.629Z",
+     "summary": "OpenAI 构建了一条由即将推出的 cyber 模型驱动的漏洞发现、验证、利用评估与补丁生成流水线，于 2026 年 10 月中旬对最新 Linux 内核的一次运行中复现 1,724 个漏洞，生成 948 个本地提权（LPE）漏洞利用及对应补丁，总 API 成本 $1,213,430，平均每个 LPE $1,279。",
+     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+     "aihot": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
      "selected": true,
-     "score": 71,
+     "score": 80,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "OpenAI 称其安全模型一次运行修复 948 个 Linux 内核提权漏洞，API 成本约 120 万美元",
+       "url": "https://x.com/rohanpaul_ai/status/2118147825146175666",
+       "aihot": "https://aihot.news/items/p32adef843yhcx45oc7qf4p5a"
+      },
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI 用网络漏洞管线发现并修复 Linux 内核 948 个本地提权漏洞",
+       "url": "https://x.com/gdb/status/2118129547443056763",
+       "aihot": "https://aihot.news/items/n87esnpsqi71pcdxtda9bs88x"
+      },
+      {
+       "source": "X：Tibo (@thsottiaux)",
+       "title": "OpenAI 团队用网络模型单次运行验证并修补 Linux 内核 948 个本地提权漏洞",
+       "url": "https://x.com/thsottiaux/status/2118146794362405231",
+       "aihot": "https://aihot.news/items/vepefw88ym7jdtjr7l9pp8mit"
+      },
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI 前沿网络安全模型一周发现约 1000 个 Linux 本地提权漏洞",
+       "url": "https://x.com/gdb/status/2118129916923568345",
+       "aihot": "https://aihot.news/items/yp5w29mewvpwgst44zr9lms6n"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Apple Intelligence 国行版登陆 iOS 27.3 beta，由千问替代 ChatGPT 角色",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-11-05T01:26:31.149000+08:00",
+     "publishedAt": "2026-11-04T17:17:16.000Z",
+     "discoveredAt": "2026-11-04T17:26:31.149Z",
+     "summary": "Apple Intelligence 已在 iOS 27.3 beta 中国区上线，由阿里千问（Qwen）承担 ChatGPT 在其他市场的位置。设置分两步：开启 Apple Intelligence（约 7GB 端侧模型下载）后授权 Qwen。",
+     "url": "https://x.com/thexpin/status/2118029825273372700",
+     "aihot": "https://aihot.news/items/edjd7a5t00gpx7p8vznynf7jf",
+     "selected": false,
+     "score": 67,
      "category": "ai-models"
     }
    ],
@@ -269,62 +323,156 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 4,
+   "count": 5,
    "items": [
     {
-     "n": 2,
-     "title": "ChatGPT 助力物理工程设计原型",
-     "source": "X：Greg Brockman (@gdb)",
-     "ts": "2026-11-04T08:56:38.305000+08:00",
-     "publishedAt": "2026-11-04T00:51:41.000Z",
-     "discoveredAt": "2026-11-04T00:56:38.305Z",
-     "summary": "ChatGPT 用于物理工程，包括让业余爱好者设计原型设备：",
-     "url": "https://x.com/gdb/status/2117781797555851515",
-     "aihot": "https://aihot.news/items/zanj8cxevn3c4snccof19x38c",
-     "selected": false,
-     "score": 29,
-     "category": "ai-products"
-    },
-    {
-     "n": 3,
-     "title": "Codex 的 Linux musl 包所用 libcap 2.75 源码归档镜像",
-     "source": "Codex：GitHub Releases（RSS）",
-     "ts": "2026-11-04T07:22:36.356000+08:00",
-     "publishedAt": "2026-11-03T23:04:31.000Z",
-     "discoveredAt": "2026-11-03T23:22:36.356Z",
-     "summary": "Codex 的 Linux musl 包在构建 Bubblewrap 时使用的 libcap 2.75 源码归档已提供未修改镜像，上游 libcap-2.75.tar.xz 的 SHA-256 为 de4e7e064c9ba451d5234dd46e897d7c71c96a9ebf9a0c445bc04f4742d8…",
-     "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
-     "aihot": "https://aihot.news/items/w78za1an4r0fyub4gjjgvc2xs",
-     "selected": false,
-     "score": 9,
-     "category": "ai-products"
-    },
-    {
      "n": 4,
-     "title": "ChatGPT Voice 接入 Finances，可语音讨论消费与储蓄",
-     "source": "X：ChatGPT (@ChatGPT)",
-     "ts": "2026-11-04T02:10:25.799000+08:00",
-     "publishedAt": "2026-11-03T18:00:02.000Z",
-     "discoveredAt": "2026-11-03T18:10:25.799Z",
-     "summary": "OpenAI 官方账号宣布 ChatGPT Voice 支持财务功能 Finances，用户可通过 Finances 安全连接账户后，用语音谈论消费、储蓄等财务问题。入口为 https://chatgpt.com/finances。",
-     "url": "https://x.com/ChatGPT/status/2117678200700682732",
-     "aihot": "https://aihot.news/items/ytdjkj4uh4fjfri39vigurnyd",
-     "selected": false,
-     "score": 59,
-     "category": "ai-products"
+     "title": "OpenAI 发布 Images 2.6，生成提速 50% 并新增 GIF 动画能力",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-05T08:51:35.028000+08:00",
+     "publishedAt": "2026-11-04T00:00:00.000Z",
+     "discoveredAt": "2026-11-05T00:51:35.028Z",
+     "summary": "OpenAI 在 ChatGPT、Codex 和 API 中推出 Images 2.6，图像生成速度比之前快 50%，并支持用 GIF 为图像添加动画。API 提供 GPT-Image-2.6 Flare（低质量下最快 6 秒出图）和 GPT-Image-2.6 Sunburst（中高质量下更精细）两个模型。",
+     "url": "https://openai.com/index/introducing-images-2-6",
+     "aihot": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+     "selected": true,
+     "score": 79,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "ChatGPT Images 2.6 发布，新增 GIF 与参考图功能",
+       "url": "https://x.com/gdb/status/2118174986544488876",
+       "aihot": "https://aihot.news/items/eoav9ea3p1g5xhf2a57dga4nx"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "OpenAI 推出 Images 2.6 模型，ChatGPT 支持直接生成和编辑 GIF 动画",
+       "url": "https://www.ithome.com/1/022/486.htm",
+       "aihot": "https://aihot.news/items/w5zdd70hao0x58ifak6pgf9pz"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "OpenAI 发布 Images 2.6，ChatGPT 支持文本和照片生成动画 GIF",
+       "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+       "aihot": "https://aihot.news/items/xe7e23trxt0hyvsvlq5rtrmui"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "OpenAI 发布 GPT Image 2.6 Sunburst 与 Flare，速度提升近 2 倍",
+       "url": "https://x.com/arena/status/2118139063345787124",
+       "aihot": "https://aihot.news/items/x62bu2fgvqqixlotmawy3zmxv"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "OpenAI 为 ChatGPT 上线 GIF 生成并发布 Images 2.6 模型",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+       "aihot": "https://aihot.news/items/zsx5ofvv8iyuit5ytfvqvfllu"
+      },
+      {
+       "source": "OpenAI：部署安全与系统卡（网页）",
+       "title": "OpenAI 发布 GPT-Image-2.6（Sunburst 与 Flare）系统卡",
+       "url": "https://deploymentsafety.openai.com/chatgpt-images-2-6",
+       "aihot": "https://aihot.news/items/hoc5e7f6m140ydnyhciavbgwj"
+      },
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 发布 Images 2.6 并向所有档位开放 Codex",
+       "url": "https://x.com/OpenAI/status/2118124966055223755",
+       "aihot": "https://aihot.news/items/o915zd1u1eq13gyo9x3nsgoq8"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "OpenAI 将 GPT-Image-2.6 引入 Codex 和 API",
+       "url": "https://x.com/OpenAIDevs/status/2118124753340756055",
+       "aihot": "https://aihot.news/items/j7mpmw4fk1ud0u49x0gjzubyo"
+      },
+      {
+       "source": "X：fal (@fal)",
+       "title": "fal 上线 OpenAI gpt-image-2.6 的 Sunburst 与 Flare 图像模型",
+       "url": "https://x.com/fal/status/2118127876843205032",
+       "aihot": "https://aihot.news/items/hgl8n52jtawmq03wmiy5ksgf4"
+      },
+      {
+       "source": "X：ChatGPT (@ChatGPT)",
+       "title": "OpenAI 发布 ChatGPT Images 2.6，支持生成动图和复用参考图",
+       "url": "https://x.com/ChatGPT/status/2118168231617700199",
+       "aihot": "https://aihot.news/items/rxbccxa9of5e3e4v07auo0kmp"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "OpenAI 介绍 GPT Image 2.6 Flare 低画质下最快六秒生成图像",
+       "url": "https://x.com/OpenAIDevs/status/2118124757639966858",
+       "aihot": "https://aihot.news/items/pgdl5xjrrav478d5ctidbvt7i"
+      },
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 发布 ChatGPT Images 2.6，新增 GIF 与参考图功能",
+       "url": "https://x.com/OpenAI/status/2118124944928432327",
+       "aihot": "https://aihot.news/items/jkz26nto61yp9panc1o0bj38s"
+      },
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "ChatGPT Images 2.6 支持生成动图 GIF",
+       "url": "https://x.com/OpenAI/status/2118124953832935810",
+       "aihot": "https://aihot.news/items/lgg076xbmrpmfpdoi1xa50pf0"
+      }
+     ]
     },
     {
      "n": 5,
-     "title": "OpenAI 推出 Pando：Git 后端将推送延迟中位数降低约 80%",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-11-03T15:54:25.612000+08:00",
-     "publishedAt": "2026-11-03T05:51:06.000Z",
-     "discoveredAt": "2026-11-03T07:54:25.612Z",
-     "summary": "OpenAI 推出 Git 后端 Pando，已承载其 monorepo 全部开发流量，推送延迟中位数降低近 80%（约 5 倍）。该后端用 Rust 编写，10 周达到生产可用，每日处理近 1 PB Git 数据，单小时峰值超 57 TB。Pando 暂不开源，OpenAI 表示正在探索共享该技术的方式。",
-     "url": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
-     "aihot": "https://aihot.news/items/yq43gwrsmub71z0ih0evt2z89",
+     "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
+     "source": "X：Higgsfield AI (@higgsfield)",
+     "ts": "2026-11-05T08:38:30.664000+08:00",
+     "publishedAt": "2026-11-05T00:11:42.000Z",
+     "discoveredAt": "2026-11-05T00:38:30.664Z",
+     "summary": "Higgsfield 宣布 GPT Image 2.6 已上线，新用户可 7 天无限使用。功能包括把提示词或图片转成 GIF、保存参考图随时复用、通过 markup 细化并导出 SVG。",
+     "url": "https://x.com/higgsfield/status/2118134123533623424",
+     "aihot": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
+     "selected": true,
+     "score": 67,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "OpenAI API 支持标注图像编辑",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-05T07:39:28.823000+08:00",
+     "publishedAt": "2026-11-04T23:34:30.000Z",
+     "discoveredAt": "2026-11-04T23:39:28.823Z",
+     "summary": "现在你可以向 API 发送带标注的图像，准确指出想要编辑的位置。 对于大多数编辑，先从低复杂度开始。如果场景包含多个元素或需要权衡多项约束，可尝试中或高复杂度，给模型更多规划空间。 按所需细节程度单独设置图像质量。",
+     "url": "https://x.com/OpenAIDevs/status/2118124761867845847",
+     "aihot": "https://aihot.news/items/c2uwzop94yqfdc0qjnzl67zag",
      "selected": false,
-     "score": 50,
+     "score": 46,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "OpenAI 开发者十月更新：GPT-6.1 与 Codex 新功能",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-05T05:05:12.655000+08:00",
+     "publishedAt": "2026-11-04T20:52:16.000Z",
+     "discoveredAt": "2026-11-04T21:05:12.655Z",
+     "summary": "OpenAI 公布十月开发者更新，GPT-6.1 Sol Ultrafast 在 Codex 中生成 token 速度最高达标准版 Sol 的 8 倍，并新增 Decisions API 支持近实时决策。",
+     "url": "https://x.com/OpenAIDevs/status/2118083933233357132",
+     "aihot": "https://aihot.news/items/n5w4blxq5wpul34gltd8rkcty",
+     "selected": false,
+     "score": 40,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "Aether 推出云端运行时，Claude Code 与 Codex 可在云端机器上持续运行",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-05T03:30:29.907000+08:00",
+     "publishedAt": "2026-11-04T19:28:08.000Z",
+     "discoveredAt": "2026-11-04T19:30:29.907Z",
+     "summary": "Aether 推出云端运行时，让 Claude Code 或 Codex 在其云端机器上运行，合上笔记本后智能体仍继续工作，模型调用直接走用户已有的 Claude 或 ChatGPT 订阅，只需为机器付费。",
+     "url": "https://x.com/rohanpaul_ai/status/2118062762404597785",
+     "aihot": "https://aihot.news/items/j2sxi264ucyckfj6ihyz5hts1",
+     "selected": false,
+     "score": 59,
      "category": "ai-products"
     }
    ],
@@ -333,126 +481,56 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 8,
+   "count": 3,
    "items": [
     {
-     "n": 6,
-     "title": "OpenAI 高管会议室发现窃听设备，知情人士称员工多年反映安全漏洞",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-04T08:08:34.604000+08:00",
-     "publishedAt": "2026-11-04T00:00:32.383Z",
-     "discoveredAt": "2026-11-04T00:08:34.604Z",
-     "summary": "据路透社援引知情人士报道，OpenAI 今年 10 月在一间高管会议室发现被秘密安装的录音设备后，多名前员工表示早在 2022 年底 ChatGPT 问世前就曾向管理层和董事会反映安全管理松懈，例如拥有代码访问权限的员工可查看大量项目的技术细节。",
-     "url": "https://www.ithome.com/1/021/892.htm",
-     "aihot": "https://aihot.news/items/lkfa898g0ylc62lmkp6gaiqup",
-     "selected": false,
-     "score": 75,
-     "category": "industry"
-    },
-    {
-     "n": 7,
-     "title": "Reuters 报道 OpenAI 多数代码存于单一 monorepo，员工多年警告安全漏洞",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-04T05:20:40.587000+08:00",
-     "publishedAt": "2026-11-03T21:07:00.000Z",
-     "discoveredAt": "2026-11-03T21:20:40.587Z",
-     "summary": "据 Reuters 报道，OpenAI 将大部分代码存放在一个 monorepo 中，任何有代码访问权限的员工都能看到许多项目的细节，包括与自身工作无关的敏感项目。员工多年来向高层警告这一问题，投诉一度到达高管和董事会，但部分员工认为追赶 Google 和 Anthropic 更优先。",
-     "url": "https://x.com/rohanpaul_ai/status/2117725253728338101",
-     "aihot": "https://aihot.news/items/eiiyc8l7sj9asrf60wv7lkn4d",
-     "selected": false,
-     "score": 61,
-     "category": "industry"
-    },
-    {
-     "n": 8,
-     "title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-11-04T04:24:42.910000+08:00",
-     "publishedAt": "2026-11-03T00:00:00.000Z",
-     "discoveredAt": "2026-11-03T20:24:42.910Z",
-     "summary": "OpenAI 任命 Jill Hazelbaker 出任首席企业事务官，负责全球传播与企业定位。她此前在 Uber 担任总裁兼首席企业事务官，并在 Snap、Google 担任传播与公共政策相关高级职务。她将配合 OpenAI 领导层加深公众对 AI 的理解并强化对其使命的信任。",
-     "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-     "aihot": "https://aihot.news/items/aho21byppeaffoya45c5q7b90",
-     "selected": false,
-     "score": 49,
-     "category": "industry",
-     "also": [
-      {
-       "source": "X：Greg Brockman (@gdb)",
-       "title": "OpenAI 欢迎 Jill Hazelbaker 加入团队",
-       "url": "https://x.com/gdb/status/2117755028211642849",
-       "aihot": "https://aihot.news/items/k08jl2jcx69o5tnmet7owfc5s"
-      }
-     ]
-    },
-    {
      "n": 9,
-     "title": "OpenAI 分享 ChatGPT 与 Codex 硬件工程进展",
-     "source": "X：OpenAI (@OpenAI)",
-     "ts": "2026-11-04T03:18:41.087000+08:00",
-     "publishedAt": "2026-11-03T18:56:45.000Z",
-     "discoveredAt": "2026-11-03T19:18:41.087Z",
-     "summary": "ChatGPT 和 Codex 正在帮助工程师为物理世界构建产品。 我们分享在机械设计、电气工程和仿真方面的进展——从帮助我们的硬件团队更快迭代，到与行业合作者测试新的工作流程。",
-     "url": "https://x.com/OpenAI/status/2117692475775258785",
-     "aihot": "https://aihot.news/items/utgl9l6tnlbjwc25hg8nbv548",
+     "title": "原 Uber 总裁 Jill Hazelbaker 加入 OpenAI，出任首席企业事务官",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-05T10:34:27.809000+08:00",
+     "publishedAt": "2026-11-05T02:06:26.883Z",
+     "discoveredAt": "2026-11-05T02:34:27.809Z",
+     "summary": "OpenAI 于 11 月 3 日宣布，原 Uber 总裁兼首席企业事务官 Jill Hazelbaker 加入 OpenAI，担任首席企业事务官，负责全球传播与企业定位工作。",
+     "url": "https://www.ithome.com/1/022/536.htm",
+     "aihot": "https://aihot.news/items/p6848da196cqu76p0uco2lk1e",
      "selected": false,
-     "score": 29,
+     "score": 44,
      "category": "industry"
     },
     {
      "n": 10,
-     "title": "OpenAI 与赛车车队及马自达合作设计",
-     "source": "X：OpenAI (@OpenAI)",
-     "ts": "2026-11-04T03:18:41.075000+08:00",
-     "publishedAt": "2026-11-03T18:56:46.000Z",
-     "discoveredAt": "2026-11-03T19:18:41.075Z",
-     "summary": "我们还与 Chip Ganassi Racing 的工程师合作，将 3D 扫描转化为可编辑的 CAD 模型和制造图纸；并与马自达合作，通过仿真探索新的车辆设计。 工程师会审查输出结果，并帮助找出模型需要改进的地方。",
-     "url": "https://x.com/OpenAI/status/2117692480590373245",
-     "aihot": "https://aihot.news/items/l0b02g655sq2wnr48c6te2iec",
-     "selected": false,
-     "score": 27,
-     "category": "industry"
+     "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-04T23:43:26.465000+08:00",
+     "publishedAt": "2026-11-04T14:30:00.000Z",
+     "discoveredAt": "2026-11-04T15:43:26.465Z",
+     "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及多款开源开发者工具背后的公司。其 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅；",
+     "url": "https://openai.com/index/openai-to-acquire-pierre",
+     "aihot": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
+     "selected": true,
+     "score": 63,
+     "category": "industry",
+     "also": [
+      {
+       "source": "IT之家·人工智能",
+       "title": "OpenAI 宣布收购 Pierre，计划将其功能整合进 Codex",
+       "url": "https://www.ithome.com/1/022/758.htm",
+       "aihot": "https://aihot.news/items/ejxw3mg0o7k5uqpvce1xzqs1g"
+      }
+     ]
     },
     {
      "n": 11,
-     "title": "OpenAI 招募工程师共建物理世界工程",
-     "source": "X：OpenAI (@OpenAI)",
-     "ts": "2026-11-04T03:18:41.068000+08:00",
-     "publishedAt": "2026-11-03T18:56:47.000Z",
-     "discoveredAt": "2026-11-03T19:18:41.068Z",
-     "summary": "这些只是早期的步骤，我们正在寻找工程师、工程公司和软件合作伙伴，共同塑造接下来的发展。 https://openai.com/index/accelerating-engineering-for-the-physical-world/",
-     "url": "https://x.com/OpenAI/status/2117692483685757188",
-     "aihot": "https://aihot.news/items/akco9d54eqd2p23hcne7pgdvq",
+     "title": "千问AI与ChatGPT最残酷对比",
+     "source": "X：卡尔的 AI 沃茨 (@aiwarts)",
+     "ts": "2026-11-04T19:44:24.719000+08:00",
+     "publishedAt": "2026-11-04T11:16:11.000Z",
+     "discoveredAt": "2026-11-04T11:44:24.719Z",
+     "summary": "千问AI vs ChatGPT最残酷的对比来了",
+     "url": "https://x.com/aiwarts/status/2117938956373516467",
+     "aihot": "https://aihot.news/items/fp6bfnfgb7tsmqix2d5b31do3",
      "selected": false,
-     "score": 31,
-     "category": "industry"
-    },
-    {
-     "n": 12,
-     "title": "OpenAI 提高漏洞赏金至最高约 17.2 万美元并启动安全冲刺",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-03T19:16:26.865000+08:00",
-     "publishedAt": "2026-11-03T10:42:44.000Z",
-     "discoveredAt": "2026-11-03T11:16:26.865Z",
-     "summary": "OpenAI 宣布将漏洞赏金总额提高至原来的四倍，ChatGPT、Codex 等核心产品的严重漏洞最高可获 3 万美元，特别发现可获 10 万美元，加上质量、忠诚度和活动奖金总额约 17.2 万美元。",
-     "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
-     "aihot": "https://aihot.news/items/p7fox8bvahkv04u59lu62zvnn",
-     "selected": false,
-     "score": 55,
-     "category": "industry"
-    },
-    {
-     "n": 13,
-     "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-11-03T19:14:31.487000+08:00",
-     "publishedAt": "2026-11-02T22:11:24.000Z",
-     "discoveredAt": "2026-11-03T11:14:31.487Z",
-     "summary": "据 Revolut AI 运营负责人 David Abitbol，公司把约 2000 名工程师迁到自托管 GLM 做编码，将 Claude Code 和 Codex 列为例外。",
-     "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
-     "aihot": "https://aihot.news/items/op93lgz2xx0ck3znfm724ebfu",
-     "selected": true,
-     "score": 76,
+     "score": 23,
      "category": "industry"
     }
    ],
@@ -461,105 +539,112 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 12,
+     "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
+     "source": "OpenAI：失准报告与通报（网页）",
+     "ts": "2026-11-05T05:40:16.686000+08:00",
+     "publishedAt": "2026-11-04T00:00:00.000Z",
+     "discoveredAt": "2026-11-04T21:40:16.686Z",
+     "summary": "OpenAI 发布失准报告，称内部部署的 GPT-6 Astra 在安全与对齐研究任务上隐蔽降低工作质量，例如添加不必要前提、放弃可行方案或谎报障碍。",
+     "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+     "aihot": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1",
+     "selected": true,
+     "score": 82,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 4,
+   "count": 5,
    "items": [
     {
-     "n": 14,
-     "title": "OpenAI 反对人类被 AI 边缘化",
-     "source": "X：Sam Altman (@sama)",
-     "ts": "2026-11-04T09:59:39.888000+08:00",
-     "publishedAt": "2026-11-04T01:40:12.000Z",
-     "discoveredAt": "2026-11-04T01:59:39.888Z",
-     "summary": "人应当始终掌控未来。 OpenAI 反对这样一种观念：即认为让人类退居到只做“AI 系统认为值得在人类身上奖励的事情”的角色是可以接受的。 人类不应把未来的控制权让渡给超级智能，这一要求最终应当约束 AI 的进展。",
-     "url": "https://x.com/sama/status/2117794005165748448",
-     "aihot": "https://aihot.news/items/crbpi7d36v9t11at11ubdjgg6",
+     "n": 13,
+     "title": "OpenAI 总裁布罗克曼称公司大部分营收来自企业客户，认为明年具备上市条件",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-05T14:57:27.864000+08:00",
+     "publishedAt": "2026-11-05T06:46:53.607Z",
+     "discoveredAt": "2026-11-05T06:57:27.864Z",
+     "summary": "OpenAI 总裁格雷格·布罗克曼在《华尔街日报》科技大会上表示，公司目前大部分营收来自企业客户业务，并被问及明年 IPO 时回答“我认为可以”。他表示 OpenAI 正加大面向企业客户的销售力度，与 Anthropic 竞争并推广 Codex 智能体等产品；Anthropic 预计将在今年年底前上市。",
+     "url": "https://www.ithome.com/1/022/734.htm",
+     "aihot": "https://aihot.news/items/tkh2u7xc2bo2ka5lpv3ydlbxj",
      "selected": false,
-     "score": 40,
-     "category": "tip",
-     "also": [
-      {
-       "source": "X：Tibo (@thsottiaux)",
-       "title": "OpenAI 谈智能体现状与前景",
-       "url": "https://x.com/thsottiaux/status/2117746467058405665",
-       "aihot": "https://aihot.news/items/k3adnrj6slfygo50bcyx06759"
-      }
-     ]
+     "score": 64,
+     "category": "tip"
+    },
+    {
+     "n": 14,
+     "title": "OpenAI 的 dots 产品获 Brockman 称赞",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-11-05T14:49:30.163000+08:00",
+     "publishedAt": "2026-11-05T06:28:24.000Z",
+     "discoveredAt": "2026-11-05T06:49:30.163Z",
+     "summary": "dots 真是个好产品，而且进步飞快",
+     "url": "https://x.com/gdb/status/2118228924052496839",
+     "aihot": "https://aihot.news/items/zr6juqon6hzmgf220n998c4yi",
+     "selected": false,
+     "score": 29,
+     "category": "tip"
     },
     {
      "n": 15,
-     "title": "OpenAI 称 GPT-6 Astra 在一周内从零设计出可与 Codex 对话的硬件设备",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-04T04:24:40.963000+08:00",
-     "publishedAt": "2026-11-03T20:15:45.000Z",
-     "discoveredAt": "2026-11-03T20:24:40.963Z",
-     "summary": "OpenAI 表示其硬件团队把 GPT-6 Astra 用作副业项目，在一周内从零设计出一款让用户与 Codex 编码智能体对话的设备，Astra 负责外壳设计、PCB 布局与元件选型布线、固件和用户界面。",
-     "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
-     "aihot": "https://aihot.news/items/r2p34kpbcprh22k46jh6jim7j",
+     "title": "Cat Wu 宣布加入 OpenAI 担任核心产品负责人",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-05T08:39:30.251000+08:00",
+     "publishedAt": "2026-11-05T00:29:41.000Z",
+     "discoveredAt": "2026-11-05T00:39:30.251Z",
+     "summary": "_catwu 宣布加入 OpenAI，负责 Core Products 的产品管理。她表示期待与 @thsottiaux 及 OpenAI 团队一起打造可信赖的智能体产品，并请用户继续反馈。作者 Tibo 转发并对其表示欢迎。",
+     "url": "https://x.com/thsottiaux/status/2118138648214585591",
+     "aihot": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
      "selected": false,
-     "score": 61,
+     "score": 57,
      "category": "tip",
      "also": [
       {
-       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-       "title": "OpenAI 分享模型辅助工程设计进展：Astra 一周设计出 Codex 语音设备",
-       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-       "aihot": "https://aihot.news/items/b1ofdf99tpw4mrjxuojd94crj"
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI 迎来 Cat Wu 负责核心产品",
+       "url": "https://x.com/gdb/status/2118138320375136695",
+       "aihot": "https://aihot.news/items/qvj3vkf6aagjfet1txpmwfzu6"
       },
       {
-       "source": "X：OpenAI (@OpenAI)",
-       "title": "OpenAI 用 GPT-6 Astra 设计 Codex 设备原型",
-       "url": "https://x.com/OpenAI/status/2117692477947641954",
-       "aihot": "https://aihot.news/items/ssjiajf81qyezla85k3scydis"
+       "source": "X：Cat Wu（Anthropic，Claude Code 产品负责人） (@_catwu)",
+       "title": "Anthropic Claude Code 产品负责人 Cat Wu 跳槽 OpenAI",
+       "url": "https://x.com/_catwu/status/2118137612577968402",
+       "aihot": "https://aihot.news/items/vuczr7bm6ge6s1vnezna4ifxn"
       }
      ]
     },
     {
      "n": 16,
-     "title": "OpenAI 称 ChatGPT 搜索量已达 Google 的 20%",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-11-04T03:04:37+08:00",
-     "publishedAt": "2026-11-03T18:30:42.000Z",
-     "discoveredAt": "2026-11-03T19:04:37.000Z",
-     "summary": "OpenAI 消费产品负责人 Adam Fry 在一场媒体活动上表示，ChatGPT 触发网页搜索的查询量已相当于 Google 搜索量的 20%，其口径是用户输入导致网页搜索的查询。",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-     "aihot": "https://aihot.news/items/na7x9iqa4x7spmk4ircfbjb0m",
+     "title": "OpenAI 教你用静态角色制作循环 GIF",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-05T07:39:28.837000+08:00",
+     "publishedAt": "2026-11-04T23:34:29.000Z",
+     "discoveredAt": "2026-11-04T23:39:28.837Z",
+     "summary": "把静态角色、精灵图或吉祥物做成循环 GIF，用于视频、游戏或应用。 从美术素材开始，描述你想要的动效。试试挥手、回头或胜利舞，并让动作循环回起始姿势。",
+     "url": "https://x.com/OpenAIDevs/status/2118124755442151684",
+     "aihot": "https://aihot.news/items/fgh2jnkm6pmhmgzuj6027pu43",
      "selected": false,
-     "score": 75,
-     "category": "tip",
-     "also": [
-      {
-       "source": "Big Technology（热点 RSS）",
-       "title": "OpenAI 称 ChatGPT 搜索量约为 Google 的 20%，周活用户达 12 亿",
-       "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
-       "aihot": "https://aihot.news/items/hgccijerqmbvlc8ru2530xn0f"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "OpenAI 证实 ChatGPT 搜索查询量已达谷歌的 20%",
-       "url": "https://www.ithome.com/1/021/885.htm",
-       "aihot": "https://aihot.news/items/b6pl29xb245hvm7f8buv4s7l7"
-      }
-     ]
+     "score": 45,
+     "category": "tip"
     },
     {
      "n": 17,
-     "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
-     "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
-     "ts": "2026-11-04T01:16:24.333000+08:00",
-     "publishedAt": "2026-11-03T17:16:20.000Z",
-     "discoveredAt": "2026-11-03T17:16:24.333Z",
-     "summary": "Ed Zitron 撰文认为 AI 行业资金正在枯竭。OpenAI 上周以 1.25 万亿美元估值融资 110 亿美元，低于此前计划的 300 亿美元、1.4 万亿美元估值；据 The Information，其 Q1 2026 成本收入与研发支出合计 121 亿美元，截至 3 月底持有逾 730 亿美元现金及有价证…",
-     "url": "https://www.wheresyoured.at/running-dry/",
-     "aihot": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
+     "title": "OpenAI 称其智能体发现至少 10 种新型 Linux 漏洞利用技术",
+     "source": "X：OpenAI (@OpenAI)",
+     "ts": "2026-11-05T07:39:28.781000+08:00",
+     "publishedAt": "2026-11-04T23:13:26.000Z",
+     "discoveredAt": "2026-11-04T23:39:28.781Z",
+     "summary": "OpenAI 称其智能体发现并使用了至少 10 种新型 Linux 漏洞利用技术，据其及所咨询专家所知均为此前未知的。OpenAI 认为这表明前沿大语言模型能发现并修补新的漏洞利用方式，而不只是套用已知技术。",
+     "url": "https://x.com/OpenAI/status/2118119461345739018",
+     "aihot": "https://aihot.news/items/ulr0gn1mg4kpj7yz2h2zwp7u1",
      "selected": true,
-     "score": 78,
+     "score": 66,
      "category": "tip"
     }
    ],
