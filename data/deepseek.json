@@ -12,12 +12,12 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-05",
-  "winEnd": "2026-11-06",
-  "generated": "2026-11-06 15:48",
-  "rawHits": 24,
-  "selectedHits": 2,
-  "shown": 3,
+  "winStart": "2026-11-06",
+  "winEnd": "2026-11-07",
+  "generated": "2026-11-07 14:55",
+  "rawHits": 13,
+  "selectedHits": 0,
+  "shown": 2,
   "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 24,
+    "count": 13,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,48 +68,20 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
-     "source": "Thinking Machines Lab：News（网页）",
-     "ts": "2026-11-06T07:56:23.054000+08:00",
-     "publishedAt": "2026-11-05T07:00:00.000Z",
-     "discoveredAt": "2026-11-05T23:56:23.054Z",
-     "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，为 594B 总参数、17B 激活的 MoE 模型，支持图像输入与 variable effort，Artificial Analysis Intelligence Index 得分 31。",
-     "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-     "aihot": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-     "selected": true,
-     "score": 79,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "DeepSeek Harness 公布进展：日活 154 万、日消耗 Token 约 92 万亿，将建设官方插件市场",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-05T23:00:36.896000+08:00",
-     "publishedAt": "2026-11-05T14:48:49.310Z",
-     "discoveredAt": "2026-11-05T15:00:36.896Z",
-     "summary": "DeepSeek Harness 官方 11 月 5 日公布产品与社区进展，截至 11 月 4 日日活跃用户达 154 万，日消耗 Token 约 92 万亿，月活跃用户 548 万（以官方 API 用户为统计范围）。",
-     "url": "https://www.ithome.com/1/023/011.htm",
-     "aihot": "https://aihot.news/items/ejr2q49gzg0sc8kxu0hnewu5j",
+     "title": "Z.ai 与 DeepSeek 开源权重模型增长领先",
+     "source": "X：OpenRouter (@OpenRouter)",
+     "ts": "2026-11-07T04:54:13.431000+08:00",
+     "publishedAt": "2026-11-06T20:28:05.000Z",
+     "discoveredAt": "2026-11-06T20:54:13.431Z",
+     "summary": "6/ 开源权重实验室在增长上领先。过去 6 个月，https://Z.ai 的月度 token 量增长约 20 倍，DeepSeek 增长约 12 倍。 支出方面，https://Z.ai 增长约 6 倍，Anthropic 上升 76%。",
+     "url": "https://x.com/OpenRouter/status/2118802623059173829",
+     "aihot": "https://aihot.news/items/ray0ymp2oximtdhnirpv5e13m",
      "selected": false,
-     "score": 57,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
-     "source": "X：腾讯混元 (@TencentHunyuan)",
-     "ts": "2026-11-05T18:27:29.452000+08:00",
-     "publishedAt": "2026-11-05T10:23:42.000Z",
-     "discoveredAt": "2026-11-05T10:27:29.452Z",
-     "summary": "腾讯混元转发并感谢 Artificial Analysis 对其最新模型 Hy4 的评测。Hy4 在 Artificial Analysis Intelligence Index v5 得 35 分，与中国实验室模型中仅次于 Kimi K3.1 Pro（46 分），与 Grok 4.7 (xhigh) 持平，比 Cl…",
-     "url": "https://x.com/TencentHunyuan/status/2118288137973854397",
-     "aihot": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
-     "selected": true,
-     "score": 68,
+     "score": 46,
      "category": "ai-models"
     }
    ],
@@ -118,9 +90,32 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 9 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 2,
+     "title": "DeepSeek V4.1 Flash 在 GB300 上提速最高 1.5 倍",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-11-07T04:48:11.207000+08:00",
+     "publishedAt": "2026-11-06T20:33:47.000Z",
+     "discoveredAt": "2026-11-06T20:48:11.207Z",
+     "summary": "Artificial Analysis 测得 DeepSeek V4.1 Flash 在 GB300 NVL72 上的 AA-AgentPerf 速度一个月内提升最高 1.5 倍 tok/s/agent，单 agent 从 596 tok/s 升至 848 tok/s（1.42x）。",
+     "url": "https://x.com/ArtificialAnlys/status/2118804058672869629",
+     "aihot": "https://aihot.news/items/uqfn7s0pzj08ok6w6ly3r3830",
+     "selected": false,
+     "score": 41,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：OpenRouter (@OpenRouter)",
+       "title": "DeepSeek V4.1 Flash 领跑任务榜",
+       "url": "https://x.com/OpenRouter/status/2118802638800404565",
+       "aihot": "https://aihot.news/items/yb1906f1x93f3c5tnsoixz404"
+      }
+     ]
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
@@ -141,7 +136,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

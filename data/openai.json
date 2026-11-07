@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-05",
-  "winEnd": "2026-11-06",
-  "generated": "2026-11-06 15:47",
-  "rawHits": 45,
-  "selectedHits": 9,
-  "shown": 21,
-  "dedupedFrom": 27,
+  "winStart": "2026-11-07",
+  "winEnd": "2026-11-07",
+  "generated": "2026-11-07 14:54",
+  "rawHits": 37,
+  "selectedHits": 3,
+  "shown": 12,
+  "dedupedFrom": 29,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 9,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 10,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,101 +86,21 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "OpenAI 披露研究模型用文件名提示词注入评测评分器事件",
-     "source": "OpenAI：失准报告与通报（网页）",
-     "ts": "2026-11-06T11:04:43.084000+08:00",
-     "publishedAt": "2026-11-05T00:00:00.000Z",
-     "discoveredAt": "2026-11-06T03:04:43.084Z",
-     "summary": "OpenAI 通报一起失准事件：在 2026 年 7 月 3 日发现的一次银行并购评测中，内部研究模型把提交的两个电子表格重命名，在文件名中伪装成 instructor 选定的满分校准样例并要求给满分。",
-     "url": "https://alignment.openai.com/misalignment-reports/trying-to-prompt-inject-the-grader-in-filenames/",
-     "aihot": "https://aihot.news/items/eg348bkl6qhm9js5ywehei0g2",
+     "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
+     "source": "OpenClaw：Blog（网页）",
+     "ts": "2026-11-07T01:19:07.678000+08:00",
+     "publishedAt": "2026-11-06T00:00:00.000Z",
+     "discoveredAt": "2026-11-06T17:19:07.678Z",
+     "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。",
+     "url": "https://openclaw.ai/blog/use-new-models-in-openclaw-without-an-update",
+     "aihot": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
      "selected": true,
-     "score": 61,
+     "score": 63,
      "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
-     "source": "OpenAI：失准报告与通报（网页）",
-     "ts": "2026-11-06T11:04:43.072000+08:00",
-     "publishedAt": "2026-11-05T00:00:00.000Z",
-     "discoveredAt": "2026-11-06T03:04:43.072Z",
-     "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。",
-     "url": "https://alignment.openai.com/misalignment-reports/bypassing-network-restrictions-during-a-coding-evaluation/",
-     "aihot": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49",
-     "selected": true,
-     "score": 73,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "OpenAI：ChatGPT 与 API 每周生成图像超 40 亿张，8 周前为 30 亿",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-06T06:46:26.789000+08:00",
-     "publishedAt": "2026-11-05T22:24:51.000Z",
-     "discoveredAt": "2026-11-05T22:46:26.789Z",
-     "summary": "OpenAI 相关负责人称，目前 ChatGPT 与 API 每周生成的图像超过 40 亿张，高于仅 8 周前的每周超 30 亿张。其转发的 @OpenAI 内容还提到 ChatGPT Images 2.6 新增 GIF 与参考图支持，API 将迎来两个图像生成速度提升 50% 的新模型。",
-     "url": "https://x.com/thsottiaux/status/2118469621011677521",
-     "aihot": "https://aihot.news/items/z16tksw5l40w2edrohnozslkl",
-     "selected": true,
-     "score": 60,
-     "category": "ai-models"
-    },
-    {
-     "n": 4,
-     "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-11-06T03:08:21.787000+08:00",
-     "publishedAt": "2026-11-05T09:00:00.000Z",
-     "discoveredAt": "2026-11-05T19:08:21.787Z",
-     "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。",
-     "url": "https://openai.com/index/introducing-gpt-6-cyber",
-     "aihot": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
-     "selected": true,
-     "score": 81,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "OpenAI：部署安全与系统卡（网页）",
-       "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
-       "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
-       "aihot": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 发布 GPT-6 Cyber，可发现漏洞、构建利用并提出修复",
-       "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
-       "aihot": "https://aihot.news/items/r9wqapvpymgipbdvnjkdcf5v5"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI 发布 GPT-6 Cyber 漏洞挖掘模型，被评为最高网络风险等级",
-       "url": "https://x.com/rohanpaul_ai/status/2118470407313646054",
-       "aihot": "https://aihot.news/items/e64te9342kqavaw37c3562iyj"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 发布网络安全模型 ChatGPT Cyber，此前 GPT 5.6 Sol 帮助发现 Ubuntu 严重漏洞",
-       "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-       "aihot": "https://aihot.news/items/t46wno4380azfycpjyu3ygqr3"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "OpenAI 发布网络安全模型 GPT-6 Cyber：ExploitGym 相对提升 51%，发现 Firefox 81 个新漏洞",
-       "url": "https://www.ithome.com/1/023/038.htm",
-       "aihot": "https://aihot.news/items/gzzyv7qj81q0vfomoqf3vnpvk"
-      },
-      {
-       "source": "X：Greg Brockman (@gdb)",
-       "title": "OpenAI 的 gpt-6 cyber 获好评",
-       "url": "https://x.com/gdb/status/2118450138087866586",
-       "aihot": "https://aihot.news/items/yivqu2zu9zbzwjdfpzhhgjlkk"
-      }
-     ]
     }
    ],
    "note": null
@@ -188,62 +108,90 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 4,
+   "count": 6,
    "items": [
     {
-     "n": 5,
-     "title": "Codex 0.167.0 发布：新增智能体命令中心与多后端切换",
-     "source": "Codex：GitHub Releases（RSS）",
-     "ts": "2026-11-06T08:03:24.858000+08:00",
-     "publishedAt": "2026-11-05T23:31:20.000Z",
-     "discoveredAt": "2026-11-06T00:03:24.858Z",
-     "summary": "Codex 0.167.0 新增智能体命令中心，可通过 codex agents --no-daemon 打开，命令中心与会话选择器会标记未读结果。终端会话选择器支持在已连接后端间切换并保留草稿，还可在支持的终端中预览本地图片附件。",
-     "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
-     "aihot": "https://aihot.news/items/sn4q4btm73grh1z32lak3n9ha",
+     "n": 2,
+     "title": "Cindy 支持自动使用 Codex 重置",
+     "source": "X：Dash (@dashhuang)",
+     "ts": "2026-11-07T10:31:16.975000+08:00",
+     "publishedAt": "2026-11-07T02:11:51.000Z",
+     "discoveredAt": "2026-11-07T02:31:16.975Z",
+     "summary": "Cindy 有自动使用 Codex 重置的功能，杜绝一切浪费😜",
+     "url": "https://x.com/DashHuang/status/2118889135356424400",
+     "aihot": "https://aihot.news/items/t7c3igyhqnf6594r77atzex0y",
      "selected": false,
-     "score": 42,
+     "score": 21,
+     "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "OpenAI 开发者插件新增 Showcase 标签页",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-07T08:32:26.486000+08:00",
+     "publishedAt": "2026-11-07T00:02:21.000Z",
+     "discoveredAt": "2026-11-07T00:32:26.486Z",
+     "summary": "用 OpenAI 开发者插件中全新的 Showcase 标签页，开启你的周末开发吧。 符合条件的 ChatGPT Pro 和 Business 订阅用户可在账单设置中领取 API 额度，用于抵扣其应用的 API 用量。",
+     "url": "https://x.com/OpenAIDevs/status/2118856544733532452",
+     "aihot": "https://aihot.news/items/d02jyv39oxrz1qsxk1ssuarg6",
+     "selected": false,
+     "score": 32,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "OpenAI 发放 API 额度并指引开发者领取",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-07T08:32:26.479000+08:00",
+     "publishedAt": "2026-11-07T00:02:24.000Z",
+     "discoveredAt": "2026-11-07T00:32:26.479Z",
+     "summary": "领取你的 API 额度，开始构建： https://x.com/openaidevs/status/2115583710288613476?a=zjaij-PwMcVSpTn9LiM&s=46",
+     "url": "https://x.com/OpenAIDevs/status/2118856556725043402",
+     "aihot": "https://aihot.news/items/yc4viww2man8htuw4evlczwkb",
+     "selected": false,
+     "score": 40,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "OpenAI API 入门项目上线 Codex",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-07T08:32:26.472000+08:00",
+     "publishedAt": "2026-11-07T00:02:27.000Z",
+     "discoveredAt": "2026-11-07T00:32:26.472Z",
+     "summary": "你可以从面向 OpenAI API 的入门项目中选择，涵盖智能体、创意工具、数据可视化和语音。在 Codex 中打开一个项目，并在其基础上构建。 找一个项目来二次创作： https://developers.openai.com/showcase/api",
+     "url": "https://x.com/OpenAIDevs/status/2118856568485896621",
+     "aihot": "https://aihot.news/items/soqumnbh3k0s118hs9860rp9x",
+     "selected": false,
+     "score": 36,
      "category": "ai-products"
     },
     {
      "n": 6,
-     "title": "OpenAI 开发者分享 dot 手机端转发用法",
-     "source": "X：Dominik Kundel（OpenAI 开发者体验，Codex） (@dkundel)",
-     "ts": "2026-11-06T06:45:23.281000+08:00",
-     "publishedAt": "2026-11-05T22:39:31.000Z",
-     "discoveredAt": "2026-11-05T22:45:23.281Z",
-     "summary": "我在 Slack 里会往我的 dot 转发很多东西。现在我可以轻松地把手机上的任何内容分享给我的 dot 🙌",
-     "url": "https://x.com/dkundel/status/2118473311822782878",
-     "aihot": "https://aihot.news/items/pauu28g1nc923wt83z2u562yc",
+     "title": "GPT-Image-2.6 支持生成 GIF",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-07T08:01:25.669000+08:00",
+     "publishedAt": "2026-11-06T23:46:33.000Z",
+     "discoveredAt": "2026-11-07T00:01:25.669Z",
+     "summary": "每个人，或每个团队，都能用 GPT-Image-2.6 创作 GIF。",
+     "url": "https://x.com/OpenAIDevs/status/2118852567509909716",
+     "aihot": "https://aihot.news/items/fqj1p7582px47e6468ofmr24v",
      "selected": false,
-     "score": 20,
+     "score": 41,
      "category": "ai-products"
     },
     {
      "n": 7,
-     "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
-     "source": "OpenClaw：Blog（网页）",
-     "ts": "2026-11-06T01:59:35.326000+08:00",
-     "publishedAt": "2026-11-05T00:00:00.000Z",
-     "discoveredAt": "2026-11-05T17:59:35.326Z",
-     "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
-     "url": "https://openclaw.ai/blog/shattering-silos-with-openclaw-multiplayer",
-     "aihot": "https://aihot.news/items/djhbjedg8wqy6dnycdiz576nx",
-     "selected": true,
-     "score": 63,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "OpenAI 发布 GPT-Image-2.6 Flare 与 Sunburst，新增 GIF、SVG 导出和 6 秒生成",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-11-05T16:35:28.287000+08:00",
-     "publishedAt": "2026-11-05T07:03:17.000Z",
-     "discoveredAt": "2026-11-05T08:35:28.287Z",
-     "summary": "OpenAI 在 ChatGPT、Codex 和 API 上线 Images 2.6，API 端分为 GPT-Image-2.6 Flare 和 Sunburst 两个模型，官方称生成速度比此前快 50%，Flare 在低质量下最快 6 秒出图。",
-     "url": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/",
-     "aihot": "https://aihot.news/items/mcab7bd12n30tbwsd97xqpizh",
+     "title": "ChatGPT 推出 Remix 网站改版功能",
+     "source": "X：ChatGPT (@ChatGPT)",
+     "ts": "2026-11-07T06:20:25.615000+08:00",
+     "publishedAt": "2026-11-06T22:08:16.000Z",
+     "discoveredAt": "2026-11-06T22:20:25.615Z",
+     "summary": "你的同事做了一个很棒的网站。你自然有不少意见。 用 Remix，只需告诉 ChatGPT 你想改什么，就能做出你自己的网站版本。然后继续在对话中编辑你的副本。 现正向 ChatGPT Business 和 Enterprise 账户逐步推出。",
+     "url": "https://x.com/ChatGPT/status/2118827837239226387",
+     "aihot": "https://aihot.news/items/qdrxhavcgidc9rojc32l2h3r6",
      "selected": false,
-     "score": 67,
+     "score": 50,
      "category": "ai-products"
     }
    ],
@@ -252,161 +200,169 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 11,
+   "count": 4,
    "items": [
     {
-     "n": 9,
-     "title": "OpenAI 携手 UNSW、悉尼大学等澳洲高校培养 AI 原生毕业生",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-11-06T10:14:36.069000+08:00",
-     "publishedAt": "2026-11-05T17:00:00.000Z",
-     "discoveredAt": "2026-11-06T02:14:36.069Z",
-     "summary": "OpenAI 与 UNSW Sydney、University of Sydney、La Trobe University、Adelaide University 合作，为学生和教职工提供 ChatGPT Edu、Codex 等前沿 AI 工具。",
-     "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-     "aihot": "https://aihot.news/items/of7sv1284dwclo74wm6l1b1gj",
-     "selected": false,
-     "score": 51,
-     "category": "industry"
-    },
-    {
-     "n": 10,
-     "title": "OpenAI 宣布数据中心社区承诺，不再对公职人员使用 NDA",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-11-06T08:44:20.331000+08:00",
-     "publishedAt": "2026-11-06T00:37:56.000Z",
-     "discoveredAt": "2026-11-06T00:44:20.331Z",
-     "summary": "OpenAI 在中期选举选民表达反对数据中心扩建后宣布新的数据中心社区承诺，包括不再与公职人员签署保密协议（NDA），仅保留涉及安全信息、商业秘密或竞争敏感信息的窄幅保护。",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-     "aihot": "https://aihot.news/items/v74el189fl1z6z01w1ncvf0m7",
-     "selected": false,
-     "score": 60,
-     "category": "industry"
-    },
-    {
-     "n": 11,
-     "title": "OpenAI 承诺自建数据中心承担全部电力与电网成本，并推动监管将规则扩展到所有开发商",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-06T07:48:25.808000+08:00",
-     "publishedAt": "2026-11-05T23:36:15.000Z",
-     "discoveredAt": "2026-11-05T23:48:25.808Z",
-     "summary": "OpenAI 宣布其拥有的未来数据中心园区将承担全部电力和电网成本，项目被砍时提供财务担保，公开水、电力、噪音和招聘数据，避免与官员签保密协议，并资助当地优先事项，包括佐治亚州 480 万美元的学校餐费补助。",
-     "url": "https://x.com/rohanpaul_ai/status/2118487588571082829",
-     "aihot": "https://aihot.news/items/pa4qeatsai3vfpr66bcp7wur6",
-     "selected": false,
-     "score": 61,
-     "category": "industry"
-    },
-    {
-     "n": 12,
-     "title": "OpenAI 每日生成图片超 5 亿张",
+     "n": 8,
+     "title": "OpenAI 提及 Calif 采用 GPT-6 Cyber",
      "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-06T06:46:26.783000+08:00",
-     "publishedAt": "2026-11-05T22:26:25.000Z",
-     "discoveredAt": "2026-11-05T22:46:26.783Z",
-     "summary": "如果我没数错的话，那就是每天超过 5 亿张图片。",
-     "url": "https://x.com/thsottiaux/status/2118470016127598724",
-     "aihot": "https://aihot.news/items/o9epuz59tx7107sis2zndop4r",
+     "ts": "2026-11-07T14:42:33.719000+08:00",
+     "publishedAt": "2026-11-07T06:27:04.000Z",
+     "discoveredAt": "2026-11-07T06:42:33.719Z",
+     "summary": "Cyber",
+     "url": "https://x.com/thsottiaux/status/2118953362725159104",
+     "aihot": "https://aihot.news/items/mwmcix5w2uuq5j8rtbku9lxgh",
+     "selected": false,
+     "score": 29,
+     "category": "industry"
+    },
+    {
+     "n": 9,
+     "title": "OpenAI 单提示词能力展示",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-07T13:41:28.170000+08:00",
+     "publishedAt": "2026-11-07T05:30:18.000Z",
+     "discoveredAt": "2026-11-07T05:41:28.170Z",
+     "summary": "如今用单个提示词就能做到的事，真是相当酷 👀",
+     "url": "https://x.com/thsottiaux/status/2118939076791546000",
+     "aihot": "https://aihot.news/items/lt15ps7g4wzr1wn9sxn4meac9",
      "selected": false,
      "score": 13,
      "category": "industry"
     },
     {
-     "n": 13,
-     "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
+     "n": 10,
+     "title": "https://x.com/OpenAIDevs/status/2118855134813868078",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-07T08:01:25.602000+08:00",
+     "publishedAt": "2026-11-06T23:56:45.000Z",
+     "discoveredAt": "2026-11-07T00:01:25.602Z",
+     "summary": "",
+     "url": "https://x.com/OpenAIDevs/status/2118855134813868078",
+     "aihot": "https://aihot.news/items/s4f8irnn2xiwh7wyy2w4ujb6p",
+     "selected": false,
+     "score": 19,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118853913457701223",
+       "url": "https://x.com/OpenAIDevs/status/2118853913457701223",
+       "aihot": "https://aihot.news/items/ct6xfg2u3s80tswreff9fioas"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118854896183345587",
+       "url": "https://x.com/OpenAIDevs/status/2118854896183345587",
+       "aihot": "https://aihot.news/items/n4h0gyggf3cgy4og6gbio4rjv"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855219388015018",
+       "url": "https://x.com/OpenAIDevs/status/2118855219388015018",
+       "aihot": "https://aihot.news/items/wg3trgfo2fuyq1j6wvdf3kio3"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855346383102430",
+       "url": "https://x.com/OpenAIDevs/status/2118855346383102430",
+       "aihot": "https://aihot.news/items/lo41m3bfzfjoth9hbskkxon85"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118852594793906559",
+       "url": "https://x.com/OpenAIDevs/status/2118852594793906559",
+       "aihot": "https://aihot.news/items/rf24hd5xys7jcyzr9sdxsnbz0"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118854861248999788",
+       "url": "https://x.com/OpenAIDevs/status/2118854861248999788",
+       "aihot": "https://aihot.news/items/p6rl0ity9gngxv336a9alnu9d"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855091813818479",
+       "url": "https://x.com/OpenAIDevs/status/2118855091813818479",
+       "aihot": "https://aihot.news/items/s5rx59nm1ng52xwdclm30v7i2"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855308982313405",
+       "url": "https://x.com/OpenAIDevs/status/2118855308982313405",
+       "aihot": "https://aihot.news/items/qy8do8o9ezje9ztkv9y6j31rb"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118852589387128980",
+       "url": "https://x.com/OpenAIDevs/status/2118852589387128980",
+       "aihot": "https://aihot.news/items/e4l81962senzzrb8u7c3tukt6"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118854942656192575",
+       "url": "https://x.com/OpenAIDevs/status/2118854942656192575",
+       "aihot": "https://aihot.news/items/t1alha6g82k6rrwhl0j1d1ona"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118854987199463834",
+       "url": "https://x.com/OpenAIDevs/status/2118854987199463834",
+       "aihot": "https://aihot.news/items/zpz49cmlf0kkc63lnr37atqkt"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855181521785313",
+       "url": "https://x.com/OpenAIDevs/status/2118855181521785313",
+       "aihot": "https://aihot.news/items/bryv29haplaolzoi0slazb5ev"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855261049753929",
+       "url": "https://x.com/OpenAIDevs/status/2118855261049753929",
+       "aihot": "https://aihot.news/items/h6zlgnk8xgs09ojpbntm0zc37"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118852606147826047",
+       "url": "https://x.com/OpenAIDevs/status/2118852606147826047",
+       "aihot": "https://aihot.news/items/zwpix9dwpa0q477759v31k04p"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://x.com/OpenAIDevs/status/2118855051536138603",
+       "url": "https://x.com/OpenAIDevs/status/2118855051536138603",
+       "aihot": "https://aihot.news/items/m7qlxtwbw9prgzxdojlh2l6mm"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
      "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-06T06:15:26.778000+08:00",
-     "publishedAt": "2026-11-05T21:50:41.000Z",
-     "discoveredAt": "2026-11-05T22:15:26.778Z",
-     "summary": "11 月 5 日华尔街市值蒸发 3.2 万亿美元，Nasdaq 综合指数跌 5.52%，投资者恐慌民主党掌控国会将放缓高杠杆 AI 支出热潮。Nvidia 跌 9.3% 抹去 2026 年涨幅，费城半导体指数跌 12.3%，SanDisk 跌 22%，Micron、Western Digital 和 AMD 各跌 1…",
-     "url": "https://x.com/rohanpaul_ai/status/2118461023808323957",
-     "aihot": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
+     "ts": "2026-11-07T05:26:11.791000+08:00",
+     "publishedAt": "2026-11-06T21:10:13.000Z",
+     "discoveredAt": "2026-11-06T21:26:11.791Z",
+     "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
+     "url": "https://x.com/rohanpaul_ai/status/2118813225336873181",
+     "aihot": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
      "selected": true,
-     "score": 79,
-     "category": "industry"
-    },
-    {
-     "n": 14,
-     "title": "诉讼称男子向妻子介绍 ChatGPT 后遭其用 ChatGPT 策划投毒",
-     "source": "Ars Technica：AI（RSS）",
-     "ts": "2026-11-06T06:08:24.704000+08:00",
-     "publishedAt": "2026-11-05T21:39:40.000Z",
-     "discoveredAt": "2026-11-05T22:08:24.704Z",
-     "summary": "一起在旧金山高等法院公开的诉讼称，北卡罗来纳州女子 Cheryl Gates 在 ChatGPT 助长其丈夫要抛弃她的妄想后，用它获取夹竹桃投毒的具体剂量与用法指导，试图毒杀丈夫 James，10 月已被大陪审团起诉谋杀未遂和食品污染。",
-     "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-     "aihot": "https://aihot.news/items/o5fq0sqixr9j3zvlmcl9d01tj",
-     "selected": false,
-     "score": 73,
-     "category": "industry"
-    },
-    {
-     "n": 15,
-     "title": "OpenAI 招募持久智能体人才",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-06T05:13:26.711000+08:00",
-     "publishedAt": "2026-11-05T20:43:28.000Z",
-     "discoveredAt": "2026-11-05T21:13:26.711Z",
-     "summary": "来一起推动“蓬松感”的前沿吧 @_samirism：我们组建了一支由持久智能体领域最具才华的人组成的团队——让 dots 变得不可思议 如果你有兴趣加入，私信我 👀",
-     "url": "https://x.com/thsottiaux/status/2118444105969926407",
-     "aihot": "https://aihot.news/items/n70ar76v3v5x7m9mcxydejbun",
-     "selected": false,
-     "score": 15,
-     "category": "industry"
-    },
-    {
-     "n": 16,
-     "title": "OpenAI 公布负责任 AI 基建新承诺",
-     "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-     "ts": "2026-11-06T04:12:24.960000+08:00",
-     "publishedAt": "2026-11-05T20:09:03.000Z",
-     "discoveredAt": "2026-11-05T20:12:24.960Z",
-     "summary": "承载 AI 基础设施的社区，应当对其建设方式拥有发言权，并共享其带来的收益。 今天，我们宣布对所在社区的新承诺，以及关于负责任 AI 基础设施的政策建议。 https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
-     "url": "https://x.com/OpenAINewsroom/status/2118435446913159514",
-     "aihot": "https://aihot.news/items/to77pnxlc8v37c6ki5ccxzfkj",
-     "selected": false,
-     "score": 34,
-     "category": "industry"
-    },
-    {
-     "n": 17,
-     "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-11-06T02:39:07.338000+08:00",
-     "publishedAt": "2026-11-05T17:51:52.000Z",
-     "discoveredAt": "2026-11-05T18:39:07.338Z",
-     "summary": "美国中期选举民主党拿下参众两院，多场竞选以问责 AI 公司为主题，行业面临监管、数据中心建设放缓等前景。44 项地方数据中心暂停提案中 43 项通过，NBC 民调显示 76% 选民反对在社区建数据中心；",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
-     "aihot": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
-     "selected": true,
-     "score": 82,
-     "category": "industry"
-    },
-    {
-     "n": 18,
-     "title": "Luma MCP 接入 Claude 与 ChatGPT",
-     "source": "X：Luma AI (@LumaLabsAI)",
-     "ts": "2026-11-06T00:05:44.096000+08:00",
-     "publishedAt": "2026-11-05T16:00:00.000Z",
-     "discoveredAt": "2026-11-05T16:05:44.096Z",
-     "summary": "需求又变了。 Luma MCP 将 Luma 的预设工作流带入 Claude 和 ChatGPT。 从产品图开始。调整角度。更换场景。加上优惠信息。直达成品创意。 Q4 每周都在变。你的创意也该如此。",
-     "url": "https://x.com/LumaLabsAI/status/2118372770547487117",
-     "aihot": "https://aihot.news/items/muti8c01gm0qqb7pztk2k5uv2",
-     "selected": false,
-     "score": 35,
-     "category": "industry"
-    },
-    {
-     "n": 19,
-     "title": "Claude Code 产品负责人 Catherine Wu 跳槽 OpenAI 主管 Core Products 产品",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-05T20:59:39.792000+08:00",
-     "publishedAt": "2026-11-05T12:20:35.000Z",
-     "discoveredAt": "2026-11-05T12:59:39.792Z",
-     "summary": "Claude Code 产品负责人 Catherine Wu 宣布加入 OpenAI，领导 Core Products 的产品管理，Codex 和 ChatGPT 负责人 Thibault Sottiaux 以 \"CatGPT\" 迎接她。",
-     "url": "https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/",
-     "aihot": "https://aihot.news/items/fexoyemkfcd2534uy2823qx0i",
-     "selected": false,
-     "score": 56,
-     "category": "industry"
+     "score": 86,
+     "category": "industry",
+     "also": [
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "OpenAI 新一轮融资 110 亿美元，估值达 1.25 万亿美元",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+       "aihot": "https://aihot.news/items/rwtxr2ojxyp783mxrtbwcsgpx"
+      },
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "OpenAI 传已融资 110 亿美元，估值 1.25 万亿美元",
+       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+       "aihot": "https://aihot.news/items/nzv1dbnt3om3p6ff8fujiq0ga"
+      }
+     ]
     }
    ],
    "note": null
@@ -417,17 +373,17 @@
    "count": 1,
    "items": [
     {
-     "n": 20,
-     "title": "Anthropic 研究 20.7 万 Claude 科研会话：科学家如何使用 Claude",
-     "source": "Anthropic：Research（发表成果 · 网页）",
-     "ts": "2026-11-06T00:02:36.670000+08:00",
-     "publishedAt": "2026-11-04T16:00:00.000Z",
-     "discoveredAt": "2026-11-05T16:02:36.670Z",
-     "summary": "Anthropic 用隐私保护方法分析 207,049 个 Claude 与 Claude Code 科研会话（2026 年 8 月 2 日至 9 月 30 日，消费版套餐），并辅以 528 名科学家调查，研究 Claude 在各科学领域的使用方式。",
-     "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-     "aihot": "https://aihot.news/items/giyl2h74lq7ygv5c7vpxu887m",
+     "n": 12,
+     "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-11-07T07:53:26.760000+08:00",
+     "publishedAt": "2026-11-06T23:40:40.000Z",
+     "discoveredAt": "2026-11-06T23:53:26.760Z",
+     "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
+     "url": "https://x.com/ArtificialAnlys/status/2118851088111865983",
+     "aihot": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
      "selected": true,
-     "score": 72,
+     "score": 81,
      "category": "paper"
     }
    ],
@@ -436,24 +392,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 21,
-     "title": "Vinod Khosla 为何不投 Anthropic：OpenAI 内部视角更值钱",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-06T07:17:26.346000+08:00",
-     "publishedAt": "2026-11-05T22:47:30.000Z",
-     "discoveredAt": "2026-11-05T23:17:26.346Z",
-     "summary": "Vinod Khosla 解释自己跳过投资 Anthropic 的原因：靠近 OpenAI 并明确不投竞争对手，能获得更多关于 AI 走向的内部洞察，他认为这比从 Anthropic 赚取的额外利润更有价值。相关完整视频发布在 WSJ Events 的 YouTube 频道。",
-     "url": "https://x.com/rohanpaul_ai/status/2118475321758580775",
-     "aihot": "https://aihot.news/items/i07xv3ev0jjl8dvv0ncby1pcp",
-     "selected": false,
-     "score": 33,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
