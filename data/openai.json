@@ -15,12 +15,12 @@
   ],
   "windowDays": 1,
   "winStart": "2026-11-07",
-  "winEnd": "2026-11-07",
-  "generated": "2026-11-07 14:54",
-  "rawHits": 37,
-  "selectedHits": 3,
-  "shown": 12,
-  "dedupedFrom": 29,
+  "winEnd": "2026-11-08",
+  "generated": "2026-11-08 15:01",
+  "rawHits": 22,
+  "selectedHits": 2,
+  "shown": 8,
+  "dedupedFrom": 8,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,15 +43,15 @@
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 22,
+    "hasMore": false,
     "from_cache": false
    },
    {
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,112 +86,27 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
-     "source": "OpenClaw：Blog（网页）",
-     "ts": "2026-11-07T01:19:07.678000+08:00",
-     "publishedAt": "2026-11-06T00:00:00.000Z",
-     "discoveredAt": "2026-11-06T17:19:07.678Z",
-     "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。",
-     "url": "https://openclaw.ai/blog/use-new-models-in-openclaw-without-an-update",
-     "aihot": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
-     "selected": true,
-     "score": 63,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 6,
+   "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "Cindy 支持自动使用 Codex 重置",
-     "source": "X：Dash (@dashhuang)",
-     "ts": "2026-11-07T10:31:16.975000+08:00",
-     "publishedAt": "2026-11-07T02:11:51.000Z",
-     "discoveredAt": "2026-11-07T02:31:16.975Z",
-     "summary": "Cindy 有自动使用 Codex 重置的功能，杜绝一切浪费😜",
-     "url": "https://x.com/DashHuang/status/2118889135356424400",
-     "aihot": "https://aihot.news/items/t7c3igyhqnf6594r77atzex0y",
+     "n": 1,
+     "title": "OpenAI 是否该推出 Pro 50 套餐？",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-08T13:49:29.877000+08:00",
+     "publishedAt": "2026-11-08T05:45:31.000Z",
+     "discoveredAt": "2026-11-08T05:49:29.877Z",
+     "summary": "推出 Pro 50 合理吗？你们怎么看？",
+     "url": "https://x.com/thsottiaux/status/2119305294291612140",
+     "aihot": "https://aihot.news/items/yps8ewbiuj5isq5x491gzdurf",
      "selected": false,
-     "score": 21,
-     "category": "ai-products"
-    },
-    {
-     "n": 3,
-     "title": "OpenAI 开发者插件新增 Showcase 标签页",
-     "source": "X：OpenAI Developers (@OpenAIDevs)",
-     "ts": "2026-11-07T08:32:26.486000+08:00",
-     "publishedAt": "2026-11-07T00:02:21.000Z",
-     "discoveredAt": "2026-11-07T00:32:26.486Z",
-     "summary": "用 OpenAI 开发者插件中全新的 Showcase 标签页，开启你的周末开发吧。 符合条件的 ChatGPT Pro 和 Business 订阅用户可在账单设置中领取 API 额度，用于抵扣其应用的 API 用量。",
-     "url": "https://x.com/OpenAIDevs/status/2118856544733532452",
-     "aihot": "https://aihot.news/items/d02jyv39oxrz1qsxk1ssuarg6",
-     "selected": false,
-     "score": 32,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "OpenAI 发放 API 额度并指引开发者领取",
-     "source": "X：OpenAI Developers (@OpenAIDevs)",
-     "ts": "2026-11-07T08:32:26.479000+08:00",
-     "publishedAt": "2026-11-07T00:02:24.000Z",
-     "discoveredAt": "2026-11-07T00:32:26.479Z",
-     "summary": "领取你的 API 额度，开始构建： https://x.com/openaidevs/status/2115583710288613476?a=zjaij-PwMcVSpTn9LiM&s=46",
-     "url": "https://x.com/OpenAIDevs/status/2118856556725043402",
-     "aihot": "https://aihot.news/items/yc4viww2man8htuw4evlczwkb",
-     "selected": false,
-     "score": 40,
-     "category": "ai-products"
-    },
-    {
-     "n": 5,
-     "title": "OpenAI API 入门项目上线 Codex",
-     "source": "X：OpenAI Developers (@OpenAIDevs)",
-     "ts": "2026-11-07T08:32:26.472000+08:00",
-     "publishedAt": "2026-11-07T00:02:27.000Z",
-     "discoveredAt": "2026-11-07T00:32:26.472Z",
-     "summary": "你可以从面向 OpenAI API 的入门项目中选择，涵盖智能体、创意工具、数据可视化和语音。在 Codex 中打开一个项目，并在其基础上构建。 找一个项目来二次创作： https://developers.openai.com/showcase/api",
-     "url": "https://x.com/OpenAIDevs/status/2118856568485896621",
-     "aihot": "https://aihot.news/items/soqumnbh3k0s118hs9860rp9x",
-     "selected": false,
-     "score": 36,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "GPT-Image-2.6 支持生成 GIF",
-     "source": "X：OpenAI Developers (@OpenAIDevs)",
-     "ts": "2026-11-07T08:01:25.669000+08:00",
-     "publishedAt": "2026-11-06T23:46:33.000Z",
-     "discoveredAt": "2026-11-07T00:01:25.669Z",
-     "summary": "每个人，或每个团队，都能用 GPT-Image-2.6 创作 GIF。",
-     "url": "https://x.com/OpenAIDevs/status/2118852567509909716",
-     "aihot": "https://aihot.news/items/fqj1p7582px47e6468ofmr24v",
-     "selected": false,
-     "score": 41,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "ChatGPT 推出 Remix 网站改版功能",
-     "source": "X：ChatGPT (@ChatGPT)",
-     "ts": "2026-11-07T06:20:25.615000+08:00",
-     "publishedAt": "2026-11-06T22:08:16.000Z",
-     "discoveredAt": "2026-11-06T22:20:25.615Z",
-     "summary": "你的同事做了一个很棒的网站。你自然有不少意见。 用 Remix，只需告诉 ChatGPT 你想改什么，就能做出你自己的网站版本。然后继续在对话中编辑你的副本。 现正向 ChatGPT Business 和 Enterprise 账户逐步推出。",
-     "url": "https://x.com/ChatGPT/status/2118827837239226387",
-     "aihot": "https://aihot.news/items/qdrxhavcgidc9rojc32l2h3r6",
-     "selected": false,
-     "score": 50,
+     "score": 28,
      "category": "ai-products"
     }
    ],
@@ -200,169 +115,91 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 4,
+   "count": 6,
    "items": [
     {
-     "n": 8,
-     "title": "OpenAI 提及 Calif 采用 GPT-6 Cyber",
+     "n": 2,
+     "title": "OpenAI Pro 各档用量对比 Plus 说明",
      "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-07T14:42:33.719000+08:00",
-     "publishedAt": "2026-11-07T06:27:04.000Z",
-     "discoveredAt": "2026-11-07T06:42:33.719Z",
-     "summary": "Cyber",
-     "url": "https://x.com/thsottiaux/status/2118953362725159104",
-     "aihot": "https://aihot.news/items/mwmcix5w2uuq5j8rtbku9lxgh",
+     "ts": "2026-11-08T13:18:29.850000+08:00",
+     "publishedAt": "2026-11-08T05:09:39.000Z",
+     "discoveredAt": "2026-11-08T05:18:29.850Z",
+     "summary": "看到一些混淆，但所有 Pro 套餐都没有 5 小时限制，并且相比 Plus 提供以下用量。 ✅ Pro 100 = 10X ✅ Pro 200 = 20X ✅ Pro 500 = 50X，可使用 ultrafast",
+     "url": "https://x.com/thsottiaux/status/2119296267545419987",
+     "aihot": "https://aihot.news/items/i0qylf97r1at94oogm9m3eg9l",
      "selected": false,
-     "score": 29,
+     "score": 48,
      "category": "industry"
     },
     {
-     "n": 9,
-     "title": "OpenAI 单提示词能力展示",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-07T13:41:28.170000+08:00",
-     "publishedAt": "2026-11-07T05:30:18.000Z",
-     "discoveredAt": "2026-11-07T05:41:28.170Z",
-     "summary": "如今用单个提示词就能做到的事，真是相当酷 👀",
-     "url": "https://x.com/thsottiaux/status/2118939076791546000",
-     "aihot": "https://aihot.news/items/lt15ps7g4wzr1wn9sxn4meac9",
+     "n": 3,
+     "title": "多名用户反映 ChatGPT 账号遭突然停用，200 美元 Pro 用户也在其中",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-08T12:05:25.003000+08:00",
+     "publishedAt": "2026-11-08T03:55:11.250Z",
+     "discoveredAt": "2026-11-08T04:05:25.003Z",
+     "summary": "近日多名用户在 Reddit 和 OpenAI 开发者社区反映 ChatGPT 账号突然被停用，其中包括每月 200 美元的 Pro 用户，部分人事前未收到任何通知，聊天记录和工作资料无法访问。",
+     "url": "https://www.ithome.com/1/023/879.htm",
+     "aihot": "https://aihot.news/items/gqk47c2d28cmvwwhm14ltqxnu",
      "selected": false,
-     "score": 13,
+     "score": 53,
      "category": "industry"
     },
     {
-     "n": 10,
-     "title": "https://x.com/OpenAIDevs/status/2118855134813868078",
-     "source": "X：OpenAI Developers (@OpenAIDevs)",
-     "ts": "2026-11-07T08:01:25.602000+08:00",
-     "publishedAt": "2026-11-06T23:56:45.000Z",
-     "discoveredAt": "2026-11-07T00:01:25.602Z",
-     "summary": "",
-     "url": "https://x.com/OpenAIDevs/status/2118855134813868078",
-     "aihot": "https://aihot.news/items/s4f8irnn2xiwh7wyy2w4ujb6p",
-     "selected": false,
-     "score": 19,
-     "category": "industry",
-     "also": [
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118853913457701223",
-       "url": "https://x.com/OpenAIDevs/status/2118853913457701223",
-       "aihot": "https://aihot.news/items/ct6xfg2u3s80tswreff9fioas"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118854896183345587",
-       "url": "https://x.com/OpenAIDevs/status/2118854896183345587",
-       "aihot": "https://aihot.news/items/n4h0gyggf3cgy4og6gbio4rjv"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855219388015018",
-       "url": "https://x.com/OpenAIDevs/status/2118855219388015018",
-       "aihot": "https://aihot.news/items/wg3trgfo2fuyq1j6wvdf3kio3"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855346383102430",
-       "url": "https://x.com/OpenAIDevs/status/2118855346383102430",
-       "aihot": "https://aihot.news/items/lo41m3bfzfjoth9hbskkxon85"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118852594793906559",
-       "url": "https://x.com/OpenAIDevs/status/2118852594793906559",
-       "aihot": "https://aihot.news/items/rf24hd5xys7jcyzr9sdxsnbz0"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118854861248999788",
-       "url": "https://x.com/OpenAIDevs/status/2118854861248999788",
-       "aihot": "https://aihot.news/items/p6rl0ity9gngxv336a9alnu9d"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855091813818479",
-       "url": "https://x.com/OpenAIDevs/status/2118855091813818479",
-       "aihot": "https://aihot.news/items/s5rx59nm1ng52xwdclm30v7i2"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855308982313405",
-       "url": "https://x.com/OpenAIDevs/status/2118855308982313405",
-       "aihot": "https://aihot.news/items/qy8do8o9ezje9ztkv9y6j31rb"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118852589387128980",
-       "url": "https://x.com/OpenAIDevs/status/2118852589387128980",
-       "aihot": "https://aihot.news/items/e4l81962senzzrb8u7c3tukt6"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118854942656192575",
-       "url": "https://x.com/OpenAIDevs/status/2118854942656192575",
-       "aihot": "https://aihot.news/items/t1alha6g82k6rrwhl0j1d1ona"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118854987199463834",
-       "url": "https://x.com/OpenAIDevs/status/2118854987199463834",
-       "aihot": "https://aihot.news/items/zpz49cmlf0kkc63lnr37atqkt"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855181521785313",
-       "url": "https://x.com/OpenAIDevs/status/2118855181521785313",
-       "aihot": "https://aihot.news/items/bryv29haplaolzoi0slazb5ev"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855261049753929",
-       "url": "https://x.com/OpenAIDevs/status/2118855261049753929",
-       "aihot": "https://aihot.news/items/h6zlgnk8xgs09ojpbntm0zc37"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118852606147826047",
-       "url": "https://x.com/OpenAIDevs/status/2118852606147826047",
-       "aihot": "https://aihot.news/items/zwpix9dwpa0q477759v31k04p"
-      },
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "https://x.com/OpenAIDevs/status/2118855051536138603",
-       "url": "https://x.com/OpenAIDevs/status/2118855051536138603",
-       "aihot": "https://aihot.news/items/m7qlxtwbw9prgzxdojlh2l6mm"
-      }
-     ]
-    },
-    {
-     "n": 11,
-     "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-07T05:26:11.791000+08:00",
-     "publishedAt": "2026-11-06T21:10:13.000Z",
-     "discoveredAt": "2026-11-06T21:26:11.791Z",
-     "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
-     "url": "https://x.com/rohanpaul_ai/status/2118813225336873181",
-     "aihot": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+     "n": 4,
+     "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-08T01:41:53.921000+08:00",
+     "publishedAt": "2026-11-07T17:37:25.000Z",
+     "discoveredAt": "2026-11-07T17:41:53.921Z",
+     "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。",
+     "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+     "aihot": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
      "selected": true,
-     "score": 86,
-     "category": "industry",
-     "also": [
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "OpenAI 新一轮融资 110 亿美元，估值达 1.25 万亿美元",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-       "aihot": "https://aihot.news/items/rwtxr2ojxyp783mxrtbwcsgpx"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 传已融资 110 亿美元，估值 1.25 万亿美元",
-       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-       "aihot": "https://aihot.news/items/nzv1dbnt3om3p6ff8fujiq0ga"
-      }
-     ]
+     "score": 76,
+     "category": "industry"
+    },
+    {
+     "n": 5,
+     "title": "OpenAI 获得 110 亿美元融资首笔，估值 1.25 万亿美元",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-07T18:37:30.685000+08:00",
+     "publishedAt": "2026-11-07T09:45:23.000Z",
+     "discoveredAt": "2026-11-07T10:37:30.685Z",
+     "summary": "OpenAI 获得约 110 亿美元新融资，这是总额最高可达 200 亿美元一轮的首笔，投后估值 1.25 万亿美元。OpenAI 原计划以 1.4 万亿美元估值融资 300 亿美元，因 AI 板块抛售而缩水，投资方包括 Coatue、SoftBank、红杉、a16z 等，另在通过投行引入富裕个人投资者。",
+     "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+     "aihot": "https://aihot.news/items/dylhmpqmmpf0ep3ccil29t1uv",
+     "selected": false,
+     "score": 74,
+     "category": "industry"
+    },
+    {
+     "n": 6,
+     "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-07T17:44:05.770000+08:00",
+     "publishedAt": "2026-11-07T09:16:42.957Z",
+     "discoveredAt": "2026-11-07T09:44:05.770Z",
+     "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。",
+     "url": "https://www.ithome.com/1/023/765.htm",
+     "aihot": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
+     "selected": true,
+     "score": 79,
+     "category": "industry"
+    },
+    {
+     "n": 7,
+     "title": "OpenAI CFO 弗莱尔：中期选举不影响 IPO 计划，明年争取上市",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-07T15:38:29.156000+08:00",
+     "publishedAt": "2026-11-07T07:04:47.587Z",
+     "discoveredAt": "2026-11-07T07:38:29.156Z",
+     "summary": "OpenAI CFO 莎拉·弗莱尔 11 月 6 日接受 CNBC 采访时表示，2026 年美国中期选举改变国会格局，但不影响公司争取明年上市的 IPO 计划。",
+     "url": "https://www.ithome.com/1/023/690.htm",
+     "aihot": "https://aihot.news/items/sideachwa4x7k8rhu8fazirt1",
+     "selected": false,
+     "score": 58,
+     "category": "industry"
     }
    ],
    "note": null
@@ -370,31 +207,31 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 12,
-     "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "ts": "2026-11-07T07:53:26.760000+08:00",
-     "publishedAt": "2026-11-06T23:40:40.000Z",
-     "discoveredAt": "2026-11-06T23:53:26.760Z",
-     "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
-     "url": "https://x.com/ArtificialAnlys/status/2118851088111865983",
-     "aihot": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
-     "selected": true,
-     "score": 81,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 8,
+     "title": "GPT-Image-2.6 实测：10 个 GIF 玩法与提示语分享，附人脸漂移与成本问题",
+     "source": "公众号：卡尔的AI沃茨",
+     "ts": "2026-11-07T19:32:35.645000+08:00",
+     "publishedAt": "2026-11-07T11:22:20.000Z",
+     "discoveredAt": "2026-11-07T11:32:35.645Z",
+     "summary": "作者整理 GPT-Image-2.6 的 10 个 GIF 玩法并附提示语，包括黏土定格动画、抽象表情包、剪辑贴纸、loading 图、PPT 动态图表、产品演示、2.5D 爆炸图等，另测试了跨对话角色记忆、结构引出线拆解图和纯矢量 SVG 输出三项新能力。",
+     "url": "https://mp.weixin.qq.com/s/AFBcZGMlNJxBmlqhHEPOSg",
+     "aihot": "https://aihot.news/items/xkzbtxxcskce5dgl0wjvf67fo",
+     "selected": false,
+     "score": 69,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
