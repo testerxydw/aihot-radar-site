@@ -14,13 +14,13 @@
    "Dario Amodei"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-07",
-  "winEnd": "2026-11-08",
-  "generated": "2026-11-08 15:01",
-  "rawHits": 20,
-  "selectedHits": 2,
-  "shown": 7,
-  "dedupedFrom": 8,
+  "winStart": "2026-11-08",
+  "winEnd": "2026-11-09",
+  "generated": "2026-11-09 15:45",
+  "rawHits": 28,
+  "selectedHits": 1,
+  "shown": 9,
+  "dedupedFrom": 11,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "Anthropic",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "Anthropic",
     "mode": "all",
     "window": "24h",
-    "count": 19,
+    "count": 18,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Claude",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Claude",
     "mode": "all",
     "window": "24h",
-    "count": 9,
+    "count": 16,
     "hasMore": false,
     "from_cache": false
    },
@@ -67,7 +67,7 @@
     "q": "Dario Amodei",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,24 +86,9 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "METR 报告称 Anthropic 模型改进速度翻倍，引发安全研究者担忧",
-     "source": "The Verge：AI（RSS）",
-     "ts": "2026-11-07T21:11:20.501000+08:00",
-     "publishedAt": "2026-11-07T12:30:00.000Z",
-     "discoveredAt": "2026-11-07T13:11:20.501Z",
-     "summary": "METR 发布对 Anthropic 的 11 周调查报告，称其 AI 模型改进速度约为一年前的两倍，相当于一年完成了过去约两年的进展，且研究者确信加速主要来自 AI 而非单纯扩大算力。",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-     "aihot": "https://aihot.news/items/j6utt82rqsa589x0tjmmwof3i",
-     "selected": false,
-     "score": 78,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
@@ -111,17 +96,17 @@
    "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "Karpathy 用 Claude Code 一次成型打造 TristanTube 视频站",
-     "source": "X：Andrej Karpathy (@karpathy)",
-     "ts": "2026-11-08T01:25:52.934000+08:00",
-     "publishedAt": "2026-11-07T17:07:31.000Z",
-     "discoveredAt": "2026-11-07T17:25:52.934Z",
-     "summary": "Andrej Karpathy 基于本周 Tristan 公布的 YouTube 频道分级清单，用 Claude Code 一次生成 TristanTube，收录 4.7 万个高技术含量视频并附带 TV 模式，全程仅用 3 分钟，站点在 karpathy.ai/tristan-tube/。",
-     "url": "https://x.com/karpathy/status/2119114537442189652",
-     "aihot": "https://aihot.news/items/yatljomnnxk39an1vzjyrih1u",
+     "n": 1,
+     "title": "Anthropic 开发者用 Omi 打造本地语音智能体编排应用",
+     "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+     "ts": "2026-11-09T03:28:07.513000+08:00",
+     "publishedAt": "2026-11-08T19:07:39.000Z",
+     "discoveredAt": "2026-11-08T19:28:07.513Z",
+     "summary": "Anthropic 开发者关系成员 Ado Kukic 用开源录音设备 Omi 做了一个全本地应用：Omi 采集音频，Parakeet 转写，再由 Claude 评估内容并创建任务、触发工作流，在相关时自动执行并保持人工确认。他表示仍在调整，但这是近期最有意思的周末项目之一。",
+     "url": "https://x.com/adocomplete/status/2119507158547206581",
+     "aihot": "https://aihot.news/items/bzvoaxlkwhohwvfhs11vxsf1i",
      "selected": false,
-     "score": 57,
+     "score": 36,
      "category": "ai-products"
     }
    ],
@@ -130,57 +115,51 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 3,
+   "count": 2,
    "items": [
     {
-     "n": 3,
-     "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-08T01:41:53.921000+08:00",
-     "publishedAt": "2026-11-07T17:37:25.000Z",
-     "discoveredAt": "2026-11-07T17:41:53.921Z",
-     "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。",
-     "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
-     "aihot": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
-     "selected": true,
-     "score": 76,
+     "n": 2,
+     "title": "Chamath：算力涨价或迫使 SpaceX 重定价 Anthropic 合约",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-08T23:02:32.059000+08:00",
+     "publishedAt": "2026-11-08T14:51:21.000Z",
+     "discoveredAt": "2026-11-08T15:02:32.059Z",
+     "summary": "Chamath 在 All-In Podcast 上称，若数据中心稀缺把算力价格推高 2 到 3 倍，SpaceX 与 Anthropic 的算力合约定价将由表格决定，而非两家公司关系。",
+     "url": "https://x.com/rohanpaul_ai/status/2119442655449084213",
+     "aihot": "https://aihot.news/items/mxwosbpncetduvls55un7poqo",
+     "selected": false,
+     "score": 42,
      "category": "industry",
      "also": [
       {
-       "source": "IT之家·人工智能",
-       "title": "消息称 Anthropic 仍推进 IPO：拟募资 800 亿至 1000 亿美元，估值预期回落",
-       "url": "https://www.ithome.com/1/023/854.htm",
-       "aihot": "https://aihot.news/items/cjulee90gasnt7mbhmxcuiiqj"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Chamath：SpaceX 或可 90 天通知终止 Anthropic 算力协议",
+       "url": "https://x.com/rohanpaul_ai/status/2119409905434268064",
+       "aihot": "https://aihot.news/items/a79k7qxfjru08x725j9lnfh9l"
       }
      ]
     },
     {
-     "n": 4,
-     "title": "法官裁定 Anthropic 须继续应对 Claude Max 额度虚假宣传指控",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-07T23:33:41.866000+08:00",
-     "publishedAt": "2026-11-07T14:57:42.007Z",
-     "discoveredAt": "2026-11-07T15:33:41.866Z",
-     "summary": "美国联邦治安法官谢文辉（Alex Tse）裁定，Anthropic 须继续应对 Claude Max 套餐额度涉嫌误导消费者的主要指控，同时驳回其他几项诉求。",
-     "url": "https://www.ithome.com/1/023/824.htm",
-     "aihot": "https://aihot.news/items/nkto90mden5qb8epdfwle6sjw",
+     "n": 3,
+     "title": "FT 报道 Anthropic 以 34 亿美元购入 1.7GW Caterpillar 燃气发电机",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-08T22:31:28.432000+08:00",
+     "publishedAt": "2026-11-08T14:05:57.000Z",
+     "discoveredAt": "2026-11-08T14:31:28.432Z",
+     "summary": "据 FT 报道，Anthropic 以 34 亿美元购入 1.7GW 的 Caterpillar 燃气发电机，是已知 AI 实验室最大规模的电力设备采购。这些订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单但因融资失败被 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。",
+     "url": "https://x.com/rohanpaul_ai/status/2119431232165683269",
+     "aihot": "https://aihot.news/items/fhtzzpeq9pxo021k0uk7s034p",
      "selected": false,
-     "score": 66,
-     "category": "industry"
-    },
-    {
-     "n": 5,
-     "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-07T17:44:05.770000+08:00",
-     "publishedAt": "2026-11-07T09:16:42.957Z",
-     "discoveredAt": "2026-11-07T09:44:05.770Z",
-     "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。",
-     "url": "https://www.ithome.com/1/023/765.htm",
-     "aihot": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
-     "selected": true,
-     "score": 79,
-     "category": "industry"
+     "score": 74,
+     "category": "industry",
+     "also": [
+      {
+       "source": "IT之家·人工智能",
+       "title": "Anthropic 拟以 34 亿美元采购 1.7GW 燃气发电机组，为 AI 公司迄今最大发电设备订单",
+       "url": "https://www.ithome.com/1/023/989.htm",
+       "aihot": "https://aihot.news/items/sw1sy1ek0k6d1nxicvv57r3j6"
+      }
+     ]
     }
    ],
    "note": null
@@ -188,20 +167,34 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 6,
-     "title": "PSI 借助 Anthropic 未发布模型证明 2008 年提出的阿伦森－安拜尼斯猜想",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-07T16:41:18.314000+08:00",
-     "publishedAt": "2026-11-07T08:10:11.997Z",
-     "discoveredAt": "2026-11-07T08:41:18.314Z",
-     "summary": "物理研究机构 Physical Superintelligence（PSI）宣布，借助 Anthropic 一款尚未发布的 AI 模型，仅用三天证明了量子计算领域自 2008 年悬置至今的阿伦森－安拜尼斯猜想。",
-     "url": "https://www.ithome.com/1/023/752.htm",
-     "aihot": "https://aihot.news/items/ybocws80sxesro5ax86aqw0b2",
+     "n": 4,
+     "title": "Simon Willison 实测 Claude Opus 5.5 用原生 JS + WebGL 移植 Three.js 3D 项目",
+     "source": "Simon Willison 博客",
+     "ts": "2026-11-09T13:43:21.814000+08:00",
+     "publishedAt": "2026-11-09T04:32:33.000Z",
+     "discoveredAt": "2026-11-09T05:43:21.814Z",
+     "summary": "Simon Willison 在评论 Paul Ford 的文章《The Web Is More Than Enough》后做了实验，他用 Claude Opus 5.5 Medium 在常规 Claude Chat 中把当天用 Three.js 做的海蛞蝓主题法贝热彩蛋移植为 Vanilla JS，产物从 77KB…",
+     "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+     "aihot": "https://aihot.news/items/jv1ln157wzhngef4tznmco2va",
      "selected": false,
-     "score": 70,
+     "score": 54,
+     "category": "paper"
+    },
+    {
+     "n": 5,
+     "title": "Anthropic 研究报告：科学家多用 Claude 做数据分析和写作",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-09T12:03:22.750000+08:00",
+     "publishedAt": "2026-11-09T03:41:26.513Z",
+     "discoveredAt": "2026-11-09T04:03:22.750Z",
+     "summary": "Anthropic 发布研究报告，分析 2026 年 8 月 2 日至 9 月 30 日的 20.7 万次科研会话，显示科学家主要将 Claude 用于数据分析和写作，数据收集与假设生成较少。",
+     "url": "https://www.ithome.com/1/024/111.htm",
+     "aihot": "https://aihot.news/items/s3nzazhg1cz8va4y420xsklyd",
+     "selected": false,
+     "score": 61,
      "category": "paper"
     }
    ],
@@ -210,20 +203,62 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 4,
    "items": [
     {
+     "n": 6,
+     "title": "黄仁勋职位悬了？耶鲁教授 Sonnenfeld 估计去留概率约五五开",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-09T13:49:20.143000+08:00",
+     "publishedAt": "2026-11-09T05:26:29.000Z",
+     "discoveredAt": "2026-11-09T05:49:20.143Z",
+     "summary": "TechCrunch 编辑专访耶鲁管理学院教授 Jeffrey Sonnenfeld，评估 Nvidia CEO 黄仁勋因与涉嫌为中国收集情报的 Megaspeed 高管 Alice Huang 有染而面临的职位风险，Sonnenfeld 称其能否保住职位概率约五五开。",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+     "aihot": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
+     "selected": true,
+     "score": 83,
+     "category": "tip"
+    },
+    {
      "n": 7,
-     "title": "Addy Osmani 分享 Claude Code 简洁输出技巧",
-     "source": "X：Addy Osmani (@addyosmani)",
-     "ts": "2026-11-07T15:05:34.377000+08:00",
-     "publishedAt": "2026-11-07T06:48:51.000Z",
-     "discoveredAt": "2026-11-07T07:05:34.377Z",
-     "summary": "小提示：把 Claude Code 的输出风格切换为 Concise，可以获得简短、直奔主题的结果。 通过 /config → Output style 启用，或直接在 settings.json 中添加 \"outputStyle\": \"Concise\"。 需要完整细节时，你仍然可以询问获得。",
-     "url": "https://x.com/addyosmani/status/2118958843501920268",
-     "aihot": "https://aihot.news/items/rcbixqny6j996q0gyklgh6q3r",
+     "title": "Cathie Wood 指责 Anthropic CEO 引发 AI 负面舆论",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-09T09:51:19.580000+08:00",
+     "publishedAt": "2026-11-09T01:23:51.000Z",
+     "discoveredAt": "2026-11-09T01:51:19.580Z",
+     "summary": "Cathie Wood 将 AI 遭遇的负面舆论归咎于 Anthropic 及其 CEO Dario，批评其宣扬\"未来十年人类灭绝概率 10%\"和\"大规模失业\"等说法。她表示完全不认同这两种结果，并预测未来反而会面临劳动力短缺。相关完整视频发布在 ARK Invest 的 YouTube 频道。",
+     "url": "https://x.com/rohanpaul_ai/status/2119601829843722340",
+     "aihot": "https://aihot.news/items/g6fa8vxp57v3r0s9i61pxtebh",
      "selected": false,
-     "score": 45,
+     "score": 33,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "Simon Willison 实测用 Claude 编写 SQLite parse_number() 扩展并对比 C 与 Rust 性能",
+     "source": "Simon Willison 博客",
+     "ts": "2026-11-09T07:38:23.372000+08:00",
+     "publishedAt": "2026-11-08T22:26:00.000Z",
+     "discoveredAt": "2026-11-08T23:38:23.372Z",
+     "summary": "Simon Willison 记录用 Claude Opus 5.5 编写 SQLite 自定义函数 parse_number() 的过程，该函数将 -$1,234.56、'12.5%' 等字符串转为可排序求和的数值。",
+     "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+     "aihot": "https://aihot.news/items/ppdjty0ow3ytzemiylt9jb0xa",
+     "selected": false,
+     "score": 51,
+     "category": "tip"
+    },
+    {
+     "n": 9,
+     "title": "Andrej Karpathy 用 Claude 周末搭建视频精选平台 HackerTube",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-08T22:38:25.493000+08:00",
+     "publishedAt": "2026-11-08T14:23:00.000Z",
+     "discoveredAt": "2026-11-08T14:38:25.493Z",
+     "summary": "Andrej Karpathy 用 Claude Opus 5.5 在一个周末搭建了 HackerTube，从 20 年 Hacker News 的 4300 万条评论中筛出 6454 个视频，并称观看体验明显优于 YouTube 自身的推荐。",
+     "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+     "aihot": "https://aihot.news/items/xas58u8z185ani3f4rhsm198h",
+     "selected": false,
+     "score": 58,
      "category": "tip"
     }
    ],
