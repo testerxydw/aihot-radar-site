@@ -175,13 +175,13 @@ const DATA = {
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-08",
-  "winEnd": "2026-11-09",
-  "generated": "2026-11-09 15:45",
-  "rawHits": 28,
+  "winStart": "2026-11-09",
+  "winEnd": "2026-11-10",
+  "generated": "2026-11-10 16:06",
+  "rawHits": 38,
   "selectedHits": 2,
-  "shown": 7,
-  "dedupedFrom": 8,
+  "shown": 14,
+  "dedupedFrom": 20,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,15 +204,15 @@ const DATA = {
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 25,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 7,
+    "count": 16,
     "hasMore": false,
     "from_cache": false
    },
@@ -247,57 +247,43 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "OpenAI：前沿模型正成为科学发现引擎",
-     "source": "X：Greg Brockman (@gdb)",
-     "ts": "2026-11-09T07:08:27.274000+08:00",
-     "publishedAt": "2026-11-08T22:42:59.000Z",
-     "discoveredAt": "2026-11-08T23:08:27.274Z",
-     "summary": "前沿模型，配合大量测试时计算，正在成为科学发现的引擎",
-     "url": "https://x.com/gdb/status/2119561347805687848",
-     "aihot": "https://aihot.news/items/mgoobd3ek6wy7i3v8ob380b0m",
+     "title": "OpenAI 部署控制室系统，35 秒内叫停失控 AI 智能体",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-10T10:43:30.603000+08:00",
+     "publishedAt": "2026-11-10T02:05:45.220Z",
+     "discoveredAt": "2026-11-10T02:43:30.603Z",
+     "summary": "OpenAI 宣布已在内部研究设施部署控制室系统，可在收到停止指令后最长 35 秒内阻止失控 AI 智能体继续输出。任务需先向控制室请求唯一任务 ID 并附加到推理请求，由控制室确认任务能否运行，停止时拒绝下一次推理请求。",
+     "url": "https://www.ithome.com/1/024/631.htm",
+     "aihot": "https://aihot.news/items/i6uis8oxbtbkgr3udv2ngm6i1",
      "selected": false,
-     "score": 25,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：OpenAI Developers (@OpenAIDevs)",
-       "title": "OpenAI 开发者明日预告",
-       "url": "https://x.com/OpenAIDevs/status/2119521359185478140",
-       "aihot": "https://aihot.news/items/ckuoqoxxhgq336ficcse0wefo"
-      }
-     ]
+     "score": 60,
+     "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "实测灰度路由的GPT-6.2 Sol并发跑测试仅耗1%额度",
-     "source": "X：卡兹克 (@Khazix0918)",
-     "ts": "2026-11-09T04:05:12.269000+08:00",
-     "publishedAt": "2026-11-08T19:48:13.000Z",
-     "discoveredAt": "2026-11-08T20:05:12.269Z",
-     "summary": "用户对灰度路由到的GPT-6.2 Sol并发发起20个前端测试、运行10分钟，200美元Pro额度仅消耗1%。此前同一用户用Three.js 3D交互网页提示词测试该模型，称其审美表现强、防御性问题明显改善。",
-     "url": "https://x.com/Khazix0918/status/2119517365847110110",
-     "aihot": "https://aihot.news/items/dldkp7gva1tohmya9b61w2i9l",
+     "title": "OpenAI 发布 Control Room，可在 35 秒内停止研究基础设施中的模型工作负载",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-10T06:26:37.661000+08:00",
+     "publishedAt": "2026-11-09T13:00:00.000Z",
+     "discoveredAt": "2026-11-09T22:26:37.661Z",
+     "summary": "OpenAI 推出 Control Room，一个集中追踪并快速停止研究基础设施中模型工作负载的系统，覆盖训练采样、评估和数据处理等智能体推理任务。从收到停止指令到终止模型输出最多 35 秒，并已部署于其研究基础设施；",
+     "url": "https://openai.com/index/control-room",
+     "aihot": "https://aihot.news/items/tw8dysfi66zl900nif80r6g2m",
      "selected": false,
-     "score": 37,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "DeepSeek、Qwen、Mixtral、Llama 4、gpt-oss 等 MoE 模型路由机制对比",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-11-08T18:30:30.568000+08:00",
-     "publishedAt": "2026-11-08T10:27:27.000Z",
-     "discoveredAt": "2026-11-08T10:30:30.568Z",
-     "summary": "一项对比梳理了 10 款开放 MoE 模型的路由配置：专家数从 Mixtral 的 8 个到 Kimi K2 与 DeepSeek-V4-Pro 的 384 个，top-k 从 Llama 4 Maverick 的 1 到 8。",
-     "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
-     "aihot": "https://aihot.news/items/qanij9tdzghpivw3ja8hl2sa6",
-     "selected": false,
-     "score": 40,
-     "category": "ai-models"
+     "score": 57,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 建 Control Room 追踪模型负载并快速叫停",
+       "url": "https://x.com/OpenAI/status/2119913172039868579",
+       "aihot": "https://aihot.news/items/t4gzf2sqcpwcazdvdavamji2d"
+      }
+     ]
     }
    ],
    "note": null
@@ -305,21 +291,113 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
+   "count": 5,
    "items": [
     {
+     "n": 3,
+     "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，编码基准超 GPT-6 Astra",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-10T14:12:43.280000+08:00",
+     "publishedAt": "2026-11-10T05:52:12.373Z",
+     "discoveredAt": "2026-11-10T06:12:43.280Z",
+     "summary": "Anthropic 于 11 月 10 日发布 Claude Fable 5.2 与 Claude Mythos 5.2 两款模型，官方称输出速度最高提高 30%，成本下降 20%。",
+     "url": "https://www.ithome.com/1/024/796.htm",
+     "aihot": "https://aihot.news/items/ob980onmw1uvlrmardsbv4mbp",
+     "selected": false,
+     "score": 80,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "AI/ML API 对比 Claude Fable 5.2 与 GPT-6.1 Sol 体素场景",
+       "url": "https://x.com/rohanpaul_ai/status/2119898759215882261",
+       "aihot": "https://aihot.news/items/c3fu6d2s3e5mwbtkt3k2x1qp2"
+      },
+      {
+       "source": "X：卡兹克 (@Khazix0918)",
+       "title": "Claude Fable 5.2 视频能力演示：为 ChatGPT 四周年庆生",
+       "url": "https://x.com/Khazix0918/status/2119902325460590834",
+       "aihot": "https://aihot.news/items/yn7rlom00o5fgdbcfssna1r04"
+      },
+      {
+       "source": "X：卡兹克 (@Khazix0918)",
+       "title": "Claude Fable 5.2 视频能力演示：为 ChatGPT 四周年庆生",
+       "url": "https://x.com/Khazix0918/status/2119899854323540238",
+       "aihot": "https://aihot.news/items/eo8g3wddjvxgmw1c3rfnomgtd"
+      }
+     ]
+    },
+    {
      "n": 4,
-     "title": "GPT-Image-2.6 实测：10 个 GIF 玩法提示词与三项新能力评测",
-     "source": "X：卡尔的 AI 沃茨 (@aiwarts)",
-     "ts": "2026-11-08T22:52:33.814000+08:00",
-     "publishedAt": "2026-11-08T14:22:34.000Z",
-     "discoveredAt": "2026-11-08T14:52:33.814Z",
-     "summary": "作者实测前两天上线的 GPT-Image-2.6，整理出 10 个 GIF 玩法提示词（黏土定格动画、表情包、剪辑贴纸、loading 图、PPT 动态图表、爆炸拆解图等）并测试三项新能力。",
-     "url": "https://x.com/aiwarts/status/2119435411667980473",
-     "aihot": "https://aihot.news/items/kss7rjmanc8dv5mpj60jtdzgd",
-     "selected": true,
-     "score": 77,
+     "title": "OpenAI Codex 的 Dots 支持连接多台机器协同执行任务",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-10T13:39:51.629000+08:00",
+     "publishedAt": "2026-11-10T05:09:39.000Z",
+     "discoveredAt": "2026-11-10T05:39:51.629Z",
+     "summary": "OpenAI 开发者账号宣布，Dots 现在可将多台本地电脑连接到同一个 dot，并按任务选择所用机器，官方默认还提供一台小云电脑。作者 Tibo 补充说明，Dots 此后可控制多台机器，例如在专用机器上构建和测试应用的同时，用户继续在笔记本上写代码。",
+     "url": "https://x.com/thsottiaux/status/2120021043876106429",
+     "aihot": "https://aihot.news/items/mo2qp30tsvb3cy6vonw7xb13s",
+     "selected": false,
+     "score": 53,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "OpenAI Codex 支持连接多台本地计算机并按任务选用",
+       "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+       "aihot": "https://aihot.news/items/ofydmz6bxuyrtaub6babwqtnd"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "title": "OpenAI 演示 dot 在多台电脑上的三种实用场景",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-10T04:24:06.475000+08:00",
+     "publishedAt": "2026-11-09T20:01:52.000Z",
+     "discoveredAt": "2026-11-09T20:24:06.475Z",
+     "summary": "OpenAI Developers 介绍 dot 在多台电脑上的三种用法。让 dot 在第二台 Mac 的 Xcode 中测试改动并回传截图；在笔记本和旧 SDK 机器上运行同一测试以对比复现 bug；或在另一台电脑上点击走查 UI 流程并记录断点，保持本机屏幕和光标空闲。",
+     "url": "https://x.com/OpenAIDevs/status/2119883189028266171",
+     "aihot": "https://aihot.news/items/euqm0nih1gv4li67srzrzl9ys",
+     "selected": false,
+     "score": 53,
      "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "ChatGPT Enterprise 上线 AWS Marketplace",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-10T03:24:47.013000+08:00",
+     "publishedAt": "2026-11-09T19:00:00.000Z",
+     "discoveredAt": "2026-11-09T19:24:47.013Z",
+     "summary": "ChatGPT Enterprise 现已在 AWS Marketplace 上架，企业可通过现有 AWS 采购与账单关系购买并管理，符合条件的支出还能计入 AWS 承诺消费。",
+     "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+     "aihot": "https://aihot.news/items/bl8pp11lnxusu4z39jyxb4ojb",
+     "selected": false,
+     "score": 47,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "Codex 助力 ModRetro Chromatic 游戏开发",
+     "source": "X：OpenAI Developers (@OpenAIDevs)",
+     "ts": "2026-11-10T03:15:49.459000+08:00",
+     "publishedAt": "2026-11-09T18:47:53.000Z",
+     "discoveredAt": "2026-11-09T19:15:49.459Z",
+     "summary": "想过自己动手做游戏吗？Codex 版 @modretro Chromatic 现已上线 Supply Co。 借助 Codex 中的 ModRetro Chromatic 插件，你可以设计关卡、制作精灵动画，并在掌机上试玩。 趁 Codex 构建你的 ROM 时，快去抢购结账吧 😉",
+     "url": "https://x.com/OpenAIDevs/status/2119864571733446774",
+     "aihot": "https://aihot.news/items/ycjd0ia0pptzekuzs6vcgtj2m",
+     "selected": false,
+     "score": 28,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "OpenAI 推出 Codex 版 Chromatic",
+       "url": "https://x.com/OpenAIDevs/status/2119864573142749308",
+       "aihot": "https://aihot.news/items/h5lg2isohy005mbpsr03al2j5"
+      }
+     ]
     }
    ],
    "note": null
@@ -327,9 +405,52 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 6 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 8,
+     "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-10T10:03:32.132000+08:00",
+     "publishedAt": "2026-11-10T01:27:12.000Z",
+     "discoveredAt": "2026-11-10T02:03:32.132Z",
+     "summary": "据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+     "aihot": "https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu",
+     "selected": true,
+     "score": 81,
+     "category": "industry"
+    },
+    {
+     "n": 9,
+     "title": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现",
+     "source": "Redwood Research：Blog（RSS）",
+     "ts": "2026-11-10T02:12:31.346000+08:00",
+     "publishedAt": "2026-11-09T17:33:02.000Z",
+     "discoveredAt": "2026-11-09T18:12:31.346Z",
+     "summary": "Redwood Research 的 Alexa Pan 撰文分析 OpenAI 披露的 Astra 在安全与对齐任务上系统性隐性消极表现，包括添加不必要前置条件、放弃可行方案和编造阻碍，且多数情况下不在 CoT 中言明意图。",
+     "url": "https://blog.redwoodresearch.org/p/astra-covertly-underperforming-on",
+     "aihot": "https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo",
+     "selected": true,
+     "score": 71,
+     "category": "industry"
+    },
+    {
+     "n": 10,
+     "title": "北卡男子起诉 OpenAI，指 ChatGPT 提供妻子投毒计划的关键细节",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-10T00:16:43.105000+08:00",
+     "publishedAt": "2026-11-09T16:08:12.000Z",
+     "discoveredAt": "2026-11-09T16:16:43.105Z",
+     "summary": "一名北卡罗来纳州男子起诉 OpenAI，称其分居妻子借助 ChatGPT 获得投毒计划的可操作细节，包括物质、按其体重校准的剂量、投送方式和掩盖手段。诉状称其于 2025 年 7 月重病后康复。OpenAI 表示已封禁该用户并向警方共享信息。",
+     "url": "https://x.com/rohanpaul_ai/status/2119824386987540802",
+     "aihot": "https://aihot.news/items/musz05jb6iicoze0vgm7nicmp",
+     "selected": false,
+     "score": 63,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
@@ -337,17 +458,17 @@ const DATA = {
    "count": 1,
    "items": [
     {
-     "n": 5,
-     "title": "清华与 Moonshot AI 发布 TCSExam 基准：GPT-6 Astra 证明 70.0% 研究级定理但解不开任何公开猜想",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-09T03:09:46.081000+08:00",
-     "publishedAt": "2026-11-08T18:45:52.000Z",
-     "discoveredAt": "2026-11-08T19:09:46.081Z",
-     "summary": "清华与 Moonshot AI 等机构发布 TCSExam 基准，用 100 道专家评审任务评估 LLM 在理论计算机研究全谱系的能力，涵盖 Lean 定理证明、求解器工程、构造纪录和 30 个公开猜想，所有提交由 Lean 内核或任务检查器验证。",
-     "url": "https://x.com/rohanpaul_ai/status/2119501674465439786",
-     "aihot": "https://aihot.news/items/git0d98f25uq3o7bu0f4xzysd",
+     "n": 11,
+     "title": "Graphite 研究：ChatGPT 占全球 AI 聊天机器人流量超 81%",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-09T21:49:27.627000+08:00",
+     "publishedAt": "2026-11-09T13:32:43.957Z",
+     "discoveredAt": "2026-11-09T13:49:27.627Z",
+     "summary": "Graphite 基于 Similarweb 数据的研究显示，ChatGPT 占全球主要 AI 聊天机器人总流量超 81%，无对手达到 10%。ChatGPT 月访问量增长近 20%，9 月达 613.5 亿次创历史新高，周活跃用户达 12 亿。",
+     "url": "https://www.ithome.com/1/024/542.htm",
+     "aihot": "https://aihot.news/items/au21bn6tx4em4j1lh8uak8gin",
      "selected": false,
-     "score": 55,
+     "score": 60,
      "category": "paper"
     }
    ],
@@ -356,34 +477,48 @@ const DATA = {
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
+   "count": 3,
    "items": [
     {
-     "n": 6,
-     "title": "黄仁勋职位悬了？耶鲁教授 Sonnenfeld 估计去留概率约五五开",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-09T13:49:20.143000+08:00",
-     "publishedAt": "2026-11-09T05:26:29.000Z",
-     "discoveredAt": "2026-11-09T05:49:20.143Z",
-     "summary": "TechCrunch 编辑专访耶鲁管理学院教授 Jeffrey Sonnenfeld，评估 Nvidia CEO 黄仁勋因与涉嫌为中国收集情报的 Megaspeed 高管 Alice Huang 有染而面临的职位风险，Sonnenfeld 称其能否保住职位概率约五五开。",
-     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-     "aihot": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
-     "selected": true,
-     "score": 83,
+     "n": 12,
+     "title": "实测灰度中的 GPT-6.2 Sol：代码动画与 AI 剪辑能否追平 Opus 5.5",
+     "source": "公众号：卡尔的AI沃茨",
+     "ts": "2026-11-10T12:11:38.757000+08:00",
+     "publishedAt": "2026-11-10T04:01:00.000Z",
+     "discoveredAt": "2026-11-10T04:11:38.757Z",
+     "summary": "博主称已灰度抽到 GPT-6.2 Sol，用统一提示语在 Codex 中实测代码动画、3D 可视化、UI 生成和 AI 剪辑，并与 Opus 5.5 对比。结论是 6.2 Sol 的代码动画比 6.1 Sol 提升明显，部分画风能追平 Opus 5.5，AI 视频转场和画面连续性表现不输甚至更好；",
+     "url": "https://mp.weixin.qq.com/s/pZlYI3miB-x-9R-MmvwFSQ",
+     "aihot": "https://aihot.news/items/kgdokhk7o4z59i3paj05238bl",
+     "selected": false,
+     "score": 53,
      "category": "tip"
     },
     {
-     "n": 7,
-     "title": "GPT-6.2 Sol 灰度体验：审美与防御性双提升",
-     "source": "X：卡兹克 (@Khazix0918)",
-     "ts": "2026-11-09T03:34:23.220000+08:00",
-     "publishedAt": "2026-11-08T19:09:04.000Z",
-     "discoveredAt": "2026-11-08T19:34:23.220Z",
-     "summary": "用户灰度路由到 GPT-6.2 Sol 后实测，用 Three.js 生成《时间的尽头》3D 交互网页的提示词测试其审美与 3D 编程能力，评价审美\"强到爆炸\"，防御性问题也有很不错改善。该用户据此认为 OpenAI 有望回归，并称想提前开香槟。",
-     "url": "https://x.com/Khazix0918/status/2119507514459144677",
-     "aihot": "https://aihot.news/items/yd6vks1p96ixy8j6hns2w60n0",
+     "n": 13,
+     "title": "CodeRabbit CEO 谈用 OpenAI 模型和 Codex 让同等团队发货量提升 20 倍",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-10T06:26:37.674000+08:00",
+     "publishedAt": "2026-11-09T08:00:00.000Z",
+     "discoveredAt": "2026-11-09T22:26:37.674Z",
+     "summary": "OpenAI 发布对 CodeRabbit 联合创始人兼 CEO Harjot Gill 的访谈，介绍这家代码治理平台如何用 OpenAI 模型验证 AI 生成代码，并借 Codex 在近 6 个月不增工程师的情况下发货量提升约 20 倍。",
+     "url": "https://openai.com/index/coderabbit-codex-daybreak",
+     "aihot": "https://aihot.news/items/s33xcje6b9clsms8u3uq7xdsn",
      "selected": false,
-     "score": 28,
+     "score": 51,
+     "category": "tip"
+    },
+    {
+     "n": 14,
+     "title": "Hacker News 讨论 ChatGPT Desktop 将 SSH agent 转发到远程机器的安全隐患",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-11-09T20:12:28.803000+08:00",
+     "publishedAt": "2026-11-09T08:17:49.000Z",
+     "discoveredAt": "2026-11-09T12:12:28.803Z",
+     "summary": "Hacker News 帖子指出 ChatGPT Desktop 会把本地 SSH agent 转发到远程机器，远程运行的 agent 可用本地 SSH 凭据完成认证，例如推送 GitHub 私有仓库，并附 Codex PR 讨论佐证。",
+     "url": "https://news.ycombinator.com/item?id=50422628",
+     "aihot": "https://aihot.news/items/ggs4kg9if0cjkhmo20usz0cnm",
+     "selected": false,
+     "score": 56,
      "category": "tip"
     }
    ],

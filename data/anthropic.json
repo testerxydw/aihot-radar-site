@@ -14,13 +14,13 @@
    "Dario Amodei"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-08",
-  "winEnd": "2026-11-09",
-  "generated": "2026-11-09 15:45",
-  "rawHits": 28,
-  "selectedHits": 1,
-  "shown": 9,
-  "dedupedFrom": 11,
+  "winStart": "2026-11-09",
+  "winEnd": "2026-11-10",
+  "generated": "2026-11-10 16:07",
+  "rawHits": 49,
+  "selectedHits": 12,
+  "shown": 13,
+  "dedupedFrom": 37,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "Anthropic",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 11,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,15 +43,15 @@
     "q": "Anthropic",
     "mode": "all",
     "window": "24h",
-    "count": 18,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
     "q": "Claude",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 11,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,15 +59,15 @@
     "q": "Claude",
     "mode": "all",
     "window": "24h",
-    "count": 16,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
     "q": "Dario Amodei",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,28 +86,219 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
    "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Anthropic 开发者用 Omi 打造本地语音智能体编排应用",
-     "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-     "ts": "2026-11-09T03:28:07.513000+08:00",
-     "publishedAt": "2026-11-08T19:07:39.000Z",
-     "discoveredAt": "2026-11-08T19:28:07.513Z",
-     "summary": "Anthropic 开发者关系成员 Ado Kukic 用开源录音设备 Omi 做了一个全本地应用：Omi 采集音频，Parakeet 转写，再由 Claude 评估内容并创建任务、触发工作流，在相关时自动执行并保持人工确认。他表示仍在调整，但这是近期最有意思的周末项目之一。",
-     "url": "https://x.com/adocomplete/status/2119507158547206581",
-     "aihot": "https://aihot.news/items/bzvoaxlkwhohwvfhs11vxsf1i",
+     "title": "Meta 发布最小最高效模型 Muse Ember，主打智能体高频任务",
+     "source": "Meta AI：Research Blog（网页）",
+     "ts": "2026-11-10T02:48:48.346000+08:00",
+     "publishedAt": "2026-11-09T07:00:00.000Z",
+     "discoveredAt": "2026-11-09T18:48:48.346Z",
+     "summary": "Meta 发布 Muse Ember（muse-ember-1.0），定位最小最高效的复杂推理执行模型，面向工具调用、编码子任务、路由、抽取和长文档解析等智能体日常重复任务。",
+     "url": "https://research.meta.ai/blog/muse-ember",
+     "aihot": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
+     "selected": true,
+     "score": 73,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "IT之家·人工智能",
+       "title": "Meta 推出轻量级 AI 模型 Muse Ember，跑分媲美 Claude Haiku 5.5，单任务成本仅 1/3",
+       "url": "https://www.ithome.com/1/024/604.htm",
+       "aihot": "https://aihot.news/items/yno6kcgniaxeetqa6g928wna4"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "Meta 发布最小模型 Muse Ember，价格介于 GPT-6 Luna 与 Claude Haiku 5.5 之间",
+       "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+       "aihot": "https://aihot.news/items/e5ga5m1hz9rlqyemp565nsfid"
+      }
+     ]
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 3,
+   "items": [
+    {
+     "n": 2,
+     "title": "Claude Code v2.1.322 发布：Vertex 新增 fast mode",
+     "source": "Claude Code：GitHub Releases（RSS）",
+     "ts": "2026-11-10T11:20:34.317000+08:00",
+     "publishedAt": "2026-11-10T02:29:43.000Z",
+     "discoveredAt": "2026-11-10T03:20:34.317Z",
+     "summary": "Claude Code v2.1.322 在 Vertex 的 global、us 和 eu 区域新增 fast mode，若 Vertex 拒绝则回退到标准速度。该版本为不可变发布，仅发布标题和说明可修改。",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+     "aihot": "https://aihot.news/items/bxe0s1brbsck480b82d7jxz7j",
      "selected": false,
-     "score": 36,
+     "score": 24,
      "category": "ai-products"
+    },
+    {
+     "n": 3,
+     "title": "Claude Fable 5.2 从短提示词产出三款硬件可制造设计，PCB Gym 得分 69%",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-10T05:55:37.195000+08:00",
+     "publishedAt": "2026-11-09T21:28:13.000Z",
+     "discoveredAt": "2026-11-09T21:55:37.195Z",
+     "summary": "Claude Fable 5.2 从短提示词产出扬声器电话、语音助手中枢和手持电子宠物的规格、原理图、板层布局、3D 打印外壳和固件，Diode Computers 直接按其文件制造，跳过常规制造修改环节。",
+     "url": "https://x.com/rohanpaul_ai/status/2119904921139270003",
+     "aihot": "https://aihot.news/items/zpx17w8swt2ypy6q723xz6qnd",
+     "selected": false,
+     "score": 69,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+     "source": "Anthropic：Newsroom（网页）",
+     "ts": "2026-11-10T03:16:47.529000+08:00",
+     "publishedAt": "2026-11-08T16:00:00.000Z",
+     "discoveredAt": "2026-11-09T19:16:47.529Z",
+     "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者为同一底层模型，Mythos 需通过 Cyber 或 Life Sciences Verification Program 申请访问。",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "aihot": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
+     "selected": true,
+     "score": 86,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+       "title": "Anthropic 用 1000 个 Claude Fable 5.2 智能体在沙箱内复现费马大定理形式化证明",
+       "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+       "aihot": "https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8"
+      },
+      {
+       "source": "公众号：数字生命卡兹克",
+       "title": "实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出",
+       "url": "https://mp.weixin.qq.com/s/sKoVHL_oNsik9vtUjr0lHg",
+       "aihot": "https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5",
+       "url": "https://x.com/ArtificialAnlys/status/2119878995386982508",
+       "aihot": "https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s"
+      },
+      {
+       "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+       "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
+       "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+       "aihot": "https://aihot.news/items/ykrvgcox3whsx6tst5qesbf62"
+      },
+      {
+       "source": "Anthropic：Research（发表成果 · 网页）",
+       "title": "Anthropic 测试 Claude Fable 5.2 端到端设计三种电子设备并制作可用原型",
+       "url": "https://www.anthropic.com/research/claude-electronics-design",
+       "aihot": "https://aihot.news/items/xmqflr9ja0pipwyibtqnf8qsj"
+      },
+      {
+       "source": "X：Cognition (@cognition)",
+       "title": "Claude Fable 5.2 上线 Devin Desktop 和 Devin CLI",
+       "url": "https://x.com/cognition/status/2119869931135406452",
+       "aihot": "https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl"
+      },
+      {
+       "source": "X：Higgsfield AI (@higgsfield)",
+       "title": "Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用",
+       "url": "https://x.com/higgsfield/status/2119884452054937656",
+       "aihot": "https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx"
+      },
+      {
+       "source": "Claude：YouTube（RSS）",
+       "title": "Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构",
+       "url": "https://www.youtube.com/watch?v=FMbXUxn_nBw",
+       "aihot": "https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq"
+      },
+      {
+       "source": "Conductor 官方更新",
+       "title": "Conductor 0.94.0 上线 Claude Fable 5.2",
+       "url": "https://www.conductor.build/changelog/0.94.0-claude-fable-5-2",
+       "aihot": "https://aihot.news/items/ldk64grjcvmm9ss43128uwx2m"
+      },
+      {
+       "source": "Latent Space（RSS）",
+       "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，重登榜首但每任务成本上升",
+       "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+       "aihot": "https://aihot.news/items/nnl670lkd0mynnkspz9f1wmgp"
+      },
+      {
+       "source": "X：卡兹克 (@Khazix0918)",
+       "title": "实测Claude Fable 5.2：审美与细节的长任务能力体验",
+       "url": "https://x.com/Khazix0918/status/2119941585538572390",
+       "aihot": "https://aihot.news/items/ljc2f7hyvtplkggpez6tivvnz"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，编码基准超 GPT-6 Astra",
+       "url": "https://www.ithome.com/1/024/796.htm",
+       "aihot": "https://aihot.news/items/ob980onmw1uvlrmardsbv4mbp"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，API 调用费下降 20%",
+       "url": "https://www.ithome.com/1/024/573.htm",
+       "aihot": "https://aihot.news/items/yoiln3nl94gd0t3pahyhpl1xu"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Claude Fable 5.2 (xHigh) 以 1832 分登顶 Code Arena: WebDev 榜单",
+       "url": "https://x.com/arena/status/2119941204003770690",
+       "aihot": "https://aihot.news/items/u1n6sw21ocnfdd1sdbd4i9m7z"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，llm-anthropic 0.31 已支持",
+       "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+       "aihot": "https://aihot.news/items/lfw4cc14h85i07c00tah6pc90"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Claude Fable 5.2 登顶 Arena WebDev 榜，比 Fable 5.1 快 30% 且降价",
+       "url": "https://x.com/arena/status/2119948067449536733",
+       "aihot": "https://aihot.news/items/spldx7fx85cpl890x6b8gr5u9"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "提示 Claude Fable 5.2：声明代码归属影响重构行为",
+       "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+       "aihot": "https://aihot.news/items/f1yeoe9t05p4xvu1vqn1fe82z"
+      },
+      {
+       "source": "Every：最新文章（网页）",
+       "title": "Fable 5.2 评测：Anthropic 新模型让非程序员也能造生产级工具",
+       "url": "https://every.to/vibe-check/fable-5-2",
+       "aihot": "https://aihot.news/items/y3lcfs65f2rw4tmy70qwv2chi"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Claude Fable 5.2 登顶 AA-3D 3D 交互榜",
+       "url": "https://x.com/ArtificialAnlys/status/2119953570430881946",
+       "aihot": "https://aihot.news/items/oxb115p7flhh5upr2bh08t26v"
+      },
+      {
+       "source": "Google AI：DEV 作者专属（RSS）",
+       "title": "Claude Fable 5.2 在 Google Cloud 上线",
+       "url": "https://dev.to/googleai/claude-fable-52-is-available-on-google-cloud-15kn",
+       "aihot": "https://aihot.news/items/v98n3a3ihdr862ehiug7tjqqe"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Claude Fable 5.2 登顶 VIALS-AA 科学视觉推理榜",
+       "url": "https://x.com/ArtificialAnlys/status/2119990200700940745",
+       "aihot": "https://aihot.news/items/d9u7uiujz8flfn9vo86deotrr"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "用 Claude Fable 5.2 生成 Yonkers 机甲 Three.js 动画",
+       "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+       "aihot": "https://aihot.news/items/yrod9kxirt3da9m83jz4ttdiq"
+      }
+     ]
     }
    ],
    "note": null
@@ -115,51 +306,63 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 2,
+   "count": 4,
    "items": [
     {
-     "n": 2,
-     "title": "Chamath：算力涨价或迫使 SpaceX 重定价 Anthropic 合约",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-08T23:02:32.059000+08:00",
-     "publishedAt": "2026-11-08T14:51:21.000Z",
-     "discoveredAt": "2026-11-08T15:02:32.059Z",
-     "summary": "Chamath 在 All-In Podcast 上称，若数据中心稀缺把算力价格推高 2 到 3 倍，SpaceX 与 Anthropic 的算力合约定价将由表格决定，而非两家公司关系。",
-     "url": "https://x.com/rohanpaul_ai/status/2119442655449084213",
-     "aihot": "https://aihot.news/items/mxwosbpncetduvls55un7poqo",
-     "selected": false,
-     "score": 42,
-     "category": "industry",
-     "also": [
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Chamath：SpaceX 或可 90 天通知终止 Anthropic 算力协议",
-       "url": "https://x.com/rohanpaul_ai/status/2119409905434268064",
-       "aihot": "https://aihot.news/items/a79k7qxfjru08x725j9lnfh9l"
-      }
-     ]
+     "n": 5,
+     "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
+     "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+     "ts": "2026-11-10T12:22:33.973000+08:00",
+     "publishedAt": "2026-11-10T04:17:59.000Z",
+     "discoveredAt": "2026-11-10T04:22:33.973Z",
+     "summary": "作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。",
+     "url": "https://x.com/adocomplete/status/2120008039411708279",
+     "aihot": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
+     "selected": true,
+     "score": 65,
+     "category": "industry"
     },
     {
-     "n": 3,
-     "title": "FT 报道 Anthropic 以 34 亿美元购入 1.7GW Caterpillar 燃气发电机",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-08T22:31:28.432000+08:00",
-     "publishedAt": "2026-11-08T14:05:57.000Z",
-     "discoveredAt": "2026-11-08T14:31:28.432Z",
-     "summary": "据 FT 报道，Anthropic 以 34 亿美元购入 1.7GW 的 Caterpillar 燃气发电机，是已知 AI 实验室最大规模的电力设备采购。这些订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单但因融资失败被 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。",
-     "url": "https://x.com/rohanpaul_ai/status/2119431232165683269",
-     "aihot": "https://aihot.news/items/fhtzzpeq9pxo021k0uk7s034p",
+     "n": 6,
+     "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-10T10:03:32.132000+08:00",
+     "publishedAt": "2026-11-10T01:27:12.000Z",
+     "discoveredAt": "2026-11-10T02:03:32.132Z",
+     "summary": "据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+     "aihot": "https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu",
+     "selected": true,
+     "score": 81,
+     "category": "industry"
+    },
+    {
+     "n": 7,
+     "title": "Anthropic 开发者用 Rust 构建智能体游戏引擎",
+     "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+     "ts": "2026-11-10T08:14:36.148000+08:00",
+     "publishedAt": "2026-11-09T23:54:13.000Z",
+     "discoveredAt": "2026-11-10T00:14:36.148Z",
+     "summary": "开始啦！",
+     "url": "https://x.com/adocomplete/status/2119941660696306171",
+     "aihot": "https://aihot.news/items/a34pz357gib5txpx24p274q9k",
      "selected": false,
-     "score": 74,
-     "category": "industry",
-     "also": [
-      {
-       "source": "IT之家·人工智能",
-       "title": "Anthropic 拟以 34 亿美元采购 1.7GW 燃气发电机组，为 AI 公司迄今最大发电设备订单",
-       "url": "https://www.ithome.com/1/023/989.htm",
-       "aihot": "https://aihot.news/items/sw1sy1ek0k6d1nxicvv57r3j6"
-      }
-     ]
+     "score": 16,
+     "category": "industry"
+    },
+    {
+     "n": 8,
+     "title": "JPMorganChase 将 Claude Code 扩展至全公司更多员工",
+     "source": "Claude：Blog（网页）",
+     "ts": "2026-11-10T07:09:39.317000+08:00",
+     "publishedAt": "2026-11-09T00:00:00.000Z",
+     "discoveredAt": "2026-11-09T23:09:39.317Z",
+     "summary": "JPMorganChase 正把 Claude 从工程团队扩展到全公司更多员工，Claude Code 已进入其工程工作流，用于监控告警、根因分析、风险与控制评估及项目规划。工程师还在构建自己的智能体，包括 pull request 审查和自愈智能体。",
+     "url": "https://claude.com/blog/jpmorganchase-expands-claude-code",
+     "aihot": "https://aihot.news/items/i8myita92dye0uz3konw2rrb3",
+     "selected": false,
+     "score": 40,
+     "category": "industry"
     }
    ],
    "note": null
@@ -167,34 +370,48 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 2,
+   "count": 3,
    "items": [
     {
-     "n": 4,
-     "title": "Simon Willison 实测 Claude Opus 5.5 用原生 JS + WebGL 移植 Three.js 3D 项目",
-     "source": "Simon Willison 博客",
-     "ts": "2026-11-09T13:43:21.814000+08:00",
-     "publishedAt": "2026-11-09T04:32:33.000Z",
-     "discoveredAt": "2026-11-09T05:43:21.814Z",
-     "summary": "Simon Willison 在评论 Paul Ford 的文章《The Web Is More Than Enough》后做了实验，他用 Claude Opus 5.5 Medium 在常规 Claude Chat 中把当天用 Three.js 做的海蛞蝓主题法贝热彩蛋移植为 Vanilla JS，产物从 77KB…",
-     "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
-     "aihot": "https://aihot.news/items/jv1ln157wzhngef4tznmco2va",
+     "n": 9,
+     "title": "IBM 拟将 Claude Mythos 集成进 Concert Protect",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-10T12:07:36.442000+08:00",
+     "publishedAt": "2026-11-10T04:04:27.000Z",
+     "discoveredAt": "2026-11-10T04:07:36.442Z",
+     "summary": "IBM 计划把 Anthropic 的 Claude Mythos 接入 IBM Concert Protect，用于在企业代码中排查未知漏洞。此前 Mythos 仅通过 Anthropic 受限防御项目 Project Glasswing 供 IBM 内部安全研究使用。",
+     "url": "https://x.com/rohanpaul_ai/status/2120004635515846690",
+     "aihot": "https://aihot.news/items/pz5zq3nyrsf8za2qco82zd29p",
      "selected": false,
-     "score": 54,
+     "score": 41,
      "category": "paper"
     },
     {
-     "n": 5,
-     "title": "Anthropic 研究报告：科学家多用 Claude 做数据分析和写作",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-09T12:03:22.750000+08:00",
-     "publishedAt": "2026-11-09T03:41:26.513Z",
-     "discoveredAt": "2026-11-09T04:03:22.750Z",
-     "summary": "Anthropic 发布研究报告，分析 2026 年 8 月 2 日至 9 月 30 日的 20.7 万次科研会话，显示科学家主要将 Claude 用于数据分析和写作，数据收集与假设生成较少。",
-     "url": "https://www.ithome.com/1/024/111.htm",
-     "aihot": "https://aihot.news/items/s3nzazhg1cz8va4y420xsklyd",
+     "n": 10,
+     "title": "Apple 论文：AMP1 让 Claude Opus 5.5 等通用模型零样本操控机械臂胜过 VLA",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-10T07:59:37.641000+08:00",
+     "publishedAt": "2026-11-09T23:43:42.000Z",
+     "discoveredAt": "2026-11-09T23:59:37.641Z",
+     "summary": "Apple 论文提出 AMP1 智能体操控框架，让 Claude Opus 5.5 或 Gemini 4 Argon 等通用模型通过相机画面、代码执行和直接运动指令控制机械臂，无需示教或任务训练。",
+     "url": "https://x.com/rohanpaul_ai/status/2119939013935255693",
+     "aihot": "https://aihot.news/items/a5658v9vdvbmlb8j8y7vcrovl",
      "selected": false,
-     "score": 61,
+     "score": 60,
+     "category": "paper"
+    },
+    {
+     "n": 11,
+     "title": "Rohan Paul 转述 Claude Fable 5.2 完成 23 年未解的黑洞计算",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-10T07:28:37.756000+08:00",
+     "publishedAt": "2026-11-09T22:59:11.000Z",
+     "discoveredAt": "2026-11-09T23:28:37.756Z",
+     "summary": "Rohan Paul 转发 @claudeai 的消息称，Claude Fable 5.2 解决了两个与黑洞相关的理论物理开放问题，其中一项是悬置 23 年的繁琐计算。",
+     "url": "https://x.com/rohanpaul_ai/status/2119927810517324048",
+     "aihot": "https://aihot.news/items/dmwbvf5xa3txsm013y0pfgcgn",
+     "selected": false,
+     "score": 59,
      "category": "paper"
     }
    ],
@@ -203,62 +420,34 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 4,
+   "count": 2,
    "items": [
     {
-     "n": 6,
-     "title": "黄仁勋职位悬了？耶鲁教授 Sonnenfeld 估计去留概率约五五开",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-09T13:49:20.143000+08:00",
-     "publishedAt": "2026-11-09T05:26:29.000Z",
-     "discoveredAt": "2026-11-09T05:49:20.143Z",
-     "summary": "TechCrunch 编辑专访耶鲁管理学院教授 Jeffrey Sonnenfeld，评估 Nvidia CEO 黄仁勋因与涉嫌为中国收集情报的 Megaspeed 高管 Alice Huang 有染而面临的职位风险，Sonnenfeld 称其能否保住职位概率约五五开。",
-     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-     "aihot": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
-     "selected": true,
-     "score": 83,
-     "category": "tip"
-    },
-    {
-     "n": 7,
-     "title": "Cathie Wood 指责 Anthropic CEO 引发 AI 负面舆论",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-09T09:51:19.580000+08:00",
-     "publishedAt": "2026-11-09T01:23:51.000Z",
-     "discoveredAt": "2026-11-09T01:51:19.580Z",
-     "summary": "Cathie Wood 将 AI 遭遇的负面舆论归咎于 Anthropic 及其 CEO Dario，批评其宣扬\"未来十年人类灭绝概率 10%\"和\"大规模失业\"等说法。她表示完全不认同这两种结果，并预测未来反而会面临劳动力短缺。相关完整视频发布在 ARK Invest 的 YouTube 频道。",
-     "url": "https://x.com/rohanpaul_ai/status/2119601829843722340",
-     "aihot": "https://aihot.news/items/g6fa8vxp57v3r0s9i61pxtebh",
+     "n": 12,
+     "title": "Claude Code 产品经理谈 AI 时代开发工具",
+     "source": "X：Noah Zweben（@noahzweben）",
+     "ts": "2026-11-10T09:01:36.166000+08:00",
+     "publishedAt": "2026-11-10T00:57:30.000Z",
+     "discoveredAt": "2026-11-10T01:01:36.166Z",
+     "summary": "“做我们工程师的炮弹。” 我如何看待 AI 时代的开发工具产品经理工作 🧵 这是 @bcherny 在我 2025 年 11 月作为 Claude Code 第 2 号产品经理加入时对我说的，当时我问，在这样一支产品思维极强的开发者团队里，产品经理到底是干什么的。",
+     "url": "https://x.com/noahzweben/status/2119957587139715306",
+     "aihot": "https://aihot.news/items/uweullu3k86n4p336d0j1qsxc",
      "selected": false,
-     "score": 33,
+     "score": 28,
      "category": "tip"
     },
     {
-     "n": 8,
-     "title": "Simon Willison 实测用 Claude 编写 SQLite parse_number() 扩展并对比 C 与 Rust 性能",
+     "n": 13,
+     "title": "Simon Willison 用 Claude Code 构建声学三角定位系统找出神秘蜂鸣声",
      "source": "Simon Willison 博客",
-     "ts": "2026-11-09T07:38:23.372000+08:00",
-     "publishedAt": "2026-11-08T22:26:00.000Z",
-     "discoveredAt": "2026-11-08T23:38:23.372Z",
-     "summary": "Simon Willison 记录用 Claude Opus 5.5 编写 SQLite 自定义函数 parse_number() 的过程，该函数将 -$1,234.56、'12.5%' 等字符串转为可排序求和的数值。",
-     "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-     "aihot": "https://aihot.news/items/ppdjty0ow3ytzemiylt9jb0xa",
+     "ts": "2026-11-10T08:58:31.993000+08:00",
+     "publishedAt": "2026-11-09T23:57:21.000Z",
+     "discoveredAt": "2026-11-10T00:58:31.993Z",
+     "summary": "Simon Willison 用 Claude Code（先用 Opus 5.5、后用 Fable 5.2）构建 Beep Locator，通过多设备浏览器麦克风与 WebSockets 对房间里的神秘蜂鸣声做三角定位，最终锁定到约 40cm 范围，找出需要换电池的老旧一氧化碳报警器。",
+     "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+     "aihot": "https://aihot.news/items/ti2pggxynvpgzivkx9dwb4dhi",
      "selected": false,
-     "score": 51,
-     "category": "tip"
-    },
-    {
-     "n": 9,
-     "title": "Andrej Karpathy 用 Claude 周末搭建视频精选平台 HackerTube",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-08T22:38:25.493000+08:00",
-     "publishedAt": "2026-11-08T14:23:00.000Z",
-     "discoveredAt": "2026-11-08T14:38:25.493Z",
-     "summary": "Andrej Karpathy 用 Claude Opus 5.5 在一个周末搭建了 HackerTube，从 20 年 Hacker News 的 4300 万条评论中筛出 6454 个视频，并称观看体验明显优于 YouTube 自身的推荐。",
-     "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
-     "aihot": "https://aihot.news/items/xas58u8z185ani3f4rhsm198h",
-     "selected": false,
-     "score": 58,
+     "score": 59,
      "category": "tip"
     }
    ],
