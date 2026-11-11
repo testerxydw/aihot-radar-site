@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-09",
-  "winEnd": "2026-11-10",
-  "generated": "2026-11-10 16:07",
-  "rawHits": 24,
-  "selectedHits": 2,
-  "shown": 3,
-  "dedupedFrom": 3,
+  "winStart": "2026-11-10",
+  "winEnd": "2026-11-11",
+  "generated": "2026-11-11 15:36",
+  "rawHits": 60,
+  "selectedHits": 12,
+  "shown": 16,
+  "dedupedFrom": 53,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,39 +43,39 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
+    "count": 28,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "selected",
+    "window": "24h",
+    "count": 12,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "all",
+    "window": "24h",
+    "count": 30,
+    "hasMore": true,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "all",
+    "window": "24h",
     "count": 3,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
-    "mode": "selected",
-    "window": "24h",
-    "count": 2,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
-    "mode": "all",
-    "window": "24h",
-    "count": 22,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Demis Hassabis",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Demis Hassabis",
-    "mode": "all",
-    "window": "24h",
-    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,41 +86,408 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 8 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 8,
+   "items": [
+    {
+     "n": 1,
+     "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-11-11T08:21:29.458000+08:00",
+     "publishedAt": "2026-11-11T00:00:00.000Z",
+     "discoveredAt": "2026-11-11T00:21:29.458Z",
+     "summary": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI 与 skill 的 token 成本：在 Claude Sonnet 5.5 上 CLI 用 1。",
+     "url": "https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/",
+     "aihot": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
+     "selected": true,
+     "score": 74,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-11-11T08:21:29.451000+08:00",
+     "publishedAt": "2026-11-11T00:00:00.000Z",
+     "discoveredAt": "2026-11-11T00:21:29.451Z",
+     "summary": "OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。",
+     "url": "https://openrouter.ai/blog/insights/llm-quantization/",
+     "aihot": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
+     "selected": true,
+     "score": 73,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Redwood Research 质疑 GDM 是否在 Gemini 4 上有意训练 CoT",
+     "source": "Redwood Research：Blog（RSS）",
+     "ts": "2026-11-11T04:33:17.986000+08:00",
+     "publishedAt": "2026-11-10T20:23:06.000Z",
+     "discoveredAt": "2026-11-10T20:33:17.986Z",
+     "summary": "Redwood Research 发现 Gemini 4 安全报告（第114页）似乎提到 GDM 用辅助奖励训练思维链（CoT），但 GDM 博客称训练中从不惩罚 CoT 内容，且多位 GDM 员工表示没有在训练 CoT 但不便透露技术细节，Redwood 表示困惑并希望 GDM 澄清。",
+     "url": "https://blog.redwoodresearch.org/p/we-dont-understand-whether-gdm-intentionally",
+     "aihot": "https://aihot.news/items/ffkrl6gio30tjoxu8lc73y00g",
+     "selected": false,
+     "score": 59,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-11-11T01:16:23.331000+08:00",
+     "publishedAt": "2026-11-10T00:00:00.000Z",
+     "discoveredAt": "2026-11-10T17:16:23.331Z",
+     "summary": "OpenRouter 用 8 张自制扫描页（264 项关键值）实测 15 个视觉模型、Mistral OCR 和 Tesseract 做 OCR 的表现。",
+     "url": "https://openrouter.ai/blog/insights/best-ocr-model/",
+     "aihot": "https://aihot.news/items/k4yeadirrsze4hfymnfr0vk12",
+     "selected": true,
+     "score": 73,
+     "category": "ai-models"
+    },
+    {
+     "n": 5,
+     "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
+     "source": "X：Cursor (@cursor_ai)",
+     "ts": "2026-11-11T00:48:24.055000+08:00",
+     "publishedAt": "2026-11-10T16:35:16.000Z",
+     "discoveredAt": "2026-11-10T16:48:24.055Z",
+     "summary": "Cursor 宣布 Gemini 4 Carbon 已可在 Cursor 中使用。官方称在高 effort 设置下，该模型以 60.4% 的得分位居 CursorBench 4.0 榜首，配图还标注其成本为 $9.22。",
+     "url": "https://x.com/cursor_ai/status/2120193584670580857",
+     "aihot": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
+     "selected": true,
+     "score": 68,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Lauren Tan（SpaceXSI，Grok Bot 工程负责人） (@poteto)",
+       "title": "Gemini 4 Carbon 上线 Cursor，高努力档以 60.4% 居 CursorBench 首位",
+       "url": "https://x.com/poteto/status/2120232138603975020",
+       "aihot": "https://aihot.news/items/uv4ae4upc6j96zfub1sdrd9rs"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-11-11T00:23:24.128000+08:00",
+     "publishedAt": "2026-11-10T16:03:47.000Z",
+     "discoveredAt": "2026-11-10T16:23:24.128Z",
+     "summary": "Google DeepMind 正式向开发者、企业、科学家和普通用户开放 Gemini 4 Carbon，定位为其最强前沿模型，主打网络安全能力与复杂知识工作、软件工程、科学推理中的长程智能体工作流。",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+     "aihot": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
+     "selected": true,
+     "score": 85,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "公众号：数字生命卡兹克",
+       "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
+       "url": "https://mp.weixin.qq.com/s/zgBGhOsuh6Z_5Enmzos3rQ",
+       "aihot": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj"
+      },
+      {
+       "source": "Google DeepMind：Blog（RSS）",
+       "title": "Google DeepMind 发布 Gemini Robotics 2.5 视觉-语言-动作模型",
+       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+       "aihot": "https://aihot.news/items/jbfg1v2t2nu5qs8lorwyw3tlp"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "谷歌开放 Gemini 4 Carbon 模型，主打复杂编程、科学研究与网络安全",
+       "url": "https://www.ithome.com/1/025/203.htm",
+       "aihot": "https://aihot.news/items/rmyh61drfatbxzpvef0gew7kz"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 推出 Gemini 4 Carbon，面向 Ultra 订阅者和付费开发者开放",
+       "url": "https://x.com/GoogleDeepMind/status/2120219374388924610",
+       "aihot": "https://aihot.news/items/q3suwqyg7f2j9irr9pmc6rdw6"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google Gemini 4 Carbon 正式开放，网络安全与成本表现成为亮点",
+       "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+       "aihot": "https://aihot.news/items/rm4rl4rx94ych4od7170jns2k"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "llm-gemini 0.36 发布，Gemini 4 Carbon 向所有用户开放",
+       "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+       "aihot": "https://aihot.news/items/t1v305wrur6qhtvg58936ltf7"
+      },
+      {
+       "source": "X：Demis Hassabis (@demishassabis)",
+       "title": "Demis Hassabis 宣布 Gemini 4 Carbon 已可用并附官方博客链接",
+       "url": "https://x.com/demishassabis/status/2120210299643208084",
+       "aihot": "https://aihot.news/items/bhlwz28hksdkul0f8b5pexdfq"
+      },
+      {
+       "source": "X：ARC Prize (@arcprize)",
+       "title": "ARC Prize 公布 Gemini 4 Carbon 的 ARC-AGI (Verified) 成绩",
+       "url": "https://x.com/arcprize/status/2120268980778668036",
+       "aihot": "https://aihot.news/items/jlikksb47igb2yo5hbcxdu6j6"
+      },
+      {
+       "source": "X：ARC Prize (@arcprize)",
+       "title": "Google Gemini 4 Carbon 发布 ARC-AGI 评测成绩",
+       "url": "https://x.com/arcprize/status/2120253127953682646",
+       "aihot": "https://aihot.news/items/otzwq0fnxzf4klzyzsg0wu6ra"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Artificial Analysis 评测 Gemini Omni Flash 1.2：视频编辑榜第 2，价格较 1.1 低 31%",
+       "url": "https://x.com/ArtificialAnlys/status/2120283459805749688",
+       "aihot": "https://aihot.news/items/fn94m17ooowdhstb7d9u3ilkp"
+      },
+      {
+       "source": "X：卡兹克 (@Khazix0918)",
+       "title": "Claude Fable 5.2 用代码吞噬审美，作者实测对比 Gemini 4 Carbon",
+       "url": "https://x.com/Khazix0918/status/2120366797459476668",
+       "aihot": "https://aihot.news/items/cj78tkkh6hnytvqy2ojn0tb34"
+      },
+      {
+       "source": "X：Demis Hassabis (@demishassabis)",
+       "title": "Google 发布 Gemini 4 Carbon 前沿模型",
+       "url": "https://x.com/demishassabis/status/2120210297948696997",
+       "aihot": "https://aihot.news/items/k6hsd1wl71nhdxi6tnp6i4qhk"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 开放 Gemini 4 Carbon 构建主打复杂长程任务",
+       "url": "https://x.com/GoogleDeepMind/status/2120219371473617099",
+       "aihot": "https://aihot.news/items/fc7s8m6wnq619c5s23tm57jsz"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google DeepMind 发布 Gemini Robotics 2.5，在 Mercedes-Benz 产线试点中实现 96% 分拣成功率",
+       "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+       "aihot": "https://aihot.news/items/rlgin71sejq685zgjf26bx9v4"
+      },
+      {
+       "source": "Ars Technica：AI（RSS）",
+       "title": "DeepMind 发布 Gemini Robotics 2.5 并推出开源安全基准 ASIMOV-jailbreak",
+       "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+       "aihot": "https://aihot.news/items/cg4c0qutwkgenvpt7g8867tjr"
+      },
+      {
+       "source": "Every：最新文章（网页）",
+       "title": "Vibe Check 评测：Gemini 4 Carbon 编码更强但判断力跟不上",
+       "url": "https://every.to/vibe-check/vibe-check-gemini-4-carbon-doesn-t-know-when-to-stop",
+       "aihot": "https://aihot.news/items/cs7o4n891nsyi6joa53yfh6nz"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 发布 Gemini Robotics 2.5",
+       "url": "https://x.com/GoogleDeepMind/status/2120169787896525104",
+       "aihot": "https://aihot.news/items/hcox4cmagcbarj6r56e5bmd1t"
+      },
+      {
+       "source": "X：ARC Prize (@arcprize)",
+       "title": "ARC Prize 发布 Google Gemini 4 Carbon 的 ARC-AGI 测评结果",
+       "url": "https://x.com/arcprize/status/2120268989565653033",
+       "aihot": "https://aihot.news/items/qjh3hdqkopbovpag02o523lac"
+      },
+      {
+       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+       "title": "Google DeepMind 与 Artificial Analysis 联合发布 MKA 智能体知识工作基准",
+       "url": "https://x.com/_philschmid/status/2120281759598415961",
+       "aihot": "https://aihot.news/items/ioib4izqvxolxqisrmav3kg4s"
+      },
+      {
+       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+       "title": "Google DeepMind 发布 Gemini 4 Carbon",
+       "url": "https://x.com/_philschmid/status/2120186356018389468",
+       "aihot": "https://aihot.news/items/orr3a9ctt61ul062hjb25qbf6"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Agent Arena 分析：Gemini 4 Carbon 在高难度任务上更具成本竞争力",
+       "url": "https://x.com/arena/status/2120236149503672762",
+       "aihot": "https://aihot.news/items/gseu4hejoi6zlstohvofkofjz"
+      },
+      {
+       "source": "X：ARC Prize (@arcprize)",
+       "title": "Google Gemini 4 Carbon 结果登入 ARC Prize 排行榜",
+       "url": "https://x.com/arcprize/status/2120253137130852426",
+       "aihot": "https://aihot.news/items/vue0ypsbx03qdmvxwka52vlw2"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind：Gemini 4 Argon 辅助构建 Gemini Robotics 2.5，缩短数月训练时间",
+       "url": "https://x.com/GoogleDeepMind/status/2120169790853513261",
+       "aihot": "https://aihot.news/items/ia8ckq365fz1orr62we4o67c3"
+      },
+      {
+       "source": "Artificial Analysis 完整文章（网页）",
+       "title": "Google DeepMind 与 Artificial Analysis 推出 MKA 多模态知识工作基准",
+       "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+       "aihot": "https://aihot.news/items/x3vef4tznh0hv6cwrtw262n1y"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Artificial Analysis 联合 Google DeepMind 发布 MKA 多模态知识工作基准",
+       "url": "https://x.com/ArtificialAnlys/status/2120220567038984212",
+       "aihot": "https://aihot.news/items/xglnm5upo8w4dh7e9m9j2n3cm"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Gemini Robotic 2.5 助 Apollo 2 分拣零件",
+       "url": "https://x.com/GoogleDeepMind/status/2120169796184478162",
+       "aihot": "https://aihot.news/items/n2vis4qwn3s3eypvgw12jfjap"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Gemini Robotics 2.5 新增安全防护能力",
+       "url": "https://x.com/GoogleDeepMind/status/2120169799007580406",
+       "aihot": "https://aihot.news/items/o6bc5zo2ku3oycpurqqmkk5lm"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "谷歌联合 Artificial Analysis 推出 MKA 多模态知识智能体基准，Gemini 4 Carbon 质量第二、成本仅第一名六分之一",
+       "url": "https://www.ithome.com/1/025/205.htm",
+       "aihot": "https://aihot.news/items/zxtpddeph1c3lkpd75e4rm9zd"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Artificial Analysis 与 Google DeepMind 合作引入 MKA 基准",
+       "url": "https://x.com/ArtificialAnlys/status/2120222045011341318",
+       "aihot": "https://aihot.news/items/duz8jrku5lgcp5n2t44i83t7y"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Carbon 构建针织材料 3D 可视化",
+       "url": "https://x.com/Google/status/2120279087314837642",
+       "aihot": "https://aihot.news/items/f1nm0kwuhep0mbl5n9m7h429v"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "DeepMind 与 Artificial Analysis 推出 MKA 基准",
+       "url": "https://x.com/GoogleDeepMind/status/2120219377601560854",
+       "aihot": "https://aihot.news/items/y3q28gc49dwjef4tl5lzd38ga"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Carbon 创意作品展示",
+       "url": "https://x.com/Google/status/2120324708826550328",
+       "aihot": "https://aihot.news/items/cnuytm3jur60iycxtbamxg7sp"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "title": "Gemini 机器人灵巧度接近人类水平",
+     "source": "X：Google DeepMind (@GoogleDeepMind)",
+     "ts": "2026-11-10T23:15:25.645000+08:00",
+     "publishedAt": "2026-11-10T15:00:44.000Z",
+     "discoveredAt": "2026-11-10T15:15:25.645Z",
+     "summary": "这一成果在任务广度和灵巧性上都是重大进步——接近人类级别的精细度。 🔹 系蝴蝶结考验对可变形物体的操作 🔹 移液操作需要处理精细物品 🔹 用夹子分餐需要高级工具使用能力",
+     "url": "https://x.com/GoogleDeepMind/status/2120169793848561803",
+     "aihot": "https://aihot.news/items/yu9vnk359yatlp0buv38oa0g7",
+     "selected": false,
+     "score": 33,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+       "title": "Gemini 相关推文",
+       "url": "https://x.com/OfficialLoganK/status/2120372550354280848",
+       "aihot": "https://aihot.news/items/vxex7mt9tczngfm9vc4e1ml6j"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-10T22:08:29.861000+08:00",
+     "publishedAt": "2026-11-10T14:07:47.000Z",
+     "discoveredAt": "2026-11-10T14:08:29.861Z",
+     "summary": "The Decoder 报道，Anthropic 新模型 Fable 5.2 在 Scale Labs 和 Center for AI Safety 的 Remote Labor Index 基准上以 41.3% 排名第一，该测试衡量 AI 智能体能否把真实自由职业项目做到让付费客户接受的质量。",
+     "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+     "aihot": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
+     "selected": true,
+     "score": 81,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 4,
    "items": [
     {
-     "n": 1,
-     "title": "Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5",
-     "source": "X：Artificial Analysis (@ArtificialAnlys)",
-     "ts": "2026-11-10T04:07:49.182000+08:00",
-     "publishedAt": "2026-11-09T19:45:12.000Z",
-     "discoveredAt": "2026-11-09T20:07:49.182Z",
-     "summary": "Artificial Analysis 评测 Anthropic 发布的 Claude Fable 5.2，其在 Artificial Analysis Intelligence Index v5 以 65 分登顶，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）。",
-     "url": "https://x.com/ArtificialAnlys/status/2119878995386982508",
-     "aihot": "https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s",
+     "n": 9,
+     "title": "Gemini 子智能体打造 3D 游戏",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-11T05:27:31.401000+08:00",
+     "publishedAt": "2026-11-10T21:00:36.000Z",
+     "discoveredAt": "2026-11-10T21:27:31.401Z",
+     "summary": "子智能体在 Blender 中建模并绑定 3D 资产，随后 Carbon 用 Three.js 编写了这款 60 FPS 游戏，包含自定义 WebGL2 着色器、程序化音频，以及由 Lyria 创作的原创配乐 🎵 在 @GoogleAIStudio 中畅玩 ↓ https://aistudio.google.com/…",
+     "url": "https://x.com/Google/status/2120260358036213834",
+     "aihot": "https://aihot.news/items/wdhzrgb7oofsgm9qkg6z9vnw0",
+     "selected": false,
+     "score": 43,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 打造鹈鹕骑车校园游戏",
+       "url": "https://x.com/Google/status/2120260356413051147",
+       "aihot": "https://aihot.news/items/nih37g8dbsnu4vc3wdpouik87"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "Gemini Intelligence 扩展至 Pixel 10 与 motorola signature 27，并推出多项新功能",
+     "source": "Google Blog：AI（RSS）",
+     "ts": "2026-11-11T03:36:20.070000+08:00",
+     "publishedAt": "2026-11-10T19:00:00.000Z",
+     "discoveredAt": "2026-11-10T19:36:20.070Z",
+     "summary": "Google 宣布 Gemini Intelligence 扩展到更多设备，包括 motorola signature 27（美国 11 月 19 日开启预售）和通过 Pixel Drop 获得新功能的 Pixel 10 系列。",
+     "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+     "aihot": "https://aihot.news/items/hafhqgnu5aajku6wrmkx4v1fh",
+     "selected": false,
+     "score": 55,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Google (@Google)",
+       "title": "Pixel 11月功能更新：Gemini Intelligence 上线",
+       "url": "https://x.com/Google/status/2120299157411790929",
+       "aihot": "https://aihot.news/items/m4pwjez4xobv9wpgzg24em3ug"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "title": "Google AI Edge Gallery 新增端侧语音识别与语音合成能力",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-11-11T01:33:26.978000+08:00",
+     "publishedAt": "2026-11-09T16:00:00.000Z",
+     "discoveredAt": "2026-11-10T17:33:26.978Z",
+     "summary": "Google 在 Google AI Edge Gallery 中推出端侧 ASR 与 TTS 能力，可与 Gemini Nano、Gemma 4 等端侧 SLM 组成完全离线的语音交互管线。",
+     "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+     "aihot": "https://aihot.news/items/hq666kd02bayn64cw702xm11w",
      "selected": true,
-     "score": 81,
+     "score": 71,
      "category": "ai-products"
     },
     {
-     "n": 2,
-     "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
-     "source": "Anthropic：Newsroom（网页）",
-     "ts": "2026-11-10T03:16:47.529000+08:00",
-     "publishedAt": "2026-11-08T16:00:00.000Z",
-     "discoveredAt": "2026-11-09T19:16:47.529Z",
-     "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者为同一底层模型，Mythos 需通过 Cyber 或 Life Sciences Verification Program 申请访问。",
-     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-     "aihot": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
+     "n": 12,
+     "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-11T00:29:25.449000+08:00",
+     "publishedAt": "2026-11-10T16:06:32.000Z",
+     "discoveredAt": "2026-11-10T16:29:25.449Z",
+     "summary": "Philipp Schmid 介绍 Gemini 4 Carbon 现已可在 Gemini API、Google AI Studio 和 Antigravity（限 Google AI Ultra 订阅者）中使用。",
+     "url": "https://x.com/_philschmid/status/2120186354537812452",
+     "aihot": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u",
      "selected": true,
-     "score": 86,
+     "score": 77,
      "category": "ai-products"
     }
    ],
@@ -129,20 +496,42 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 3,
-     "title": "Gemini 相关推文",
-     "source": "X：Logan Kilpatrick (@OfficialLoganK)",
-     "ts": "2026-11-10T13:39:48.376000+08:00",
-     "publishedAt": "2026-11-10T05:24:16.000Z",
-     "discoveredAt": "2026-11-10T05:39:48.376Z",
-     "summary": "Gemini",
-     "url": "https://x.com/OfficialLoganK/status/2120024720510984234",
-     "aihot": "https://aihot.news/items/ysk8902tho06azkf10q1u3asb",
+     "n": 13,
+     "title": "Google DeepMind 用 AlphaProof Code 对 Signal 协议机器码完成形式化安全验证",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-10T23:58:25.013000+08:00",
+     "publishedAt": "2026-11-10T15:38:00.000Z",
+     "discoveredAt": "2026-11-10T15:58:25.013Z",
+     "summary": "Google DeepMind 发布 AlphaProof Code 多智能体形式化验证框架，并首次对广泛部署协议 Signal 的生产机器码完成形式化安全验证。",
+     "url": "https://x.com/rohanpaul_ai/status/2120179172836622832",
+     "aihot": "https://aihot.news/items/t9g33uqn3lfwm8cr1kr2fvnp7",
+     "selected": true,
+     "score": 79,
+     "category": "industry",
+     "also": [
+      {
+       "source": "IT之家·人工智能",
+       "title": "谷歌 DeepMind 用 AI 完成 Signal 协议形式化验证，数学证明其端到端加密可靠性",
+       "url": "https://www.ithome.com/1/025/161.htm",
+       "aihot": "https://aihot.news/items/ulunynzz7pce7the0zwf148z2"
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "title": "Google 与 Adobe 扩大合作，将 Adobe 工具引入 Google 应用并将 Gemini 模型接入 Adobe",
+     "source": "Google Blog：AI（RSS）",
+     "ts": "2026-11-10T22:31:28.493000+08:00",
+     "publishedAt": "2026-11-10T14:00:00.000Z",
+     "discoveredAt": "2026-11-10T14:31:28.493Z",
+     "summary": "Google 在 Adobe MAX 宣布扩大与 Adobe 的合作，把 Adobe 创意与生产力工具直接引入 Google 日常产品，同时把 Google 前沿 AI 模型带入 Adobe 应用。",
+     "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+     "aihot": "https://aihot.news/items/szadguglay848wvupyto5trqi",
      "selected": false,
-     "score": 7,
+     "score": 55,
      "category": "industry"
     }
    ],
@@ -153,14 +542,43 @@
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 2,
+   "items": [
+    {
+     "n": 15,
+     "title": "Wiz 讲解如何评估 AI 智能体的网络安全能力",
+     "source": "Wiz：Research（安全研究）",
+     "ts": "2026-11-11T01:17:21.898000+08:00",
+     "publishedAt": "2026-11-10T16:03:25.000Z",
+     "discoveredAt": "2026-11-10T17:17:21.898Z",
+     "summary": "Wiz Research 介绍其 Cyber Model Arena v3.9 的基准设计方法，该基准覆盖 26 个模型、59 个智能体和 327 道挑战，分代码漏洞、API 安全、Web 安全和云安全四类。",
+     "url": "https://www.wiz.io/blog/cyber-model-arena-ai-benchmark",
+     "aihot": "https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy",
+     "selected": true,
+     "score": 64,
+     "category": "tip"
+    },
+    {
+     "n": 16,
+     "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-11-11T01:16:23.351000+08:00",
+     "publishedAt": "2026-11-10T00:00:00.000Z",
+     "discoveredAt": "2026-11-10T17:16:23.351Z",
+     "summary": "OpenRouter 发布教程，讲解从任意 LLM 获取可靠结构化输出的三种方式：支持 structured outputs 的模型发送严格 JSON Schema，只支持工具的模型强制单次工具调用，只需标签时用 Jev 决策模型。",
+     "url": "https://openrouter.ai/blog/tutorials/structured-output-llm/",
+     "aihot": "https://aihot.news/items/b44e0p0xgg4j6d7wyei4fy5rl",
+     "selected": true,
+     "score": 75,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
