@@ -12,10 +12,10 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-10",
-  "winEnd": "2026-11-11",
-  "generated": "2026-11-11 15:37",
-  "rawHits": 10,
+  "winStart": "2026-11-11",
+  "winEnd": "2026-11-12",
+  "generated": "2026-11-12 16:04",
+  "rawHits": 11,
   "selectedHits": 2,
   "shown": 3,
   "dedupedFrom": 3,
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 11,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,20 +68,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高",
+     "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
      "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-11-11T01:16:23.331000+08:00",
-     "publishedAt": "2026-11-10T00:00:00.000Z",
-     "discoveredAt": "2026-11-10T17:16:23.331Z",
-     "summary": "OpenRouter 用 8 张自制扫描页（264 项关键值）实测 15 个视觉模型、Mistral OCR 和 Tesseract 做 OCR 的表现。",
-     "url": "https://openrouter.ai/blog/insights/best-ocr-model/",
-     "aihot": "https://aihot.news/items/k4yeadirrsze4hfymnfr0vk12",
+     "ts": "2026-11-12T15:44:23.172000+08:00",
+     "publishedAt": "2026-11-12T00:00:00.000Z",
+     "discoveredAt": "2026-11-12T07:44:23.172Z",
+     "summary": "OpenRouter 上线简体中文、日语等 7 种语言 Beta 本地化，并详解配套的自纠错翻译流水线：GPT-6.1 Sol 翻译 16,918 条字符串，经代码检查、同模型校验和每日 AI 审查重试，最坏情况每条约 20 次模型调用。",
+     "url": "https://openrouter.ai/blog/announcements/openrouter-in-8-languages/",
+     "aihot": "https://aihot.news/items/cve017k4le2q7l8x1bfr2xdjx",
      "selected": true,
      "score": 73,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "豆包工作接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型并推出限时特惠",
+     "source": "公众号：豆包（字节）",
+     "ts": "2026-11-12T10:41:41.307000+08:00",
+     "publishedAt": "2026-11-12T02:31:16.000Z",
+     "discoveredAt": "2026-11-12T02:41:41.307Z",
+     "summary": "豆包工作产品更新，在豆包2.1 Lite和Pro之外新增Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等多款第三方模型，并在模型选择页面标注额度消耗倍率。",
+     "url": "https://mp.weixin.qq.com/s/sJ3FeTQoTXWXobzaflIwWQ",
+     "aihot": "https://aihot.news/items/a5v0ikr6ow2l9rpcvbi77jqi5",
+     "selected": false,
+     "score": 44,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
+     "source": "OpenRouter：Announcements（RSS）",
+     "ts": "2026-11-12T08:38:14.713000+08:00",
+     "publishedAt": "2026-11-12T00:00:00.000Z",
+     "discoveredAt": "2026-11-12T00:38:14.713Z",
+     "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
+     "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop/",
+     "aihot": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
+     "selected": true,
+     "score": 72,
      "category": "ai-models"
     }
    ],
@@ -90,24 +118,9 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 2,
-     "title": "谷歌更新 Android Bench 榜单：Kimi K3.1 Pro、DeepSeek V4.1 Flash 与 GPT-6.1 Terra 成绩揭晓",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-11T09:09:20.597000+08:00",
-     "publishedAt": "2026-11-11T00:56:56.237Z",
-     "discoveredAt": "2026-11-11T01:09:20.597Z",
-     "summary": "谷歌 Android Developers 首次公开 GPT-6.1 Terra、Kimi K3.1 Pro 和 DeepSeek V4.1 Flash 在 Android Bench 的跑分。",
-     "url": "https://www.ithome.com/1/025/232.htm",
-     "aihot": "https://aihot.news/items/rn6fdavm92v9f917jm1sfwdhf",
-     "selected": false,
-     "score": 41,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
@@ -126,24 +139,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 3,
-     "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-11-11T01:16:23.351000+08:00",
-     "publishedAt": "2026-11-10T00:00:00.000Z",
-     "discoveredAt": "2026-11-10T17:16:23.351Z",
-     "summary": "OpenRouter 发布教程，讲解从任意 LLM 获取可靠结构化输出的三种方式：支持 structured outputs 的模型发送严格 JSON Schema，只支持工具的模型强制单次工具调用，只需标签时用 Jev 决策模型。",
-     "url": "https://openrouter.ai/blog/tutorials/structured-output-llm/",
-     "aihot": "https://aihot.news/items/b44e0p0xgg4j6d7wyei4fy5rl",
-     "selected": true,
-     "score": 75,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
