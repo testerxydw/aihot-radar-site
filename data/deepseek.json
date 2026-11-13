@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-11",
-  "winEnd": "2026-11-12",
-  "generated": "2026-11-12 16:04",
-  "rawHits": 11,
-  "selectedHits": 2,
-  "shown": 3,
-  "dedupedFrom": 3,
+  "winStart": "2026-11-12",
+  "winEnd": "2026-11-13",
+  "generated": "2026-11-13 15:42",
+  "rawHits": 16,
+  "selectedHits": 4,
+  "shown": 8,
+  "dedupedFrom": 8,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 11,
+    "count": 16,
     "hasMore": false,
     "from_cache": false
    },
@@ -72,6 +72,34 @@
    "items": [
     {
      "n": 1,
+     "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-11-13T10:20:07.994000+08:00",
+     "publishedAt": "2026-11-12T18:00:00.000Z",
+     "discoveredAt": "2026-11-13T02:20:07.994Z",
+     "summary": "Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。",
+     "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+     "aihot": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
+     "selected": true,
+     "score": 76,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "前 OpenAI 工程师称通过权重初始化指纹分析发现 DeepSeek、Moonshot、MiniMax、蚂蚁集团使用 NVIDIA Blackwell 芯片训练模型",
+     "source": "X：indigo (@indigox)",
+     "ts": "2026-11-13T08:55:50.794000+08:00",
+     "publishedAt": "2026-11-13T00:42:32.000Z",
+     "discoveredAt": "2026-11-13T00:55:50.794Z",
+     "summary": "前 OpenAI 工程师 @willdepue 发帖称，模型权重初始化模式会随 GPU 类型和随机种子保留指纹，经搜索逾六万亿组合并用 B300、GB200 真机复现验证。",
+     "url": "https://x.com/indigox/status/2121040986256109987",
+     "aihot": "https://aihot.news/items/p9g8alrjslao3dn6von37647l",
+     "selected": false,
+     "score": 74,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
      "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
      "source": "OpenRouter：Announcements（RSS）",
      "ts": "2026-11-12T15:44:23.172000+08:00",
@@ -83,34 +111,6 @@
      "selected": true,
      "score": 73,
      "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "豆包工作接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型并推出限时特惠",
-     "source": "公众号：豆包（字节）",
-     "ts": "2026-11-12T10:41:41.307000+08:00",
-     "publishedAt": "2026-11-12T02:31:16.000Z",
-     "discoveredAt": "2026-11-12T02:41:41.307Z",
-     "summary": "豆包工作产品更新，在豆包2.1 Lite和Pro之外新增Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等多款第三方模型，并在模型选择页面标注额度消耗倍率。",
-     "url": "https://mp.weixin.qq.com/s/sJ3FeTQoTXWXobzaflIwWQ",
-     "aihot": "https://aihot.news/items/a5v0ikr6ow2l9rpcvbi77jqi5",
-     "selected": false,
-     "score": 44,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-11-12T08:38:14.713000+08:00",
-     "publishedAt": "2026-11-12T00:00:00.000Z",
-     "discoveredAt": "2026-11-12T00:38:14.713Z",
-     "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
-     "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop/",
-     "aihot": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
-     "selected": true,
-     "score": 72,
-     "category": "ai-models"
     }
    ],
    "note": null
@@ -118,16 +118,88 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 4,
+     "title": "vLLM 在 Vera Rubin NVL72 上跑 DeepSeek-V4.1-Flash：吞吐达 GB300 NVL72 的 58 倍，单用户 387 tokens/s",
+     "source": "vLLM 官方博客（RSS）",
+     "ts": "2026-11-13T07:04:46.612000+08:00",
+     "publishedAt": "2026-11-12T00:00:00.000Z",
+     "discoveredAt": "2026-11-12T23:04:46.612Z",
+     "summary": "vLLM 在单台 NVIDIA Vera Rubin NVL72 机架上部署 DeepSeek-V4.1-Flash，每 GPU 吞吐 1.7M tokens/s、单用户 387 tokens/s，为 GB300 NVL72 的 58 倍，峰值吞吐 2.52M tokens/s、单用户最高 1,810 tokens/…",
+     "url": "https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin",
+     "aihot": "https://aihot.news/items/b2lbx4zvomu3cn06iy8163l9f",
+     "selected": false,
+     "score": 50,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "Simular 推出 Box 云端电脑，供 Claude、ChatGPT、Codex、Gemini 和 DeepSeek 共享使用",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-13T02:24:31.912000+08:00",
+     "publishedAt": "2026-11-12T18:01:30.000Z",
+     "discoveredAt": "2026-11-12T18:24:31.912Z",
+     "summary": "Simular 推出 Box，一台任何 AI 智能体都可使用的云端电脑。Claude、ChatGPT、Codex、Gemini 或 DeepSeek 可在其上打开应用、运行终端、填写表单，登录状态保留给下一个接手的智能体。",
+     "url": "https://x.com/rohanpaul_ai/status/2120940062913552443",
+     "aihot": "https://aihot.news/items/sm60crxiezskolk1846ri8bii",
+     "selected": false,
+     "score": 58,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-13T01:45:43.333000+08:00",
+     "publishedAt": "2026-11-12T17:44:33.000Z",
+     "discoveredAt": "2026-11-12T17:45:43.333Z",
+     "summary": "The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+     "aihot": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
+     "selected": true,
+     "score": 86,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 2,
+   "items": [
+    {
+     "n": 7,
+     "title": "与 Alice Huang 相关的公司投资 DeepSeek 最新融资，并承诺提供 Nvidia 芯片",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-13T05:29:51.080000+08:00",
+     "publishedAt": "2026-11-12T21:26:35.000Z",
+     "discoveredAt": "2026-11-12T21:29:51.080Z",
+     "summary": "据称与 Alice Huang 相关的公司投资了 DeepSeek 的最新融资轮，目标是成为 DeepSeek 稳定的被禁 Blackwell 芯片供应商。作者转引 WSJ 报道称，Alice Huang 的丈夫、商人 Kang Wei 与 Jensen Huang 相识十年，两人 2023 年在新加坡成立 Mega…",
+     "url": "https://x.com/rohanpaul_ai/status/2120991673878786311",
+     "aihot": "https://aihot.news/items/kl6usb0zdu045w9bedy6qyzvf",
+     "selected": false,
+     "score": 71,
+     "category": "industry"
+    },
+    {
+     "n": 8,
+     "title": "Epoch AI 分析华为和林格尔数据中心，揭示中美算力差距",
+     "source": "Epoch AI：Gradient Updates（RSS）",
+     "ts": "2026-11-13T00:50:45.617000+08:00",
+     "publishedAt": "2026-11-12T16:03:15.000Z",
+     "discoveredAt": "2026-11-12T16:50:45.617Z",
+     "summary": "Epoch AI 通过卫星影像和冷却设备模型估算，华为和林格尔数据中心已投运约 105,000 颗 Ascend 910C 和 8,000 颗 Ascend 910B 芯片，对应约 81,000 H100 等效算力，为全球最大 AI 数据中心 SpaceX Colossus 2 的约 7%。",
+     "url": "https://epochai.substack.com/p/what-huaweis-horinger-data-center",
+     "aihot": "https://aihot.news/items/adkgofriq3tvp6qrawfc63yw4",
+     "selected": true,
+     "score": 64,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
@@ -141,7 +213,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

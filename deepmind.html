@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-11",
-  "winEnd": "2026-11-12",
-  "generated": "2026-11-12 16:03",
-  "rawHits": 54,
-  "selectedHits": 3,
-  "shown": 9,
-  "dedupedFrom": 43,
+  "winStart": "2026-11-12",
+  "winEnd": "2026-11-13",
+  "generated": "2026-11-13 15:42",
+  "rawHits": 42,
+  "selectedHits": 7,
+  "shown": 10,
+  "dedupedFrom": 33,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,7 +204,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 28,
+    "count": 9,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 4,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,10 +247,52 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
+   "count": 4,
    "items": [
     {
      "n": 1,
+     "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-11-13T10:20:07.994000+08:00",
+     "publishedAt": "2026-11-12T18:00:00.000Z",
+     "discoveredAt": "2026-11-13T02:20:07.994Z",
+     "summary": "Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。",
+     "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+     "aihot": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
+     "selected": true,
+     "score": 76,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道",
+     "source": "X：Google DeepMind (@GoogleDeepMind)",
+     "ts": "2026-11-13T02:12:32.310000+08:00",
+     "publishedAt": "2026-11-12T18:02:37.000Z",
+     "discoveredAt": "2026-11-12T18:12:32.310Z",
+     "summary": "Google DeepMind 宣布开始向各渠道推送：开发者可在 Google AI Studio、Android Studio 中用 Gemini API，付费 Google AI Pro 和 Ultra 订阅者可在 Google Antigravity 中使用；",
+     "url": "https://x.com/GoogleDeepMind/status/2120940342505566438",
+     "aihot": "https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y",
+     "selected": true,
+     "score": 82,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-11-13T02:11:32.177000+08:00",
+     "publishedAt": "2026-11-12T18:07:16.000Z",
+     "discoveredAt": "2026-11-12T18:11:32.177Z",
+     "summary": "Artificial Analysis 评测 Google 新发布的 Gemini 4 Hydrogen：新增 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分，每任务成本约为 Sonnet…",
+     "url": "https://x.com/ArtificialAnlys/status/2120941511223185722",
+     "aihot": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
+     "selected": true,
+     "score": 78,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
      "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
      "source": "OpenRouter：Announcements（RSS）",
      "ts": "2026-11-12T15:44:23.172000+08:00",
@@ -262,34 +304,6 @@ const DATA = {
      "selected": true,
      "score": 73,
      "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
-     "source": "OpenRouter：Announcements（RSS）",
-     "ts": "2026-11-12T08:38:14.713000+08:00",
-     "publishedAt": "2026-11-12T00:00:00.000Z",
-     "discoveredAt": "2026-11-12T00:38:14.713Z",
-     "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
-     "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop/",
-     "aihot": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
-     "selected": true,
-     "score": 72,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "DeepMind AI 模型提升飓风预报精度，美国国家飓风中心称人类专家仍不可替代",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-11T22:24:28.825000+08:00",
-     "publishedAt": "2026-11-11T13:42:22.230Z",
-     "discoveredAt": "2026-11-11T14:24:28.825Z",
-     "summary": "据 Techxplore 报道，美国国家飓风中心（NHC）自 2025 年 6 月下旬起在业务中使用 AI 模型，2026 年将谷歌 DeepMind 模型纳入路径和强度综合预测辅助系统，并与其合作开发下一代模型。",
-     "url": "https://www.ithome.com/1/025/806.htm",
-     "aihot": "https://aihot.news/items/w5c4ogtev7fzm0eu8uj1kz281",
-     "selected": false,
-     "score": 68,
-     "category": "ai-models"
     }
    ],
    "note": null
@@ -297,245 +311,203 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 3,
+   "count": 4,
    "items": [
     {
-     "n": 4,
-     "title": "谷歌宣布 Gemini 接入苹果 CarPlay，iOS 用户可在车内免提语音对话",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-12T07:13:14.941000+08:00",
-     "publishedAt": "2026-11-11T22:49:11.167Z",
-     "discoveredAt": "2026-11-11T23:13:14.941Z",
-     "summary": "谷歌 11 月 11 日发布博文，宣布苹果 CarPlay 接入 Gemini，即日起面向全球 iOS 端 Gemini 用户逐步推送，覆盖 Gemini Live 已支持的全部语言。",
-     "url": "https://www.ithome.com/1/025/831.htm",
-     "aihot": "https://aihot.news/items/quh5bel4p2r3puyj0vur4xniu",
-     "selected": false,
-     "score": 53,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Gemini (@GeminiApp)",
-       "title": "Gemini 登陆 Apple CarPlay 全球上线",
-       "url": "https://x.com/GeminiApp/status/2120626272724484605",
-       "aihot": "https://aihot.news/items/bce1xlu0393114h75yzihui21"
-      },
-      {
-       "source": "X：Gemini (@GeminiApp)",
-       "title": "Gemini 登陆 Apple CarPlay",
-       "url": "https://x.com/GeminiApp/status/2120626195033473228",
-       "aihot": "https://aihot.news/items/jbxocatb8282ju35rjw9h20gt"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 应用上线 Apple CarPlay",
-       "url": "https://x.com/Google/status/2120596045960790486",
-       "aihot": "https://aihot.news/items/ftjq862mib2woov6qeeac8264"
-      },
-      {
-       "source": "X：Sundar Pichai (@sundarpichai)",
-       "title": "Gemini 决策 API 上线",
-       "url": "https://x.com/sundarpichai/status/2120581156882285031",
-       "aihot": "https://aihot.news/items/a0qorvsg9mk2771bmeq28zxbz"
-      },
-      {
-       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
-       "title": "Gemini 相关推文",
-       "url": "https://x.com/OfficialLoganK/status/2120738935261585576",
-       "aihot": "https://aihot.news/items/rimc0nuil7z8rm1u46d2otuqa"
-      }
-     ]
-    },
-    {
      "n": 5,
-     "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
-     "source": "Google Blog：AI（RSS）",
-     "ts": "2026-11-12T02:54:13.863000+08:00",
-     "publishedAt": "2026-11-11T18:00:00.000Z",
-     "discoveredAt": "2026-11-11T18:54:13.863Z",
-     "summary": "Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在 150-250ms 端到端延迟内对文本、图像、音频、视频和 PDF（最多 256K tokens）一次性评估最多 1000 个是/否、多选和评分题。",
-     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-     "aihot": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
-     "selected": true,
-     "score": 69,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "Google DeepMind：Blog（RSS）",
-       "title": "Google DeepMind 发布 AlphaGenome 2，预测基因变异对特定细胞类型的影响",
-       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-       "aihot": "https://aihot.news/items/wp91dm5fgirnzvh99js3vv6j2"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Google DeepMind 发布 AlphaProof Code，四周内完成 Signal 加密核心的数学验证",
-       "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
-       "aihot": "https://aihot.news/items/kj6nf1e4aepabvupi1881dzbw"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1，输入定价 $0.10/M tokens",
-       "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
-       "aihot": "https://aihot.news/items/i529ddohm7bqm204xi2fdv7p6"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 发布 Gemini Decision 1 模型及 Gemini Decisions API",
-       "url": "https://x.com/Google/status/2120583966272983331",
-       "aihot": "https://aihot.news/items/mj3riahx31kxc8bg1qk1mx3lh"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 用 AlphaProof Code 将 Signal 协议安全性数学证明到代码层",
-       "url": "https://x.com/GoogleDeepMind/status/2120484246401777737",
-       "aihot": "https://aihot.news/items/xeo5iv91mw8dyluh3w6gmpoqi"
-      },
-      {
-       "source": "Latent Space（RSS）",
-       "title": "Latent Space AINews：Google 发布 Gemini Decision 1 决策模型，Claude Fable 5.2 登顶 Agent Arena",
-       "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
-       "aihot": "https://aihot.news/items/shb2cxiblvq7iuzx5ug97p4vi"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "Google DeepMind 发布 AlphaGenome 2：深入单细胞分析，识别基因表达变异能力接近翻倍",
-       "url": "https://www.ithome.com/1/025/840.htm",
-       "aihot": "https://aihot.news/items/ikobtpz1wzu4psmio9lm3ydi0"
-      },
-      {
-       "source": "X：Sundar Pichai (@sundarpichai)",
-       "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 决策模型",
-       "url": "https://x.com/sundarpichai/status/2120581155078729728",
-       "aihot": "https://aihot.news/items/rlhz0uwxo2p8xhc7vnbaoko7i"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "Google DeepMind 发布 Gemini Decision 1，单次可处理 1,000 个封闭式问题",
-       "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-       "aihot": "https://aihot.news/items/tc20zb2magcy73drkedizwofu"
-      },
-      {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "Google DeepMind 用 AlphaProof Code 形式化验证 Signal 协议关键密码学保证",
-       "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-       "aihot": "https://aihot.news/items/qm43xrxekow9l5k0qpm0xnnin"
-      },
-      {
-       "source": "Simon Willison 博客",
-       "title": "Google 发布 Gemini Decision 1 决策模型 API，Simon Willison 实测对比",
-       "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-       "aihot": "https://aihot.news/items/cwu3md9iafkda12s81kwsz9t7"
-      },
-      {
-       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
-       "title": "Google 在 Gemini API 推出 Gemini Decision 1 决策模型",
-       "url": "https://x.com/OfficialLoganK/status/2120581433639198885",
-       "aihot": "https://aihot.news/items/n79t0spfz7zgwe7qcvxvwaauv"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "谷歌 DeepMind 发布 AlphaGenome 2 基因序列模型，识别致病变异能力提升近一倍",
-       "url": "https://www.ithome.com/1/025/822.htm",
-       "aihot": "https://aihot.news/items/ndavpsseus13b45d3l89zz1ps"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "Google DeepMind 发布 AlphaGenome 2，预测基因变异对不同细胞状态的影响",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-       "aihot": "https://aihot.news/items/m5zqspeyyqlao73wquaxmwn9e"
-      },
-      {
-       "source": "X：OpenRouter (@OpenRouter)",
-       "title": "Google 首个决策模型 Gemini Decision 1 上线 OpenRouter",
-       "url": "https://x.com/OpenRouter/status/2120583084005605816",
-       "aihot": "https://aihot.news/items/hh33gzk6lm10h6i2kt66g9lbx"
-      },
-      {
-       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-       "title": "Google 发布 Gemini Decision 1 决策模型，Gemini API 每百万输入 token 仅 $0.10",
-       "url": "https://x.com/joshwoodward/status/2120622974277734716",
-       "aihot": "https://aihot.news/items/e055uwm3p70cmgp80bpk1wn79"
-      },
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "Google DeepMind 发布 AlphaGenome 2，按细胞类型预测 DNA 变异效应",
-       "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
-       "aihot": "https://aihot.news/items/iyjgod7fuxf7x9z4ehtijy45r"
-      },
-      {
-       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-       "title": "Google DeepMind 发布 Gemini Decision 1 模型与 Decisions API",
-       "url": "https://x.com/_philschmid/status/2120581250582995318",
-       "aihot": "https://aihot.news/items/k1o7m8sfd4polrbxmonxud4vd"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "谷歌推出 Gemini Decisions API，基于 Gemini Decision 1 模型实现快速多模态决策",
-       "url": "https://www.ithome.com/1/025/858.htm",
-       "aihot": "https://aihot.news/items/augt3chxot6cst3txu3h6snl1"
-      },
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Artificial Analysis 评测 Google 首个决策模型 Gemini Decision 1，Decision Index 得 66 分",
-       "url": "https://x.com/ArtificialAnlys/status/2120582049522127205",
-       "aihot": "https://aihot.news/items/wlkx8ntz14q1azrcsx0u3npmj"
-      },
-      {
-       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-       "title": "Google DeepMind 发布 Gemini Decisions API 及 Gemini Decision 1 模型",
-       "url": "https://x.com/_philschmid/status/2120581248859201675",
-       "aihot": "https://aihot.news/items/yhy98p14wmm973u361pelzt3e"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 发布 AlphaGenome 2，可预测同一 DNA 在不同细胞中的差异读取",
-       "url": "https://x.com/GoogleDeepMind/status/2120532832145576242",
-       "aihot": "https://aihot.news/items/j2lu1jqfe2amju4n1z4fswo58"
-      },
-      {
-       "source": "Gemini API：更新日志（网页）",
-       "title": "Google 发布 Gemini Decision（gemini-decision-1）及 Decisions API",
-       "url": "https://ai.google.dev/gemini-api/docs/changelog#11-11-2026",
-       "aihot": "https://aihot.news/items/xyi59vw1zcxyc6o44nlsy2eey"
-      },
-      {
-       "source": "X：Demis Hassabis (@demishassabis)",
-       "title": "Google DeepMind 发布 DNA 序列模型 AlphaGenome 2",
-       "url": "https://x.com/demishassabis/status/2120565316619284734",
-       "aihot": "https://aihot.news/items/hq6xo30x45z0tfmw7gykqfqyf"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 发布 AlphaGenome 2，突变识别数量接近前代两倍",
-       "url": "https://x.com/GoogleDeepMind/status/2120532826336501822",
-       "aihot": "https://aihot.news/items/qh4ajmzfzmj3okrigl02v8407"
-      },
-      {
-       "source": "X：Sundar Pichai (@sundarpichai)",
-       "title": "Google DeepMind 发布 AlphaGenome 2 预测 DNA 变异对特定细胞类型的影响",
-       "url": "https://x.com/sundarpichai/status/2120553080232329324",
-       "aihot": "https://aihot.news/items/u2ayukhmd1iptylota14ty0rm"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google DeepMind 模型免重训适配实验",
-       "url": "https://x.com/GoogleDeepMind/status/2120532829805096970",
-       "aihot": "https://aihot.news/items/n2qtugrkstr6b79dl66idl8sc"
-      }
-     ]
+     "title": "谷歌 Gemini 任务自动化适配应用名单曝光，当前共 134 款",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-13T15:24:23.382000+08:00",
+     "publishedAt": "2026-11-13T06:55:27.397Z",
+     "discoveredAt": "2026-11-13T07:24:23.382Z",
+     "summary": "Android Authority 报道谷歌 Gemini 任务自动化功能适配应用名单曝光，共 134 款 App，覆盖外卖、打车、购物、旅行及办公等场景。稳定版 Android 17 QPR2 列表含 114 款，Android Canary 额外覆盖 20 款。",
+     "url": "https://www.ithome.com/1/026/752.htm",
+     "aihot": "https://aihot.news/items/ywss62wj786bpogylw5ltxj7h",
+     "selected": false,
+     "score": 54,
+     "category": "ai-products"
     },
     {
      "n": 6,
-     "title": "Google Arts & Culture 上线 Esther Mahlangu 首个在线回顾展，用 Veo 重现其早年记忆",
-     "source": "Google Blog：AI（RSS）",
-     "ts": "2026-11-11T17:46:46.828000+08:00",
-     "publishedAt": "2026-11-11T09:00:00.000Z",
-     "discoveredAt": "2026-11-11T09:46:46.828Z",
-     "summary": "Google Arts & Culture 在艺术家 Esther Mahlangu 91 岁生日当天上线其首个在线回顾展，收录 45 个以上策展故事与档案。团队与 Google DeepMind、Arts & Culture Lab 及 Domestic Data Streamers 合作，依据她的口述记忆生成静态…",
-     "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-     "aihot": "https://aihot.news/items/s6v5v3vcqfdmavakcg6msf1lx",
+     "title": "Gemini 推出第一人称视角功能",
+     "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+     "ts": "2026-11-13T05:51:50.997000+08:00",
+     "publishedAt": "2026-11-12T21:23:12.000Z",
+     "discoveredAt": "2026-11-12T21:51:50.997Z",
+     "summary": "Gemini，现在可以从你的视角出发了",
+     "url": "https://x.com/joshwoodward/status/2120990820631450061",
+     "aihot": "https://aihot.news/items/rz0rion9a2394aeint8jxph4f",
      "selected": false,
-     "score": 35,
+     "score": 22,
      "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "Google 工程师演示用 Gemini 4 Argon 加 Z3 约束求解器捕获 Go 模糊测试漏掉的边界 bug",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-11-13T05:13:50.828000+08:00",
+     "publishedAt": "2026-11-11T16:00:00.000Z",
+     "discoveredAt": "2026-11-12T21:13:50.828Z",
+     "summary": "Google agent skills 项目负责人介绍一套用 Gemini 4 Argon 把 Go 源码和 RISC-V 反汇编翻译成 Z3 约束、再以 go test 重放崩溃输入的 bug 挖掘流程，并开源了检查 SKILL.md 的 Go CLI skill-lint。",
+     "url": "https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/",
+     "aihot": "https://aihot.news/items/kixr32ij5gbw0dtnvrlfjwg57",
+     "selected": false,
+     "score": 67,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
+     "source": "Google DeepMind：Blog（RSS）",
+     "ts": "2026-11-13T02:03:46.703000+08:00",
+     "publishedAt": "2026-11-12T18:00:50.000Z",
+     "discoveredAt": "2026-11-12T18:03:46.703Z",
+     "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+     "aihot": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
+     "selected": true,
+     "score": 82,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 4 Hydrogen 今日起向全球所有用户推送",
+       "url": "https://x.com/GeminiApp/status/2120982674638864797",
+       "aihot": "https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4"
+      },
+      {
+       "source": "X：Matt Palmer（SpaceXSI，Grok Bot） (@mattyp)",
+       "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
+       "url": "https://x.com/mattyp/status/2120945253666762973",
+       "aihot": "https://aihot.news/items/mt013742fhedisepp2i31h1r4"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google 发布 Gemini 4 Hydrogen，评测得分超过更大的 Argon",
+       "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+       "aihot": "https://aihot.news/items/u7yh59ito20pqcy3kfrg1jao9"
+      },
+      {
+       "source": "X：OpenClaw (@openclaw)",
+       "title": "Gemini 4 Hydrogen 发布并已可在 OpenClaw 中使用",
+       "url": "https://x.com/openclaw/status/2121098531205501401",
+       "aihot": "https://aihot.news/items/g1i3oaaq9yrtsm2toewsuhcwk"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Hydrogen (High) 登上 Agent Arena 榜单第 5 名",
+       "url": "https://x.com/arena/status/2120940869889175840",
+       "aihot": "https://aihot.news/items/u4ib3mrnfptf3yia85lipgzor"
+      },
+      {
+       "source": "Ars Technica：AI（RSS）",
+       "title": "Google 发布 Gemini 4 Hydrogen，取代 Gemini 3.8 Flash",
+       "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+       "aihot": "https://aihot.news/items/r03z6qalcfw99hwf8jq8b5mxb"
+      },
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "Google 发布 Gemini 4 Hydrogen 并将其接入 Search 提升复杂问题回答",
+       "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+       "aihot": "https://aihot.news/items/glx90o1i9stshq4vwsxdsguy5"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "Google 发布 Gemini 4 Hydrogen，提升复杂问题理解并成为 AI Mode 默认模型",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+       "aihot": "https://aihot.news/items/dhccssumshi2lie122qh66tgp"
+      },
+      {
+       "source": "Simon Willison 博客",
+       "title": "Google 发布 Gemini 4 Hydrogen，Simon Willison 梳理 Gemini 4 定价并实测对比",
+       "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+       "aihot": "https://aihot.news/items/ajlka18ww5d31h5ezjf16r801"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Hydrogen (High) 登上 Code Arena: WebDev 第 10 名，得 1703 分",
+       "url": "https://x.com/arena/status/2120956209725661670",
+       "aihot": "https://aihot.news/items/o8coj46233j11jhise87m8gza"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Google Search 接入 Gemini 4 Hydrogen 并向全球用户推送",
+       "url": "https://x.com/Google/status/2120960715011883148",
+       "aihot": "https://aihot.news/items/pplqpkkb0a59joi6llhtmrgff"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Arena：Gemini 4 Hydrogen 成为 Agent Arena 前十中最快模型",
+       "url": "https://x.com/arena/status/2120941638294155293",
+       "aihot": "https://aihot.news/items/mdq4h9qxd8jo3kol0z3mbvvmv"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Google DeepMind 发布 AlphaGenome 2，将基因组 AI 从组织级预测推进到单细胞类型分辨率",
+       "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+       "aihot": "https://aihot.news/items/j31f80nm7itk58ko1dmjg8ecy"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Google 展示 Gemini 4 Hydrogen 开放后用户的创意构建案例",
+       "url": "https://x.com/Google/status/2121037830797271522",
+       "aihot": "https://aihot.news/items/lf2ylaegvpxzrjrjflaqjqiz2"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Google 在搜索中引入 Gemini 4 Hydrogen",
+       "url": "https://x.com/Google/status/2120960717071474748",
+       "aihot": "https://aihot.news/items/w1u3ixmq8qb8g20v2o8yfebpw"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Hydrogen 用表格画动态风景",
+       "url": "https://x.com/Google/status/2121004369617485896",
+       "aihot": "https://aihot.news/items/w61lggu0l1pijph9baxgv21z2"
+      },
+      {
+       "source": "X：Arena (@arena)",
+       "title": "Gemini 4 Hydrogen 知识工作表现突出",
+       "url": "https://x.com/arena/status/2120958683064746158",
+       "aihot": "https://aihot.news/items/i795u1tcurqwtnwgw8z0pao9j"
+      },
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 4 Hydrogen 实时模拟光折射",
+       "url": "https://x.com/GeminiApp/status/2120982456203694352",
+       "aihot": "https://aihot.news/items/y0y7mh858hig08jz41nfdczcu"
+      },
+      {
+       "source": "X：Artificial Analysis (@ArtificialAnlys)",
+       "title": "Gemini 4 Hydrogen 在 AA-Robotics 排名第四",
+       "url": "https://x.com/ArtificialAnlys/status/2120995180891508833",
+       "aihot": "https://aihot.news/items/cy8ycgy2ijidcqfu9ubcc2kd2"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Hydrogen 了解更多",
+       "url": "https://x.com/Google/status/2121004371743805661",
+       "aihot": "https://aihot.news/items/uq2l101tffsjpfgp0fbiif8uv"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 应用用 Hydrogen 设计 3D 锦鲤池",
+       "url": "https://x.com/Google/status/2121037835629109486",
+       "aihot": "https://aihot.news/items/u38hqxar8y2h8tqj2lrpmatbl"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 3.8 Flash 与 Hydrogen 动画对比",
+       "url": "https://x.com/Google/status/2121037841287249920",
+       "aihot": "https://aihot.news/items/jk2j1qrls5xbfylot1i4nudhj"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Carbon 与 Hydrogen 协作打造飞蛾动画",
+       "url": "https://x.com/Google/status/2121037839563730994",
+       "aihot": "https://aihot.news/items/k5e9f5e3c6xe1zza3n896s48r"
+      }
+     ]
     }
    ],
    "note": null
@@ -543,81 +515,52 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 8 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 9,
+     "title": "家长在七城抗议 Google 将 Gemini 推入校园，并要求暂停校园 AI",
+     "source": "Ars Technica：AI（RSS）",
+     "ts": "2026-11-13T03:26:31.926000+08:00",
+     "publishedAt": "2026-11-12T18:57:45.000Z",
+     "discoveredAt": "2026-11-12T19:26:31.926Z",
+     "summary": "美国家庭在芝加哥等七个城市抗议 Google 在校园推广 Gemini，ILFPS 要求芝加哥公立学校暂停 AI 使用并制定保护政策；Google 确认搜索无法关闭 AI，学生只能在查询中加 -ai 规避。",
+     "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+     "aihot": "https://aihot.news/items/e4nbnk0wsk7mmgbx6y49dve7o",
+     "selected": false,
+     "score": 74,
+     "category": "industry"
+    },
+    {
+     "n": 10,
+     "title": "Google 智能眼镜开放预订，集成 Gemini 免手操作",
+     "source": "X：Demis Hassabis (@demishassabis)",
+     "ts": "2026-11-13T02:14:33.295000+08:00",
+     "publishedAt": "2026-11-12T18:07:28.000Z",
+     "discoveredAt": "2026-11-12T18:14:33.295Z",
+     "summary": "Google 与 Samsung、Gentle Monster、Warby Parker 合作的智能眼镜正式开放预订，内置 Gemini App 提供免手操作帮助，12 月 10 日发货，并已在部分 Warby Parker、Gentle Monster 和 Google 门店可体验。",
+     "url": "https://x.com/demishassabis/status/2120941564000100437",
+     "aihot": "https://aihot.news/items/hflq8qeh0wxh86iw5bhunlgm6",
+     "selected": false,
+     "score": 52,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 7,
-     "title": "Google DeepMind：Gemini 智能体生成超 600 万行 Lean 证明，人工仅需复核 1% 关键代码",
-     "source": "X：Google DeepMind (@GoogleDeepMind)",
-     "ts": "2026-11-11T20:19:48.126000+08:00",
-     "publishedAt": "2026-11-11T11:50:16.000Z",
-     "discoveredAt": "2026-11-11T12:19:48.126Z",
-     "summary": "Google DeepMind 介绍 Gemini 智能体生成了超过 600 万行 Lean 形式化证明，并对代码进行审计，使人类专家只需复核其中关键的 1%。官方称这是用 AI 验证关键基础设施（从日常通信到电网）的重要一步，详情见 https://goo.gle/4BLrkbk。",
-     "url": "https://x.com/GoogleDeepMind/status/2120484249321033911",
-     "aihot": "https://aihot.news/items/ylr63jugswdt1x8jlvp6wzbs8",
-     "selected": false,
-     "score": 63,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 2,
-   "items": [
-    {
-     "n": 8,
-     "title": "用 Gemini 4 Carbon 将 1987 年 NetHack 重制为 3D 动作 RPG 的完整教程",
-     "source": "Google AI：DEV 作者专属（RSS）",
-     "ts": "2026-11-12T12:49:22.960000+08:00",
-     "publishedAt": "2026-11-12T04:10:49.000Z",
-     "discoveredAt": "2026-11-12T04:49:22.960Z",
-     "summary": "作者分享了在 Antigravity 平台用 Gemini 4 Carbon 把 1987 年开源 roguelike 游戏 NetHack 重制为现代 3D 动作 RPG 的完整过程。",
-     "url": "https://dev.to/googleai/nethack-remake-with-gemini-4-carbon-4pjf",
-     "aihot": "https://aihot.news/items/ujg6jkjct4ib7b6guga7qgiy3",
-     "selected": false,
-     "score": 51,
-     "category": "tip"
-    },
-    {
-     "n": 9,
-     "title": "Gemini 4 Carbon 让 iPhone Duo 跑 Windows 11",
-     "source": "X：Ammaar Reshi (@ammaar)",
-     "ts": "2026-11-12T04:01:14.857000+08:00",
-     "publishedAt": "2026-11-11T19:51:45.000Z",
-     "discoveredAt": "2026-11-11T20:01:14.857Z",
-     "summary": "我用 Gemini 4 Carbon 让 Windows 11 在我的 iPhone Duo 上跑起来了！💻 展开屏幕，它就是一台口袋 PC，还能在手机上运行 Antigravity 来跑编码智能体。 这是真正的桌面 ARM 操作系统，本地运行，带触控操作。 演示 + 仓库见下方！",
-     "url": "https://x.com/ammaar/status/2120605420066595029",
-     "aihot": "https://aihot.news/items/t62v30o1lrpafomfi58n4g87e",
-     "selected": false,
-     "score": 46,
-     "category": "tip",
-     "also": [
-      {
-       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-       "title": "Gemini 4 Carbon 在机器人测试中弄坏机械臂",
-       "url": "https://x.com/ArtificialAnlys/status/2120729548719309223",
-       "aihot": "https://aihot.news/items/q0239n5s7gyas7fqv17wt8yb0"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 员工测试 Gemini 4 Carbon 成果展示",
-       "url": "https://x.com/Google/status/2120651039636426878",
-       "aihot": "https://aihot.news/items/hcq5ofij70eoy51cs9ekr316j"
-      }
-     ]
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
