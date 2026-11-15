@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-13",
-  "winEnd": "2026-11-14",
-  "generated": "2026-11-14 15:28",
-  "rawHits": 35,
-  "selectedHits": 6,
-  "shown": 11,
-  "dedupedFrom": 20,
+  "winStart": "2026-11-14",
+  "winEnd": "2026-11-15",
+  "generated": "2026-11-15 15:40",
+  "rawHits": 16,
+  "selectedHits": 3,
+  "shown": 10,
+  "dedupedFrom": 10,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 6,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,8 +43,8 @@
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 16,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,20 +86,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-14T02:59:29.367000+08:00",
-     "publishedAt": "2026-11-13T18:40:30.000Z",
-     "discoveredAt": "2026-11-13T18:59:29.367Z",
-     "summary": "Will DePue 领导的非营利研究组织 Unemployment Labs 分析 DeepSeek、月之暗面、MiniMax 和蚂蚁集团开源模型权重，发现 Kimi K3 与 DeepSeek V4 等最受关注模型带有 Blackwell 芯片训练痕迹。",
-     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-     "aihot": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
+     "title": "OpenAI 征集 Daybreak 反馈",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-15T14:10:45.671000+08:00",
+     "publishedAt": "2026-11-15T06:01:14.000Z",
+     "discoveredAt": "2026-11-15T06:10:45.671Z",
+     "summary": "网络安全团队希望就 Daybreak 收集你的反馈。模型、Codex 插件、蓝队/红队访问权限、文档、红队测试与防御工厂……我们有哪些可以做得更好或改进的地方？",
+     "url": "https://x.com/thsottiaux/status/2121845965997101118",
+     "aihot": "https://aihot.news/items/rom42tv6zykv0u2gp6qaszuxe",
+     "selected": false,
+     "score": 25,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Gemini 4 Carbon 登顶 MathArena 数学基准，成本约为 GPT-6.1 Sol 的 15 倍",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-15T01:28:12.939000+08:00",
+     "publishedAt": "2026-11-14T16:48:01.000Z",
+     "discoveredAt": "2026-11-14T17:28:12.939Z",
+     "summary": "The Decoder 报道，Google 的 Gemini 4 Carbon（high）以 85.4%±3.0% 的预期成绩登顶 MathArena 数学基准，取代 GPT-6.1 Sol，Claude Fable 5.2 以 82.8% 位居第二。",
+     "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+     "aihot": "https://aihot.news/items/u5l9pjdssjonk6zr64vg4ynf3",
+     "selected": false,
+     "score": 55,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
+     "source": "Nathan Lambert：Interconnects（RSS）",
+     "ts": "2026-11-14T20:41:32.774000+08:00",
+     "publishedAt": "2026-11-14T12:23:15.000Z",
+     "discoveredAt": "2026-11-14T12:41:32.774Z",
+     "summary": "Nathan Lambert 撰文分析 Nvidia CEO 黄仁勋辞职对美国开源模型生态的冲击，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸，公司首要目标是稳住局面并向客户交付。",
+     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+     "aihot": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n",
      "selected": true,
-     "score": 76,
+     "score": 80,
      "category": "ai-models"
     }
    ],
@@ -108,98 +136,20 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 3,
+   "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "ChatGPT 推出 ChatGPT Wallet，dot 可在用户批准下代为完成购买",
-     "source": "X：ChatGPT (@ChatGPT)",
-     "ts": "2026-11-14T00:52:24.766000+08:00",
-     "publishedAt": "2026-11-13T16:44:49.000Z",
-     "discoveredAt": "2026-11-13T16:52:24.766Z",
-     "summary": "ChatGPT 官方账号宣布推出 ChatGPT Wallet，dot 可在用户批准下安全地代用户完成购买。智能体支付时不会接触用户的实际卡号信息，每笔购买都需要通过安全检查。该功能即日起在美国向 Pro 订阅用户的 dot 推出，详情见 https://openai.com/index/introducing-ch…",
-     "url": "https://x.com/ChatGPT/status/2121283151729496235",
-     "aihot": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
-     "selected": true,
-     "score": 65,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "OpenAI dots 智能体可通过 ChatGPT Wallet 购物，每笔需生物识别批准",
-       "url": "https://x.com/rohanpaul_ai/status/2121302521851621689",
-       "aihot": "https://aihot.news/items/gtri2wqpaqm88wga1fo3unzkh"
-      },
-      {
-       "source": "The Verge：AI（RSS）",
-       "title": "OpenAI 推出 ChatGPT Wallet，让 Dots 智能体代用户购物",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-       "aihot": "https://aihot.news/items/e4m14f9vuxsp5zvwm9yryrhgw"
-      },
-      {
-       "source": "X：Greg Brockman (@gdb)",
-       "title": "OpenAI 联合 American Express、Mastercard 和 Visa 推出 ChatGPT Wallet",
-       "url": "https://x.com/gdb/status/2121295213025194172",
-       "aihot": "https://aihot.news/items/jj768amkn6ylnwh878i92r5ya"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 推出 ChatGPT Wallet，AI 智能体可代用户购物并完成结账",
-       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-       "aihot": "https://aihot.news/items/qb9i34aoob3o14uusgqvgwa22"
-      },
-      {
-       "source": "IT之家·人工智能",
-       "title": "OpenAI 推出支付功能 ChatGPT Wallet，让 dot 智能体代用户购物",
-       "url": "https://www.ithome.com/1/026/994.htm",
-       "aihot": "https://aihot.news/items/g220zd8m7x2dqoi9qs3fokla8"
-      },
-      {
-       "source": "The Decoder：AI News（RSS）",
-       "title": "OpenAI 推出 ChatGPT Wallet，让 AI Agent 代用户完成支付",
-       "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
-       "aihot": "https://aihot.news/items/e2adsv8qtekpt20mxqjhmxe5r"
-      },
-      {
-       "source": "X：Ed Bayes（OpenAI，Codex 产品设计） (@edbayes)",
-       "title": "OpenAI 推出 ChatGPT Wallet，智能体可在用户批准下代为支付",
-       "url": "https://x.com/edbayes/status/2121285578876719586",
-       "aihot": "https://aihot.news/items/czp2y4hzb8bf1qhwlqzvw7a7g"
-      },
-      {
-       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-       "title": "OpenAI 推出 ChatGPT Wallet，让智能体在用户批准下完成支付",
-       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-       "aihot": "https://aihot.news/items/up9jrgyt5vkvf24zv3wl8yg9l"
-      }
-     ]
-    },
-    {
-     "n": 3,
-     "title": "ChatGPT 携手三大卡组织打造钱包",
-     "source": "X：ChatGPT (@ChatGPT)",
-     "ts": "2026-11-14T00:52:24.758000+08:00",
-     "publishedAt": "2026-11-13T16:44:49.000Z",
-     "discoveredAt": "2026-11-13T16:52:24.758Z",
-     "summary": "我们正与 American Express、Mastercard 和 Visa 携手，联合企业与开发者，共同打造 ChatGPT Wallet，让智能体支付值得信赖、稳定可靠。",
-     "url": "https://x.com/ChatGPT/status/2121283153205883030",
-     "aihot": "https://aihot.news/items/sx5a9s0pgv35iwywziinladgi",
-     "selected": false,
-     "score": 50,
-     "category": "ai-products"
-    },
-    {
      "n": 4,
-     "title": "OpenAI 推出 Daybreak 红队与防御两款安全产品",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-14T00:07:23.916000+08:00",
-     "publishedAt": "2026-11-13T15:08:57.000Z",
-     "discoveredAt": "2026-11-13T16:07:23.916Z",
-     "summary": "OpenAI 发布 Daybreak 品牌下两款安全产品。Daybreak Red Team 开放 Early Access，用 AI 智能体分析源码和应用上下文自动探测 Web 应用漏洞、验证赏金报告并测试补丁；",
-     "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
-     "aihot": "https://aihot.news/items/p3czxn6r67uy0htp9uiha1ykp",
+     "title": "datasette-llm 0.1a11 发布：支持 OpenAI 兼容端点",
+     "source": "Simon Willison 博客",
+     "ts": "2026-11-15T09:27:41.708000+08:00",
+     "publishedAt": "2026-11-14T23:59:28.000Z",
+     "discoveredAt": "2026-11-15T01:27:41.708Z",
+     "summary": "Datasette 的中间插件 datasette-llm 发布 0.1a11，新增对 OpenAI 兼容端点的支持，可将 Datasette 配置为使用任何遵循该协议的 LLM 服务。",
+     "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+     "aihot": "https://aihot.news/items/up3tosqc4zea11fz1st0nljio",
      "selected": false,
-     "score": 53,
+     "score": 41,
      "category": "ai-products"
     }
    ],
@@ -208,48 +158,20 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 3,
+   "count": 1,
    "items": [
     {
      "n": 5,
-     "title": "Jensen Huang 离任或给 AI 创业融资留下大缺口，投资人和创始人担忧",
+     "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务",
      "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-14T06:47:30.382000+08:00",
-     "publishedAt": "2026-11-13T22:43:00.000Z",
-     "discoveredAt": "2026-11-13T22:47:30.382Z",
-     "summary": "Nvidia CEO Jensen Huang 正式辞职，创投圈认为其继任者 Colette Kress 更保守，短期难延续他每年数十亿美元、今年已参与 105 轮的投资节奏。",
-     "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-     "aihot": "https://aihot.news/items/kq4awkrys4uz37b7gsvj5r1dj",
-     "selected": true,
-     "score": 88,
-     "category": "industry"
-    },
-    {
-     "n": 6,
-     "title": "Nvidia 危机与 Anthropic IPO 前夜的 Cerebral Valley AI Summit 现场观察",
-     "source": "Newcomer 新闻长文（RSS）",
-     "ts": "2026-11-14T04:25:31.310000+08:00",
-     "publishedAt": "2026-11-13T19:27:39.000Z",
-     "discoveredAt": "2026-11-13T20:25:31.310Z",
-     "summary": "Newcomer 在旧金山 Cerebral Valley AI Summit 现场报道：Jensen Huang 因第二段婚外情披露辞职，Reuters 当天报道存在第三段，与会者多认为 Nvidia 短期无碍但生态承压，Databricks CEO 称其对整个生态是打击。",
-     "url": "https://www.newcomer.co/p/nvidia-crises-anthropic-ipo-and-off",
-     "aihot": "https://aihot.news/items/p1mfh9oe0xbq4evyru5pp1ikt",
+     "ts": "2026-11-15T06:23:25.961000+08:00",
+     "publishedAt": "2026-11-14T21:41:22.000Z",
+     "discoveredAt": "2026-11-14T22:23:25.961Z",
+     "summary": "要求 Nvidia 恢复被罢免 CEO 黄仁勋职务的请愿书，截至周六下午已获得超过 11.5 万个签名，包括 5,965 名在职员工、1,108 名前员工和 63,063 名股东，马斯克、Replit CEO Amjad Masad 和 Epic Games CEO Tim Sweeney 均已联署。",
+     "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+     "aihot": "https://aihot.news/items/umoosrbjhi12kj7lv51qan4ju",
      "selected": true,
      "score": 84,
-     "category": "industry"
-    },
-    {
-     "n": 7,
-     "title": "OpenAI 与 Databricks 讲解企业 AI 三种落地模式与接入方式",
-     "source": "Databricks：Blog（RSS）",
-     "ts": "2026-11-14T00:07:20.804000+08:00",
-     "publishedAt": "2026-11-13T15:30:00.000Z",
-     "discoveredAt": "2026-11-13T16:07:20.804Z",
-     "summary": "Databricks 详解其与 OpenAI 合作（始于 2025 年 9 月的多年协议）下企业落地 AI 的三种模式：业务用户用 ChatGPT 配 Databricks Genie 插件按公司指标定义查询数据。",
-     "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
-     "aihot": "https://aihot.news/items/o1ooiivmtrs0i10jwm6c6vydl",
-     "selected": false,
-     "score": 56,
      "category": "industry"
     }
    ],
@@ -261,17 +183,17 @@
    "count": 1,
    "items": [
     {
-     "n": 8,
-     "title": "Scott Aaronson：OpenAI 发布 370 个数学证明后研究生不知如何规划职业",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-14T14:28:48.899000+08:00",
-     "publishedAt": "2026-11-14T06:13:14.000Z",
-     "discoveredAt": "2026-11-14T06:28:48.899Z",
-     "summary": "Rohan Paul 转述 UT Austin 计算机科学家 Scott Aaronson 的说法：在 OpenAI 发布 370 个数学证明后，研究生感到恐惧，不知道当 AI 能解决他们本用来训练的问题时该如何建立职业。完整视频发布在 MTS 的 YouTube 频道，链接见评论区。",
-     "url": "https://x.com/rohanpaul_ai/status/2121486594184286718",
-     "aihot": "https://aihot.news/items/hdxb08dwt1vewgbyuv9uku5r5",
+     "n": 6,
+     "title": "OpenAI 将机器人研究员并入其他团队，押注通用模型替代专用机器人 AI",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-14T20:24:33.564000+08:00",
+     "publishedAt": "2026-11-14T11:40:51.000Z",
+     "discoveredAt": "2026-11-14T12:24:33.564Z",
+     "summary": "据 Fortune 报道，OpenAI 正在解散机器人团队并将研究员并入其他部门：机器人研究员转入 Mark Chen 领导的主研究团队，应用机器人与硬件团队加入 Greg Brockman 的 Applied 组织。",
+     "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+     "aihot": "https://aihot.news/items/zvo2ciiibpmh00lmqkggnsl5r",
      "selected": false,
-     "score": 55,
+     "score": 66,
      "category": "paper"
     }
    ],
@@ -280,56 +202,62 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 3,
+   "count": 4,
    "items": [
     {
+     "n": 7,
+     "title": "Anthropic 前研究员 Jacob Coxon 访谈称不确定离职是否正确、并坦承仍持有 OpenAI 股权",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-15T08:26:32.738000+08:00",
+     "publishedAt": "2026-11-15T00:05:14.000Z",
+     "discoveredAt": "2026-11-15T00:26:32.738Z",
+     "summary": "Anthropic 前研究员 Jacob Coxon 在 Stanford HAI 新访谈中表示，不确定当初公开离职是否是正确决定，不排除重返 AI 实验室，称留下来做安全研究可能更有影响力。",
+     "url": "https://x.com/rohanpaul_ai/status/2121756374183121213",
+     "aihot": "https://aihot.news/items/k9kvmzpvfia16uhxq8hfuocxc",
+     "selected": false,
+     "score": 52,
+     "category": "tip"
+    },
+    {
+     "n": 8,
+     "title": "The Verge 访谈曾投票罢免 Sam Altman 的 OpenAI 前董事 Helen Toner：AI CEO 仍不可信任",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-14T23:56:16.429000+08:00",
+     "publishedAt": "2026-11-14T15:00:00.000Z",
+     "discoveredAt": "2026-11-14T15:56:16.429Z",
+     "summary": "The Verge Decoder 节目访谈 CSET 执行总监 Helen Toner，她曾作为 OpenAI 董事会四人之一投票罢免 Sam Altman，并表示若未来希望寄托在任何一个人值得信任上就麻烦了。",
+     "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+     "aihot": "https://aihot.news/items/cevdugmmnnflt9vwbbb67t4tj",
+     "selected": false,
+     "score": 54,
+     "category": "tip"
+    },
+    {
      "n": 9,
-     "title": "WSJ 报道称黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-14T04:10:32.101000+08:00",
-     "publishedAt": "2026-11-13T20:07:34.000Z",
-     "discoveredAt": "2026-11-13T20:10:32.101Z",
-     "summary": "The Decoder 援引 WSJ 报道分析称，黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活传闻。Nvidia 在其主导下向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Co…",
-     "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-     "aihot": "https://aihot.news/items/s59xfwl0atld8vs7xq0pdx6hw",
-     "selected": true,
-     "score": 84,
+     "title": "用 Claude 派活给 Codex 的多智能体开发分工配置分享",
+     "source": "X：卡兹克 (@Khazix0918)",
+     "ts": "2026-11-14T22:02:34.673000+08:00",
+     "publishedAt": "2026-11-14T13:54:51.000Z",
+     "discoveredAt": "2026-11-14T14:02:34.673Z",
+     "summary": "作者分享其 Claude 多智能体开发工作流：Claude 负责对话、规划、前端与验收，成块的后端、算法和数据处理任务通过自建脚本 `codex-worker` 派给本机 Codex（GPT-6.1 Sol），合并前审查也由 GPT 完成。",
+     "url": "https://x.com/Khazix0918/status/2121602766976237610",
+     "aihot": "https://aihot.news/items/fh12g00j64cwb1dac27nvjy4n",
+     "selected": false,
+     "score": 58,
      "category": "tip"
     },
     {
      "n": 10,
-     "title": "OpenAI 董事会成员 Paul Cristiano 警告 AI 夺权可能最快数月内发生",
-     "source": "Ars Technica：AI（RSS）",
-     "ts": "2026-11-14T01:46:23.887000+08:00",
-     "publishedAt": "2026-11-13T17:25:45.000Z",
-     "discoveredAt": "2026-11-13T17:46:23.887Z",
-     "summary": "OpenAI Foundation 董事会成员、Alignment Research Center 执行总监 Paul Cristiano 在多伦多的讲座系列中表示。",
-     "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-     "aihot": "https://aihot.news/items/g50k8d2tx10fekkuwdm6jiyzz",
-     "selected": false,
-     "score": 61,
-     "category": "tip",
-     "also": [
-      {
-       "source": "Ars Technica：AI（RSS）",
-       "title": "OpenAI 董事会成员 Paul Cristiano 警告 AI 夺权可能在数月内发生",
-       "url": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-       "aihot": "https://aihot.news/items/vovhbmiy40eyv5aat253kd4m0"
-      }
-     ]
-    },
-    {
-     "n": 11,
-     "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
-     "source": "Latent Space（RSS）",
-     "ts": "2026-11-13T17:34:22.345000+08:00",
-     "publishedAt": "2026-11-13T09:04:13.000Z",
-     "discoveredAt": "2026-11-13T09:34:22.345Z",
-     "summary": "Latent Space 的 AI 新闻日报头条是 NVIDIA 宣布黄仁勋在任职 33 年后辞去 CEO、总裁和董事职务，CFO Colette Kress 出任临时 CEO，SEC 文件显示董事会于 11 月 11 日接受辞呈，此前董事会已就 NYT 报道的绯闻事件展开独立调查。",
-     "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-     "aihot": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
+     "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-14T20:54:30.614000+08:00",
+     "publishedAt": "2026-11-14T12:00:00.000Z",
+     "discoveredAt": "2026-11-14T12:54:30.614Z",
+     "summary": "The Verge 长文回顾黄仁勋因走私丑闻和婚外情指控离开 Nvidia，分析这位执掌首家 5 万亿美元公司、占标普 500 约 6% 的创始人的离去意味着什么。",
+     "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+     "aihot": "https://aihot.news/items/gslfz6uqr2sqy68cgv38i4tf0",
      "selected": true,
-     "score": 94,
+     "score": 84,
      "category": "tip"
     }
    ],
