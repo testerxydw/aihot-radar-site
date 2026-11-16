@@ -175,13 +175,13 @@ const DATA = {
    "Dario Amodei"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-14",
-  "winEnd": "2026-11-15",
-  "generated": "2026-11-15 15:40",
-  "rawHits": 21,
+  "winStart": "2026-11-15",
+  "winEnd": "2026-11-16",
+  "generated": "2026-11-16 15:46",
+  "rawHits": 27,
   "selectedHits": 2,
-  "shown": 8,
-  "dedupedFrom": 12,
+  "shown": 10,
+  "dedupedFrom": 10,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -204,7 +204,7 @@ const DATA = {
     "q": "Anthropic",
     "mode": "all",
     "window": "24h",
-    "count": 20,
+    "count": 22,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,7 +220,7 @@ const DATA = {
     "q": "Claude",
     "mode": "all",
     "window": "24h",
-    "count": 12,
+    "count": 15,
     "hasMore": false,
     "from_cache": false
    },
@@ -228,7 +228,7 @@ const DATA = {
     "q": "Dario Amodei",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Dario Amodei",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,34 +247,48 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "Addy Osmani 谈 Claude 模型选择建议",
-     "source": "X：Addy Osmani (@addyosmani)",
-     "ts": "2026-11-15T06:39:29.241000+08:00",
-     "publishedAt": "2026-11-14T22:30:15.000Z",
-     "discoveredAt": "2026-11-14T22:39:29.241Z",
-     "summary": "Opus 5.5 中等档位是很好的日常主力。 如果它吃力，先提高 effort 再换模型。否则 Fable 5.2 适合真正困难的任务（大型迁移、长时间无人值守运行）。 我写了更多关于如何选模型的内容：https://claude.dev/blog/which-claude-model-should-you-buil…",
-     "url": "https://x.com/addyosmani/status/2121732470118965298",
-     "aihot": "https://aihot.news/items/iizlg2088bv8smg0vlxv6qhwm",
+     "title": "Claude Fable 5.2 不调用图像模型，用 Python 代码模拟真实画笔逐笔作画",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-16T09:34:45.898000+08:00",
+     "publishedAt": "2026-11-16T01:01:05.343Z",
+     "discoveredAt": "2026-11-16T01:34:45.898Z",
+     "summary": "Anthropic 的 Claude Fable 5.2 展示了一种不依赖图像生成模型的生图方式，通过编写 Python 程序在虚拟画布上模拟画笔、颜料和画布质感逐笔作画。",
+     "url": "https://www.ithome.com/1/027/490.htm",
+     "aihot": "https://aihot.news/items/mc0spd5j68n84jb96dj0euekq",
      "selected": false,
-     "score": 45,
+     "score": 67,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
-     "source": "Nathan Lambert：Interconnects（RSS）",
-     "ts": "2026-11-14T20:41:32.774000+08:00",
-     "publishedAt": "2026-11-14T12:23:15.000Z",
-     "discoveredAt": "2026-11-14T12:41:32.774Z",
-     "summary": "Nathan Lambert 撰文分析 Nvidia CEO 黄仁勋辞职对美国开源模型生态的冲击，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸，公司首要目标是稳住局面并向客户交付。",
-     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
-     "aihot": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n",
+     "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
+     "source": "公众号：数字生命卡兹克",
+     "ts": "2026-11-16T08:01:43.019000+08:00",
+     "publishedAt": "2026-11-15T23:56:00.000Z",
+     "discoveredAt": "2026-11-16T00:01:43.019Z",
+     "summary": "作者拆解了近期在群里疯传的 1.4M 纯 HTML 3D 游戏，指出其中约 700KB 是打包进文件的 Three.js，其余全部由代码程序化生成，没有图片、模型和录音。",
+     "url": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg",
+     "aihot": "https://aihot.news/items/izdx1kuppob6c65ghvmyeal38",
      "selected": true,
-     "score": 80,
+     "score": 72,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Anthropic Claude Fable 5.2 用约 70 万次模拟笔触画出照片级画作",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-15T23:45:35.842000+08:00",
+     "publishedAt": "2026-11-15T15:42:03.000Z",
+     "discoveredAt": "2026-11-15T15:45:35.842Z",
+     "summary": "Anthropic 新模型 Claude Fable 5.2 不走扩散路线，而是通过 1,000 到 2,000 行的 Python 程序驱动模拟画笔引擎，在虚拟画布上逐笔作画，Jake Eaton 演示的停车场购物车场景使用了约 700,000 次模拟笔触，不依赖外部图像模型或底图。",
+     "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+     "aihot": "https://aihot.news/items/jdxtqxacyddjicnarq97rozrb",
+     "selected": false,
+     "score": 70,
      "category": "ai-models"
     }
    ],
@@ -283,9 +297,52 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 4,
+     "title": "腾讯混元发布 Hy4 flash，盲测比肩 Claude Haiku 5.5 且任务成本降低 18 倍",
+     "source": "X：腾讯混元 (@TencentHunyuan)",
+     "ts": "2026-11-16T15:16:44.456000+08:00",
+     "publishedAt": "2026-11-16T06:38:39.000Z",
+     "discoveredAt": "2026-11-16T07:16:44.456Z",
+     "summary": "腾讯混元发布 Hy4 flash，定位日常生产力场景最低价模型。称其在人工盲测的日常任务中与 Claude Haiku 5.5 (high) 表现相当，任务成本降低 18 倍；API 定价为每 1M tokens 缓存 $0.003、输入 $0.070、输出 $0.281。",
+     "url": "https://x.com/TencentHunyuan/status/2122217770314301469",
+     "aihot": "https://aihot.news/items/zty8a2llkfo545rtr4rw22ctj",
+     "selected": false,
+     "score": 59,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "Claude Code 桌面版支持自定义主题 mod",
+     "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+     "ts": "2026-11-16T02:46:08.746000+08:00",
+     "publishedAt": "2026-11-15T18:06:57.000Z",
+     "discoveredAt": "2026-11-15T18:46:08.746Z",
+     "summary": "自定义主题其实就是 mod，所以你的背景甚至能对实际会话做出反应！ 这里我让 Claude 随着我的上下文填满而下雪（这个 mod 挂接到 turn.step），但你可以玩得非常有创意 ☃️",
+     "url": "https://x.com/lydiahallie/status/2122028598639136810",
+     "aihot": "https://aihot.news/items/w7xc4jvrorftkf9u751zyndf2",
+     "selected": false,
+     "score": 47,
+     "category": "ai-products"
+    },
+    {
+     "n": 6,
+     "title": "开发者用 Claude 编写 97KB 浏览器水下探索模拟项目 Abyssal Garden",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-15T17:27:40.520000+08:00",
+     "publishedAt": "2026-11-15T08:58:39.027Z",
+     "discoveredAt": "2026-11-15T09:27:40.520Z",
+     "summary": "开发者 Any-Reputation8118 借助 Anthropic Claude 编写代码，做出浏览器水下探索模拟项目 Abyssal Garden，体积仅 97KB，所有视觉元素均由代码在页面加载时实时生成。",
+     "url": "https://www.ithome.com/1/027/406.htm",
+     "aihot": "https://aihot.news/items/xya3wtmvxn4www66c9epy523l",
+     "selected": false,
+     "score": 49,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
@@ -293,31 +350,31 @@ const DATA = {
    "count": 2,
    "items": [
     {
-     "n": 3,
-     "title": "Anthropic CEO Amodei 在 IPO 前承认明年存在巨大不确定性，算力是公司最深的商业两难",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-15T03:29:14.588000+08:00",
-     "publishedAt": "2026-11-14T19:05:17.000Z",
-     "discoveredAt": "2026-11-14T19:29:14.588Z",
-     "summary": "Anthropic CEO Dario Amodei 在 JPMorgan 投资者活动上表示，明年的走向存在巨大不确定性，算力是公司面临的最深商业两难：算力需提前一到两年购买，买少了影响客户和收入，买多了可能财务过度扩张。",
-     "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-     "aihot": "https://aihot.news/items/vl3jnosrbdn6i5j2we400046i",
+     "n": 7,
+     "title": "Qwen4-Max 登顶 Agent Arena 中国模型榜首，Alibaba 排名升至总榜第14",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-11-16T10:58:51.746000+08:00",
+     "publishedAt": "2026-11-16T02:21:45.000Z",
+     "discoveredAt": "2026-11-16T02:58:51.746Z",
+     "summary": "Arena 榜单显示 Qwen4-Max 以 +7.5% 净提升在 Agent Arena 总排名第14，成为第一中国模型，使 Alibaba 成为排名第一的中国实验室、总榜第5，仅次于 Anthropic、Google、OpenAI 和 Meta。",
+     "url": "https://x.com/arena/status/2122153116959482051",
+     "aihot": "https://aihot.news/items/kzt8bjcin243qefkuiq49c2i6",
      "selected": true,
-     "score": 78,
+     "score": 82,
      "category": "industry"
     },
     {
-     "n": 4,
-     "title": "Cursor 披露恶意 Claude Code 扩展调查结果，最多波及 5000 名用户",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-14T19:23:33.752000+08:00",
-     "publishedAt": "2026-11-14T10:52:39.180Z",
-     "discoveredAt": "2026-11-14T11:23:33.752Z",
-     "summary": "当地时间 11 月 13 日，Cursor 披露安全事件调查结果，恶意 Anthropic Claude Code 扩展存续约 11 小时，最多波及 5,000 名用户，绝大多数客户未受影响。",
-     "url": "https://www.ithome.com/1/027/215.htm",
-     "aihot": "https://aihot.news/items/zy2v16g2snsaa42ndvwvyuk20",
+     "n": 8,
+     "title": "用户吐槽 Antigravity 难用，转投 Claude CLI",
+     "source": "X：卡兹克 (@Khazix0918)",
+     "ts": "2026-11-15T21:07:32.285000+08:00",
+     "publishedAt": "2026-11-15T13:03:33.000Z",
+     "discoveredAt": "2026-11-15T13:07:32.285Z",
+     "summary": "一位用户三开 Claude、Antigravity 和 GPT 使用大显示器，称 Gemini 4 Carbon 在方案设计、文档撰写和创意层面表现不错，维度与 Claude、GPT 完全不同，可互相启发。但其吐槽 Antigravity 用户体验极差、太难用，最终改用 CLI 交给 Claude。",
+     "url": "https://x.com/Khazix0918/status/2121952242366595195",
+     "aihot": "https://aihot.news/items/y2tn9mcovw551bpaeku5znw9a",
      "selected": false,
-     "score": 66,
+     "score": 24,
      "category": "industry"
     }
    ],
@@ -328,94 +385,40 @@ const DATA = {
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 4,
+   "count": 2,
    "items": [
     {
-     "n": 5,
-     "title": "Anthropic 建议弃用过时提示词习惯以充分发挥 Claude Opus 5.5",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-15T01:28:12.950000+08:00",
-     "publishedAt": "2026-11-14T16:42:56.000Z",
-     "discoveredAt": "2026-11-14T17:28:12.950Z",
-     "summary": "Anthropic 指出许多用户沿用旧习惯反而拖慢 Claude Opus 5.5，建议删除 think hard 等短语，让模型自主调节推理深度，并从 Medium effort 档位起步。",
-     "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-     "aihot": "https://aihot.news/items/v7td6wrnp35smhjh1kjawih3t",
-     "selected": false,
-     "score": 70,
-     "category": "tip"
-    },
-    {
-     "n": 6,
-     "title": "用 Claude 派活给 Codex 的多智能体开发分工配置分享",
-     "source": "X：卡兹克 (@Khazix0918)",
-     "ts": "2026-11-14T22:02:34.673000+08:00",
-     "publishedAt": "2026-11-14T13:54:51.000Z",
-     "discoveredAt": "2026-11-14T14:02:34.673Z",
-     "summary": "作者分享其 Claude 多智能体开发工作流：Claude 负责对话、规划、前端与验收，成块的后端、算法和数据处理任务通过自建脚本 `codex-worker` 派给本机 Codex（GPT-6.1 Sol），合并前审查也由 GPT 完成。",
-     "url": "https://x.com/Khazix0918/status/2121602766976237610",
-     "aihot": "https://aihot.news/items/fh12g00j64cwb1dac27nvjy4n",
-     "selected": false,
-     "score": 58,
-     "category": "tip"
-    },
-    {
-     "n": 7,
-     "title": "借助 Claude 和 Arduino Nano，达人让 1994 款切诺基通过加州排放检测",
+     "n": 9,
+     "title": "Anthropic CEO 阿莫迪与戴蒙对谈：算力是最深层的商业难题",
      "source": "IT之家·人工智能",
-     "ts": "2026-11-14T20:58:33.550000+08:00",
-     "publishedAt": "2026-11-14T12:36:29.007Z",
-     "discoveredAt": "2026-11-14T12:58:33.550Z",
-     "summary": "AI 爱好者穆罕默德·祖拉利借助 Claude 诊断、Codex 写代码，配合 3 美元 Arduino Nano 开发板，让 1994 款 Jeep 切诺基通过加州尾气检测。",
-     "url": "https://www.ithome.com/1/027/226.htm",
-     "aihot": "https://aihot.news/items/hgsrxacbao0mhyj2oyju1r6tp",
-     "selected": false,
-     "score": 48,
-     "category": "tip"
-    },
-    {
-     "n": 8,
-     "title": "前研究员 Coxon 称 Anthropic 只需当初一小部分算力即可重训 Mythos",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-14T19:23:34.538000+08:00",
-     "publishedAt": "2026-11-14T11:21:41.000Z",
-     "discoveredAt": "2026-11-14T11:23:34.538Z",
-     "summary": "前 OpenAI 和 Anthropic 研究员 Jacob Coxon 表示，Anthropic IPO 路演幻灯片是他入职约四个月后离职的重要原因。该图显示训练所需算力随时间变化，即便 y 轴为对数刻度曲线仍陡峭上升，Coxon 认为算法效率在加速改进，Mythos 不是一次性跃升而是超指数曲线上的一个点，如今用…",
-     "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-     "aihot": "https://aihot.news/items/hy0qwq7afjob6n1g7v5w3g3p5",
+     "ts": "2026-11-16T10:14:46.281000+08:00",
+     "publishedAt": "2026-11-16T01:52:51.543Z",
+     "discoveredAt": "2026-11-16T02:14:46.281Z",
+     "summary": "Anthropic CEO 达里奥·阿莫迪上周五在纽约与摩根大通 CEO 杰米·戴蒙公开对谈，称算力是公司面临的最深层商业难题，并表示上市的重要原因就是增加现金储备，为高度不确定的算力需求提供缓冲。",
+     "url": "https://www.ithome.com/1/027/505.htm",
+     "aihot": "https://aihot.news/items/tp3usld98o471jwtkrvnf2qy6",
      "selected": false,
      "score": 63,
-     "category": "tip",
-     "also": [
-      {
-       "source": "IT之家·人工智能",
-       "title": "前 Anthropic 研究员考克森：如今重新训练 Mythos 只需最初的一小部分算力",
-       "url": "https://www.ithome.com/1/027/221.htm",
-       "aihot": "https://aihot.news/items/rmq99p11h7wgggnz29236enk2"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Anthropic 前研究员 Jacob Coxon 访谈称不确定离职是否正确、并坦承仍持有 OpenAI 股权",
-       "url": "https://x.com/rohanpaul_ai/status/2121756374183121213",
-       "aihot": "https://aihot.news/items/k9kvmzpvfia16uhxq8hfuocxc"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "前Anthropic研究员称AI一年内或触及递归自我改进",
-       "url": "https://x.com/rohanpaul_ai/status/2121750246665642179",
-       "aihot": "https://aihot.news/items/tczo4mkmoyj2q5ce7nj2d696j"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Anthropic 前研究员 Jacob Coxon 称或重返 AI 实验室",
-       "url": "https://x.com/rohanpaul_ai/status/2121752234237333881",
-       "aihot": "https://aihot.news/items/bprnru2risafqcyc298qx0o3c"
-      }
-     ]
+     "category": "tip"
+    },
+    {
+     "n": 10,
+     "title": "借鉴 Claude 常驻智能体指南的省 token 提示词技巧",
+     "source": "公众号：卡尔的AI沃茨",
+     "ts": "2026-11-16T10:11:30.622000+08:00",
+     "publishedAt": "2026-11-16T01:36:00.000Z",
+     "discoveredAt": "2026-11-16T02:11:30.622Z",
+     "summary": "作者把 Anthropic 常驻智能体指南的五组件（事件收件箱、定时器、记忆、权限、发件箱）翻译成一段提示词写入自己的 Grok bot，解决定时任务空转浪费额度的问题。",
+     "url": "https://mp.weixin.qq.com/s/Zt7GxF84UxSHMEJmn6qRzQ",
+     "aihot": "https://aihot.news/items/f9pp7cfr02m516vx5o7tvgznc",
+     "selected": false,
+     "score": 67,
+     "category": "tip"
     }
    ],
    "note": null
