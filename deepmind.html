@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-15",
-  "winEnd": "2026-11-16",
-  "generated": "2026-11-16 15:46",
-  "rawHits": 4,
-  "selectedHits": 0,
-  "shown": 1,
-  "dedupedFrom": 1,
+  "winStart": "2026-11-16",
+  "winEnd": "2026-11-17",
+  "generated": "2026-11-17 16:56",
+  "rawHits": 33,
+  "selectedHits": 5,
+  "shown": 9,
+  "dedupedFrom": 19,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -204,39 +204,39 @@ const DATA = {
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
+    "count": 9,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "selected",
+    "window": "24h",
+    "count": 5,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Gemini",
+    "mode": "all",
+    "window": "24h",
+    "count": 29,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "selected",
+    "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Demis Hassabis",
+    "mode": "all",
+    "window": "24h",
     "count": 1,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Gemini",
-    "mode": "all",
-    "window": "24h",
-    "count": 4,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Demis Hassabis",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Demis Hassabis",
-    "mode": "all",
-    "window": "24h",
-    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,27 +247,176 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
-  },
-  {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
    "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Google DeepMind 与哥伦比亚大学提出 BTTF 框架，用 SQL 数据库让智能体调试芯片仿真",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-16T08:02:48.172000+08:00",
-     "publishedAt": "2026-11-15T23:46:30.000Z",
-     "discoveredAt": "2026-11-16T00:02:48.172Z",
-     "summary": "Google DeepMind 与哥伦比亚大学的论文提出 Back-to-the-Future（BTTF）框架，将超过 10GB 的芯片仿真波形转储转换为紧凑 SQLite 数据库，多智能体把自然语言问题转成 SQL、检查设计规则并审计答案。",
-     "url": "https://x.com/rohanpaul_ai/status/2122114049353908599",
-     "aihot": "https://aihot.news/items/yhcgx912dsvdcowy44a5efl6b",
+     "title": "Google DeepMind 发布 Gemini Robotics 2.5 与 AlphaGenome 2 两个领域模型",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-17T00:04:43.452000+08:00",
+     "publishedAt": "2026-11-16T16:02:34.000Z",
+     "discoveredAt": "2026-11-16T16:04:43.452Z",
+     "summary": "Google DeepMind 发布两个领域模型。Gemini Robotics 2.5 是覆盖双臂和人形机器人的全身视觉-语言-动作模型，在奔驰产线上配合 Apptronik Apollo 2 达到 96% 的 kitting 成功率。",
+     "url": "https://x.com/_philschmid/status/2122359682459164760",
+     "aihot": "https://aihot.news/items/dmsn8ljakb7klt50pc7w01oub",
      "selected": false,
-     "score": 56,
+     "score": 62,
+     "category": "ai-models"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 6,
+   "items": [
+    {
+     "n": 2,
+     "title": "Gemini Notebook 支持将资料生成仪表盘等交互式网站",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-17T06:30:38.913000+08:00",
+     "publishedAt": "2026-11-16T22:00:08.000Z",
+     "discoveredAt": "2026-11-16T22:30:38.913Z",
+     "summary": "Google 宣布 Gemini Notebook 新增把资料转成交互式网站的能力，可生成仪表盘和可视化讲解页等。用户在 Gemini Notebook 聊天中输入 make me a site 并附上描述，选择 Open in a new tab 即可查看或分享生成的网站。",
+     "url": "https://x.com/Google/status/2122449668613579018",
+     "aihot": "https://aihot.news/items/hgtp1rc3d02uf4p5mwy5ytfkd",
+     "selected": false,
+     "score": 66,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+       "title": "Gemini Notebook 将资料转为交互网站",
+       "url": "https://x.com/joshwoodward/status/2122453269842886788",
+       "aihot": "https://aihot.news/items/dxp1f5ircbx8koht629656n7k"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "title": "NotebookLM 推出来源一键生成可分享网站功能",
+     "source": "X：Gemini Notebook (@Gemini_Notebook)",
+     "ts": "2026-11-17T05:30:36.308000+08:00",
+     "publishedAt": "2026-11-16T21:06:23.000Z",
+     "discoveredAt": "2026-11-16T21:30:36.308Z",
+     "summary": "NotebookLM 宣布用户可将自己的来源转成可交互、可分享的网站。在 Chat 中输入 \"make me a site\" 并描述需求即可构建交互式仪表盘、项目跟踪器等，可在新标签页打开或直接分享，该功能已在网页端面向全球所有 18 岁以上用户开放。",
+     "url": "https://x.com/Gemini_Notebook/status/2122436141282660596",
+     "aihot": "https://aihot.news/items/dlnrpd7xq39i5gkkti3hic390",
+     "selected": true,
+     "score": 67,
+     "category": "ai-products"
+    },
+    {
+     "n": 4,
+     "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
+     "source": "Databricks：Blog（RSS）",
+     "ts": "2026-11-17T01:59:22.718000+08:00",
+     "publishedAt": "2026-11-16T17:00:00.000Z",
+     "discoveredAt": "2026-11-16T17:59:22.718Z",
+     "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
+     "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+     "aihot": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
+     "selected": true,
+     "score": 70,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-17T00:04:43.494000+08:00",
+     "publishedAt": "2026-11-16T15:57:52.000Z",
+     "discoveredAt": "2026-11-16T16:04:43.494Z",
+     "summary": "Google 发布 Gemini 4 Carbon（gemini-4-carbon，1M 共享 token 池，11 月 30 日前 $2.00/$10.00 每 1M tokens。",
+     "url": "https://x.com/_philschmid/status/2122358498461691913",
+     "aihot": "https://aihot.news/items/n3qi466u1gbxj2i8q7g5snhr0",
+     "selected": true,
+     "score": 83,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+       "title": "Gemini 4 Hydrogen 与 Carbon 如何按工作负载选型",
+       "url": "https://x.com/_philschmid/status/2122359669909811362",
+       "aihot": "https://aihot.news/items/zo7ubny2zjk4qoqjdoiec91b8"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Google 用 Gemini 4 Hydrogen 演示视觉 ASMR 视频生成",
+       "url": "https://x.com/Google/status/2122362040400371712",
+       "aihot": "https://aihot.news/items/uypzgyp393o5lo0zo9q8ra148"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Google 展示用 Gemini 4 Hydrogen 生成的视觉 ASMR 视频",
+       "url": "https://x.com/Google/status/2122366286659289502",
+       "aihot": "https://aihot.news/items/p3dls6tvwxhhztxdryymq8rv9"
+      },
+      {
+       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+       "title": "Google 发布 Gemini Decisions API，由 Gemini Decision 1 驱动",
+       "url": "https://x.com/_philschmid/status/2122359673168777719",
+       "aihot": "https://aihot.news/items/pdwuw9ralhklum2zrp2hw0gl2"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Hydrogen 了解更多",
+       "url": "https://x.com/Google/status/2122362271426916496",
+       "aihot": "https://aihot.news/items/i2p0fl0yrnc5f6urhfft4g0rd"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini 4 Hydrogen 了解更多",
+       "url": "https://x.com/Google/status/2122366288786039211",
+       "aihot": "https://aihot.news/items/u07gbe9dxy3jgluznkyj9mf5l"
+      },
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 4 Hydrogen 草图秒变字体",
+       "url": "https://x.com/GeminiApp/status/2122364846725583154",
+       "aihot": "https://aihot.news/items/jb923syf3bk6hxnnjl6pggs7c"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google 扩展 Antigravity 计划并接入 Gemini 4 Carbon",
+       "url": "https://x.com/GoogleDeepMind/status/2122366997501780327",
+       "aihot": "https://aihot.news/items/ikvf67k3dp6axhuxbqx1k20mb"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Gemini 4 Carbon 实验室应用",
+       "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+       "aihot": "https://aihot.news/items/stz5j19wbo7c8pu6en5dzpm9v"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Google DeepMind 上周发布 7 项开发者更新",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-17T00:04:43.487000+08:00",
+     "publishedAt": "2026-11-16T16:02:30.000Z",
+     "discoveredAt": "2026-11-16T16:04:43.487Z",
+     "summary": "上周 @GoogleDeepMind 非常忙碌，我们发布了 7 项开发者产品。 🧠 Gemini 4 Carbon ⚡ Gemini 4 Hydrogen ⚖️ Gemini Decisions API + Gemini Decision 1 📦 Managed Agents 的自托管沙箱 📊 多模态知识智能体基准…",
+     "url": "https://x.com/_philschmid/status/2122359666709565825",
+     "aihot": "https://aihot.news/items/cl8y9s7e8taw0g53yr6d4ba93",
+     "selected": false,
+     "score": 32,
+     "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "Gemini Managed Agents 支持自托管环境",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-17T00:04:43.465000+08:00",
+     "publishedAt": "2026-11-16T16:02:33.000Z",
+     "discoveredAt": "2026-11-16T16:04:43.465Z",
+     "summary": "Google 的 Gemini Managed Agents 现已支持自托管环境：模型推理和 Agent 循环运行在 Google 基础设施上，bash 命令和文件编辑则通过出站 HTTPS 在用户自己的计算环境中执行。",
+     "url": "https://x.com/_philschmid/status/2122359676754944409",
+     "aihot": "https://aihot.news/items/t9o6n4yk9tx96xi0sxkyykxaf",
+     "selected": false,
+     "score": 59,
      "category": "ai-products"
     }
    ],
@@ -278,21 +427,51 @@ const DATA = {
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 8,
+     "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
+     "source": "Redwood Research：Blog（RSS）",
+     "ts": "2026-11-17T02:13:24.816000+08:00",
+     "publishedAt": "2026-11-16T17:21:38.000Z",
+     "discoveredAt": "2026-11-16T18:13:24.816Z",
+     "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
+     "url": "https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate",
+     "aihot": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
+     "selected": true,
+     "score": 65,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 9,
+     "title": "Gemini Platform 智能体异常检测实战指南：从部署到首个告警",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-11-17T02:23:23.546000+08:00",
+     "publishedAt": "2026-11-15T16:00:00.000Z",
+     "discoveredAt": "2026-11-16T18:23:23.546Z",
+     "summary": "Google 发布 Gemini Platform 上 Agent Anomaly Detection 的实操指南，通过一个客服智能体演示如何捕获越权读取 payroll 表的异常会话。",
+     "url": "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/",
+     "aihot": "https://aihot.news/items/otp12hgx6zfow6bau9h9afyd3",
+     "selected": false,
+     "score": 46,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [

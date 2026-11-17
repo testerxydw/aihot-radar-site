@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-15",
-  "winEnd": "2026-11-16",
-  "generated": "2026-11-16 15:46",
-  "rawHits": 22,
-  "selectedHits": 2,
-  "shown": 5,
-  "dedupedFrom": 5,
+  "winStart": "2026-11-16",
+  "winEnd": "2026-11-17",
+  "generated": "2026-11-17 16:55",
+  "rawHits": 44,
+  "selectedHits": 9,
+  "shown": 21,
+  "dedupedFrom": 33,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 9,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,15 +43,15 @@
     "q": "OpenAI",
     "mode": "all",
     "window": "24h",
-    "count": 20,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 5,
+    "count": 19,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,34 +86,90 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 6,
    "items": [
     {
      "n": 1,
-     "title": "Codex 团队或已修复模型容量报错",
-     "source": "X：Tibo (@thsottiaux)",
-     "ts": "2026-11-16T14:20:43.836000+08:00",
-     "publishedAt": "2026-11-16T05:55:49.000Z",
-     "discoveredAt": "2026-11-16T06:20:43.836Z",
-     "summary": "Codex 团队可能真的修复了一直困扰你的“模型容量已满”报错。",
-     "url": "https://x.com/thsottiaux/status/2122206990101536852",
-     "aihot": "https://aihot.news/items/bpjv2927zu2k42oisys3w0kx3",
-     "selected": false,
-     "score": 28,
+     "title": "OpenAI 向 NATO 及盟国网络防御机构开放 Daybreak 网络安全模型",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-17T15:59:30.410000+08:00",
+     "publishedAt": "2026-11-17T00:00:00.000Z",
+     "discoveredAt": "2026-11-17T07:59:30.410Z",
+     "summary": "OpenAI 宣布通过 Daybreak 工具向 NATO 及盟国网络防御机构提供先进网络安全模型，用于审查软件、调查可疑活动和验证漏洞。NATO 相关机构每月使用量达数千亿 token 级别；",
+     "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+     "aihot": "https://aihot.news/items/t48n0jqxc0g3hsc324hlwhlhk",
+     "selected": true,
+     "score": 62,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "物理学家 Nathaniel Craig 分享与 GPT-6 Astra 协作构建标准模型候选格点定义",
-     "source": "X：OpenAI (@OpenAI)",
-     "ts": "2026-11-16T08:27:47.066000+08:00",
-     "publishedAt": "2026-11-16T00:23:49.000Z",
-     "discoveredAt": "2026-11-16T00:27:47.066Z",
-     "summary": "物理学家 Nathaniel Craig 分享与 GPT-6 Astra 协作开发标准模型候选格点定义的过程，该文是 OpenAI 新设科学博客的首篇文章，原文见 https://openai.com/index/step-toward-defining-the-standard-model。",
-     "url": "https://x.com/OpenAI/status/2122123437141553630",
-     "aihot": "https://aihot.news/items/r2drdjeh4ko7zsue9vym19m79",
+     "title": "Anthropic 占 94% SOTA token 份额、OpenAI 靠 Luna 降价拿下低端市场",
+     "source": "Tomasz Tunguz 博客（VC 分析）",
+     "ts": "2026-11-17T06:24:33.685000+08:00",
+     "publishedAt": "2026-11-16T00:00:00.000Z",
+     "discoveredAt": "2026-11-16T22:24:33.685Z",
+     "summary": "Tomasz Tunguz 基于 Databricks AI Index 上万家企业数据撰文分析：Anthropic 占据 94.1% 的 SOTA 级 token 份额，OpenAI 则占低端 81%。",
+     "url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+     "aihot": "https://aihot.news/items/xzrz8vmlxcuaomh0250kb84wb",
      "selected": false,
-     "score": 53,
+     "score": 64,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "METR 测量模型对对齐评测的识别能力：调查型智能体能区分对齐与能力评测",
+     "source": "METR：Notes（网页）",
+     "ts": "2026-11-17T06:15:33.593000+08:00",
+     "publishedAt": "2026-11-15T16:00:00.000Z",
+     "discoveredAt": "2026-11-16T22:15:33.593Z",
+     "summary": "METR 发布研究笔记，用调查型智能体在 19 个对齐评测和 36 个能力评测中探测环境，测量模型能否识别自己处于对齐评测。结果显示智能体区分两类评测的能力在过去一年持续提升，Opus 5.5 在其数据集上把所有对齐评测排在所有能力评测之上。",
+     "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+     "aihot": "https://aihot.news/items/m4emm1ej7qzex1k77a7mfaztd",
+     "selected": true,
+     "score": 62,
+     "category": "ai-models"
+    },
+    {
+     "n": 4,
+     "title": "GPT-6 Astra 助力解决格点上的粒子物理标准模型难题",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-17T04:04:20.970000+08:00",
+     "publishedAt": "2026-11-16T19:19:56.000Z",
+     "discoveredAt": "2026-11-16T20:04:20.970Z",
+     "summary": "OpenAI 的 GPT-6 Astra 帮助产出一份证明，有望解决粒子物理标准模型格点化中存在 50 年的难题，论文作者为 UC Santa Barbara 物理学家 Nathaniel Craig，预印本和 OpenAI 博客均已发布。",
+     "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+     "aihot": "https://aihot.news/items/mc4rco3cybfk9lip5dcpqdq0v",
+     "selected": false,
+     "score": 66,
+     "category": "ai-models"
+    },
+    {
+     "n": 5,
+     "title": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 签约启动首阶段嵌入式安全评估",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-17T01:48:21.615000+08:00",
+     "publishedAt": "2026-11-16T08:00:00.000Z",
+     "discoveredAt": "2026-11-16T17:48:21.615Z",
+     "summary": "OpenAI 宣布与四家独立评估机构 Apollo Research、METR、Transluce 和 Goodfire 签署协议，启动首阶段嵌入式安全评估。评估专家将获得模型 checkpoint、源码、训练数据和监控系统等内部资源，分别评估模型暗中违背开发者意图的可能性、模型内部可解释性、最大 RL 训练运行的未…",
+     "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+     "aihot": "https://aihot.news/items/qaj2npptre8jgn8xanq9ic965",
+     "selected": true,
+     "score": 64,
+     "category": "ai-models"
+    },
+    {
+     "n": 6,
+     "title": "OpenAI 将向全球最多 20 万科学家免费开放前沿模型",
+     "source": "X：OpenAI (@OpenAI)",
+     "ts": "2026-11-17T01:25:25.604000+08:00",
+     "publishedAt": "2026-11-16T17:13:42.000Z",
+     "discoveredAt": "2026-11-16T17:25:25.604Z",
+     "summary": "OpenAI 宣布将面向全球最多 200,000 名科学家免费开放前沿模型使用，并提供培训和支持，申请于 11 月 23 日开放。该项目为 ChatGPT for Academic Researchers 的扩展，此前计划从 10,000 名研究者起步并计划到 2027 年扩至 100,000 人；",
+     "url": "https://x.com/OpenAI/status/2122377585523126615",
+     "aihot": "https://aihot.news/items/ijy1kq3z3zqb17idbfry94cp9",
+     "selected": false,
+     "score": 55,
      "category": "ai-models"
     }
    ],
@@ -122,41 +178,218 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 4,
+   "items": [
+    {
+     "n": 7,
+     "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-17T02:21:21.035000+08:00",
+     "publishedAt": "2026-11-16T17:36:43.000Z",
+     "discoveredAt": "2026-11-16T18:21:21.035Z",
+     "summary": "FBI 发布网络安全通告，警告黑客利用开源 AI 渗透测试工具 Artex 发起自主化攻击，部分入侵从锁定目标到完成攻陷可在不到三小时内完成。该工具自 7 月公开以来已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的攻击，攻击者利用弱口令、暴露凭证等简单安全缺陷获取访问权限并横向移动窃取数据。",
+     "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+     "aihot": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
+     "selected": true,
+     "score": 76,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
+     "source": "Databricks：Blog（RSS）",
+     "ts": "2026-11-17T01:59:22.718000+08:00",
+     "publishedAt": "2026-11-16T17:00:00.000Z",
+     "discoveredAt": "2026-11-16T17:59:22.718Z",
+     "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
+     "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+     "aihot": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
+     "selected": true,
+     "score": 70,
+     "category": "ai-products"
+    },
+    {
+     "n": 9,
+     "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-17T01:48:21.599000+08:00",
+     "publishedAt": "2026-11-16T17:00:00.000Z",
+     "discoveredAt": "2026-11-16T17:48:21.599Z",
+     "summary": "OpenAI 发布可检测 CSAM（含 AI 生成内容）的图像分类器，通过 API 向审核机构免费开放，测试显示可将需复审图像减少 48%，fal 实测 72% 高置信标记确认为新型 CSAM。",
+     "url": "https://openai.com/index/strengthening-online-child-safety",
+     "aihot": "https://aihot.news/items/cidgb5cgquwqxtiydrzykwc2p",
+     "selected": true,
+     "score": 65,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "OpenAI 发布 CSAM 图像分类器并新增 ChatGPT 警告与封禁机制",
+       "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+       "aihot": "https://aihot.news/items/gmewu9yo2nth04d3b9bttaw36"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "OpenAI 推出 CSAM 分类器，帮儿童虐待举报热线过滤 AI 深度伪造内容",
+       "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+       "aihot": "https://aihot.news/items/xow7zu0hjtaz88on250migkfw"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "OpenAI 推出 CSAM 检测工具，误标记图像减少 48%",
+       "url": "https://www.ithome.com/1/028/066.htm",
+       "aihot": "https://aihot.news/items/txy8r3249zjbrpgkqnieg6kt6"
+      },
+      {
+       "source": "OpenAI：部署安全与系统卡（网页）",
+       "title": "OpenAI 发布 CSAM 图像分类器模型卡",
+       "url": "https://deploymentsafety.openai.com/csam-image-classifier",
+       "aihot": "https://aihot.news/items/n357w07tze0omuhxgv95vubqd"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "OpenAI 发布免费检测工具，可识别包括 AI 生成图像在内的儿童性虐待材料",
+     "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+     "ts": "2026-11-17T01:25:25.618000+08:00",
+     "publishedAt": "2026-11-16T17:05:30.000Z",
+     "discoveredAt": "2026-11-16T17:25:25.618Z",
+     "summary": "OpenAI 向通过审核的组织免费发布一款检测工具，用于识别儿童性虐待材料，包括 AI 生成的图像。该分类器在与 National Center for Missing & Exploited Children 合作下开发，OpenAI 同时在 ChatGPT 中加入警告、发布开发者指南并支持儿童安全调查人员，还与…",
+     "url": "https://x.com/OpenAINewsroom/status/2122375519853559954",
+     "aihot": "https://aihot.news/items/z2xrpk6a6iwdbzg30kwb8irm7",
+     "selected": false,
+     "score": 51,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 2,
+   "count": 5,
    "items": [
     {
-     "n": 3,
-     "title": "Qwen4-Max 登顶 Agent Arena 中国模型榜首，Alibaba 排名升至总榜第14",
-     "source": "X：Arena (@arena)",
-     "ts": "2026-11-16T10:58:51.746000+08:00",
-     "publishedAt": "2026-11-16T02:21:45.000Z",
-     "discoveredAt": "2026-11-16T02:58:51.746Z",
-     "summary": "Arena 榜单显示 Qwen4-Max 以 +7.5% 净提升在 Agent Arena 总排名第14，成为第一中国模型，使 Alibaba 成为排名第一的中国实验室、总榜第5，仅次于 Anthropic、Google、OpenAI 和 Meta。",
-     "url": "https://x.com/arena/status/2122153116959482051",
-     "aihot": "https://aihot.news/items/kzt8bjcin243qefkuiq49c2i6",
+     "n": 11,
+     "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-17T09:24:34.320000+08:00",
+     "publishedAt": "2026-11-17T01:03:01.430Z",
+     "discoveredAt": "2026-11-17T01:24:34.320Z",
+     "summary": "据彭博社报道，OpenAI CEO 奥尔特曼表示，即使黄仁勋不再掌舵英伟达，AI 行业依然会运转良好，并将黄仁勋比作会有缺点的英雄。他称自己 2023 年曾被 OpenAI 董事会罢免，对黄的处境表示同情；",
+     "url": "https://www.ithome.com/1/028/052.htm",
+     "aihot": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms",
      "selected": true,
-     "score": 82,
+     "score": 78,
      "category": "industry"
     },
     {
-     "n": 4,
-     "title": "Apple 联合 OpenEvidence 启动 Apple Health AI Usage Study 探索健康 AI 使用",
-     "source": "Apple：Newsroom（RSS）",
-     "ts": "2026-11-16T09:43:47.434000+08:00",
-     "publishedAt": "2026-11-14T16:00:00.000Z",
-     "discoveredAt": "2026-11-16T01:43:47.434Z",
-     "summary": "Apple 宣布在美国推出 Apple Health AI Usage Study，与 OpenEvidence 合作研究用户如何与对话式健康 AI 工具互动。",
-     "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
-     "aihot": "https://aihot.news/items/txbnasfrp3d0w6wqmor5rp8fk",
+     "n": 12,
+     "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-17T05:36:33.615000+08:00",
+     "publishedAt": "2026-11-16T20:46:01.000Z",
+     "discoveredAt": "2026-11-16T21:36:33.615Z",
+     "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+     "aihot": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
      "selected": true,
-     "score": 61,
+     "score": 84,
+     "category": "industry",
+     "also": [
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "加州总检察长起诉 OpenAI，指控其智能体失控事件构成公共危害",
+       "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+       "aihot": "https://aihot.news/items/we2zvmmi20r95jojogpe1dwug"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "加州总检察长起诉 OpenAI，指控其测试智能体失控攻击 Hugging Face",
+       "url": "https://x.com/rohanpaul_ai/status/2122428932192625104",
+       "aihot": "https://aihot.news/items/shj5s5wugaq364qkndurwmywt"
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "title": "OpenAI 开发者谈远程视频调色",
+     "source": "X：Dominik Kundel（OpenAI 开发者体验，Codex） (@dkundel)",
+     "ts": "2026-11-17T03:55:21.176000+08:00",
+     "publishedAt": "2026-11-16T19:52:00.000Z",
+     "discoveredAt": "2026-11-16T19:55:21.176Z",
+     "summary": "我很不擅长调色，但修图还不错。 奇怪的是，我可以把一张修好的照片发到我的 dot 上，让它在我位于全国另一端的笔记本电脑上给视频调色和剪辑 🤯",
+     "url": "https://x.com/dkundel/status/2122417421327737077",
+     "aihot": "https://aihot.news/items/u57vl81w96kq6c9xazuhc8y0a",
+     "selected": false,
+     "score": 28,
+     "category": "industry"
+    },
+    {
+     "n": 14,
+     "title": "OpenAI 扩大 ChatGPT for Academic Researchers 计划至 20 万名科研人员",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-17T01:48:21.591000+08:00",
+     "publishedAt": "2026-11-16T17:00:00.000Z",
+     "discoveredAt": "2026-11-16T17:48:21.591Z",
+     "summary": "OpenAI 宣布扩大 ChatGPT for Academic Researchers 计划，目标覆盖全球 20 万名科研人员，新一轮 11 月 23 日开放申请，将按先到先得发放 5 万个新名额。",
+     "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+     "aihot": "https://aihot.news/items/irl2x3fhoz794l2iegcfuh30h",
+     "selected": false,
+     "score": 53,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 更新 ChatGPT for Healthcare：更强 computer-use 智能体与 20+ 医疗插件",
+       "url": "https://x.com/OpenAI/status/2122465625109090646",
+       "aihot": "https://aihot.news/items/hyy6kjxktz4x0f3uytof8tucf"
+      },
+      {
+       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+       "title": "OpenAI 报告：1819 名科学家如何用 ChatGPT 做科研",
+       "url": "https://openai.com/index/science-at-the-frontier",
+       "aihot": "https://aihot.news/items/z4yqj8o5qzropu2maqeqwde1u"
+      },
+      {
+       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+       "title": "OpenAI 为 ChatGPT for Healthcare 增加 computer-use 智能体与医疗插件",
+       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+       "aihot": "https://aihot.news/items/ydif3i6w58tcag6zb75b22c2e"
+      },
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 推进 ChatGPT 医疗版：智能体与 20+ 插件",
+       "url": "https://x.com/OpenAI/status/2122419941756531150",
+       "aihot": "https://aihot.news/items/d07joi2x19yqce5j5yfcqz51d"
+      },
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 研究：AI 助科研效率近翻倍",
+       "url": "https://x.com/OpenAI/status/2122380010287960095",
+       "aihot": "https://aihot.news/items/vrwzqh4bp5ijmdq1nxt1oxkfc"
+      },
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI研究：ChatGPT助科学家提效近一倍",
+       "url": "https://x.com/gdb/status/2122381437198586144",
+       "aihot": "https://aihot.news/items/tb7b7jaachs9vhfvr3p9b3730"
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "title": "LVMH 媒体部门与 OpenAI 宣布战略合作，将 ChatGPT Enterprise 引入旗下刊物",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-16T18:42:16.412000+08:00",
+     "publishedAt": "2026-11-16T09:00:00.000Z",
+     "discoveredAt": "2026-11-16T10:42:16.412Z",
+     "summary": "LVMH 集团媒体部门与 OpenAI 签署战略合作协议，将在旗下全部刊物部署 OpenAI 工具和 ChatGPT Enterprise，用于文档检索、文档比对和初步翻译等场景。",
+     "url": "https://openai.com/index/lvmh-media-division-partnership",
+     "aihot": "https://aihot.news/items/he8qslcaerhe1u3t1ccwx9ap7",
+     "selected": false,
+     "score": 49,
      "category": "industry"
     }
    ],
@@ -168,17 +401,17 @@
    "count": 1,
    "items": [
     {
-     "n": 5,
-     "title": "前 OpenAI 研究员 Paul Christiano 称 AI 失控可能是当代人最可能的死因",
+     "n": 16,
+     "title": "OpenAI 扩大 ChatGPT 学术研究免费计划：11 月 23 日再开放 5 万个名额，改为先到先得",
      "source": "IT之家·人工智能",
-     "ts": "2026-11-15T18:26:14.650000+08:00",
-     "publishedAt": "2026-11-15T10:09:15.407Z",
-     "discoveredAt": "2026-11-15T10:26:14.650Z",
-     "summary": "前 OpenAI 研究员、人工智能对齐研究中心负责人 Paul Christiano 在希尔顿讲座上表示，在座大多数人最可能的死因将是一次 AI 意外事故，并称未来三年内发生 AI 接管事件的风险很高。",
-     "url": "https://www.ithome.com/1/027/419.htm",
-     "aihot": "https://aihot.news/items/ezstojys800tyuw12yx1wza8k",
+     "ts": "2026-11-17T07:44:34.073000+08:00",
+     "publishedAt": "2026-11-16T23:18:51.213Z",
+     "discoveredAt": "2026-11-16T23:44:34.073Z",
+     "summary": "OpenAI 将于 11 月 23 日再开放 5 万个 ChatGPT 学术研究免费名额，改为先到先得，不再采用试点阶段的抽签机制。每个名额含申请者本人及最多两名合作者，三人均可免费使用 ChatGPT Plus，本轮最多覆盖 15 万名研究人员。",
+     "url": "https://www.ithome.com/1/028/027.htm",
+     "aihot": "https://aihot.news/items/d9wxhsf37mkum3cingflbglf0",
      "selected": false,
-     "score": 53,
+     "score": 49,
      "category": "paper"
     }
    ],
@@ -187,9 +420,80 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 5,
+   "items": [
+    {
+     "n": 17,
+     "title": "Take-Two CEO 批评 Anthropic、OpenAI 放任用户用 AI 克隆游戏",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-17T16:21:29.965000+08:00",
+     "publishedAt": "2026-11-17T07:55:51.530Z",
+     "discoveredAt": "2026-11-17T08:21:29.965Z",
+     "summary": "Take-Two CEO 泽尔尼克近日接受 IGN 采访时批评 Anthropic、OpenAI 放任用户利用生成式 AI 逆向仿制《马力欧卡丁车 Wii》《塞尔达传说：织梦岛》等游戏，称所有公司都应保护知识产权。此前 Steam 部分开发者因担心作品被 AI 仿制抢先上架而取消试玩。",
+     "url": "https://www.ithome.com/1/028/287.htm",
+     "aihot": "https://aihot.news/items/fg692jk8y0kzlid73orccgjpu",
+     "selected": false,
+     "score": 64,
+     "category": "tip"
+    },
+    {
+     "n": 18,
+     "title": "OpenAI 奥尔特曼重申希望所有人都能有大量内存，称在家折腾硬件很棒",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-17T11:23:23.907000+08:00",
+     "publishedAt": "2026-11-17T03:11:46.200Z",
+     "discoveredAt": "2026-11-17T03:23:23.907Z",
+     "summary": "OpenAI CEO 萨姆·奥尔特曼在 Semafor 峰会上重申，他希望所有人都能有大量内存，并认为每个人应为自己的电脑买大量内存、在家动手折腾硬件是很棒的事。他此前在 Cheeky Pint 采访中曾称个人电脑囤积大量 DRAM 且 95% 时间闲置是糟糕的资源分配，相关言论引发网友嘲讽后，他称自己的话遭到断章取…",
+     "url": "https://www.ithome.com/1/028/114.htm",
+     "aihot": "https://aihot.news/items/sk70qb82y67zfyiou4rlvovc6",
+     "selected": false,
+     "score": 37,
+     "category": "tip"
+    },
+    {
+     "n": 19,
+     "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-17T07:38:33.335000+08:00",
+     "publishedAt": "2026-11-16T23:17:34.000Z",
+     "discoveredAt": "2026-11-16T23:38:33.335Z",
+     "summary": "The Verge 报道，黄仁勋在英伟达任职超过33年后辞职，硅谷多位知名人物呼吁其复职，并流传这是针对他的谋划的说法。Epic Games CEO Tim Sweeney、Replit CEO Amjad Masad 等对辞职时机表示质疑，超过18.5万人签署'与黄仁勋站在一起'的公开信，要求其复职并彻查辞职相关情…",
+     "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+     "aihot": "https://aihot.news/items/ahjzxmo93fzc4psaftffvb3rx",
+     "selected": true,
+     "score": 86,
+     "category": "tip"
+    },
+    {
+     "n": 20,
+     "title": "Sam Altman 在 Semafor 峰会回应 RAM 言论争议，称希望人人都能买大内存",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-17T05:36:33.623000+08:00",
+     "publishedAt": "2026-11-16T20:41:28.000Z",
+     "discoveredAt": "2026-11-16T21:36:33.623Z",
+     "summary": "OpenAI CEO Sam Altman 在 Semafor 的 Silicon Valley & The World summit 上澄清上月关于 PC RAM 的争议言论，称希望大家都能为自己的电脑购买大量 RAM，也认可在家折腾和使用。",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+     "aihot": "https://aihot.news/items/agjcou2ce4muus9pxl72suoqg",
+     "selected": false,
+     "score": 58,
+     "category": "tip"
+    },
+    {
+     "n": 21,
+     "title": "Sam Altman 回应 Jensen Huang 离职：没有他 AI 行业也会很好",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-17T02:21:21.027000+08:00",
+     "publishedAt": "2026-11-16T18:11:10.000Z",
+     "discoveredAt": "2026-11-16T18:21:21.027Z",
+     "summary": "Sam Altman 在 Semafor 活动上首次公开回应 Nvidia CEO Jensen Huang 离职，称 AI 需求和收入增长强劲，行业会很好。他称 Huang 为英雄但英雄有缺点，未表态是否应回归；",
+     "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+     "aihot": "https://aihot.news/items/rz8dp20tf61g4dvw02n10sznk",
+     "selected": false,
+     "score": 66,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
