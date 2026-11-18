@@ -14,13 +14,13 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-16",
-  "winEnd": "2026-11-17",
-  "generated": "2026-11-17 16:56",
-  "rawHits": 20,
+  "winStart": "2026-11-17",
+  "winEnd": "2026-11-18",
+  "generated": "2026-11-18 16:20",
+  "rawHits": 23,
   "selectedHits": 0,
-  "shown": 3,
-  "dedupedFrom": 8,
+  "shown": 2,
+  "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 20,
+    "count": 23,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,67 +86,21 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "Garlic LLM 让越狱版 PS4 运行 Qwen3.5-9B 本地模型，最高每秒 43 词元",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-17T15:21:30.821000+08:00",
-     "publishedAt": "2026-11-17T07:12:47.133Z",
-     "discoveredAt": "2026-11-17T07:21:30.821Z",
-     "summary": "开源项目 Garlic LLM 让越狱版 PlayStation 4 运行 90 亿参数的本地大语言模型，最高生成速度达每秒 43 个词元，无需联网即可完成 AI 聊天与语音对话。",
-     "url": "https://www.ithome.com/1/028/266.htm",
-     "aihot": "https://aihot.news/items/kmro26ifgirc7gsea3wu9rzy8",
+     "title": "Hugging Face 用 RL 微调 Qwen3.8-27B 适配 pi 编码智能体",
+     "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+     "ts": "2026-11-18T04:27:38.040000+08:00",
+     "publishedAt": "2026-11-17T20:09:46.000Z",
+     "discoveredAt": "2026-11-17T20:27:38.040Z",
+     "summary": "Hugging Face 用强化学习和 LoRA adapter 将 Qwen3.8-27B 专门适配到 pi 编码智能体，并开放权重。pass@1 成绩上，SWE-bench Pro（Hard 51）从 29.4% 升至 62.7%，Terminal-Bench 2.1 从 39.5% 升至 55.8%，每任务工具…",
+     "url": "https://x.com/ClementDelangue/status/2122784279604383914",
+     "aihot": "https://aihot.news/items/w8m4invg41yr9hjg6362hdsu2",
      "selected": false,
-     "score": 49,
+     "score": 47,
      "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "阿里发布 Qwen4-Max：2.4 万亿参数 MoE 架构，对标 Opus 5.5、GPT-6 与 Kimi K3.1 Pro 且价格更低",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-17T01:03:15.459000+08:00",
-     "publishedAt": "2026-11-16T16:56:04.000Z",
-     "discoveredAt": "2026-11-16T17:03:15.459Z",
-     "summary": "阿里巴巴发布旗舰模型 Qwen4-Max，采用 Qwen4 系列新混合注意力架构，2.4 万亿参数中每 token 仅激活 710 亿，原生处理图像并支持一百万 token 上下文窗口。",
-     "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-     "aihot": "https://aihot.news/items/kjv2ukwpwj8ep7ypm50tn4chf",
-     "selected": false,
-     "score": 80,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "MarkTechPost（RSS）",
-       "title": "阿里发布 Qwen4-Max：2.4T MoE、71B 激活、1M 上下文",
-       "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
-       "aihot": "https://aihot.news/items/pttf3d3jrgv3ixuze5ju49aws"
-      },
-      {
-       "source": "X：X.PIN (@thexpin)",
-       "title": "千问发布下一代旗舰模型 Qwen4-Max",
-       "url": "https://x.com/thexpin/status/2122262980868055151",
-       "aihot": "https://aihot.news/items/sn4zo5c2g1ayjmsqwl5zxedhv"
-      },
-      {
-       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-       "title": "Qwen4-Max 上线 Novita AI 平台",
-       "url": "https://x.com/Alibaba_Qwen/status/2122286761883959700",
-       "aihot": "https://aihot.news/items/aeufw07sitxip1bq4vmkatdep"
-      },
-      {
-       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-       "title": "Qwen4-Max 上线 Vercel AI Gateway",
-       "url": "https://x.com/Alibaba_Qwen/status/2122248112479907848",
-       "aihot": "https://aihot.news/items/tl21kb0yjun24h7j27monpv8z"
-      },
-      {
-       "source": "X：X.PIN (@thexpin)",
-       "title": "千问发布 Qwen4-Max，2.4 万亿参数 MoE 旗舰模型",
-       "url": "https://x.com/thexpin/status/2122337408268333326",
-       "aihot": "https://aihot.news/items/dnudjlqdqlc6c9h3yyosv6uun"
-      }
-     ]
     }
    ],
    "note": null
@@ -157,18 +111,38 @@
    "count": 1,
    "items": [
     {
-     "n": 3,
-     "title": "通义千问宣布 Qwen4-Max 上线 you.com Inference Router",
+     "n": 2,
+     "title": "Qwen4-Max 上线 LebrelAI",
      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-     "ts": "2026-11-17T12:06:33.088000+08:00",
-     "publishedAt": "2026-11-17T03:37:35.000Z",
-     "discoveredAt": "2026-11-17T04:06:33.088Z",
-     "summary": "通义千问（Qwen）宣布 Qwen4-Max 已上线 you.com Inference Router。据 you.com 介绍，这是 Qwen4 系列首个模型，面向编码、办公和长程智能体任务，支持 1M token 上下文窗口，原生支持文本、图像和视频输入。",
-     "url": "https://x.com/Alibaba_Qwen/status/2122534590611099749",
-     "aihot": "https://aihot.news/items/ogdsm0ppncqhpl84qm0jpfeaz",
+     "ts": "2026-11-17T17:47:33.334000+08:00",
+     "publishedAt": "2026-11-17T09:31:09.000Z",
+     "discoveredAt": "2026-11-17T09:47:33.334Z",
+     "summary": "Qwen4-Max 现已在 @LebrelAI 上线。来试试智能体编程，给我们展示你的作品。😎",
+     "url": "https://x.com/Alibaba_Qwen/status/2122623567674396990",
+     "aihot": "https://aihot.news/items/lb5eh0lb2awozg936wkllynog",
      "selected": false,
-     "score": 62,
-     "category": "ai-products"
+     "score": 42,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+       "title": "Qwen4-Max 上线 Runware",
+       "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534",
+       "aihot": "https://aihot.news/items/o6gozoqz4f5m7uj5ibkribfha"
+      },
+      {
+       "source": "公众号：百度智能云（文心）",
+       "title": "百度搭子企业版接入Qwen4-Max",
+       "url": "https://mp.weixin.qq.com/s/fWs94zrQu5upZIOYAdvgIg",
+       "aihot": "https://aihot.news/items/jh39p1qwd2ezilvdnkhw5cain"
+      },
+      {
+       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+       "title": "Qwen4-Max 上线 TokenHarborAI",
+       "url": "https://x.com/Alibaba_Qwen/status/2122958542982508901",
+       "aihot": "https://aihot.news/items/lx13gg82tcbpg37dvn69gq60n"
+      }
+     ]
     }
    ],
    "note": null
@@ -192,7 +166,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

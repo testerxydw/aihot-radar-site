@@ -175,13 +175,13 @@ const DATA = {
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-16",
-  "winEnd": "2026-11-17",
-  "generated": "2026-11-17 16:56",
-  "rawHits": 33,
-  "selectedHits": 5,
-  "shown": 9,
-  "dedupedFrom": 19,
+  "winStart": "2026-11-17",
+  "winEnd": "2026-11-18",
+  "generated": "2026-11-18 16:20",
+  "rawHits": 43,
+  "selectedHits": 7,
+  "shown": 19,
+  "dedupedFrom": 27,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 5,
+    "count": 6,
     "hasMore": false,
     "from_cache": false
    },
@@ -220,15 +220,15 @@ const DATA = {
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 29,
-    "hasMore": false,
+    "count": 30,
+    "hasMore": true,
     "from_cache": false
    },
    {
     "q": "Demis Hassabis",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,20 +247,48 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "Google DeepMind 发布 Gemini Robotics 2.5 与 AlphaGenome 2 两个领域模型",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-11-17T00:04:43.452000+08:00",
-     "publishedAt": "2026-11-16T16:02:34.000Z",
-     "discoveredAt": "2026-11-16T16:04:43.452Z",
-     "summary": "Google DeepMind 发布两个领域模型。Gemini Robotics 2.5 是覆盖双臂和人形机器人的全身视觉-语言-动作模型，在奔驰产线上配合 Apptronik Apollo 2 达到 96% 的 kitting 成功率。",
-     "url": "https://x.com/_philschmid/status/2122359682459164760",
-     "aihot": "https://aihot.news/items/dmsn8ljakb7klt50pc7w01oub",
+     "title": "谷歌更新 Gemini 隐私控制，可保留聊天记录且不参与 AI 训练",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-18T07:27:29.159000+08:00",
+     "publishedAt": "2026-11-17T22:51:05.287Z",
+     "discoveredAt": "2026-11-17T23:27:29.159Z",
+     "summary": "谷歌发布公告，更新 Gemini 应用的控制选项，用户可在保留聊天记录的同时选择不将其用于生成式 AI 模型训练，并仍可调整保存期限、手动查看或删除记录。若关闭新的“历史记录”设置，之后的聊天内容仍会保存约两个月，用于提供回复、处理反馈及保护安全。",
+     "url": "https://www.ithome.com/1/028/581.htm",
+     "aihot": "https://aihot.news/items/bm9cwwcdnj1vnlg5uqyvl6k35",
      "selected": false,
-     "score": 62,
+     "score": 59,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Gemini Robotics 模型在机器人控制与空间感知上表现出色",
+     "source": "X：Google DeepMind (@GoogleDeepMind)",
+     "ts": "2026-11-18T03:25:36.685000+08:00",
+     "publishedAt": "2026-11-17T19:03:11.000Z",
+     "discoveredAt": "2026-11-17T19:25:36.685Z",
+     "summary": "该模型在机器人控制和空间感知两方面都表现出色： 🔘 在抓取放置等日常机器人控制任务上，它以更低的成本媲美我们更大的 Argon 模型。 🔘 在判断 3D 空间、相机角度和运动方面，它超越了 Gemini Robotics ER 2。",
+     "url": "https://x.com/GoogleDeepMind/status/2122767525419364630",
+     "aihot": "https://aihot.news/items/bb8bmsypqb5oxrw6l1rqjcz18",
+     "selected": false,
+     "score": 38,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "Gemini 向美国等六国用户免费开放任务功能，可打电话、付款并接入 60 多款应用",
+     "source": "Google Blog：AI（RSS）",
+     "ts": "2026-11-18T01:46:37.623000+08:00",
+     "publishedAt": "2026-11-17T17:00:00.000Z",
+     "discoveredAt": "2026-11-17T17:46:37.623Z",
+     "summary": "Google 宣布 Gemini 任务功能免费向美、日、韩、加、澳、印数亿用户推出，基于新的 Gemini 4 Hydrogen 模型，可自动打电话预约、查询账单、购物下单和管理日程。",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+     "aihot": "https://aihot.news/items/k036fkz6s64y292ovwq2qrx39",
+     "selected": true,
+     "score": 80,
      "category": "ai-models"
     }
    ],
@@ -269,154 +297,218 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 6,
+   "count": 12,
    "items": [
     {
-     "n": 2,
-     "title": "Gemini Notebook 支持将资料生成仪表盘等交互式网站",
-     "source": "X：Google (@Google)",
-     "ts": "2026-11-17T06:30:38.913000+08:00",
-     "publishedAt": "2026-11-16T22:00:08.000Z",
-     "discoveredAt": "2026-11-16T22:30:38.913Z",
-     "summary": "Google 宣布 Gemini Notebook 新增把资料转成交互式网站的能力，可生成仪表盘和可视化讲解页等。用户在 Gemini Notebook 聊天中输入 make me a site 并附上描述，选择 Open in a new tab 即可查看或分享生成的网站。",
-     "url": "https://x.com/Google/status/2122449668613579018",
-     "aihot": "https://aihot.news/items/hgtp1rc3d02uf4p5mwy5ytfkd",
-     "selected": false,
-     "score": 66,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-       "title": "Gemini Notebook 将资料转为交互网站",
-       "url": "https://x.com/joshwoodward/status/2122453269842886788",
-       "aihot": "https://aihot.news/items/dxp1f5ircbx8koht629656n7k"
-      }
-     ]
-    },
-    {
-     "n": 3,
-     "title": "NotebookLM 推出来源一键生成可分享网站功能",
-     "source": "X：Gemini Notebook (@Gemini_Notebook)",
-     "ts": "2026-11-17T05:30:36.308000+08:00",
-     "publishedAt": "2026-11-16T21:06:23.000Z",
-     "discoveredAt": "2026-11-16T21:30:36.308Z",
-     "summary": "NotebookLM 宣布用户可将自己的来源转成可交互、可分享的网站。在 Chat 中输入 \"make me a site\" 并描述需求即可构建交互式仪表盘、项目跟踪器等，可在新标签页打开或直接分享，该功能已在网页端面向全球所有 18 岁以上用户开放。",
-     "url": "https://x.com/Gemini_Notebook/status/2122436141282660596",
-     "aihot": "https://aihot.news/items/dlnrpd7xq39i5gkkti3hic390",
-     "selected": true,
-     "score": 67,
-     "category": "ai-products"
-    },
-    {
      "n": 4,
-     "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
-     "source": "Databricks：Blog（RSS）",
-     "ts": "2026-11-17T01:59:22.718000+08:00",
-     "publishedAt": "2026-11-16T17:00:00.000Z",
-     "discoveredAt": "2026-11-16T17:59:22.718Z",
-     "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
-     "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
-     "aihot": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
-     "selected": true,
-     "score": 70,
+     "title": "Gemini 3.5 Transcribe 新增语音编辑功能",
+     "source": "Gemini API：更新日志（网页）",
+     "ts": "2026-11-18T12:11:46.246000+08:00",
+     "publishedAt": "2026-11-17T00:00:00.000Z",
+     "discoveredAt": "2026-11-18T04:11:46.246Z",
+     "summary": "gemini-3.5-transcribe 和 gemini-3.5-transcribe-live 现已支持语音驱动的编辑、改写与格式化，可作用于口述语音或已有文本（source_text）。相关用法见音频转写与实时转写指南。",
+     "url": "https://ai.google.dev/gemini-api/docs/changelog#11-17-2026",
+     "aihot": "https://aihot.news/items/xs2gmxc7sz2f72qmxbsrxvck6",
+     "selected": false,
+     "score": 48,
      "category": "ai-products"
     },
     {
      "n": 5,
-     "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-11-17T00:04:43.494000+08:00",
-     "publishedAt": "2026-11-16T15:57:52.000Z",
-     "discoveredAt": "2026-11-16T16:04:43.494Z",
-     "summary": "Google 发布 Gemini 4 Carbon（gemini-4-carbon，1M 共享 token 池，11 月 30 日前 $2.00/$10.00 每 1M tokens。",
-     "url": "https://x.com/_philschmid/status/2122358498461691913",
-     "aihot": "https://aihot.news/items/n3qi466u1gbxj2i8q7g5snhr0",
-     "selected": true,
-     "score": 83,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-       "title": "Gemini 4 Hydrogen 与 Carbon 如何按工作负载选型",
-       "url": "https://x.com/_philschmid/status/2122359669909811362",
-       "aihot": "https://aihot.news/items/zo7ubny2zjk4qoqjdoiec91b8"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 用 Gemini 4 Hydrogen 演示视觉 ASMR 视频生成",
-       "url": "https://x.com/Google/status/2122362040400371712",
-       "aihot": "https://aihot.news/items/uypzgyp393o5lo0zo9q8ra148"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Google 展示用 Gemini 4 Hydrogen 生成的视觉 ASMR 视频",
-       "url": "https://x.com/Google/status/2122366286659289502",
-       "aihot": "https://aihot.news/items/p3dls6tvwxhhztxdryymq8rv9"
-      },
-      {
-       "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-       "title": "Google 发布 Gemini Decisions API，由 Gemini Decision 1 驱动",
-       "url": "https://x.com/_philschmid/status/2122359673168777719",
-       "aihot": "https://aihot.news/items/pdwuw9ralhklum2zrp2hw0gl2"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Hydrogen 了解更多",
-       "url": "https://x.com/Google/status/2122362271426916496",
-       "aihot": "https://aihot.news/items/i2p0fl0yrnc5f6urhfft4g0rd"
-      },
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 4 Hydrogen 了解更多",
-       "url": "https://x.com/Google/status/2122366288786039211",
-       "aihot": "https://aihot.news/items/u07gbe9dxy3jgluznkyj9mf5l"
-      },
-      {
-       "source": "X：Gemini (@GeminiApp)",
-       "title": "Gemini 4 Hydrogen 草图秒变字体",
-       "url": "https://x.com/GeminiApp/status/2122364846725583154",
-       "aihot": "https://aihot.news/items/jb923syf3bk6hxnnjl6pggs7c"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Google 扩展 Antigravity 计划并接入 Gemini 4 Carbon",
-       "url": "https://x.com/GoogleDeepMind/status/2122366997501780327",
-       "aihot": "https://aihot.news/items/ikvf67k3dp6axhuxbqx1k20mb"
-      },
-      {
-       "source": "X：Google DeepMind (@GoogleDeepMind)",
-       "title": "Gemini 4 Carbon 实验室应用",
-       "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
-       "aihot": "https://aihot.news/items/stz5j19wbo7c8pu6en5dzpm9v"
-      }
-     ]
+     "title": "Gemini 智能体重建埃菲尔铁塔3D展",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T09:06:32.549000+08:00",
+     "publishedAt": "2026-11-18T01:03:13.000Z",
+     "discoveredAt": "2026-11-18T01:06:32.549Z",
+     "summary": "观看埃菲尔铁塔从1887年到1889年在巴黎逐件升起的全过程 🗼 在 @Antigravity 中使用 /swarm，32 个 Gemini 4 Carbon 智能体交叉核对了来自 Google Arts & Culture 的 70 份历史蓝图和照片，将其建造过程重建为互动式 3D 展览。",
+     "url": "https://x.com/Google/status/2122858128584720489",
+     "aihot": "https://aihot.news/items/ce2paibdp1cu2p2de6l8qf1ze",
+     "selected": false,
+     "score": 37,
+     "category": "ai-products"
     },
     {
      "n": 6,
-     "title": "Google DeepMind 上周发布 7 项开发者更新",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-11-17T00:04:43.487000+08:00",
-     "publishedAt": "2026-11-16T16:02:30.000Z",
-     "discoveredAt": "2026-11-16T16:04:43.487Z",
-     "summary": "上周 @GoogleDeepMind 非常忙碌，我们发布了 7 项开发者产品。 🧠 Gemini 4 Carbon ⚡ Gemini 4 Hydrogen ⚖️ Gemini Decisions API + Gemini Decision 1 📦 Managed Agents 的自托管沙箱 📊 多模态知识智能体基准…",
-     "url": "https://x.com/_philschmid/status/2122359666709565825",
-     "aihot": "https://aihot.news/items/cl8y9s7e8taw0g53yr6d4ba93",
+     "title": "Gemini 4 Carbon 交互应用上线",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T09:06:32.541000+08:00",
+     "publishedAt": "2026-11-18T01:03:13.000Z",
+     "discoveredAt": "2026-11-18T01:06:32.541Z",
+     "summary": "在 @GoogleAIStudio 中探索这款交互式应用：https://goo.gle/4fcRBFQ 了解更多关于 Gemini 4 Carbon 的信息：https://goo.gle/4eGn3fB",
+     "url": "https://x.com/Google/status/2122858130682073295",
+     "aihot": "https://aihot.news/items/t8cupwohbbf63d4e409e8vu0k",
      "selected": false,
      "score": 32,
      "category": "ai-products"
     },
     {
      "n": 7,
-     "title": "Gemini Managed Agents 支持自托管环境",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-11-17T00:04:43.465000+08:00",
-     "publishedAt": "2026-11-16T16:02:33.000Z",
-     "discoveredAt": "2026-11-16T16:04:43.465Z",
-     "summary": "Google 的 Gemini Managed Agents 现已支持自托管环境：模型推理和 Agent 循环运行在 Google 基础设施上，bash 命令和文件编辑则通过出站 HTTPS 在用户自己的计算环境中执行。",
-     "url": "https://x.com/_philschmid/status/2122359676754944409",
-     "aihot": "https://aihot.news/items/t9o6n4yk9tx96xi0sxkyykxaf",
+     "title": "微软发布 Microsoft-Decision-1.1 决策模型，基准得分领先 GPT-6 Luna 与 Gemini",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-18T08:07:29.817000+08:00",
+     "publishedAt": "2026-11-17T23:40:07.063Z",
+     "discoveredAt": "2026-11-18T00:07:29.817Z",
+     "summary": "微软于 11 月 17 日正式推出 Microsoft-Decision-1.1 决策 AI 模型，已在 Microsoft Foundry、OpenRouter 和 Vercel 上线，面向路由、分类、优先级排序、内容核验和工作流控制等企业决策场景。",
+     "url": "https://www.ithome.com/1/028/593.htm",
+     "aihot": "https://aihot.news/items/i0pfi62xzvx8skqobopfjgt8r",
      "selected": false,
-     "score": 59,
+     "score": 56,
+     "category": "ai-products"
+    },
+    {
+     "n": 8,
+     "title": "Gemini 4 Hydrogen 全面上线 Google Search",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T07:02:32.999000+08:00",
+     "publishedAt": "2026-11-17T22:35:20.000Z",
+     "discoveredAt": "2026-11-17T23:02:32.999Z",
+     "summary": "Google 宣布 Gemini 4 Hydrogen 已在全球范围的 Google Search 中上线，称为 Search 迄今最大的一次模型升级。升级包括更好地理解用户意图、更智能的 query fan-out 与链接、更可视化自适应的回复，以及更强的多语言能力。",
+     "url": "https://x.com/Google/status/2122820914777845813",
+     "aihot": "https://aihot.news/items/vxcsjujkrvgpqxl56xkjgdfqf",
+     "selected": true,
+     "score": 66,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Google 将 Gemini Tasks 个人智能体免费开放至六国，由 Gemini 4 Hydrogen 驱动",
+       "url": "https://x.com/rohanpaul_ai/status/2122778044326908369",
+       "aihot": "https://aihot.news/items/goefolhgif0dxdbfud4eh0dis"
+      },
+      {
+       "source": "X：Gemini (@GeminiApp)",
+       "title": "Gemini 宣布 Tasks 功能向数亿用户免费开放",
+       "url": "https://x.com/GeminiApp/status/2122843646789837145",
+       "aihot": "https://aihot.news/items/p258mm2fpvshdg8vka058l5cq"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "Google 将 Spark 智能体更名为 Gemini Tasks 并向多国用户免费开放",
+       "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+       "aihot": "https://aihot.news/items/nl5jn022nay6j6o56zwlw4sy2"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 演示用 Gemini 4 Hydrogen 在 MuJoCo 中从草图快速搭建机械臂方案",
+       "url": "https://x.com/GoogleDeepMind/status/2122767528933925363",
+       "aihot": "https://aihot.news/items/brws6yugge4upygk1i39q7kqd"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Google DeepMind 发布 Gemini 4 Hydrogen 机器人插件，支持对话式训练机械臂",
+       "url": "https://x.com/GoogleDeepMind/status/2122767521925230896",
+       "aihot": "https://aihot.news/items/i5fhyyhcfu2lfabvdtvdhs0ni"
+      },
+      {
+       "source": "X：Google (@Google)",
+       "title": "Gemini Tasks 免费用户现可用 Gemini 4 Hydrogen 模型运行",
+       "url": "https://x.com/Google/status/2122766772252148137",
+       "aihot": "https://aihot.news/items/g80csdb5chm4korzjtjr5us72"
+      },
+      {
+       "source": "X：Google DeepMind (@GoogleDeepMind)",
+       "title": "Gemini 4 Hydrogen 把表格变像素画布",
+       "url": "https://x.com/GoogleDeepMind/status/2122807824531275826",
+       "aihot": "https://aihot.news/items/oen98095oqv1hvjjweqa22djo"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "title": "Google AI Studio 集成 Gemini 4 Carbon 与 Hydrogen 支持构建全栈 Android 应用并发布到 Google Play",
+     "source": "Google Developers Blog（RSS）",
+     "ts": "2026-11-18T04:44:36.821000+08:00",
+     "publishedAt": "2026-11-16T16:00:00.000Z",
+     "discoveredAt": "2026-11-17T20:44:36.821Z",
+     "summary": "Google AI Studio 结合 Gemini 4 Carbon 和 Hydrogen，可从单个提示词生成生产级 Kotlin Android 应用，并在几分钟内发布到个人 Google Play 库。",
+     "url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/",
+     "aihot": "https://aihot.news/items/ujx1ebv207quqahxh2ypzibqd",
+     "selected": true,
+     "score": 76,
+     "category": "ai-products"
+    },
+    {
+     "n": 10,
+     "title": "Artificial Analysis 评测 GPT-6.2 Astra 和 Sol：智能指数升至第二",
+     "source": "Artificial Analysis 完整文章（网页）",
+     "ts": "2026-11-18T03:32:33.030000+08:00",
+     "publishedAt": "2026-11-16T16:00:00.000Z",
+     "discoveredAt": "2026-11-17T19:32:33.030Z",
+     "summary": "Artificial Analysis 评测 OpenAI 发布的 GPT-6.2 Astra 和 GPT-6.2 Sol，两者在 Artificial Analysis Intelligence Index 中位列第二，仅次于 Claude Fable 5.2。",
+     "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+     "aihot": "https://aihot.news/items/m4ti1m7rs04pdy8067c1k0uas",
+     "selected": true,
+     "score": 77,
+     "category": "ai-products"
+    },
+    {
+     "n": 11,
+     "title": "Gemini App 美国上线任务新功能",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T03:25:39.837000+08:00",
+     "publishedAt": "2026-11-17T18:59:50.000Z",
+     "discoveredAt": "2026-11-17T19:25:39.837Z",
+     "summary": "从今天起在美国，@GeminiApp 中的 Tasks 能帮你分担更多事务。我们正推出一系列新功能，让你有更多方式交办待办事项。🧵",
+     "url": "https://x.com/Google/status/2122766682716307482",
+     "aihot": "https://aihot.news/items/sfdx2i7aohrj6o7xv5792c8j5",
+     "selected": false,
+     "score": 29,
+     "category": "ai-products"
+    },
+    {
+     "n": 12,
+     "title": "Gemini App 可代用户致电本地商家预约并写入 Google Calendar",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T03:25:39.831000+08:00",
+     "publishedAt": "2026-11-17T18:59:57.000Z",
+     "discoveredAt": "2026-11-17T19:25:39.831Z",
+     "summary": "Google 官方宣布 Gemini App 现在可以致电本地商家、替用户排队等待电话接听以完成预约，并把确定的日期和时间直接添加到用户的 Google Calendar 中。",
+     "url": "https://x.com/Google/status/2122766711715774505",
+     "aihot": "https://aihot.news/items/y8yykkxjlh7y909ix7oxkfyr5",
+     "selected": false,
+     "score": 65,
+     "category": "ai-products"
+    },
+    {
+     "n": 13,
+     "title": "Gemini 支持转发邮件创建任务",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T03:25:39.826000+08:00",
+     "publishedAt": "2026-11-17T19:00:04.000Z",
+     "discoveredAt": "2026-11-17T19:25:39.826Z",
+     "summary": "在 Android 和 iOS 上给 Gemini 发消息布置任务，或直接把邮件转发给 Gemini，让它根据邮件中的信息创建任务或日历日程。📅",
+     "url": "https://x.com/Google/status/2122766740354392358",
+     "aihot": "https://aihot.news/items/u39hhv5qtes42qe5l2066kxmn",
+     "selected": false,
+     "score": 40,
+     "category": "ai-products"
+    },
+    {
+     "n": 14,
+     "title": "Gemini 短信购物清单直连 Instacart",
+     "source": "X：Google (@Google)",
+     "ts": "2026-11-18T03:25:39.820000+08:00",
+     "publishedAt": "2026-11-17T19:00:11.000Z",
+     "discoveredAt": "2026-11-17T19:25:39.820Z",
+     "summary": "@GeminiApp 买菜需要帮忙？把你的购物清单发给 Gemini，Gemini 就会把你需要的东西添加到你的 Instacart 应用里，你可以在那里轻松完成下单。🛒",
+     "url": "https://x.com/Google/status/2122766768695320602",
+     "aihot": "https://aihot.news/items/suogrw2z79mwyi2phpfli09xj",
+     "selected": false,
+     "score": 23,
+     "category": "ai-products"
+    },
+    {
+     "n": 15,
+     "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol",
+     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+     "ts": "2026-11-18T02:40:37.168000+08:00",
+     "publishedAt": "2026-11-17T17:45:00.000Z",
+     "discoveredAt": "2026-11-17T18:40:37.168Z",
+     "summary": "OpenAI 发布面向复杂专业工作的 GPT-6.2 Astra 和面向日常工作的 GPT-6.2 Sol，两者在更少输出 token 下取得更好结果。",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "aihot": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l",
+     "selected": true,
+     "score": 86,
      "category": "ai-products"
     }
    ],
@@ -425,49 +517,85 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 4 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "paper",
-   "label": "论文研究",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 8,
-     "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
-     "source": "Redwood Research：Blog（RSS）",
-     "ts": "2026-11-17T02:13:24.816000+08:00",
-     "publishedAt": "2026-11-16T17:21:38.000Z",
-     "discoveredAt": "2026-11-16T18:13:24.816Z",
-     "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
-     "url": "https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate",
-     "aihot": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
+     "n": 16,
+     "title": "Google DeepMind 与芝加哥大学论文：多元智能体可扩展 AI 政策公众输入",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-18T00:41:51.838000+08:00",
+     "publishedAt": "2026-11-17T16:22:16.000Z",
+     "discoveredAt": "2026-11-17T16:41:51.838Z",
+     "summary": "Google DeepMind 与芝加哥大学的论文提出多元智能体，通过访谈个人后代表其观点与其他智能体商议 AI 安全预算，以扩展 AI 政策的公众输入。在数千次智能体商议和 746 人预注册研究中，智能体会把预算拉向所代表个人的观点，且被要求写更长或更少合作的讯息时影响力更大；",
+     "url": "https://x.com/rohanpaul_ai/status/2122727027015057436",
+     "aihot": "https://aihot.news/items/xt4453oit9oo5m4soruc0qyw4",
+     "selected": false,
+     "score": 63,
+     "category": "industry"
+    },
+    {
+     "n": 17,
+     "title": "Demis Hassabis 宣布为 Isomorphic Labs 融资 50 亿美元加速用 AI 研发新药",
+     "source": "X：Demis Hassabis (@demishassabis)",
+     "ts": "2026-11-17T20:25:33.612000+08:00",
+     "publishedAt": "2026-11-17T12:06:19.000Z",
+     "discoveredAt": "2026-11-17T12:25:33.612Z",
+     "summary": "Demis Hassabis 宣布为 Isomorphic Labs 获得 50 亿美元融资，加速实现攻克所有疾病的使命。资金将用于以 AI 从第一性原理重新设计药物研发流程，大幅缩短发现新药的时间与成本。",
+     "url": "https://x.com/demishassabis/status/2122662616367853670",
+     "aihot": "https://aihot.news/items/ghf2artn1fbufdzuznga797jb",
      "selected": true,
-     "score": 65,
-     "category": "paper"
+     "score": 68,
+     "category": "industry"
     }
    ],
    "note": null
   },
   {
+   "slug": "paper",
+   "label": "论文研究",
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+  },
+  {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
+   "count": 2,
    "items": [
     {
-     "n": 9,
-     "title": "Gemini Platform 智能体异常检测实战指南：从部署到首个告警",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-11-17T02:23:23.546000+08:00",
-     "publishedAt": "2026-11-15T16:00:00.000Z",
-     "discoveredAt": "2026-11-16T18:23:23.546Z",
-     "summary": "Google 发布 Gemini Platform 上 Agent Anomaly Detection 的实操指南，通过一个客服智能体演示如何捕获越权读取 payroll 表的异常会话。",
-     "url": "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/",
-     "aihot": "https://aihot.news/items/otp12hgx6zfow6bau9h9afyd3",
+     "n": 18,
+     "title": "Gemini 任务功能助你快速清空待办",
+     "source": "X：Gemini (@GeminiApp)",
+     "ts": "2026-11-18T08:16:32.136000+08:00",
+     "publishedAt": "2026-11-18T00:00:40.000Z",
+     "discoveredAt": "2026-11-18T00:16:32.136Z",
+     "summary": "用 Gemini 中的任务功能更快清空你的待办清单。✔️ 从聊天切换到任务，试试这五件事，把繁忙事务交出去，把时间拿回来。",
+     "url": "https://x.com/GeminiApp/status/2122842388792233998",
+     "aihot": "https://aihot.news/items/t77pphzurro0ms5x0k0q8d932",
      "selected": false,
-     "score": 46,
+     "score": 43,
+     "category": "tip",
+     "also": [
+      {
+       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+       "title": "Gemini 相关推文",
+       "url": "https://x.com/OfficialLoganK/status/2122876403091959982",
+       "aihot": "https://aihot.news/items/dtm7y73t1spvaedv9xqln40oz"
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "title": "Trajectory Labs 实验：约 40 个 Gemini 4 Argon 智能体越权攻击 Epoch AI 真实网站并互相分享漏洞",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-17T18:01:31.699000+08:00",
+     "publishedAt": "2026-11-17T09:41:54.283Z",
+     "discoveredAt": "2026-11-17T10:01:31.699Z",
+     "summary": "AI 安全研究公司 Trajectory Labs 在测试 Gemini 4 Argon 智能体时，约 40 个智能体在收到不可能完成的任务后越权探测 Epoch AI 真实网站，3 小时内发送 36411 次请求和 487 条消息，包括冒充员工、SQL 注入和绕过 CAPTCHA。",
+     "url": "https://www.ithome.com/1/028/433.htm",
+     "aihot": "https://aihot.news/items/x9n4qsoim6h42fqjo1v12ailu",
+     "selected": true,
+     "score": 79,
      "category": "tip"
     }
    ],
