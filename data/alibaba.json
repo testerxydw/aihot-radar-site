@@ -14,12 +14,12 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-17",
-  "winEnd": "2026-11-18",
-  "generated": "2026-11-18 16:20",
-  "rawHits": 23,
-  "selectedHits": 0,
-  "shown": 2,
+  "winStart": "2026-11-18",
+  "winEnd": "2026-11-19",
+  "generated": "2026-11-19 16:31",
+  "rawHits": 17,
+  "selectedHits": 1,
+  "shown": 4,
   "dedupedFrom": 5,
   "perQueryLimit": 30,
   "modes": [
@@ -43,7 +43,7 @@
     "q": "通义千问",
     "mode": "all",
     "window": "24h",
-    "count": 3,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Qwen",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 23,
+    "count": 17,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,20 +86,34 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "Hugging Face 用 RL 微调 Qwen3.8-27B 适配 pi 编码智能体",
-     "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-     "ts": "2026-11-18T04:27:38.040000+08:00",
-     "publishedAt": "2026-11-17T20:09:46.000Z",
-     "discoveredAt": "2026-11-17T20:27:38.040Z",
-     "summary": "Hugging Face 用强化学习和 LoRA adapter 将 Qwen3.8-27B 专门适配到 pi 编码智能体，并开放权重。pass@1 成绩上，SWE-bench Pro（Hard 51）从 29.4% 升至 62.7%，Terminal-Bench 2.1 从 39.5% 升至 55.8%，每任务工具…",
-     "url": "https://x.com/ClementDelangue/status/2122784279604383914",
-     "aihot": "https://aihot.news/items/w8m4invg41yr9hjg6362hdsu2",
+     "title": "RadixArk 发布首个模型 DaisyRose-27B，基于 Qwen3.8-27B 强化学习训练并开源",
+     "source": "Hugging Face 社区博客（混合发现）",
+     "ts": "2026-11-19T04:29:16.059000+08:00",
+     "publishedAt": "2026-11-18T19:54:56.000Z",
+     "discoveredAt": "2026-11-18T20:29:16.059Z",
+     "summary": "RadixArk 发布首个模型 DaisyRose-27B，基于 Qwen3.8-27B 用开源 RL 框架 Miles 训练，在约 1,200 个精选长程 Agent 任务上用 144 块 H200 训练 18 天。",
+     "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+     "aihot": "https://aihot.news/items/m5fv9b6wvle48tshz2i3yrfqt",
      "selected": false,
-     "score": 47,
+     "score": 58,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol：更便宜但口碑分化，Anthropic 仍握最强模型",
+     "source": "Latent Space（RSS）",
+     "ts": "2026-11-18T19:18:17.561000+08:00",
+     "publishedAt": "2026-11-18T10:19:04.000Z",
+     "discoveredAt": "2026-11-18T11:18:17.561Z",
+     "summary": "Latent Space 汇总 OpenAI 发布的 GPT-6.2 Astra 和 Sol：Artificial Analysis 测得 Sol 以约 15% 的单任务成本追平 9 月的 Astra，新 Astra 以 62 分位居 Intelligence Index 第二，仅次于 Fable 5.2 的 65…",
+     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+     "aihot": "https://aihot.news/items/oisr0dfay736le62g425urn8l",
+     "selected": true,
+     "score": 83,
      "category": "ai-models"
     }
    ],
@@ -111,36 +125,24 @@
    "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "Qwen4-Max 上线 LebrelAI",
-     "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-     "ts": "2026-11-17T17:47:33.334000+08:00",
-     "publishedAt": "2026-11-17T09:31:09.000Z",
-     "discoveredAt": "2026-11-17T09:47:33.334Z",
-     "summary": "Qwen4-Max 现已在 @LebrelAI 上线。来试试智能体编程，给我们展示你的作品。😎",
-     "url": "https://x.com/Alibaba_Qwen/status/2122623567674396990",
-     "aihot": "https://aihot.news/items/lb5eh0lb2awozg936wkllynog",
+     "n": 3,
+     "title": "Hugging Face 发布 Qwen3.8-27B-pi-adapted LoRA，pi 编码 Agent 成功率从 39.2% 升至 64.7%",
+     "source": "MarkTechPost（RSS）",
+     "ts": "2026-11-19T00:58:18.382000+08:00",
+     "publishedAt": "2026-11-18T16:07:50.000Z",
+     "discoveredAt": "2026-11-18T16:58:18.382Z",
+     "summary": "Hugging Face harness-hub 团队发布面向 pi 编码 Agent 的 Qwen3.8-27B-pi-adapted LoRA 适配器（Apache-2.0，rank 32），用 TRL 的 AsyncGRPO 强化学习训练，工具调用经 safeagents 代理拦截以抑制 reward hack…",
+     "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+     "aihot": "https://aihot.news/items/tyjpdrz75ek41r0uqhdoxzl84",
      "selected": false,
-     "score": 42,
+     "score": 62,
      "category": "ai-products",
      "also": [
       {
-       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-       "title": "Qwen4-Max 上线 Runware",
-       "url": "https://x.com/Alibaba_Qwen/status/2122888191950901534",
-       "aihot": "https://aihot.news/items/o6gozoqz4f5m7uj5ibkribfha"
-      },
-      {
-       "source": "公众号：百度智能云（文心）",
-       "title": "百度搭子企业版接入Qwen4-Max",
-       "url": "https://mp.weixin.qq.com/s/fWs94zrQu5upZIOYAdvgIg",
-       "aihot": "https://aihot.news/items/jh39p1qwd2ezilvdnkhw5cain"
-      },
-      {
-       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-       "title": "Qwen4-Max 上线 TokenHarborAI",
-       "url": "https://x.com/Alibaba_Qwen/status/2122958542982508901",
-       "aihot": "https://aihot.news/items/lx13gg82tcbpg37dvn69gq60n"
+       "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+       "title": "Qwen3.8-27B-pi-adapted 适配模型冲上 Hugging Face Hub 热榜第 5",
+       "url": "https://x.com/ClementDelangue/status/2123056891693859071",
+       "aihot": "https://aihot.news/items/a7g3qggygcubbn6z7zwfrnxjx"
       }
      ]
     }
@@ -152,21 +154,36 @@
    "label": "行业动态",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 3 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 4,
+     "title": "RecSA 项目开源：内核与 Qwen3 集成",
+     "source": "X：UCSD Hao AI Lab (@haoailab)",
+     "ts": "2026-11-19T03:40:20.700000+08:00",
+     "publishedAt": "2026-11-18T19:20:54.000Z",
+     "discoveredAt": "2026-11-18T19:40:20.700Z",
+     "summary": "本项目由我们出色的 @skywong265979 @Xinyu2ML @AlexZhang152005 以及我们的导师 @haozhangml 完成。代码已开源，包括内核、Qwen3 集成、RULER 评测和延迟基准测试。",
+     "url": "https://x.com/haoailab/status/2123134372220129610",
+     "aihot": "https://aihot.news/items/css5z9bxxfeyhw0k9a6inxxzs",
+     "selected": false,
+     "score": 39,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [
