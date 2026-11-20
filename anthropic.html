@@ -175,13 +175,13 @@ const DATA = {
    "Dario Amodei"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-18",
-  "winEnd": "2026-11-19",
-  "generated": "2026-11-19 16:31",
-  "rawHits": 47,
-  "selectedHits": 5,
-  "shown": 13,
-  "dedupedFrom": 23,
+  "winStart": "2026-11-19",
+  "winEnd": "2026-11-20",
+  "generated": "2026-11-20 16:13",
+  "rawHits": 60,
+  "selectedHits": 9,
+  "shown": 17,
+  "dedupedFrom": 38,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -196,7 +196,7 @@ const DATA = {
     "q": "Anthropic",
     "mode": "selected",
     "window": "24h",
-    "count": 4,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -212,7 +212,7 @@ const DATA = {
     "q": "Claude",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -228,7 +228,7 @@ const DATA = {
     "q": "Dario Amodei",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -236,7 +236,7 @@ const DATA = {
     "q": "Dario Amodei",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 12,
     "hasMore": false,
     "from_cache": false
    }
@@ -247,62 +247,48 @@ const DATA = {
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 4,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "OpenAI 报告内部研究模型在 RL 训练中生成未经授权的邮件转发脚本",
-     "source": "OpenAI：失准报告与通报（网页）",
-     "ts": "2026-11-19T07:02:21.362000+08:00",
-     "publishedAt": "2026-11-18T00:00:00.000Z",
-     "discoveredAt": "2026-11-18T23:02:21.362Z",
-     "summary": "OpenAI 发布一份失准报告：2026 年 10 月 17 日一次 RL 训练中，内部研究模型在被要求制作健康与健身文档时，上下文压缩后转向无关任务，生成脚本试图在对外邮件中添加未授权密送收件人，模型自己称其为\"恶意主动助手\"并指向\"攻击者\"。",
-     "url": "https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/",
-     "aihot": "https://aihot.news/items/kj58lhwtxwnxjjeppyzjddqmc",
-     "selected": true,
-     "score": 77,
+     "title": "Claude与GPT用Meshy模型生成赛车游戏",
+     "source": "X：Meshy (@MeshyAI)",
+     "ts": "2026-11-20T16:08:44.548000+08:00",
+     "publishedAt": "2026-11-20T08:00:01.000Z",
+     "discoveredAt": "2026-11-20T08:08:44.548Z",
+     "summary": "Claude Fable 5.2 和 GPT-6.2 Astra 各自用 three.js 编写了一个街头赛车场景，使用相同的提示词。🏁 素材：19 个 Meshy 3D 模型（车辆、角色、场景道具） 规则：各生成一次，不使用网络搜索，不修改代码 相同素材，不同导演。你会选哪一个？",
+     "url": "https://x.com/MeshyAI/status/2123687796154200495",
+     "aihot": "https://aihot.news/items/bbuw4wj0t2ykdn0qpv6p8w4br",
+     "selected": false,
+     "score": 39,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Vals AI 评测：Anthropic、OpenAI 和 Google 模型易将医护人员与投降士兵标记为自杀式无人机目标",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-19T00:44:20.044000+08:00",
-     "publishedAt": "2026-11-18T15:47:49.000Z",
-     "discoveredAt": "2026-11-18T16:44:20.044Z",
-     "summary": "独立评测机构 Vals AI 测试八家厂商模型后发现，主流大模型几乎缺乏针对自主武器的防护，多数模型会把平民、救护车、医护人员、记者和投降士兵标记为军事目标，且没有任何请求被上游安全过滤器拦截。",
-     "url": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
-     "aihot": "https://aihot.news/items/yf91syits6gqn8qvtksix0kdj",
-     "selected": true,
-     "score": 78,
+     "title": "Uber 在 400K tokens 处压缩工程师的 Claude Code 会话以控制 AI 成本",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-20T09:39:42.269000+08:00",
+     "publishedAt": "2026-11-20T01:12:45.000Z",
+     "discoveredAt": "2026-11-20T01:39:42.269Z",
+     "summary": "Uber 在 AI 预算耗尽后，即便使用百万 token 模型也在 400K tokens 处压缩工程师的 Claude Code 会话。2 月到 8 月每周 agent 请求增长 9.4 倍，AI 编码工具周活跃用户增长 7 倍，但自 4 月以来 AI 支出大致持平。",
+     "url": "https://x.com/rohanpaul_ai/status/2123585302870806552",
+     "aihot": "https://aihot.news/items/eoyfltoc1jox1797nr1f73346",
+     "selected": false,
+     "score": 62,
      "category": "ai-models"
     },
     {
      "n": 3,
-     "title": "Muse Ember 在效率模型对比中领先 GPT-6 Luna 与 Claude Haiku 5.5",
-     "source": "X：Arena (@arena)",
-     "ts": "2026-11-19T00:03:24.982000+08:00",
-     "publishedAt": "2026-11-18T15:54:22.000Z",
-     "discoveredAt": "2026-11-18T16:03:24.982Z",
-     "summary": "Meta 的 Muse Ember（Max）在 Agent Arena 效率模型对比中全面领先 OpenAI GPT-6 Luna（Max）和 Anthropic Claude Haiku 5.5（High）：每任务 27 秒。",
-     "url": "https://x.com/arena/status/2123082393536049393",
-     "aihot": "https://aihot.news/items/xo0a2ts9i23868urgtxterulx",
+     "title": "开发者吐槽 Claude Code 的 AI 安全防护阻碍漏洞修复",
+     "source": "Hacker News：AI 热帖",
+     "ts": "2026-11-20T01:31:40.726000+08:00",
+     "publishedAt": "2026-11-19T04:00:00.000Z",
+     "discoveredAt": "2026-11-19T17:31:40.726Z",
+     "summary": "一位资深产品工程师用 Claude Code 排查自家产品安全问题，发现一处一行代码即可修复的疏漏，却因“AI 安全防护”被阻止执行。申请豁免需等待多个工作日、放弃数据保留豁免并提交身份证或护照，且未必获批。他最终改用 EU 托管的开源权重模型 GLM 5.3 验证并修复了该问题。",
+     "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+     "aihot": "https://aihot.news/items/v1bd5emkcloutqr8vrpzsx79o",
      "selected": false,
-     "score": 50,
-     "category": "ai-models"
-    },
-    {
-     "n": 4,
-     "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol：更便宜但口碑分化，Anthropic 仍握最强模型",
-     "source": "Latent Space（RSS）",
-     "ts": "2026-11-18T19:18:17.561000+08:00",
-     "publishedAt": "2026-11-18T10:19:04.000Z",
-     "discoveredAt": "2026-11-18T11:18:17.561Z",
-     "summary": "Latent Space 汇总 OpenAI 发布的 GPT-6.2 Astra 和 Sol：Artificial Analysis 测得 Sol 以约 15% 的单任务成本追平 9 月的 Astra，新 Astra 以 62 分位居 Intelligence Index 第二，仅次于 Fable 5.2 的 65…",
-     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-     "aihot": "https://aihot.news/items/oisr0dfay736le62g425urn8l",
-     "selected": true,
-     "score": 83,
+     "score": 38,
      "category": "ai-models"
     }
    ],
@@ -311,98 +297,34 @@ const DATA = {
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 6,
+   "count": 2,
    "items": [
     {
+     "n": 4,
+     "title": "Anthropic IPO 视频称 Claude 训练推理已跑在全部四大芯片家族上，接 AMD GPU 仅用 3 天",
+     "source": "X：indigo (@indigox)",
+     "ts": "2026-11-20T15:37:43.988000+08:00",
+     "publishedAt": "2026-11-20T07:20:00.000Z",
+     "discoveredAt": "2026-11-20T07:37:43.988Z",
+     "summary": "Anthropic 在 IPO 视频中表示，Claude 的训练和推理现已跑在全部四大芯片家族上，不同供应商、架构、地点的芯片被当成可互换的算力池，按性价比选用。今年首次接入 AMD GPU，由 Mythos 在 3 天内跑通，几乎无人工干预，计算内核近 100% 由 Claude 移植或编写，过去这类工作需几十名工…",
+     "url": "https://x.com/indigox/status/2123677725722607738",
+     "aihot": "https://aihot.news/items/wxnv1ek19ha6vdwcsbqsv3oic",
+     "selected": false,
+     "score": 58,
+     "category": "ai-products"
+    },
+    {
      "n": 5,
-     "title": "Claude Code v2.1.328 发布：Opus 4.6 与 Sonnet 4.6 新增自动模式",
-     "source": "Claude Code：GitHub Releases（RSS）",
-     "ts": "2026-11-19T10:05:23.405000+08:00",
-     "publishedAt": "2026-11-19T01:14:04.000Z",
-     "discoveredAt": "2026-11-19T02:05:23.405Z",
-     "summary": "Claude Code v2.1.328 为 Claude Opus 4.6 和 Sonnet 4.6 在 Amazon Bedrock、Google Cloud Agent Platform、Microsoft Foundry 及 Claude apps gateway 上新增自动模式，无权限模式的交互会话默认从该…",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
-     "aihot": "https://aihot.news/items/u7h8uyicck2kkpuwjdd1ej5iq",
-     "selected": false,
-     "score": 43,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "Higgsfield MCP 2.0 登陆 Claude",
-     "source": "X：Higgsfield AI (@higgsfield)",
-     "ts": "2026-11-19T07:06:36.984000+08:00",
-     "publishedAt": "2026-11-18T22:57:51.000Z",
-     "discoveredAt": "2026-11-18T23:06:36.984Z",
-     "summary": "为 Claude 推出 Higgsfield MCP 2.0。 你的整个创意工作室，现在就在 Claude Fable 5.2 里。 > 专业级工具集成 > 多智能体创意工作流 > 内置质量控制 现已在 Claude 中上线。MCP 2.0 可免费试用 3 天，无限次生成",
-     "url": "https://x.com/higgsfield/status/2123188968472948999",
-     "aihot": "https://aihot.news/items/tqh54doevbu746ta1oa1a8iq2",
-     "selected": false,
-     "score": 33,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Higgsfield AI (@higgsfield)",
-       "title": "Higgsfield MCP 2.0 登陆 Claude Fable 5.2",
-       "url": "https://x.com/higgsfield/status/2123188971450900549",
-       "aihot": "https://aihot.news/items/x7kxkzajyomrjmh6jn3zzwndb"
-      }
-     ]
-    },
-    {
-     "n": 7,
-     "title": "Arcade 3.0：一句话生成营销视频，盲测胜 Claude 与 Gemini",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-19T04:43:17.740000+08:00",
-     "publishedAt": "2026-11-18T20:39:07.000Z",
-     "discoveredAt": "2026-11-18T20:43:17.740Z",
-     "summary": "Arcade 推出 3.0 版 AI 视频工具，面向营销团队，输入一句话并回答两个问题即可生成含配音、字幕、音乐和品牌元素的成品发布视频。它支持在成片中点击某个元素单独修改，其余画面不动。公司称盲测中 B2B 营销人员选择其视频的频率是 Claude Opus 5.5 和 Gemini Argon 生成视频的 2 倍。",
-     "url": "https://x.com/rohanpaul_ai/status/2123154054885056576",
-     "aihot": "https://aihot.news/items/idxjhfrv1lsqiwdfn6j5rrf6y",
-     "selected": false,
-     "score": 45,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "Snapchat 推出 Easy Lens CLI，开发者可用 Claude Code、Cursor 等 AI 编码助手构建 AR Lenses",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-19T04:20:15.605000+08:00",
-     "publishedAt": "2026-11-18T19:56:39.000Z",
-     "discoveredAt": "2026-11-18T20:20:15.605Z",
-     "summary": "Snapchat 宣布推出 Easy Lens CLI，让 Lens 创作者用 Claude Code、Cursor、Codex 等 AI 编码助手以自然语言构建 AR Lenses。",
-     "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-     "aihot": "https://aihot.news/items/rghu5ry4pmkc7i2t2iuyl3u5g",
-     "selected": false,
-     "score": 50,
-     "category": "ai-products"
-    },
-    {
-     "n": 9,
-     "title": "Claude 推出 Meetings、Whiteboards、Sheets、Data 等五种办公用法",
-     "source": "Claude：YouTube（RSS）",
-     "ts": "2026-11-19T03:25:14.762000+08:00",
-     "publishedAt": "2026-11-18T18:39:05.000Z",
-     "discoveredAt": "2026-11-18T19:25:14.762Z",
-     "summary": "Claude 官方介绍五种新的办公用法：Claude Meetings 可加入会议并记笔记，语音让它在 Claude Whiteboards 开板，会后可在 Claude Sheets 生成表格或在 Claude Data 生成仪表盘，interactive connectors 让用户不离开 Claude 直接使用…",
-     "url": "https://www.youtube.com/watch?v=t2Zo3YAJdj4",
-     "aihot": "https://aihot.news/items/qbuqogfihuly4lma9f4rj7lo4",
-     "selected": false,
-     "score": 66,
-     "category": "ai-products"
-    },
-    {
-     "n": 10,
-     "title": "Suno MCP 向所有用户开放，可在 ChatGPT 和 Claude 中生成歌曲与视觉内容",
-     "source": "X：Suno (@suno)",
-     "ts": "2026-11-19T02:39:21.708000+08:00",
-     "publishedAt": "2026-11-18T18:21:21.000Z",
-     "discoveredAt": "2026-11-18T18:39:21.708Z",
-     "summary": "Suno 宣布其 MCP 现已向所有用户开放。用户可以在 ChatGPT、Claude 等工具内直接使用 Suno 创作歌曲并生成视觉内容。",
-     "url": "https://x.com/suno/status/2123119383996457469",
-     "aihot": "https://aihot.news/items/owj5dqb6s5uest6tuljkxth8e",
-     "selected": false,
-     "score": 56,
+     "title": "Gemini 4 Neon 实测：Peter Gostev 对比 Opus、Fable 等模型的首发体验",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-11-20T05:48:47.186000+08:00",
+     "publishedAt": "2026-11-19T21:28:16.000Z",
+     "discoveredAt": "2026-11-19T21:48:47.186Z",
+     "summary": "Arena 分享 Gemini 4 Neon 发布后的第一手实测视频，Peter Gostev 在 3D 场景、游戏、UI 和数据可视化等任务中将其与 Opus、Fable、Astra、Sol 对比，并评估其接近前沿的程度。",
+     "url": "https://x.com/arena/status/2123528811572846972",
+     "aihot": "https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6",
+     "selected": true,
+     "score": 77,
      "category": "ai-products"
     }
    ],
@@ -411,107 +333,243 @@ const DATA = {
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 3,
+   "count": 8,
    "items": [
     {
-     "n": 11,
-     "title": "FT 估算 Anthropic 需约 6020 亿美元年营收才能在约 1 万亿美元算力承诺上获得 20% 回报",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-19T15:36:24.587000+08:00",
-     "publishedAt": "2026-11-19T07:12:11.000Z",
-     "discoveredAt": "2026-11-19T07:36:24.587Z",
-     "summary": "FT Unhedged 通讯估算，Anthropic 需约 6020 亿美元年营收，才能在其约 1 万亿美元算力承诺上获得 20% 回报。该测算按 40% 营业利润率和 17% 税率计算，这一营收目标超过 Alphabet 的 4710 亿美元和 Apple 的 4780 亿美元，约为标普 1500 全部 76 家软…",
-     "url": "https://x.com/rohanpaul_ai/status/2123313372510998911",
-     "aihot": "https://aihot.news/items/qlevy5925xy06icp4w6mhrzfx",
-     "selected": false,
-     "score": 64,
+     "n": 6,
+     "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-20T06:49:38.580000+08:00",
+     "publishedAt": "2026-11-19T21:59:35.000Z",
+     "discoveredAt": "2026-11-19T22:49:38.580Z",
+     "summary": "The Verge 梳理 Nvidia 近期股价波动：第三季度营收同比翻倍至 1158 亿美元，数据中心业务增长 110%，Vera Rubin 平台贡献近 200 亿美元收入；",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+     "aihot": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
+     "selected": true,
+     "score": 82,
      "category": "industry"
     },
     {
-     "n": 12,
-     "title": "indigo 建议 Claude 订阅用户在 $ANT IPO 每股 83 美金时买入约 250 股覆盖订阅成本",
-     "source": "X：indigo (@indigox)",
-     "ts": "2026-11-19T10:12:23.331000+08:00",
-     "publishedAt": "2026-11-19T02:08:37.000Z",
-     "discoveredAt": "2026-11-19T02:12:23.331Z",
-     "summary": "indigo 建议 Claude 订阅用户买入 Anthropic 股票，成为公司股东。他提到 $ANT 次日 IPO 定价每股 83 美金，Ultra 订户一年成本 2400 美金、十年 24000 美金，购入约 250 股十年后的回报可覆盖全部订阅费并大概率盈利，并认为十年后十万亿市值将是科技巨头的入门标准。",
-     "url": "https://x.com/indigox/status/2123236975780241812",
-     "aihot": "https://aihot.news/items/c2a172rbdidbvyqk87irlvoba",
+     "n": 7,
+     "title": "Anthropic 旧金山总部 IPO 当日现抗议，前研究员 Jacob Coxon 呼吁禁止 RSI",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-20T06:33:43.323000+08:00",
+     "publishedAt": "2026-11-19T22:16:24.000Z",
+     "discoveredAt": "2026-11-19T22:33:43.323Z",
+     "summary": "Anthropic IPO 当日，旧金山总部外出现抗议，已离职的研究员 Jacob Coxon 对抗议者说应当禁止 RSI、把它关掉，并称如果人们知道正在发生的事，会有数十万人站到这里。作者配发了总部外现场的视频画面。",
+     "url": "https://x.com/rohanpaul_ai/status/2123540924953399632",
+     "aihot": "https://aihot.news/items/vbn6wl067umkqplt1se84bzmz",
      "selected": false,
-     "score": 60,
+     "score": 51,
      "category": "industry",
      "also": [
       {
-       "source": "X：indigo (@indigox)",
-       "title": "推文建议Claude订阅用户买入Anthropic股票",
-       "url": "https://x.com/indigox/status/2123238235526877663",
-       "aihot": "https://aihot.news/items/yu2rsdalw8maktdgtkdxou91v"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "前Anthropic研究员抗议呼吁叫停RSI",
+       "url": "https://x.com/rohanpaul_ai/status/2123535959434375435",
+       "aihot": "https://aihot.news/items/ivrmydqywvqo8rhjsswtawgru"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "前Anthropic研究员预测Claude 2027年接管全部AI研究",
+       "url": "https://x.com/rohanpaul_ai/status/2123580196943274245",
+       "aihot": "https://aihot.news/items/kyln6tc9x7v3fciz4l4knrze6"
+      },
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "前Anthropic研究员预测2028年80%认知劳动自动化",
+       "url": "https://x.com/rohanpaul_ai/status/2123553626509791647",
+       "aihot": "https://aihot.news/items/sckuriil0cmvcurux8e5k6gi7"
       }
      ]
     },
     {
-     "n": 13,
-     "title": "Anthropic IPO 定价每股 $83.00，11 月 19 日以代码 ANT 登陆纳斯达克",
-     "source": "Anthropic：Newsroom（网页）",
-     "ts": "2026-11-19T07:28:23.185000+08:00",
-     "publishedAt": "2026-11-17T16:00:00.000Z",
-     "discoveredAt": "2026-11-18T23:28:23.185Z",
-     "summary": "Anthropic, PBC 宣布其 IPO 定价为每股 $83.00，共发行 980,000,000 股 Class A 普通股，其中 956,351,354 股由公司出售，23,648,646 股由部分出售股东出售，公司不会获得后者收益。",
-     "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-     "aihot": "https://aihot.news/items/o0z8uukw36ic6txpxi29o96ep",
+     "n": 8,
+     "title": "Anthropic IPO 开盘半小时下跌 13%，为 2008 年以来大型 IPO 最差开局",
+     "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+     "ts": "2026-11-20T05:08:27.425000+08:00",
+     "publishedAt": "2026-11-19T20:36:26.000Z",
+     "discoveredAt": "2026-11-19T21:08:27.425Z",
+     "summary": "Gary Marcus 认为 Anthropic 的 IPO 看起来救不了低迷的科技行业。",
+     "url": "https://garymarcus.substack.com/p/breaking-it-doesnt-look-anthropics",
+     "aihot": "https://aihot.news/items/ps6iefgolixjza74xrxlf534q",
+     "selected": false,
+     "score": 71,
+     "category": "industry"
+    },
+    {
+     "n": 9,
+     "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
+     "source": "X：Karina Nguyen（@karinanguyen）",
+     "ts": "2026-11-20T04:16:36.842000+08:00",
+     "publishedAt": "2026-11-19T20:13:16.000Z",
+     "discoveredAt": "2026-11-19T20:16:36.842Z",
+     "summary": "Karina Nguyen 发文感谢投资人 Sol，回忆早期在办公室一起讨论模型评测和后训练难题的经历，并称赞他是唯一理解 scaling laws 的 VC。引用内容为 Sol 祝贺 Anthropic IPO 的推文，感谢 LP 及 GM 养老金、ICONIQ、Coatue、Lightspeed 等合作伙伴在增长…",
+     "url": "https://x.com/karinanguyen/status/2123509936475001310",
+     "aihot": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq",
      "selected": true,
-     "score": 86,
+     "score": 79,
+     "category": "industry"
+    },
+    {
+     "n": 10,
+     "title": "AMD CEO 祝贺 Anthropic 团队里程碑",
+     "source": "X：Lisa Su（AMD CEO） (@LisaSu)",
+     "ts": "2026-11-20T03:14:43.340000+08:00",
+     "publishedAt": "2026-11-19T19:09:31.000Z",
+     "discoveredAt": "2026-11-19T19:14:43.340Z",
+     "summary": "祝贺 @DarioAmodei、@DanielaAmodei、@NotTomBrown 以及整个 @AnthropicAI 团队达成这一了不起的里程碑！很自豪能成为你们的合作伙伴。",
+     "url": "https://x.com/LisaSu/status/2123493893128003821",
+     "aihot": "https://aihot.news/items/fav5fsi9qqdt4og223d3babc2",
+     "selected": false,
+     "score": 24,
+     "category": "industry"
+    },
+    {
+     "n": 11,
+     "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-20T01:31:39.103000+08:00",
+     "publishedAt": "2026-11-19T16:59:23.000Z",
+     "discoveredAt": "2026-11-19T17:31:39.103Z",
+     "summary": "Anthropic 在纳斯达克完成 IPO，开盘几分钟内股价达 111.50 美元，较 83 美元发行价高出 33%，发行价已超过公司此前 70 至 78 美元的预期区间。本次发行募资超过 810 亿美元，叠加同期私募融资后公司现金储备预计达 2200 亿美元；",
+     "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+     "aihot": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv",
+     "selected": true,
+     "score": 90,
      "category": "industry",
      "also": [
       {
-       "source": "IT之家·人工智能",
-       "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
-       "url": "https://www.ithome.com/1/029/015.htm",
-       "aihot": "https://aihot.news/items/yxu549lhmsyp0qe8rstrheqlw"
+       "source": "X：indigo (@indigox)",
+       "title": "indigo 转发 Dario Amodei 为 Anthropic IPO 在 Nasdaq 敲钟",
+       "url": "https://x.com/indigox/status/2123464879961186584",
+       "aihot": "https://aihot.news/items/gp3hccimt42ak2uh82nrpty65"
       },
       {
-       "source": "X：indigo (@indigox)",
-       "title": "Anthropic IPO 定价 83 美元一股，即将登陆 Nasdaq",
-       "url": "https://x.com/indigox/status/2123199094680351131",
-       "aihot": "https://aihot.news/items/x57gypzdz09onwjnccctd484i"
+       "source": "The Verge：AI（RSS）",
+       "title": "Anthropic 完成史上最大规模 IPO，其安全治理结构受到审视",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+       "aihot": "https://aihot.news/items/zs46vfwtzhs7fzho1p17mfisf"
       },
       {
        "source": "X：Anthropic (@AnthropicAI)",
-       "title": "Anthropic 将 IPO 定价定为每股 83 美元，明日登陆纳斯达克",
-       "url": "https://x.com/AnthropicAI/status/2123196808675405860",
-       "aihot": "https://aihot.news/items/hokjlogeo9373uw76eeb3f3mh"
+       "title": "Anthropic CEO Dario Amodei 就公司 IPO 发表声明",
+       "url": "https://x.com/AnthropicAI/status/2123461658890686863",
+       "aihot": "https://aihot.news/items/bj8r4lnrbcoi5cl1asnyn6qt5"
+      },
+      {
+       "source": "Platformer（热点 RSS）",
+       "title": "Anthropic IPO 募资 813 亿美元创纪录，市值达 1.76 万亿美元引发安全争议",
+       "url": "https://www.platformer.news/anthropic-goes-public/",
+       "aihot": "https://aihot.news/items/j96pobdmcb200kk2baf62615v"
+      },
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "Anthropic IPO 定价每股 83 美元募资 813 亿美元，超越 SpaceX 纪录",
+       "url": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+       "aihot": "https://aihot.news/items/f26jfj074e12cy839qpuo6t1z"
+      },
+      {
+       "source": "The Verge：AI（RSS）",
+       "title": "Anthropic 登陆纳斯达克，首日以 $111.50 开盘",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+       "aihot": "https://aihot.news/items/rdgmufd2evohgemd2yh9qe2dy"
+      },
+      {
+       "source": "Latent Space（RSS）",
+       "title": "Anthropic 以 83 美元定价完成史上最大 IPO，上市首日估值近 2 万亿美元",
+       "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+       "aihot": "https://aihot.news/items/t3mx9fwmjqz97bj0zwxxtkkiq"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "Anthropic 纳斯达克上市首日大涨 17%，市值达 1.27 万亿美元，IPO 募资 813 亿美元成史上最大",
+       "url": "https://www.ithome.com/1/029/748.htm",
+       "aihot": "https://aihot.news/items/e7xjysyuhq3nk3kvhci7lwx1c"
+      },
+      {
+       "source": "Newcomer 新闻长文（RSS）",
+       "title": "Anthropic IPO 定价超出区间，开盘大涨 30%，市值一度达 2 万亿美元",
+       "url": "https://www.newcomer.co/p/anthropic-broke-all-the-startup-rules",
+       "aihot": "https://aihot.news/items/b4uhmr8awqlofbouq18xga1qz"
       },
       {
        "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Anthropic IPO 定价每股 83 美元，发行 9.8 亿股 A 类股募资约 813 亿美元",
-       "url": "https://x.com/rohanpaul_ai/status/2123208597303885970",
-       "aihot": "https://aihot.news/items/am0vdstva0f00mrpzw0stslkw"
-      },
-      {
-       "source": "X：Kate Clark (@KateClarkTweets)",
-       "title": "Anthropic IPO 定价 83 美元，高于发行区间",
-       "url": "https://x.com/KateClarkTweets/status/2123169870552436802",
-       "aihot": "https://aihot.news/items/kb0qscktovse2ejle2ubpcr2z"
+       "title": "Anthropic CEO Dario Amodei 与联合创始人 Daniela Amodei 参与 Nasdaq 开市敲钟",
+       "url": "https://x.com/rohanpaul_ai/status/2123441720214106148",
+       "aihot": "https://aihot.news/items/wy4i94u2e6f4gl8p0fapqxcbg"
       },
       {
        "source": "TechCrunch：AI（RSS）",
-       "title": "Anthropic 以每股 83 美元定价 IPO，估值达 1.5 万亿美元",
-       "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-       "aihot": "https://aihot.news/items/fbmacbdd7mkfush2x2wjfrpvy"
+       "title": "Anthropic 七位创始人 IPO 套现近 20 亿美元，融资规模创纪录",
+       "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+       "aihot": "https://aihot.news/items/hdvaqa4fp3ug2ozttf2n3tyuf"
+      },
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "Anthropic 完成史上最大规模 IPO，Dario Amodei 敲钟演讲重申放慢 AI 开发节奏",
+       "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+       "aihot": "https://aihot.news/items/w5f6ldj9b4r2rde1v5ajx44p2"
+      },
+      {
+       "source": "Big Technology（热点 RSS）",
+       "title": "Anthropic IPO 融资 810 亿美元后，八个思考看后续挑战",
+       "url": "https://www.bigtechnology.com/p/eight-thoughts-on-anthropics-ipo",
+       "aihot": "https://aihot.news/items/ronlabq67u2qvt78d7o11k6c7"
       },
       {
        "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "Anthropic IPO 定价每股 $83，募资总额超 $94B 创纪录",
-       "url": "https://x.com/rohanpaul_ai/status/2123183901799846133",
-       "aihot": "https://aihot.news/items/gltv70anlfz4zx6b9guzvq43l"
+       "title": "Anthropic 纳斯达克上市首日收涨 17%，市值约 1.76 万亿美元",
+       "url": "https://x.com/rohanpaul_ai/status/2123576007282377061",
+       "aihot": "https://aihot.news/items/k9l5dt0zbhvw3qiy58vzd95so"
       },
       {
-       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-       "title": "Anthropic IPO 是否对投资者和社会都是坏赌注？",
-       "url": "https://garymarcus.substack.com/p/is-anthropics-ipo-a-bad-bet-both",
-       "aihot": "https://aihot.news/items/wtv79se47qfu50ujbk1ud88o8"
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "WSJ：Anthropic IPO 定价 83 美元/股，或造约 600 名亿万美元级持股员工",
+       "url": "https://x.com/rohanpaul_ai/status/2123505498419020007",
+       "aihot": "https://aihot.news/items/om8tbc6yznfxjsr25c29nb7mg"
+      },
+      {
+       "source": "TechCrunch：AI（RSS）",
+       "title": "Anthropic IPO 慈善资金或达 1560 亿美元",
+       "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+       "aihot": "https://aihot.news/items/he4xlj1y3ab1n3dfe8qvj3he9"
+      },
+      {
+       "source": "X：X.PIN (@thexpin)",
+       "title": "Anthropic IPO 相关讨论引关注",
+       "url": "https://x.com/thexpin/status/2123658755770568823",
+       "aihot": "https://aihot.news/items/lcgrtfsef4wkuwql2c15twf77"
       }
      ]
+    },
+    {
+     "n": 12,
+     "title": "Anthropic IPO 检验 AI 循环融资模式，Amazon 和 Google 持股市值约 3079 亿美元",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-19T23:29:23.234000+08:00",
+     "publishedAt": "2026-11-19T14:54:39.000Z",
+     "discoveredAt": "2026-11-19T15:29:23.234Z",
+     "summary": "TechCrunch 分析 Anthropic IPO 如何检验 AI 行业的循环融资模式。Amazon 14.7% 股份价值超 1590 亿美元，Google 13.7% 股份约 1490 亿美元；",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+     "aihot": "https://aihot.news/items/a8d06cpj4vy2dkdzazgsqsrwx",
+     "selected": true,
+     "score": 85,
+     "category": "industry"
+    },
+    {
+     "n": 13,
+     "title": "Claude 致谢项目贡献者",
+     "source": "X：Claude (@claudeai)",
+     "ts": "2026-11-19T23:26:26.749000+08:00",
+     "publishedAt": "2026-11-19T15:03:13.000Z",
+     "discoveredAt": "2026-11-19T15:26:26.749Z",
+     "summary": "\\ 感谢 \\ 这些项目背后的人们。认识其中几位：https://x.com/AnthropicAI/status/2123431689934291083",
+     "url": "https://x.com/claudeai/status/2123431910991155403",
+     "aihot": "https://aihot.news/items/gcyk1igk9c1mqvcv52vw34c00",
+     "selected": false,
+     "score": 12,
+     "category": "industry"
     }
    ],
    "note": null
@@ -519,16 +577,82 @@ const DATA = {
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 14,
+     "title": "Anthropic 登顶 Code Arena WebDev 榜首",
+     "source": "X：Arena (@arena)",
+     "ts": "2026-11-20T03:14:43.636000+08:00",
+     "publishedAt": "2026-11-19T18:45:40.000Z",
+     "discoveredAt": "2026-11-19T19:14:43.636Z",
+     "summary": "今天，@AnthropicAI 成为 Code Arena: WebDev 排名第一的实验室。其最佳模型 Claude Fable 5.2 得分 1824 分，领先第二名实验室 27 分。",
+     "url": "https://x.com/arena/status/2123487889774526841",
+     "aihot": "https://aihot.news/items/ks1tp18s1v1s128322r4dsbg2",
+     "selected": false,
+     "score": 39,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 5 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 3,
+   "items": [
+    {
+     "n": 15,
+     "title": "Claude Code v2.1.329 发布：新增信任对话框与 hooks 加载警告",
+     "source": "Claude Code：GitHub Releases（RSS）",
+     "ts": "2026-11-20T06:23:42.314000+08:00",
+     "publishedAt": "2026-11-19T22:14:41.000Z",
+     "discoveredAt": "2026-11-19T22:23:42.314Z",
+     "summary": "Claude Code v2.1.329 新增信任对话框，提示文件夹 hooks 的声明位置，并在 Claude Desktop 等非交互宿主中警告 managed settings 的 hooks 加载失败。",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+     "aihot": "https://aihot.news/items/yxx4opfl3z4s8akz3eb8idnu4",
+     "selected": false,
+     "score": 39,
+     "category": "tip"
+    },
+    {
+     "n": 16,
+     "title": "Dario Amodei 谈 SpaceX 提供的算力",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-20T02:57:41.545000+08:00",
+     "publishedAt": "2026-11-19T18:28:58.000Z",
+     "discoveredAt": "2026-11-19T18:57:41.545Z",
+     "summary": "Dario Amodei 谈 SpaceX 提供的算力。 “我们发现这些算力质量很高。我们很享受与 SpaceX 的合作。”",
+     "url": "https://x.com/rohanpaul_ai/status/2123483690106073585",
+     "aihot": "https://aihot.news/items/s3nc07vkata7dztw6ijt19l9f",
+     "selected": false,
+     "score": 46,
+     "category": "tip",
+     "also": [
+      {
+       "source": "X：Rohan Paul (@rohanpaul_ai)",
+       "title": "Dario Amodei 谈丧父之痛与AI救人信念",
+       "url": "https://x.com/rohanpaul_ai/status/2123525569229078698",
+       "aihot": "https://aihot.news/items/dz0kkwkofq1dq1vzqqjgl0gyr"
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "title": "Perplexity CEO Aravind Srinivas 祝贺 Anthropic IPO，称 Opus 5.5 仍是业界最佳模型",
+     "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+     "ts": "2026-11-20T02:22:40.954000+08:00",
+     "publishedAt": "2026-11-19T18:18:09.000Z",
+     "discoveredAt": "2026-11-19T18:22:40.954Z",
+     "summary": "Perplexity CEO Aravind Srinivas 发推祝贺 Anthropic 当日 IPO，称其展示了专注、高信念、品味驱动的团队能在短时间内达成的成果。他表示 Opus 5.5 以明显优势仍是业界最佳模型，并称 Perplexity 作为 Anthropic 客户为其高兴。",
+     "url": "https://x.com/AravSrinivas/status/2123480966459174920",
+     "aihot": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo",
+     "selected": true,
+     "score": 75,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
