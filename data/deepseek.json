@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-19",
-  "winEnd": "2026-11-20",
-  "generated": "2026-11-20 16:14",
-  "rawHits": 10,
-  "selectedHits": 1,
-  "shown": 5,
-  "dedupedFrom": 6,
+  "winStart": "2026-11-20",
+  "winEnd": "2026-11-21",
+  "generated": "2026-11-21 16:07",
+  "rawHits": 2,
+  "selectedHits": 0,
+  "shown": 1,
+  "dedupedFrom": 1,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -68,89 +68,38 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 3,
-   "items": [
-    {
-     "n": 1,
-     "title": "Hao AI Lab 介绍 DeepSeek Harness 的模型与工作流自定义用法",
-     "source": "X：UCSD Hao AI Lab (@haoailab)",
-     "ts": "2026-11-20T04:47:27.093000+08:00",
-     "publishedAt": "2026-11-19T20:41:31.000Z",
-     "discoveredAt": "2026-11-19T20:47:27.093Z",
-     "summary": "Hao AI Lab 在系列介绍第 5 部分讲解 DeepSeek Harness 的自定义能力。基于 DeepSeek Harness 可定制各层：接入已有模型（本地或托管），或让编码智能体连接新模型；还可添加自己的工作流步骤或删掉用不到的步骤，让智能体遵循用户的生产流程。",
-     "url": "https://x.com/haoailab/status/2123517045052751895",
-     "aihot": "https://aihot.news/items/asv0pefm9ogzhapups201831o",
-     "selected": false,
-     "score": 55,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "蚂蚁 inclusionAI 发布 DeepSeek-V4.1-Flash-1017-singprobe 流式安全探针",
-     "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
-     "ts": "2026-11-19T20:00:23.115000+08:00",
-     "publishedAt": "2026-11-19T11:02:06.000Z",
-     "discoveredAt": "2026-11-19T12:00:23.115Z",
-     "summary": "蚂蚁 inclusionAI 在 HuggingFace 发布 SingProbe 流式护栏 DeepSeek-V4.1-Flash-1017-singprobe，探针仅 10.10M 参数，读取基座模型第 12、25、39 层隐藏状态，逐 token 输出 8 类查询意图、响应不安全和幻觉风险评分。",
-     "url": "https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
-     "aihot": "https://aihot.news/items/ygbr95lz8wozlf6poq2ymopkk",
-     "selected": false,
-     "score": 45,
-     "category": "ai-models"
-    },
-    {
-     "n": 3,
-     "title": "美国国会委员会建议要求企业披露使用 DeepSeek 等中国 AI 模型并在 SEC 申报中标记为重大风险",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-11-19T16:55:28.977000+08:00",
-     "publishedAt": "2026-11-19T08:46:46.000Z",
-     "discoveredAt": "2026-11-19T08:55:28.977Z",
-     "summary": "美国国会一个委员会推动国会立法，要求美国公司披露对 DeepSeek、阿里巴巴千问等中国 AI 模型的使用，并在向 SEC 提交的定期申报中将其使用程度标记为重大商业风险。图片中的报告文本还建议联邦机构及受联邦资助的实体披露使用中国实体的 AI 模型，未披露可由 FTC 按不公平欺骗行为执法。",
-     "url": "https://x.com/thexpin/status/2123337174406119817",
-     "aihot": "https://aihot.news/items/bc5wolo091nroeny98mwawto5",
-     "selected": false,
-     "score": 64,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 4,
-     "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
-     "source": "X：卡兹克 (@Khazix0918)",
-     "ts": "2026-11-20T12:31:44.045000+08:00",
-     "publishedAt": "2026-11-20T04:01:57.000Z",
-     "discoveredAt": "2026-11-20T04:31:44.045Z",
-     "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。",
-     "url": "https://x.com/Khazix0918/status/2123627885730951241",
-     "aihot": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc",
-     "selected": true,
-     "score": 71,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "公众号：数字生命卡兹克",
-       "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
-       "url": "https://mp.weixin.qq.com/s/EBZlpti_w_GcS03t-auLqw",
-       "aihot": "https://aihot.news/items/ay1i539hyx53km3tobuyrze9o"
-      }
-     ]
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 1,
+     "title": "DeepSeek 完成第二轮融资 融资 140-150 亿美元 投后估值约 860 亿美元",
+     "source": "X：X.PIN (@thexpin)",
+     "ts": "2026-11-20T19:14:47.337000+08:00",
+     "publishedAt": "2026-11-20T11:00:05.000Z",
+     "discoveredAt": "2026-11-20T11:14:47.337Z",
+     "summary": "DeepSeek 完成第二轮融资，融资 140-150 亿美元，投后估值约 860 亿美元。一家由 31 个合伙人组成的投资载体进入其股东结构，腾讯和宁德时代是最大的外部投资方，其次是中国移动和中信证券。",
+     "url": "https://x.com/thexpin/status/2123733110756159769",
+     "aihot": "https://aihot.news/items/jmo8g1e3282ie12oa3vxq0dnw",
+     "selected": false,
+     "score": 75,
+     "category": "industry"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "paper",
@@ -162,24 +111,9 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 1,
-   "items": [
-    {
-     "n": 5,
-     "title": "在 H20-3e 上优化 DeepSeek-V4.1-Flash 的 PD 分离与混部服务",
-     "source": "LMSYS Blog",
-     "ts": "2026-11-20T07:05:39.980000+08:00",
-     "publishedAt": "2026-11-18T16:00:00.000Z",
-     "discoveredAt": "2026-11-19T23:05:39.980Z",
-     "summary": "在 H20-3e 上优化 DeepSeek-V4.1-Flash 的 PD 分离服务后，最终配置相比 TP4 基线将平均端到端延迟降低 65.5%，输出吞吐提升至 2.91 倍。",
-     "url": "https://www.lmsys.org/blog/2026-11-19-deepseek-v41-h20",
-     "aihot": "https://aihot.news/items/q708k47s1hwi1tqh6wzemgc1u",
-     "selected": false,
-     "score": 49,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [
