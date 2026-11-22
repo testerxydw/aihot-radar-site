@@ -12,10 +12,10 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-20",
-  "winEnd": "2026-11-21",
-  "generated": "2026-11-21 16:07",
-  "rawHits": 2,
+  "winStart": "2026-11-22",
+  "winEnd": "2026-11-22",
+  "generated": "2026-11-22 15:53",
+  "rawHits": 1,
   "selectedHits": 0,
   "shown": 1,
   "dedupedFrom": 1,
@@ -41,7 +41,7 @@
     "q": "DeepSeek",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,31 +75,31 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
    "count": 1,
    "items": [
     {
      "n": 1,
-     "title": "DeepSeek 完成第二轮融资 融资 140-150 亿美元 投后估值约 860 亿美元",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-11-20T19:14:47.337000+08:00",
-     "publishedAt": "2026-11-20T11:00:05.000Z",
-     "discoveredAt": "2026-11-20T11:14:47.337Z",
-     "summary": "DeepSeek 完成第二轮融资，融资 140-150 亿美元，投后估值约 860 亿美元。一家由 31 个合伙人组成的投资载体进入其股东结构，腾讯和宁德时代是最大的外部投资方，其次是中国移动和中信证券。",
-     "url": "https://x.com/thexpin/status/2123733110756159769",
-     "aihot": "https://aihot.news/items/jmo8g1e3282ie12oa3vxq0dnw",
+     "title": "OpenCode 上 GLM 5.3 与 DeepSeek V4.1 Flash 六折",
+     "source": "X：opencode (@opencode)",
+     "ts": "2026-11-22T06:43:23.636000+08:00",
+     "publishedAt": "2026-11-21T22:14:20.000Z",
+     "discoveredAt": "2026-11-21T22:43:23.636Z",
+     "summary": "GLM 5.3 和 DeepSeek V4.1 Flash 现已在 OpenCode 享受 60% 折扣",
+     "url": "https://x.com/opencode/status/2124265178267005017",
+     "aihot": "https://aihot.news/items/wt9537cmael2viasp9qvjgau1",
      "selected": false,
-     "score": 75,
-     "category": "industry"
+     "score": 41,
+     "category": "ai-products"
     }
    ],
    "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "paper",

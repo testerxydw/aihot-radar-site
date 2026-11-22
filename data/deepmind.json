@@ -14,13 +14,13 @@
    "Demis Hassabis"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-20",
-  "winEnd": "2026-11-21",
-  "generated": "2026-11-21 16:07",
-  "rawHits": 37,
-  "selectedHits": 2,
-  "shown": 19,
-  "dedupedFrom": 27,
+  "winStart": "2026-11-21",
+  "winEnd": "2026-11-22",
+  "generated": "2026-11-22 15:52",
+  "rawHits": 8,
+  "selectedHits": 0,
+  "shown": 6,
+  "dedupedFrom": 6,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "DeepMind",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 14,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,8 +59,8 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 30,
-    "hasMore": true,
+    "count": 8,
+    "hasMore": false,
     "from_cache": false
    },
    {
@@ -75,7 +75,7 @@
     "q": "Demis Hassabis",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -90,30 +90,30 @@
    "items": [
     {
      "n": 1,
-     "title": "Perplexity 考虑将默认模型换成 Gemini Neon",
-     "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-     "ts": "2026-11-21T12:23:32.738000+08:00",
-     "publishedAt": "2026-11-21T04:13:36.000Z",
-     "discoveredAt": "2026-11-21T04:23:32.738Z",
-     "summary": "在 Perplexity Computer 上使用 Gemini Neon。听说它比 Opus 5.5 更好。根据留存数据，我们甚至可能把默认模型换成它。",
-     "url": "https://x.com/AravSrinivas/status/2123993205624770776",
-     "aihot": "https://aihot.news/items/y6ccv7bs6taj1yomvdn59dq27",
+     "title": "llm-gemini 0.38.1 修复 Gemini 4 Hydrogen 与 Neon 的 xhigh 推理级别支持",
+     "source": "Simon Willison 博客",
+     "ts": "2026-11-22T08:42:34.259000+08:00",
+     "publishedAt": "2026-11-20T03:01:57.000Z",
+     "discoveredAt": "2026-11-22T00:42:34.259Z",
+     "summary": "llm-gemini 插件发布 0.38.1，修复了此前遗漏的 Gemini 4 Hydrogen 和 Gemini 4 Neon 的 xhigh 推理级别支持（Gemini 4 Carbon 仅支持 low、medium、high）。",
+     "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+     "aihot": "https://aihot.news/items/yap4fouciya05p1q4ah4whqcy",
      "selected": false,
      "score": 38,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Google DeepMind 演示 Gemini 4 Neon 基于真实 Mont Blanc 地形编写滑雪模拟器",
-     "source": "X：Google DeepMind (@GoogleDeepMind)",
-     "ts": "2026-11-21T01:36:45.611000+08:00",
-     "publishedAt": "2026-11-20T17:11:28.000Z",
-     "discoveredAt": "2026-11-20T17:36:45.611Z",
-     "summary": "Google DeepMind 演示 Gemini 4 Neon 在 Antigravity 中基于真实 Mont Blanc 地形编写了一个滑雪模拟器，未使用预制 3D 模型，通过自定义着色器实时渲染刻雪和雪崩效果，并提供在线试玩链接 https://goo.gle/496Vk4f。",
-     "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
-     "aihot": "https://aihot.news/items/r30d0lfa4602xdpqt2psizrl8",
+     "title": "Gemini Neon 获 Perplexity CEO 盛赞",
+     "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+     "ts": "2026-11-22T05:42:20.244000+08:00",
+     "publishedAt": "2026-11-21T21:32:18.000Z",
+     "discoveredAt": "2026-11-21T21:42:20.244Z",
+     "summary": "好久没有一款模型让我觉得既智能又快速，好到不真实。Gemini Neon（推理设为 High）就是这样的模型。在 Perplexity Computer 上用得很享受。我也把一些团队成员迁移到了这个模型上。祝贺 @GoogleDeepMind！",
+     "url": "https://x.com/AravSrinivas/status/2124254600723394644",
+     "aihot": "https://aihot.news/items/uhqeyuvurq4unx1qcl53o647y",
      "selected": false,
-     "score": 51,
+     "score": 29,
      "category": "ai-models"
     }
    ],
@@ -122,172 +122,48 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 8,
+   "count": 3,
    "items": [
     {
      "n": 3,
-     "title": "Google Labs 上线 Gemini Neon 长按交互",
-     "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-     "ts": "2026-11-21T09:09:31.529000+08:00",
-     "publishedAt": "2026-11-21T00:56:31.000Z",
-     "discoveredAt": "2026-11-21T01:09:31.529Z",
-     "summary": "呼，这一周发布的东西可真不少！放假前那个周五下午，我们几个人玩 Gemini Neon 玩得很开心，实在太喜欢 @UFO2002616 的那条帖子了，就直接把它做出来扔进了生产环境！ 在网页端长按模型选择器，尽情享用 🙂",
-     "url": "https://x.com/joshwoodward/status/2123943606906138868",
-     "aihot": "https://aihot.news/items/uyrmyzqsqxz8atwcy5ba9bgai",
-     "selected": false,
-     "score": 34,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-       "title": "Google Labs 副总裁致谢 Gemini 方案灵感",
-       "url": "https://x.com/joshwoodward/status/2123943608516792480",
-       "aihot": "https://aihot.news/items/mnzn6y7umdudchwdrvd0xzvje"
-      }
-     ]
-    },
-    {
-     "n": 4,
-     "title": "Google Gemini 平台推出 Semantic governance policies，在 Agent 工具调用执行前进行审查",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-11-21T06:52:19.283000+08:00",
-     "publishedAt": "2026-11-19T16:00:00.000Z",
-     "discoveredAt": "2026-11-20T22:52:19.283Z",
-     "summary": "Google 在 Gemini 平台以 Preview 形式推出 Semantic governance policies，通过 Agent Gateway 和 LLM judge 在每个工具调用运行前检查两项内容：是否符合用户原始意图，以及是否符合用自然语言编写的策略。",
-     "url": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/",
-     "aihot": "https://aihot.news/items/ufxhrlj8zk5alpd0mhcib4dns",
+     "title": "Signal 更新默认屏蔽截图，阻止 Siri AI 和 Gemini 等 AI 智能体读取消息",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-22T07:46:18.255000+08:00",
+     "publishedAt": "2026-11-21T23:28:10.353Z",
+     "discoveredAt": "2026-11-21T23:46:18.255Z",
+     "summary": "Signal 推出 iOS / Android 更新，默认阻止应用内截图和录屏，以防止 Siri AI、Gemini 等 AI 智能体在用户不知情时读取私人消息。",
+     "url": "https://www.ithome.com/1/030/517.htm",
+     "aihot": "https://aihot.news/items/ef9x7y2sig0grv75qqa6qfr6q",
      "selected": false,
      "score": 61,
      "category": "ai-products"
     },
     {
+     "n": 4,
+     "title": "Gemini 原生多语言能力演示：15 秒并行翻译 1789 年法国《人权宣言》",
+     "source": "Google AI：DEV 作者专属（RSS）",
+     "ts": "2026-11-21T22:45:41.234000+08:00",
+     "publishedAt": "2026-11-21T14:27:50.000Z",
+     "discoveredAt": "2026-11-21T14:45:41.234Z",
+     "summary": "Google 演示 Gemini 的原生多语言能力：同一提示词模板在 15 秒内将 1789 年法国《人权宣言》并行翻译成英语、普通话、印地语和西班牙语，并保留原 Markdown 排版。Gemini 可原生支持 100 多种语言，指令、数据和任意模态的输出都能使用这些语言或混合使用。",
+     "url": "https://dev.to/googleai/what-is-native-multilinguality-2ko2",
+     "aihot": "https://aihot.news/items/j46rynu9qhv73zhqtn03x1i3y",
+     "selected": false,
+     "score": 35,
+     "category": "ai-products"
+    },
+    {
      "n": 5,
-     "title": "Agent Arena Index 上线：Gemini 4 Neon 位列第 2",
-     "source": "X：Arena (@arena)",
-     "ts": "2026-11-21T06:05:21.931000+08:00",
-     "publishedAt": "2026-11-20T21:39:48.000Z",
-     "discoveredAt": "2026-11-20T22:05:21.931Z",
-     "summary": "Arena 推出 Agent Arena Index，Gemini 4 Neon (High) 以 1336 分首次上榜即位列第 2。GPT-6.2 Astra (Max) 与 GPT-6.2 Sol (Max) 分别以 1291 分和 1241 分进入第 6 和第 11，Sol 以每任务中位成本 $0.90 进入成…",
-     "url": "https://x.com/arena/status/2123894102496555446",
-     "aihot": "https://aihot.news/items/jgy4t7dsivggmnporfx34rfzn",
+     "title": "谷歌为 Gemini 上线 GIF 生成功能，由 Gemini Omni 1.2 Flash 驱动",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-21T16:28:31.975000+08:00",
+     "publishedAt": "2026-11-21T07:41:30.647Z",
+     "discoveredAt": "2026-11-21T08:28:31.975Z",
+     "summary": "谷歌宣布为 Gemini 上线 GIF 生成功能，由视频模型 Gemini Omni 1.2 Flash 驱动，可生成循环动态图和表情包。功能面向所有 Google AI 订阅用户，在美国、日本、韩国、澳大利亚、加拿大、英国、德国、法国免费，可在主聊天输入提示词或在图像与视频工具中选择 GIF 生成。",
+     "url": "https://www.ithome.com/1/030/381.htm",
+     "aihot": "https://aihot.news/items/qvioid6h1szjpwropuil0n38x",
      "selected": false,
-     "score": 43,
-     "category": "ai-products"
-    },
-    {
-     "n": 6,
-     "title": "Google Gemini Mac 版上线 Computer Use 功能，可后台自动完成桌面多步任务",
-     "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-21T03:31:57.913000+08:00",
-     "publishedAt": "2026-11-20T18:50:31.000Z",
-     "discoveredAt": "2026-11-20T19:31:57.913Z",
-     "summary": "Google 在 Gemini Mac 应用中推出 Computer Use 功能，用户描述目标后，Gemini 可在后台窗口中点击、输入并操作本地文件、桌面应用和网站，完成多步任务。",
-     "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-     "aihot": "https://aihot.news/items/i5bqbw235iq52440cniz2xsot",
-     "selected": false,
-     "score": 69,
-     "category": "ai-products"
-    },
-    {
-     "n": 7,
-     "title": "Google 工程师用 Gemini 助 Watch Duty 提速山火预警",
-     "source": "X：Google (@Google)",
-     "ts": "2026-11-21T02:28:45.118000+08:00",
-     "publishedAt": "2026-11-20T18:27:49.000Z",
-     "discoveredAt": "2026-11-20T18:28:45.118Z",
-     "summary": "Google 工程师通过为期六个月的 Google.org Fellowship，与 Watch Duty 合作打造了一款 Gemini 驱动的工具，可消除老旧模拟 VHF 无线电中的强静电噪声，并将消防专业术语转成干净、可搜索的文本。",
-     "url": "https://x.com/Google/status/2123845785359978934",
-     "aihot": "https://aihot.news/items/fkz2qe64nsw8lmnc0q40pdus0",
-     "selected": false,
-     "score": 47,
-     "category": "ai-products"
-    },
-    {
-     "n": 8,
-     "title": "Google 发布 Gemini 4 Hydrogen，已上线 Gemini 应用和 Search",
-     "source": "X：Google (@Google)",
-     "ts": "2026-11-21T01:26:44.711000+08:00",
-     "publishedAt": "2026-11-20T17:08:35.000Z",
-     "discoveredAt": "2026-11-20T17:26:44.711Z",
-     "summary": "Google 宣布 Gemini 4 Hydrogen 正式上线，主打速度和日常任务，现已可在 Gemini 应用和 Search 中使用。该模型面向多样化的智能体工作流设计，强调快速高效执行；官方称其能更紧密地遵循指令、更准确地调用工具，用更少的来回沟通产出可靠结果。",
-     "url": "https://x.com/Google/status/2123825847815561261",
-     "aihot": "https://aihot.news/items/wlcnqahdyb61gpeoddwj45yyy",
-     "selected": false,
-     "score": 68,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：ARC Prize (@arcprize)",
-       "title": "Gemini 4 Hydrogen 在 ARC-AGI (Verified) 上取得 ARC-AGI-2 92.5%、ARC-AGI-1 98.5%",
-       "url": "https://x.com/arcprize/status/2123823019667702086",
-       "aihot": "https://aihot.news/items/htey8nz6xfoyi8jg8x7yo1lx8"
-      },
-      {
-       "source": "X：Google AI (@GoogleAI)",
-       "title": "Google 发布 Gemini 4 系列及 Genie 4 等多款模型更新",
-       "url": "https://x.com/GoogleAI/status/2123828467124851025",
-       "aihot": "https://aihot.news/items/qlb8kxrmicsec41of5y2ftgpb"
-      },
-      {
-       "source": "X：ARC Prize (@arcprize)",
-       "title": "ARC Prize 公布 Gemini 4 Hydrogen 的 ARC-AGI 完整测试结果",
-       "url": "https://x.com/arcprize/status/2123823027406119168",
-       "aihot": "https://aihot.news/items/cp1qvb68vn96xbezjd5z2zxnz"
-      },
-      {
-       "source": "X：ARC Prize (@arcprize)",
-       "title": "Gemini 4 Hydrogen 在 ARC-AGI-2 表现对比",
-       "url": "https://x.com/arcprize/status/2123823021118865631",
-       "aihot": "https://aihot.news/items/j86tgmo4hhrsc8rg0z4d6hq52"
-      },
-      {
-       "source": "Every：最新文章（网页）",
-       "title": "Gemini 4 四款新模型接连发布：Neon 该怎么选？",
-       "url": "https://every.to/vibe-check/mini-vibe-check-four-new-geminis-when-should-you-pick-neon",
-       "aihot": "https://aihot.news/items/b3ezaswoy1w4a0wo9vfe0pt3u"
-      },
-      {
-       "source": "X：ARC Prize (@arcprize)",
-       "title": "ARC-AGI-3 测试遇 Gemini API 问题",
-       "url": "https://x.com/arcprize/status/2123823023111156221",
-       "aihot": "https://aihot.news/items/uxvub1rkg36vsynf5z0c8v4lv"
-      }
-     ]
-    },
-    {
-     "n": 9,
-     "title": "Gemini 3.5 Transcribe 语音编辑能力开放 API",
-     "source": "X：Google (@Google)",
-     "ts": "2026-11-21T01:26:44.699000+08:00",
-     "publishedAt": "2026-11-20T17:13:21.000Z",
-     "discoveredAt": "2026-11-20T17:26:44.699Z",
-     "summary": "我们正将 Gemini 3.5 Transcribe 的语音编辑能力引入 Gemini API——这项技术同样支撑着 Gboard 上的 Rambler 以及 macOS 上的 @GeminiApp。 现在，开发者可以构建语音体验，让人们仅凭语音就能自然地编辑、改写和翻译已有文本 🗣️",
-     "url": "https://x.com/Google/status/2123827048808370477",
-     "aihot": "https://aihot.news/items/jasaa3mo4yg7npncxrry7uz7s",
-     "selected": false,
-     "score": 47,
-     "category": "ai-products",
-     "also": [
-      {
-       "source": "X：Google (@Google)",
-       "title": "Gemini 3.5 Transcribe 语音编辑开放预览",
-       "url": "https://x.com/Google/status/2123827050968764511",
-       "aihot": "https://aihot.news/items/wmd7in28fzpwtqnyfjk01um3s"
-      }
-     ]
-    },
-    {
-     "n": 10,
-     "title": "Gemini API 预览版推出动态工具检索（Tool Search Tool）",
-     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-     "ts": "2026-11-21T00:07:43.478000+08:00",
-     "publishedAt": "2026-11-20T15:50:56.000Z",
-     "discoveredAt": "2026-11-20T16:07:43.478Z",
-     "summary": "Google DeepMind 的 Philipp Schmid 宣布 Gemini API 以预览版形式上线 Dynamic Tool Retrieval（Tool Search Tool）。",
-     "url": "https://x.com/_philschmid/status/2123806307442401577",
-     "aihot": "https://aihot.news/items/ujj7qydxv56iwi5xhvpm5jdjb",
-     "selected": false,
-     "score": 65,
+     "score": 50,
      "category": "ai-products"
     }
    ],
@@ -296,76 +172,20 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 5,
+   "count": 1,
    "items": [
     {
-     "n": 11,
-     "title": "Demis Hassabis 宣布 Isomorphic Labs 与 Merck 合作设计新的癌症药物",
-     "source": "X：Demis Hassabis (@demishassabis)",
-     "ts": "2026-11-21T04:32:14.594000+08:00",
-     "publishedAt": "2026-11-20T20:11:26.000Z",
-     "discoveredAt": "2026-11-20T20:32:14.594Z",
-     "summary": "Demis Hassabis 发文确认与 Merck 合作设计新的癌症药物，称这是 Isomorphic Labs 在重新构想药物研发上快速进展的重要验证点。其引用的 Isomorphic Labs 公告显示，双方建立战略研究合作，将 Isomorphic Labs 的前沿 AI 能力与 MSD 在发现、开发和制造方…",
-     "url": "https://x.com/demishassabis/status/2123871861843075099",
-     "aihot": "https://aihot.news/items/omf54r5bu1ppj7l6h1y6jtif7",
+     "n": 6,
+     "title": "Gemini 4 Neon 周末开发征集",
+     "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+     "ts": "2026-11-22T03:05:39.049000+08:00",
+     "publishedAt": "2026-11-21T18:44:07.000Z",
+     "discoveredAt": "2026-11-21T19:05:39.049Z",
+     "summary": "这个周末你在用 Gemini 4 Neon 构建什么？",
+     "url": "https://x.com/OfficialLoganK/status/2124212276010102918",
+     "aihot": "https://aihot.news/items/ei4nvplgs1ohw2snfbrkktrou",
      "selected": false,
-     "score": 53,
-     "category": "industry"
-    },
-    {
-     "n": 12,
-     "title": "Google 员工联署要求公司撤销对关闭 Gemini 的学校切断搜索访问的政策",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-11-21T02:55:41.713000+08:00",
-     "publishedAt": "2026-11-20T12:30:00.000Z",
-     "discoveredAt": "2026-11-20T18:55:41.713Z",
-     "summary": "数百名 Google 员工通过 Alphabet Workers Union 提交 petition，要求高管撤回一项从明年起对关闭 Gemini AI 工具的学校切断 Search 访问的政策。该政策在选举日公布后，纽约、洛杉矶、芝加哥等地爆发抗议，三大校区正在讨论更换搜索引擎，公司已收到信件但未回应具体诉求。",
-     "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-     "aihot": "https://aihot.news/items/legnr8u63175nn7r1piejz9ml",
-     "selected": false,
-     "score": 52,
-     "category": "industry"
-    },
-    {
-     "n": 13,
-     "title": "Google DeepMind API 返回格式错误函数调用",
-     "source": "X：ARC Prize (@arcprize)",
-     "ts": "2026-11-21T01:05:43.470000+08:00",
-     "publishedAt": "2026-11-20T16:57:22.000Z",
-     "discoveredAt": "2026-11-20T17:05:43.470Z",
-     "summary": "@GoogleDeepMind 同样，API 经常会返回 MALFORMED_FUNCTION_CALL 响应：",
-     "url": "https://x.com/arcprize/status/2123823024604320158",
-     "aihot": "https://aihot.news/items/jeyyj8ijopdxnk8sc0fesr16f",
-     "selected": false,
-     "score": 28,
-     "category": "industry"
-    },
-    {
-     "n": 14,
-     "title": "ARC Prize 观察 Gemini API 重复动作触发 RECITATION",
-     "source": "X：ARC Prize (@arcprize)",
-     "ts": "2026-11-21T01:05:43.464000+08:00",
-     "publishedAt": "2026-11-20T16:57:22.000Z",
-     "discoveredAt": "2026-11-20T17:05:43.464Z",
-     "summary": "@GoogleDeepMind 我们还看到 API 响应重复执行动作，最终触发 RECITATION 结束原因，这通常与可能复制受版权保护的材料相关。",
-     "url": "https://x.com/arcprize/status/2123823025883631945",
-     "aihot": "https://aihot.news/items/g3oqsxfcrzf6di6u9iamum1ky",
-     "selected": false,
-     "score": 29,
-     "category": "industry"
-    },
-    {
-     "n": 15,
-     "title": "Anthropic IPO 后市场降温，AMD 遭做空报告重创，Google 凭 Gemini 4 Neon 重回竞争",
-     "source": "Newcomer 新闻长文（RSS）",
-     "ts": "2026-11-21T00:37:40.758000+08:00",
-     "publishedAt": "2026-11-20T15:44:03.000Z",
-     "discoveredAt": "2026-11-20T16:37:40.758Z",
-     "summary": "Newcomer 周报指出，Anthropic IPO 顺利发行但市场对 AI 交易整体转冷。做空机构 Hunterbrook 发布《Bank of AMD》报告，指控 AMD 存在类似 Nvidia 的循环客户融资问题，AMD 否认相关指控，但股价仍下跌近 10%。",
-     "url": "https://www.newcomer.co/p/after-anthropic-euphoria-nvidia-amd",
-     "aihot": "https://aihot.news/items/afbwbwmk7x612zttm1nb79js5",
-     "selected": false,
-     "score": 57,
+     "score": 14,
      "category": "industry"
     }
    ],
@@ -374,74 +194,16 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 1,
-   "items": [
-    {
-     "n": 16,
-     "title": "MIT 数学面板讨论 AI 冲击下的数学研究未来",
-     "source": "MIT News（RSS）",
-     "ts": "2026-11-20T23:50:41.541000+08:00",
-     "publishedAt": "2026-11-20T15:20:00.000Z",
-     "discoveredAt": "2026-11-20T15:50:41.541Z",
-     "summary": "MIT 举办“AI 与社会：数学的未来”座谈，来自 MIT、哈佛、西北大学和纽约大学的数学家讨论 AI 对数学研究的影响。",
-     "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
-     "aihot": "https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
-     "selected": true,
-     "score": 60,
-     "category": "paper"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 3,
-   "items": [
-    {
-     "n": 17,
-     "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
-     "source": "Google Research：Blog（网页）",
-     "ts": "2026-11-21T07:40:15.362000+08:00",
-     "publishedAt": "2026-11-20T00:00:00.000Z",
-     "discoveredAt": "2026-11-20T23:40:15.362Z",
-     "summary": "Google Research 回顾 Duplex 十年架构演进，并介绍本周在 Gemini App Tasks 中上线的自动致电商家功能。",
-     "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
-     "aihot": "https://aihot.news/items/t68rgyv46hdbp52212ozxleh3",
-     "selected": true,
-     "score": 67,
-     "category": "tip"
-    },
-    {
-     "n": 18,
-     "title": "如何将内部 Cloud Run MCP 服务器安全接入 Gemini Enterprise",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-11-21T04:50:15.760000+08:00",
-     "publishedAt": "2026-11-19T16:00:00.000Z",
-     "discoveredAt": "2026-11-20T20:50:15.760Z",
-     "summary": "Google 介绍如何用 Egress Agent Gateway、Private Service Connect 和 FQDN 级 Private Cloud DNS，把仅限内网的 Cloud Run MCP 服务器接入 Gemini Enterprise。",
-     "url": "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/",
-     "aihot": "https://aihot.news/items/vk3phnefwifme4gpdvqwmjcw1",
-     "selected": false,
-     "score": 47,
-     "category": "tip"
-    },
-    {
-     "n": 19,
-     "title": "Gemini Enterprise 自定义 UI 中如何处理用户、连接器与智能体认证",
-     "source": "Google Developers Blog（RSS）",
-     "ts": "2026-11-21T04:50:15.750000+08:00",
-     "publishedAt": "2026-11-19T16:00:00.000Z",
-     "discoveredAt": "2026-11-20T20:50:15.750Z",
-     "summary": "Google 发布指南，讲解企业自建 Customer UI 调用 Gemini Enterprise StreamAssist API 时需自行实现的三层认证。",
-     "url": "https://developers.googleblog.com/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/",
-     "aihot": "https://aihot.news/items/bxxljzp95e2jsb1lmqyu31w1z",
-     "selected": false,
-     "score": 47,
-     "category": "tip"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   }
  ],
  "order": [
