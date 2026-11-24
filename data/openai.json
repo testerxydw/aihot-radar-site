@@ -14,13 +14,13 @@
    "奥特曼"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-22",
-  "winEnd": "2026-11-23",
-  "generated": "2026-11-23 16:44",
-  "rawHits": 35,
+  "winStart": "2026-11-23",
+  "winEnd": "2026-11-24",
+  "generated": "2026-11-24 18:45",
+  "rawHits": 41,
   "selectedHits": 4,
-  "shown": 18,
-  "dedupedFrom": 24,
+  "shown": 16,
+  "dedupedFrom": 30,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "OpenAI",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 4,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "ChatGPT",
     "mode": "selected",
     "window": "24h",
-    "count": 3,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "ChatGPT",
     "mode": "all",
     "window": "24h",
-    "count": 10,
+    "count": 17,
     "hasMore": false,
     "from_cache": false
    },
@@ -86,140 +86,42 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 8,
+   "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "MIT 提出模拟芯片设计方法 SLIC，小模型可本地部署接近 GPT-6-Astra 性能",
-     "source": "MIT News（RSS）",
-     "ts": "2026-11-23T13:41:44.543000+08:00",
-     "publishedAt": "2026-11-23T05:00:00.000Z",
-     "discoveredAt": "2026-11-23T05:41:44.543Z",
-     "summary": "MIT 研究者提出 SLIC（Small LM Iterating on Circuits）训练方法，通过带可验证奖励的多轮强化学习，把数十亿参数的小语言模型训练得能设计模拟集成电路，性能接近最新 GPT-6-Astra，但计算资源只占其很小一部分。",
-     "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
-     "aihot": "https://aihot.news/items/w8kr7sjj4g5yycg409g2rnojt",
+     "title": "OpenAI 宣布 GPT-6.2 Sol 登陆 ChatGPT，GPT-5.6 Sol 与 Terra 将于 12 月 23 日退役",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-24T09:24:21.836000+08:00",
+     "publishedAt": "2026-11-24T00:49:01.177Z",
+     "discoveredAt": "2026-11-24T01:24:21.836Z",
+     "summary": "OpenAI 宣布 GPT-6.2 Sol 正式登陆 ChatGPT 聊天页面，此前该模型已在 ChatGPT Work 和 Codex 亮相不到一周。",
+     "url": "https://www.ithome.com/1/031/271.htm",
+     "aihot": "https://aihot.news/items/s8i9ox68rwcg1h8hlwo7974yl",
      "selected": false,
-     "score": 50,
-     "category": "ai-models"
+     "score": 69,
+     "category": "ai-models",
+     "also": [
+      {
+       "source": "X：ChatGPT (@ChatGPT)",
+       "title": "GPT-5.6 Sol 将于 12 月 23 日停用",
+       "url": "https://x.com/ChatGPT/status/2124981905380569283",
+       "aihot": "https://aihot.news/items/tv16dss1h3z4a4sv054m7d3dp"
+      }
+     ]
     },
     {
      "n": 2,
-     "title": "Mustafa Suleyman 支持 OpenAI 透明度倡议，公布 MAI-2 Base 困惑度数据",
-     "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-     "ts": "2026-11-23T08:43:49.128000+08:00",
-     "publishedAt": "2026-11-23T00:37:29.000Z",
-     "discoveredAt": "2026-11-23T00:43:49.128Z",
-     "summary": "Microsoft AI CEO Mustafa Suleyman 表示完全支持 OpenAI 的预训练透明度倡议，并公布 MAI-2 Base 在 OpenAI 评测集上的 log-perplexity 为 0.819，与 GPT-5.6 Sol base 相当，两者使用同一 tokenizer 因而可直接比较。",
-     "url": "https://x.com/mustafasuleyman/status/2124663594449318173",
-     "aihot": "https://aihot.news/items/l2sbkxmzbg1zq5xe2cazob89m",
+     "title": "OpenAI 将淘汰两代前旧模型",
+     "source": "X：ChatGPT (@ChatGPT)",
+     "ts": "2026-11-24T06:19:20.722000+08:00",
+     "publishedAt": "2026-11-23T22:07:24.000Z",
+     "discoveredAt": "2026-11-23T22:19:20.722Z",
+     "summary": "随着我们推出新模型，我们通常会继续淘汰落后两代的模型。这能释放算力，让更多人使用我们能力更强的模型。",
+     "url": "https://x.com/ChatGPT/status/2124988211621707815",
+     "aihot": "https://aihot.news/items/puxw6ccg4ue1okoxer8ccgl2p",
      "selected": false,
-     "score": 58,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "IT之家·人工智能",
-       "title": "微软 AI 负责人苏莱曼支持 OpenAI 透明度倡议，公布 MAI-2 Base 评测结果",
-       "url": "https://www.ithome.com/1/030/745.htm",
-       "aihot": "https://aihot.news/items/ahiv28657urifplozo1csu3lg"
-      },
-      {
-       "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-       "title": "Suleyman 称赞 OpenAI 预训练透明度倡议",
-       "url": "https://x.com/mustafasuleyman/status/2124574455972364689",
-       "aihot": "https://aihot.news/items/ugbmwlfgci2rzkqvdevqn8a2b"
-      }
-     ]
-    },
-    {
-     "n": 3,
-     "title": "卡兹克分享 Claude、GPT、Gemini 三模型协同调度方法",
-     "source": "公众号：数字生命卡兹克",
-     "ts": "2026-11-23T08:01:56.075000+08:00",
-     "publishedAt": "2026-11-22T23:56:00.000Z",
-     "discoveredAt": "2026-11-23T00:01:56.075Z",
-     "summary": "自媒体作者卡兹克分享自己让 Claude、GPT 和 Gemini 协同工作的方法：把 Claude Opus 5.5 当总指挥负责沟通、拆解和验收，Gemini 4 Neon 当军师出方案和改界面文案，GPT 负责后端、算法、修 BUG 和代码审查。",
-     "url": "https://mp.weixin.qq.com/s/gwj0xLNHPfToQnQJN7IkMA",
-     "aihot": "https://aihot.news/items/hz782dpcwhurj6584rtd13eaf",
-     "selected": true,
-     "score": 72,
-     "category": "ai-models"
-    },
-    {
-     "n": 4,
-     "title": "Dan Hendrycks 估算 GPT-4 以来预训练计算效率每年提升约 3–5 倍",
-     "source": "X：Dan Hendrycks (@hendrycks)",
-     "ts": "2026-11-23T05:47:39.562000+08:00",
-     "publishedAt": "2026-11-22T18:31:04.000Z",
-     "discoveredAt": "2026-11-22T21:47:39.562Z",
-     "summary": "Dan Hendrycks 引用 OpenAI 发布的《Perplexity and Intelligence》一文及其公开的基座模型困惑度曲线，估算自 GPT-4 以来预训练计算效率平均每年提升约 3–5 倍，即达到相同 loss 所需算力每年缩减至三分之一到五分之一。",
-     "url": "https://x.com/hendrycks/status/2124571381295984764",
-     "aihot": "https://aihot.news/items/dks2nr0fsbmlkolagvqk6w4g7",
-     "selected": false,
-     "score": 64,
-     "category": "ai-models"
-    },
-    {
-     "n": 5,
-     "title": "OpenAI 发布 Perplexity and Intelligence，公开预训练困惑度进展数据",
-     "source": "X：Noam Brown (@polynoamial)",
-     "ts": "2026-11-23T03:11:02.065000+08:00",
-     "publishedAt": "2026-11-22T17:26:43.000Z",
-     "discoveredAt": "2026-11-22T19:11:02.065Z",
-     "summary": "OpenAI 发布文章 Perplexity and Intelligence，主张基于困惑度等测量设立共同安全门槛，超过门槛的进展应以对 AI 行为的理解能力为前提，并首次公开预训练进展数据。",
-     "url": "https://x.com/polynoamial/status/2124555186043818245",
-     "aihot": "https://aihot.news/items/nrzd48iqj8z40nyvlmqhtlp80",
-     "selected": false,
-     "score": 51,
-     "category": "ai-models"
-    },
-    {
-     "n": 6,
-     "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
-     "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-     "ts": "2026-11-23T02:47:36.497000+08:00",
-     "publishedAt": "2026-11-22T00:00:00.000Z",
-     "discoveredAt": "2026-11-22T18:47:36.497Z",
-     "summary": "OpenAI 撰文提议将 perplexity（交叉熵损失）确立为跨模型开发者比较和安全标准的共享指标，并公开其内部预训练测量数据。",
-     "url": "https://openai.com/index/perplexity-and-intelligence",
-     "aihot": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
-     "selected": true,
-     "score": 63,
-     "category": "ai-models"
-    },
-    {
-     "n": 7,
-     "title": "OpenAI 公开预训练进展呼吁共同安全限制",
-     "source": "X：Sam Altman (@sama)",
-     "ts": "2026-11-23T02:17:43.291000+08:00",
-     "publishedAt": "2026-11-22T17:12:27.000Z",
-     "discoveredAt": "2026-11-22T18:17:43.291Z",
-     "summary": "这是 OpenAI 一段时间以来发布的最重要的内容。 我们正在对预训练进展提供大量透明度，希望我们能作为朋友就共同限制达成一致。我认为这将非常明智，有助于确保安全与可控。",
-     "url": "https://x.com/sama/status/2124551594691932405",
-     "aihot": "https://aihot.news/items/kbsk3p0n2qaxicnh39x32fvlh",
-     "selected": false,
-     "score": 48,
-     "category": "ai-models",
-     "also": [
-      {
-       "source": "X：Sam Altman (@sama)",
-       "title": "OpenAI 谈困惑度与AI安全标准",
-       "url": "https://x.com/sama/status/2124558713646428663",
-       "aihot": "https://aihot.news/items/u09xn1k898u9moe4eh0mrsq3b"
-      }
-     ]
-    },
-    {
-     "n": 8,
-     "title": "Sam Altman 提议前沿模型开发者共同建立评估与安全红线测试的行业规范",
-     "source": "X：Sam Altman (@sama)",
-     "ts": "2026-11-23T02:17:43.284000+08:00",
-     "publishedAt": "2026-11-22T17:13:35.000Z",
-     "discoveredAt": "2026-11-22T18:17:43.284Z",
-     "summary": "Sam Altman 提议各前沿模型开发者共同建立评估模型和红线测试安全案例的行业共同规范，包括共享透明度标准。他还建议基于困惑度等测量设定开发者承诺不逾越的共同上限，直到理解与监控 AI 行为的能力达到具体里程碑（例如 CoT 监控器的后继技术），形成规定开发首道上限及突破前所需条件的行业标准。",
-     "url": "https://x.com/sama/status/2124551883130114403",
-     "aihot": "https://aihot.news/items/kxc2p9z20b5dlbk419t6hbp3d",
-     "selected": false,
-     "score": 51,
+     "score": 39,
      "category": "ai-models"
     }
    ],
@@ -228,35 +130,131 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 5,
    "items": [
     {
-     "n": 9,
-     "title": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
-     "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-     "ts": "2026-11-23T05:06:44.543000+08:00",
-     "publishedAt": "2026-11-22T11:15:31.000Z",
-     "discoveredAt": "2026-11-22T21:06:44.543Z",
-     "summary": "用户@cxjwin 分享在 Mac（M4 Pro、48GB）上用 Homebrew 装 llama.cpp 跑 minicpm5-2b、colima 起 Docker 本地运行开源项目 Mirobody 的实测：14 页 PDF 首次处理漏掉 3 页扫描版化验单，截图单独上传后 58 行化验数值逐项与原件对上，其中…",
-     "url": "https://x.com/OpenBMB/status/2124461770043785636",
-     "aihot": "https://aihot.news/items/g3vdho0vzm8rzriiz5grruy3m",
+     "n": 3,
+     "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-24T17:23:31.975000+08:00",
+     "publishedAt": "2026-11-24T08:15:44.000Z",
+     "discoveredAt": "2026-11-24T09:23:31.975Z",
+     "summary": "OpenAI 宣布与 Cisco 合作推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来抵御漏洞利用，同时保持服务不中断，为防御方争取测试和部署补丁的时间。",
+     "url": "https://x.com/thsottiaux/status/2125141302501417232",
+     "aihot": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
      "selected": true,
-     "score": 71,
+     "score": 63,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+       "title": "OpenAI 与 Cisco 开源 Shirudo：用 eBPF shield 在补丁窗口期保护运行中的 Linux 服务",
+       "url": "https://openai.com/index/introducing-shirudo",
+       "aihot": "https://aihot.news/items/cqa4xxyqgijjsna1t0wb290ix"
+      },
+      {
+       "source": "IT之家·人工智能",
+       "title": "OpenAI 与思科开源安全运行时 Shirudo，基于eBPF为运行中系统提供无需重启的漏洞防护",
+       "url": "https://www.ithome.com/1/031/245.htm",
+       "aihot": "https://aihot.news/items/y1l4kfo3nq9t5cwb9gj24haav"
+      },
+      {
+       "source": "X：OpenAI (@OpenAI)",
+       "title": "OpenAI 与 Cisco 联合推出开源 Linux 运行时 Shirudo",
+       "url": "https://x.com/OpenAI/status/2124980590717911527",
+       "aihot": "https://aihot.news/items/r8fzlcc2l7sbaeu3l0515ous7"
+      },
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 动态生成 eBPF 防护不停机御敌",
+       "url": "https://x.com/gdb/status/2124985602722676794",
+       "aihot": "https://aihot.news/items/un7z90dnovsm7bjmttx437yrq"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "title": "Artificial Analysis 编码智能体指数上线 Harness Comparisons，测试 GPT-6 Luna 与 GLM-5.3-Flash 各 13 种 harness",
+     "source": "X：Artificial Analysis (@ArtificialAnlys)",
+     "ts": "2026-11-24T11:56:24.469000+08:00",
+     "publishedAt": "2026-11-24T03:31:19.000Z",
+     "discoveredAt": "2026-11-24T03:56:24.469Z",
+     "summary": "Artificial Analysis 在 Coding Agent Index v2.1 上线 Harness Comparisons，固定模型只换 harness，将 GPT-6 Luna 和 GLM-5.3-Flash 在最大推理档下各跑 13 种 harness。",
+     "url": "https://x.com/ArtificialAnlys/status/2125069725977968935",
+     "aihot": "https://aihot.news/items/zfwpn5er5fker9nps1ipfgrgz",
+     "selected": false,
+     "score": 54,
      "category": "ai-products"
     },
     {
-     "n": 10,
-     "title": "Oracle 称已筹集履行 OpenAI 合同全部所需资金",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-22T22:48:36.846000+08:00",
-     "publishedAt": "2026-11-22T14:24:17.127Z",
-     "discoveredAt": "2026-11-22T14:48:36.846Z",
-     "summary": "Oracle 11 月 20 日表示已在本月初筹集到履行与 OpenAI 交易的全部所需租金，与供应商的进一步私下讨论仅为补充选项。其得州 Abilene 园区已用于 GPT-6 Astra 训练并接近完工，下一个 GW 级项目 Shackelford 已获全部许可，NVIDIA Vera Rubin 机架预计未来几…",
-     "url": "https://www.ithome.com/1/030/715.htm",
-     "aihot": "https://aihot.news/items/fk7bno37d63yaq818lenmlaxo",
+     "n": 5,
+     "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-24T07:09:19.509000+08:00",
+     "publishedAt": "2026-11-23T22:48:30.000Z",
+     "discoveredAt": "2026-11-23T23:09:19.509Z",
+     "summary": "ChatGPT 宣布在 Chat 标签页推出面向日常对话优化的 GPT-6.2 Sol，今日起面向 Plus、Pro、Business 和 Enterprise 用户开放。该版本更擅长处理复杂请求和在线信息查找，能识别照片中标签文字、路牌符号等细节，并更好地根据价格、位置等偏好缩小选项范围。",
+     "url": "https://x.com/thsottiaux/status/2124998553856844186",
+     "aihot": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
+     "selected": true,
+     "score": 65,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "The Decoder：AI News（RSS）",
+       "title": "OpenAI 向 Plus 等用户推送面向聊天的 GPT-6.2 Sol",
+       "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+       "aihot": "https://aihot.news/items/xr5octonsg7y9xfbjg1fk9zhx"
+      },
+      {
+       "source": "X：ChatGPT (@ChatGPT)",
+       "title": "OpenAI 在 Chat 标签页推出面向日常对话的 GPT-6.2 Sol",
+       "url": "https://x.com/ChatGPT/status/2124942186425069836",
+       "aihot": "https://aihot.news/items/j0ca7nn3noea49fom3mdxgghi"
+      },
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI 在 Chat 标签页推出日常对话优化版 GPT-6.2 Sol",
+       "url": "https://x.com/gdb/status/2125132836105809951",
+       "aihot": "https://aihot.news/items/xqgn37co5zsglut0ewoi88fpb"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "title": "Codex 0.172.0 发布：支持线程链接跳转与斜杠命令参数补全",
+     "source": "Codex：GitHub Releases（RSS）",
+     "ts": "2026-11-24T06:52:22.274000+08:00",
+     "publishedAt": "2026-11-23T22:48:38.000Z",
+     "discoveredAt": "2026-11-23T22:52:22.274Z",
+     "summary": "Codex 0.172.0 新增从搜索结果和转录记录跳转线程链接、在终端打开已保存对话和嵌套智能体的能力，并支持 Tab 补全斜杠命令参数。该版本还让带缓存工具列表的可选 stdio MCP 服务器默认在首次工具调用时启动，并允许在 config.toml 中为单个已连接应用工具设置审批审核者。",
+     "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+     "aihot": "https://aihot.news/items/pkvc0tggxpao2ngy3mn5l9pjc",
      "selected": false,
-     "score": 66,
+     "score": 44,
      "category": "ai-products"
+    },
+    {
+     "n": 7,
+     "title": "OpenAI 双倍用量回馈 ChatGPT Business",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-24T05:36:22.272000+08:00",
+     "publishedAt": "2026-11-23T17:45:33.000Z",
+     "discoveredAt": "2026-11-23T21:36:22.272Z",
+     "summary": "11 月 30 日前创建的 ChatGPT Business 工作区，每种席位类型在 12 月 31 日前均可获得双倍的包含用量。 已经在用 Business？我们也为你准备了一份礼物。敬请期待 👀",
+     "url": "https://x.com/thsottiaux/status/2124922313019953319",
+     "aihot": "https://aihot.news/items/ngx3xz2z3s1p1jxd4vmwv35zk",
+     "selected": false,
+     "score": 32,
+     "category": "ai-products",
+     "also": [
+      {
+       "source": "X：Tibo (@thsottiaux)",
+       "title": "ChatGPT Business 订阅入口",
+       "url": "https://x.com/thsottiaux/status/2124922412219486443",
+       "aihot": "https://aihot.news/items/vbs7k01fvxoj4dj45f2rwjt9u"
+      }
+     ]
     }
    ],
    "note": null
@@ -264,20 +262,62 @@
   {
    "slug": "industry",
    "label": "行业动态",
-   "count": 1,
+   "count": 3,
    "items": [
     {
-     "n": 11,
-     "title": "Anthropic IPO 前三家机构如何重注押注",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-23T09:34:41.935000+08:00",
-     "publishedAt": "2026-11-23T01:25:53.000Z",
-     "discoveredAt": "2026-11-23T01:34:41.935Z",
-     "summary": "TechCrunch 报道 Notable Capital、GIC 和 Baillie Gifford 在 Anthropic IPO 前的重仓投资逻辑。",
-     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-     "aihot": "https://aihot.news/items/dus34samsjrld1qopq65v54uq",
-     "selected": true,
-     "score": 83,
+     "n": 8,
+     "title": "FT：前 OpenAI 工程师被控窃密，检方称其持有超 160 小时录音",
+     "source": "X：Rohan Paul (@rohanpaul_ai)",
+     "ts": "2026-11-24T15:10:23.881000+08:00",
+     "publishedAt": "2026-11-24T06:01:40.000Z",
+     "discoveredAt": "2026-11-24T07:10:23.881Z",
+     "summary": "FT 报道，上月因在 OpenAI 办公室安装窃听设备被起诉的前工程师 Abdulrahman Alfozan 持有超过 160 小时录音。检方称这名沙特籍工程师 9 月三周内录制数十段会议音频，其中许多会议他并未参加，包括至少一场 OpenAI 与外国政府的会议，还涉嫌拍摄与其他公司的保密条款书。",
+     "url": "https://x.com/rohanpaul_ai/status/2125107565868802182",
+     "aihot": "https://aihot.news/items/mbm9pqbo8vpd7p8tblsp11ogu",
+     "selected": false,
+     "score": 64,
+     "category": "industry"
+    },
+    {
+     "n": 9,
+     "title": "OpenAI 开放 OpenWorks 计划申请入口",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-11-24T10:13:27.737000+08:00",
+     "publishedAt": "2026-11-24T01:43:41.000Z",
+     "discoveredAt": "2026-11-24T02:13:27.737Z",
+     "summary": "Greg Brockman 宣布 OpenWorks 开放申请，可申请成为合作伙伴，或为企业获取支持，入口为 https://openai.com/openworks/。其引用的 Polymarket 消息称，该新计划将以最高每月 $8,000 的报酬聘请 AI 专家，帮助本地小企业采用人工智能。",
+     "url": "https://x.com/gdb/status/2125042638781120632",
+     "aihot": "https://aihot.news/items/kxnocms4nnkv14usj1v0lriif",
+     "selected": false,
+     "score": 54,
+     "category": "industry",
+     "also": [
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "OpenAI 推出 OpenWorks 资助计划",
+       "url": "https://x.com/OpenAIDevs/status/2124981063487492379",
+       "aihot": "https://aihot.news/items/qhen8gmmwacvc4oedlr21z755"
+      },
+      {
+       "source": "X：OpenAI Developers (@OpenAIDevs)",
+       "title": "https://openai.com/openworks",
+       "url": "https://x.com/OpenAIDevs/status/2124981075596521956",
+       "aihot": "https://aihot.news/items/oy14k74xqzwo7n92dfkgx4wml"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "title": "OpenAI内部dots正成为主要工作方式",
+     "source": "X：Tibo (@thsottiaux)",
+     "ts": "2026-11-24T05:36:22.257000+08:00",
+     "publishedAt": "2026-11-23T17:48:30.000Z",
+     "discoveredAt": "2026-11-23T21:36:22.257Z",
+     "summary": "在OpenAI内部，dots正迅速成为完成任务的主要方式。我们有dots在构建dots系统。",
+     "url": "https://x.com/thsottiaux/status/2124923055072043052",
+     "aihot": "https://aihot.news/items/lfc5mphtgi9ybrape6p69oig9",
+     "selected": false,
+     "score": 24,
      "category": "industry"
     }
    ],
@@ -286,131 +326,120 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "tip",
-   "label": "技巧与观点",
-   "count": 7,
+   "count": 3,
    "items": [
     {
-     "n": 12,
-     "title": "OpenAI 分享 ChatGPT 应用性能优化经验",
-     "source": "X：Dominik Kundel（OpenAI 开发者体验，Codex） (@dkundel)",
-     "ts": "2026-11-23T10:57:46.756000+08:00",
-     "publishedAt": "2026-11-23T02:27:08.000Z",
-     "discoveredAt": "2026-11-23T02:57:46.756Z",
-     "summary": "如果你怀念钻研工程挑战的乐趣，读读这个关于近期应用性能提升的帖子 👇",
-     "url": "https://x.com/dkundel/status/2124691188095848453",
-     "aihot": "https://aihot.news/items/mtubrmfow8zay6krobf8yml77",
+     "n": 11,
+     "title": "OpenAI 称 GPT-6.2 Astra 研究品味超人类",
+     "source": "X：Greg Brockman (@gdb)",
+     "ts": "2026-11-24T17:23:31.122000+08:00",
+     "publishedAt": "2026-11-24T08:51:02.000Z",
+     "discoveredAt": "2026-11-24T09:23:31.122Z",
+     "summary": "GPT-6.2 Astra 的研究品味：",
+     "url": "https://x.com/gdb/status/2125150185143906642",
+     "aihot": "https://aihot.news/items/at7j8za31h9jjkpbbmv4851s5",
      "selected": false,
-     "score": 29,
-     "category": "tip"
-    },
-    {
-     "n": 13,
-     "title": "OpenAI 首席科学家 Jakub Pachocki 提议为先进 AI 设共同开发门槛，警告 2027 年或现能力加速",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-23T07:12:33.263000+08:00",
-     "publishedAt": "2026-11-22T22:50:46.817Z",
-     "discoveredAt": "2026-11-22T23:12:33.263Z",
-     "summary": "OpenAI 首席科学家 Jakub Pachocki 发文提议 AI 企业建立行业统一标准，在安全监控能力可靠之前不突破约定的发展门槛，CEO 奥尔特曼公开支持。",
-     "url": "https://www.ithome.com/1/030/720.htm",
-     "aihot": "https://aihot.news/items/lev71ucng72fc2757tvu5e001",
-     "selected": false,
-     "score": 72,
-     "category": "tip",
+     "score": 32,
+     "category": "paper",
      "also": [
       {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "OpenAI 首席科学家 Jakub Pachocki 提议以 perplexity 作为限制 AI 发展速度的度量",
-       "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-       "aihot": "https://aihot.news/items/w6aesnkh72hkkxhr4ptrhddd9"
-      },
-      {
-       "source": "X：Jakub Pachocki（OpenAI 首席科学家，@merettm）",
-       "title": "OpenAI 首席科学家 Jakub Pachocki 发文主张以 perplexity 设共同安全门槛并公开预训练进展",
-       "url": "https://x.com/merettm/status/2124549218995949967",
-       "aihot": "https://aihot.news/items/lwm6f6xtf8667axqr5snwas7u"
-      },
-      {
-       "source": "X：indigo (@indigox)",
-       "title": "OpenAI 首席科学家 Jakub 发文倡议用对数困惑度衡量底层智能进展",
-       "url": "https://x.com/indigox/status/2124660902092042722",
-       "aihot": "https://aihot.news/items/vfd82yb3feq7ixwb9uw6infzx"
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "GPT-6.2 Astra 机器人能力跃升",
+       "url": "https://x.com/gdb/status/2125041014587146384",
+       "aihot": "https://aihot.news/items/n2q8j8bwj2hceji5z0vyz535o"
       }
      ]
     },
     {
-     "n": 14,
-     "title": "Sam Altman 谈年轻人应对 AI 的最大错误",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-23T06:52:36.641000+08:00",
-     "publishedAt": "2026-11-22T22:23:10.000Z",
-     "discoveredAt": "2026-11-22T22:52:36.641Z",
-     "summary": "“我认为听老人的话是年轻人犯的最大错误。我认为传统的职业建议可能不会那么管用了。” Sam Altman 当时在回答这个问题—— “你觉得现在年轻人在为 AI 做准备时，犯的最大错误是什么？” --- 完整视频在“IIT Delhi”YouTube 频道。（链接在评论）",
-     "url": "https://x.com/rohanpaul_ai/status/2124629789495709987",
-     "aihot": "https://aihot.news/items/lb1ddp9gyt0rgd658fpzcv885",
+     "n": 12,
+     "title": "OpenAI：GPT-6 Cyber 一次运行验证 948 个 Linux 内核本地提权漏洞并生成补丁",
+     "source": "X：OpenAI (@OpenAI)",
+     "ts": "2026-11-24T07:45:21.272000+08:00",
+     "publishedAt": "2026-11-23T23:25:45.000Z",
+     "discoveredAt": "2026-11-23T23:45:21.272Z",
+     "summary": "OpenAI 发布研究称，GPT-6 Cyber 在一次运行中帮助验证了 948 个可能授予本地 root 权限的 Linux 内核漏洞，并生成供审查的补丁。研究人员 @clintgibler 与 @ky1ebot 分享了发现过程，以及如何与内核维护者协作将修复合入上游。",
+     "url": "https://x.com/OpenAI/status/2125007927098699827",
+     "aihot": "https://aihot.news/items/dk2dyrcu87yrxjx2n0hvxixec",
      "selected": false,
-     "score": 36,
+     "score": 74,
+     "category": "paper",
+     "also": [
+      {
+       "source": "X：Greg Brockman (@gdb)",
+       "title": "OpenAI 研究员分享 GPT-6 Cyber 帮助修复开源软件漏洞的研究",
+       "url": "https://x.com/gdb/status/2125015245383180300",
+       "aihot": "https://aihot.news/items/wz8e14g8hgyjdw0x97ddg9zlq"
+      },
+      {
+       "source": "X：Tibo (@thsottiaux)",
+       "title": "Tibo 推荐 OpenAI 关于 GPT-6 Cyber 修复 Linux 内核漏洞的研究分享",
+       "url": "https://x.com/thsottiaux/status/2125027477877887231",
+       "aihot": "https://aihot.news/items/grydv9xq0jr9cjs66n89lvcqc"
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "title": "AISI 红队论文：攻击策略选择会让 LLM 监视器评估结果失真",
+     "source": "英国 AI Security Institute：Blog（网页）",
+     "ts": "2026-11-24T02:13:17.834000+08:00",
+     "publishedAt": "2026-11-22T23:00:00.000Z",
+     "discoveredAt": "2026-11-23T18:13:17.834Z",
+     "summary": "英国 AI Security Institute 发布论文，测试合成攻击生成方式对监视器评估的影响。评估一个 OpenAI 前生产监视器时，同一监视器对不同攻击策略的漏报率从 0.2%（基础提示）到 23%（转录编辑）不等，优化程度也会显著改变结果。",
+     "url": "https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading",
+     "aihot": "https://aihot.news/items/tl8v9gto8rd3e4x40xfbljj13",
+     "selected": true,
+     "score": 60,
+     "category": "paper"
+    }
+   ],
+   "note": null
+  },
+  {
+   "slug": "tip",
+   "label": "技巧与观点",
+   "count": 3,
+   "items": [
+    {
+     "n": 14,
+     "title": "GPT-6.2 在 ChatGPT 中的系统卡",
+     "source": "OpenAI：部署安全与系统卡（网页）",
+     "ts": "2026-11-24T04:11:18.693000+08:00",
+     "publishedAt": "2026-11-23T07:00:00.000Z",
+     "discoveredAt": "2026-11-23T20:11:18.693Z",
+     "summary": "OpenAI 发布 GPT-6.2 在 ChatGPT 中的系统卡，以 PDF 形式提供。该页面暂未提供解析文本，需通过公开 PDF 链接查看内容。",
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-chatgpt",
+     "aihot": "https://aihot.news/items/bevpuo6ab1ase851cs2eohwy7",
+     "selected": false,
+     "score": 44,
      "category": "tip"
     },
     {
      "n": 15,
-     "title": "本地 AI 入门指南：用 Unsloth Desktop 和 Qwen3.8-27B 在家用 PC 搭建私有 ChatGPT",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-11-23T06:36:34.067000+08:00",
-     "publishedAt": "2026-11-22T16:00:00.000Z",
-     "discoveredAt": "2026-11-22T22:36:34.067Z",
-     "summary": "作者分享在 Windows PC 上用 Unsloth Desktop 搭建本地 AI 的入门教程，以 RTX 5090 运行 4-bit 量化的 Qwen3.8-27B，全程约 10-15 分钟，无需终端命令或订阅。",
-     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-     "aihot": "https://aihot.news/items/fwy4khqwz1da53f8zpcqnzulo",
+     "title": "OpenAI 首席科学家 Jakub Pachocki 公布 GPT 系列困惑度分数并呼吁同行约定共同安全限制",
+     "source": "The Decoder：AI News（RSS）",
+     "ts": "2026-11-24T03:34:16.837000+08:00",
+     "publishedAt": "2026-11-23T18:42:38.000Z",
+     "discoveredAt": "2026-11-23T19:34:16.837Z",
+     "summary": "OpenAI 首席科学家 Jakub Pachocki 在博客公布 GPT 系列的 log-perplexity 内部分数，希望让困惑度成为行业衡量进展的共同指标。",
+     "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+     "aihot": "https://aihot.news/items/crw4tsq5rknyz5r8urr18du0y",
      "selected": false,
-     "score": 71,
+     "score": 74,
      "category": "tip"
     },
     {
      "n": 16,
-     "title": "Greg Brockman 解读 OpenAI 基于困惑度的预训练共同安全上限提议",
-     "source": "X：Greg Brockman (@gdb)",
-     "ts": "2026-11-23T04:29:38.791000+08:00",
-     "publishedAt": "2026-11-22T19:15:59.000Z",
-     "discoveredAt": "2026-11-22T20:29:38.791Z",
-     "summary": "Greg Brockman 介绍 OpenAI《Perplexity and Intelligence》一文，主张基于困惑度等指标设立开发者承诺不逾越的共同安全上限，并配以明确的退出标准（如 CoT monitors 的后继工具问世）。",
-     "url": "https://x.com/gdb/status/2124582684840399311",
-     "aihot": "https://aihot.news/items/uyaqmati59kykshezwugs41bh",
-     "selected": false,
-     "score": 52,
-     "category": "tip"
-    },
-    {
-     "n": 17,
-     "title": "OpenAI 首席研究官 Mark Chen 呼吁前沿实验室共享关键指标并公开自家困惑度数据",
-     "source": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
-     "ts": "2026-11-23T04:28:39.063000+08:00",
-     "publishedAt": "2026-11-22T19:55:58.000Z",
-     "discoveredAt": "2026-11-22T20:28:39.063Z",
-     "summary": "OpenAI 首席研究官 Mark Chen 表示各实验室自写安全案例、自设护栏导致 AI 竞赛动态难以摆脱，呼吁前沿实验室披露追踪进展的关键指标，并提出困惑度作为候选标准。",
-     "url": "https://x.com/markchen90/status/2124592748099665943",
-     "aihot": "https://aihot.news/items/w710a5d202zi2gg348cz01fob",
-     "selected": false,
-     "score": 58,
-     "category": "tip"
-    },
-    {
-     "n": 18,
-     "title": "Sam Altman 澄清用词失误",
-     "source": "X：Sam Altman (@sama)",
-     "ts": "2026-11-23T02:17:43.278000+08:00",
-     "publishedAt": "2026-11-22T17:28:22.000Z",
-     "discoveredAt": "2026-11-22T18:17:43.278Z",
-     "summary": "我是想说“field”，唉",
-     "url": "https://x.com/sama/status/2124555601745441130",
-     "aihot": "https://aihot.news/items/dpw5gu4em9hvegf9svb724c54",
-     "selected": false,
-     "score": 4,
+     "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
+     "source": "a16z：News（RSS）",
+     "ts": "2026-11-23T23:38:21.595000+08:00",
+     "publishedAt": "2026-11-23T15:04:27.000Z",
+     "discoveredAt": "2026-11-23T15:38:21.595Z",
+     "summary": "a16z 联合 The Prompting Company 测试 Grok Bot、Muse、Instinct、Dots 等智能体在 1,270 条提示词、11,307 次完整运行中的购物表现，并比对 YipitData 消费数据。",
+     "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+     "aihot": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
+     "selected": true,
+     "score": 74,
      "category": "tip"
     }
    ],
