@@ -14,13 +14,13 @@
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-23",
-  "winEnd": "2026-11-24",
-  "generated": "2026-11-24 18:44",
-  "rawHits": 29,
-  "selectedHits": 3,
-  "shown": 9,
-  "dedupedFrom": 16,
+  "winStart": "2026-11-24",
+  "winEnd": "2026-11-25",
+  "generated": "2026-11-25 17:40",
+  "rawHits": 25,
+  "selectedHits": 4,
+  "shown": 14,
+  "dedupedFrom": 15,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -35,7 +35,7 @@
     "q": "NVIDIA",
     "mode": "selected",
     "window": "24h",
-    "count": 2,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -43,7 +43,7 @@
     "q": "NVIDIA",
     "mode": "all",
     "window": "24h",
-    "count": 28,
+    "count": 23,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "英伟达",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "英伟达",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 5,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
-    "count": 15,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,20 +86,48 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
+   "count": 3,
    "items": [
     {
      "n": 1,
-     "title": "华硕 ProArt P16 评测：Nvidia RTX Spark 加持下可本地运行百亿参数级 AI 模型",
-     "source": "Ars Technica：AI（RSS）",
-     "ts": "2026-11-23T21:00:21.212000+08:00",
-     "publishedAt": "2026-11-23T12:00:00.000Z",
-     "discoveredAt": "2026-11-23T13:00:21.212Z",
-     "summary": "Ars Technica 发布华硕 ProArt P16 评测，该机搭载 Nvidia RTX Spark N1X 芯片，最高配 128GB LPDDR5x 统一内存，可加载 1000 亿参数以上的本地模型，售价 4399.99 美元起至 6999.99 美元。",
-     "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-     "aihot": "https://aihot.news/items/jlmmikyyc3jfxi2rhpeevi3re",
+     "title": "Sakana AI 发布 300 亿参数模型 Sakana Namazu Small，25 项基准平均分超越 Nemotron 3 Super",
+     "source": "Sakana AI：Blog（网页）",
+     "ts": "2026-11-25T08:34:18.168000+08:00",
+     "publishedAt": "2026-11-24T15:00:00.000Z",
+     "discoveredAt": "2026-11-25T00:34:18.168Z",
+     "summary": "Sakana AI 发布 300 亿参数大语言模型 Sakana Namazu Small，基于 NVIDIA Nemotron 3 Nano 预训练底座自行完成继续预训练和后训练，定位为思考模型。",
+     "url": "https://sakana.ai/namazu-small/",
+     "aihot": "https://aihot.news/items/yruv9ktry1gmlzhwhahw6ct6p",
      "selected": false,
+     "score": 52,
+     "category": "ai-models"
+    },
+    {
+     "n": 2,
+     "title": "Goodfire 用可解释性改进 BioReason-Pro 2 生物推理模型并用湿实验验证假设",
+     "source": "Goodfire Research（网页）",
+     "ts": "2026-11-25T01:50:41.983000+08:00",
+     "publishedAt": "2026-11-23T16:00:00.000Z",
+     "discoveredAt": "2026-11-24T17:50:41.983Z",
+     "summary": "Goodfire 与 NVIDIA、Arc Institute 合作开发 BioReason-Pro 2，以 Qwen3.5-9B 为骨干，用可解释性发现原模型过度依赖文本标注、蛋白质与文本嵌入尺度不匹配，据此移除训练输入中的 InterPro 标注、细化推理轨迹并将 ESM3 嵌入重新缩放。",
+     "url": "https://www.goodfire.com/research/building-stronger-biological-reasoning-models",
+     "aihot": "https://aihot.news/items/uz9j9ukn8j60mwkeeaibmmctw",
+     "selected": true,
      "score": 60,
+     "category": "ai-models"
+    },
+    {
+     "n": 3,
+     "title": "黄仁勋AI深伪视频成迷因热潮，创作者借生成式AI工具批量制作",
+     "source": "The Verge：AI（RSS）",
+     "ts": "2026-11-25T01:24:40.846000+08:00",
+     "publishedAt": "2026-11-24T16:30:00.000Z",
+     "discoveredAt": "2026-11-24T17:24:40.846Z",
+     "summary": "The Verge报道称，英伟达CEO黄仁勋相关话题在Instagram等平台催生数百条AI深伪迷因视频，如将其换脸进“Ibiza Final Boss”和《办公室》等场景，单条观看量近600万。",
+     "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+     "aihot": "https://aihot.news/items/wijwzmx2lv2obevowy3kt9go7",
+     "selected": false,
+     "score": 61,
      "category": "ai-models"
     }
    ],
@@ -108,9 +136,38 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 2,
+   "items": [
+    {
+     "n": 4,
+     "title": "Everstone 谈《Where Winds Meet》如何借助 NVIDIA DLSS 5 呈现武侠世界",
+     "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+     "ts": "2026-11-24T22:23:34.772000+08:00",
+     "publishedAt": "2026-11-23T16:00:00.000Z",
+     "discoveredAt": "2026-11-24T14:23:34.772Z",
+     "summary": "Everstone 美术总监 Muzi Li 与引擎技术负责人 Cory Zhou 详解《Where Winds Meet》接入 NVIDIA DLSS 5 的做法：借助已有的 DLSS 与 Streamline 集成基础，用神经渲染增强光照与材质细节。",
+     "url": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/",
+     "aihot": "https://aihot.news/items/f1znt8hbu7aybmihcn4rjir03",
+     "selected": false,
+     "score": 37,
+     "category": "ai-products"
+    },
+    {
+     "n": 5,
+     "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+     "source": "OpenClaw：Blog（网页）",
+     "ts": "2026-11-24T21:53:30.685000+08:00",
+     "publishedAt": "2026-11-24T00:00:00.000Z",
+     "discoveredAt": "2026-11-24T13:53:30.685Z",
+     "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100…",
+     "url": "https://openclaw.ai/blog/shellbench",
+     "aihot": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh",
+     "selected": true,
+     "score": 66,
+     "category": "ai-products"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "industry",
@@ -118,104 +175,68 @@
    "count": 4,
    "items": [
     {
-     "n": 2,
-     "title": "英伟达黄仁勋复职引发美国国会审查与出口管制收紧预期",
-     "source": "X：indigo (@indigox)",
-     "ts": "2026-11-24T13:47:24.162000+08:00",
-     "publishedAt": "2026-11-24T05:47:14.000Z",
-     "discoveredAt": "2026-11-24T05:47:24.162Z",
-     "summary": "有分析认为，黄仁勋复职后，美国国会审查与出口管制收紧将成为后续关注主线。12月起共和党国会将举行闭门访谈、法务问询与参议院银行委员会公开听证；明年1月新国会宣誓后，民主党将接手审查。",
-     "url": "https://x.com/indigox/status/2125103931818995931",
-     "aihot": "https://aihot.news/items/hctyhcelnaw0unmigvswei0ih",
-     "selected": false,
-     "score": 58,
-     "category": "industry"
-    },
-    {
-     "n": 3,
-     "title": "黄仁勋复任英伟达CEO后定于12月3日出席参议院银行委员会听证会",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-24T02:22:16.326000+08:00",
-     "publishedAt": "2026-11-23T18:12:22.000Z",
-     "discoveredAt": "2026-11-23T18:22:16.326Z",
-     "summary": "黄仁勋定于12月3日出席美国参议院银行委员会听证会，该委员会主管AI芯片等敏感技术的出口管制政策。此前他因个人事务辞任英伟达CEO，不到两周后复任。在复任之前，黄仁勋已同意于12月1日出席美国众议院外交事务委员会及情报委员会相关听证会。",
-     "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-     "aihot": "https://aihot.news/items/lfqgyg1q425angg2smahjv8pz",
-     "selected": false,
-     "score": 75,
-     "category": "industry"
-    },
-    {
-     "n": 4,
-     "title": "Sam Altman 喊话黄仁勋",
-     "source": "X：Sam Altman (@sama)",
-     "ts": "2026-11-23T23:45:17.655000+08:00",
-     "publishedAt": "2026-11-23T15:25:52.000Z",
-     "discoveredAt": "2026-11-23T15:45:17.655Z",
-     "summary": "黄仁勋！",
-     "url": "https://x.com/sama/status/2124887162206495228",
-     "aihot": "https://aihot.news/items/g689757fgqh8yy9xs68s9tnf7",
-     "selected": false,
-     "score": 7,
-     "category": "industry"
-    },
-    {
-     "n": 5,
-     "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-11-23T23:00:22.804000+08:00",
-     "publishedAt": "2026-11-23T14:04:30.000Z",
-     "discoveredAt": "2026-11-23T15:00:22.804Z",
-     "summary": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 及董事会成员，董事会一致投票通过，临时 CEO Colette Kress 继续担任 CFO。复职决定参考了美国政府高层意见，董事会认为其不构成国家安全风险，此前因黄仁勋成为外国情报行动目标而启动的独立董事调查将继续进行，董事会另设国家安全与出口管制…",
-     "url": "https://x.com/thexpin/status/2124866686025400819",
-     "aihot": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
+     "n": 6,
+     "title": "Anthropic 上市不到一周跌破 83 美元发行价",
+     "source": "IT之家·人工智能",
+     "ts": "2026-11-25T11:51:22.530000+08:00",
+     "publishedAt": "2026-11-25T03:29:13.877Z",
+     "discoveredAt": "2026-11-25T03:51:22.530Z",
+     "summary": "Anthropic 于 11 月 24 日首次跌破每股 83 美元的 IPO 发行价，收报 81.91 美元，单日下跌 6.54%，盘中最低约 76 美元，较上市首日高点回撤约 34%，路透社测算其市值一度面临蒸发近 2,000 亿美元的压力。",
+     "url": "https://www.ithome.com/1/031/983.htm",
+     "aihot": "https://aihot.news/items/yhlpti07v4y216qat3ml1qmca",
      "selected": true,
-     "score": 90,
+     "score": 78,
+     "category": "industry"
+    },
+    {
+     "n": 7,
+     "title": "Thinking Machines 收到英伟达 Vera CPU 服务器",
+     "source": "X：Mira Murati（@miramurati）",
+     "ts": "2026-11-25T03:04:23.199000+08:00",
+     "publishedAt": "2026-11-24T18:49:33.000Z",
+     "discoveredAt": "2026-11-24T19:04:23.199Z",
+     "summary": "新机器日。感谢 @nvidia 团队！ （引用推文：我们的计算团队迫不及待想上手 Vera——专为智能体 AI 打造的 CPU 服务器。@NVIDIA 刚给我们办公室送来了一台，我们非常兴奋！）",
+     "url": "https://x.com/miramurati/status/2125300808887746663",
+     "aihot": "https://aihot.news/items/brdpyc9qq2tdy3skyb0ofu9kv",
+     "selected": false,
+     "score": 30,
      "category": "industry",
      "also": [
       {
-       "source": "The Verge：AI（RSS）",
-       "title": "英伟达董事会恢复黄仁勋CEO职务",
-       "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-       "aihot": "https://aihot.news/items/zx2hatsv8edumgbbvqqwxtito"
-      },
-      {
-       "source": "X：indigo (@indigox)",
-       "title": "NVIDIA 董事会恢复黄仁勋总裁、CEO 兼董事职务",
-       "url": "https://x.com/indigox/status/2124868756723863790",
-       "aihot": "https://aihot.news/items/gdveoivkyxm7gf8k5tsspii95"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "NVIDIA 董事会撤销决定，恢复黄仁勋 CEO、总裁兼董事职务",
-       "url": "https://x.com/rohanpaul_ai/status/2124967788905365714",
-       "aihot": "https://aihot.news/items/hmsq0aeol4xxxs3ksg5e5u12u"
-      },
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "Nvidia 宣布黄仁勋重返 CEO 职位",
-       "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-       "aihot": "https://aihot.news/items/bc4gq9dugsnk7163n4wdgji1j"
-      },
-      {
-       "source": "公众号：卡尔的AI沃茨",
-       "title": "黄仁勋复职英伟达 CEO，董事会投票恢复其职务",
-       "url": "https://mp.weixin.qq.com/s/gR_c-k_evwV-Iyg6Z7vFQg",
-       "aihot": "https://aihot.news/items/qte4xgs14r832tda2qb0kq3op"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "NVIDIA 董事会全票恢复黄仁勋总裁兼 CEO 及董事职务，股价大涨 31%",
-       "url": "https://x.com/rohanpaul_ai/status/2124875409703719174",
-       "aihot": "https://aihot.news/items/jo5418ootux72grn8ugtpiq4k"
-      },
-      {
-       "source": "X：Rohan Paul (@rohanpaul_ai)",
-       "title": "NVIDIA 董事会恢复黄仁勋职务，股价盘初大涨 30%",
-       "url": "https://x.com/rohanpaul_ai/status/2124882639798849601",
-       "aihot": "https://aihot.news/items/g4u96z1szup8rzfhyotvhk5ef"
+       "source": "X：Thinking Machines (@thinkymachines)",
+       "title": "Thinking Machines 获 NVIDIA 交付 Vera CPU 服务器",
+       "url": "https://x.com/thinkymachines/status/2125289536838381929",
+       "aihot": "https://aihot.news/items/z12reri9v78sz1snh87k71bnx"
       }
      ]
+    },
+    {
+     "n": 8,
+     "title": "Ed Zitron 分析 NVIDIA 董事会恢复黄仁勋 CEO 职位背后的行业流动性风险",
+     "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+     "ts": "2026-11-25T02:44:35.500000+08:00",
+     "publishedAt": "2026-11-24T18:08:05.000Z",
+     "discoveredAt": "2026-11-24T18:44:35.500Z",
+     "summary": "Ed Zitron 撰文分析 NVIDIA 董事会恢复黄仁勋 CEO 职位一事，认为此举是应对外部压力的符号性操作，并未解决 AI 行业面临的循环融资、流动性紧张及 OpenAI 亏损等根本问题。",
+     "url": "https://www.wheresyoured.at/defective-accelerationism/",
+     "aihot": "https://aihot.news/items/lb66i6g7eq01l6hx0rr8f7k9r",
+     "selected": true,
+     "score": 84,
+     "category": "industry"
+    },
+    {
+     "n": 9,
+     "title": "Amazon 以 75 亿美元收购 Decart 技术与团队，力图缩小与 Nvidia 的芯片差距",
+     "source": "TechCrunch：AI（RSS）",
+     "ts": "2026-11-24T23:54:26.285000+08:00",
+     "publishedAt": "2026-11-24T15:51:07.000Z",
+     "discoveredAt": "2026-11-24T15:54:26.285Z",
+     "summary": "Amazon 以约 75 亿美元收购 AI 芯片优化初创公司 Decart 的技术和团队，计划通过其 Decart Optimization Stack（DOS）提升自研 Trainium 芯片性能。",
+     "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+     "aihot": "https://aihot.news/items/lks52jurngifbb4ovovipgsi4",
+     "selected": false,
+     "score": 72,
+     "category": "industry"
     }
    ],
    "note": null
@@ -223,9 +244,24 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 10,
+     "title": "UT Austin 教授 Yuke Zhu 宣布 2027 年秋加入普林斯顿计算机系，并将继续共同领导 NVIDIA GEAR",
+     "source": "X：Jim Fan (@DrJimFan)",
+     "ts": "2026-11-25T00:59:30.376000+08:00",
+     "publishedAt": "2026-11-24T16:29:41.000Z",
+     "discoveredAt": "2026-11-24T16:59:30.376Z",
+     "summary": "Yuke Zhu 宣布将于 2027 年秋季以副教授身份加入普林斯顿大学计算机系，并把其机器人感知与学习实验室及学生迁往普林斯顿，本周期招收博士生与博士后。他将继续共同领导 NVIDIA GEAR 团队推进通用机器人自主研究，并提到前沿 AI 日益资源密集地集中于工业实验室，同时探讨大学在 post-AGI 时代的新…",
+     "url": "https://x.com/DrJimFan/status/2125265607491047793",
+     "aihot": "https://aihot.news/items/spclt65r100m6p72szs599x9h",
+     "selected": false,
+     "score": 52,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
@@ -233,59 +269,59 @@
    "count": 4,
    "items": [
     {
-     "n": 6,
-     "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
-     "source": "ChinaTalk（RSS）",
-     "ts": "2026-11-24T09:48:25.505000+08:00",
-     "publishedAt": "2026-11-24T01:41:25.000Z",
-     "discoveredAt": "2026-11-24T01:48:25.505Z",
-     "summary": "ChinaTalk 主持人 Jordan Schneider 邀请 Chris McGuire 与 Peter Harrell 紧急讨论 Nvidia 董事会在美国政府表态后一致恢复黄仁勋职务，以及美国商务部同日将 Megaspeed 列入实体清单。",
-     "url": "https://www.chinatalk.media/p/jensen-returns",
-     "aihot": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
-     "selected": true,
-     "score": 88,
-     "category": "tip"
-    },
-    {
-     "n": 7,
-     "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复 Jensen Huang 职务",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-24T00:47:19.720000+08:00",
-     "publishedAt": "2026-11-23T16:40:10.000Z",
-     "discoveredAt": "2026-11-23T16:47:19.720Z",
-     "summary": "Nvidia 临时 CEO Colette Kress 在接受 CNBC Mad Money 的 Jim Cramer 采访时表示，董事会已决定不会恢复 Jensen Huang 的职务，并称这就是董事会的决定。Rohan Paul 转发了这一采访片段，完整采访链接见评论区。",
-     "url": "https://x.com/rohanpaul_ai/status/2124905859935527167",
-     "aihot": "https://aihot.news/items/s1hpzyidatk3tmr2c912lws29",
+     "n": 11,
+     "title": "马斯克转发黄仁勋AI就业观点",
+     "source": "X：Elon Musk (@elonmusk, xAI)",
+     "ts": "2026-11-25T14:30:23.910000+08:00",
+     "publishedAt": "2026-11-25T05:31:21.000Z",
+     "discoveredAt": "2026-11-25T06:30:23.910Z",
+     "summary": "确实",
+     "url": "https://x.com/elonmusk/status/2125462322483503370",
+     "aihot": "https://aihot.news/items/y8lss3rrb1uzcfmmc0lktnfem",
      "selected": false,
-     "score": 67,
+     "score": 24,
      "category": "tip"
     },
     {
-     "n": 8,
-     "title": "黄仁勋谈焦虑驱动：怕失败胜过想成功",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-24T00:16:18.042000+08:00",
-     "publishedAt": "2026-11-23T16:07:27.000Z",
-     "discoveredAt": "2026-11-23T16:16:18.042Z",
-     "summary": "黄仁勋在 Joe Rogan 播客中表示，驱动自己更多的是对失败的恐惧而非对成功的渴望，并称自己始终处于焦虑状态、醒着的每一刻都在思考解决问题，这也是他每周工作七天原因。",
-     "url": "https://x.com/rohanpaul_ai/status/2124897628148449650",
-     "aihot": "https://aihot.news/items/f27pbhp7b0ngua1maiyq5sok1",
+     "n": 12,
+     "title": "Elon 访问 Nvidia 总部并在全员大会上道歉认错",
+     "source": "X：indigo (@indigox)",
+     "ts": "2026-11-25T12:50:24.753000+08:00",
+     "publishedAt": "2026-11-25T04:25:25.000Z",
+     "discoveredAt": "2026-11-25T04:50:24.753Z",
+     "summary": "Elon 于 24 日上午到访 Nvidia 总部，黄仁勋开了约一小时全员大会。会上他开场道歉，承认违反了自己参与写的行为准则，称这是 not acceptable，并表示以后人力资源部将收集员工反馈、每月向董事会汇报。",
+     "url": "https://x.com/indigox/status/2125445728185274445",
+     "aihot": "https://aihot.news/items/hycgurc024his8c22xf54q1uf",
      "selected": false,
-     "score": 33,
+     "score": 66,
      "category": "tip"
     },
     {
-     "n": 9,
-     "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-     "source": "TechCrunch：AI（RSS）",
-     "ts": "2026-11-23T23:34:16.569000+08:00",
-     "publishedAt": "2026-11-23T15:04:01.000Z",
-     "discoveredAt": "2026-11-23T15:34:16.569Z",
-     "summary": "Trump 在 Truth Social 上表态支持 Nvidia 董事会复职黄仁勋为 CEO 兼总裁，称美国政府没有理由认为其回归构成国家安全风险。他称司法部长 Todd Blanche 已确认政府没有黄仁勋违法行为的证据，但 Blanche 本人尚未正式声明。",
-     "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-     "aihot": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn",
-     "selected": true,
-     "score": 83,
+     "n": 13,
+     "title": "NVIDIA 教程：用 Hugging Face Diffusers 在 12 GB 显存 GPU 上本地运行 Cosmos 3 Nano",
+     "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+     "ts": "2026-11-25T03:26:19.830000+08:00",
+     "publishedAt": "2026-11-23T16:00:00.000Z",
+     "discoveredAt": "2026-11-24T19:26:19.830Z",
+     "summary": "NVIDIA 技术博客发布教程，讲解如何通过权重流式存储，在仅 12 GB VRAM 的 GPU 上本地运行 NVIDIA Cosmos 3 Nano 视频生成模型，将大部分模型权重存于系统内存并按需传至 GPU 计算。",
+     "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+     "aihot": "https://aihot.news/items/gywnlniruj9uh7ksamhlg9xpp",
+     "selected": false,
+     "score": 61,
+     "category": "tip"
+    },
+    {
+     "n": 14,
+     "title": "NVIDIA Isaac Lab 与 Newton 实现 Microduck 机器人避障的 Sim2Real 教程",
+     "source": "Hugging Face 社区博客（混合发现）",
+     "ts": "2026-11-25T00:37:27.668000+08:00",
+     "publishedAt": "2026-11-24T16:34:13.000Z",
+     "discoveredAt": "2026-11-24T16:37:27.668Z",
+     "summary": "NVIDIA 发布 Microduck 避障教程，在保持行走策略权重冻结的前提下，用 Newton raycaster 建模 VL53L5CX ToF 传感器（8×8 网格、15Hz、45° 视场角、0.12–4m 量程），在 Isaac Lab 中用 PPO 训练导航控制器调整手柄速度指令。",
+     "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+     "aihot": "https://aihot.news/items/dgubf5qkk6sfbvnogqotjisrm",
+     "selected": false,
+     "score": 53,
      "category": "tip"
     }
    ],

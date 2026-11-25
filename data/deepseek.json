@@ -12,13 +12,13 @@
    "深度求索"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-23",
-  "winEnd": "2026-11-24",
-  "generated": "2026-11-24 18:45",
+  "winStart": "2026-11-24",
+  "winEnd": "2026-11-25",
+  "generated": "2026-11-25 17:42",
   "rawHits": 8,
-  "selectedHits": 0,
-  "shown": 2,
-  "dedupedFrom": 2,
+  "selectedHits": 2,
+  "shown": 3,
+  "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -33,7 +33,7 @@
     "q": "DeepSeek",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 2,
     "hasMore": false,
     "from_cache": false
    },
@@ -57,7 +57,7 @@
     "q": "深度求索",
     "mode": "all",
     "window": "24h",
-    "count": 1,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -70,64 +70,79 @@
    "label": "模型发布 / 更新",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
-  },
-  {
-   "slug": "industry",
-   "label": "行业动态",
    "count": 2,
    "items": [
     {
      "n": 1,
-     "title": "知乎宣布通过参投基金间接投资 DeepSeek，股价应声大涨 10%",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-24T11:51:22.471000+08:00",
-     "publishedAt": "2026-11-24T03:26:17.510Z",
-     "discoveredAt": "2026-11-24T03:51:22.471Z",
-     "summary": "知乎 11 月 23 日发布自愿公告，宣布其参投的天津砺思星深股权投资合伙企业已通过中间主体间接投资 DeepSeek，取得低个位数百分比股权，知乎在基金的合伙权益低于 30%。",
-     "url": "https://www.ithome.com/1/031/339.htm",
-     "aihot": "https://aihot.news/items/ajixfrg2rd6ijyxf3mn881xcr",
-     "selected": false,
-     "score": 74,
-     "category": "industry"
+     "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+     "source": "OpenClaw：Blog（网页）",
+     "ts": "2026-11-24T21:53:30.685000+08:00",
+     "publishedAt": "2026-11-24T00:00:00.000Z",
+     "discoveredAt": "2026-11-24T13:53:30.685Z",
+     "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100…",
+     "url": "https://openclaw.ai/blog/shellbench",
+     "aihot": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh",
+     "selected": true,
+     "score": 66,
+     "category": "ai-products"
     },
     {
      "n": 2,
-     "title": "DeepSeek 估值约 860 亿美元，腾讯 WorkBuddy 日活破千万",
-     "source": "X：X.PIN (@thexpin)",
-     "ts": "2026-11-24T05:36:22.249000+08:00",
-     "publishedAt": "2026-11-23T16:49:16.000Z",
-     "discoveredAt": "2026-11-23T21:36:22.249Z",
-     "summary": "DeepSeek 完成第二轮融资，募资 140-150 亿美元，投后估值约 860 亿美元；腾讯与宁德时代为最大外部投资者，各持股约 9.6%，中国移动与中信证券各持股约 7.7%。",
-     "url": "https://x.com/thexpin/status/2124908150008725524",
-     "aihot": "https://aihot.news/items/ay2h0472lc72s5odehsrhl400",
-     "selected": false,
-     "score": 45,
-     "category": "industry"
+     "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
+     "source": "Ars Technica：AI（RSS）",
+     "ts": "2026-11-24T21:21:32.811000+08:00",
+     "publishedAt": "2026-11-24T12:30:05.000Z",
+     "discoveredAt": "2026-11-24T13:21:32.811Z",
+     "summary": "Amazon 威胁情报报告称，黑客在开源 AI 渗透测试框架 Cairn 上运行的 AI 智能体，仅凭一句「获取 shell 权限」的指令，就自主发现并利用了一个开源医学影像 AI 应用中未修补的路径遍历 0-day，从映射 API 到任意写文件仅用约 11 分钟，随后写入 Python 反向 shell paylo…",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "aihot": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x",
+     "selected": true,
+     "score": 83,
+     "category": "ai-products"
     }
    ],
    "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
    "label": "论文研究",
    "count": 0,
    "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "DeepSeek 一句话生成代码动画",
+     "source": "X：卡尔的 AI 沃茨 (@aiwarts)",
+     "ts": "2026-11-24T20:35:32.521000+08:00",
+     "publishedAt": "2026-11-24T12:29:08.000Z",
+     "discoveredAt": "2026-11-24T12:35:32.521Z",
+     "summary": "在 oiioii motion 里调用 deepseek 一句话做出来的代码动画😏包括配乐也是大肥鱼做的",
+     "url": "https://x.com/aiwarts/status/2125205074070864304",
+     "aihot": "https://aihot.news/items/y87lek07hvkxitjjkna5y16cm",
+     "selected": false,
+     "score": 16,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
