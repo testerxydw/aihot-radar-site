@@ -14,13 +14,13 @@
    "阿里云"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-25",
-  "winEnd": "2026-11-26",
-  "generated": "2026-11-26 17:17",
-  "rawHits": 8,
-  "selectedHits": 0,
-  "shown": 3,
-  "dedupedFrom": 3,
+  "winStart": "2026-11-26",
+  "winEnd": "2026-11-27",
+  "generated": "2026-11-27 17:32",
+  "rawHits": 7,
+  "selectedHits": 1,
+  "shown": 2,
+  "dedupedFrom": 2,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,23 +43,23 @@
     "q": "通义千问",
     "mode": "all",
     "window": "24h",
+    "count": 0,
+    "hasMore": false,
+    "from_cache": false
+   },
+   {
+    "q": "Qwen",
+    "mode": "selected",
+    "window": "24h",
     "count": 1,
     "hasMore": false,
     "from_cache": false
    },
    {
     "q": "Qwen",
-    "mode": "selected",
-    "window": "24h",
-    "count": 0,
-    "hasMore": false,
-    "from_cache": false
-   },
-   {
-    "q": "Qwen",
     "mode": "all",
     "window": "24h",
-    "count": 8,
+    "count": 7,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "阿里云",
     "mode": "all",
     "window": "24h",
-    "count": 2,
+    "count": 0,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,56 +86,27 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 1,
-   "items": [
-    {
-     "n": 1,
-     "title": "Together AI 将 Kimi-K3.1-Pro 的老挝语翻译能力蒸馏进 Qwen3.8-27B",
-     "source": "Together AI 研究与产品博客（RSS）",
-     "ts": "2026-11-26T14:11:23.375000+08:00",
-     "publishedAt": "2026-11-26T00:00:00.000Z",
-     "discoveredAt": "2026-11-26T06:11:23.375Z",
-     "summary": "Together AI 发现 Qwen3.8-27B 无法写老挝语，会以泰语作答，FLORES-200 上仅得 5.5 chrF++。团队用 Kimi-K3.1-Pro 作教师做 off-policy 蒸馏，在约 3,800 条翻译上训练 LoRA 后，学生模型达到 44.3 分、为教师分数的 93%，全部输出为老挝…",
-     "url": "https://www.together.ai/blog/distilling-kimi-into-qwen",
-     "aihot": "https://aihot.news/items/evkhy1sdocf2wastqz2smbdwu",
-     "selected": false,
-     "score": 68,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
+   "count": 1,
    "items": [
     {
-     "n": 2,
-     "title": "阿里云联合支付宝推出教师 AI 权益：可领 Qoder 2000 积分，千问 AI 平台与阿里云产品 5 折",
-     "source": "IT之家·人工智能",
-     "ts": "2026-11-26T16:00:23.039000+08:00",
-     "publishedAt": "2026-11-26T07:29:48.740Z",
-     "discoveredAt": "2026-11-26T08:00:23.039Z",
-     "summary": "阿里云联合支付宝面向全国教师推出 AI 教学助手专属权益，教师可通过支付宝“尊师惠师”完成身份认证后领取。权益包括 Qoder 2000 积分、千问 AI 平台与阿里云相关产品 5 折优惠，以及千问 App 6 个月内会员 5 折。",
-     "url": "https://www.ithome.com/1/032/851.htm",
-     "aihot": "https://aihot.news/items/j0z0y050suf892s7rea2wb51j",
-     "selected": false,
-     "score": 32,
-     "category": "ai-products"
-    },
-    {
-     "n": 3,
-     "title": "千问 Qwen-Audio-3.1 升级多语言与中文方言能力",
-     "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-     "ts": "2026-11-26T12:06:09.336000+08:00",
-     "publishedAt": "2026-11-26T03:48:51.000Z",
-     "discoveredAt": "2026-11-26T04:06:09.336Z",
-     "summary": "千问为 Qwen-Audio-3.1 语音基础模型系列带来增强的多语言能力，重点覆盖中文方言。升级后 ASR 支持 59 种语言、8 种中文方言，TTS 支持 65 种语言、6 种中文方言，Realtime 支持 53 种语言、6 种中文方言。",
-     "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
-     "aihot": "https://aihot.news/items/afgyec2z8utpd642yd549kbez",
-     "selected": false,
-     "score": 48,
+     "n": 1,
+     "title": "蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design 图像生成模型",
+     "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+     "ts": "2026-11-26T18:33:39.306000+08:00",
+     "publishedAt": "2026-11-25T04:02:44.000Z",
+     "discoveredAt": "2026-11-26T10:33:39.306Z",
+     "summary": "蚂蚁 inclusionAI 在 Hugging Face 发布并开源 Ming-Image-0.2-Design，改进复杂构图、光照和文字渲染，可用于电商主图、UI 设计稿和空间效果图。",
+     "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design",
+     "aihot": "https://aihot.news/items/hdvt6wswzycj78wnr7r43xn6o",
+     "selected": true,
+     "score": 61,
      "category": "ai-products"
     }
    ],
@@ -158,9 +129,24 @@
   {
    "slug": "tip",
    "label": "技巧与观点",
-   "count": 0,
-   "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "count": 1,
+   "items": [
+    {
+     "n": 2,
+     "title": "Hugging Face 教程：用 Qwen3-0.6B 训练四智能体集群学会通信",
+     "source": "Hugging Face 官方团队博客",
+     "ts": "2026-11-26T21:10:41.535000+08:00",
+     "publishedAt": "2026-11-26T00:00:00.000Z",
+     "discoveredAt": "2026-11-26T13:10:41.535Z",
+     "summary": "Hugging Face 发布多智能体系列博客第一篇，用 TRL 在 Hugging Face Jobs 上复现 s³ 论文的信息聚合任务，训练四个共享 Qwen3-0.6B 策略的智能体学会通信。",
+     "url": "https://huggingface.co/blog/training-swarms",
+     "aihot": "https://aihot.news/items/sgdqq2cwviskpyz34yq39kivf",
+     "selected": false,
+     "score": 63,
+     "category": "tip"
+    }
+   ],
+   "note": null
   }
  ],
  "order": [
