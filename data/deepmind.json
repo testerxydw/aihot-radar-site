@@ -15,12 +15,12 @@
   ],
   "windowDays": 1,
   "winStart": "2026-11-27",
-  "winEnd": "2026-11-27",
-  "generated": "2026-11-27 17:32",
-  "rawHits": 6,
-  "selectedHits": 0,
-  "shown": 4,
-  "dedupedFrom": 4,
+  "winEnd": "2026-11-28",
+  "generated": "2026-11-28 16:46",
+  "rawHits": 11,
+  "selectedHits": 1,
+  "shown": 3,
+  "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -43,7 +43,7 @@
     "q": "DeepMind",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 3,
     "hasMore": false,
     "from_cache": false
    },
@@ -51,7 +51,7 @@
     "q": "Gemini",
     "mode": "selected",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -59,7 +59,7 @@
     "q": "Gemini",
     "mode": "all",
     "window": "24h",
-    "count": 6,
+    "count": 8,
     "hasMore": false,
     "from_cache": false
    },
@@ -90,30 +90,30 @@
    "items": [
     {
      "n": 1,
-     "title": "各家族大模型自选 fursona 实测：Claude 偏爱渡鸦与章鱼，Gemini 独爱机械义体",
-     "source": "Hacker News：AI 热帖",
-     "ts": "2026-11-27T15:00:43.615000+08:00",
-     "publishedAt": "2026-11-26T00:00:00.000Z",
-     "discoveredAt": "2026-11-27T07:00:43.615Z",
-     "summary": "作者通过 OpenRouter 对多个大模型各查询 50 次，让它们回答并绘制自己的 fursona，总成本约 $50。结果显示 Claude 一致选择渡鸦或章鱼并倾向用行为和性格描述，Gemini 几乎每次都提到机械义体和 protogen，GPT-6.2 Astra 稳定自认是飞蛾，而多数模型对性别用词保持中性。",
-     "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-     "aihot": "https://aihot.news/items/e6xyto1pujec0z35wqwxgq741",
+     "title": "Gemini 4 Neon 代码生成海报",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-28T02:37:11.457000+08:00",
+     "publishedAt": "2026-11-27T18:31:29.000Z",
+     "discoveredAt": "2026-11-27T18:37:11.457Z",
+     "summary": "Gemini 4 Neon 代码转海报。用确定性 Python 编写，零图像模型。 [skill by @fofrAI]",
+     "url": "https://x.com/_philschmid/status/2126383425858789528",
+     "aihot": "https://aihot.news/items/mrljtlcu8pikopzwewez4mdak",
      "selected": false,
-     "score": 56,
+     "score": 39,
      "category": "ai-models"
     },
     {
      "n": 2,
-     "title": "Gemini 模型可调用官方内部 YouTube API 处理任意视频",
-     "source": "X：howie.serious (@howie_serious)",
-     "ts": "2026-11-27T09:07:15.763000+08:00",
-     "publishedAt": "2026-11-27T00:46:17.000Z",
-     "discoveredAt": "2026-11-27T01:07:15.763Z",
-     "summary": "作者介绍 Gemini 模型现可直接调用 Google 不对外开放的官方内部 YouTube API 来处理任意视频，包括没有字幕的视频，因为所有 YouTube 视频都已在后台被 Google 转写。",
-     "url": "https://x.com/howie_serious/status/2126115356704157729",
-     "aihot": "https://aihot.news/items/qm9jbz47h995rwq9ndpv4om28",
-     "selected": false,
-     "score": 60,
+     "title": "Antigravity 实用技巧：在 GEMINI.md 加一句话让模型边干活边汇报",
+     "source": "X：卡兹克 (@Khazix0918)",
+     "ts": "2026-11-27T20:45:40.577000+08:00",
+     "publishedAt": "2026-11-27T12:38:45.000Z",
+     "discoveredAt": "2026-11-27T12:45:40.577Z",
+     "summary": "卡兹克分享一个 Antigravity 使用技巧，针对模型长时间闷头干活不输出信息的问题，只需在 GEMINI.md 中加一句话，要求动手前说要做什么、有发现、换方向、卡住或连干四五步时再说一句，即可获得类似 Claude 或 Codex 那种实时汇报进度的交互体验。",
+     "url": "https://x.com/Khazix0918/status/2126294658431201385",
+     "aihot": "https://aihot.news/items/tiqf353lek6sib8ktn8uvc6nc",
+     "selected": true,
+     "score": 69,
      "category": "ai-models"
     }
    ],
@@ -122,38 +122,9 @@
   {
    "slug": "ai-products",
    "label": "产品发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 3,
-     "title": "Gemini 4 Neon 打造 3D 烤箱规划器",
-     "source": "X：Gemini (@GeminiApp)",
-     "ts": "2026-11-27T00:49:29.066000+08:00",
-     "publishedAt": "2026-11-26T16:24:47.000Z",
-     "discoveredAt": "2026-11-26T16:49:29.066Z",
-     "summary": "Gemini 4 Neon 打造了这个交互式 3D 烤箱规划器，用来解决感恩节最棘手的烤箱拼图式排程难题。输入火鸡重量、配菜和上菜时间，即可规划烤架空间、解决温度冲突，并生成可打印的逐分钟清单。",
-     "url": "https://x.com/GeminiApp/status/2125989152575635789",
-     "aihot": "https://aihot.news/items/p87zxtopfqlvjea9u1zogzet3",
-     "selected": false,
-     "score": 38,
-     "category": "ai-products"
-    },
-    {
-     "n": 4,
-     "title": "Gemini 推出烤箱谜题互动体验",
-     "source": "X：Gemini (@GeminiApp)",
-     "ts": "2026-11-27T00:49:29.057000+08:00",
-     "publishedAt": "2026-11-26T16:46:22.000Z",
-     "discoveredAt": "2026-11-26T16:49:29.057Z",
-     "summary": "在 Gemini 里试试这个：https://goo.gle/ovenpuzzle",
-     "url": "https://x.com/GeminiApp/status/2125994582173450638",
-     "aihot": "https://aihot.news/items/jsezmto41j4nugvajyjrxfi7g",
-     "selected": false,
-     "score": 21,
-     "category": "ai-products"
-    }
-   ],
-   "note": null
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 2 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "industry",
@@ -165,16 +136,31 @@
   {
    "slug": "paper",
    "label": "论文研究",
-   "count": 0,
-   "items": [],
-   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
+   "count": 1,
+   "items": [
+    {
+     "n": 3,
+     "title": "Philipp Schmid 为 Gemini 4 Neon 构建实验性 deep research skill，让 coding agent 变身研究员",
+     "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+     "ts": "2026-11-27T21:58:42.434000+08:00",
+     "publishedAt": "2026-11-27T13:51:25.000Z",
+     "discoveredAt": "2026-11-27T13:58:42.434Z",
+     "summary": "Philipp Schmid 团队为 Gemini 4 Neon 构建了 16 行的实验性 deep research skill，让 coding agent 承担研究工作。skill 规划 3-5 个研究角度、用并行子代理搜索或浏览器且限 8-12 步、只引用原始文件和 PDF、取消停滞的 worker，报告含…",
+     "url": "https://x.com/_philschmid/status/2126312943520243885",
+     "aihot": "https://aihot.news/items/fpsryso7jw0zy7c28t70usemy",
+     "selected": false,
+     "score": 60,
+     "category": "paper"
+    }
+   ],
+   "note": null
   },
   {
    "slug": "tip",
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [

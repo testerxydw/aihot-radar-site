@@ -14,13 +14,13 @@
    "黄仁勋"
   ],
   "windowDays": 1,
-  "winStart": "2026-11-26",
-  "winEnd": "2026-11-27",
-  "generated": "2026-11-27 17:31",
+  "winStart": "2026-11-27",
+  "winEnd": "2026-11-28",
+  "generated": "2026-11-28 16:45",
   "rawHits": 7,
   "selectedHits": 0,
-  "shown": 4,
-  "dedupedFrom": 5,
+  "shown": 3,
+  "dedupedFrom": 3,
   "perQueryLimit": 30,
   "modes": [
    "selected",
@@ -59,7 +59,7 @@
     "q": "英伟达",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    },
@@ -75,7 +75,7 @@
     "q": "黄仁勋",
     "mode": "all",
     "window": "24h",
-    "count": 0,
+    "count": 1,
     "hasMore": false,
     "from_cache": false
    }
@@ -86,75 +86,52 @@
   {
    "slug": "ai-models",
    "label": "模型发布 / 更新",
-   "count": 2,
-   "items": [
-    {
-     "n": 1,
-     "title": "NVIDIA 论文：让模型自主管理上下文使 GPT-6.1 Sol 在 32K 预算下得分从 21% 升至 56%",
-     "source": "X：Rohan Paul (@rohanpaul_ai)",
-     "ts": "2026-11-27T09:21:21.563000+08:00",
-     "publishedAt": "2026-11-27T01:00:04.000Z",
-     "discoveredAt": "2026-11-27T01:21:21.563Z",
-     "summary": "Rohan Paul 转述 NVIDIA 技术报告，其开源 Agent 框架 NOOA 让模型通过 API 自主总结并检索历史，与框架自动压缩对比。",
-     "url": "https://x.com/rohanpaul_ai/status/2126118827264294915",
-     "aihot": "https://aihot.news/items/lmu5xx8v0572vwqm4y60xkjvc",
-     "selected": false,
-     "score": 58,
-     "category": "ai-models"
-    },
-    {
-     "n": 2,
-     "title": "Sakana AI 发布 Namazu Small：基于 Nemotron 3 Nano 的 30B 推理模型",
-     "source": "MarkTechPost（RSS）",
-     "ts": "2026-11-27T08:44:20.232000+08:00",
-     "publishedAt": "2026-11-26T22:06:40.000Z",
-     "discoveredAt": "2026-11-27T00:44:20.232Z",
-     "summary": "Sakana AI 发布 30B-A3B 推理模型 Namazu Small，基于 NVIDIA Nemotron 3 Nano 预训练底座做继续预训练与后训练。",
-     "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
-     "aihot": "https://aihot.news/items/dvnd91s1a0g6h18ou22pb0sqh",
-     "selected": false,
-     "score": 49,
-     "category": "ai-models"
-    }
-   ],
-   "note": null
-  },
-  {
-   "slug": "ai-products",
-   "label": "产品发布 / 更新",
    "count": 0,
    "items": [],
    "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
-   "slug": "industry",
-   "label": "行业动态",
-   "count": 1,
+   "slug": "ai-products",
+   "label": "产品发布 / 更新",
+   "count": 2,
    "items": [
     {
-     "n": 3,
-     "title": "美国收紧出口管制后 Nvidia 暂停向马来西亚、新加坡、泰国和印尼出货服务器",
+     "n": 1,
+     "title": "Bloomberg 曝光被禁 NVIDIA Blackwell 芯片现身与 Alice Huang 关联的上海数据中心",
      "source": "The Decoder：AI News（RSS）",
-     "ts": "2026-11-26T19:35:42.478000+08:00",
-     "publishedAt": "2026-11-26T11:21:16.000Z",
-     "discoveredAt": "2026-11-26T11:35:42.478Z",
-     "summary": "据 Financial Times 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼出货服务器，以响应美国商务部工业与安全局旨在阻止中国企业通过海外云服务间接获取 AI 芯片的新出口管制。",
-     "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
-     "aihot": "https://aihot.news/items/jofi00ckhfizlmn6bk91oe2dr",
+     "ts": "2026-11-28T03:02:14.229000+08:00",
+     "publishedAt": "2026-11-27T18:27:02.000Z",
+     "discoveredAt": "2026-11-27T19:02:14.229Z",
+     "summary": "Bloomberg 报道称两家中国公司在与 Alice Huang 关联的上海数据中心安装了被美国禁运的 NVIDIA Blackwell 芯片。",
+     "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+     "aihot": "https://aihot.news/items/uiomhhle803yl2t744uuhf7ko",
      "selected": false,
-     "score": 70,
-     "category": "industry",
-     "also": [
-      {
-       "source": "TechCrunch：AI（RSS）",
-       "title": "Nvidia 暂停向东南亚四国出货服务器芯片",
-       "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-       "aihot": "https://aihot.news/items/kpbzsokdtdq9bdw5qx2hbsyqd"
-      }
-     ]
+     "score": 72,
+     "category": "ai-products"
+    },
+    {
+     "n": 2,
+     "title": "美国限制中国远程使用 Nvidia B300 后，Blackwell 算力租金两地分化",
+     "source": "Azeem Azhar：Exponential View（RSS）",
+     "ts": "2026-11-27T21:37:42.873000+08:00",
+     "publishedAt": "2026-11-27T12:59:08.000Z",
+     "discoveredAt": "2026-11-27T13:37:42.873Z",
+     "summary": "美国收紧中国厂商远程使用 Nvidia B300 等最强芯片的限制后，亚洲部分算力运营商开始寻找美国客户接手原本留给中国企业的算力。据未经公开的分析师笔记，SpaceX 将小型 Blackwell 集群的报价从约 $15–15.50 降至 $10–12 每芯片小时；",
+     "url": "https://www.exponentialview.co/p/blackwell-friday",
+     "aihot": "https://aihot.news/items/xb6j3mt84w59qpzi6674sr6d9",
+     "selected": false,
+     "score": 65,
+     "category": "ai-products"
     }
    ],
    "note": null
+  },
+  {
+   "slug": "industry",
+   "label": "行业动态",
+   "count": 0,
+   "items": [],
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   },
   {
    "slug": "paper",
@@ -162,7 +139,7 @@
    "count": 1,
    "items": [
     {
-     "n": 4,
+     "n": 3,
      "title": "NVIDIA 论文 TimeTravelContainer 让 AI Agent 实时 fork 沙盒，23.7 小时任务 2.5 小时完成",
      "source": "X：Rohan Paul (@rohanpaul_ai)",
      "ts": "2026-11-27T17:03:37.140000+08:00",
@@ -183,7 +160,7 @@
    "label": "技巧与观点",
    "count": 0,
    "items": [],
-   "note": "本次检索在该分类下没有任何命中，属于正常结果。"
+   "note": "检索共命中该分类 1 条，但都没有通过相关性分层（T1），说明它们只在正文顺带提及该公司，不属于公司主体动态。如需放宽，可用 --tiers T1,T2 重跑。"
   }
  ],
  "order": [
